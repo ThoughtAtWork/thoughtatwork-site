@@ -2,37 +2,54 @@
     font: menu;
     margin: 0;
 }
-
-a {
-    padding: 1rem;
-}
-
+@font-face {
+  font-family: 'Elliot';
+  src: url("../fonts/Elliot.otf"); }
+@font-face {
+  font-family: 'Elliot-Bold';
+  src: url("../fonts/Elliot-Bold.otf"); }
+@font-face {
+  font-family: 'Elliot-BoldItalic';
+  src: url("../fonts/Elliot-BoldItalic.otf"); }
+@font-face {
+  font-family: 'Elliot-Heavy';
+  src: url("../fonts/Elliot-Heavy.otf"); }
+@font-face {
+  font-family: 'Elliot-Italic';
+  src: url("../fonts/Elliot-Italic.otf"); }
+@font-face {
+  font-family: 'Elliot-Light';
+  src: url("../fonts/Elliot-Light.otf"); }
+@font-face {
+  font-family: 'Elliot-ThinItalic';
+  src: url("../fonts/Elliot-ThinItalic.otf"); }
+/*//////////////////Header////////////////////*/
 header {
     background-color: white ;
     display: flex;
-    -webkit-box-shadow: 0px 0px 3px 1px #000000;
-    -moz-box-shadow: 0px 0px 3px 1px #000000;
-    box-shadow: 0px 0px 4px 1px #000000;
+    -webkit-box-shadow: 0px 0px 3px 1px #000;
+    -moz-box-shadow: 0px 0px 3px 1px #000;
+    box-shadow: 0px 0px 4px 1px #000;
     padding-right: 2%;
     padding-left: 2%;
     justify-content: space-between;
+    z-index: 999;
 }
-
-h1,
+header h1,
 nav {
     align-items: center;
     display: flex;
     letter-spacing: 2px;
 }
-
 nav .register {
     color: #29B6AE;
     border: #29B6AE 2px solid;
+    font-family: Elliot; 
     font-weight: 900;
     letter-spacing: 3px;
     padding: 7px 7px;
     padding-left: 9px;
-    -webkit-transition: ease-out .3s;  Safari
+    -webkit-transition: ease-out .3s;
     transition: .3s ease-out;
     font-size: 13px;
 }
@@ -40,13 +57,13 @@ nav .register:hover {
     background-color: #29B6AE;
     color: white;
     box-shadow: 0 0 0px #91443e;
-    -webkit-transition: ease-in-out .3s;  Safari
+    -webkit-transition: ease-in-out .3s;
     transition: .3s ease-in-out;
 }
 nav a {
     color: #222F34;
-    font-family: FS Elliot;
-    font-weight: bold;
+    font-family: 'Elliot';
+    font-weight: 700;
     font-size: 13px;
 }
 
@@ -56,23 +73,15 @@ nav .dotLeft{
     padding: 0px;
     transform: translateY(-3px);
 }
-nav {
-    margin-left: auto;
-}
 .logotype {
     color: #222F34;
-    font-family: FS Elliot;
+    font-family: Elliot, monospace;
     font-weight: 900;
 }
 header a {
     text-decoration: none;
+    padding: 1rem;
 }
-
-@font-face {
-   font-family: FS Elliot;
-   src: url(FS Elliot-.otf);
-}
-
 @media only screen and (max-width: 694px) {
     nav a {
       font-size: 1.8vw;
@@ -88,7 +97,19 @@ header a {
         background-color: teal;
     }
 */
-    a {
+    header a {
     padding: .5rem;
     }
+}
+/*/////////////////Header////////////////////*/
+
+/*//////////////////HeroImage////////////////////*/
+.banner_img {
+    z-index: -999;
+    padding-right: 2%;
+    padding-left: 2%;
+    background-image: url('../images/banner_img.png');
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 }

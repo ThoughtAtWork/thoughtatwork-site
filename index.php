@@ -23,13 +23,12 @@
 
 	</head>
 	<body>
-
-		<div>
+			<?php include("header.php"); ?>
+		<div class = "banner_img">
 			<!--- First background block -->
 		</div>
 
 		<div>
-			<?php include("header.php"); ?>
 			<div>
 			<!--- Header thing -->
 			</div>
