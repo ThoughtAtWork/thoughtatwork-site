@@ -25,9 +25,6 @@ nav {
     letter-spacing: 2px;
 }
 
-nav {
-    margin-left: auto;
-}
 nav .register {
     color: #29B6AE;
     border: #29B6AE 2px solid;
@@ -37,6 +34,7 @@ nav .register {
     padding-left: 9px;
     -webkit-transition: ease-out .3s;  Safari
     transition: .3s ease-out;
+    font-size: 13px;
 }
 nav .register:hover {
     background-color: #29B6AE;
@@ -49,6 +47,7 @@ nav a {
     color: #222F34;
     font-family: FS Elliot;
     font-weight: bold;
+    font-size: 13px;
 }
 
 nav .dotLeft{
@@ -57,8 +56,10 @@ nav .dotLeft{
     padding: 0px;
     transform: translateY(-3px);
 }
-
-h1 .logotype {
+nav {
+    margin-left: auto;
+}
+.logotype {
     color: #222F34;
     font-family: FS Elliot;
     font-weight: 900;
@@ -70,4 +71,24 @@ header a {
 @font-face {
    font-family: FS Elliot;
    src: url(FS Elliot-.otf);
+}
+
+@media only screen and (max-width: 694px) {
+    nav a {
+      font-size: 1.8vw;
+    }
+    .logotype {
+        font-size: 1.8vw;
+    }
+    nav .register {
+        font-size: 1.8vw;
+    }
+/*//When the media query starts
+    * {
+        background-color: teal;
+    }
+*/
+    a {
+    padding: .5rem;
+    }
 }
