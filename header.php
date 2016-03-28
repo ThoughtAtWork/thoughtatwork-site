@@ -1,6 +1,6 @@
 <header class="banner">
         <h1>
-            <img src="images/TAW_Logo.svg" alt="Thought At Work Logo" style="width:30px;">
+            <img src="images/TAW_Logo.svg" alt="Thought At Work Logo" class = "header_logo">
             <a href="" rel="home" class = "logotype">&nbsp;THOUGHT AT WORK</a>
         </h1>
         <nav role="navigation">
