@@ -145,7 +145,7 @@ header a {
 /*/////////////////Header////////////////////*/
 
 /*//////////////////HeroImage////////////////////*/
-.banner_img {
+.background_one {
     width: 100%;
     height: 800px;
     z-index: -999;
@@ -153,4 +153,51 @@ header a {
     padding-left: 50px;
     background-image: url('../images/banner_img.png');
     display: block;
+}
+
+.content_one {
+	
+	
+}
+
+.infoblock_one {
+	background-color: white;
+	z-index: 1;
+	width: 500px;
+	height: 650px;
+	top: 50%;
+	left: 110px;
+	position: absolute;
+}
+
+.infoblock_one h1 {
+	font-family: "Elliot_Heavy";
+	letter-spacing: .1em;
+	color: #f4837d;
+	font-size: 52px;
+	padding-left: 5%;
+	}
+	
+.infoblock_one h1.headtext_one {
+	padding-top: 15%;
+	}
+		
+.infoblock_one h1.headtext_two {
+	padding-bottom: 50px;
+	padding-left: 18%;
+	
+	}
+.infoblock_one h2 {
+	font-size: 32px;
+	padding-left: 18%;
+	letter-spacing: .075em;
+	padding-bottom: 5%;
+}
+
+.infoblock_one p {
+	font-size: 16px;
+	width: 350px;
+	padding-left: 18%;
+	letter-spacing: 0.025em;
+	line-height: 180%;
 }

@@ -24,13 +24,20 @@
 	</head>
 	<body>
 			<?php include("header.php"); ?>
-		<div class = "banner_img">
+		<div class = "background_one">
 			<!--- First background block -->
 		</div>
 
-		<div>
-			<div>
+		<div class = "content_one">
+			<div class="infoblock_one">
 			<!--- Header thing -->
+				<h1 class="headtext_one"> HEADER 1 </h1> 
+				<h1 class = "headtext_two"> GOES HERE </h1>
+				<h2> We put the "d" <br /> in design. </h2> 
+				<p> Thought At Work is a three-day, student run, student-focused design conference that takes place every October at 
+					Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of 
+					passionate students for a weekend of inspiration, collaboration, and instruction that you. </p>
+
 			</div>
 			<div>
 			<!--- 2015 Recap -->
