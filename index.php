@@ -29,16 +29,15 @@
 		</div>
 
 		<div class = "content_one">
-			<div class="infoblock_one">
+			<div class="infoblock_one ">
 			<!--- Header thing -->
-				<h1 class="headtext_one"> HEADER 1 </h1> 
-				<h1 class = "headtext_two"> GOES HERE </h1>
-				<h2> We put the "d" <br /> in design. </h2> 
-				<p> Thought At Work is a three-day, student run, student-focused design conference that takes place every October at 
-					Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of 
-					passionate students for a weekend of inspiration, collaboration, and instruction that you. </p>
-
-			</div>
+				<h1 class="headtext_one"> DON'T </h1>
+				<h1 class = "headtext_two"> LOOK AT ME </h1>
+				<h2> We put the "d" <br /> in design. </h2>
+				<div class = "taw-desc"><p> Thought At Work is a three-day, student run, student-focused design conference that takes place every October at
+					Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of
+					passionate students for a weekend of inspiration, collaboration, and instruction that you. </p></div>
+            </div>
 			<div>
 			<!--- 2015 Recap -->
 			</div>

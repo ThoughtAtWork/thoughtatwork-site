@@ -25,7 +25,7 @@
   src: url("../fonts/Elliot-ThinItalic.otf"); }
 /*//////////////////Header////////////////////*/
 header {
-    background-color: white ;
+    background-color: white;
     height: 50px;
     width: calc(93.22% - 33px);
     display: flex;
@@ -55,7 +55,7 @@ nav {
 nav .register {
     color: #29B6AE;
     border: #29B6AE 2px solid;
-    font-family: Elliot-Heavy; 
+    font-family: Elliot-Heavy;
     font-weight: 900;
     letter-spacing: 3px;
     padding: 7px 7px;
@@ -115,11 +115,11 @@ header a {
     }
     .header_logo {
         width: 6vw;
-    }  
+    }
     nav .register,
     nav a{
         font-size: 2vw;
-    } 
+    }
 }
 @media only screen and (max-width: 385px) {
     header a{
@@ -127,7 +127,7 @@ header a {
     }
     .register {
         padding-right: 100px;
-    }  
+    }
 }
 @media only screen and (min-width: 980px) {
     header {
@@ -149,55 +149,96 @@ header a {
     width: 100%;
     height: 800px;
     z-index: -999;
-    padding-right: 49px;
-    padding-left: 50px;
     background-image: url('../images/banner_img.png');
     display: block;
 }
-
-.content_one {
-	
-	
-}
-
 .infoblock_one {
 	background-color: white;
 	z-index: 1;
-	width: 500px;
-	height: 650px;
-	top: 50%;
+    max-width: 500px;
+	width: 39vw;
+    min-width: 250px;
+    max-height: 595px;
+    min-height: 490px;
+	top: calc(2vw + 380px);
 	left: 110px;
 	position: absolute;
+	-webkit-box-shadow: 0 0 10px #333;
+    -moz-box-shadow: 0 0 10px #333;
+    box-shadow: 0 0 10px #333;
 }
-
 .infoblock_one h1 {
 	font-family: "Elliot_Heavy";
 	letter-spacing: .1em;
 	color: #f4837d;
-	font-size: 52px;
-	padding-left: 5%;
+	font-size: calc(3.5vw + 4px);
+	padding-left: 6%;
 	}
-	
+
 .infoblock_one h1.headtext_one {
 	padding-top: 15%;
+    font-family: Elliot-Heavy;
 	}
-		
+
 .infoblock_one h1.headtext_two {
-	padding-bottom: 50px;
-	padding-left: 18%;
-	
+	padding-bottom: 3.6vw;
+	padding-left: 22%;
+    font-family: Elliot-Heavy;
 	}
 .infoblock_one h2 {
-	font-size: 32px;
+	font-size: 2.4vw;
 	padding-left: 18%;
 	letter-spacing: .075em;
 	padding-bottom: 5%;
+    font-family: serif;
 }
 
-.infoblock_one p {
-	font-size: 16px;
-	width: 350px;
+.taw-desc {
+    max-height: 195px;
+    min-height: 323px;
+}
+.taw-desc p{
+    font-size: calc(.14vw + 14px);
+    color: #939598;
 	padding-left: 18%;
+    padding-right: 18%;
 	letter-spacing: 0.025em;
 	line-height: 180%;
+    font-family: Elliot;
+    height: 42vw;
+    max-height: 220px;
+}
+@media only screen and (max-width: 900px) {
+    .infoblock_one{
+        width: 42vw;
+        left: 0px;
+    }
+    .infoblock_one h1 {
+        font-size: calc(1.2vw + 20px);
+    }
+    .infoblock_one h2 {
+	   font-size: calc(1vw + 15px);
+    }
+    .taw-desc p {
+        font-size: calc(.5vw + 10px);
+    }
+}  
+@media only screen and (min-width: 1440px) {
+    .infoblock_one h1 {
+        font-size: 54px;
+    }
+    .infoblock_one h2 {
+        font-size: 34.5px;
+    }
+    .infoblock_one h1.headtext_two {
+        padding-bottom: 50px;
+    }
+    .taw-desc p {
+        font-size: 16px;
+    }   
+}
+@media only screen and (max-width: 620px) {
+    .taw-desc p {
+        font-size: 12.5px;
+    }
 }
