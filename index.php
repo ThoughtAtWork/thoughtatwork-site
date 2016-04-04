@@ -38,8 +38,10 @@
 					Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of
 					passionate students for a weekend of inspiration, collaboration, and instruction that you. </p></div>
             </div>
-			<div>
-			<!--- 2015 Recap -->
+			<div class = "recapWords">
+                <p class = "blockTag">// INTRODUCTION</p>
+                <h1 class="recapText_one"> 2015 </h1>
+                <h1 class = "recapText_two"> <span class= "redLine">RE</span>CAP </h1>
 			</div>
 		</div>
 
