@@ -245,11 +245,19 @@ header a {
     }
 }
 /*//////////////////first infoBlock card////////////////////*/
+.recapBlock {
+	background-color: aqua;
+	height: 500px;
+	width: 100%;
+	
+
+}
+
 
 /*//////////////////recap words////////////////////*/
 .recapWords {
     z-index: 4;
-    /background-color: #ffe3ea;
+    /*background-color: #ffe3ea;*/
     width: 39vw;
     max-width: 250px;
     left: 110px;
@@ -277,6 +285,7 @@ header a {
     font-family: inherit;
     font-size: inherit;
 }
+
 @media only screen and (max-width: 900px) {
     .blockTag {
         font-size: 12.5px;
@@ -297,5 +306,17 @@ header a {
     }
     .recapText_one , .recapText_two, .redLine {
         font-size: 3.6em;
-    }   
+    } 
+}
+    
+ /*////////////////// VIDEO AND ABOUT////////////////////*/
+ 
+.aboutus {
+	background-color: blue;
+	height: 350px;
+	width: 400px;
+	position: absolute;
+    top: calc(70vh + 900px);
+    left:200px;
+    
 }

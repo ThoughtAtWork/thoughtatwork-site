@@ -31,19 +31,28 @@
 		<div class = "content_one">
 			<div class="infoblock_one ">
 			<!--- Header thing -->
-				<h1 class="headtext_one"> DON'T </h1>
+				<h1 class = "headtext_one"> DON'T </h1>
 				<h1 class = "headtext_two"> LOOK AT ME </h1>
 				<h2> We put the "d" <br /> in design. </h2>
-				<div class = "taw-desc"><p> Thought At Work is a three-day, student run, student-focused design conference that takes place every October at
-					Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of
-					passionate students for a weekend of inspiration, collaboration, and instruction that you. </p></div>
-            </div>
+				<div class = "taw-desc"><p> Thought At Work is a three-day, student run, student-focused design conference that takes place every October at Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of passionate students for a weekend of inspiration, collaboration, and instruction that you. </p>
+				</div>
+            </div> <!--- END INFOBLOCK_ONE -->
+            
+            
+           <div class ="recapBlock">
+	           
 			<div class = "recapWords">
                 <p class = "blockTag">// INTRODUCTION</p>
                 <h1 class="recapText_one"> 2015 </h1>
                 <h1 class = "recapText_two"> <span class= "redLine">RE</span>CAP </h1>
-			</div>
-		</div>
+			</div> <!-- END RECAP WORDS-->
+			<div class="aboutus">
+			 <p > Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of passionate students for a weekend of inspiration, collaboration, and instruction that you can’t get in the classroom.</p></div>
+                
+                               
+            </div> <!-- END RECAPBLOCK -->
+			
+		</div> <!--- END CONTENT_ONE --->
 
 		<div>
 			<!--- Second background block -->
