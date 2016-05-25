@@ -9,314 +9,280 @@
   font-family: 'Elliot-Bold';
   src: url("../fonts/Elliot-Bold.otf"); }
 @font-face {
-  font-family: 'Elliot-BoldItalic';
-  src: url("../fonts/Elliot-BoldItalic.otf"); }
-@font-face {
-  font-family: 'Elliot-Heavy';
-  src: url("../fonts/Elliot-Heavy.otf"); }
-@font-face {
-  font-family: 'Elliot-Italic';
-  src: url("../fonts/Elliot-Italic.otf"); }
-@font-face {
-  font-family: 'Elliot-Light';
-  src: url("../fonts/Elliot-Light.otf"); }
-@font-face {
-  font-family: 'Elliot-ThinItalic';
-  src: url("../fonts/Elliot-ThinItalic.otf"); }
-/*//////////////////Header////////////////////*/
-header {
-    background-color: white;
-    height: 50px;
-    width: calc(93.22% - 33px);
-    display: flex;
-    -webkit-box-shadow: 0px 0px 4px 1px #000;
-    -moz-box-shadow: 0px 0px 4px 1px #000;
-    box-shadow: 0px 0px 4px 1px #000;
-    padding-right: 4.3em;
-    padding-left: 4.3em;
-    position: fixed;
-    justify-content: space-between;
-    z-index: 999;
-    white-space: nowrap;
+  font-family: 'Bodoni';
+  src: url("../fonts/MBodoni.otf"); }
+body {
+    /* Location of the image */
+    background-image: url(../images/background.jpg);
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: left bottom;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: #464646;
 }
-header h1,
-nav {
-    align-items: center;
-    display: flex;
-    letter-spacing: 2px;
+/*border around page*/
+#top, #bottom, #left, #right {
+   background: white;
+   position: fixed;
 }
-nav {
-    padding-right: 10px;
+#left, #right {
+    top: 0;
+    bottom: 0;
+    width: calc(6px + .2vw);
 }
-.header_logo {
-    width: 38px;
-    padding: 0;
+#left {
+    left: 0;
 }
-nav .register {
-    color: #29B6AE;
-    border: #29B6AE 2px solid;
-    font-family: Elliot-Heavy;
-    font-weight: 900;
-    letter-spacing: 3px;
-    padding: 7px 7px;
-    padding-left: 9px;
-    -webkit-transition: ease-out .3s;
-    transition: .3s ease-out;
-    font-size: 13px;
+#right {
+    right: 0;
 }
-nav .register:hover {
-    background-color: #29B6AE;
+#top, #bottom {
+    left: 0;
+    right: 0;
+    height: calc(6px + .2vw);
+}
+#top {
+    top: 0;
+}
+#bottom {
+    bottom: 0;
+}
+/*border around page*/
+
+.checkBack {
+    text-align: center;
+    margin-top: 50px;
+}
+.checkBack p {
     color: white;
-    box-shadow: 0 0 0px #91443e;
-    -webkit-transition: ease-in-out .3s;
-    transition: .3s ease-in-out;
+    font-size: calc(.6vw + 6px);
+    font-family: "Elliot";
 }
-nav a {
-    color: #222F34;
-    font-family: 'Elliot-Bold';
-    font-weight: 700;
-    font-size: 13px;
+.info {
+    margin-top: 29vh;
+    text-align: center;
 }
-nav .dotLeft{
-    color: #F27772;
-    font-size: 32px;
-    padding: 0px;
-    transform: translateY(-3px);
+.info p {
+    padding-top: 25px;
+    color: white;
+    font-family: "Elliot";
+    font-size: calc(8px + 1.7vw);
 }
-.logotype {
-    color: #222F34;
-    font-family: Elliot-Heavy;
-    font-weight: 900;
+.container {
+    width: calc(86px + 33vw);
+    background-color: red;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
-header a {
+.midIcons {
+    padding-top: 11px;
+    position: absolute;
+    z-index: 9;
+}
+.midIcons a {
+    -webkit-transition: ease-out .1s; /* Safari */
+    transition: .1s ease-out;
+}
+.midIcons a:hover {
+    opacity: .7;
+    z-index: 9;
+    -webkit-transition: ease-in .1s; /* Safari */
+    transition: .1s ease-in;
+}
+.social {
+    width: calc(9px + .8vw);
+    display: inline-block;
+     line-height: 1em;
     text-decoration: none;
-    padding: .5rem;
+    padding: 0px 3vw;
+}
+a {
+    text-decoration: none;
+}
+.viewRecap {
+    text-align: center;
+    padding-top: 40vh;
+    position: absolute;
+    margin-top: 0vh;
+/*    margin-bottom: 50vh;*/
+    bottom: 8%;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+.viewRecap p a{
+    color: white;
+    font-size: calc(.25vw + 12px);
+    font-family: "Elliot";
+}
+.vrLineL {
+    width: .2vw;
+    min-width: 2px;
+    background-color:#ffffff;
+    position: absolute;
+    top: 42vh;
+    height: 30px;
+    bottom: 10px;
+    left: calc(50% + 12px);
+    border-radius: 100px;
+    ms-transform: rotate(240deg); /* IE 9 */
+    -webkit-transform: rotate(240deg); /* Safari */
+    transform: rotate(240deg);
+}
+.vrLineR {
+    width: .2vw;
+    min-width: 2px;
+    background-color:#ffffff;
+    position: absolute;
+    top: 42vh;
+    height: 30px;
+    bottom: 10px;
+    left: calc(50% - 12px);
+    border-radius: 100px;
+    ms-transform: rotate(120deg); /* IE 9 */
+    -webkit-transform: rotate(120deg); /* Safari */
+    transform: rotate(120deg);
+}
+.bigDot {
+    color: white;
+    font-family: "Elliot";
+    font-size: calc(24px + .5vh);
+}
+.name {
+    margin-top: 2vh;
+    text-align: center;
+}
+.name p {
+    color: white;
+    font-size: calc(20px + 3vw);
+    font-family: "Elliot-Bold";
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+.video {
+    padding-top: 40vh;
+    padding-left: 25%;
+}
+iframe {
+    padding-top: 28vh;
+    padding-bottom: 32vh;
+/*    padding-left: calc(5vw + 30px);*/
+    min-width: 310px;
+    min-height: 140px;
+    width: 50vw;
+    height: 28vw;
+}
+.header {
+    font-family: "Elliot-Bold";
+    font-size: calc(4px + 1.1vw);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    letter-spacing: .5px;
+    padding-left: 11px;
+}
+.header {
+    background-color: #e6e6e6;
+    color: #333;
+}
+.underline {
+font-family: "Elliot-Bold";
+    font-size: calc(4px + 1.1vw);
+    border-bottom: solid 4px #333;
+    margin: 2px;
+    display: inline;
+    padding-bottom: 3px;
+}
+.aboutW {
+    font-family: "Elliot";
+    font-size: calc(4px + 1.1vw);
+    background-color: #e6e6e6;
+    color: #333333;
+    padding-left: 2px;
+    letter-spacing: .5px;
+    max-height: 640px;
+    min-height: 22.2vw;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.part2 {
+    height: 20vw;
 }
 
-@media only screen and (max-width: 759px) {
-    header {
-        padding-left: 4.7vw;
-    }
-    .logotype,
-    nav .register,
-    nav a{
-        font-size: calc(1.71vw - 2px);
-    }
-    nav .dotLeft {
-            font-size: 4vw;
-            transform: translateY(-.2vw);
-    }
+
+#below {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	display: none;
 }
-@media only screen and (max-width: 530px) {
-    .logotype {
-        width: 0;
-        visibility: hidden;
+
+
+@media only screen and (max-width: 620px){
+	#top, #bottom, #left, #right {
         display: none;
     }
-    .header_logo {
-        width: 6vw;
+    body {
+        /* Location of the image */
+        background-image: url(../images/background_Small.jpg);
     }
-    nav .register,
-    nav a{
-        font-size: 2vw;
+    .vrLineL, .vrLineR {
+    	display: none;
+        top: 94vh;
     }
-}
-@media only screen and (max-width: 385px) {
-    header a{
-        padding: 2.9vw;
+    .viewRecap {
+        padding-top: 34vh;
     }
-    .register {
-        padding-right: 100px;
+    iframe {
+        max-width: 1000px;
+        max-height: 1000px;
+        padding-left: 0;
+        padding-top: 0px;
+        width: 100vw;
+        height: 56vw;
+        padding-bottom: 0vh;
     }
-}
-@media only screen and (min-width: 980px) {
-    header {
-        width: calc(93.06% + 1vw);
+    .video {
+        align-content: center;
+        padding-bottom: 100px;
+        padding-left: 0vw;
+         min-width: 310px;
+    min-height: 140px;
+        padding-top: 10vh;
     }
-    nav .dotLeft {
-            font-size: 32px;
+    .viewRecap {
+        position: inherit;
     }
-}
-@media only screen and (min-width: 1600px) {
-    header {
-        width: calc(95.06% + 1vw);
+    .header, .underline, .aboutW {
+        font-size: calc(8px + 3vw);
+        background-color: #e6e6e6;
     }
-}
-/*/////////////////Header////////////////////*/
+    .aboutW {
+        padding-right: 50px;
+    }
 
-/*//////////////////HeroImage////////////////////*/
-.background_one {
-    width: 100%;
-    height: 800px;
-    z-index: -999;
-    background-image: url('../images/banner_img.png');
-    display: block;
-}
-/*//////////////////HeroImage////////////////////*/
-
-/*//////////////////first infoBlock card////////////////////*/
-.infoblock_one {
-	background-color: white;
-	z-index: 1;
-    max-width: 500px;
-	width: 39vw;
-    min-width: 250px;
-    max-height: 595px;
-    min-height: 490px;
-	top: calc(2vw + 380px);
-	left: 110px;
-	position: absolute;
-	-webkit-box-shadow: 0 0 10px #333;
-    -moz-box-shadow: 0 0 10px #333;
-    box-shadow: 0 0 15px hsl(0, 0%, 30%);
-}
-.infoblock_one h1 {
-	font-family: "Elliot_Heavy";
-	letter-spacing: .1em;
-	color: #f4837d;
-	font-size: calc(3.5vw + 4px);
-	padding-left: 6%;
-    font-family: Elliot-Heavy;
+    #below {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	display: inline;
 	}
 
-.infoblock_one h1.headtext_one {
-	padding-top: 15%;
-	}
-
-.infoblock_one h1.headtext_two {
-	padding-bottom: 3.6vw;
-	padding-left: 22%;
-	}
-.infoblock_one h2 {
-	font-size: 2.4vw;
-	padding-left: 18%;
-	letter-spacing: .075em;
-	padding-bottom: 5%;
-    font-family: serif;
-}
-
-.taw-desc {
-    max-height: 195px;
-    min-height: 323px;
-}
-.taw-desc p{
-    font-size: calc(.14vw + 14px);
-    color: #939598;
-	padding-left: 18%;
-    padding-right: 18%;
-	letter-spacing: 0.025em;
-	line-height: 180%;
-    font-family: Elliot;
-    height: 42vw;
-    max-height: 220px;
-}
-@media only screen and (max-width: 900px) {
-    .infoblock_one{
-        width: 42vw;
-        left: 0px;
-    }
-    .infoblock_one h1 {
-        font-size: calc(1.2vw + 20px);
-    }
-    .infoblock_one h2 {
-	   font-size: calc(1vw + 15px);
-    }
-    .taw-desc p {
-        font-size: calc(.5vw + 10px);
-    }
-}  
-@media only screen and (min-width: 1440px) {
-    .infoblock_one h1 {
-        font-size: 54px;
-    }
-    .infoblock_one h2 {
-        font-size: 34.5px;
-    }
-    .infoblock_one h1.headtext_two {
-        padding-bottom: 50px;
-    }
-    .taw-desc p {
-        font-size: 16px;
-    }   
-}
-@media only screen and (max-width: 620px) {
-    .taw-desc p {
-        font-size: 12.5px;
-    }
-}
-/*//////////////////first infoBlock card////////////////////*/
-.recapBlock {
-	background-color: aqua;
-	height: 500px;
-	width: 100%;
-	
-
-}
-
-
-/*//////////////////recap words////////////////////*/
-.recapWords {
-    z-index: 4;
-    /*background-color: #ffe3ea;*/
-    width: 39vw;
-    max-width: 250px;
-    left: 110px;
-	position: absolute;
-    top: calc(30vh + 900px);
-    letter-spacing: .075em;
-}
-.blockTag {
-    color: #29B6AE;
-    font-family: Elliot-Bold;
-    font-size: 1em;
-}
-.recapText_one , .recapText_two {
-    color: #26363B;
-    font-family: Elliot-Heavy;
-    letter-spacing: 0.15em;
-    font-size: 3.6em;
-}
-.recapText_two {
-    padding-left: 1.7em;
-}
-.redLine {
-    border-bottom: 8px solid #E94B61; 
-    padding-bottom: 10px;
-    font-family: inherit;
-    font-size: inherit;
-}
-
-@media only screen and (max-width: 900px) {
-    .blockTag {
-        font-size: 12.5px;
-    }
-    .recapText_one , .recapText_two, .redLine {
-        font-size: calc(1.2vw + 20px);
-    }
-    .recapWords {
-        width: 42vw;
-        left: 0px;
-        padding-left: 11%;
-        top: calc(30vh + 700px);
-    }
-} 
-@media only screen and (min-width: 1440px) {
-    .blockTag {
-        font-size: 1em;
-    }
-    .recapText_one , .recapText_two, .redLine {
-        font-size: 3.6em;
-    } 
-}
-    
- /*////////////////// VIDEO AND ABOUT////////////////////*/
- 
-.aboutus {
-	background-color: blue;
-	height: 350px;
-	width: 400px;
-	position: absolute;
-    top: calc(70vh + 900px);
-    left:200px;
-    
 }
