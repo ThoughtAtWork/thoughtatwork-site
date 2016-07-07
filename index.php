@@ -21,61 +21,32 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 	</head>
 	<body>
-			<?php include("header.php"); ?>
-		<div class = "background_one">
-			<!--- First background block -->
-		</div>
-
-		<div class = "content_one">
-			<div class="infoblock_one ">
-			<!--- Header thing -->
-				<h1 class = "headtext_one"> DON'T </h1>
-				<h1 class = "headtext_two"> LOOK AT ME </h1>
-				<h2> We put the "d" <br /> in design. </h2>
-				<div class = "taw-desc"><p> Thought At Work is a three-day, student run, student-focused design conference that takes place every October at Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of passionate students for a weekend of inspiration, collaboration, and instruction that you. </p>
+			<!---<?php include("header.php"); ?>-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-8 col-md-5">
+					col 8
 				</div>
-            </div> <!--- END INFOBLOCK_ONE -->
-            
-            
-           <div class ="recapBlock">
-	           
-			<div class = "recapWords">
-                <p class = "blockTag">// INTRODUCTION</p>
-                <h1 class="recapText_one"> 2015 </h1>
-                <h1 class = "recapText_two"> <span class= "redLine">RE</span>CAP </h1>
-			</div> <!-- END RECAP WORDS-->
-			<div class="aboutus">
-			 <p > Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology. We bring together some of the best industry professionals with hundreds of passionate students for a weekend of inspiration, collaboration, and instruction that you can’t get in the classroom.</p></div>
-                
-                               
-            </div> <!-- END RECAPBLOCK -->
+				<div class="col-lg-4 col-md-7">
+					col 4
+				</div>
+		</div>
+	</div>
+		
 			
-		</div> <!--- END CONTENT_ONE --->
-
-		<div>
-			<!--- Second background block -->
-		</div>
-
-		<div>
-			<!--- Second content block -->
-			<div>
-			<!--- Come Hang -->
-
-			</div>
-		</div>
-
-		<div>
-			<!--- Third content block -->
-			<div>
-			<!--- Featured Speackers -->
-			</div>
-			<div>
-			<!--- Sponsors -->
-			</div>
-
-		</div>
+		
 
 		<!--- Footer Inlcude-->
 	</body>
