@@ -1,14 +1,14 @@
-<header class="banner">
-        <h1>
-            <img src="images/TAW_Logo.svg" alt="Thought At Work Logo" class = "header_logo">
-            <a href="" rel="home" class = "logotype">&nbsp;THOUGHT AT WORK</a>
-        </h1>
-        <nav role="navigation">
-            <a href="">READY UP</a>
-            <a  class = "dotLeft">&middot;</a>
-            <a href="">ABOUT US</a>
-            <a class = "dotLeft" >&middot;</a>
-            <a href="">CONTACT&nbsp;</a>
-            <a class = "register" href="">REGISTER</a>
-        </nav>
-</header>
+<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Thought at Work</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Arrival</a></li>
+      <li><a href="#">About Us</a></li> 
+      <li><a href="#">Contact</a></li> 
+      <li><a href="#">Register</a></li> 
+    </ul>
+  </div>
+</nav>

@@ -33,20 +33,113 @@
 
 	</head>
 	<body>
-			<!---<?php include("header.php"); ?>-->
+			<?php include("header.php"); ?>
+			
+		<!-- HEADER / SPASH -->	
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-8 col-md-5">
-					col 8
+				<div class="col-lg-12">
+					<h1>THOUGHT AT WORK</h1>
+					<h2>Oct 23-25 2016</h2>
+					<h3>@ Rochester Institute of Technology </h3>
 				</div>
-				<div class="col-lg-4 col-md-7">
-					col 4
+			</div>
+		
+			<div class="row">
+				<div class="col-lg-12">
+					<p> Social Media icons </p>
 				</div>
+			</div>
 		</div>
-	</div>
 		
-			
+		<!-- ABOUT -->	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<p> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
+					<a hred=""><p> Schedule </p></a>
+				</div>
+			</div>
+		</div>
 		
+		<!-- RECAP -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6">
+						RECAP
+						Hundreds of passionate students get inspired & collaborate.
+						Watch last years highlights, speakers, showreels, and environment to learn more about TAW.
+				</div>
+				<div class="col-lg-6">
+					VIDEO
+				</div>
+			</div>
+		</div>
+		
+		
+			<!-- COME HANG -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+						Come Hang
+				</div>
+				<div class="col-lg-6">
+						What We Offer
+						
+						Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.
+						
+				</div>
+				<div class="col-lg-6">
+						Oct 23-25
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+						Who Should Come
+						
+						Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.
+				</div>
+			</div>
+		</div>
+
+		<!-- SPEAKERS -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					SPEAKERS
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<img src="http://placehold.it/432x564" />
+					Mt. Mograph
+				</div>
+				<div class="col-lg-3">
+					<img src="http://placehold.it/432x564" />
+					Kim Alert
+				</div>
+				<div class="col-lg-3">
+					<img src="http://placehold.it/432x564" />
+					Patty Moore
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					View All
+				</div>
+			</div>
+		</div>
+		
+		<!-- SPONSERS -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul> 
+						<li> Sponsers</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
 		<!--- Footer Inlcude-->
 	</body>
