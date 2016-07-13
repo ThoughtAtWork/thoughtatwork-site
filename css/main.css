@@ -36,15 +36,43 @@ body {
 
 
   /*==========  Non-Mobile First Method  ==========*/
+  /*Nav Padding*/
+  .p-a-9 {
+      padding-left: 10vw !important;
+      padding-right: 10vw !important;
+  }
+  /*Menu Padding*/
+  .p-a-4 li{
+      padding-left: 1.5vw;
+      padding-right: 1.5vw;
+  }
+  .p-t-3 {
+      padding-top: 20px !important;
+  }
 
+  .title {
+      font-family: "Elliot-Bold";
+      text-transform: uppercase;
+  }
+  .splash-words {
+      padding-top: 300px;
+      padding-left: 11vw !important;
+  }
+  .splash-words h1 {
+      font-size: 60px;
+  }
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
 
-
-
-
-
-
+    .navbar.transparent.navbar-default.navbar-fixed-top .container-fluid{
+        border-width: 0px;
+        -webkit-box-shadow: 0px 0px;
+        box-shadow: 0px 0px;
+        background-color: rgba(0,0,0,0.0);
+        background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+        background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+        background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    }
 
 
 
@@ -60,12 +88,12 @@ body {
 
     }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
 
     }
 
-    /* Custom, iPhone Retina */ 
+    /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
-        
+
     }

@@ -30,29 +30,29 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+<!-- <script src="../constantlyUpdatingScript.js"></script> -->
 	</head>
 	<body>
 			<?php include("header.php"); ?>
-			
-		<!-- HEADER / SPASH -->	
-		<div class="container-fluid">
+
+		<!-- HEADER / SPASH -->
+		<div class="container-fluid splash-words">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>THOUGHT AT WORK</h1>
+					<h1 class="title">Thought at Work</h1>
 					<h2>Oct 23-25 2016</h2>
 					<h3>@ Rochester Institute of Technology </h3>
 				</div>
 			</div>
-		
+
 			<div class="row">
 				<div class="col-lg-12">
 					<p> Social Media icons </p>
 				</div>
 			</div>
 		</div>
-		
-		<!-- ABOUT -->	
+
+		<!-- ABOUT -->
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- RECAP -->
 		<div class="container-fluid">
 			<div class="row">
@@ -75,8 +75,8 @@
 				</div>
 			</div>
 		</div>
-		
-		
+
+
 			<!-- COME HANG -->
 		<div class="container-fluid">
 			<div class="row">
@@ -85,9 +85,9 @@
 				</div>
 				<div class="col-lg-6">
 						What We Offer
-						
+
 						Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.
-						
+
 				</div>
 				<div class="col-lg-6">
 						Oct 23-25
@@ -96,7 +96,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 						Who Should Come
-						
+
 						Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.
 				</div>
 			</div>
@@ -129,12 +129,12 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- SPONSERS -->
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
-					<ul> 
+					<ul>
 						<li> Sponsers</li>
 					</ul>
 				</div>
