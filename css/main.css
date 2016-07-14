@@ -13,7 +13,7 @@
   src: url("../fonts/MBodoni.otf"); }
 body {
     /* Location of the image */
-    background-image: url(../images/background.jpg);
+    /*background-image: url(../images/background.jpg);*/
 
     /* Background image is centered vertically and horizontally at all times */
     background-position: left bottom;
@@ -70,12 +70,64 @@ body {
         text-transform: uppercase;
     }
     .splash-words {
+        color: #ffffff;
         padding-top: 300px;
         padding-left: 12.4vw !important;
+        width: 100%;
+        height: 728px;
+        background-image: url(../img/background.jpg);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
     .splash-words h1 {
         font-size: 4.5vw;
     }
+
+    .about{
+        background-color: #2aabd2;
+        width: 100%;
+        height: 465px;
+    }
+
+    .recap{
+        width:100%;
+        height: 728px;
+    }
+
+    .recap-recap{
+        float:left;
+        background-color: lightgrey;
+        height: 728px;
+        width: 50%;
+    }
+    .recap-video{
+        background-color: #c9302c;
+        margin-top: 10%;
+        float:right;
+        height: 364px;
+        width: 60%;
+    }
+
+    .come-hang{
+        background-color: #449d44;
+        width: 100%;
+        height: 728px;
+    }
+
+    .speakers{
+        background-color: aquamarine;
+        width: 100%;
+        height: 728px;
+    }
+
+    .sponsors{
+        background-color: lightpink;
+        width: 100%;
+        height: 488px;
+    }
+
 
     }
 

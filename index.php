@@ -55,7 +55,7 @@
 		</div>
 
 		<!-- ABOUT -->
-		<div class="container-fluid">
+		<div class="container-fluid about">
 			<div class="row">
 				<div class="col-lg-12">
 					<p> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
@@ -65,14 +65,14 @@
 		</div>
 
 		<!-- RECAP -->
-		<div class="container-fluid">
+		<div class="container-fluid recap">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 recap-recap">
 						RECAP
 						Hundreds of passionate students get inspired & collaborate.
 						Watch last years highlights, speakers, showreels, and environment to learn more about TAW.
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 recap-video">
 					VIDEO
 				</div>
 			</div>
@@ -80,7 +80,7 @@
 
 
 			<!-- COME HANG -->
-		<div class="container-fluid">
+		<div class="container-fluid come-hang">
 			<div class="row">
 				<div class="col-lg-12">
 						Come Hang
@@ -105,7 +105,7 @@
 		</div>
 
 		<!-- SPEAKERS -->
-		<div class="container-fluid">
+		<div class="container-fluid speakers" >
 			<div class="row">
 				<div class="col-lg-12">
 					SPEAKERS
@@ -132,17 +132,19 @@
 			</div>
 		</div>
 
-		<!-- SPONSERS -->
-		<div class="container-fluid">
+		<!-- SPONSORS -->
+		<div class="container-fluid sponsors">
 			<div class="row">
 				<div class="col-lg-12">
 					<ul>
-						<li> Sponsers</li>
+						<li> Sponsors</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 
-		<!--- Footer Inlcude-->
+		<!--- Footer Include-->
+		<?php include("footer.php"); ?>
+
 	</body>
 </html>
