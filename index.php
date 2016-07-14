@@ -35,8 +35,8 @@
 
 	</head>
 	<body>
-			<?php include("header.php"); ?>
-
+			 <?php include("header.php"); ?> 
+	
 		<!-- HEADER / SPASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">
