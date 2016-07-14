@@ -39,8 +39,7 @@ body {
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-
-    .navbar.transparent.navbar-default.navbar-fixed-top .container-fluid{
+        .navbar.transparent.navbar-default.navbar-fixed-top .container-fluid{
         border-width: 0px;
         -webkit-box-shadow: 0px 0px;
         box-shadow: 0px 0px;
@@ -51,17 +50,19 @@ body {
     }
 
     /*Nav Padding*/
-    .p-a-9 {
-        padding-left: 10vw !important;
-        padding-right: 10vw !important;
+    .p-r-9 {
+        padding-right: 9.5vw !important;
+    }
+    .p-l-12 {
+        padding-left: 12.4vw !important;
     }
     /*Menu Padding*/
-    .p-a-4 li{
-        padding-left: 1.5vw;
-        padding-right: 1.5vw;
+    .navbar-inner ul li{
+        width: 9vw;
+        max-width: 130px;
     }
     .p-t-3 {
-        padding-top: 20px !important;
+        padding-top: 30px !important;
     }
 
     .title {
@@ -70,22 +71,59 @@ body {
     }
     .splash-words {
         padding-top: 300px;
-        padding-left: 11vw !important;
+        padding-left: 12.4vw !important;
     }
     .splash-words h1 {
-        font-size: 60px;
+        font-size: 4.5vw;
     }
 
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
+        .navbar.transparent.navbar-default.navbar-fixed-top .container-fluid{
+        border-width: 0px;
+        -webkit-box-shadow: 0px 0px;
+        box-shadow: 0px 0px;
+        background-color: rgba(0,0,0,0.0);
+        background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+        background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+        background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    }
+
+    /*Nav Padding*/
+    .p-r-9 {
+        padding-right: 9.5vw !important;
+    }
+    .p-l-12 {
+        padding-left: 12.4vw !important;
+    }
+    /*Menu Padding*/
+    .navbar-inner ul li{
+        width: 9vw;
+        max-width: 130px;
+    }
+    .p-t-3 {
+        padding-top: 30px !important;
+    }
+
+    .title {
+        font-family: "Elliot-Bold";
+        text-transform: uppercase;
+    }
+    .splash-words {
+        padding-top: 300px;
+        padding-left: 12.4vw !important;
+    }
+    .splash-words h1 {
+        font-size: 4.5vw;
+    }
 
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-
+        
     }
 
     /* Extra Small Devices, Phones */
