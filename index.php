@@ -57,9 +57,9 @@
 		<!-- ABOUT -->
 		<div class="container-fluid about">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 aboutdesc">
 					<p> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
-					<a hred=""><p> Schedule </p></a>
+					<a href=""> SCHEDULE</a>
 				</div>
 			</div>
 		</div>
@@ -68,12 +68,16 @@
 		<div class="container-fluid recap">
 			<div class="row">
 				<div class="col-lg-6 recap-recap">
-						RECAP
-						Hundreds of passionate students get inspired & collaborate.
-						Watch last years highlights, speakers, showreels, and environment to learn more about TAW.
+						<div class="recap-info">
+							<h3> RECAP </h3>
+							<p>Hundreds of passionate students get inspired & collaborate.</p>
+							<p>Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
+						</div>
 				</div>
 				<div class="col-lg-6 recap-video">
+					<div class="">
 					VIDEO
+					</div>
 				</div>
 			</div>
 		</div>
@@ -83,23 +87,28 @@
 		<div class="container-fluid come-hang">
 			<div class="row">
 				<div class="col-lg-12">
-						Come Hang
+						<h2>COME HANG</h2>
 				</div>
 				<div class="col-lg-6">
-						What We Offer
+						<div class="offer">
+							<h4>What We Offer</h4>
 
-						Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.
-
+							<p>Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
+						</div>
 				</div>
 				<div class="col-lg-6">
-						Oct 23-25
+						<p class="date">Oct 23-25</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
-						Who Should Come
+						
+						<div class="come">
+							<h4>Who Should Come</h4>
 
-						Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.
+						<p>Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
+				
+						</div>
 				</div>
 			</div>
 		</div>
@@ -112,15 +121,16 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-3">
-					<img src="http://placehold.it/432x564" />
+				<div class="col-lg-3 col-lg-offset-1 speakerimg">
+				<img src="http://placehold.it/432x564" />
+
 					Mt. Mograph
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 speakerimg">
 					<img src="http://placehold.it/432x564" />
 					Kim Alert
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 speakerimg">
 					<img src="http://placehold.it/432x564" />
 					Patty Moore
 				</div>
