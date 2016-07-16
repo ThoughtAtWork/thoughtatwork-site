@@ -22,7 +22,7 @@ body {
     /*background-image: url(../images/background.jpg);*/
 
     /* Background image is centered vertically and horizontally at all times */
-    background-position: left bottom;
+    background-position:center top;
 
     /* Background image doesn't tile */
     background-repeat: no-repeat;
@@ -68,6 +68,7 @@ body {
     
     /*Menu Styles*/
     .navbar-brand, .navbar-nav>li>a{
+        font-family: Elliot-Thin;
         color: white;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child{
@@ -80,13 +81,21 @@ body {
         max-width: 130px;
     }
     .p-t-3 {
-        padding-top: 30px !important;
+
     }
 
     .title{
-        font-family: "Elliot";
+        font-family: "Elliot-Bold";
         text-transform: uppercase;
         color: white !important;
+    }
+    .title2{
+        font-size: 3em;
+        font-family: "Elliot-Thin";
+     }
+    .title3{
+        font-size: 1em;
+        font-family: "Elliot-Thin";
     }
 
     /* Footer Styles */
@@ -97,7 +106,6 @@ body {
         padding-top: 6vh !important;
     }
     .footer-text p{
-        font-family: "Elliot-Light" !important;
         color: #E2E2E2 !important;
     }  
     .footer-nav a {
@@ -133,12 +141,12 @@ body {
         border-radius: 10px;
     }
     .line-footer {
-        width: 250px;
+        width: 342px;
         height: 2px;
         float: right;
         z-index: 100;
-        margin-top: -6.3px;
-        margin-right: 6.5vw;
+        margin-top: -5.4px;
+        margin-right: -2.5vw;
         background: white;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -151,10 +159,10 @@ body {
         width: 100%;
         height: 728px;
         background-image: url(../img/background.jpg);
-        background-position: left bottom;
+        /*background-position: left bottom;*/
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 100%;
     }
     .splash-words h1 {
         font-size: 4.5vw;
