@@ -38,6 +38,7 @@ body {
     /* Set a background color that will be displayed
      while the background image is loading */
     background-color: #464646;
+
 }
 
 
@@ -45,6 +46,7 @@ body {
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px)  {
+
         .navbar.transparent.navbar-default.navbar-fixed-top .container-fluid{
         border-width: 0px;
         -webkit-box-shadow: 0px 0px;
@@ -54,10 +56,6 @@ body {
         background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
         background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     }
-        .footer {
-            background-color: #F93642;
-            padding-top: 6vh !important;
-        }
 
         
     /*Nav Padding*/
@@ -68,7 +66,15 @@ body {
         padding-left: 12.4vw !important;
     }
     
-    /*Menu Padding*/
+    /*Menu Styles*/
+    .navbar-brand, .navbar-nav>li>a{
+        color: white;
+    }
+    ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child{
+        background-color: red;
+        width: 84px;
+        height: 89px;
+    }
     .navbar-inner ul li{
         width: 9vw;
         max-width: 130px;
@@ -78,13 +84,17 @@ body {
     }
 
     .title{
-        font-family: "Elliot-Bold";
+        font-family: "Elliot";
         text-transform: uppercase;
         color: white !important;
     }
- 
+
+    /* Footer Styles */
+
     footer {
         padding-left: 10vw;
+        background-color: #F93642;
+        padding-top: 6vh !important;
     }
     .footer-text p{
         font-family: "Elliot-Light" !important;
@@ -96,7 +106,7 @@ body {
         color: white !important;
     }
     .footer-nav ul li{
-        width: 14vw;
+        width: 12vw;
         max-width: 1000px !important;
     }
     .footer-nav .nav{
@@ -110,13 +120,25 @@ body {
         padding-top: 2.5vh;
         padding-bottom: 4.85vh;
     }
-    .circle {
+    .circle-footer {
         width: 10px;
         height: 10px;
-        float:right;
+        float: right;
         z-index: 100;
-        margin-top: 23px;
-        margin-right: 28.5vw;
+        margin-top: 22px;
+        margin-right: 23.5vw;
+        background: white;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .line-footer {
+        width: 250px;
+        height: 2px;
+        float: right;
+        z-index: 100;
+        margin-top: -6.3px;
+        margin-right: 6.5vw;
         background: white;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -139,7 +161,7 @@ body {
     }
 
     .about{
-        background-color: #2aabd2;
+        background-color: #ffffff;
         width: 100%;
         height: 465px; 
         
@@ -147,10 +169,16 @@ body {
     }
     
     .aboutdesc p{
+        font-family: Elliot-Thin;
 	    margin: 15% auto 3% auto;
 	    font-size: 2em;
+        font-weight: 100;
 	    width: 50%; 
 	    line-height: 1.5em;   	    
+    }
+    .aboutdesc a{
+        font-family: Elliot-Bold;
+        color: black;
     }
 
     .recap{
@@ -160,22 +188,31 @@ body {
     }
 
     .recap-recap{
+        background-color: #000000;
         float:left;
-        background-color: lightgrey;
         height: 728px;
         width: 50%;
         
     }
     
     .recap-info{
+        font-family: "Elliot-Light";
+        color: #ffffff;
 		width: 70%;
-		margin: 50% auto 0 auto; 
-		   
+		margin: 40% auto 0 auto;
     }
     
     .recap-info p {
-	    font-size: 1.3em;
-    }
+        line-height: 140%;
+        letter-spacing: .1em;
+        font-size: 1.9em;
+        font-family: "Elliot-Thin";
+    }.recap-info p:last-child {
+         line-height: 180%;
+         letter-spacing: .1em;
+         font-size: 1.1em;
+         font-family: "Elliot-Thin";
+     }
     
     .recap-video{
         background-color: #c9302c;
@@ -183,6 +220,31 @@ body {
         float:right;
         height: 364px;
 		margin-left: -100px;
+    }
+
+    .circle-recap {
+         width: 10px;
+         height: 10px;
+         float:right;
+         z-index: 100;
+         margin-top: 23px;
+         margin-right: 39.5vw;
+         background: white;
+         -moz-border-radius: 10px;
+         -webkit-border-radius: 10px;
+         border-radius: 10px;
+     }
+    .line-recap {
+        width: 2px;
+        height: 250px;
+        float: right;
+        z-index: 100;
+        margin-top: -4px;
+        margin-right: 39.75vw;
+        background: white;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
     }
 
     .come-hang{

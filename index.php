@@ -93,9 +93,14 @@
 				<div class="col-lg-6 recap-recap">
 						<div class="recap-info">
 							<h3> RECAP </h3>
+							<br><br>
 							<p>Hundreds of passionate students get inspired & collaborate.</p>
+							<br>
 							<p>Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
 						</div>
+						<div class="circle-recap"></div>
+						<div class="line-recap"></div>
+
 				</div>
 				<div class="col-lg-6 recap-video">
 					<div class="">
