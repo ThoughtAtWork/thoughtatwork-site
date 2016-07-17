@@ -97,7 +97,14 @@ body {
         font-size: 1em;
         font-family: "Elliot-Thin";
     }
-
+    .splash-date{
+        font-size: 3vw !important;
+        font-family: "Elliot-Thin" !important;
+        }
+    .splash-location{
+        font-size: 1vw !important;
+        font-family: "Elliot-Thin" !important;
+    }
     /* Footer Styles */
 
     footer {
@@ -110,11 +117,11 @@ body {
     }  
     .footer-nav a {
         font-size: 12.5pt;
-        font-family: "Elliot-Light" !important;
+        font-family: "Elliot" !important;
         color: white !important;
     }
     .footer-nav ul li{
-        width: 12vw;
+        width: 14vw;
         max-width: 1000px !important;
     }
     .footer-nav .nav{
@@ -144,9 +151,10 @@ body {
         width: 342px;
         height: 2px;
         float: right;
+        position: absolute;
         z-index: 100;
         margin-top: -5.4px;
-        margin-right: -2.5vw;
+        margin-left: 70vw;
         background: white;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;

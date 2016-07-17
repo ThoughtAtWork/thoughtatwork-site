@@ -35,29 +35,8 @@
 
 	</head>
 	<body>
-			 <!-- <?php include("header.php"); ?>  -->
-			 <nav class="navbar navbar navbar-fixed-top p-a-9 p-t-3" role="navigation">
-	                 <div class="container-fluid">
-	 			   <div class="navbar-header">
-	 			             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#expand-nav" aria-expanded="false">
-	 			                 <span class="sr-only">toggle navigation</span>
-	 			                 <span class="icon-bar"></span>
-	 			                 <span class="icon-bar"></span>
-	 			                 <span class="icon-bar"></span>
-	 			           </button>
-	 			     <a class="navbar-brand title p-l-12" href="#">Thought at Work</a>
-	 			   </div>
-	 			         <div class="collapse navbar-collapse navbar-inner" id="expand-nav">
-	 			             <ul class="nav navbar-nav navbar-right p-r-9">
-	 			               <li class="active"><a href="#">Home</a></li>
-	 			               <li><a href="#">Arrival</a></li>
-	 			               <li class="text-nowrap"><a href="#">About Us</a></li>
-	 			               <li><a href="#">Contact</a></li>
-	 			               <li><a href="#">Register</a></li>
-	 			             </ul>
-	 			         </div>
-	                     </div>
-	                  </nav>
+			  <?php include("header.php"); ?>  
+		
 	 			 
 	<!--  -->
 		<!-- HEADER / SPASH -->
@@ -65,8 +44,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<h1 class="title">Thought at Work</h1>
-					<h2>Oct 23-25 2016</h2>
-					<h3>@ Rochester Institute of Technology </h3>
+					<h2 class="splash-date">Oct 23-25 2016</h2>
+					<h3 class="splash-location">@ Rochester Institute of Technology </h3>
 				</div>
 			</div>
 
@@ -183,7 +162,7 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-
+        
         
         <!---->
 	</body>

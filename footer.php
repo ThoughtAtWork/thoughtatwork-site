@@ -1,4 +1,4 @@
-        <footer class="footer">
+<footer class="footer">
             <div class="container">
                 <div class="collapse navbar-collapse navbar-inner footer-nav">
 
