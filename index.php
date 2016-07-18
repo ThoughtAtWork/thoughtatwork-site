@@ -104,7 +104,8 @@
 						</div>
 				</div>
 				<div class="col-lg-6">
-						<p class="date">Oct 23-25</p>
+						<p class="month">Oct</p>
+						<p class="date"> 23-25</p>
 				</div>
 			</div>
 			<div class="row">
@@ -112,9 +113,8 @@
 
 						<div class="come">
 							<h4>Who Should Come</h4>
-
 						<p>Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
-
+						
 						</div>
 				</div>
 			</div>
@@ -124,7 +124,7 @@
 		<div class="container-fluid speakers" >
 			<div class="row">
 				<div class="col-lg-12">
-					SPEAKERS
+					<h2> SPEAKERS </h2>
 				</div>
 			</div>
 			<div class="row">

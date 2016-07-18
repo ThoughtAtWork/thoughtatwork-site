@@ -251,6 +251,7 @@ body {
          -webkit-border-radius: 10px;
          border-radius: 10px;
      }
+     
     .line-recap {
         width: 2px;
         height: 250px;
@@ -269,28 +270,57 @@ body {
         width: 100%;
         height: 728px;
     }
+    
+    
 	.offer{
-		width: 70%;
+		width: 60%;
+		margin-top: 10%;
 		margin-left: 40%;
 	}
-
-	.date{
-		font-size: 5em;
+	
+	.offer p {
+		line-height: 20px;
+		margin-top: 5%;
 	}
+
+	.month {
+		font-size: 5em;
+		margin-top: 8%;
+		margin-left: 10%;
+	}
+	
+	.date {
+		font-size: 5em;
+		margin-left: 20%;
+	}
+	
 	.come-hang h2{
-		margin-top: 15%;
+		margin-top: 10%;
 		margin-left: 9%;
 	}
 
 	.come {
 		width: 70%;
-		margin-left: 80%;
+		margin-left: 90%;
+		margin-top: 10%;
 	}
+	
+	.come p {
+		
+		line-height: 20px;
+		margin-top: 5%;
+	}
+
 
     .speakers{
         background-color: aquamarine;
         width: 100%;
         height: 728px;
+    }
+    
+    .speakers h2{
+	    margin-top: 10%;
+		margin-left: 9%;
     }
     .speakerimg {
 	  text-align: center;
