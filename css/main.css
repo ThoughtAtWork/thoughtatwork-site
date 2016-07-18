@@ -68,24 +68,23 @@ body {
 
     /*Menu Styles*/
     .navbar-brand, .navbar-nav>li>a{
-        font-family: Elliot-Thin;
+        font-family: "Elliot-Thin";
         color: white;
+        padding-top: 39px !important;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child{
         background-color: red;
-        width: 84px;
-        height: 89px;
+        width: 98px;
+        height: 98px;
+        margin-right: 2.1vw
     }
     .navbar-inner ul li{
-        width: 9vw;
-        max-width: 130px;
+        width: 10vw;
+        max-width: 136px;
+        text-align: center;
     }
-    .p-t-3 {
-
-    }
-
     .title{
-        font-family: "Elliot-Bold";
+        font-family: "Elliot";
         text-transform: uppercase;
         color: white !important;
     }
@@ -98,22 +97,23 @@ body {
         font-family: "Elliot-Thin";
     }
     .splash-date{
-        font-size: 3vw !important;
+        font-size: 2.7vw !important;
         font-family: "Elliot-Thin" !important;
-        }
+        padding-left: 7px;
+    }
     .splash-location{
-        font-size: 1vw !important;
+        font-size: .75vw !important;
         font-family: "Elliot-Thin" !important;
     }
     /* Footer Styles */
 
     footer {
-        padding-left: 10vw;
         background-color: #F93642;
-        padding-top: 6vh !important;
+        padding-top: 7vh !important;
     }
     .footer-text p{
         color: #E2E2E2 !important;
+        font-family: "Elliot-Thin";
     }
     .footer-nav a {
         font-size: 12.5pt;
@@ -121,19 +121,24 @@ body {
         color: white !important;
     }
     .footer-nav ul li{
+        padding-left: 10vw;
         width: 14vw;
-        max-width: 1000px !important;
+        max-width: 250px !important;
     }
     .footer-nav .nav{
         padding-top: .3vh;
-        padding-bottom: 3vh;
+        padding-bottom: 5.4vh;
     }
     .footer-text .special{
-        padding-top: 5vh;
+        padding-left: 10vw;
+        padding-top: 8.3vh;
+        max-width: 1000px; 
     }
     .footer-text .copyright{
-        padding-top: 2.5vh;
-        padding-bottom: 4.85vh;
+        padding-left: 10vw;
+        padding-top: 4.4vh;
+        padding-bottom: 8.0vh;
+        max-width: 1000px; 
     }
     .circle-footer {
         width: 10px;
@@ -141,7 +146,7 @@ body {
         float: right;
         position: absolute;
         z-index: 100;
-        margin-top: 22.5px;
+        margin-top: 46.5px;
         margin-left: 65vw;
         background: white;
         -moz-border-radius: 10px;
@@ -149,12 +154,13 @@ body {
         border-radius: 10px;
     }
     .line-footer {
-        width: 342px;
+        width: 31vw;
+        max-width: 235px;
         height: 2px;
         float: right;
         position: absolute;
         z-index: 100;
-        margin-top: 26px;
+        margin-top: 51px;
         margin-left: 65vw;
         background: white;
         -moz-border-radius: 10px;
@@ -175,27 +181,28 @@ body {
     }
     .splash-words h1 {
         font-size: 4.5vw;
+        font-family: "Elliot-Bold";
     }
 
     .about{
         background-color: #ffffff;
         width: 100%;
-        height: 465px;
-
+        height: 620px;
 	    text-align: center;
     }
 
-    .aboutdesc p{
+    .about-desc p{
         font-family: Elliot-Thin;
-	    margin: 15% auto 3% auto;
-	    font-size: 2em;
-        font-weight: 100;
+	    margin: 11% auto 3% auto;
+	    font-size: 2.016vw;
 	    width: 50%;
-	    line-height: 1.5em;
+	    line-height: 11vh;
     }
-    .aboutdesc a{
+    .about-desc .schedule{
+        font-size: .7vw;
         font-family: Elliot-Bold;
         color: black;
+        letter-spacing: 1.5px;
     }
 
     .recap{
@@ -224,7 +231,8 @@ body {
         letter-spacing: .1em;
         font-size: 1.9em;
         font-family: "Elliot-Thin";
-    }.recap-info p:last-child {
+    }
+    .recap-info p:last-child {
          line-height: 180%;
          letter-spacing: .1em;
          font-size: 1.1em;
@@ -270,8 +278,7 @@ body {
         width: 100%;
         height: 728px;
     }
-    
-    
+   
 	.offer{
 		width: 60%;
 		margin-top: 10%;
@@ -310,8 +317,6 @@ body {
 		line-height: 20px;
 		margin-top: 5%;
 	}
-
-
     .speakers{
         background-color: aquamarine;
         width: 100%;
@@ -361,10 +366,6 @@ body {
         width: 9vw;
         max-width: 130px;
     }
-    .p-t-3 {
-        padding-top: 30px !important;
-    }
-
     .title{
         font-family: "Elliot-Bold" !important;
         text-transform: uppercase !important;

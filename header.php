@@ -1,4 +1,4 @@
-		<nav class="navbar navbar navbar-fixed-top p-a-9 p-t-3" role="navigation">
+<nav class="navbar navbar navbar-fixed-top p-a-9" role="navigation">
                 <div class="container-fluid">
 			   <div class="navbar-header">
 			             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#expand-nav" aria-expanded="false">
