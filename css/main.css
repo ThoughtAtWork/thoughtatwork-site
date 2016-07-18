@@ -57,7 +57,7 @@ body {
         background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     }
 
-        
+
     /*Nav Padding*/
     .p-r-9 {
         padding-right: 9.5vw !important;
@@ -65,7 +65,7 @@ body {
     .p-l-12 {
         padding-left: 12.4vw !important;
     }
-    
+
     /*Menu Styles*/
     .navbar-brand, .navbar-nav>li>a{
         font-family: Elliot-Thin;
@@ -114,7 +114,7 @@ body {
     }
     .footer-text p{
         color: #E2E2E2 !important;
-    }  
+    }
     .footer-nav a {
         font-size: 12.5pt;
         font-family: "Elliot" !important;
@@ -139,9 +139,10 @@ body {
         width: 10px;
         height: 10px;
         float: right;
+        position: absolute;
         z-index: 100;
-        margin-top: 22px;
-        margin-right: 23.5vw;
+        margin-top: 22.5px;
+        margin-left: 65vw;
         background: white;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -153,8 +154,8 @@ body {
         float: right;
         position: absolute;
         z-index: 100;
-        margin-top: -5.4px;
-        margin-left: 70vw;
+        margin-top: 26px;
+        margin-left: 65vw;
         background: white;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -179,18 +180,18 @@ body {
     .about{
         background-color: #ffffff;
         width: 100%;
-        height: 465px; 
-        
+        height: 465px;
+
 	    text-align: center;
     }
-    
+
     .aboutdesc p{
         font-family: Elliot-Thin;
 	    margin: 15% auto 3% auto;
 	    font-size: 2em;
         font-weight: 100;
-	    width: 50%; 
-	    line-height: 1.5em;   	    
+	    width: 50%;
+	    line-height: 1.5em;
     }
     .aboutdesc a{
         font-family: Elliot-Bold;
@@ -208,16 +209,16 @@ body {
         float:left;
         height: 728px;
         width: 50%;
-        
+
     }
-    
+
     .recap-info{
         font-family: "Elliot-Light";
         color: #ffffff;
 		width: 70%;
 		margin: 40% auto 0 auto;
     }
-    
+
     .recap-info p {
         line-height: 140%;
         letter-spacing: .1em;
@@ -229,7 +230,7 @@ body {
          font-size: 1.1em;
          font-family: "Elliot-Thin";
      }
-    
+
     .recap-video{
         background-color: #c9302c;
         margin-top: 15%;
@@ -272,20 +273,20 @@ body {
 		width: 70%;
 		margin-left: 40%;
 	}
-	
+
 	.date{
 		font-size: 5em;
-	} 
+	}
 	.come-hang h2{
 		margin-top: 15%;
 		margin-left: 9%;
 	}
-	
+
 	.come {
 		width: 70%;
 		margin-left: 80%;
 	}
-	
+
     .speakers{
         background-color: aquamarine;
         width: 100%;
@@ -351,7 +352,7 @@ body {
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-        
+
     }
 
     /* Extra Small Devices, Phones */
