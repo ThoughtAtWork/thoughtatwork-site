@@ -1,5 +1,4 @@
 * {
-    font: menu;
     margin: 0;
 }
 @font-face {
@@ -196,7 +195,6 @@ body {
 	    margin: 11% auto 3% auto;
 	    font-size: 2.016vw;
 	    width: 50%;
-	    line-height: 11vh;
     }
     .about-desc .schedule{
         font-size: .7vw;
@@ -274,9 +272,15 @@ body {
     }
 
     .come-hang{
-        background-color: #449d44;
+        font-family: Elliot-Thin;
+        color: black;
+        background-color: #ffffff;
         width: 100%;
         height: 728px;
+    }
+
+    .come-hang-h2{
+        font-family: Elliot-Light;
     }
    
 	.offer{

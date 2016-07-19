@@ -94,7 +94,7 @@
 			<!-- COME HANG -->
 		<div class="container-fluid come-hang">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 come-hang-h2">
 						<h2>COME HANG</h2>
 				</div>
 				<div class="col-lg-6">
@@ -124,7 +124,7 @@
 		<!-- SPEAKERS -->
 		<div class="container-fluid speakers" >
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 speakers-h2">
 					<h2> SPEAKERS </h2>
 				</div>
 			</div>
