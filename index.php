@@ -35,8 +35,8 @@
 
 	</head>
 	<body>
-        <?php include("header.php"); ?>  		 
-	    <!--  -->
+        <?php include("header.php"); ?>  
+ <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">
@@ -100,9 +100,9 @@
 							<p>Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
 						</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 date">
 						<p class="month">Oct</p>
-						<p class="date"> 23-25</p>
+						<p class="days"> 23-25</p>
 				</div>
 			</div>
 			<div class="row">
