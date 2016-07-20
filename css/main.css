@@ -66,20 +66,25 @@ body {
     }
 
     /*Menu Styles*/
-    .navbar-brand, .navbar-nav>li>a{
+    .navbar-nav>li>a{
         font-family: "Elliot-Thin";
         color: white;
-        padding-top: 39px !important;
+        padding-top: 2.1vw !important;
+        font-size: .81vw;
+    }
+    .navbar-brand{
+        padding-top: 2.1vw !important;
+        font-size: .98vw !important;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child{
         background-color: red;
-        width: 98px;
-        height: 98px;
+        width: 5.2vw;
+        height: 5.2vw;
         margin-right: 2.1vw
     }
     .navbar-inner ul li{
-        width: 10vw;
-        max-width: 136px;
+        width: 7.1vw;
+        max-width: 179px;
         text-align: center;
     }
     .title{
@@ -186,7 +191,7 @@ body {
     .about{
         background-color: #ffffff;
         width: 100%;
-        height: 620px;
+        height: 625px;
 	    text-align: center;
     }
 
@@ -195,6 +200,7 @@ body {
 	    margin: 11% auto 3% auto;
 	    font-size: 2.016vw;
 	    width: 50%;
+        line-height: 1.5;
     }
     .about-desc .schedule{
         font-size: .7vw;
@@ -205,72 +211,101 @@ body {
 
     .recap{
         width:100%;
-        height: 728px;
+        height: 100%;
         margin: 0 auto 0 auto;
     }
 
     .recap-recap{
         background-color: #000000;
         float:left;
-        height: 728px;
+        height: 98.7vh;
         width: 50%;
-
+        z-index: -1;
     }
-
     .recap-info{
         font-family: "Elliot-Light";
         color: #ffffff;
-		width: 70%;
-		margin: 40% auto 0 auto;
+		width: 60%;
+		margin: 32.15% auto 0 auto;
+        margin-left: 20%;
+        margin-bottom: 2vw;
     }
-
-    .recap-info p {
+    .recap-info h3 {
         line-height: 140%;
         letter-spacing: .1em;
-        font-size: 1.9em;
+        font-size: 1.85vw;
+        font-family: "Elliot-Light";
+    }
+    .recap-info p {
+        line-height: 150%;
+        letter-spacing: .1em;
+        font-size: 1.4vw;
         font-family: "Elliot-Thin";
+        margin-top: 2.25vh;
     }
     .recap-info p:last-child {
-         line-height: 180%;
+         line-height: 150%;
          letter-spacing: .1em;
-         font-size: 1.1em;
+         font-size: 1vw;
+         margin-top: 2vw;
          font-family: "Elliot-Thin";
      }
-
     .recap-video{
-        background-color: #c9302c;
-        margin-top: 15%;
-        float:right;
-        height: 364px;
-		margin-left: -100px;
+/*        background-color: #c9302c;*/
+        height: 31.5vw;
+        width: 56vw;
+        z-index: 101;
+        margin-top: 17.5vh;
+		margin-left: 44vw;
     }
+    .TAW-Video{
+        position: absolute;
+        width: 56vw;
+        height: 31.5vw;
+        z-index: 102 !important;
+        padding-left: -4vw;
+/*        margin-top: -60vh;*/
+        margin-bottom: 0vh;
+        		margin-left: -6vw;
 
+    }
     .circle-recap {
          width: 10px;
          height: 10px;
-         float:right;
+         float: right;
          z-index: 100;
-         margin-top: 23px;
-         margin-right: 39.5vw;
+         margin-top: 8.5vh;
+         margin-right: 36.5vw;
          background: white;
          -moz-border-radius: 10px;
          -webkit-border-radius: 10px;
          border-radius: 10px;
      }
-     
-    .line-recap {
+
+    .line-recap1 {
         width: 2px;
-        height: 250px;
+        height: 27.8vh;
         float: right;
         z-index: 100;
-        margin-top: -4px;
-        margin-right: 39.75vw;
+        margin-top: 0vh;
+        margin-right: 36.7vw;
         background: white;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-
+    .line-recap2 {
+        width: 2px;
+        height: 18vh;
+        float: left;
+        z-index: 999;
+        margin-top: 0vh;
+        margin-left: 11.6vw;
+        background-color: black;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
     .come-hang{
         font-family: Elliot-Thin;
         color: black;

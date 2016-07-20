@@ -35,10 +35,8 @@
 
 	</head>
 	<body>
-			  <?php include("header.php"); ?>  
-				
-	 			 
-	<!--  -->
+        <?php include("header.php"); ?>  		 
+	    <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">
@@ -75,19 +73,17 @@
 							<h3> RECAP </h3>
 							<br><br>
 							<p>Hundreds of passionate students get inspired &amp; collaborate.</p>
-							<br>
 							<p>Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
 						</div>
 						<div class="circle-recap"></div>
-						<div class="line-recap"></div>
-
+						<div class="line-recap1"></div>
 				</div>
-				<div class="col-lg-6 recap-video">
-					<div class="">
-					VIDEO
-					</div>
+                
+				<div class="recap-video">
+                    <iframe class="TAW-Video" src="https://player.vimeo.com/video/149298558?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
+            <div class="line-recap2"></div>
 		</div>
 
 
@@ -163,8 +159,6 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-        
-        
         <!---->
 	</body>
 </html>
