@@ -124,18 +124,18 @@
 					<h2> SPEAKERS </h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row speakers-centered">
 				<div class="col-lg-3 col-lg-offset-1 speakerimg">
-				<img src="http://placehold.it/432x564" />
+				<img src="https://img42.com/RXQwr+" />
 
 					Mt. Mograph
 				</div>
 				<div class="col-lg-3 speakerimg">
-					<img src="http://placehold.it/432x564" />
+					<img src="https://img42.com/RXQwr+" />
 					Kim Alert
 				</div>
 				<div class="col-lg-3 speakerimg">
-					<img src="http://placehold.it/432x564" />
+					<img src="https://img42.com/RXQwr+" />
 					Patty Moore
 				</div>
 			</div>

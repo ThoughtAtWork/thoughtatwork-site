@@ -357,19 +357,18 @@ body {
 		margin-top: 5%;
 	}
     .speakers{
-        background-color: aquamarine;
         width: 100%;
         height: 728px;
     }
     
     .speakers h2{
+        font-family: Elliot-Light;
 	    margin-top: 10%;
 		margin-left: 9%;
     }
     .speakerimg {
 	  text-align: center;
-	 background-color: aqua;
-	  margin-right: 5px;
+	  margin-right: 40px;
     }
 
     .sponsors{
