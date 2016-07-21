@@ -35,7 +35,8 @@
 
 	</head>
 	<body>
-        <?php include("header.php"); ?>  
+        <?php include("header.php"); ?> 
+        		
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
@@ -80,7 +81,7 @@
 				</div>
                 
 				<div class="recap-video">
-                    <iframe class="TAW-Video" src="https://player.vimeo.com/video/149298558?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe class="TAW-Video" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
             <div class="line-recap2"></div>
@@ -122,23 +123,23 @@
 		<!-- SPEAKERS -->
 		<div class="container-fluid speakers" >
 			<div class="row">
-				<div class="col-lg-12 speakers-h2">
+				<div class="col-lg-12 speakers-title">
 					<h2> SPEAKERS </h2>
 				</div>
 			</div>
 			<div class="row speakers-centered">
-				<div class="col-lg-3 col-lg-offset-1 speakerimg">
-				<img src="https://img42.com/RXQwr+" />
+				<div class="col-lg-2 speaker-img1">
+				<img src="img/speaker.jpg" />
 					<h2>Mt. Mograph Frank</h2>
 					<p>Motion Graphics, Photography, Development</p>
 				</div>
-				<div class="col-lg-3 speakerimg">
-					<img src="https://img42.com/RXQwr+" />
+				<div class="col-lg-2 speaker-img">
+					<img src="img/speaker.jpg" />
 					<h2>Kim Frank</h2>
 					<p>Cat Rearing, Photography, Development</p>
 				</div>
-				<div class="col-lg-3 speakerimg">
-					<img src="https://img42.com/RXQwr+" />
+				<div class="col-lg-2 speaker-img">
+					<img src="img/speaker.jpg" />
 					<h2>Patty Frank</h2>
 					<p>Ganache Manufacturing, Photography, Development</p>
 				</div>
@@ -165,6 +166,7 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
+        r>
         <!---->
 	</body>
 </html>
