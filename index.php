@@ -114,6 +114,8 @@
 						
 						</div>
 				</div>
+				<div class="circle-come-hang"></div>
+                <div class="line-come-hang"></div>
 			</div>
 		</div>
 
@@ -127,22 +129,26 @@
 			<div class="row speakers-centered">
 				<div class="col-lg-3 col-lg-offset-1 speakerimg">
 				<img src="https://img42.com/RXQwr+" />
-
-					Mt. Mograph
+					<h2>Mt. Mograph Frank</h2>
+					<p>Motion Graphics, Photography, Development</p>
 				</div>
 				<div class="col-lg-3 speakerimg">
 					<img src="https://img42.com/RXQwr+" />
-					Kim Alert
+					<h2>Kim Frank</h2>
+					<p>Cat Rearing, Photography, Development</p>
 				</div>
 				<div class="col-lg-3 speakerimg">
 					<img src="https://img42.com/RXQwr+" />
-					Patty Moore
+					<h2>Patty Frank</h2>
+					<p>Ganache Manufacturing, Photography, Development</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 view-all">
 					View All
 				</div>
+				<div class="circle-speakers"></div>
+                <div class="line-speakers"></div>
 			</div>
 		</div>
 
