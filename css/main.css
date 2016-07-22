@@ -350,7 +350,7 @@ body {
     }
     .come {
         width: 30vw;
-        margin-left: 45.15vw;
+        margin-left: 45.20vw;
         margin-top: 5.85vw;
     }
     .come h4 {
@@ -404,8 +404,9 @@ body {
         font-size: 2.11vw !important;
         width: 20vw;
         max-width: 1000px;
+        letter-spacing: -.0px;
     }
-    .speaker-img1 {
+    .speaker-img-first {
         width: 432px;
         height: 564px;
         font-family: "Elliot-Light";
@@ -413,6 +414,12 @@ body {
         margin-left: 11.8vw;
         margin-top: .2vw;
         padding-left: 200px;
+    }
+    .speaker-img-first h2 {
+        margin-top: 2.35vw;
+        margin-left: -.1vw;
+        letter-spacing: .1px;
+        width: 400px;
     }
     .speaker-img {
         width: 432px;
@@ -425,7 +432,7 @@ body {
     }
     .speaker-img h2 {
         margin-top: 2.5vw;
-        margin-left: -.2vw;
+        margin-left: -.25vw;
     }
     .sponsors {
         background-color: lightpink;

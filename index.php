@@ -36,7 +36,7 @@
 	</head>
 	<body>
         <?php include("header.php"); ?> 
-        		
+
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
@@ -128,19 +128,19 @@
 				</div>
 			</div>
 			<div class="row speakers-centered">
-				<div class="col-lg-2 speaker-img1">
+				<div class="col-lg-2 speaker-img-first ">
 				<img src="img/speaker.jpg" />
-					<h2>Mt. Mograph Frank</h2>
+					<h2>Mt. Mograph</h2>
 					<p>Motion Graphics, Photography, Development</p>
 				</div>
 				<div class="col-lg-2 speaker-img">
 					<img src="img/speaker.jpg" />
-					<h2>Kim Frank</h2>
+					<h2>Kim Alpert</h2>
 					<p>Cat Rearing, Photography, Development</p>
 				</div>
 				<div class="col-lg-2 speaker-img">
 					<img src="img/speaker.jpg" />
-					<h2>Patty Frank</h2>
+					<h2>Patty Moore</h2>
 					<p>Ganache Manufacturing, Photography, Development</p>
 				</div>
 			</div>
@@ -166,7 +166,6 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-        r>
         <!---->
 	</body>
 </html>
