@@ -35,7 +35,7 @@
 
 	</head>
 	<body>
-        <?php include("header.php"); ?> 
+        <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
@@ -78,7 +78,7 @@
 						<div class="circle-recap"></div>
 						<div class="line-recap1"></div>
 				</div>
-                
+
 				<div class="recap-video">
                     <iframe class="TAW-Video" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
@@ -111,7 +111,7 @@
 						<div class="come">
 							<h4>Who Should Come</h4>
 						<p>Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
-						
+
 						</div>
 				</div>
 				<div class="circle-come-hang"></div>
@@ -155,19 +155,19 @@
 		<div class="container-fluid sponsors">
 			<div class="row">
              <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="/img/sponsor.png" />
+                <img class="img-responsive" src="img/sponsor.png" />
              </div>
              <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="/img/sponsor.png" />
+                <img class="img-responsive" src="img/sponsor.png" />
              </div>
              <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="/img/sponsor.png" />
+                <img class="img-responsive" src="img/sponsor.png" />
              </div>
              <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="/img/sponsor.png" />
+                <img class="img-responsive" src="img/sponsor.png" />
              </div>
              <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="/img/sponsor.png" />
+                <img class="img-responsive" src="img/sponsor.png" />
              </div>
             </div>
             <div class="col-lg-12 sponsor-want">
