@@ -366,13 +366,11 @@ body {
         width: 32vw;
         height: 8.30vw;
     }
-
     .circle-come-hang {
         width: 10px;
         height: 10px;
         float: right;
         z-index: 101;
-        margin-top: 6.1vw;
         margin-right: 12.3vw;
         background: black;
         -moz-border-radius: 10px;
@@ -384,8 +382,8 @@ body {
         height: 22.85vw;
         float: right;
         z-index: 100;
-        margin-top: 12.5vh;
-        margin-right: -0.3vw;
+        margin-top: 0vh;
+        margin-right: -0.4vw;
         background: black;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -394,7 +392,7 @@ body {
 
     .speakers {
         width: 100%;
-        height: 728px;
+        height: 49.85vw;
     }
     .speakers-title h2{
         font-family: Elliot;
@@ -406,38 +404,129 @@ body {
         max-width: 1000px;
         letter-spacing: -.0px;
     }
-    .speaker-img-first {
-        width: 432px;
-        height: 564px;
+    .speaker-img-1 {
         font-family: "Elliot-Light";
         text-align: left;
         margin-left: 11.8vw;
-        margin-top: .2vw;
         padding-left: 200px;
     }
-    .speaker-img-first h2 {
-        margin-top: 2.35vw;
-        margin-left: -.1vw;
+    .speaker-img-1 h2 {
+        margin-top: 2.5vw;
+        margin-left: .01vw;
         letter-spacing: .1px;
         width: 400px;
     }
     .speaker-img {
-        width: 432px;
-        height: 564px;
         font-family: "Elliot-Light";
         text-align: left;
         margin-left: 9.55vw;
         margin-top: .05vw;
         padding-left: 200px;
     }
+    .speaker-img img{
+        width: 22.5vw;
+        height: 29.3vw;
+    }
+    .speaker-img-1 img {
+       width: 22.5vw;
+       height: 29.3vw; 
+    }
     .speaker-img h2 {
         margin-top: 2.5vw;
-        margin-left: -.25vw;
+        margin-left: -.22vw;
+    }
+    .speaker-img-1 p {
+        margin-top: .85vw;
+        font-size: 1.07vw !important; 
+        width: 25.5vw; 
+        max-width: 490px;
+    }
+   .speaker-img p {
+        margin-top: .85vw;
+        font-size: 1.07vw !important; 
+        width: 25.5vw;
+        max-width: 490px;
+        margin-left: -4px;
+    }
+    .speaker-p-3 {
+        margin-left: -.4vw !important;
+    }
+    .row-spacer {
+        height: 3.85vw;
+        max-height: 80px;
+    }
+    .speaker-viewall{
+        align-content: center;
+        font-size: .87vw;
+        letter-spacing: .6px;
+        text-align: center;
+        width: inherit;
+    }
+    .speaker-viewall a:link, a:visited, a:hover, a:active {
+        color: black;
+        font-size: .75vw;
+        font-family: Elliot-Bold;
+        color: #000000 !important;
+        letter-spacing: 1.5px;
+    }
+    .circle-speakers {
+        width: 10px;
+        height: 10px;
+        float: left;
+        z-index: 100;
+        margin-left: 12.3vw;
+        background: black;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .line-speakers {
+        width: 2px;
+        height: 14.18vw;
+        float: left;
+        z-index: 100;
+        margin-left: -6px;
+        margin-top: 2px;
+        margin-right: -0.4vw;
+        background: black;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
     }
     .sponsors {
-        background-color: lightpink;
+        background-color: #E6E6E6;
         width: 100%;
-        height: 488px;
+        z-index: 100;
+        margin-top: 6.5vw;
+        height: 29vw;
+    }
+    .sponsors .row {
+        margin-top: 12vw;
+        margin-left: 220px !important;
+        margin-right: 130px !important;
+    }
+    .col-md-2 img{
+        width: 11.15vw;
+        max-width: 230px;
+    }
+    .sponsor-img {
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+    .sponsor-want{
+        align-content: center;
+        font-size: .87vw;
+        letter-spacing: .6px;
+        text-align: center;
+        width: inherit;
+        margin-top: 10px;
+    }
+    .sponsor-want a:link, a:visited, a:hover, a:active {
+        color: black;
+        font-size: .75vw;
+        font-family: Elliot-Bold;
+        color: #000000 !important;
+        letter-spacing: 1.5px;
     }
 }
     /* Medium Devices, Desktops */
@@ -476,7 +565,7 @@ body {
     .splash-words h1 {
         font-size: 4.5vw;
     }
-
+        
     }
 
     /* Small Devices, Tablets */

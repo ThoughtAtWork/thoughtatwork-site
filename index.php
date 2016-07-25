@@ -36,7 +36,6 @@
 	</head>
 	<body>
         <?php include("header.php"); ?> 
-
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
@@ -128,7 +127,7 @@
 				</div>
 			</div>
 			<div class="row speakers-centered">
-				<div class="col-lg-2 speaker-img-first ">
+				<div class="col-lg-2 speaker-img-1 ">
 				<img src="img/speaker.jpg" />
 					<h2>Mt. Mograph</h2>
 					<p>Motion Graphics, Photography, Development</p>
@@ -136,32 +135,45 @@
 				<div class="col-lg-2 speaker-img">
 					<img src="img/speaker.jpg" />
 					<h2>Kim Alpert</h2>
-					<p>Cat Rearing, Photography, Development</p>
+					<p>Creative Coding, Photography, Development</p>
 				</div>
 				<div class="col-lg-2 speaker-img">
 					<img src="img/speaker.jpg" />
 					<h2>Patty Moore</h2>
-					<p>Ganache Manufacturing, Photography, Development</p>
+					<p class="speaker-p-3">Industrial Design, Photography, Development</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12 view-all">
-					View All
-				</div>
-				<div class="circle-speakers"></div>
-                <div class="line-speakers"></div>
-			</div>
+                    <div class="col-lg-12 speaker-viewall">
+                        <div class="row-spacer">&nbsp;</div>
+                        <a href="">VIEW ALL</a>
+                    </div>
+                    <div class="circle-speakers"></div>
+                    <div class="line-speakers"></div>
+            </div>
 		</div>
 
 		<!-- SPONSORS -->
 		<div class="container-fluid sponsors">
 			<div class="row">
-				<div class="col-lg-12">
-					<ul>
-						<li> Sponsors</li>
-					</ul>
-				</div>
-			</div>
+             <div class="col-md-2 sponsor-img">
+                <img class="img-responsive" src="/img/sponsor.png" />
+             </div>
+             <div class="col-md-2 sponsor-img">
+                <img class="img-responsive" src="/img/sponsor.png" />
+             </div>
+             <div class="col-md-2 sponsor-img">
+                <img class="img-responsive" src="/img/sponsor.png" />
+             </div>
+             <div class="col-md-2 sponsor-img">
+                <img class="img-responsive" src="/img/sponsor.png" />
+             </div>
+             <div class="col-md-2 sponsor-img">
+                <img class="img-responsive" src="/img/sponsor.png" />
+             </div>
+            </div>
+            <div class="col-lg-12 sponsor-want">
+                        <div class="row-spacer">&nbsp;</div>
+                        <a href="">WANT TO SPONSOR?</a>
+                    </div>
 		</div>
 
 		<!--- Footer Include-->
