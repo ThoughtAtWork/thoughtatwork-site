@@ -77,13 +77,14 @@
 						</div>
 						<div class="circle-recap"></div>
 						<div class="line-recap1"></div>
-				</div>
+<!--				        <div class="line-recap2"></div>-->
+                </div>
 
 				<div class="recap-video">
                     <iframe class="TAW-Video" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
-            <div class="line-recap2"></div>
+            
 		</div>
 
 
@@ -151,30 +152,7 @@
             </div>
 		</div>
 
-		<!-- SPONSORS -->
-		<div class="container-fluid sponsors">
-			<div class="row">
-             <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="img/sponsor.png" />
-             </div>
-             <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="img/sponsor.png" />
-             </div>
-             <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="img/sponsor.png" />
-             </div>
-             <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="img/sponsor.png" />
-             </div>
-             <div class="col-md-2 sponsor-img">
-                <img class="img-responsive" src="img/sponsor.png" />
-             </div>
-            </div>
-            <div class="col-lg-12 sponsor-want">
-                        <div class="row-spacer">&nbsp;</div>
-                        <a href="">WANT TO SPONSOR?</a>
-                    </div>
-		</div>
+		
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>

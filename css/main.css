@@ -273,7 +273,7 @@ body {
      }
     .line-recap1 {
         width: 2px;
-        height: 27.8vh;
+        height: 27.8vw;
         float: right;
         z-index: 100;
         margin-top: 0vh;
@@ -502,16 +502,16 @@ body {
     }
     .sponsors .row {
         margin-top: 12vw;
-        margin-left: 220px !important;
-        margin-right: 130px !important;
+        margin-left: 8.3vw !important;
+        margin-right: 6.4vw !important;
     }
     .col-md-2 img{
         width: 11.15vw;
         max-width: 230px;
     }
     .sponsor-img {
-        margin-left: 25px !important;
-        margin-right: 25px !important;
+        margin-left: 1.3vw !important;
+        margin-right: 1.3vw !important;
     }
     .sponsor-want{
         align-content: center;

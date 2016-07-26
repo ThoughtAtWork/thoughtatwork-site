@@ -1,3 +1,28 @@
+<!-- SPONSORS -->
+<div class="container-fluid sponsors">
+    <div class="row">
+         <div class="col-md-2 sponsor-img">
+            <img class="img-responsive" src="img/sponsor.png" />
+         </div>
+         <div class="col-md-2 sponsor-img">
+            <img class="img-responsive" src="img/sponsor.png" />
+         </div>
+         <div class="col-md-2 sponsor-img">
+            <img class="img-responsive" src="img/sponsor.png" />
+         </div>
+         <div class="col-md-2 sponsor-img">
+            <img class="img-responsive" src="img/sponsor.png" />
+         </div>
+         <div class="col-md-2 sponsor-img">
+            <img class="img-responsive" src="img/sponsor.png" />
+         </div>
+     </div>
+    <div class="col-lg-12 sponsor-want">
+        <div class="row-spacer">&nbsp;</div>
+        <a href="">WANT TO SPONSOR?</a>
+    </div>
+</div>
+<!-- FOOTER -->
 <footer class="footer">
     <div class="container">
         <div class="collapse navbar-collapse navbar-inner footer-nav">
