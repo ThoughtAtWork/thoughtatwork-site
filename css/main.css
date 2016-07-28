@@ -168,10 +168,10 @@ body {
     }
     .splash-words {
         color: #ffffff;
-        padding-top: 300px;
+        padding-top: 16vw;
         padding-left: 12.4vw !important;
         width: 100%;
-        height: 728px;
+        height: 37.9vw;
         background-image: url(../img/background.jpg);
         /*background-position: left bottom;*/
         background-repeat: no-repeat;
@@ -182,20 +182,20 @@ body {
         font-size: 4.5vw;
         font-family: "Elliot-Bold";
     }
-    .about {
+    .tawis {
         background-color: #ffffff;
         width: 100%;
         height: 28.3vw;
         text-align: center;
     }
-    .about-desc p {
+    .tawis-desc p {
         font-family: Elliot-Thin;
         margin: 11% auto 3% auto;
         font-size: 2.016vw;
         width: 50%;
         line-height: 1.5;
     }
-    .about-desc .schedule {
+    .tawis-desc .schedule {
         font-size: .7vw;
         font-family: Elliot-Bold;
         color: black;
@@ -528,6 +528,124 @@ body {
         color: #000000 !important;
         letter-spacing: 1.5px;
     }
+/*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
+    .about-splash-words {
+        color: #ffffff;
+        padding-top: 7.5vw;
+        padding-left: 12.4vw !important;
+        width: 100%;
+        height: 19.8vw;
+        background-image: url(../img/about_splash.jpg);
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .about-splash-words h1 {
+        font-size: 4.5vw;
+        font-family: "Elliot-Bold";
+    }
+    .come-hang {
+        color: black;
+        background-color: #ffffff;
+        width: 100%;
+        height: 51.5vw;
+    }
+    .come-hang h2 {
+        margin-top: 4.50vw;
+        margin-left: 11.6vw;
+        font-size: 2vw;
+        width: 20vw;
+        max-width: 1000px;
+        font-family: "Elliot";
+    }
+    .offer {
+        width: 30vw;
+        margin-top: 4.1vw;
+        margin-left: 20.3vw;
+    }
+    .offer h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Light";
+    }
+    .offer p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Light";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
+    .date {
+        width: 21vw !important;
+        height: 12.1vw;
+        margin-left: 7.30vw;
+        margin-top: 4.1vw;
+        font-size: 1.25vw;
+        font-family: "Elliot-Thin";
+        line-height: .5;
+    }
+    .month {
+        margin-top: 1vw; 
+        font-size: 6.15vw;
+        margin-left: -.8vw;
+    }
+    .days {
+        font-size: 6.15vw;
+        margin-top: 4.5vw; 
+        margin-left: 3.6vw;
+        width: 24vw;
+        max-width: 750px;
+    }
+    .come {
+        width: 30vw;
+        margin-left: 45.20vw;
+        margin-top: 5.85vw;
+    }
+    .come h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Light";
+        margin-left: -.15vw;
+    }
+    .come p {
+        font-size: 1.04vw;
+        font-family: "Elliot-Light";
+        margin-top: 1.40vw;
+        line-height: 1.67vw;
+        width: 32vw;
+        height: 8.30vw;
+    }
+    .circle-come-hang {
+        width: 10px;
+        height: 10px;
+        float: right;
+        z-index: 101;
+        margin-right: 12.3vw;
+        background: black;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .line-come-hang {
+        width: 2px;
+        height: 22.85vw;
+        float: right;
+        z-index: 100;
+        margin-top: 0vh;
+        margin-right: -0.4vw;
+        background: black;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
 }
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {

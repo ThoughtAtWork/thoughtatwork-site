@@ -36,57 +36,16 @@
 	</head>
 	<body>
         <?php include("header.php"); ?>
+
  <!--  -->
 		<!-- HEADER / SPLASH -->
-		<div class="container-fluid splash-words">
+		<div class="container-fluid about-splash-words">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="title">Thought at Work</h1>
-					<h2 class="splash-date">Oct 23-25 2016</h2>
-					<h3 class="splash-location">&nbsp; &nbsp; @ Rochester Institute of Technology </h3>
-				</div>
-			</div>
-<!--
-			<div class="row">
-				<div class="col-lg-12">
-					<p> Social Media icons </p>
-				</div>
-			</div>
--->
-		</div>
-
-		<!-- ABOUT -->
-		<div class="container-fluid tawis">
-			<div class="row">
-				<div class="col-lg-12 tawis-desc">
-					<p> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
-					<a href="" class="schedule">VIEW SCHEDULE</a>
+					<h1 class="title">ABOUT US</h1>
 				</div>
 			</div>
 		</div>
-
-		<!-- RECAP -->
-		<div class="container-fluid recap">
-			<div class="row">
-				<div class="col-lg-6 recap-recap">
-						<div class="recap-info">
-							<h3> RECAP </h3>
-							<br><br>
-							<p>Hundreds of passionate students get inspired &amp; collaborate.</p>
-							<p>Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
-						</div>
-						<div class="circle-recap"></div>
-						<div class="line-recap1"></div>
-<!--				        <div class="line-recap2"></div>-->
-                </div>
-
-				<div class="recap-video">
-                    <iframe class="TAW-Video" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				</div>
-			</div>
-            
-		</div>
-
 
 			<!-- COME HANG -->
 		<div class="container-fluid come-hang">
@@ -156,7 +115,7 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-        
+
         <!---->
 	</body>
 </html>
