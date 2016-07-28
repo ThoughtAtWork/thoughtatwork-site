@@ -11,9 +11,9 @@
         </div>
         <div class="collapse navbar-collapse navbar-inner" id="expand-nav">
             <ul class="nav navbar-nav navbar-right p-r-9">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="#">Arrival</a></li>
-                <li class="text-nowrap"><a href="#">About Us</a></li>
+                <li class="text-nowrap"><a href="about.php">About Us</a></li>
                <li><a href="#">Contact</a></li>
                <li><a href="#">Register</a></li>
             </ul>

@@ -36,7 +36,6 @@
 	</head>
 	<body>
         <?php include("header.php"); ?>
-
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid about-splash-words">
@@ -48,21 +47,23 @@
 		</div>
 
 			<!-- COME HANG -->
-		<div class="container-fluid come-hang">
+		<div class="container-fluid about">
 			<div class="row">
-				<div class="col-lg-12 come-hang-h2">
-						<h2>COME HANG</h2>
+				<div class="col-lg-12">
+						<h2>HISTORY IN <br>&nbsp;&nbsp;&nbsp;<span> </span>THE MAKING</h2>
 				</div>
 				<div class="col-lg-6">
-						<div class="offer">
-							<h4>What We Offer</h4>
-
-							<p>Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
+						<div class="about-desc">
+							<p>After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
 						</div>
 				</div>
-				<div class="col-lg-6 date">
-						<p class="month">Oct</p>
-						<p class="days"> 23-25</p>
+				<div class="col-lg-6 also">
+                     <div class="also-desc"><p>Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
+                    <div class="also-checkout"><p><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
+                    <div class="also-roll"><p>Ready to roll?</p></div>
+                    <div class="also-register">
+                        <p>REGISTER</p>
+                    </div>
 				</div>
 			</div>
 			<div class="row">
@@ -115,7 +116,6 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-
         <!---->
 	</body>
 </html>

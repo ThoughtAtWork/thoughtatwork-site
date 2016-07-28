@@ -532,7 +532,7 @@ body {
     .about-splash-words {
         color: #ffffff;
         padding-top: 7.5vw;
-        padding-left: 12.4vw !important;
+        padding-left: 11.7vw !important;
         width: 100%;
         height: 19.8vw;
         background-image: url(../img/about_splash.jpg);
@@ -545,58 +545,102 @@ body {
         font-size: 4.5vw;
         font-family: "Elliot-Bold";
     }
-    .come-hang {
+    .about {
         color: black;
         background-color: #ffffff;
         width: 100%;
         height: 51.5vw;
     }
-    .come-hang h2 {
-        margin-top: 4.50vw;
-        margin-left: 11.6vw;
-        font-size: 2vw;
+    .about h2 {
+        margin-top: 4.70vw;
+        margin-left: 10.93vw;
+        font-size: 2.10vw;
         width: 20vw;
         max-width: 1000px;
         font-family: "Elliot";
+        letter-spacing: .5px;
+        line-height: 2.7vw;
     }
-    .offer {
+    .about-desc {
         width: 30vw;
-        margin-top: 4.1vw;
-        margin-left: 20.3vw;
+        margin-top: 3.75vw;
+        margin-left: 20.8vw;
     }
-    .offer h4 {
+    .about-desc h4 {
         font-size: 1.6vw;
         font-family: "Elliot-Light";
     }
-    .offer p {
+    .about-desc p {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
         font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
+        letter-spacing: .3px;
         line-height: 1.67vw;
     }
-    .date {
-        width: 21vw !important;
-        height: 12.1vw;
-        margin-left: 7.30vw;
-        margin-top: 4.1vw;
+    .also {
+        width: 47vw !important;
+        height: 29.15vw;
+        margin-left: 3.00vw;
+        margin-top: -1.25vw;
         font-size: 1.25vw;
         font-family: "Elliot-Thin";
-        line-height: .5;
+        background-color: #000000;
     }
-    .month {
-        margin-top: 1vw; 
-        font-size: 6.15vw;
+    .also-desc{
+        margin-top: 4.95vw; 
+        padding-left: 6.25vw;
+        padding-right: 5vw;
+        font-size: 1.55vw;
         margin-left: -.8vw;
+        color: white;
+        letter-spacing: .5px;
+        line-height: 2.1vw;
     }
-    .days {
-        font-size: 6.15vw;
-        margin-top: 4.5vw; 
-        margin-left: 3.6vw;
-        width: 24vw;
-        max-width: 750px;
+    .also-checkout {
+        margin-top: 1.6vw; 
+        padding-left: 6.2vw;
+        padding-right: 5vw;
+        font-size: 0.7vw;
+        margin-left: -.8vw;
+        color: white;
+        font-family: "Elliot-Bold";
+        letter-spacing: 1.5px;
+        line-height: 2.1vw;
+    }
+    .also-checkout a:link, a:visited, a:hover, a:active {
+        color: white !important;
+        font-size: 0.7vw !important;
+    }
+    .also-roll {
+        padding-left: 5.35vw;
+        padding-right: 5vw;
+        margin-top: 4.2vw;
+        color: white;
+        font-family: "Elliot-Thin";
+        letter-spacing: 1px;
+        font-size: 1vw;
+    }
+    .also-register {
+        width: 7.4vw !important;
+        height: 2.5vw;
+        margin-left: 5.40vw;
+        margin-top: 1.45vw;
+        background-color: #FF1631;
+    }
+    .also-register p {
+        color: white;
+        font-size: .7vw;
+        font-family: "Elliot";
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        letter-spacing: 1.9px;
+        padding-top: .8vw;
     }
     .come {
         width: 30vw;
