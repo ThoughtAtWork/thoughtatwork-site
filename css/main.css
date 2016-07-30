@@ -675,6 +675,7 @@ body {
         width: 2px;
         height: 22.85vw;
         float: right;
+        float: right;
         z-index: 100;
         margin-top: 0vh;
         margin-right: -0.4vw;
@@ -684,7 +685,49 @@ body {
         border-radius: 10px;
     }
 
-
+    /*------------ARRIVAL-------------*/
+    .whattoexpect-sec {
+        width: 30vw;
+        margin-top: 4.1vw;
+        margin-left: 20.3vw;
+    }
+    .whattoexpect-sec h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Light";
+    }
+    .whattoexpect-sec p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Light";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
+    .whattoexpect-number-right {
+        margin-top: 4vw;
+        font-size: 6.15vw;
+        margin-left: 3.2vw;
+    }
+    .whattoexpect-text-right {
+        font-size: 1.4vw;
+        margin-top: 2vw;
+        margin-left: 7vw;
+        width: 24vw;
+        max-width: 750px;
+    }
+    .whattoexpect-number-left {
+        margin-top: 4vw;
+        font-size: 6.15vw;
+        margin-left: 3.2vw;
+    }
+    .whattoexpect-text-left {
+        font-size: 1.4vw;
+        margin-top: 2vw;
+        margin-left: 7vw;
+        width: 24vw;
+        max-width: 750px;
+    }
 
 
 
