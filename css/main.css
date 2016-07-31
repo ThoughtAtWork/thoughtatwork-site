@@ -131,13 +131,13 @@ body {
     .footer-text .special {
         padding-left: 10vw;
         padding-top: 8.3vh;
-        max-width: 1000px; 
+        max-width: 1000px;
     }
     .footer-text .copyright {
         padding-left: 10vw;
         padding-top: 4.4vh;
         padding-bottom: 8.0vh;
-        max-width: 1000px; 
+        max-width: 1000px;
     }
     .circle-footer {
         width: 10px;
@@ -337,13 +337,13 @@ body {
         line-height: .5;
     }
     .month {
-        margin-top: 1vw; 
+        margin-top: 1vw;
         font-size: 6.15vw;
         margin-left: -.8vw;
     }
     .days {
         font-size: 6.15vw;
-        margin-top: 4.5vw; 
+        margin-top: 4.5vw;
         margin-left: 3.6vw;
         width: 24vw;
         max-width: 750px;
@@ -430,7 +430,7 @@ body {
     }
     .speaker-img-1 img {
        width: 22.5vw;
-       height: 29.3vw; 
+       height: 29.3vw;
     }
     .speaker-img h2 {
         margin-top: 2.5vw;
@@ -438,13 +438,13 @@ body {
     }
     .speaker-img-1 p {
         margin-top: .85vw;
-        font-size: 1.07vw !important; 
-        width: 25.5vw; 
+        font-size: 1.07vw !important;
+        width: 25.5vw;
         max-width: 490px;
     }
    .speaker-img p {
         margin-top: .85vw;
-        font-size: 1.07vw !important; 
+        font-size: 1.07vw !important;
         width: 25.5vw;
         max-width: 490px;
         margin-left: -4px;
@@ -591,7 +591,7 @@ body {
         background-color: #000000;
     }
     .about-also-desc {
-        margin-top: 4.95vw; 
+        margin-top: 4.95vw;
         padding-left: 6.25vw;
         padding-right: 5vw;
         font-size: 1.55vw;
@@ -601,7 +601,7 @@ body {
         line-height: 2.1vw;
     }
     .about-also-checkout {
-        margin-top: 1.6vw; 
+        margin-top: 1.6vw;
         padding-left: 6.2vw;
         padding-right: 5vw;
         font-size: 0.7vw;
@@ -676,8 +676,14 @@ body {
     }
     .about-line {
         width: 2px;
+<<<<<<< HEAD
         height: 22.8vw;
         float: left;
+=======
+        height: 22.85vw;
+        float: right;
+        float: right;
+>>>>>>> origin/master
         z-index: 100;
         margin-left: -6px;
         margin-top: 3.4vw;
@@ -689,16 +695,16 @@ body {
     }
     .about-teampic {
         padding-bottom: 3.3vw;
-        
+
     }
     .about-teampic img{
         width: 76.5vw;/*76.6vw*/
         height: 36.45vw;
         margin-left: 11.75vw;
         margin-right: 10vw;
-        
+
     }
-    
+
     /*------------ARRIVAL-------------*/
     .arrival-sec {
         width: 30vw;
@@ -784,21 +790,6 @@ body {
         line-height: 1.67vw;
     }
 
-    .hotel-list{
-        list-style: none;
-        font-size: 1.04vw;
-        line-height: 1.65vw;
-        margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
-        width: 36vw;
-        height: 1vw;
-        line-height: 1.67vw;
-    }
-    .hotel-bold{
-        font-family: "Elliot";
-
-    }
-
     .whattobring-sec-right{
         background-image: url(../img/4-5-16_Tequilla-_0377.png);
         background-position:center top;
@@ -865,7 +856,7 @@ body {
     .splash-words h1 {
         font-size: 4.5vw;
     }
-        
+
     }
 
     /* Small Devices, Tablets */
