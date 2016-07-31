@@ -686,31 +686,31 @@ body {
     }
 
     /*------------ARRIVAL-------------*/
-    .whattoexpect-sec {
+    .arrival-sec {
         width: 30vw;
         margin-top: 4.1vw;
         margin-left: 20.3vw;
     }
-    .whattoexpect-sec h4 {
+    .arrival-sec h4 {
         font-size: 1.6vw;
-        font-family: "Elliot-Light";
+        font-family: "Elliot-Thin";
     }
-    .whattoexpect-sec p {
+    .arrival-sec p {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        font-family: "Elliot-Light";
+        font-family: "Elliot-Thin";
         width: 28vw;
         height: 9vw;
         line-height: 1.67vw;
     }
     .whattoexpect-number-right {
         margin-top: 4vw;
-        font-size: 6.15vw;
+        font-size: 6vw;
         margin-left: 3.2vw;
     }
     .whattoexpect-text-right {
-        font-size: 1.4vw;
+        font-size: 1vw;
         margin-top: 2vw;
         margin-left: 7vw;
         width: 24vw;
@@ -718,15 +718,99 @@ body {
     }
     .whattoexpect-number-left {
         margin-top: 4vw;
-        font-size: 6.15vw;
-        margin-left: 3.2vw;
+        font-size: 6vw;
+        margin-left: 21.2vw;
     }
     .whattoexpect-text-left {
-        font-size: 1.4vw;
+        font-size: 1.2vw;
         margin-top: 2vw;
-        margin-left: 7vw;
+        margin-left: 25vw;
         width: 24vw;
         max-width: 750px;
+    }
+
+    .wheretostay-sec-left {
+        width: 30vw;
+        margin-top: 4.1vw;
+        margin-left: 11.6vw;
+    }
+    .wheretostay-sec-left h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
+    .wheretostay-sec-left p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
+    .nice-text-padding{
+        padding: 3vw;
+        margin-left: 3vw;
+    }
+    .wheretostay-sec-right {
+        color: white;
+        background-color: black;
+        margin-top: 4.1vw;
+        margin-left: -7.4vw;
+        height: 100%;
+    }
+    .wheretostay-sec-right h4 {
+        font-size: 1.6vw;
+    }
+    .wheretostay-sec-right p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 1vw;
+        line-height: 1.67vw;
+    }
+
+    .hotel-list{
+        list-style: none;
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Thin";
+        width: 36vw;
+        height: 1vw;
+        line-height: 1.67vw;
+    }
+    .hotel-bold{
+        font-family: "Elliot";
+
+    }
+
+    .whattobring-sec-right{
+        background-image: url(../img/4-5-16_Tequilla-_0377.png);
+        background-position:center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        background-color: cyan;
+        margin-top: -6.3vw;
+        height: 33vw;
+    }
+
+    .whattobring-sec-right h2{
+        font-family: Elliot-Light;
+        margin-left: 16vw;
+        padding-top: 17vw;
+    }
+
+    .whattobring-sec-left{
+        margin-left: 4vw;
+        margin-top: 11vw;
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 1vw;
+        line-height: 1.67vw;
     }
 
 
