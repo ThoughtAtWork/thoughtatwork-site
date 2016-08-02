@@ -88,8 +88,8 @@ body {
         text-transform: uppercase;
         color: white !important;
     }
-    
-    
+
+
     /*    Splash Section*/
     .splash-date {
         font-size: 2.7vw !important;
@@ -119,7 +119,7 @@ body {
         text-transform: uppercase;
         color: white !important;
     }
-    
+
 /*    Thought at Work is white section*/
     .tawis {
         background-color: #ffffff;
@@ -276,13 +276,13 @@ body {
         line-height: .5;
     }
     .month {
-        margin-top: 1vw; 
+        margin-top: 1vw;
         font-size: 6.15vw;
         margin-left: -.8vw;
     }
     .days {
         font-size: 6.15vw;
-        margin-top: 4.5vw; 
+        margin-top: 4.5vw;
         margin-left: 3.6vw;
         width: 24vw;
         max-width: 750px;
@@ -368,7 +368,7 @@ body {
     }
     .speaker-img-1 img {
        width: 22.5vw;
-       height: 29.3vw; 
+       height: 29.3vw;
     }
     .speaker-img h2 {
         margin-top: 2.5vw;
@@ -376,13 +376,13 @@ body {
     }
     .speaker-img-1 p {
         margin-top: .85vw;
-        font-size: 1.07vw !important; 
-        width: 25.5vw; 
+        font-size: 1.07vw !important;
+        width: 25.5vw;
         max-width: 490px;
     }
    .speaker-img p {
         margin-top: .85vw;
-        font-size: 1.07vw !important; 
+        font-size: 1.07vw !important;
         width: 25.5vw;
         max-width: 490px;
         margin-left: -4px;
@@ -614,14 +614,8 @@ body {
     }
     .about-line {
         width: 2px;
-<<<<<<< HEAD
-        height: 22.8vw;
-        float: left;
-=======
         height: 22.85vw;
-        float: right;
-        float: right;
->>>>>>> origin/master
+        float: left;
         z-index: 100;
         margin-left: -6px;
         margin-top: 3.4vw;
@@ -866,7 +860,7 @@ body {
         height: 9vw;
         line-height: 1.67vw;
     }
-    
+
     /* Footer Styles */
     footer {
         background-color: #F93642;
@@ -893,13 +887,13 @@ body {
     .footer-text .special {
         padding-left: 10vw;
         padding-top: 8.3vh;
-        max-width: 1000px; 
+        max-width: 1000px;
     }
     .footer-text .copyright {
         padding-left: 10vw;
         padding-top: 4.4vh;
         padding-bottom: 8.0vh;
-        max-width: 1000px; 
+        max-width: 1000px;
     }
     .circle-footer {
         width: 10px;
@@ -932,7 +926,7 @@ body {
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-   
+
 }
 
 /* Small Devices, Tablets */
@@ -962,7 +956,7 @@ body {
         margin-top: 3.5vw;
         font-family: "Elliot-Thin";
     }
-   
+
     .splash-words {
         color: #ffffff;
         padding-top: 16vh;
@@ -984,7 +978,7 @@ body {
         float: right;
         font-size: 3.4vw;
     }
-    
+
     /*    Thought at Work is white section*/
     .tawis {
         background-color: #ffffff;
