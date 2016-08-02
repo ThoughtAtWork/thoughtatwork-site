@@ -574,23 +574,23 @@ body {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        font-family: "Elliot-Light";
+        font-family: "Elliot-Thin";
         width: 28vw;
         height: 9vw;
         letter-spacing: .3px;
         line-height: 1.67vw;
     }
-    .also {
-        width: 47vw !important;
+    .about-also {
+        width: 46.9vw !important;
         height: 29.15vw;
-        margin-left: 3.00vw;
+        margin-left: 3.1vw;
         margin-top: -1.25vw;
         font-size: 1.25vw;
         font-family: "Elliot-Thin";
         background-color: #000000;
     }
-    .also-desc{
-        margin-top: 4.95vw; 
+    .about-also-desc {
+        margin-top: 4.95vw;
         padding-left: 6.25vw;
         padding-right: 5vw;
         font-size: 1.55vw;
@@ -599,8 +599,8 @@ body {
         letter-spacing: .5px;
         line-height: 2.1vw;
     }
-    .also-checkout {
-        margin-top: 1.6vw; 
+    .about-also-checkout {
+        margin-top: 1.6vw;
         padding-left: 6.2vw;
         padding-right: 5vw;
         font-size: 0.7vw;
@@ -610,11 +610,11 @@ body {
         letter-spacing: 1.5px;
         line-height: 2.1vw;
     }
-    .also-checkout a:link, a:visited, a:hover, a:active {
+    .about-also-checkout a:link, a:visited, a:hover, a:active {
         color: white !important;
         font-size: 0.7vw !important;
     }
-    .also-roll {
+    .about-also-roll {
         padding-left: 5.35vw;
         padding-right: 5vw;
         margin-top: 4.2vw;
@@ -623,16 +623,16 @@ body {
         letter-spacing: 1px;
         font-size: 1vw;
     }
-    .also-register {
+    .about-also-register {
         width: 7.4vw !important;
         height: 2.5vw;
         margin-left: 5.40vw;
         margin-top: 1.45vw;
         background-color: #FF1631;
     }
-    .also-register p {
+    .about-also-register a {
         color: white;
-        font-size: .7vw;
+        font-size: .7vw !important;
         font-family: "Elliot";
         display: flex;
         text-align: center;
@@ -642,47 +642,66 @@ body {
         letter-spacing: 1.9px;
         padding-top: .8vw;
     }
-    .come {
+    .about-kids {
         width: 30vw;
-        margin-left: 45.20vw;
-        margin-top: 5.85vw;
+        margin-left: 10.8vw;
+        margin-top: 4.85vw;
     }
-    .come h4 {
-        font-size: 1.6vw;
-        font-family: "Elliot-Light";
+    .about-kids h4 {
+        margin-bottom: 4.8vw;
+        font-size: 2.05vw;
+        font-family: "Elliot";
         margin-left: -.15vw;
+        margin-bottom: 4.60vw;
     }
-    .come p {
-        font-size: 1.04vw;
-        font-family: "Elliot-Light";
-        margin-top: 1.40vw;
+    .about-kids p {
+        font-size: 1.07vw;
+        font-family: "Elliot-Thin";
         line-height: 1.67vw;
-        width: 32vw;
+        width: 27.5vw;
         height: 8.30vw;
     }
-    .circle-come-hang {
+    .about-circle {
         width: 10px;
         height: 10px;
-        float: right;
-        z-index: 101;
-        margin-right: 12.3vw;
+        float: left;
+        z-index: 100;
+        margin-left: 10.9vw;
         background: black;
+        margin-top: 2.85vw;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-    .line-come-hang {
+    .about-line {
         width: 2px;
+<<<<<<< HEAD
+        height: 22.8vw;
+        float: left;
+=======
         height: 22.85vw;
         float: right;
         float: right;
+>>>>>>> origin/master
         z-index: 100;
-        margin-top: 0vh;
+        margin-left: -6px;
+        margin-top: 3.4vw;
         margin-right: -0.4vw;
         background: black;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
         border-radius: 10px;
+    }
+    .about-teampic {
+        padding-bottom: 3.3vw;
+
+    }
+    .about-teampic img{
+        width: 76.5vw;/*76.6vw*/
+        height: 36.45vw;
+        margin-left: 11.75vw;
+        margin-right: 10vw;
+
     }
 
     /*------------ARRIVAL-------------*/
@@ -815,21 +834,6 @@ body {
         line-height: 1.67vw;
     }
 
-    .hotel-list{
-        list-style: none;
-        font-size: 1.04vw;
-        line-height: 1.65vw;
-        margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
-        width: 36vw;
-        height: 1vw;
-        line-height: 1.67vw;
-    }
-    .hotel-bold{
-        font-family: "Elliot";
-
-    }
-
     .whattobring-sec-right{
         background-image: url(../img/4-5-16_Tequilla-_0377.png);
         background-position:center top;
@@ -926,6 +930,7 @@ body {
 
 
 
+
 }
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
@@ -963,7 +968,7 @@ body {
     .splash-words h1 {
         font-size: 4.5vw;
     }
-        
+
     }
 
     /* Small Devices, Tablets */

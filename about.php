@@ -36,6 +36,7 @@
 	</head>
 	<body>
         <?php include("header.php"); ?>
+        
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid about-splash-words">
@@ -56,66 +57,32 @@
 						<div class="about-desc">
 							<p>After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
 						</div>
+                    <div class="about-circle"></div>
+                <div class="about-line"></div>
 				</div>
-				<div class="col-lg-6 also">
-                     <div class="also-desc"><p>Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
-                    <div class="also-checkout"><p><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
-                    <div class="also-roll"><p>Ready to roll?</p></div>
-                    <div class="also-register">
-                        <p>REGISTER</p>
+				<div class="col-lg-6 about-also">
+                     <div class="about-also-desc"><p>Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
+                    <div class="about-also-checkout"><p><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
+                    <div class="about-also-roll"><p>Ready to roll?</p></div>
+                    
+                    <div class="about-also-register">
+                        <a href="#">REGISTER</a>
                     </div>
 				</div>
+                
 			</div>
-			<div class="row">
-				<div class="col-lg-6">
-
-						<div class="come">
-							<h4>Who Should Come</h4>
-						<p>Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
-
-						</div>
-				</div>
-				<div class="circle-come-hang"></div>
-                <div class="line-come-hang"></div>
+            <div class="col-lg-12">
+                <div class="about-kids">
+                    <h4>THE COOL KIDS</h4>
+                    <p>Our travelling event series that challenges human adults to make comedy with technology. Every event starts like a party, morphs into a hackathon, and ends in a comedy show - capped with more partying. We also own a domain.</p>
+                </div>				
 			</div>
 		</div>
-
-		<!-- SPEAKERS -->
-		<div class="container-fluid speakers" >
-			<div class="row">
-				<div class="col-lg-12 speakers-title">
-					<h2> SPEAKERS </h2>
-				</div>
-			</div>
-			<div class="row speakers-centered">
-				<div class="col-lg-2 speaker-img-1 ">
-				<img src="img/speaker.jpg" />
-					<h2>Mt. Mograph</h2>
-					<p>Motion Graphics, Photography, Development</p>
-				</div>
-				<div class="col-lg-2 speaker-img">
-					<img src="img/speaker.jpg" />
-					<h2>Kim Alpert</h2>
-					<p>Creative Coding, Photography, Development</p>
-				</div>
-				<div class="col-lg-2 speaker-img">
-					<img src="img/speaker.jpg" />
-					<h2>Patty Moore</h2>
-					<p class="speaker-p-3">Industrial Design, Photography, Development</p>
-				</div>
-                    <div class="col-lg-12 speaker-viewall">
-                        <div class="row-spacer">&nbsp;</div>
-                        <a href="">VIEW ALL</a>
-                    </div>
-                    <div class="circle-speakers"></div>
-                    <div class="line-speakers"></div>
+        <div class="about-teampic">
+        <img src="img/team-photo.png" />
             </div>
-		</div>
-
-		
-
-		<!--- Footer Include-->
+        <!--- Footer Include-->
 		<?php include("footer.php"); ?>
-        <!---->
+       
 	</body>
 </html>
