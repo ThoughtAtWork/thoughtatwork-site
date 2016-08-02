@@ -36,24 +36,23 @@
 	</head>
 	<body>
         <?php include("header.php"); ?>	
+
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="title">Thought at Work</h1>
+					<h1>Thought at Work</h1>
 					<h2 class="splash-date">Oct 23-25 2016</h2>
-					<h3 class="splash-location">&nbsp; &nbsp; @ Rochester Institute of Technology </h3>
+					<h3 class="splash-location">@ Rochester Institute of Technology </h3>
 				</div>
 			</div>
-<!--
-			<div class="row">
-				<div class="col-lg-12">
-					<p> Social Media icons </p>
-				</div>
-			</div>
--->
-		</div>
+            
+            <div class="mobile-learn-more">
+                <p>&larr; &nbsp; Learn More </p>
+            </div>
+        
+        </div>
 
 		<!-- ABOUT -->
 		<div class="container-fluid tawis">
@@ -156,7 +155,7 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-        
+
         <!---->
 	</body>
 </html>
