@@ -305,7 +305,7 @@ body {
         margin-top: 4.50vw;
         margin-left: 11.6vw;
         font-size: 2vw;
-        width: 20vw;
+        width: 30vw;
         max-width: 1000px;
         font-family: "Elliot";
     }
@@ -686,15 +686,45 @@ body {
     }
 
     /*------------ARRIVAL-------------*/
+
+    .countdown{
+        height: 11vw;
+        margin-top: 2vw;
+    }
+
+    .countdown2{
+        height: 11vw;
+        margin-top: 4vw;
+    }
+
+    .countdown-date{
+        font-family: "Elliot-Thin";
+        font-size: 6vw;
+
+    }
+
+    .countdown-text{
+        font-family: "Elliot-Thin";
+        margin-left: 4vw;
+    }
+
+    .col-centered{
+
+    }
+
     .arrival-sec {
         width: 30vw;
         margin-top: 4.1vw;
-        margin-left: 20.3vw;
+        margin-left: 11.5vw;
+    }
+    .arrival-sec2 {
+        width: 30vw;
+        margin-top: 4.1vw;
     }
     .arrival-sec h4 {
-        font-size: 1.6vw;
-        font-family: "Elliot-Thin";
-    }
+         font-size: 1.6vw;
+         font-family: "Elliot-Thin";
+     }
     .arrival-sec p {
         font-size: 1.04vw;
         line-height: 1.65vw;
@@ -704,6 +734,21 @@ body {
         height: 9vw;
         line-height: 1.67vw;
     }
+
+    .arrival-sec2 h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
+    .arrival-sec2 p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
+
     .whattoexpect-number-right {
         margin-top: 4vw;
         font-size: 6vw;
@@ -813,7 +858,71 @@ body {
         line-height: 1.67vw;
     }
 
+    .gettinghere-sec-left {
+        width: 30vw;
+        margin-top: 4.1vw;
+        margin-left: 11.6vw;
+    }
 
+
+    .gettinghere-sec-left h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
+
+    .gettinghere-sec-left p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
+
+
+    .gettinghere-sec-right {
+        color: white;
+        background-color: black;
+        margin-top: 4.1vw;
+        margin-left: -7.4vw;
+        height: 100%;
+    }
+
+    #map{
+        width: 100%;
+        height: 17vw;
+        background-color: grey;
+    }
+
+    .gettinghere-checkin-sec-left{
+        color: white;
+        background-color: black;
+        margin-top: 2.1vw;
+        margin-left: -7.4vw;
+        height: 17vw;
+    }
+
+    .gettinghere-checkin-sec-right{
+        width: 30vw;
+        margin-top: 4.1vw;
+        margin-left: 9.6vw;
+    }
+
+    .gettinghere-checkin-sec-right h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
+
+    .gettinghere-checkin-sec-right p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
 
 
 
