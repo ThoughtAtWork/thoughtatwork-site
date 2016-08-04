@@ -47,7 +47,7 @@
 				<div class="col-lg-12">
 					<h1>Thought at Work</h1>
 					<h2 class="splash-date">Oct 23-25 2016</h2>
-					<h3 class="splash-location">@ Rochester Institute of Technology </h3>
+					<h3 class="splash-location">&nbsp; @ Rochester Institute of Technology </h3>
 				</div>
 			</div>
 
