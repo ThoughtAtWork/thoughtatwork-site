@@ -105,6 +105,11 @@ body {
         font-size: .75vw !important;
         font-family: "Elliot-Thin" !important;
     }
+
+    .top-buffer {
+        margin-top:5vw;
+    }
+
     /* Footer Styles */
     footer {
         background-color: #F93642;
@@ -675,14 +680,11 @@ body {
     }
     .about-line {
         width: 2px;
-<<<<<<< HEAD
         height: 22.8vw;
         float: left;
-=======
         height: 22.85vw;
         float: right;
         float: right;
->>>>>>> origin/master
         z-index: 100;
         margin-left: -6px;
         margin-top: 3.4vw;
@@ -734,7 +736,7 @@ body {
     .arrival-sec {
         width: 30vw;
         margin-top: 4.1vw;
-        margin-left: 11.5vw;
+        margin-left: 12.5vw;
     }
     .arrival-sec2 {
         width: 30vw;
@@ -796,7 +798,7 @@ body {
     .wheretostay-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
-        margin-left: 11.6vw;
+        margin-left: 11.8vw;
     }
     .wheretostay-sec-left h4 {
         font-size: 1.6vw;
@@ -816,10 +818,8 @@ body {
         margin-left: 3vw;
     }
     .wheretostay-sec-right {
-        color: white;
-        background-color: black;
+        color: black;
         margin-top: 4.1vw;
-        margin-left: -7.4vw;
         height: 100%;
     }
     .wheretostay-sec-right h4 {
@@ -834,6 +834,29 @@ body {
         line-height: 1.67vw;
     }
 
+    .whattobring-sec-left{
+
+    }
+
+    .whattobring-sec-left {
+        width: 30vw;
+        margin-top: 4.1vw;
+        margin-left: 11.8vw;
+    }
+    .whattobring-sec-left h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
+    .whattobring-sec-left p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        margin-top: 1.8vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
+
     .whattobring-sec-right{
         background-image: url(../img/4-5-16_Tequilla-_0377.png);
         background-position:center top;
@@ -845,43 +868,10 @@ body {
         height: 33vw;
     }
 
-    .whattobring-sec-right h2{
-        font-family: Elliot-Light;
-        margin-left: 16vw;
-        padding-top: 17vw;
-    }
-
-    .whattobring-sec-left{
-        margin-left: 4vw;
-        margin-top: 11vw;
-        font-size: 1.04vw;
-        line-height: 1.65vw;
-        font-family: "Elliot-Thin";
-        width: 28vw;
-        height: 1vw;
-        line-height: 1.67vw;
-    }
-
     .gettinghere-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
         margin-left: 11.6vw;
-    }
-
-
-    .gettinghere-sec-left h4 {
-        font-size: 1.6vw;
-        font-family: "Elliot-Thin";
-    }
-
-    .gettinghere-sec-left p {
-        font-size: 1.04vw;
-        line-height: 1.65vw;
-        margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
-        width: 28vw;
-        height: 9vw;
-        line-height: 1.67vw;
     }
 
 
@@ -892,6 +882,20 @@ body {
         margin-left: -7.4vw;
         height: 100%;
     }
+
+    .gettinghere-sec-left h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
+
+    .gettinghere-sec-left p, li {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        list-style: none;
+    }
+
 
     #map{
         width: 100%;
