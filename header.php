@@ -1,15 +1,15 @@
-<nav class="navbar navbar navbar-fixed-top p-a-9" role="navigation">
-    <div class="container-fluid">
+<nav class="navbar  navbar-fixed-top p-a-9" role="navigation">
+    <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#expand-nav" aria-expanded="false">
-                <span class="sr-only">toggle navigation</span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand title p-l-12" href="index.php">Thought at Work</a>
         </div>
-        <div class="collapse navbar-collapse navbar-inner" id="expand-nav">
+        <div class="navbar-collapse collapse navbar-inner">
             <ul class="nav navbar-nav navbar-right p-r-9">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="arrival.php">Arrival</a></li>
@@ -19,4 +19,4 @@
             </ul>
         </div>
     </div>
-</nav>		
+</nav>

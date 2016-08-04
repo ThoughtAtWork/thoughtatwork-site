@@ -28,6 +28,9 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
@@ -35,25 +38,24 @@
 
 	</head>
 	<body>
-        <?php include("header.php"); ?>	
+        <?php include("header.php"); ?>
+
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="title">Thought at Work</h1>
+					<h1>Thought at Work</h1>
 					<h2 class="splash-date">Oct 23-25 2016</h2>
-					<h3 class="splash-location">&nbsp; &nbsp; @ Rochester Institute of Technology </h3>
+					<h3 class="splash-location">@ Rochester Institute of Technology </h3>
 				</div>
 			</div>
-<!--
-			<div class="row">
-				<div class="col-lg-12">
-					<p> Social Media icons </p>
-				</div>
-			</div>
--->
-		</div>
+
+            <div class="mobile-learn-more">
+                <p>&larr; &nbsp; Learn More </p>
+            </div>
+
+        </div>
 
 		<!-- ABOUT -->
 		<div class="container-fluid tawis">
@@ -84,7 +86,7 @@
                     <iframe class="TAW-Video" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
-            
+
 		</div>
 
 
@@ -152,11 +154,11 @@
             </div>
 		</div>
 
-		
+
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-        
+
         <!---->
 	</body>
 </html>
