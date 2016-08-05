@@ -40,6 +40,66 @@ body {
 
 }
 
+/* All Device Style */
+/* Footer Styles */
+    footer {
+        background-color: #F93642;
+        padding-top: 7vh !important;
+    }
+    .footer-text p {
+        color: #E2E2E2 !important;
+        font-family: "Elliot-Thin";
+    }
+    .footer-nav ul li {
+        padding-left: 10vw;
+        width: 14vw;
+        max-width: 250px !important;
+    }
+    .footer-nav .nav {
+        padding-top: .3vh;
+        padding-bottom: 5.4vh;
+    }
+    .footer-nav a {
+        font-size: 12.5px;
+        font-family: "Elliot" !important;
+        color: white !important;
+    }
+    .footer-text .special {
+        padding-left: 10vw;
+        padding-top: 8.3vh;
+        max-width: 1000px;
+    }
+    .footer-text .copyright {
+        padding-left: 10vw;
+        padding-top: 4.4vh;
+        padding-bottom: 8.0vh;
+        max-width: 1000px;
+    }
+    .circle-footer {
+        width: 10px;
+        height: 10px;
+        float: right;
+        position: absolute;
+        z-index: 100;
+        background: white;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .line-footer {
+        margin-top: 4px;
+        width: 31vw;
+        max-width: 235px;
+        height: 2px;
+        float: right;
+        position: absolute;
+        z-index: 100;
+        background: white;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -80,6 +140,12 @@ body {
         color: white !important;
     }
 
+    /*Footer Styler */
+    .footer-nav a {
+        font-size: .83vw;
+        font-family: "Elliot" !important;
+        color: white !important;
+    }
 
     /*    Splash Section*/
     .splash-words {
@@ -112,70 +178,6 @@ body {
     .top-buffer {
         margin-top:5vw;
     }
-
-    /* Footer Styles */
-    footer {
-        background-color: #F93642;
-        padding-top: 7vh !important;
-    }
-    .footer-text p {
-        color: #E2E2E2 !important;
-        font-family: "Elliot-Thin";
-    }
-    .footer-nav a {
-        font-size: 12.5pt;
-        font-family: "Elliot" !important;
-        color: white !important;
-    }
-    .footer-nav ul li {
-        padding-left: 10vw;
-        width: 14vw;
-        max-width: 250px !important;
-    }
-    .footer-nav .nav {
-        padding-top: .3vh;
-        padding-bottom: 5.4vh;
-    }
-    .footer-text .special {
-        padding-left: 10vw;
-        padding-top: 8.3vh;
-        max-width: 1000px;
-    }
-    .footer-text .copyright {
-        padding-left: 10vw;
-        padding-top: 4.4vh;
-        padding-bottom: 8.0vh;
-        max-width: 1000px;
-    }
-    .circle-footer {
-        width: 10px;
-        height: 10px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 46.5px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-    }
-    .line-footer {
-        width: 31vw;
-        max-width: 235px;
-        height: 2px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 51px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-        padding-left: .7vw !important;
-    }
-    
 
     .mobile-learn-more {
       display: none;
@@ -922,72 +924,12 @@ body {
         line-height: 1.67vw;
     }
 
-    /* Footer Styles */
-    footer {
-        background-color: #F93642;
-        padding-top: 7vh !important;
-    }
-    .footer-text p {
-        color: #E2E2E2 !important;
-        font-family: "Elliot-Thin";
-    }
-    .footer-nav a {
-        font-size: 12.5pt;
-        font-family: "Elliot" !important;
-        color: white !important;
-    }
-    .footer-nav ul li {
-        padding-left: 10vw;
-        width: 14vw;
-        max-width: 250px !important;
-    }
-    .footer-nav .nav {
-        padding-top: .3vh;
-        padding-bottom: 5.4vh;
-    }
-    .footer-text .special {
-        padding-left: 10vw;
-        padding-top: 8.3vh;
-        max-width: 1000px;
-    }
-    .footer-text .copyright {
-        padding-left: 10vw;
-        padding-top: 4.4vh;
-        padding-bottom: 8.0vh;
-        max-width: 1000px;
-    }
-    .circle-footer {
-        width: 10px;
-        height: 10px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 46.5px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-    }
-    .line-footer {
-        width: 31vw;
-        max-width: 235px;
-        height: 2px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 51px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-    }
+    
 
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    
 }
 
 /* Small Devices, Tablets */
