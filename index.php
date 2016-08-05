@@ -39,7 +39,6 @@
 	</head>
 	<body>
         <?php include("header.php"); ?>
-
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
@@ -47,14 +46,12 @@
 				<div class="col-lg-12">
 					<h1>Thought at Work</h1>
 					<h2 class="splash-date">Oct 23-25 2016</h2>
-					<h3 class="splash-location">&nbsp; @ Rochester Institute of Technology </h3>
+					<h3 class="splash-location"><span class="mobile-push-right">&nbsp; &nbsp;</span>@ Rochester Institute of Technology </h3>
 				</div>
 			</div>
-
             <div class="mobile-learn-more">
                 <p>&larr; &nbsp; Learn More </p>
             </div>
-
         </div>
 
 		<!-- ABOUT -->
@@ -158,7 +155,6 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-
         <!---->
 	</body>
 </html>

@@ -82,6 +82,24 @@ body {
 
 
     /*    Splash Section*/
+    .splash-words {
+        color: #ffffff;
+        padding-top: 16vw;
+        padding-left: 12.4vw !important;
+        width: 100%;
+        height: 37.9vw;
+        background-image: url(../img/background.jpg);
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .splash-words h1 {
+        font-size: 4.5vw;
+        font-family: "Elliot-Bold";
+        text-transform: uppercase;
+        color: white !important;
+    }
     .splash-date {
         font-size: 2.7vw !important;
         font-family: "Elliot-Thin" !important;
@@ -91,7 +109,6 @@ body {
         font-size: .75vw !important;
         font-family: "Elliot-Thin" !important;
     }
-
     .top-buffer {
         margin-top:5vw;
     }
@@ -158,24 +175,7 @@ body {
         border-radius: 10px;
         padding-left: .7vw !important;
     }
-    .splash-words {
-        color: #ffffff;
-        padding-top: 16vw;
-        padding-left: 12.4vw !important;
-        width: 100%;
-        height: 37.9vw;
-        background-image: url(../img/background.jpg);
-        /*background-position: left bottom;*/
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100%;
-    }
-    .splash-words h1 {
-        font-size: 4.5vw;
-        font-family: "Elliot-Bold";
-        text-transform: uppercase;
-        color: white !important;
-    }
+    
 
     .mobile-learn-more {
       display: none;
@@ -994,71 +994,79 @@ body {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-  .splash-words h1 {
-     padding-top: 26.7vh;
-     margin-bottom: 0px;
-     font-size: 14vw;
-     font-family: "Elliot-Bold";
-     text-transform: uppercase;
-     color: white !important;
-     line-height: 120px;
- }
- .splash-date {
-     font-size: 9.3vw;
-     font-family: "Elliot-Thin";
-     margin-top: 1.6vw;
-     letter-spacing: .1px;
- }
-  .splash-location {
-     font-size: 4.07vw;
-     margin-top: 3.5vw;
-     font-family: "Elliot-Thin";
- }
+    .mobile-hide{
+        display: none !important;
+    }
+    .icon-bar {
+        background-color: white;
+    }
+    .splash-words h1 {
+        padding-top: 16.5vh;
+        margin-bottom: 0px;
+        font-size: 14vw;
+        font-family: "Elliot-Bold";
+        text-transform: uppercase;
+        color: white !important;
+        line-height: 120px;
+    }
+    .splash-date {
+        font-size: 9.3vw;
+        font-family: "Elliot-Thin";
+        margin-top: 1.7vw;
+        letter-spacing: .1px;
+    }
+    .splash-location {
+        font-size: 4.08vw;
+        margin-top: 3.5vw;
+        font-family: "Elliot-Thin";
+    }
+    .mobile-push-right {
+        display: none;
+    }
+    .splash-words {
+    color: #ffffff;
+    padding-top: 16vh;
+    padding-left: 9.85vw !important;
+    width: 100%;
+    height: 145vh;
+    background-image: url(../img/backgroundMobile.png) !important;
+    /*background-position: left bottom;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+    .mobile-learn-more {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    font-family: "Elliot-Light";
+    margin-top: 23vh;
+    margin-right: -9vh;
+    float: right;
+    font-size: 2.8vw;
+    }
 
- .splash-words {
-     color: #ffffff;
-     padding-top: 16vh;
-     padding-left: 9.85vw !important;
-     width: 100%;
-     height: 145vh;
-     background-image: url(../img/backgroundMobile.png) !important;
-     /*background-position: left bottom;*/
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: 100%;
- }
- .mobile-learn-more {
-     transform: rotate(-90deg);
-     transform-origin: left top 0;
-     font-family: "Elliot-Light";
-     margin-top: 33vh;
-     margin-right: -15vh;
-     float: right;
-     font-size: 3.4vw;
- }
-
- /*    Thought at Work is white section*/
- .tawis {
-     background-color: #ffffff;
-     width: 100%;
-     height: 89.2vh;
-     text-align: center;
- }
- .tawis-desc p {
-     font-family: Elliot-Thin;
-     margin: 11% auto 3% auto;
-     margin-top: 21.9vh;
-     font-size: 5.08vw;
-     width: 80vw;
-     line-height: 1.6;
-     margin-bottom: 17vw;
- }
- .tawis-desc .schedule {
-     font-size: 2.7vw;
-     font-family: Elliot-Bold;
-     color: black;
-     letter-spacing: 1.5px;
- }
+    /*    Thought at Work is white section*/
+    .tawis {
+    background-color: #ffffff;
+    width: 100%;
+    height: 89.2vh;
+    text-align: center;
+    }
+    .tawis-desc p {
+    font-family: Elliot-Thin;
+    margin: 11% auto 3% auto;
+    margin-top: 21.9vh;
+    font-size: 5.08vw;
+    width: 80vw;
+    line-height: 1.6;
+    margin-bottom: 17vw;
+    }
+    .tawis-desc .schedule {
+    font-size: 2.7vw;
+    font-family: Elliot-Bold;
+    color: black;
+    letter-spacing: 1.5px;
+    }
 }
 
 /* Extra Small Devices, Phones */
