@@ -995,8 +995,27 @@ body {
     .mobile-hide{
         display: none !important;
     }
+     .navbar-header {
+/*        width: 90%;*/
+        margin-top: 4px;
+/*         margin-right: 0 !important;*/
+    }
     .icon-bar {
         background-color: white;
+        margin-top: .95vw;
+        margin-bottom: 1.2vw;
+        margin-left: .002vw;
+        padding-right: 5.35vw;
+    }
+    .drop-down {
+        padding-left: 10px;
+        text-align: left;
+    }
+    .navbar-toggle {
+        background-color: #FF1E39 !important;
+        border:  2vw solid #FF1E39 !important;
+        border-radius: 0 !important;
+        -moz-border-radius: 0 !important;   
     }
     .splash-words h1 {
         padding-top: 16.5vh;
@@ -1038,7 +1057,6 @@ body {
     transform-origin: left top 0;
     font-family: "Elliot-Light";
     margin-top: 23vh;
-    margin-right: -9vh;
     float: right;
     font-size: 2.8vw;
     }

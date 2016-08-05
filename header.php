@@ -7,9 +7,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand title p-l-12" href="index.php">Thought at Work</a>
+            <a class="navbar-brand title p-l-12 mobile-hide" href="index.php">Thought at Work</a>
         </div>
-        <div class="navbar-collapse collapse navbar-inner">
+        <div class="navbar-collapse collapse navbar-inner pull-right  drop-down">
             <ul class="nav navbar-nav navbar-right p-r-9">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="arrival.php">Arrival</a></li>
