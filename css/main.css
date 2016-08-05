@@ -850,14 +850,12 @@ body {
     }
 
     .whattobring-sec-right{
-        background-image: url(../img/4-5-16_Tequilla-_0377.png);
+        background-image: url(../img/teq1.jpg);
         background-position:center top;
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
-        background-color: cyan;
-        margin-top: -6.3vw;
-        height: 33vw;
+        height: 13vw;
     }
 
     .gettinghere-sec-left {
