@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Thought At Work - Home.</title>
+  <title>Thought At Work - Home</title>
   <meta name="description" content="Our Website">
   <meta name="author" content="Thought at Work">
 
