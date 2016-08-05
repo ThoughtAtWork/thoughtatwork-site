@@ -928,8 +928,10 @@ body {
 
 }
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-    
+@media only screen and (max-width : 991px) {
+    .tablet-hide {
+        display: none !important;
+    }
 }
 
 /* Small Devices, Tablets */

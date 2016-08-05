@@ -24,14 +24,14 @@
 </div>
 <!-- FOOTER -->
 <footer>
-    <div class="container footer-nav navbar-inner pad-bot">
+    <div class="container footer-nav navbar-inner">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center">
                 <div class="col-md-2"><a>FAQ</a></div>
                 <div class="col-md-2"><a>TRAVEL</a></div>
                 <div class="col-md-2"><a>REGISTER</a></div>
                 <div class="col-md-2"><a>GET IN TOUCH</a></div>
-                <div class="col-md-2 mobile-hide">
+                <div class="col-md-2 tablet-hide">
                     <div class="circle-footer"></div>
                     <div class="line-footer"></div>
                 </div>
