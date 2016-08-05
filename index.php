@@ -127,17 +127,17 @@
 				</div>
 			</div>
 			<div class="row speakers-centered">
-				<div class="col-lg-2 speaker-img-1 ">
+				<div class="col-lg-2 speaker-img-1 center-small tablet-bot">
 				<img src="img/speaker.jpg" />
 					<h2>Mt. Mograph</h2>
 					<p>Motion Graphics, Photography, Development</p>
 				</div>
-				<div class="col-lg-2 speaker-img">
+				<div class="col-lg-2 speaker-img center-small tablet-bot">
 					<img src="img/speaker.jpg" />
 					<h2>Kim Alpert</h2>
 					<p>Creative Coding, Photography, Development</p>
 				</div>
-				<div class="col-lg-2 speaker-img">
+				<div class="col-lg-2 speaker-img center-small tablet-bot">
 					<img src="img/speaker.jpg" />
 					<h2>Patty Moore</h2>
 					<p class="speaker-p-3">Industrial Design, Photography, Development</p>

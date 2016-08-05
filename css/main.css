@@ -101,6 +101,7 @@ body {
     }
 
 
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -928,9 +929,38 @@ body {
 
 }
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 991px) {
+@media only screen and (max-width : 990px) {
+
+    /* padding for tablet and phone */
+    .tablet-bot
+    {
+        padding-bottom: 30px;
+    }
+    /* hide on tablet view */
     .tablet-hide {
         display: none !important;
+    }
+
+    /* speaker image size and text tablet */
+    .speaker-img {
+        font-family: "Elliot-Light";
+    }
+    .speaker-img-1 {
+       font-family: "Elliot-Light";
+    }
+    .speaker-img img{
+        width: 28vw;
+       
+    }
+    .speaker-img-1 img {
+       width: 28vw;
+       
+    }
+    .speakers-title h2{
+        font-family: Elliot;
+    }
+    .center-small{
+        text-align: center;
     }
 }
 
@@ -1005,6 +1035,8 @@ body {
     font-size: 2.8vw;
     }
 
+
+
     /*    Thought at Work is white section*/
     .tawis {
     background-color: #ffffff;
@@ -1026,6 +1058,16 @@ body {
     font-family: Elliot-Bold;
     color: black;
     letter-spacing: 1.5px;
+    }
+
+    /*speaker image size phone */
+    .speaker-img img{
+        width: 40vw;
+       
+    }
+    .speaker-img-1 img {
+       width: 40vw;
+       
     }
 }
 
