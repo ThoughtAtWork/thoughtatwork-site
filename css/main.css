@@ -928,9 +928,9 @@ body {
     
 
 }
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 990px) {
 
+/* Mid Desktop Breakpoint */
+@media only screen and (max-width: 1220px) {
     /* padding for tablet and phone */
     .tablet-bot
     {
@@ -962,6 +962,13 @@ body {
     .center-small{
         text-align: center;
     }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 990px) {
+
+   
 }
 
 /* Small Devices, Tablets */
