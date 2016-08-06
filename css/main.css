@@ -41,6 +41,12 @@ body {
 }
 
 /* All Device Style */
+
+/* font Styles */
+.elliot {
+    font-family:"Elliot-Light";
+    color: #333 !important;
+}
 /* Footer Styles */
     footer {
         background-color: #F93642;
@@ -503,18 +509,12 @@ body {
         margin-top: 6.5vw;
         height: 29vw;
     }
-    .sponsors .row {
-        margin-top: 12vw;
-        margin-left: 8.3vw !important;
-        margin-right: 6.4vw !important;
-    }
     .col-md-2 img{
         width: 11.15vw;
         max-width: 230px;
     }
-    .sponsor-img {
-        margin-left: 1.3vw !important;
-        margin-right: 1.3vw !important;
+    .sponsor-top{
+        padding-top: 125px;
     }
     .sponsor-want{
         align-content: center;
@@ -617,6 +617,11 @@ body {
         color: white !important;
         font-size: 0.7vw !important;
     }
+    .about-also-checkout .elliot a:link, a:visited, a:hover, a:active {
+        color: #333 !important;
+        font-size: 0.7vw !important;
+    }
+
     .about-also-roll {
         padding-left: 5.35vw;
         padding-right: 5vw;
@@ -924,6 +929,12 @@ body {
         height: 9vw;
         line-height: 1.67vw;
     }
+    /* font stylers */
+    .elliot {
+    font-family:"Elliot-Light";
+    color: #333 !important;
+}
+
 
     
 
@@ -931,6 +942,10 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1220px) {
+    .margin-break{
+        margin-left: 20% !important;
+        margin-right: 20% !important;
+    }
     /* padding for tablet and phone */
     .tablet-bot
     {

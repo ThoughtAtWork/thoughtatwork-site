@@ -86,18 +86,18 @@
 
 		</div>
 
-
+	<div class="margin-mobile">
 			<!-- COME HANG -->
 		<div class="container-fluid come-hang">
 			<div class="row">
 				<div class="col-lg-12 come-hang-h2">
-						<h2>COME HANG</h2>
+						<h2 class="">COME HANG</h2>
 				</div>
 				<div class="col-lg-6">
 						<div class="offer">
-							<h4>What We Offer</h4>
+							<h4 class="elliot">What We Offer</h4>
 
-							<p>Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
+							<p class="elliot">Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
 						</div>
 				</div>
 				<div class="col-lg-6 date">
@@ -109,8 +109,8 @@
 				<div class="col-lg-6">
 
 						<div class="come">
-							<h4>Who Should Come</h4>
-						<p>Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
+							<h4 class="elliot">Who Should Come</h4>
+						<p class="elliot">Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
 
 						</div>
 				</div>
@@ -120,7 +120,7 @@
 		</div>
 
 		<!-- SPEAKERS -->
-		<div class="container-fluid speakers" >
+		<div class="container-fluid speakers tablet-bot" >
 			<div class="row">
 				<div class="col-lg-12 speakers-title">
 					<h2> SPEAKERS </h2>
@@ -142,14 +142,17 @@
 					<h2>Patty Moore</h2>
 					<p class="speaker-p-3">Industrial Design, Photography, Development</p>
 				</div>
-                    <div class="col-lg-12 speaker-viewall">
+			</div>
+			<div class="row">                    
+					<div class="col-lg-12 text-center">
                         <div class="row-spacer">&nbsp;</div>
-                        <a href="">VIEW ALL</a>
+                        <a href="" class="elliot">VIEW ALL</a>
                     </div>
                     <div class="circle-speakers"></div>
                     <div class="line-speakers"></div>
             </div>
 		</div>
+	</div>
 
 
 
