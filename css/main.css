@@ -48,11 +48,15 @@ body {
 }
 .elliot {
     font-family:"Elliot-Light";
-    color: #333 !important;
+}
+.elliot-thin {
+    font-family: "Elliot-Thin";
 }
 .elliot-bold {
     font-family:"Elliot-Bold";
-    color: #333 !important;
+}
+.dark {
+    color: #333!important;
 }
 /* Footer Styles */
     footer {

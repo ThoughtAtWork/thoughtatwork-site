@@ -69,10 +69,10 @@
 			<div class="row">
 				<div class="col-lg-6 recap-recap">
 						<div class="recap-info">
-							<h3> RECAP </h3>
+							<h3 class="elliot">RECAP </h3>
 							<br><br>
-							<p>Hundreds of passionate students get inspired &amp; collaborate.</p>
-							<p>Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
+							<p class="elliot">Hundreds of passionate students get inspired &amp; collaborate.</p>
+							<p class="elliot">Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
 						</div>
 						<div class="circle-recap"></div>
 						<div class="line-recap1"></div>
@@ -149,7 +149,7 @@
 			<div class="row">                    
 					<div class="col-md-12 text-center">
                         <div class="row-spacer">&nbsp;</div>
-                        <a href="" class="elliot-bold">VIEW ALL</a>
+                        <a href="" class="elliot-bold dark">VIEW ALL</a>
                     </div>
                     <div class="circle-speakers"></div>
                     <div class="line-speakers"></div>
