@@ -43,8 +43,15 @@ body {
 /* All Device Style */
 
 /* font Styles */
+.center-all {
+    text-align: -webkit-center;
+}
 .elliot {
     font-family:"Elliot-Light";
+    color: #333 !important;
+}
+.elliot-bold {
+    font-family:"Elliot-Bold";
     color: #333 !important;
 }
 /* Footer Styles */
@@ -312,7 +319,6 @@ body {
     }
     .come-hang h2 {
         margin-top: 4.50vw;
-        margin-left: 11.6vw;
         font-size: 2vw;
         width: 30vw;
         max-width: 1000px;
@@ -615,10 +621,6 @@ body {
     }
     .about-also-checkout a:link, a:visited, a:hover, a:active {
         color: white !important;
-        font-size: 0.7vw !important;
-    }
-    .about-also-checkout .elliot a:link, a:visited, a:hover, a:active {
-        color: #333 !important;
         font-size: 0.7vw !important;
     }
 
@@ -942,6 +944,9 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1220px) {
+    .center-mid {
+        text-align: -webkit-center;
+    }
     .margin-break{
         margin-left: 20% !important;
         margin-right: 20% !important;
@@ -950,6 +955,9 @@ body {
     .tablet-bot
     {
         padding-bottom: 30px;
+    }
+    .tablet-top {
+        margin-top: 60px;
     }
     /* hide on tablet view */
     .tablet-hide {

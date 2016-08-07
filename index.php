@@ -86,13 +86,14 @@
 
 		</div>
 
-	<div class="margin-mobile">
 			<!-- COME HANG -->
 		<div class="container-fluid come-hang">
 			<div class="row">
-				<div class="col-lg-12 come-hang-h2">
+				<div class="col-md-10 col-md-offset-1 elliot">
 						<h2 class="">COME HANG</h2>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-lg-6">
 						<div class="offer">
 							<h4 class="elliot">What We Offer</h4>
@@ -122,37 +123,38 @@
 		<!-- SPEAKERS -->
 		<div class="container-fluid speakers tablet-bot" >
 			<div class="row">
-				<div class="col-lg-12 speakers-title">
-					<h2> SPEAKERS </h2>
+				<div class="col-md-10 col-md-offset-1 elliot">
+					<h2>SPEAKERS</h2>
 				</div>
 			</div>
-			<div class="row speakers-centered">
-				<div class="col-lg-2 speaker-img-1 center-small tablet-bot">
-				<img src="img/speaker.jpg" />
-					<h2>Mt. Mograph</h2>
-					<p>Motion Graphics, Photography, Development</p>
-				</div>
-				<div class="col-lg-2 speaker-img center-small tablet-bot">
-					<img src="img/speaker.jpg" />
-					<h2>Kim Alpert</h2>
-					<p>Creative Coding, Photography, Development</p>
-				</div>
-				<div class="col-lg-2 speaker-img center-small tablet-bot">
-					<img src="img/speaker.jpg" />
-					<h2>Patty Moore</h2>
-					<p class="speaker-p-3">Industrial Design, Photography, Development</p>
+			<div class="row speakers-centered center-mid">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-4 tablet-bot">
+					<img src="img/speaker.jpg" class="img-responsive" />
+						<h2>Mt. Mograph</h2>
+						<p>Motion Graphics, Photography, Development</p>
+					</div>
+					<div class="col-md-4 tablet-bot">
+						<img src="img/speaker.jpg" class="img-responsive"/>
+						<h2>Kim Alpert</h2>
+						<p>Creative Coding, Photography, Development</p>
+					</div>
+					<div class="col-md-4 tablet-bot">
+						<img src="img/speaker.jpg" class="img-responsive"/>
+						<h2>Patty Moore</h2>
+						<p class="speaker-p-3">Industrial Design, Photography, Development</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">                    
-					<div class="col-lg-12 text-center">
+					<div class="col-md-12 text-center">
                         <div class="row-spacer">&nbsp;</div>
-                        <a href="" class="elliot">VIEW ALL</a>
+                        <a href="" class="elliot-bold">VIEW ALL</a>
                     </div>
                     <div class="circle-speakers"></div>
                     <div class="line-speakers"></div>
             </div>
 		</div>
-	</div>
 
 
 

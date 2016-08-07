@@ -1,33 +1,33 @@
 <!-- SPONSORS -->
-<div class="container-fluid sponsors">
+<div class="container-fluid sponsors tablet-top">
     <div class="row sponsor-top">
-        <div class="col-md-10 col-md-offset-1 text-center">
-         <div class="col-md-2 col-md-offset-1 sponsor-img">
-            <img class="img-responsive" src="img/sponsor.png" />
-         </div>
-         <div class="col-md-2 sponsor-img">
-            <img class="img-responsive" src="img/sponsor.png" />
-         </div>
-         <div class="col-md-2 sponsor-img">
-            <img class="img-responsive" src="img/sponsor.png" />
-         </div>
-         <div class="col-md-2 sponsor-img">
-            <img class="img-responsive" src="img/sponsor.png" />
-         </div>
-         <div class="col-md-2 sponsor-img">
-            <img class="img-responsive" src="img/sponsor.png" />
-         </div>
+        <div class="col-md-10 col-md-offset-1 center-mid">
+             <div class="col-md-2 col-md-offset-1 ">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-md-2">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-md-2 ">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-md-2">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-md-2">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 sponsor-want">
+        <div class="col-lg-12 sponsor-want center-mid">
             <div class="row-spacer">&nbsp;</div>
-            <a href="">WANT TO SPONSOR?</a>
+            <a href="" class="elliot-bold">WANT TO SPONSOR?</a>
         </div>
     </div>
 </div>
 <!-- FOOTER -->
-<footer>
+<footer class="tablet-top">
     <div class="container footer-nav navbar-inner">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center">
