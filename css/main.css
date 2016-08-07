@@ -998,6 +998,16 @@ body {
         text-align: center;
     }
 
+    /* Recap Mobiel */
+    .recap-mobile {
+        padding-top: 70px;
+        background-color: #000;
+        color: #fff;
+        padding-bottom: 70px;
+    }
+    .recap-vid-mobile {
+        width: 100%;
+    }
 }
 
 /* Medium Devices, Desktops */

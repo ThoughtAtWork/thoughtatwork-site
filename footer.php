@@ -2,19 +2,19 @@
 <div class="container-fluid sponsors tablet-top">
     <div class="row sponsor-top">
         <div class="col-md-10 col-md-offset-1 center-mid">
-             <div class="col-md-2 col-md-offset-1 ">
+             <div class="col-sm-2 col-sm-offset-1 ">
                 <img class="img-responsive" src="img/sponsor.png" />
              </div>
-             <div class="col-md-2">
+             <div class="col-sm-2">
                 <img class="img-responsive" src="img/sponsor.png" />
              </div>
-             <div class="col-md-2 ">
+             <div class="col-sm-2 ">
                 <img class="img-responsive" src="img/sponsor.png" />
              </div>
-             <div class="col-md-2">
+             <div class="col-sm-2">
                 <img class="img-responsive" src="img/sponsor.png" />
              </div>
-             <div class="col-md-2">
+             <div class="col-sm-2">
                 <img class="img-responsive" src="img/sponsor.png" />
              </div>
         </div>

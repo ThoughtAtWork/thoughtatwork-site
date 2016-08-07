@@ -67,7 +67,7 @@
 		<!-- RECAP -->
 		<div class="container-fluid recap">
 			<div class="row">
-				<div class="col-lg-6 recap-recap">
+				<div class="col-lg-6 recap-recap recap-mobile">
 						<div class="recap-info">
 							<h3 class="elliot">RECAP </h3>
 							<br><br>
@@ -80,7 +80,7 @@
                 </div>
 
 				<div class="recap-video">
-                    <iframe class="TAW-Video" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe class="TAW-Video recap-vid-mobile" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
 
@@ -129,17 +129,17 @@
 			</div>
 			<div class="row speakers-centered center-mid">
 				<div class="col-md-10 col-md-offset-1">
-					<div class="col-md-4 tablet-bot">
+					<div class="col-sm-4 tablet-bot">
 					<img src="img/speaker.jpg" class="img-responsive" />
 						<h2>Mt. Mograph</h2>
 						<p>Motion Graphics, Photography, Development</p>
 					</div>
-					<div class="col-md-4 tablet-bot">
+					<div class="col-sm-4 tablet-bot">
 						<img src="img/speaker.jpg" class="img-responsive"/>
 						<h2>Kim Alpert</h2>
 						<p>Creative Coding, Photography, Development</p>
 					</div>
-					<div class="col-md-4 tablet-bot">
+					<div class="col-sm-4 tablet-bot">
 						<img src="img/speaker.jpg" class="img-responsive"/>
 						<h2>Patty Moore</h2>
 						<p class="speaker-p-3">Industrial Design, Photography, Development</p>
