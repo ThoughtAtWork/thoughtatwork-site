@@ -135,20 +135,26 @@ body {
         font-family: "Elliot-Thin";
         color: white;
         padding-top: 2.1vw !important;
-        font-size: .81vw;
+        font-size: calc(11px + .25vw);
+/*        font-size: calc(.81vw);*/
     }
-    .navbar-brand {
+    a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
-        font-size: .98vw !important;
+        font-size: calc(11px + .40vw) !important;
+/*        font-size: .98vw !important;*/
+        font-family: "Elliot" !important;
+        text-transform: uppercase;
+        color: white !important;
+        letter-spacing: 0;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: red;
-        width: 5.2vw;
+        width: 6.5vw;
         height: 5.2vw;
         margin-right: 2.1vw
     }
     .navbar-inner ul li {
-        width: 7.1vw;
+        width: 8.1vw;
         max-width: 179px;
         text-align: center;
     }
@@ -168,7 +174,7 @@ body {
     /*    Splash Section*/
     .splash-words {
         color: #ffffff;
-        padding-top: 16vw;
+        padding-top: 18vw;
         padding-left: 12.4vw !important;
         width: 100%;
         height: 37.9vw;
@@ -985,7 +991,6 @@ body {
     }
     .speaker-img img{
         width: 28vw;
-       
     }
     .speaker-img-1 img {
        width: 28vw;
@@ -1011,13 +1016,88 @@ body {
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 990px) {
-
+@media only screen and (max-width : 990px ) {
+    /*Nav Padding*/
+    .p-r-9 {
+        padding-right: 6vw !important;
+    }
+    .p-l-12 {
+        padding-left: 8vw !important;
+    }
+    /*Menu Styles*/
+    .navbar-nav>li>a {
+        font-family: "Elliot-Thin";
+        color: white;
+        padding-top: 2.1vw !important;
+        font-size: calc(11px + .25vw);
+    }
+    a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
+        padding-top: 2.1vw !important;
+        font-size: calc(11px + .40vw);
+        font-family: "Elliot" !important;
+        text-transform: uppercase;
+        color: white !important;
+        letter-spacing: 0;
+    }
+    ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
+        background-color: red;
+        width: 7.7vw;
+        height: 5.2vw;
+        margin-right: 2.1vw
+    }
+    .navbar-inner ul li {
+        width: 8.1vw;
+        max-width: 179px;
+        text-align: center;
+    }
+    .title {
+        font-family: "Elliot";
+        text-transform: uppercase;
+        color: white !important;
+    }
+    /*    Splash Section*/
+    .splash-words {
+        color: #ffffff;
+        padding-top: 14vw;
+        padding-left: 12.4vw !important;
+        width: 100%;
+        height: 57.9vw;
+        background-image: url(../img/background.jpg);
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .splash-words h1 {
+        font-size: 6vw;
+        font-family: "Elliot-Bold";
+        text-transform: uppercase;
+        color: white !important;
+    }
+    .splash-date {
+        font-size: 5vw !important;
+        font-family: "Elliot-Thin" !important;
+/*        padding-left: 7px;*/
+    }
+     .splash-location {
+        font-size: 1.7vw !important;
+        font-family: "Elliot-Thin" !important;
+        padding-left: 4px
+    }
+    .top-buffer {
+        margin-top:5vw;
+    }
+    .mobile-push-right {
+        display: none;
+    }
+    .mobile-learn-more {
+      display: none;
+    }
    
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (min-width : 768px) {
     .mobile-hide{
         display: none !important;
     }
