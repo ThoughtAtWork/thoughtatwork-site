@@ -478,10 +478,8 @@ body {
         width: inherit;
     }
     .speaker-viewall a:link, a:visited, a:hover, a:active {
-        color: black;
         font-size: .75vw;
         font-family: Elliot-Bold;
-        color: #000000 !important;
         letter-spacing: 1.5px;
     }
     .circle-speakers {
@@ -531,10 +529,8 @@ body {
         margin-top: 10px;
     }
     .sponsor-want a:link, a:visited, a:hover, a:active {
-        color: black;
         font-size: .75vw;
         font-family: Elliot-Bold;
-        color: #000000 !important;
         letter-spacing: 1.5px;
     }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
@@ -620,8 +616,8 @@ body {
         line-height: 2.1vw;
     }
     .about-also-checkout a:link, a:visited, a:hover, a:active {
-        color: white !important;
-        font-size: 0.7vw !important;
+        color: white;
+        font-size: 0.7vw;
     }
 
     .about-also-roll {
@@ -932,8 +928,8 @@ body {
         line-height: 1.67vw;
     }
     /* font stylers */
-    .elliot {
-    font-family:"Elliot-Light";
+    .elliot-bold {
+    font-family:"Elliot-Bold";
     color: #333 !important;
 }
 
@@ -944,6 +940,18 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1220px) {
+    .mid-number-1 {
+        font-family: "Elliot-Thin" !important;
+        font-size: 60px;
+        margin-right: 100px;
+        line-height: 1.2;
+    }
+    .mid-number-2 {
+        font-family: "Elliot-Thin" !important;
+        font-size: 60px;
+        margin-left: 40px;
+        line-height: 1.2;
+    }
     .center-mid {
         text-align: -webkit-center;
     }
@@ -954,7 +962,7 @@ body {
     /* padding for tablet and phone */
     .tablet-bot
     {
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
     .tablet-top {
         margin-top: 60px;
