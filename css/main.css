@@ -58,6 +58,9 @@ body {
 .dark {
     color: #333!important;
 }
+.enhance {
+    font-size: 30px;
+}
 /* Footer Styles */
     footer {
         background-color: #F93642;
@@ -171,6 +174,12 @@ body {
         color: white !important;
     }
 
+    /* Container Styles */
+.container-space {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
     /*    Splash Section*/
     .splash-words {
         color: #ffffff;
@@ -269,20 +278,15 @@ body {
      }
     .recap-video {
         /*background-color: #c9302c;*/
-        height: 31.5vw;
-        width: 56vw;
-        z-index: 101;
-        margin-top: 17.5vh;
-        margin-left: 44vw;
     }
     .TAW-Video {
-        position: absolute;
         width: 56vw;
         height: 31.5vw;
         z-index: 102 !important;
         padding-left: -4vw;
         margin-bottom: 0vh;
         margin-left: -6vw;
+        margin-top: 20vh;
 
     }
     .circle-recap {
@@ -1097,7 +1101,7 @@ body {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (max-width : 768px) {
     .mobile-hide{
         display: none !important;
     }
@@ -1204,7 +1208,7 @@ body {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 480px) {
 
 }
 

@@ -56,17 +56,19 @@
         </div>
 
 		<!-- ABOUT -->
-		<div class="container-fluid tawis">
+		<div class="container-fluid tablet-top  container-space">
 			<div class="row">
-				<div class="col-lg-12 tawis-desc">
-					<p> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
-					<a href="" class="schedule">VIEW SCHEDULE</a>
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<p class="elliot-thin enhance"> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
+						<a href="" class="schedule elliot-bold dark">VIEW SCHEDULE</a>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- RECAP -->
-		<div class="container-fluid recap">
+		<div class="container-fluid recap tablet-top">
 			<div class="row">
 				<div class="col-lg-6 recap-recap recap-mobile">
 						<div class="recap-info">
@@ -80,9 +82,9 @@
 <!--				        <div class="line-recap2"></div>-->
                 </div>
 
-				<div class="recap-video">
-                    <iframe class="TAW-Video recap-vid-mobile" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				</div>
+					<div class="recap-video">
+	                    <iframe class="TAW-Video recap-vid-mobile" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
 			</div>
 
 		</div>
