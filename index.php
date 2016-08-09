@@ -34,6 +34,16 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+<script>
+var win = window,
+    docEl = document.documentElement,
+    $nav = document.getElementById("nav-background-color");
+
+win.onscroll = function(){
+   var sTop = (this.pageYOffset || docEl.scrollTop)  - (docEl.clientTop || 0);
+   $nav.style.background =  sTop > 200 ? "#16161E":"none" ;
+};
+</script>
 <!-- <script src="../constantlyUpdatingScript.js"></script> -->
 
 	</head>
@@ -148,7 +158,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">                    
+			<div class="row">
 					<div class="col-md-12 text-center">
                         <div class="row-spacer">&nbsp;</div>
                         <a href="" class="elliot-bold dark">VIEW ALL</a>

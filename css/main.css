@@ -127,6 +127,9 @@ body {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     /*Nav Padding*/
+    #nav-background-color {
+        background: none;
+    }
     .p-r-9 {
         padding-right: 9.5vw !important;
     }
@@ -152,12 +155,12 @@ body {
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: red;
-        width: 6.5vw;
-        height: 5.2vw;
-        margin-right: 2.1vw
+        width: 5.9vw;
+        height: 5.05vw;
+        margin-right: 2.1vw;
     }
     .navbar-inner ul li {
-        width: 8.1vw;
+        width: 7vw;
         max-width: 179px;
         text-align: center;
     }
@@ -729,22 +732,15 @@ body {
         height: 11vw;
         margin-top: 4vw;
     }
-
     .countdown-date{
         font-family: "Elliot-Thin";
         font-size: 6vw;
 
     }
-
     .countdown-text{
         font-family: "Elliot-Thin";
         margin-left: 4vw;
     }
-
-    .col-centered{
-
-    }
-
     .arrival-sec {
         width: 30vw;
         margin-top: 4.1vw;
@@ -806,7 +802,6 @@ body {
         width: 24vw;
         max-width: 750px;
     }
-
     .wheretostay-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
@@ -845,11 +840,6 @@ body {
         height: 1vw;
         line-height: 1.67vw;
     }
-
-    .whattobring-sec-left{
-
-    }
-
     .whattobring-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
@@ -868,7 +858,6 @@ body {
         height: 9vw;
         line-height: 1.67vw;
     }
-
     .whattobring-sec-right{
         background-image: url(../img/teq1.jpg);
         background-position:center top;
@@ -877,27 +866,22 @@ body {
         color: white;
         height: 13vw;
     }
-
     .gettinghere-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
         margin-left: 11.6vw;
     }
-
-
-    .gettinghere-sec-right {
+  .gettinghere-sec-right {
         color: white;
         background-color: black;
         margin-top: 4.1vw;
         margin-left: -7.4vw;
         height: 100%;
     }
-
     .gettinghere-sec-left h4 {
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
     }
-
     .gettinghere-sec-left p, li {
         font-size: 1.04vw;
         line-height: 1.65vw;
@@ -905,14 +889,11 @@ body {
         width: 28vw;
         list-style: none;
     }
-
-
     #map{
         width: 100%;
         height: 17vw;
         background-color: grey;
     }
-
     .gettinghere-checkin-sec-left{
         color: white;
         background-color: black;
@@ -920,7 +901,6 @@ body {
         margin-left: -7.4vw;
         height: 17vw;
     }
-
     .gettinghere-checkin-sec-right{
         width: 30vw;
         margin-top: 4.1vw;
@@ -945,16 +925,15 @@ body {
     .elliot-bold {
     font-family:"Elliot-Bold";
     color: #333 !important;
-}
-
-
-    
-
+    }
 }
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1220px) {
     /*Nav Padding*/
+    #nav-background-color {
+        background: none;
+    }
     .p-r-9 {
         padding-right: 6vw !important;
     }
@@ -1036,7 +1015,7 @@ body {
     }
     .speaker-img-1 img {
        width: 28vw;
-       
+
     }
     .speakers-title h2{
         font-family: Elliot;
@@ -1058,12 +1037,16 @@ body {
     }
     .nav-register {
         margin-left: 0vw;
+
     }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
-     .nav-register {
+    #nav-background-color {
+        background: none;
+    }
+    .nav-register {
         margin-left: -.4vw;
     }
     /*    Splash Section*/
@@ -1104,7 +1087,7 @@ body {
     .mobile-learn-more {
       display: none;
     }
-   
+
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -1114,10 +1097,8 @@ body {
     .mobile-hide{
         display: none !important;
     }
-     .navbar-header {
-/*        width: 90%;*/
+    .navbar-header {
         margin-top: 4px;
-/*         margin-right: 0 !important;*/
     }
     .icon-bar {
         background-color: white;
@@ -1134,7 +1115,7 @@ body {
         background-color: #FF1E39 !important;
         border:  2vw solid #FF1E39 !important;
         border-radius: 0 !important;
-        -moz-border-radius: 0 !important;   
+        -moz-border-radius: 0 !important;
     }
     .splash-words h1 {
         padding-top: 16.5vh;
@@ -1208,11 +1189,11 @@ body {
     /*speaker image size phone */
     .speaker-img img{
         width: 40vw;
-       
+
     }
     .speaker-img-1 img {
        width: 40vw;
-       
+
     }
 }
 
