@@ -18,7 +18,7 @@
   src: url("../fonts/MBodoni.otf"); }
 body {
     /* Location of the image */
-    /*background-image: url(../images/background.jpg);*/
+/*    background-image: url(../images/background.jpg);*/
 
     /* Background image is centered vertically and horizontally at all times */
     background-position:center top;
@@ -974,7 +974,7 @@ body {
         padding-bottom: 50px;
     }
     .tablet-top {
-        margin-top: 60px;
+        margin-top: 100px !important;
     }
     /* hide on tablet view */
     .tablet-hide {
@@ -1070,9 +1070,16 @@ body {
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    html { 
+      background: url(../img/backgroundMobile.png) no-repeat center center fixed !important; 
+      -webkit-background-size: cover !important;
+      -moz-background-size: cover !important;
+      -o-background-size: cover !important;
+      background-size: cover !important;
+    }
     .tawis {
-        height: 0;
-        min-height: 150px;
+/*        height: 0;*/
+        min-height: 120px;
     }
 
     .mobile-push-right {
@@ -1124,8 +1131,6 @@ body {
         margin-top: 3.5vw !important;
         font-family: "Elliot-Thin";
     }
-    .tawis {
-    }
     .mobile-push-right {
         display: none;
     }
@@ -1140,6 +1145,11 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
+        background: url(../img/backgroundMobile.png) no-repeat center center fixed !important; 
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
     }
     .mobile-learn-more {
         transform: rotate(-90deg);
@@ -1147,7 +1157,7 @@ body {
         font-family: "Elliot-Light";
         margin-top: 23vh;
         float: right;
-        font-size: 2.8vw;
+        font-size: calc(10px + 1.4vw);
         display: flex;
     }
 
