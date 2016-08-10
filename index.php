@@ -65,12 +65,12 @@ win.onscroll = function(){
         </div>
 
 		<!-- ABOUT -->
-		<div class="container-fluid tablet-top  container-space">
-			<div class="row">
+		<div class="container-fluid tablet-top container-space tawis">
+			<div class="row tawis">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<p class="elliot-thin enhance"> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
-						<a href="" class="schedule elliot-bold dark">VIEW SCHEDULE</a>
+						<a href="" class="elliot-bold dark">VIEW SCHEDULE</a>
 					</div>
 				</div>
 			</div>
