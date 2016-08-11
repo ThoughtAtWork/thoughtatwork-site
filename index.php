@@ -34,6 +34,16 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+<script>
+var win = window,
+    docEl = document.documentElement,
+    $nav = document.getElementById("nav-background-color");
+
+win.onscroll = function(){
+   var sTop = (this.pageYOffset || docEl.scrollTop)  - (docEl.clientTop || 0);
+   $nav.style.background =  sTop > 200 ? "#16161E":"none" ;
+};
+</script>
 <!-- <script src="../constantlyUpdatingScript.js"></script> -->
 
 	</head>
@@ -55,62 +65,65 @@
         </div>
 
 		<!-- ABOUT -->
-		<div class="container-fluid tawis">
-			<div class="row">
-				<div class="col-lg-12 tawis-desc">
-					<p> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
-					<a href="" class="schedule">VIEW SCHEDULE</a>
+		<div class="container-fluid tablet-top container-space tawis">
+			<div class="row tawis">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<p class="elliot-thin enhance"> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
+						<a href="" class="elliot-bold dark">VIEW SCHEDULE</a>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- RECAP -->
-		<div class="container-fluid recap">
+		<div class="container-fluid recap tablet-top">
 			<div class="row">
-				<div class="col-lg-6 recap-recap">
+				<div class="col-lg-6 recap-recap recap-mobile">
 						<div class="recap-info">
-							<h3> RECAP </h3>
+							<h3 class="elliot">RECAP </h3>
 							<br><br>
-							<p>Hundreds of passionate students get inspired &amp; collaborate.</p>
-							<p>Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
+							<p class="elliot">Hundreds of passionate students get inspired &amp; collaborate.</p>
+							<p class="elliot">Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
 						</div>
 						<div class="circle-recap"></div>
 						<div class="line-recap1"></div>
 <!--				        <div class="line-recap2"></div>-->
                 </div>
 
-				<div class="recap-video">
-                    <iframe class="TAW-Video" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				</div>
+					<div class="recap-video">
+	                    <iframe class="TAW-Video recap-vid-mobile" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
 			</div>
 
 		</div>
 
-
 			<!-- COME HANG -->
-		<div class="container-fluid come-hang">
+		<div class="container-fluid come-hang tablet-top">
 			<div class="row">
-				<div class="col-lg-12 come-hang-h2">
-						<h2>COME HANG</h2>
+				<div class="col-md-10 col-md-offset-1 elliot">
+						<h2 class="">COME HANG</h2>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-lg-6">
 						<div class="offer">
-							<h4>What We Offer</h4>
+							<h4 class="elliot">What We Offer</h4>
 
-							<p>Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
+							<p class="elliot">Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
 						</div>
 				</div>
-				<div class="col-lg-6 date">
-						<p class="month">Oct</p>
-						<p class="days"> 23-25</p>
+				<div class="col-lg-6 date center-mid tablet-top tablet-bot">
+						<p class="month mid-number-1">Oct</p>
+						<p class="days mid-number-2"> 23-25</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
 
 						<div class="come">
-							<h4>Who Should Come</h4>
-						<p>Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
+							<h4 class="elliot">Who Should Come</h4>
+						<p class="elliot">Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
 
 						</div>
 				</div>
@@ -120,31 +133,35 @@
 		</div>
 
 		<!-- SPEAKERS -->
-		<div class="container-fluid speakers" >
+		<div class="container-fluid speakers tablet-bot tablet-top" >
 			<div class="row">
-				<div class="col-lg-12 speakers-title">
-					<h2> SPEAKERS </h2>
+				<div class="col-md-10 col-md-offset-1 elliot">
+					<h2>SPEAKERS</h2>
 				</div>
 			</div>
-			<div class="row speakers-centered">
-				<div class="col-lg-2 speaker-img-1 ">
-				<img src="img/speaker.jpg" />
-					<h2>Mt. Mograph</h2>
-					<p>Motion Graphics, Photography, Development</p>
+			<div class="row speakers-centered center-mid">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-sm-4 tablet-bot">
+					<img src="img/speaker.jpg" class="img-responsive" />
+						<h2>Mt. Mograph</h2>
+						<p>Motion Graphics, Photography, Development</p>
+					</div>
+					<div class="col-sm-4 tablet-bot">
+						<img src="img/speaker.jpg" class="img-responsive"/>
+						<h2>Kim Alpert</h2>
+						<p>Creative Coding, Photography, Development</p>
+					</div>
+					<div class="col-sm-4 tablet-bot">
+						<img src="img/speaker.jpg" class="img-responsive"/>
+						<h2>Patty Moore</h2>
+						<p class="speaker-p-3">Industrial Design, Photography, Development</p>
+					</div>
 				</div>
-				<div class="col-lg-2 speaker-img">
-					<img src="img/speaker.jpg" />
-					<h2>Kim Alpert</h2>
-					<p>Creative Coding, Photography, Development</p>
-				</div>
-				<div class="col-lg-2 speaker-img">
-					<img src="img/speaker.jpg" />
-					<h2>Patty Moore</h2>
-					<p class="speaker-p-3">Industrial Design, Photography, Development</p>
-				</div>
-                    <div class="col-lg-12 speaker-viewall">
+			</div>
+			<div class="row">
+					<div class="col-md-12 text-center">
                         <div class="row-spacer">&nbsp;</div>
-                        <a href="">VIEW ALL</a>
+                        <a href="" class="elliot-bold dark">VIEW ALL</a>
                     </div>
                     <div class="circle-speakers"></div>
                     <div class="line-speakers"></div>

@@ -18,7 +18,7 @@
   src: url("../fonts/MBodoni.otf"); }
 body {
     /* Location of the image */
-    /*background-image: url(../images/background.jpg);*/
+/*    background-image: url(../images/background.jpg);*/
 
     /* Background image is centered vertically and horizontally at all times */
     background-position:center top;
@@ -40,12 +40,96 @@ body {
 
 }
 
+/* All Device Style */
+
+/* font Styles */
+.center-all {
+    text-align: -webkit-center;
+}
+.elliot {
+    font-family:"Elliot-Light";
+}
+.elliot-thin {
+    font-family: "Elliot-Thin";
+}
+.elliot-bold {
+    font-family:"Elliot-Bold";
+}
+.dark {
+    color: #333!important;
+}
+.enhance {
+    font-size: 30px;
+}
+/* Footer Styles */
+    footer {
+        background-color: #F93642;
+        padding-top: 7vh !important;
+    }
+    .footer-text p {
+        color: #E2E2E2 !important;
+        font-family: "Elliot-Thin";
+    }
+    .footer-nav ul li {
+        padding-left: 10vw;
+        width: 14vw;
+        max-width: 250px !important;
+    }
+    .footer-nav .nav {
+        padding-top: .3vh;
+        padding-bottom: 5.4vh;
+    }
+    .footer-nav a {
+        font-size: 12.5px;
+        font-family: "Elliot" !important;
+        color: white !important;
+    }
+    .footer-text .special {
+        padding-left: 10vw;
+        padding-top: 8.3vh;
+        max-width: 1000px;
+    }
+    .footer-text .copyright {
+        padding-left: 10vw;
+        padding-top: 4.4vh;
+        padding-bottom: 8.0vh;
+        max-width: 1000px;
+    }
+    .circle-footer {
+        width: 10px;
+        height: 10px;
+        float: right;
+        position: absolute;
+        z-index: 100;
+        background: white;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .line-footer {
+        margin-top: 4px;
+        width: 31vw;
+        max-width: 235px;
+        height: 2px;
+        float: right;
+        position: absolute;
+        z-index: 100;
+        background: white;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+
 
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     /*Nav Padding*/
+    #nav-background-color {
+        background: none;
+    }
     .p-r-9 {
         padding-right: 9.5vw !important;
     }
@@ -57,20 +141,26 @@ body {
         font-family: "Elliot-Thin";
         color: white;
         padding-top: 2.1vw !important;
-        font-size: .81vw;
+        font-size: calc(11px + .25vw);
+/*        font-size: calc(.81vw);*/
     }
-    .navbar-brand {
+    a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
-        font-size: .98vw !important;
+        font-size: calc(11px + .40vw) !important;
+/*        font-size: .98vw !important;*/
+        font-family: "Elliot" !important;
+        text-transform: uppercase;
+        color: white !important;
+        letter-spacing: 0;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: red;
-        width: 5.2vw;
-        height: 5.2vw;
-        margin-right: 2.1vw
+        width: 5.9vw;
+        height: 5.05vw;
+        margin-right: 2.1vw;
     }
     .navbar-inner ul li {
-        width: 7.1vw;
+        width: 7vw;
         max-width: 179px;
         text-align: center;
     }
@@ -80,11 +170,23 @@ body {
         color: white !important;
     }
 
+    /*Footer Styler */
+    .footer-nav a {
+        font-size: .83vw;
+        font-family: "Elliot" !important;
+        color: white !important;
+    }
+
+    /* Container Styles */
+    .container-space {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
 
     /*    Splash Section*/
     .splash-words {
         color: #ffffff;
-        padding-top: 16vw;
+        padding-top: 18vw;
         padding-left: 12.4vw !important;
         width: 100%;
         height: 37.9vw;
@@ -111,95 +213,6 @@ body {
     }
     .top-buffer {
         margin-top:5vw;
-    }
-
-    /* Footer Styles */
-    footer {
-        background-color: #F93642;
-        padding-top: 7vh !important;
-    }
-    .footer-text p {
-        color: #E2E2E2 !important;
-        font-family: "Elliot-Thin";
-    }
-    .footer-nav a {
-        font-size: 12.5pt;
-        font-family: "Elliot" !important;
-        color: white !important;
-    }
-    .footer-nav ul li {
-        padding-left: 10vw;
-        width: 14vw;
-        max-width: 250px !important;
-    }
-    .footer-nav .nav {
-        padding-top: .3vh;
-        padding-bottom: 5.4vh;
-    }
-    .footer-text .special {
-        padding-left: 10vw;
-        padding-top: 8.3vh;
-        max-width: 1000px;
-    }
-    .footer-text .copyright {
-        padding-left: 10vw;
-        padding-top: 4.4vh;
-        padding-bottom: 8.0vh;
-        max-width: 1000px;
-    }
-    .circle-footer {
-        width: 10px;
-        height: 10px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 46.5px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-    }
-    .line-footer {
-        width: 31vw;
-        max-width: 235px;
-        height: 2px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 51px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-        padding-left: .7vw !important;
-    }
-    
-
-    .mobile-learn-more {
-      display: none;
-    }
-
-/*    Thought at Work is white section*/
-    .tawis {
-        background-color: #ffffff;
-        width: 100%;
-        height: 28.3vw;
-        text-align: center;
-    }
-    .tawis-desc p {
-        font-family: Elliot-Thin;
-        margin: 11% auto 3% auto;
-        font-size: 2.016vw;
-        width: 50%;
-        line-height: 1.5;
-    }
-    .tawis-desc .schedule {
-        font-size: .7vw;
-        font-family: Elliot-Bold;
-        color: black;
-        letter-spacing: 1.5px;
     }
     .recap {
         width:100%;
@@ -243,20 +256,15 @@ body {
      }
     .recap-video {
         /*background-color: #c9302c;*/
-        height: 31.5vw;
-        width: 56vw;
-        z-index: 101;
-        margin-top: 17.5vh;
-        margin-left: 44vw;
     }
     .TAW-Video {
-        position: absolute;
         width: 56vw;
         height: 31.5vw;
         z-index: 102 !important;
         padding-left: -4vw;
         margin-bottom: 0vh;
         margin-left: -6vw;
+        margin-top: 20vh;
 
     }
     .circle-recap {
@@ -303,7 +311,6 @@ body {
     }
     .come-hang h2 {
         margin-top: 4.50vw;
-        margin-left: 11.6vw;
         font-size: 2vw;
         width: 30vw;
         max-width: 1000px;
@@ -462,10 +469,8 @@ body {
         width: inherit;
     }
     .speaker-viewall a:link, a:visited, a:hover, a:active {
-        color: black;
         font-size: .75vw;
         font-family: Elliot-Bold;
-        color: #000000 !important;
         letter-spacing: 1.5px;
     }
     .circle-speakers {
@@ -499,18 +504,12 @@ body {
         margin-top: 6.5vw;
         height: 29vw;
     }
-    .sponsors .row {
-        margin-top: 12vw;
-        margin-left: 8.3vw !important;
-        margin-right: 6.4vw !important;
-    }
     .col-md-2 img{
         width: 11.15vw;
         max-width: 230px;
     }
-    .sponsor-img {
-        margin-left: 1.3vw !important;
-        margin-right: 1.3vw !important;
+    .sponsor-top{
+        padding-top: 125px;
     }
     .sponsor-want{
         align-content: center;
@@ -521,10 +520,8 @@ body {
         margin-top: 10px;
     }
     .sponsor-want a:link, a:visited, a:hover, a:active {
-        color: black;
         font-size: .75vw;
         font-family: Elliot-Bold;
-        color: #000000 !important;
         letter-spacing: 1.5px;
     }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
@@ -533,7 +530,7 @@ body {
         padding-top: 7.5vw;
         padding-left: 11.7vw !important;
         width: 100%;
-        height: 19.8vw;
+/*        height: 1z9.8vw;*/
         background-image: url(../img/about_splash.jpg);
         /*background-position: left bottom;*/
         background-repeat: no-repeat;
@@ -610,9 +607,10 @@ body {
         line-height: 2.1vw;
     }
     .about-also-checkout a:link, a:visited, a:hover, a:active {
-        color: white !important;
-        font-size: 0.7vw !important;
+        color: white;
+        font-size: 0.7vw;
     }
+
     .about-also-roll {
         padding-left: 5.35vw;
         padding-right: 5vw;
@@ -708,22 +706,15 @@ body {
         height: 11vw;
         margin-top: 4vw;
     }
-
     .countdown-date{
         font-family: "Elliot-Thin";
         font-size: 6vw;
 
     }
-
     .countdown-text{
         font-family: "Elliot-Thin";
         text-align: end;
     }
-
-    .col-centered{
-
-    }
-
     .arrival-sec {
         width: 30vw;
         margin-top: 4.1vw;
@@ -785,7 +776,6 @@ body {
         width: 24vw;
         max-width: 750px;
     }
-
     .wheretostay-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
@@ -824,11 +814,6 @@ body {
         height: 1vw;
         line-height: 1.67vw;
     }
-
-    .whattobring-sec-left{
-
-    }
-
     .whattobring-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
@@ -847,7 +832,6 @@ body {
         height: 9vw;
         line-height: 1.67vw;
     }
-
     .whattobring-sec-right{
         background-image: url(../img/teq1.jpg);
         background-position:center top;
@@ -856,27 +840,22 @@ body {
         color: white;
         height: 13vw;
     }
-
     .gettinghere-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
         margin-left: 2vw;
     }
-
-
-    .gettinghere-sec-right {
+  .gettinghere-sec-right {
         color: white;
         background-color: black;
         margin-top: 4.1vw;
         margin-left: -7.4vw;
         height: 100%;
     }
-
     .gettinghere-sec-left h4 {
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
     }
-
     .gettinghere-sec-left p, li {
         font-size: 1.04vw;
         line-height: 1.65vw;
@@ -893,7 +872,6 @@ body {
         height: 35vw;
         background-color: grey;
     }
-
     .gettinghere-checkin-sec-left{
         color: white;
         background-color: black;
@@ -901,7 +879,6 @@ body {
         margin-left: -7.4vw;
         height: 17vw;
     }
-
     .gettinghere-checkin-sec-right{
         width: 30vw;
         margin-top: 4.1vw;
@@ -995,158 +972,296 @@ body {
         color: white;
     }
 
+    /* font stylers */
+    .elliot-bold {
+        font-family:"Elliot-Bold";
+        color: #333 !important;
+    }
+    .mobile-learn-more {
+      display: none;
+    }
+
+}
+
+/* Mid Desktop Breakpoint */
+@media only screen and (max-width: 1200px) {
+    /*Nav Padding*/
+    #nav-background-color {
+        background: none;
+
+
+
 
     /* Footer Styles */
     footer {
         background-color: #F93642;
         padding-top: 7vh !important;
     }
-    .footer-text p {
-        color: #E2E2E2 !important;
-        font-family: "Elliot-Thin";
+    .p-r-9 {
+        padding-right: 6vw !important;
     }
-    .footer-nav a {
-        font-size: 12.5pt;
+    .p-l-12 {
+        padding-left: 8vw !important;
+    }
+    /*Menu Styles*/
+    .navbar-nav>li>a {
+        font-family: "Elliot-Thin";
+        color: white;
+        padding-top: 2.1vw !important;
+        font-size: calc(11px + .25vw);
+    }
+    a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
+        padding-top: 2.1vw !important;
+        font-size: calc(11px + .40vw);
         font-family: "Elliot" !important;
+        text-transform: uppercase;
+        color: white !important;
+        letter-spacing: 0;
+    }
+    ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
+        background-color: red;
+        width: 7.7vw;
+        height: 5.2vw;
+        margin-right: 2.1vw;
+    }
+    .navbar-inner ul li {
+        width: 8.1vw;
+        max-width: 179px;
+        text-align: center;
+    }
+    .title {
+        font-family: "Elliot";
+        text-transform: uppercase;
         color: white !important;
     }
-    .footer-nav ul li {
-        padding-left: 10vw;
-        width: 14vw;
-        max-width: 250px !important;
+    .mid-number-1 {
+        font-family: "Elliot-Thin" !important;
+        font-size: 60px;
+        margin-right: 100px;
+        line-height: 1.2;
     }
-    .footer-nav .nav {
-        padding-top: .3vh;
-        padding-bottom: 5.4vh;
+    .mid-number-2 {
+        font-family: "Elliot-Thin" !important;
+        font-size: 60px;
+        margin-left: 40px;
+        line-height: 1.2;
     }
-    .footer-text .special {
-        padding-left: 10vw;
-        padding-top: 8.3vh;
-        max-width: 1000px;
+    .center-mid {
+        text-align: -webkit-center;
     }
-    .footer-text .copyright {
-        padding-left: 10vw;
-        padding-top: 4.4vh;
-        padding-bottom: 8.0vh;
-        max-width: 1000px;
+    .margin-break{
+        margin-left: 20% !important;
+        margin-right: 20% !important;
     }
-    .circle-footer {
-        width: 10px;
-        height: 10px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 46.5px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
+    /* padding for tablet and phone */
+    .tablet-bot {
+        padding-bottom: 50px;
     }
-    .line-footer {
-        width: 31vw;
-        max-width: 235px;
-        height: 2px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        margin-top: 51px;
-        margin-left: 65vw;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
+    .tablet-top {
+        margin-top: 100px !important;
+    }
+    /* hide on tablet view */
+    .tablet-hide {
+        display: none !important;
     }
 
+    /* speaker image size and text tablet */
+    .speaker-img {
+        font-family: "Elliot-Light";
+    }
+    .speaker-img-1 {
+       font-family: "Elliot-Light";
+    }
+    .speaker-img img{
+        width: 28vw;
+    }
+    .speaker-img-1 img {
+       width: 28vw;
+
+    }
+    .speakers-title h2{
+        font-family: Elliot;
+    }
+    .center-small{
+        text-align: center;
+    }
+
+    /* Recap Mobiel */
+    .recap-mobile {
+        padding-top: 70px;
+        background-color: #000;
+        color: #fff;
+        padding-bottom: 70px;
+    }
+    .recap-vid-mobile {
+        width: 100%;
+        height: 56vw;
+    }
+    .nav-register {
+        margin-left: 0vw;
+    }
+    .mobile-learn-more {
+      display: none;
+    }
 }
+
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width : 990px ) {
+    #nav-background-color {
+        background: none;
+    }
+    .nav-register {
+        margin-left: -1vw;
+    }
+    /*    Splash Section*/
+    .splash-words {
+        color: #ffffff;
+        padding-top: 14vw;
+        padding-left: 12.4vw !important;
+        width: 100%;
+        height: 57.9vw;
+        background-image: url(../img/background.jpg);
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .splash-words h1 {
+        font-size: 6vw;
+        font-family: "Elliot-Bold";
+        text-transform: uppercase;
+        color: white !important;
+    }
+    .splash-date {
+        font-size: 5vw !important;
+        font-family: "Elliot-Thin" !important;
+/*        padding-left: 7px;*/
+    }
+     .splash-location {
+        font-size: 1.7vw !important;
+        font-family: "Elliot-Thin" !important;
+        padding-left: 4px
+    }
+    .top-buffer {
+        margin-top:5vw;
+    }
+    .mobile-push-right {
+        display: none;
+    }
+    .mobile-learn-more {
+      display: none;
+    }
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    html {
+      background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
+      -webkit-background-size: cover !important;
+      -moz-background-size: cover !important;
+      -o-background-size: cover !important;
+      background-size: cover !important;
+    }
+    .tawis {
+/*        height: 0;*/
+        min-height: 120px;
+    }
+
+    .mobile-push-right {
+        display: none;
+    }
+    .nav-register {
+        margin-left: 0vw;
+    }
     .mobile-hide{
         display: none !important;
     }
+    .navbar-header {
+        margin-top: 4px;
+    }
     .icon-bar {
         background-color: white;
+        margin-top: .95vw;
+        margin-bottom: 1.2vw;
+        margin-left: .002vw;
+        padding-right: 5.35vw;
+    }
+    .drop-down {
+        padding-left: 10px;
+        text-align: left;
+    }
+    .navbar-toggle {
+        background-color: #FF1E39 !important;
+        border:  2vw solid #FF1E39 !important;
+        border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
     }
     .splash-words h1 {
-        padding-top: 16.5vh;
+        padding-top: 16.65vh;
         margin-bottom: 0px;
         font-size: 14vw;
         font-family: "Elliot-Bold";
         text-transform: uppercase;
         color: white !important;
-        line-height: 120px;
+        line-height: 16vw;
     }
     .splash-date {
-        font-size: 9.3vw;
+        font-size: 9.3vw !important;
         font-family: "Elliot-Thin";
-        margin-top: 1.7vw;
-        letter-spacing: .1px;
+        margin-top: 1.7vw !important;
+        letter-spacing: .1px !important;
     }
     .splash-location {
-        font-size: 4.08vw;
-        margin-top: 3.5vw;
+        font-size: 4.08vw !important;
+        margin-top: 3.5vw !important;
         font-family: "Elliot-Thin";
     }
     .mobile-push-right {
         display: none;
     }
     .splash-words {
-    color: #ffffff;
-    padding-top: 16vh;
-    padding-left: 9.85vw !important;
-    width: 100%;
-    height: 145vh;
-    background-image: url(../img/backgroundMobile.png) !important;
-    /*background-position: left bottom;*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+        color: #ffffff;
+        padding-top: 16vh;
+        padding-left: 9.85vw !important;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/backgroundMobile.png) !important;
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
     }
     .mobile-learn-more {
-    transform: rotate(-90deg);
-    transform-origin: left top 0;
-    font-family: "Elliot-Light";
-    margin-top: 23vh;
-    margin-right: -9vh;
-    float: right;
-    font-size: 2.8vw;
+        transform: rotate(-90deg);
+        transform-origin: left top 0;
+        font-family: "Elliot-Light";
+        margin-top: 23vh;
+        float: right;
+        font-size: calc(10px + 1.4vw);
+        display: flex;
     }
 
-    /*    Thought at Work is white section*/
-    .tawis {
-    background-color: #ffffff;
-    width: 100%;
-    height: 89.2vh;
-    text-align: center;
+    /*speaker image size phone */
+    .speaker-img img{
+        width: 40vw;
+
     }
-    .tawis-desc p {
-    font-family: Elliot-Thin;
-    margin: 11% auto 3% auto;
-    margin-top: 21.9vh;
-    font-size: 5.08vw;
-    width: 80vw;
-    line-height: 1.6;
-    margin-bottom: 17vw;
-    }
-    .tawis-desc .schedule {
-    font-size: 2.7vw;
-    font-family: Elliot-Bold;
-    color: black;
-    letter-spacing: 1.5px;
+    .speaker-img-1 img {
+       width: 40vw;
+
     }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 480px) {
 
 }
 
-    /* Custom, iPhone Retina */
-    @media only screen and (max-width : 320px) {
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
 
-    }
+}
