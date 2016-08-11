@@ -343,7 +343,6 @@ body {
     }
     .days {
         font-size: 6.15vw;
-        margin-top: 4.5vw;
         margin-left: 3.6vw;
         width: 24vw;
         max-width: 750px;
@@ -396,7 +395,7 @@ body {
     }
     .speakers-title h2{
         font-family: Elliot;
-        margin-top: -3;
+        margin-top: -3vw;
         margin-bottom: 1.30vw;
         margin-left: 11.7vw;
         font-size: 2.11vw !important;
@@ -718,7 +717,7 @@ body {
 
     .countdown-text{
         font-family: "Elliot-Thin";
-        margin-left: 4vw;
+        text-align: end;
     }
 
     .col-centered{
@@ -731,13 +730,13 @@ body {
         margin-left: 12.5vw;
     }
     .arrival-sec2 {
-        width: 30vw;
-        margin-top: 4.1vw;
-    }
-    .arrival-sec h4 {
-         font-size: 1.6vw;
-         font-family: "Elliot-Thin";
+         width: 30vw;
+         margin-top: 4.1vw;
      }
+    .arrival-sec h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
     .arrival-sec p {
         font-size: 1.04vw;
         line-height: 1.65vw;
@@ -861,7 +860,7 @@ body {
     .gettinghere-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
-        margin-left: 11.6vw;
+        margin-left: 2vw;
     }
 
 
@@ -887,9 +886,11 @@ body {
     }
 
 
+
+
     #map{
         width: 100%;
-        height: 17vw;
+        height: 35vw;
         background-color: grey;
     }
 
@@ -921,6 +922,79 @@ body {
         height: 9vw;
         line-height: 1.67vw;
     }
+
+    .food-sec-left{
+        width: 30vw;
+        margin-top: 4.1vw;
+        margin-left: 12.5vw;
+    }
+
+    .food-sec-right{
+        width: 30vw;
+        margin-top: 4.1vw;
+    }
+    .food-sec-left,.food-sec-right h4 {
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+    }
+    .food-sec-left,.food-sec-right p {
+        font-size: 1.04vw;
+        line-height: 1.65vw;
+        font-family: "Elliot-Thin";
+        width: 28vw;
+        height: 9vw;
+        line-height: 1.67vw;
+    }
+
+    .food-menu{
+        background-image: url("../img/food-menu.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3vw;
+        height: 32vw;
+        width: 32vw;
+    }
+    .food-menu-2{
+        background-color: black;
+        margin-top: 6vw;
+        height: 33vw;
+        width: 32vw;
+        margin-left: -4vw;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+
+    }
+
+    .food-menu-list{
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+        color: white;
+        margin-left: 11vw;
+        padding-top: 6vw;
+    }
+
+    .food-menu-list-item{
+        line-height: 7vw;
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+        color: white;
+    }
+
+    .food-menu-list2{
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+        color: white;
+        margin-left: 1vw;
+        padding-top: 3vw;
+    }
+
+    .food-menu-list2-item{
+        line-height: 7vw;
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+        color: white;
+    }
+
 
     /* Footer Styles */
     footer {
