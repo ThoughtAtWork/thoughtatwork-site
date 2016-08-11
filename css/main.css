@@ -988,10 +988,7 @@ body {
     /*Nav Padding*/
     #nav-background-color {
         background: none;
-
-
-
-
+    }
     /* Footer Styles */
     footer {
         background-color: #F93642;
@@ -1058,7 +1055,7 @@ body {
         padding-bottom: 50px;
     }
     .tablet-top {
-        margin-top: 100px !important;
+        margin-top: 36.8vw !important;
     }
     /* hide on tablet view */
     .tablet-hide {
