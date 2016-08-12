@@ -256,6 +256,8 @@ body {
      }
     .recap-video {
         /*background-color: #c9302c;*/
+        position: absolute;
+        right: 0%;
     }
     .TAW-Video {
         width: 56vw;
@@ -353,6 +355,7 @@ body {
         margin-left: 3.6vw;
         width: 24vw;
         max-width: 750px;
+        padding-top: 20px;
     }
     .come {
         width: 30vw;
