@@ -13,9 +13,7 @@
 @font-face {
   font-family: 'Elliot-Thin';
   src: url("../fonts/Elliot-Thin.otf"); }
-@font-face {
-  font-family: 'Bodoni';
-  src: url("../fonts/MBodoni.otf"); }
+
 body {
     /* Location of the image */
 /*    background-image: url(../images/background.jpg);*/
@@ -937,9 +935,7 @@ body {
         height: 33vw;
         width: 32vw;
         margin-left: -4vw;
-        overflow-y: scroll;
-        -webkit-overflow-scrolling: touch;
-
+        overflow: scroll;
     }
 
     .food-menu-list{
@@ -988,6 +984,7 @@ body {
     /*Nav Padding*/
     #nav-background-color {
         background: none;
+    }
 
 
 
