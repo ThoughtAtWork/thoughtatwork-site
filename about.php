@@ -48,39 +48,47 @@
 		</div>
 
 			<!-- COME HANG -->
-		<div class="container-fluid about">
+		<div class="container-fluid top-buffer">
 			<div class="row">
-				<div class="col-lg-12">
-						<h2>HISTORY IN <br>&nbsp;&nbsp;&nbsp;<span> </span>THE MAKING</h2>
+				<div class="col-lg-10 col-md-offset-1">
+						<h2 class="elliot">HISTORY IN <br>&nbsp;&nbsp;&nbsp;<span> </span>THE MAKING</h2>
 				</div>
-				<div class="col-lg-6">
+      </div>
+    </div>
+    <div class="container-fluid about">
+      <div class="row">
+				<div class="col-md-6">
 						<div class="about-desc">
-							<p>After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
+							<p class="elliot">After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
 						</div>
-                    <div class="about-circle"></div>
+                <div class="about-circle"></div>
                 <div class="about-line"></div>
 				</div>
-				<div class="col-lg-6 about-also">
-                     <div class="about-also-desc"><p>Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
-                    <div class="about-also-checkout"><p><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
-                    <div class="about-also-roll"><p>Ready to roll?</p></div>
-                    
-                    <div class="about-also-register">
+				<div class="col-md-6 about-also">
+                     <div class="about-also-desc tablet-bot"><p class="elliot">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
+                    <div class="about-also-checkout text-center"><p class="elliot-bold"><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
+                    <div class="about-also-roll text-center tablet-bot"><p>Ready to roll?</p></div>
+                    <div class="text-center">
+                    <button class="about-also-register btn">
                         <a href="#">REGISTER</a>
-                    </div>
+                    </button>
+                  </div>
 				</div>
                 
 			</div>
-            <div class="col-lg-12">
+    </div>
+
+    <div class="container tablet-top">
+            <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids">
-                    <h4>THE COOL KIDS</h4>
-                    <p>Our travelling event series that challenges human adults to make comedy with technology. Every event starts like a party, morphs into a hackathon, and ends in a comedy show - capped with more partying. We also own a domain.</p>
+                    <h2 class="elliot">THE COOL KIDS</h2>
+                    <p class="elliot">Our travelling event series that challenges human adults to make comedy with technology. Every event starts like a party, morphs into a hackathon, and ends in a comedy show - capped with more partying. We also own a domain.</p>
                 </div>				
-			</div>
+			       </div>
 		</div>
-        <div class="about-teampic">
-        <img src="img/team-photo.png" />
-            </div>
+        <div class="about-teampic  small-top">
+            <img src="img/team-photo.png" class="img-responsive" />
+        </div>
         <!--- Footer Include-->
 		<?php include("footer.php"); ?>
        

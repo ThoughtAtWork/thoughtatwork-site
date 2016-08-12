@@ -119,8 +119,19 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-
-
+    .about-also-register, .about-also-register a{
+        color: white;
+        background-color: #FF1631;
+        font-size:10px;
+             letter-spacing: 1.9px;
+    }
+    .btn {
+         border-radius: 0 !important;
+    }
+    .about-also-checkout a {
+        color: white;
+    }
+    
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -214,6 +225,10 @@ body {
     .top-buffer {
         margin-top:5vw;
     }
+    .small-top {
+        margin-top:30px;
+    }
+
     .recap {
         width:100%;
         height: 100%;
@@ -280,6 +295,9 @@ body {
          -moz-border-radius: 10px;
          -webkit-border-radius: 10px;
          border-radius: 10px;
+     }
+     .left-off{
+        margin-right: 15px;
      }
     .line-recap1 {
         width: 2px;
@@ -548,7 +566,6 @@ body {
         color: black;
         background-color: #ffffff;
         width: 100%;
-        height: 51.5vw;
     }
     .about h2 {
         margin-top: 4.70vw;
@@ -563,7 +580,7 @@ body {
     .about-desc {
         width: 30vw;
         margin-top: 3.75vw;
-        margin-left: 20.8vw;
+        margin-left: 17.8vw;
     }
     .about-desc h4 {
         font-size: 1.6vw;
@@ -573,17 +590,15 @@ body {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
         width: 28vw;
         height: 9vw;
         letter-spacing: .3px;
         line-height: 1.67vw;
     }
     .about-also {
-        width: 46.9vw !important;
-        height: 29.15vw;
-        margin-left: 3.1vw;
-        margin-top: -1.25vw;
+        position: relative;
+        right: 0%;
+        width: 40%;
         font-size: 1.25vw;
         font-family: "Elliot-Thin";
         background-color: #000000;
@@ -628,9 +643,13 @@ body {
         height: 2.5vw;
         margin-left: 5.40vw;
         margin-top: 1.45vw;
+        margin-bottom: 4.95vw !important;
         background-color: #FF1631;
     }
-    .about-also-register a {
+    .btn {
+         border-radius: 0 !important;
+    }
+    .about-also-register a, .about-also-register a:hover {
         color: white;
         font-size: .7vw !important;
         font-family: "Elliot";
@@ -640,23 +659,21 @@ body {
         justify-content: center;
         align-self: center;
         letter-spacing: 1.9px;
-        padding-top: .8vw;
+        padding-top: .2vw;
     }
     .about-kids {
         width: 30vw;
-        margin-left: 10.8vw;
         margin-top: 4.85vw;
     }
-    .about-kids h4 {
+    .about-kids h2 {
         margin-bottom: 4.8vw;
         font-size: 2.05vw;
         font-family: "Elliot";
-        margin-left: -.15vw;
+        margin-left: -2vw;
         margin-bottom: 4.60vw;
     }
     .about-kids p {
         font-size: 1.07vw;
-        font-family: "Elliot-Thin";
         line-height: 1.67vw;
         width: 27.5vw;
         height: 8.30vw;
@@ -992,6 +1009,38 @@ body {
     #nav-background-color {
         background: none;
     }
+    .about-teampic {
+        width:100%;
+    }
+    /* splash styles */
+     .splash-words {
+        color: #ffffff;
+        padding-top: 14vw;
+        padding-left: 12.4vw !important;
+        width: 100%;
+        height: 57.9vw;
+        background-image: url(../img/background.jpg);
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .splash-words h1 {
+        font-size: 5vw;
+        font-family: "Elliot-Bold";
+        text-transform: uppercase;
+        color: white !important;
+    }
+    .splash-date {
+        font-size: 4vw !important;
+        font-family: "Elliot-Thin" !important;
+/*        padding-left: 7px;*/
+    }
+     .splash-location {
+        font-size: 1.7vw !important;
+        font-family: "Elliot-Thin" !important;
+        padding-left: 4px
+    }
     /* Footer Styles */
     footer {
         background-color: #F93642;
@@ -1103,6 +1152,12 @@ body {
     .mobile-learn-more {
       display: none;
     }
+    .about-also {
+        background-color: #000000;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -1144,6 +1199,9 @@ body {
     }
     .top-buffer {
         margin-top:5vw;
+    }
+    .bot-buffer {
+        margin-bottom: 5vw;
     }
     .mobile-push-right {
         display: none;
