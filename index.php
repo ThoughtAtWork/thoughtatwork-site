@@ -65,7 +65,7 @@ win.onscroll = function(){
         </div>
 
 		<!-- ABOUT -->
-		<div class="container-fluid tablet-top container-space tawis">
+		<div class="container-fluid tablet-top container-space ">
 			<div class="row tawis">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
@@ -80,22 +80,23 @@ win.onscroll = function(){
 		<div class="container-fluid recap tablet-top">
 			<div class="row">
 				<div class="col-lg-6 recap-recap recap-mobile">
-						<div class="recap-info">
-							<h3 class="elliot">RECAP </h3>
-							<br><br>
-							<p class="elliot">Hundreds of passionate students get inspired &amp; collaborate.</p>
-							<p class="elliot">Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
-						</div>
-						<div class="circle-recap"></div>
-						<div class="line-recap1"></div>
-<!--				        <div class="line-recap2"></div>-->
+                    <div class="recap-info">
+                        <h3 class="elliot">RECAP </h3>
+                        <br><br>
+                        <p class="elliot recap-mobile-subheader">Hundreds of passionate students get inspired &amp; collaborate.</p>
+                        <p class="elliot recap-mobile-desc">Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
+                    </div>
+                    <div class="circle-recap"></div>
+                    <div class="line-recap1"></div>
                 </div>
-
-					<div class="recap-video">
-	                    <iframe class="TAW-Video recap-vid-mobile" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					</div>
+            </div>
+		</div>
+        <div class="container-fluid recap tablet-top">
+			<div class="row">
+                <div class="recap-video">
+                    <iframe class="TAW-Video recap-vid-mobile" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
 			</div>
-
 		</div>
 
 			<!-- COME HANG -->
