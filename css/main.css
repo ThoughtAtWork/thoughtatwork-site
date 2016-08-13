@@ -1245,6 +1245,107 @@ body {
         width: 100%;
         height: 56vw;
     }
+      .tawis {
+        padding: 13.7vw 2.8vw 10.0vw 8vw;
+        background-color: #ffffff;
+        width: 100%;
+        height: 89.5vw;
+        text-align: center;
+    }
+    .tawis p {
+        font-family: Elliot-Thin;
+        margin: 10.5% auto 3% auto;
+        font-size: 4.8vw;
+        letter-spacing: 1.5px;
+        line-height: 1.68;
+        margin-bottom: 16.4vw;
+    }
+    .tawis a {
+        font-size: 3.2vw;
+        font-family: Elliot-Bold;
+        color: black;
+        letter-spacing: 2px;
+    }
+    /* Recap Mobiel */
+    .recap-mobile {
+        background-color: #141416;
+        color: #fff;
+    }
+    .recap-info {
+        padding-right: 13.5vw;
+        padding-left: 13.5vw;
+    }
+    .recap-mobile h3 {
+        padding-top: 10.6vw !important;
+        padding-bottom: 4vw !important;
+        font-family: "Elliot";
+        font-size: 6.67vw;
+        background-color: #141416;
+        color: #fff;
+    }
+    .recap-mobile p {
+        font-family: "Elliot-Thin";
+        letter-spacing: 0.5px;
+    }
+    .recap-mobile-subheader {
+        font-size: 4.55vw;
+        padding-bottom: 8.4vw;   
+    }
+    .recap-mobile-desc {
+        font-size: 3.2vw;
+        padding-bottom: 13.4vw !important;
+    }
+    .recap-vid-mobile {
+        width: 100%;
+        height: 56.4vw;
+    }
+    .mobile-come-hang {
+        padding-right: 13.5vw;
+        padding-left: 13.5vw;
+    }
+    .mobile-come-hang h2 {
+        padding-top: 19.2vw !important;
+        padding-bottom: 8.6vw !important;
+        padding-right: 13.5vw;
+        padding-left: 13.5vw;
+        font-family: "Elliot";
+        font-size: 6.67vw;
+        background-color: #ffffff;
+        color: #141416;
+    }
+    .mobile-come-hang p {
+        font-family: "Elliot-Thin";
+        letter-spacing: 0.5px;
+    }
+    .mobile-come-hang-subheader {
+        font-size: 4.55vw;
+        padding-bottom: 3.1vw;   
+    }
+   .mobile-come-hang-date p {
+        font-size: 16vw !important;
+    }
+    .mobile-come-hang-subheader h4 {
+        padding-top: 19.2vw !important;
+        padding-bottom: 8.6vw !important;
+        padding-right: 13.5vw;
+        padding-left: 13.5vw;
+        font-family: "Elliot";
+        font-size: 6.67vw;
+        background-color: #ffffff;
+        color: #141416;
+    }
+    .mid-number-1 {
+        padding-top: 1.2vw !important;
+        margin-right: 21.9vw !important;
+    }
+    .mid-number-2 {
+        margin-top: -1.2vw !important;
+        margin-left: 13.4vw;
+    }
+    .mobile-come-hang-desc {
+        font-size: 3.2vw;
+        padding-bottom: 4.4vw !important;
+    }
     .mobile-push-right {
         display: none;
     }
@@ -1324,7 +1425,7 @@ body {
         font-size: calc(14px + 1.4vw);
         display: flex;
     }
-
+    
     /*speaker image size phone */
     .speaker-img img{
         width: 40vw;
