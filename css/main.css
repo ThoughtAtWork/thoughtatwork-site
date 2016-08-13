@@ -733,6 +733,11 @@ body {
         font-family: "Elliot-Thin";
         text-align: end;
     }
+
+    .arrival-h2{
+        margin-left: 11.6vw;
+    }
+
     .arrival-sec {
         width: 30vw;
         margin-top: 4.1vw;
@@ -955,7 +960,7 @@ body {
         height: 33vw;
         width: 32vw;
         margin-left: -4vw;
-        overflow: scroll;
+        overflow-y: scroll;
     }
 
     .food-menu-list{
@@ -1005,38 +1010,8 @@ body {
     #nav-background-color {
         background: none;
     }
-    .about-teampic {
-        width:100%;
-    }
-    /* splash styles */
-     .splash-words {
-        color: #ffffff;
-        padding-top: 14vw;
-        padding-left: 12.4vw !important;
-        width: 100%;
-        height: 57.9vw;
-        background-image: url(../img/background.jpg);
-        /*background-position: left bottom;*/
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100%;
-    }
-    .splash-words h1 {
-        font-size: 5vw;
-        font-family: "Elliot-Bold";
-        text-transform: uppercase;
-        color: white !important;
-    }
-    .splash-date {
-        font-size: 4vw !important;
-        font-family: "Elliot-Thin" !important;
-/*        padding-left: 7px;*/
-    }
-     .splash-location {
-        font-size: 1.7vw !important;
-        font-family: "Elliot-Thin" !important;
-        padding-left: 4px
-    }
+
+
     /* Footer Styles */
     footer {
         background-color: #F93642;
