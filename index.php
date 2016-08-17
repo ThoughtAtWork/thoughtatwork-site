@@ -34,7 +34,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<script>
+<!---<script>
 var win = window,
     docEl = document.documentElement,
     $nav = document.getElementById("nav-background-color");
@@ -43,7 +43,7 @@ win.onscroll = function(){
    var sTop = (this.pageYOffset || docEl.scrollTop)  - (docEl.clientTop || 0);
    $nav.style.background =  sTop > 200 ? "#16161E":"none" ;
 };
-</script>
+</script> ---->
 <!-- <script src="../constantlyUpdatingScript.js"></script> -->
 
 	</head>
@@ -63,7 +63,7 @@ win.onscroll = function(){
                 <p>&larr; &nbsp; Learn More </p>
             </div>
         </div>
-
+        <div class="navOff"></div>
 		<!-- ABOUT -->
 		<div class="container-fluid tablet-top container-space ">
 			<div class="row tawis">
@@ -171,5 +171,6 @@ win.onscroll = function(){
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
         <!---->
+        <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
 </html>

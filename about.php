@@ -78,7 +78,7 @@
 			</div>
     </div>
 
-    <div class="container tablet-top">
+    <div class="container tablet-top tablet-bot">
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids">
                     <h2 class="elliot">THE COOL KIDS</h2>
