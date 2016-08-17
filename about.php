@@ -28,6 +28,8 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
@@ -46,9 +48,10 @@
 				</div>
 			</div>
 		</div>
+     <div class="navOff"></div>
 
 			<!-- COME HANG -->
-		<div class="container-fluid top-buffer">
+		<div class="container-fluid top-buffer tablet-top">
 			<div class="row">
 				<div class="col-lg-10 col-md-offset-1">
 						<h2 class="elliot">HISTORY IN <br>&nbsp;&nbsp;&nbsp;<span> </span>THE MAKING</h2>
@@ -91,6 +94,6 @@
         </div>
         <!--- Footer Include-->
 		<?php include("footer.php"); ?>
-       
+       <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
 </html>

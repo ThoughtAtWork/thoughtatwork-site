@@ -1100,7 +1100,7 @@ body {
         padding-bottom: 50px;
     }
     .tablet-top {
-/*        margin-top: 16.8vw !important;*/
+ margin-top: 16.8vw !important;
     }
     /* hide on tablet view */
     .tablet-hide {

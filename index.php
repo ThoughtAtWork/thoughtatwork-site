@@ -65,7 +65,7 @@ win.onscroll = function(){
         </div>
         <div class="navOff"></div>
 		<!-- ABOUT -->
-		<div class="container-fluid tablet-top container-space ">
+		<div class="container-fluid container-space ">
 			<div class="row tawis">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
