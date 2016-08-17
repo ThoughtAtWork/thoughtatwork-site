@@ -19,7 +19,7 @@
              </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row tablet-bot">
         <div class="col-lg-12 sponsor-want center-mid">
             <div class="row-spacer">&nbsp;</div>
             <a href="" class="elliot-bold dark">WANT TO SPONSOR?</a>

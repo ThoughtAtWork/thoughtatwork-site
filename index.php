@@ -89,15 +89,12 @@ win.onscroll = function(){
                     <div class="circle-recap"></div>
                     <div class="line-recap1"></div>
                 </div>
-            </div>
-		</div>
-        <div class="container-fluid recap tablet-top">
-			<div class="row">
-                <div class="recap-video">
+                 <div class="recap-video">
                     <iframe class="TAW-Video recap-vid-mobile" src="https://player.vimeo.com/video/174857850?color=fff&byline=0&portrait=0" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
-			</div>
+            </div>
 		</div>
+
 
 			<!-- COME HANG -->
 		<div class="container-fluid come-hang tablet-top">
