@@ -34,21 +34,33 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<!---<script>
-var win = window,
-    docEl = document.documentElement,
-    $nav = document.getElementById("nav-background-color");
-
-win.onscroll = function(){
-   var sTop = (this.pageYOffset || docEl.scrollTop)  - (docEl.clientTop || 0);
-   $nav.style.background =  sTop > 200 ? "#16161E":"none" ;
-};
-</script> ---->
 <!-- <script src="../constantlyUpdatingScript.js"></script> -->
 
 	</head>
 	<body>
         <?php include("header.php"); ?>
+        <nav id="nav-background-color" class="navbar navbar-fixed-top p-a-9 nav" role="navigation">
+    <div class="container-fluid navColorChange">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand title p-l-12 mobile-hide" href="index.php">Thought at Work</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-inner pull-right  drop-down">
+            <ul class="nav navbar-nav navbar-right p-r-9">
+                <li class="active"><a href="index.php">Home</a></li>
+                <li><a href="arrival.php">Arrival</a></li>
+                <li class="text-nowrap"><a href="about.php">About Us</a></li>
+               <li><a href="#">Contact</a></li>
+               <li><a class="nav-register" href="#">Register</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
@@ -156,7 +168,7 @@ win.onscroll = function(){
 			<div class="row">
 					<div class="col-md-12 text-center">
                         <div class="row-spacer">&nbsp;</div>
-                        <a href="" class="elliot-bold dark">VIEW ALL</a>
+                        <a href="" class="elliot-bold dark view-all">VIEW ALL</a>
                     </div>
                     <div class="circle-speakers"></div>
                     <div class="line-speakers"></div>
@@ -167,6 +179,57 @@ win.onscroll = function(){
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
+        <!-- SPONSORS -->
+<div class="container-fluid sponsors tablet-top">
+    <div class="row sponsor-top">
+        <div class="col-md-10 col-md-offset-1 center-mid">
+             <div class="col-sm-2 col-sm-offset-1 ">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-sm-2">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-sm-2 ">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-sm-2">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+             <div class="col-sm-2">
+                <img class="img-responsive" src="img/sponsor.png" />
+             </div>
+        </div>
+    </div>
+    <div class="row tablet-bot">
+        <div class="col-lg-12 sponsor-want center-mid">
+            <div class="row-spacer">&nbsp;</div>
+            <a href="" class="elliot-bold dark">WANT TO SPONSOR?</a>
+        </div>
+    </div>
+</div>
+<!-- FOOTER -->
+<footer class="tablet-top">
+    <div class="container footer-nav navbar-inner">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <div class="col-md-2"><a>FAQ</a></div>
+                <div class="col-md-2"><a>TRAVEL</a></div>
+                <div class="col-md-2"><a>REGISTER</a></div>
+                <div class="col-md-2"><a>GET IN TOUCH</a></div>
+                <div class="col-md-2 tablet-hide">
+                    <div class="circle-footer"></div>
+                    <div class="line-footer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+            <div class="container footer-text">
+                <p class="special">Special thanks to Lorraine Justice, Josh Own, Bruce Leonard, Adam Smith, and Benjamin Thomas</p>
+                <p class="copyright">&copy; 2016 Thought At Work. All rights reserved.</p>
+            </div>
+        </div>
+</footer>
         <!---->
         <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
