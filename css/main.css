@@ -81,6 +81,7 @@ body {
         font-size: 12.5px;
         font-family: "Elliot" !important;
         color: white !important;
+        text-decoration: none;
     }
     .footer-text .special {
         padding-left: 10vw;
@@ -103,9 +104,10 @@ body {
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
         border-radius: 10px;
+        margin-top: 6px;
     }
     .line-footer {
-        margin-top: 4px;
+        margin-top: 10px;
         width: 31vw;
         max-width: 235px;
         height: 2px;
@@ -121,7 +123,7 @@ body {
         color: white;
         background-color: #FF1631;
         font-size:10px;
-             letter-spacing: 1.9px;
+        letter-spacing: 1.9px;
     }
     .btn {
          border-radius: 0 !important;
@@ -186,8 +188,8 @@ body {
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: red;
-        width: 5.9vw;
-        height: 5.05vw;
+        width: 6.9vw;
+        height: 5.05vw !important;
         margin-right: 2.1vw;
     }
     .navbar-inner ul li {
@@ -538,30 +540,36 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
+    .view-all a:link, a:visited, a:hover, a:active {
+        font-size: 1.04vw !important;
+        font-family: Elliot-Bold;
+        letter-spacing: .1em !important;
+    }
     .sponsors {
         background-color: #E6E6E6;
         width: 100%;
         z-index: 100;
-        margin-top: 6.5vw;
+        margin-top: 6.5vw !important;
         height: 29vw;
     }
-    .col-md-2 img{
-        width: 11.15vw;
-        max-width: 230px;
+    img.sponsor-img {
+/*        min-width: 214px !important;*/
+        width: 15vw;
+        margin-left: 8vw;
+        padding-right: -1.5vw;
     }
+
     .sponsor-top{
-        padding-top: 125px;
+        padding-top: 8.68vw;
     }
     .sponsor-want{
         align-content: center;
-        font-size: .87vw;
-        letter-spacing: .6px;
         text-align: center;
         width: inherit;
         margin-top: 10px;
     }
     .sponsor-want a:link, a:visited, a:hover, a:active {
-        font-size: .75vw;
+        font-size: 1.04vw !important;
         font-family: Elliot-Bold;
         letter-spacing: 1.5px;
     }
@@ -1033,10 +1041,6 @@ body {
         background: none;
     }
     /* Footer Styles */
-    footer {
-        background-color: #F93642;
-        padding-top: 7vh !important;
-    }
     .p-r-9 {
         padding-right: 6vw !important;
     }
@@ -1061,7 +1065,7 @@ body {
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: red;
         width: 7.7vw;
-        height: 5.2vw;
+        height: 5.6vw;
         margin-right: 2.1vw;
     }
     .navbar-inner ul li {
@@ -1098,7 +1102,7 @@ body {
         padding-bottom: 50px;
     }
     .tablet-top {
- margin-top: 16.8vw !important;
+        margin-top: 16.8vw !important;
     }
     /* hide on tablet view */
     .tablet-hide {
@@ -1106,6 +1110,9 @@ body {
     }
 
     /* speaker image size and text tablet */
+    .speakers {
+        padding-bottom: 0px;
+    }
     .speaker-img {
         font-family: "Elliot-Light";
     }
@@ -1152,32 +1159,43 @@ body {
         letter-spacing: .1em;
     }
     /* mobile footer styling*/
-    .sponsors {
-        width: 100%;
-        z-index: 100;
-/*        height: 29vw;*/
-    }
-    .image-responsive {
-        
+    img.sponsor-img {
+        margin-left: 00px;
     }
     .sponsor-want{
         align-content: center;
-        font-size: 3.2vw;
+        font-size: 3.2vw !important;        
         letter-spacing: .1em;
         text-align: center;
         width: inherit;
         margin-top: 10px;
     }
     .sponsor-want a:link, a:visited, a:hover, a:active {
-        font-size: 3.2vw;
+        font-size: 4.2vw;
         letter-spacing: .1em; 
     }
+    .sponsors.tablet-top {
+         margin-top: 8vw !important;
+    }
+    img.sponsor-img {
+        width: 15vw;
+        margin-top: 0px;
+        margin-left: 8vw;
+        padding-right: -1.5vw;
+    }
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
     #nav-background-color {
         background: none;
+    }
+     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
+        background-color: red;
+        width: 7.3vw;
+        height: 6.3vw !important;
+        margin-right: 2.1vw;
     }
     .nav-register {
         margin-left: -1vw;
@@ -1223,6 +1241,34 @@ body {
     .mobile-learn-more {
       display: none;
     }
+    .sponsors.tablet-top {
+        margin-top: 20vw !important;
+    }
+    /* Footer Styles */
+    footer {
+        background-color: #F93642;
+        padding-top: 7vh !important;
+    }
+    .footer-text p {
+        color: #E2E2E2 !important;
+        font-family: "Elliot-Thin";
+    }
+    .footer-nav a, a:hover, a:active, a:link, a: {
+        font-size: 12.5px !important;
+        font-family: "Elliot" !important;
+        color: white !important;
+    }
+    .footer-text .special {
+        padding-left: 10vw;
+        padding-top: 8.3vh;
+/*        max-width: 1000px;*/
+    }
+    .footer-text .copyright {
+        padding-left: 10vw;
+        padding-top: 4.4vh;
+        padding-bottom: 8.0vh;
+        max-width: 1000px;
+    }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -1244,21 +1290,20 @@ body {
         font-family: Elliot-Thin;
         margin: 11% auto 3% auto;
         font-size: 4.8vw;
-        letter-spacing: 1.5px;
+        letter-spacing: .1em;
         line-height: 1.68;
         margin-bottom: 16.4vw;
     }
     .tawis a {
         font-size: 3.2vw;
         font-family: Elliot-Bold;
-        color: black;
+        color: black !impor;
         letter-spacing: 2px;
     }
     /* Recap Mobiel */
     .recap-mobile {
         background-color: #141416;
         color: #fff;
-/*        height: 100.7vw;*/
     }
     .recap-info {
         padding-right: 13.5vw;
@@ -1468,15 +1513,36 @@ body {
         font-size: calc(14px + 1.4vw);
         display: flex;
     }
-    
     /*speaker image size phone */
     .speaker-img img{
         width: 40vw;
-
     }
     .speaker-img-1 img {
        width: 40vw;
-
+    }
+    /* mobile footer styling*/
+    img.sponsor-img {
+        margin-left: 0;
+        margin-bottom: 3vw;
+    }
+    .sponsor-want{
+        align-content: center;
+        letter-spacing: .1em;
+        text-align: center;
+        width: inherit;
+        margin-top: 10px;
+    }
+    .sponsor-want a:link, a:visited, a:hover, a:active {
+        font-size: 3.2vw;
+        letter-spacing: .1em; 
+    }
+    .sponsors.tablet-top {
+         margin-top: 24vw !important;
+    }
+    img.sponsor-img {
+        width: 25vw;
+        min-width: 150px;
+        padding-right: -1.5vw;
     }
 }
 

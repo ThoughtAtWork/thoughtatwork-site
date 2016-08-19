@@ -1,21 +1,21 @@
 <!-- SPONSORS -->
 <div class="container-fluid sponsors tablet-top">
     <div class="row sponsor-top">
-        <div class="col-md-10 col-md-offset-1 center-mid">
-             <div class="col-sm-2 col-sm-offset-1 ">
-                <img class="img-responsive" src="img/sponsor.png" />
+        <div class="center-mid sponsor-images">
+             <div class="col-sm-2 ">
+                <img class="sponsor-img" src="img/sponsor.png" />
              </div>
              <div class="col-sm-2">
-                <img class="img-responsive" src="img/sponsor.png" />
+                <img class="sponsor-img" src="img/sponsor.png" />
              </div>
              <div class="col-sm-2 ">
-                <img class="img-responsive" src="img/sponsor.png" />
+                <img class="sponsor-img" src="img/sponsor.png" />
              </div>
              <div class="col-sm-2">
-                <img class="img-responsive" src="img/sponsor.png" />
+                <img class="sponsor-img" src="img/sponsor.png" />
              </div>
              <div class="col-sm-2">
-                <img class="img-responsive" src="img/sponsor.png" />
+                <img class="sponsor-img" src="img/sponsor.png" />
              </div>
         </div>
     </div>
@@ -30,12 +30,12 @@
 <footer class="tablet-top">
     <div class="container footer-nav navbar-inner">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1 text-center">
-                <div class="col-md-2"><a>FAQ</a></div>
-                <div class="col-md-2"><a>TRAVEL</a></div>
-                <div class="col-md-2"><a>REGISTER</a></div>
-                <div class="col-md-2"><a>GET IN TOUCH</a></div>
-                <div class="col-md-2 tablet-hide">
+            <div class="col-sm-10 col-md-offset-1 text-center">
+                <div class="col-sm-2"><a>FAQ</a></div>
+                <div class="col-sm-2"><a>TRAVEL</a></div>
+                <div class="col-sm-2"><a>REGISTER</a></div>
+                <div class="col-sm-2 text-nowrap"><a>GET IN TOUCH</a></div>
+                <div class="col-sm-2 tablet-hide">
                     <div class="circle-footer"></div>
                     <div class="line-footer"></div>
                 </div>
