@@ -119,7 +119,7 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-    .about-also-register, .about-also-register a{
+    .about-also-register, .about-also-register a, .about-also-register a:hover{
         color: white;
         background-color: #FF1631;
         font-size:10px;
@@ -128,7 +128,7 @@ body {
     .btn {
          border-radius: 0 !important;
     }
-    .about-also-checkout a {
+    .about-also-checkout a, .about-also-checkout a:hover {
         color: white;
     }
     .about-splash-words {
