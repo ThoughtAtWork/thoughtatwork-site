@@ -153,7 +153,9 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+    .about-history {
+        margin-left: 30px;
+    }
     /*NAv Color Change*/
     .nav {
 
@@ -635,7 +637,7 @@ body {
         margin-top: 4.95vw;
         padding-left: 6.25vw;
         padding-right: 5vw;
-        font-size: 1.55vw;
+        font-size: 20px;
         margin-left: -.8vw;
         color: white;
         letter-spacing: .5px;
@@ -1036,6 +1038,13 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    .about-also-desc {
+        font-size: 18px;
+    }
+    .about-register-pad {
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
     /*Nav Padding*/
     #nav-background-color {
         background: none;
@@ -1099,7 +1108,7 @@ body {
     }
     /* padding for tablet and phone */
     .tablet-bot {
-        padding-bottom: 50px;
+        padding-bottom: 16.8vw;
     }
     .tablet-top {
         margin-top: 16.8vw !important;
@@ -1188,6 +1197,11 @@ body {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
+    .about-margins {
+        padding-left: 13.5vw;
+        padding-right: 13.5vw;
+        text-align: left;
+    }
     #nav-background-color {
         background: none;
     }
