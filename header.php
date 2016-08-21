@@ -12,7 +12,7 @@
         <div class="navbar-collapse collapse navbar-inner pull-right  drop-down">
             <ul class="nav navbar-nav navbar-right p-r-9">
                 <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="arrival.php">Arrival</a></li>
+                <li><a href="arrival.php">Get Ready</a></li>
                 <li class="text-nowrap"><a href="about.php">About Us</a></li>
                <li><a href="#">Contact</a></li>
                <li><a class="nav-register" href="#">Register</a></li>

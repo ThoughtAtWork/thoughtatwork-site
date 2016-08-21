@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-sm-10 col-md-offset-1 text-center">
                 <div class="col-sm-2"><a>FAQ</a></div>
-                <div class="col-sm-2"><a>TRAVEL</a></div>
+                <div class="col-sm-2"><a>GET READY</a></div>
                 <div class="col-sm-2"><a>REGISTER</a></div>
                 <div class="col-sm-2 text-nowrap"><a>GET IN TOUCH</a></div>
                 <div class="col-sm-2 tablet-hide">
