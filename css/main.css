@@ -153,29 +153,9 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
     .about-history {
         margin-left: 30px;
     }
->>>>>>> origin/master
-=======
-<<<<<<< Updated upstream
-    .about-history {
-        margin-left: 30px;
-    }
-=======
-<<<<<<< HEAD
-
-=======
-    .about-history {
-        margin-left: 30px;
-    }
->>>>>>> origin/master
->>>>>>> Stashed changes
->>>>>>> origin/master
     /*NAv Color Change*/
     .nav {
 

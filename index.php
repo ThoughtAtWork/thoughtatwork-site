@@ -39,31 +39,6 @@
 	</head>
 	<body>
     <?php include("header.php"); ?>
-<<<<<<< HEAD
-=======
-<nav id="nav-background-color" class="navbar navbar-fixed-top p-a-9 nav" role="navigation">
-    <div class="container-fluid navColorChange">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand title p-l-12 mobile-hide" href="index.php">Thought at Work</a>
-        </div>
-        <div class="navbar-collapse collapse navbar-inner pull-right  drop-down">
-            <ul class="nav navbar-nav navbar-right p-r-9">
-                <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="arrival.php">Arrival</a></li>
-                <li class="text-nowrap"><a href="about.php">About Us</a></li>
-               <li><a href="#">Contact</a></li>
-               <li><a class="nav-register" href="#">Register</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
->>>>>>> origin/master
  <!--  -->
 		<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
@@ -180,61 +155,6 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-<<<<<<< HEAD
-      
-=======
-        <!-- SPONSORS -->
-<div class="container-fluid sponsors tablet-top">
-    <div class="row sponsor-top">
-        <div class="center-mid sponsor-images">
-             <div class="col-sm-2 ">
-                <img class="sponsor-img" src="img/sponsor.png" />
-             </div>
-             <div class="col-sm-2">
-                <img class="sponsor-img" src="img/sponsor.png" />
-             </div>
-             <div class="col-sm-2 ">
-                <img class="sponsor-img" src="img/sponsor.png" />
-             </div>
-             <div class="col-sm-2">
-                <img class="sponsor-img" src="img/sponsor.png" />
-             </div>
-             <div class="col-sm-2">
-                <img class="sponsor-img" src="img/sponsor.png" />
-             </div>
-        </div>
-    </div>
-    <div class="row tablet-bot">
-        <div class="col-lg-12 sponsor-want center-mid">
-            <div class="row-spacer">&nbsp;</div>
-            <a href="" class="elliot-bold dark">WANT TO SPONSOR?</a>
-        </div>
-    </div>
-</div>
-<!-- FOOTER -->
-<footer class="tablet-top">
-    <div class="container footer-nav navbar-inner">
-        <div class="row">
-            <div class="col-sm-10 col-md-offset-1 text-center">
-                <div class="col-sm-2"><a>FAQ</a></div>
-                <div class="col-sm-2"><a>TRAVEL</a></div>
-                <div class="col-sm-2"><a>REGISTER</a></div>
-                <div class="col-sm-2 text-nowrap"><a>GET IN TOUCH</a></div>
-                <div class="col-sm-2 tablet-hide">
-                    <div class="circle-footer"></div>
-                    <div class="line-footer"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-            <div class="container footer-text">
-                <p class="special">Special thanks to Lorraine Justice, Josh Own, Bruce Leonard, Adam Smith, and Benjamin Thomas</p>
-                <p class="copyright">&copy; 2016 Thought At Work. All rights reserved.</p>
-            </div>
-        </div>
-</footer>
->>>>>>> origin/master
         <!---->
         <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
