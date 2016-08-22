@@ -45,7 +45,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<h1>Thought at Work</h1>
-					<h2 class="splash-date">Oct 23-25 2016</h2>
+					<h2 class="splash-date">Oct 21-23 2016</h2>
 					<h3 class="splash-location"><span class="mobile-push-right">&nbsp; &nbsp;</span>@ Rochester Institute of Technology </h3>
 				</div>
 			</div>
@@ -102,7 +102,7 @@
 				</div>
 				<div class="col-lg-6 date center-mid tablet-top tablet-bot mobile-come-hang-date">
 						<p class="month mid-number-1">Oct</p>
-						<p class="days mid-number-2"> 23-25</p>
+						<p class="days mid-number-2"> 21-23</p>
 				</div>
 			</div>
 			<div class="row">

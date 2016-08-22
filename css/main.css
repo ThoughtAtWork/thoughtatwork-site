@@ -1092,7 +1092,7 @@ body {
         padding-bottom: 1vw !important;
         font-family: "Elliot";
         font-size: 4.67vw;
-        background-color: #141416;
+        background-color: "black";
         color: #fff;
     }
     .recap-mobile p {
@@ -1441,7 +1441,7 @@ body {
         padding-bottom: 4vw !important;
         font-family: "Elliot";
         font-size: 6.67vw;
-        background-color: #141416;
+        background-color: "black";
         color: #fff;
     }
     .recap-mobile p {
