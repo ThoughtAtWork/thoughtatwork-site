@@ -32,7 +32,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 
-	</head>
+    </head>
 	<body>
         <?php include("header.php"); ?>
  <!--  -->
@@ -45,8 +45,9 @@
 			</div>
 		</div>
 
-		<!-- WHAT TO EXPECT -->
 
+		<!-- WHAT TO EXPECT -->
+        <div class="navOff"></div>
         <div class="container-fluid come-hang">
             <div class="row">
                 <div class="col-lg-12">
@@ -103,7 +104,7 @@
                                 of food. Get excited. Did we mention the audience wildcard.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <div class="arrival-sec2">
                             <h4>Lounge or down time</h4>
                             <p>Worried you might explode from learning so much? Wondering when you will get to connect
@@ -277,6 +278,6 @@
 
                             <!--- Footer Include-->
                         <?php include("footer.php"); ?>
-                        <!---->
+                                        <!---->
     </body>
 </html>
