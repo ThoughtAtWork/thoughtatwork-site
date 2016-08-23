@@ -51,7 +51,7 @@
      <div class="navOff"></div>
 
 			<!-- COME HANG -->
-		<div class="container-fluid top-buffer tablet-top">
+		<div class="container-fluid top-buffer about-mobile-top">
 			<div class="row about-margins">
 				<div class="col-lg-10 col-md-offset-1">
 						<h2 class="elliot">HISTORY IN <br><span class="about-history">THE MAKING</span></h2>
@@ -62,7 +62,7 @@
       <div class="row">
 				<div class="col-md-6">
 						<div class="about-desc">
-							<p class="elliot about-margins tablet-bot">After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
+							<p class="elliot about-margins about-mobile-bot">After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
 						</div>
                 <div class="about-circle"></div>
                 <div class="about-line"></div>
@@ -80,7 +80,7 @@
                 
 			</div>
     </div>
-    <div class="container tablet-top tablet-bot">
+    <div class="container about-mobile-top about-mobile-bot">
       <div class="row about-margins">
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids">

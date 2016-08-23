@@ -1208,6 +1208,12 @@ body {
     .tablet-top {
 /*        margin-top: 16.8vw !important;*/
     }
+    .about-mobile-top {
+         margin-top: 16.8vw
+    }
+    .about-mobile-bot {
+         margin-bottom: 16.8vw
+    }
     /* hide on tablet view */
     .tablet-hide {
         display: none !important;
