@@ -120,23 +120,24 @@
 		<!-- SPEAKERS -->
 		<div class="container-fluid speakers tablet-bot tablet-top" >
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1 elliot">
+				<div class="col-md-10 col-md-offset-1 elliot speakers-title mobile-speakers">
 					<h2>SPEAKERS</h2>
 				</div>
 			</div>
 			<div class="row speakers-centered center-mid">
 				<div class="col-md-10 col-md-offset-1">
-					<div class="col-sm-4 tablet-bot">
+					<div class="col-sm-4 tablet-bot speaker-img">
 					<img src="img/speaker.jpg" class="img-responsive" />
 						<h2>Mt. Mograph</h2>
 						<p>Motion Graphics, Photography, Development</p>
 					</div>
-					<div class="col-sm-4 tablet-bot">
+                    
+					<div class="col-sm-4 tablet-bot speaker-img">
 						<img src="img/speaker.jpg" class="img-responsive"/>
 						<h2>Kim Alpert</h2>
 						<p>Creative Coding, Photography, Development</p>
 					</div>
-					<div class="col-sm-4 tablet-bot">
+					<div class="col-sm-4 tablet-bot speaker-img speaker-img-3">
 						<img src="img/speaker.jpg" class="img-responsive"/>
 						<h2>Patty Moore</h2>
 						<p class="speaker-p-3">Industrial Design, Photography, Development</p>

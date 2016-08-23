@@ -177,7 +177,6 @@ body {
         color: white;
         padding-top: 2.1vw !important;
         font-size: calc(11px + .25vw);
-/*        font-size: calc(.81vw);*/
     }
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
@@ -243,7 +242,7 @@ body {
         padding-left: 7px;
     }
      .splash-location {
-        font-size: .75vw !important;
+        font-size: calc(10px + .204vw) !important;
         font-family: "Elliot-Thin" !important;
     }
     .top-buffer {
@@ -440,7 +439,6 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-
     .speakers {
         width: 100%;
         height: 49.85vw;
@@ -448,8 +446,8 @@ body {
     .speakers-title h2{
         font-family: Elliot;
         margin-top: -3vw;
-        margin-bottom: 1.30vw;
-        margin-left: 11.7vw;
+        margin-bottom: 4.70vw;
+        margin-left: .8vw;
         font-size: 2.11vw !important;
         width: 20vw;
         max-width: 1000px;
@@ -464,23 +462,19 @@ body {
     .speaker-img-1 h2 {
         margin-top: 2.5vw;
         margin-left: .01vw;
-        letter-spacing: .1px;
+        letter-spacing: .01em;
         width: 400px;
     }
     .speaker-img {
         font-family: "Elliot-Light";
         text-align: left;
-        margin-left: 9.55vw;
+/*        margin-left: 9.55vw;*/
         margin-top: .05vw;
-        padding-left: 200px;
+/*        padding-left: 200px;*/
     }
     .speaker-img img{
         width: 22.5vw;
         height: 29.3vw;
-    }
-    .speaker-img-1 img {
-       width: 22.5vw;
-       height: 29.3vw;
     }
     .speaker-img h2 {
         margin-top: 2.5vw;
@@ -555,7 +549,6 @@ body {
         margin-left: 8vw;
         padding-right: -1.5vw;
     }
-
     .sponsor-top{
         padding-top: 8.68vw;
     }
@@ -653,7 +646,6 @@ body {
         color: white;
         font-size: 0.7vw;
     }
-
     .about-also-roll {
         padding-left: 5.35vw;
         padding-right: 5vw;
@@ -895,7 +887,7 @@ body {
         margin-top: 4.1vw;
         margin-left: 2vw;
     }
-  .gettinghere-sec-right {
+    .gettinghere-sec-right {
         color: white;
         background-color: black;
         margin-top: 4.1vw;
@@ -1128,13 +1120,13 @@ body {
         background-color: #ffffff;
         color: #141416;
     }
-    .mobile-come-hang p {
-        font-family: "Elliot-Thin";
-        letter-spacing: 0.5px;
-    }
     .mobile-come-hang-subheader {
         font-size: 3vw;
         padding-bottom: 3.1vw;
+    }
+    .mobile-come-hang p {
+        font-family: "Elliot-Thin";
+        letter-spacing: 0.5px;
     }
     .mobile-come-hang-date p {
         font-size: 7vw !important;
@@ -1158,6 +1150,7 @@ body {
     .p-l-12 {
         padding-left: 8vw !important;
     }
+    
     /*Menu Styles*/
     .navbar-nav>li>a {
         font-family: "Elliot-Thin";
@@ -1210,7 +1203,7 @@ body {
     }
     /* padding for tablet and phone */
     .tablet-bot {
-        padding-bottom: 16.8vw;
+        padding-bottom: 6.8vw;
     }
     .tablet-top {
 /*        margin-top: 16.8vw !important;*/
@@ -1237,7 +1230,16 @@ body {
        width: 28vw;
     }
     .speakers-title h2{
-        font-family: Elliot;
+        font-family: "Elliot";
+        margin-top: 3vw;
+        margin-bottom: 4.70vw;
+        margin-left: .8vw;
+        font-size: 2.11vw !important;
+        width: 20vw;
+        max-width: 1000px;
+        letter-spacing: -.0px;
+        min-height: 0;
+        position: relative;
     }
     .center-small{
         text-align: center;
@@ -1275,9 +1277,13 @@ body {
         font-size: 2.5vw !important;
         letter-spacing: .1em;
     }
+ 
     /* mobile footer styling*/
     img.sponsor-img {
         margin-left: 00px;
+    }
+    .speaker-img-3 {
+        padding-bottom: 0 !important;
     }
     .sponsor-want{
         align-content: center;
@@ -1291,6 +1297,9 @@ body {
         font-size: 2.5vw !important;
         letter-spacing: .1em;
     }
+    .sponsors {
+        background-color: #E6E6E6 !important;
+    }
     .sponsors.tablet-top {
          margin-top: 8vw !important;
     }
@@ -1299,6 +1308,9 @@ body {
         margin-top: 0px;
         margin-left: 8vw;
         padding-right: -1.5vw;
+    }
+    .sponsor-top{
+        padding-top: 8.68vw;
     }
 }
 
@@ -1348,10 +1360,10 @@ body {
         font-family: "Elliot-Thin" !important;
 /*        padding-left: 7px;*/
     }
-     .splash-location {
-        font-size: 1.7vw !important;
+    .splash-location {
+        font-size: calc(10px + .204vw) !important;
         font-family: "Elliot-Thin" !important;
-        padding-left: 4px
+        padding-left: 4px;
     }
     .mobile-push-right {
         display: none;
@@ -1389,7 +1401,7 @@ body {
     }
 }
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 770px) {
     html {
       background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
       -webkit-background-size: cover !important;
@@ -1460,7 +1472,7 @@ body {
         width: 100%;
         height: 56vw;
     }
-      .tawis {
+    .tawis {
         padding: 13.7vw 2.8vw 10.0vw 8vw;
         background-color: #ffffff;
         width: 100%;
@@ -1590,6 +1602,20 @@ body {
         border-radius: 0 !important;
         -moz-border-radius: 0 !important;
     }
+    .mobile-speakers {
+        padding-right: 13.5vw;
+        padding-left: 13.5vw;
+    }
+    .mobile-speakers h2 {
+        padding-top: 13.5vw !important;
+        padding-bottom: 8.6vw !important;
+        padding-right: 50%;
+        padding-left: 30%;
+        font-family: "Elliot";
+        font-size: 6.67vw;
+        background-color: #ffffff;
+        color: #141416;
+    }
     .splash-words h1 {
         padding-top: 16.65vh;
         margin-bottom: 0px;
@@ -1642,10 +1668,22 @@ body {
     }
     /*speaker image size phone */
     .speaker-img img{
-        width: 40vw;
+        width: 50vw;
+        min-width: 300px;
     }
     .speaker-img-1 img {
        width: 40vw;
+    }
+    .speakers-title h2{
+        font-family: Elliot;
+        margin-top: 0vw !important;
+        margin-bottom: 5.33vw;
+        margin-left: 0vw !important;
+        text-align: center !important;
+        font-size: calc(17px + 2.5vw) !important;
+        width: 0vw !important;
+        max-width: 000px !important;
+        letter-spacing: -.0px !important;
     }
     /* mobile footer styling*/
     img.sponsor-img {
@@ -1664,7 +1702,8 @@ body {
         letter-spacing: .1em;
     }
     .sponsors.tablet-top {
-         margin-top: 4vw !important;
+        margin-top: 4vw !important;
+        background-color: #E6E6E6;
     }
     img.sponsor-img {
         width: 25vw;
