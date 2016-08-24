@@ -63,7 +63,7 @@
               <p class="elliot">Any questions or suggestions? Perhaps you're interested in speaking or sponsoring?</p><br>
               <p class="elliot">Dont hesitate to drop us a line.</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 about-mobile-top about-mobile-bot">
               <form>
 
                   <div class="form-group">
