@@ -5,7 +5,7 @@ $concern = $_POST["concern"];
 $message = $_POST["message"];
 
  
-$EmailTo = "connerhasbrouck@gmail.com";
+$EmailTo = "hello@thoughtatwork.org";
 $Subject = "Thought At Work Contact Form Submission";
  
 // prepare email body text
