@@ -96,7 +96,7 @@
                   </div>
 
                   <button type="submit" class="btn contact-btn">Submit</button>
-                  <div id="msgSubmit" class="h3 elliot text-center hidden">Message Submitted!</div>
+                  <div id="msgSubmit" class="elliot text-center hidden">Message Submitted!</div>
               </form>
             </div>
         </div>
