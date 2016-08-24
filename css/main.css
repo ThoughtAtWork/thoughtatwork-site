@@ -125,6 +125,12 @@ body {
         font-size:10px;
         letter-spacing: 1.9px;
     }
+    .contact-btn, .contact-btn a, .contact-btn a:hover{
+        color: white;
+        background-color: #FF1631;
+        font-size:10px;
+        letter-spacing: 1.9px;
+    }
     .btn {
          border-radius: 0 !important;
     }
@@ -132,6 +138,34 @@ body {
         color: white;
     }
     
+    .label-elliot {
+        font-family: "Elliot";
+        color: #FF1631;
+    }
+
+    /*Contact Form Global Styles */
+    input {
+        font-family: "Elliot" !important;
+    }
+    textarea {
+        font-family: "Elliot" !important;
+    }
+    select {
+        font-family: "Elliot" !important;
+    }
+    .form-control {
+        padding: 0 !important;
+        border: 0 !important; 
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;  
+    }
+    hr {
+    margin-top: 0px !important;
+    margin-bottom: 2px !important;
+    color: #000 !important;
+    border: 0 !important;
+    border-top: 1px solid #000 !important;
+    }
 
 
 /*==========  Non-Mobile First Method  ==========*/

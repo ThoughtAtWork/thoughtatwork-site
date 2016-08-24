@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid top-buffer about-mobile-top">
+    <div class="container-fluid top-buffer ">
       <div class="row about-margins">
         <div class="col-lg-10 col-md-offset-1 ">
             <div class="col-lg-6">
@@ -68,15 +68,18 @@
 
                   <div class="form-group">
                     <input type="text" class="form-control" id="namer" placeholder="John Doe">
-                    <label for="name">Your Name</label>                  
+                    <hr>
+                    <label for="name" class="label-elliot">YOUR NAME</label>                  
                   </div>
 
                  <div class="form-group">
-                    <input type="email" class="form-control" id="emailIn" aria-describedby="emailHelp" placeholder="Your Email">                
+                    <input type="email" class="form-control" id="emailIn" aria-describedby="emailHelp" placeholder="Your Email">      
+                    <hr>          
                   </div>
 
                   <div class="form-group">
                     <select class="form-control" id="subject">
+
                     <option value="" selected disabled>Subject of your Concern</option>
                       <option>1</option>
                       <option>2</option>
@@ -84,11 +87,15 @@
                       <option>4</option>
                       <option>5</option>
                     </select>
+                    <hr>
                   </div>
 
-                  <div class="form-group">
+                  <div class="form-group top-buffer ">
                     <textarea class="form-control" id="textArea" rows="3" placeholder="Your Message"></textarea>
+                    <hr>
                   </div>
+
+                  <button type="submit" class="btn contact-btn">Submit</button>
               </form>
             </div>
         </div>
