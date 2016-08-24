@@ -64,21 +64,21 @@
               <p class="elliot">Dont hesitate to drop us a line.</p>
             </div>
             <div class="col-lg-6 about-mobile-top about-mobile-bot">
-              <form>
+              <form id="contactForm"> 
 
                   <div class="form-group">
-                    <input type="text" class="form-control" id="namer" placeholder="John Doe">
-                    <hr>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                    <hr class="red-hr">
                     <label for="name" class="label-elliot">YOUR NAME</label>                  
                   </div>
 
                  <div class="form-group">
-                    <input type="email" class="form-control" id="emailIn" aria-describedby="emailHelp" placeholder="Your Email">      
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your Email" required>      
                     <hr>          
                   </div>
 
                   <div class="form-group">
-                    <select class="form-control" id="subject">
+                    <select class="form-control" id="concern" type="text">
 
                     <option value="" selected disabled>Subject of your Concern</option>
                       <option>1</option>
@@ -91,19 +91,22 @@
                   </div>
 
                   <div class="form-group top-buffer ">
-                    <textarea class="form-control" id="textArea" rows="3" placeholder="Your Message"></textarea>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
                     <hr>
                   </div>
 
                   <button type="submit" class="btn contact-btn">Submit</button>
+                  <div id="msgSubmit" class="h3 elliot text-center hidden">Message Submitted!</div>
               </form>
             </div>
         </div>
       </div>
     </div>
 
+    <script src="js/contactScript.js"></script>
         <!--- Footer Include-->
 		<?php include("footer.php"); ?>
+
        <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
 </html>
