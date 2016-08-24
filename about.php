@@ -40,10 +40,10 @@
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
-		<div class="container-fluid about-splash-words">
+		<div class="container-fluid about-splash-words ">
 			<div class="row">
-				<div class="col-lg-12">
-					<h1 class="title">ABOUT US</h1>
+				<div class="col-lg-12 ">
+					<h1 class="title ">ABOUT US</h1>
 				</div>
 			</div>
 		</div>
@@ -52,8 +52,8 @@
 			<!-- COME HANG -->
 		<div class="container-fluid top-buffer about-mobile-top">
 			<div class="row about-margins">
-				<div class="col-lg-10 col-md-offset-1">
-						<h2 class="elliot">HISTORY IN <br><span class="about-history">THE MAKING</span></h2>
+				<div class="col-lg-10 col-md-offset-1 ">
+						<h2 class="elliot about-history-padding">HISTORY IN <br><span class="about-history">THE MAKING</span></h2>
 				</div>
       </div>
     </div>
@@ -61,17 +61,17 @@
       <div class="row">
 				<div class="col-md-6">
 						<div class="about-desc">
-							<p class="elliot about-margins about-mobile-bot">After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
+							<p class="elliot about-margins about-mobile-bot about-text">After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
 						</div>
                 <div class="about-circle"></div>
                 <div class="about-line"></div>
 				</div>
 				<div class="col-md-6 about-also">
-                     <div class="about-also-desc about-margins"><p class="elliot">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
+                     <div class="about-also-desc about-margins about-also-pad-top"><p class="elliot about-text-also">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
                     <div class="about-also-checkout about-margins about-register-pad"><p class="elliot-bold"><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
                     <div class="about-also-roll about-margins"><p>Ready to roll?</p></div>
                     <div class="about-margins">
-                    <button class="about-also-register btn center-web">
+                    <button class="about-also-register btn center-web about-also-pad-bot">
                         <a href="#">REGISTER</a>
                     </button>
                   </div>
@@ -83,13 +83,13 @@
       <div class="row about-margins">
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids">
-                    <h2 class="elliot ">THE COOL KIDS</h2>
-                    <p class="elliot">Our travelling event series that challenges human adults to make comedy with technology. Every event starts like a party, morphs into a hackathon, and ends in a comedy show - capped with more partying. We also own a domain.</p>
+                    <h2 class="elliot about-history-padding">THE COOL KIDS</h2>
+                    <p class="elliot about-text">Our travelling event series that challenges human adults to make comedy with technology. Every event starts like a party, morphs into a hackathon, and ends in a comedy show - capped with more partying. We also own a domain.</p>
                 </div>				
 			       </div>
             </div>
 		</div>
-        <div class="about-teampic  small-top">
+        <div class="about-teampic  small-top about-mobile-bot">
             <img src="img/team-photo.png" class="img-responsive" />
         </div>
         <!--- Footer Include-->
