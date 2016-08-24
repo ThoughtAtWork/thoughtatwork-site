@@ -14,7 +14,7 @@
                 <li class="active"><a href="index.php">Home</a></li>
                 <li class="text-nowrap"><a href="arrival.php">Get Ready</a></li>
                 <li class="text-nowrap"><a href="about.php">About Us</a></li>
-               <li><a href="#">Contact</a></li>
+               <li><a href="contact.php">Contact</a></li>
                <li><a class="nav-register" href="#">Register</a></li>
             </ul>
         </div>
