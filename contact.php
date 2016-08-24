@@ -78,14 +78,14 @@
                   </div>
 
                   <div class="form-group">
-                    <select class="form-control" id="concern" type="text">
+                    <select class="form-control" id="concern" >
 
-                    <option value="" selected disabled>Subject of your Concern</option>
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
+                    <option value="0" selected disabled>Subject of your Concern</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
                     </select>
                     <hr>
                   </div>
