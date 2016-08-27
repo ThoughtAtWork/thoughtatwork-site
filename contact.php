@@ -40,30 +40,30 @@
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
-		<div class="container-fluid about-splash-words ">
+		<div class="container-fluid contact-splash-words">
 			<div class="row">
 				<div class="col-lg-12 ">
-					<h1 class="title ">Contact</h1>
+					<h1 class="title elliot-bold">Contact</h1>
 				</div>
 			</div>
 		</div>
      <div class="navOff"></div>
 
-    <div class="container-fluid top-buffer about-mobile-top">
+    <div class="container-fluid contact-top-buffer">
       <div class="row about-margins">
-        <div class="col-lg-10 col-md-offset-1 ">
-            <h2 class="elliot about-history-padding">Get In Touch</h2>
+        <div class="col-lg-10 col-md-offset-1">
+            <h2 class="elliot contact-subheader">Get In Touch</h2>
         </div>
       </div>
     </div>
-    <div class="container-fluid top-buffer ">
+    <div class="container-fluid contact-top-buffer ">
       <div class="row about-margins">
         <div class="col-lg-10 col-md-offset-1 ">
-            <div class="col-lg-6">
-              <p class="elliot">Any questions or suggestions? Perhaps you're interested in speaking or sponsoring?</p><br>
+            <div class="col-lg-6 contact-description">
+              <p class="elliot ">Any questions or suggestions? Perhaps you're interested in speaking or sponsoring?</p><br>
               <p class="elliot">Dont hesitate to drop us a line.</p>
             </div>
-            <div class="col-lg-6 about-mobile-top about-mobile-bot">
+            <div class="col-lg-6 contact-form about-mobile-top about-mobile-bot">
               <form id="contactForm"> 
 
                   <div class="form-group">
@@ -105,8 +105,7 @@
 
     <script src="js/contactScript.js"></script>
         <!--- Footer Include-->
-		<?php include("footer.php"); ?>
-
+		<?php include("footer.php"); ?>2
        <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
 </html>

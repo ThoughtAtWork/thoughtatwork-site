@@ -137,21 +137,59 @@ body {
     .about-also-checkout a, .about-also-checkout a:hover {
         color: white;
     }
-    
     .label-elliot {
+        font-size: calc(7px + .365vw) !important;
         font-family: "Elliot";
         color: #FF1631;
     }
 
     /*Contact Form Global Styles */
+    .contact-splash-words {
+        color: #ffffff;
+        padding-top: 7.5vw;
+        padding-left: 11.7vw !important;
+        width: 100%;
+        height: 19.8vw;
+        background-image: url(../img/contact_splash.png);
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .contact-splash-words .title {
+        font-size: 4.43vw;
+        color: #ffffff !important;
+    }
+    .contact-subheader {
+        font-size: calc(20px + 1.03vw);
+        text-transform: uppercase;
+        padding-left: 2.65vw !important;
+        letter-spacing: .02em;
+    }
+    .contact-description {
+        letter-spacing: .02em;
+        font-size: calc(10px + .52vw);
+        padding-left: 2.65vw !important;
+        line-height: calc(16px + .835vw);
+    }
+    .contact-description p {
+        width: 27.9vw;
+        min-width: 300px;
+    }
+    .contact-top-buffer {
+        margin-top:3.9vw;
+    }
     input {
         font-family: "Elliot" !important;
+        font-size: calc(10px + .52vw) !important;
     }
     textarea {
         font-family: "Elliot" !important;
+        font-size: calc(10px + .52vw) !important;
     }
     select {
         font-family: "Elliot" !important;
+        font-size: calc(10px + .52vw) !important;
     }
     .form-control {
         padding: 0 !important;
@@ -1397,8 +1435,8 @@ body {
         width: 100%;
 /*        height: 1z9.8vw;*/
         background-image: url(../img/about_splash.jpg);
-          background-position-y: -200px;
-    background-position-x: 1200px;
+        background-position-y: -200px;
+        background-position-x: 1200px;
     }
     .about-history-padding {
         padding-bottom: 7vw;
