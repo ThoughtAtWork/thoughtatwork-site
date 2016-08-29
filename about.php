@@ -43,7 +43,7 @@
 		<div class="container-fluid about-splash-words ">
 			<div class="row">
 				<div class="col-lg-12 ">
-					<h1 class="title ">ABOUT US</h1>
+					<h1 class="title ">ABOUT <span class="mobile-hide">US</span></h1>
 				</div>
 			</div>
 		</div>
@@ -79,7 +79,7 @@
                 
 			</div>
     </div>
-    <div class="about-desktop-coolkids about-mobile-top about-mobile-bot">
+    <div class="about-desktop-coolkids about-mobile-top about-mobile-bot container-fluid">
       <div class="row about-margins">
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids">
