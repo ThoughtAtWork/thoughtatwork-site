@@ -267,14 +267,15 @@
                                 <div class="col-lg-4">
                                     <div class="food-menu-2" id="food-menu-2">
                                         <ul class="food-menu-list2" id="food-menu-list2">
-
+                                            <p class="menu-load-text">←   Choose a location to view available restaurants.</p>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <div class="food-menu-3" id="food-menu-3">
 
+                                    <div class="food-menu-3" id="food-menu-3">
+                                    <p class="menu-load-text2">←   Choose a restaurant to view its description.</p>
                                     </div>
                                 </div>
 

@@ -1041,6 +1041,24 @@ body {
         height: 32vw;
         width: 32vw;
     }
+
+    .menu-load-text{
+        color: white;
+        font-family: "Elliot-Thin";
+        margin-left: 3vw;
+        margin-top: 2vw;
+        font-size: 1vw;
+    }
+
+    .menu-load-text2{
+        color: black;
+        font-family: "Elliot-Thin";
+        margin-left: 3vw;
+        margin-top: 4.7vw;
+        font-size: 1vw;
+
+    }
+
     .food-menu-2{
         background-color: black;
         margin-top: 6vw;
