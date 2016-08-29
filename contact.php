@@ -105,7 +105,7 @@
 
     <script src="js/contactScript.js"></script>
         <!--- Footer Include-->
-		<?php include("footer.php"); ?>2
+		<?php include("footer.php"); ?>
        <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
 </html>

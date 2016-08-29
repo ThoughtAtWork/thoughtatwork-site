@@ -134,15 +134,14 @@ body {
     .btn {
          border-radius: 0 !important;
     }
-    .about-also-checkout a, .about-also-checkout a:hover {
-        color: white;
-    }
     .label-elliot {
         font-size: calc(7px + .365vw) !important;
         font-family: "Elliot";
         color: #FF1631;
     }
-
+    .about-also-checkout a, .about-also-checkout a:hover {
+        color: white;
+    }
     /*Contact Form Global Styles */
     .contact-splash-words {
         color: #ffffff;
@@ -219,25 +218,6 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    .about-splash-words {
-        color: #ffffff;
-        padding-top: 7.5vw;
-        padding-left: 11.7vw !important;
-        width: 100%;
-/*        height: 1z9.8vw;*/
-        background-image: url(../img/about_splash.jpg);
-        /*background-position: left bottom;*/
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100%;
-    }
-    .about-splash-words h1 {
-        font-size: 4.5vw;
-        font-family: "Elliot-Bold";
-    }
-    .about-history {
-        margin-left: 30px;
-    }
     /*NAv Color Change*/
     .nav {
 
@@ -650,9 +630,23 @@ body {
         color: #ffffff;
         padding-top: 7.5vw;
         padding-left: 11.7vw !important;
-/*        height: 1z9.8vw;*/
+        width: 100%;
+        height: 19.8vw;
         background-image: url(../img/about_splash.jpg);
-    
+        /*background-position: left bottom;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .about-splash-words h1 {
+        font-size: 4.5vw;
+        font-family: "Elliot-Bold";
+    }
+    .about-history {
+        /*font-size: calc(20px + 1.04vw) !important;*/
+    }
+    .about-historyMaking {
+        margin-left: 30px;
     }
     .about-splash-words h1 {
         font-size: 4.5vw;
@@ -683,7 +677,7 @@ body {
         font-family: "Elliot-Light";
     }
     .about-desc p {
-        font-size: 1.04vw;
+        font-size: calc(10 + .52vw);
         line-height: 1.65vw;
         margin-top: 1.8vw;
         width: 28vw;
@@ -703,7 +697,7 @@ body {
         margin-top: 4.95vw;
         padding-left: 6.25vw;
         padding-right: 5vw;
-        font-size: 20px;
+        font-size: 1.56vw;
         margin-left: -.8vw;
         color: white;
         letter-spacing: .5px;
@@ -764,13 +758,12 @@ body {
         margin-bottom: 4.8vw;
         font-size: 2.05vw;
         font-family: "Elliot";
-        margin-left: -2vw;
         margin-bottom: 4.60vw;
     }
     .about-kids p {
-        font-size: 1.07vw;
+        font-size: calc(10 + .52vw);
         line-height: 1.67vw;
-        width: 27.5vw;
+        width: 28.4vw;
         height: 8.30vw;
     }
     .about-circle {
@@ -807,7 +800,6 @@ body {
         height: 36.45vw;
         margin-left: 11.75vw;
         margin-right: 10vw;
-
     }
 
     /*------------ARRIVAL-------------*/
@@ -1101,14 +1093,17 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    .mobile-hide {
+        display: none;
+    }
     .about-splash-words {
         color: #ffffff;
         padding-top: 7.5vw;
         padding-left: 11.7vw !important;
-
-/*        height: 1z9.8vw;*/
+        width: 100%;
+        height: 19.8vw;
         background-image: url(../img/about_splash.jpg);
-      
+        background-attachment: fixed;
     }
     .about-splash-words h1 {
         font-size: 4.5vw;
@@ -1120,6 +1115,79 @@ body {
     .about-register-pad {
         padding-bottom: 5vh;
         padding-top: 5vh;
+    }
+    .about-mobile-top {
+         margin-top: 3vw
+    }
+    .about-mobile-bot {
+         margin-bottom: 20vw
+    }
+    .about-history {
+        /*font-size: 4vw;*/
+        padding-bottom: 2vw;
+    }
+    .about-historyMaking {
+        margin-left: 30px;
+    }
+  
+    .about-also {
+        position: relative;
+        font-size: 1.25vw;
+        font-family: "Elliot-Thin";
+        background-color: #000000;
+    }
+    .about-also-desc {
+        margin-top: 4.95vw;
+        padding-left: 6.25vw;
+        padding-right: 5vw;
+        font-size: 1.56vw;
+        margin-left: -.8vw;
+        color: white;
+        letter-spacing: .5px;
+
+    }
+    .about-also-checkout {
+        margin-top: 1.6vw;
+        padding-left: 6.2vw;
+        padding-right: 5vw;
+        font-size: 0.7vw;
+        margin-left: -.8vw;
+        color: white;
+        font-family: "Elliot-Bold";
+        letter-spacing: 1.5px;
+        line-height: 2.1vw;
+    }
+    .about-also-checkout a:link, a:visited, a:hover, a:active {
+        color: white;
+        font-size: 2.5vw;
+    }
+    .about-also-roll {
+        padding-left: 5.35vw;
+        padding-right: 5vw;
+        margin-top: 4.2vw;
+        color: white;
+        font-family: "Elliot-Thin";
+        letter-spacing: 1px;
+        font-size: 3vw;
+    }
+    .about-also-register {
+        margin-bottom: 4.95vw !important;
+        background-color: #FF1631;
+    }
+    .btn {
+         border-radius: 0 !important;
+    }
+    .about-also-register a, .about-also-register a:hover {
+        color: white;
+        font-size: 2.5vw !important;
+        font-family: "Elliot";
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        letter-spacing: 1.9px;
+        padding-top: .2vw;
     }
     /*Nav Padding*/
     /*    Splash Section*/
@@ -1301,12 +1369,6 @@ body {
     .tablet-top {
 /*        margin-top: 16.8vw !important;*/
     }
-    .about-mobile-top {
-         margin-top: 18vw
-    }
-    .about-mobile-bot {
-         margin-bottom: 20vw
-    }
     /* hide on tablet view */
     .tablet-hide {
         display: none !important;
@@ -1418,7 +1480,7 @@ body {
     .about-splash-words {
         color: #ffffff;
         padding-top: 14vw;
-        padding-bottom: 20.7vw;
+        padding-bottom: 20vh;
         padding-left: 11.7vw !important;
         width: 100%;
 /*        background-repeat: space;*/
@@ -1449,7 +1511,12 @@ body {
         font-size: 11vw;
         font-family: "Elliot-Bold";
     }
-
+    .about-mobile-top {
+         margin-top: 18vw
+    }
+    .about-mobile-bot {
+         margin-bottom: 20vw
+    }
     .tablet-bot {
         padding-bottom: 50px;
     }
