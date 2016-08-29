@@ -270,9 +270,14 @@
 
                                         </ul>
                                     </div>
-                                <div class="col-lg-4">
-
                                 </div>
+
+                                <div class="col-lg-4">
+                                    <div class="food-menu-3" id="food-menu-3">
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 

@@ -1074,10 +1074,36 @@ body {
     }
 
     .food-menu-list2-item{
-        line-height: 7vw;
+        line-height: 5vw;
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
         color: white;
+    }
+
+    .food-menu-list3{
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
+        margin-left: 1vw;
+        padding-top: 3vw;
+    }
+
+    .food-menu-list3-item{
+        font-size: 1.2vw;
+        margin-bottom: 2vw;
+        font-family: "Elliot-Light";
+        color: black;
+    }
+
+    .food-menu-3{
+        margin-top: 6vw;
+        width: 27vw;
+        overflow-y: scroll;
+    }
+
+    .food-menu-3 h2{
+        line-height: 4vw;
+        font-size: 1.6vw;
+        font-family: "Elliot-Thin";
     }
 
     /* font stylers */
