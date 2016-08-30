@@ -57,6 +57,9 @@
                 <div class="col-lg-12">
                     <h2 class="arrival-h2">WHAT TO EXPECT</h2>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid">
                 <div class="row" id="clockdiv">
                     <div class="col-md-1 countdown col-md-offset-2">
                         <h4 class="countdown-date weeks"></h4>
@@ -75,8 +78,10 @@
                         <p class="countdown-text">MINUTES</p>
                     </div>
                 </div>
-                <div class="row">
+        </div>
 
+        <div class="container-fluid">
+                <div class="row">
                     <div class="col-lg-6">
                         <div class="arrival-sec">
                             <h4>Workshops + Lectures</h4>
@@ -100,6 +105,8 @@
                         </div>
                     </div>
                 </div>
+        </div>
+        <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="arrival-sec">
@@ -118,13 +125,18 @@
                         </div>
                     </div>
                 </div>
-
+        </div>
                 <!-- WHERE TO STAY-->
                 <div class="container-fluid">
                     <div class="row top-buffer">
                         <div class="col-lg-12">
                             <h2 class="arrival-h2">WHERE TO STAY</h2>
                         </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
                         <div class="col-lg-6">
                             <div class="wheretostay-sec-left">
                                 <p style="height: 5vw">If you're travelling from another school -- and don't want to pay
@@ -156,8 +168,8 @@
                                     </ul>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
 
 
                         <!-- WHAT TO BRING-->
@@ -166,6 +178,10 @@
                                 <div class="col-lg-12">
                                     <h2 class="arrival-h2">WHAT TO BRING</h2>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row ">
                                 <div class="col-lg-6">
                                     <div class="whattobring-sec-left">
                                         <p>Bring traveling gear, your creative juices, and an appetite for Awesome™. For
@@ -189,6 +205,10 @@
                                 <div class="col-lg-12">
                                     <h2 class="arrival-h2">GETTING HERE + CHECKING IN</h2>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid come-hang">
+                            <div class="row">
                                 <div class="col-lg-6">
                                     <div class="gettinghere-sec-right">
                                         <div id="map"></div>
@@ -232,9 +252,13 @@
 
                         <!--FOOD-->
                         <div class="container-fluid come-hang">
-                            <div class="col-lg-12">
-                                <h2 class="arrival-h2">FOOD</h2>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 class="arrival-h2">FOOD</h2>
+                                </div>
                             </div>
+                        </div>
+                        <div class="contaier-fluid">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="food-sec-left">
@@ -254,6 +278,8 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="food-menu">
