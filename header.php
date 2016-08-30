@@ -16,7 +16,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <ul class="nav navbar-nav navbar-right p-r-9 mobile-center">
+            <ul class="nav navbar-nav navbar-right p-r-9 mobile-center menu-pad">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li class="text-nowrap"><a href="arrival.php">Get Ready</a></li>
                 <li class="text-nowrap"><a href="about.php">About Us</a></li>
