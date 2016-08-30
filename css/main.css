@@ -1360,7 +1360,7 @@ body {
     .navbar-nav>li>a , .navbar-nav>li>a:hover{
         font-family: "Elliot-Thin";
         color: white;
-        padding-top: 4vw !important;
+        padding-top: 5vh !important;
         font-size: calc(16px + .25vw);
 
     }
@@ -1686,7 +1686,7 @@ body {
       text-align: center;
     }
     .menu-pad {
-        padding-top: 15%;
+        padding-top: 12vh;
     }
 
 
