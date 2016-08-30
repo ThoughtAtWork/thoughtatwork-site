@@ -1356,14 +1356,6 @@ body {
         padding-left: 8vw !important;
     }
     
-    /*Menu Styles*/
-    .navbar-nav>li>a , .navbar-nav>li>a:hover{
-        font-family: "Elliot-Thin";
-        color: white;
-        padding-top: 5vh !important;
-        font-size: calc(16px + .25vw);
-
-    }
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
         font-size: calc(11px + .40vw);
@@ -1648,9 +1640,21 @@ body {
     }
 }
 /* Small Devices, Tablets */
-@media only screen and (max-width : 770px) {
+@media only screen and (max-width : 768px) {
 
     /* mobile header styles*/
+     /*Menu Styles*/
+     .fa {
+        color: #fff;
+     }
+    .navbar-nav>li>a , .navbar-nav>li>a:hover{
+        font-family: "Elliot-Thin";
+        color: white;
+        padding-top: 5vh !important;
+        font-size: calc(16px + .25vw);
+
+    }
+
     .navbar .navbar-nav {
       display: inline-block;
       float: none;
