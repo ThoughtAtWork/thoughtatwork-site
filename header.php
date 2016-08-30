@@ -9,8 +9,14 @@
             </button>
             <a class="navbar-brand title p-l-12 mobile-hide" href="index.php">Thought at Work</a>
         </div>
-        <div class="navbar-collapse collapse navbar-inner pull-right  drop-down">
-            <ul class="nav navbar-nav navbar-right p-r-9">
+        <div id="menu" class="navbar-collapse collapse navbar-inner pull-right drop-down" >
+            <button type="button" class="navbar-toggle exit" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="nav navbar-nav navbar-right p-r-9 mobile-center">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li class="text-nowrap"><a href="arrival.php">Get Ready</a></li>
                 <li class="text-nowrap"><a href="about.php">About Us</a></li>

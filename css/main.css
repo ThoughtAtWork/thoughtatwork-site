@@ -13,7 +13,6 @@
 @font-face {
   font-family: 'Elliot-Thin';
   src: url("../fonts/Elliot-Thin.otf"); }
-
 body {
     /* Location of the image */
 /*    background-image: url(../images/background.jpg);*/
@@ -39,7 +38,9 @@ body {
 }
 
 /* All Device Style */
-
+.exit {
+    display: none;
+}
 /* font Styles */
 .center-all {
     text-align: -webkit-center;
@@ -1520,6 +1521,7 @@ body {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
+
     .about-splash-words {
         color: #ffffff;
         padding-top: 14vw;
@@ -1572,10 +1574,10 @@ body {
         background: none;
     }
      ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
-        background-color: red;
-        width: 7.3vw;
-        height: 6.3vw !important;
-        margin-right: 2.1vw;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        margin-right: auto;
     }
     .nav-register {
         margin-left: -1vw;
@@ -1646,7 +1648,37 @@ body {
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 770px) {
-   
+
+    /* mobile header styles*/
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+      text-align: center;
+    }
+    .navbar-inner ul li {
+        width: 100%;
+    }
+    .exit {
+        display: block;
+        position: absolute !important;
+    }
+
+   #menu{
+      background: #FF1E39;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      min-height: 100%;
+      padding-top: 60px;
+      text-align: center;
+    }
+
+
     html {
       background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
       -webkit-background-size: cover !important;
