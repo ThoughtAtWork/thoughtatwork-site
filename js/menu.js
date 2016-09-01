@@ -108,7 +108,7 @@ function rochester(){
 
     var i;
 
-    for (i = 14; i < 26; i++) {
+    for (i = 14; i < 25; i++) {
         var listItem = document.createElement('li');
         listItem.className = "food-menu-list2-item";
         var text = document.createTextNode(restaurants[i].name);
