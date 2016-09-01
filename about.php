@@ -43,7 +43,7 @@
 		<div class="container-fluid about-splash-words ">
 			<div class="row">
 				<div class="col-lg-12 ">
-					<h1 class="title ">ABOUT <span class="mobile-hide">US</span></h1>
+					<h1 class="title ">ABOUT US</h1>
 				</div>
 			</div>
 		</div>
@@ -52,7 +52,7 @@
 			<!-- COME HANG -->
 		<div class="container-fluid top-buffer about-mobile-top">
 			<div class="row about-margins">
-				<div class="col-lg-10 col-md-offset-1">
+				<div class="col-lg-10 col-md-offset-1 mobile-about-history">
 						<h2 class="elliot about-history about-history-padding">HISTORY IN <br><span class="about-historyMaking">THE MAKING</span></h2>
 				</div>
       </div>

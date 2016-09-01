@@ -666,7 +666,10 @@ body {
         font-family: "Elliot-Bold";
     }
     .about-history {
-        /*font-size: calc(20px + 1.04vw) !important;*/
+        font-size: calc(20px + 1.04vw) !important;
+    }
+    .about-history h2 {
+        font-size: 6.67vw !important;
     }
     .about-historyMaking {
         margin-left: 30px;
@@ -1183,8 +1186,12 @@ body {
         padding-bottom: 5vh;
         padding-top: 5vh;
     }
+
     .about-mobile-top {
-         margin-top: 3vw
+        margin-top: 3vw;
+        padding-right: 13.5vw;
+        padding-left: 13.5vw;
+        padding-top: 2vw;
     }
     .about-mobile-bot {
          margin-bottom: 20vw
@@ -1193,10 +1200,13 @@ body {
         /*font-size: 4vw;*/
         padding-bottom: 2vw;
     }
-    .about-historyMaking {
-        margin-left: 30px;
+    .mobile-about-history h2{
+        padding-bottom: 8.6vw !important;
+        font-family: "Elliot";
+        font-size: 6.67vw !important;
+        background-color: #ffffff;
+        color: #141416;
     }
-  
     .about-also {
         position: relative;
         font-size: 1.25vw;
@@ -1211,8 +1221,8 @@ body {
         margin-left: -.8vw;
         color: white;
         letter-spacing: .5px;
-
     }
+    
     .about-also-checkout {
         margin-top: 1.6vw;
         padding-left: 6.2vw;
@@ -1543,7 +1553,7 @@ body {
     .about-splash-words {
         color: #ffffff;
         padding-top: 14vw;
-        padding-bottom: 20vh;
+        padding-bottom: 26.2vh;
         padding-left: 11.7vw !important;
         width: 100%;
 /*        background-repeat: space;*/
@@ -1554,6 +1564,8 @@ body {
     }
     .about-splash-words .title{
         font-size: calc(52.5px + 7vw);
+        padding-top: 3vw;
+        margin-left: -20px;
     }
     .about-also-pad-top {
         padding-top: 5vw;
