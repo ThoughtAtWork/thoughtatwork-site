@@ -16,7 +16,7 @@ $(document).scroll(function(){
 //make nav background transparent if the viewport is smaller than 768 pixels
 $(document).scroll(function(){
     var viewportWidth = $(window).width();
-    if( viewportWidth < 770)
+    if( viewportWidth < 768)
     {
         $('.navColorChange').css({"background":"transparent"});
     }
@@ -25,11 +25,11 @@ $(document).scroll(function(){
 //make nav background change color on window resize depending on viewPort Width 
 $(window).resize(function () {
     var viewportWidth = $(window).width();
-    if( viewportWidth < 770)
+    if( viewportWidth < 768)
     {
         $('.navColorChange').css({"background":"transparent"});
     }
-    if( viewportWidth > 770)
+    if( viewportWidth > 768)
     {
         $('.navColorChange').css({"background":"#16161E"});
     }
