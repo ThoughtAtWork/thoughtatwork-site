@@ -825,7 +825,7 @@ body {
         margin-right: 10vw;
     }
 
-    /*------------ARRIVAL-------------*/
+    /*------------getready-------------*/
     .clock {
         width: 
     }
@@ -848,24 +848,24 @@ body {
         text-align: end;
     }
 
-    .arrival-h2{
+    .getready-h2{
         margin-left: 11.6vw;
     }
 
-    .arrival-sec {
+    .getready-sec {
         width: 30vw;
         margin-top: 4.1vw;
         margin-left: 12.5vw;
     }
-    .arrival-sec2 {
+    .getready-sec2 {
          width: 30vw;
          margin-top: 4.1vw;
      }
-    .arrival-sec h4 {
+    .getready-sec h4 {
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
     }
-    .arrival-sec p {
+    .getready-sec p {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
@@ -875,11 +875,11 @@ body {
         line-height: 1.67vw;
     }
 
-    .arrival-sec2 h4 {
+    .getready-sec2 h4 {
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
     }
-    .arrival-sec2 p {
+    .getready-sec2 p {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;

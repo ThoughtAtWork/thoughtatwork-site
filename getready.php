@@ -55,7 +55,7 @@
         <div class="container-fluid come-hang">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="arrival-h2">WHAT TO EXPECT</h2>
+                    <h2 class="getready-h2">WHAT TO EXPECT</h2>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="arrival-sec">
+                        <div class="getready-sec">
                             <h4>Workshops + Lectures</h4>
                             <p>Not everything can be learned in a class. Be inspired by stories and insights from some
                                 of
@@ -95,7 +95,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="arrival-sec2">
+                        <div class="getready-sec2">
                             <h4>Portfolio Review + Panel</h4>
                             <p>Bring your work for critique by the best portfolio reviewers in the business. If you
                                 don't
@@ -109,14 +109,14 @@
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="arrival-sec">
+                        <div class="getready-sec">
                             <h4>Sketchoff</h4>
                             <p>Sketching is now a competitive spectator sport. Six Pros. One Hour. Five hundred pounds
                                 of food. Get excited. Did we mention the audience wildcard.</p>
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="arrival-sec2">
+                        <div class="getready-sec2">
                             <h4>Lounge or down time</h4>
                             <p>Worried you might explode from learning so much? Wondering when you will get to connect
                                 with your fellow conference goers? Don't worry. The events are planned with plenty of
@@ -130,7 +130,7 @@
                 <div class="container-fluid">
                     <div class="row top-buffer">
                         <div class="col-lg-12">
-                            <h2 class="arrival-h2">WHERE TO STAY</h2>
+                            <h2 class="getready-h2">WHERE TO STAY</h2>
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                         <div class="container-fluid">
                             <div class="row top-buffer">
                                 <div class="col-lg-12">
-                                    <h2 class="arrival-h2">WHAT TO BRING</h2>
+                                    <h2 class="getready-h2">WHAT TO BRING</h2>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                         <div class="container-fluid come-hang">
                             <div class="row top-buffer">
                                 <div class="col-lg-12">
-                                    <h2 class="arrival-h2">GETTING HERE + CHECKING IN</h2>
+                                    <h2 class="getready-h2">GETTING HERE + CHECKING IN</h2>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +235,7 @@
                                             once you get here.
                                         </p> <br>
                                         <h4>Parking</h4>
-                                        <p>Guest parking will be lots E and H. Upon arrival to campus, there will be
+                                        <p>Guest parking will be lots E and H. Upon getready to campus, there will be
                                             signs to direct you to parking and check-in in Booth Hall (Building 7A). Our
                                             check-in table opens at 9am on Friday morning, and our opening reception
                                             will be at 1pm.</p><br>
@@ -254,7 +254,7 @@
                         <div class="container-fluid come-hang">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h2 class="arrival-h2">FOOD</h2>
+                                    <h2 class="getready-h2">FOOD</h2>
                                 </div>
                             </div>
                         </div>
