@@ -36,7 +36,31 @@ body {
     background-color: #464646;
 
 }
-
+.close {
+    position: absolute;
+    left: 10.8vw;
+    top: .7vw;
+    width: 32px;
+    height: 32px;
+    opacity: 1 !important;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 13px;
+    content: ' ';
+    height: 32px;
+    width: 2px;
+    background-color: white;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
 /* All Device Style */
 .exit {
     display: none;
@@ -1364,8 +1388,6 @@ body {
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: #FF2241;
-        width: 7.7vw;
-        height: 5.6vw;
         margin-right: 2.1vw;
     }
     .navbar-inner ul li {
@@ -1377,7 +1399,7 @@ body {
     .navbar-nav>li>a , .navbar-nav>li>a:hover{
         font-family: "Elliot-Thin";
         color: white;
-        padding-top: 2.5vw !important;
+        padding-top: 2.0vw !important;
     }
     .title {
         font-family: "Elliot";
@@ -1576,14 +1598,16 @@ body {
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: #FF2241;
-        width: 7.3vw;
+        width: 9.6vw;
         height: auto;
         margin-right: auto;
-/*        padding-left: calc(.3vw - 8px);*/
+        padding-left: calc(.3vw - 8px);
     }
+/*
     .nav-register {
         margin-left: -1.2vw;
     }
+*/
     /*    Splash Section*/
     .splash-words {
         color: #ffffff;
@@ -1693,10 +1717,10 @@ body {
         position: fixed;
         opacity: .9945;
         top: 0;
+/*        width: 104%;*/
         right: 0;
         left: 0;
         min-height: 100%;
-        padding-top: 10px;
         text-align: center;
      
     }
@@ -2032,9 +2056,14 @@ body {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .about-text{ 
-    font-size: 4vw; }
+    font-size: 4vw; 
+    }
     .about-text-also{ 
-    font-size: 5vw; }
+    font-size: 5vw; 
+    }
+    .close {
+        left: 0vw;
+    }
 }
 
 /* Custom, iPhone Retina */

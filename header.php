@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="css/fa/css/font-awesome.min.css">
 <nav id="nav-background-color" class="navbar navbar-fixed-top p-a-9 nav" role="navigation">
     <div class="container-fluid navColorChange">
         <div class="navbar-header">
@@ -14,7 +13,7 @@
             <span class="x">
             <button type="button" class="navbar-toggle exit" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
-                <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+                <i class="close" aria-hidden="true"></i>
             </button>
             </span>
             <ul class="nav navbar-nav navbar-right p-r-9 mobile-center menu-pad">
