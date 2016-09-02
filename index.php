@@ -39,8 +39,7 @@
 	</head>
 	<body>
     <?php include("header.php"); ?>
-        <!--  -->
-		<!-- HEADER / SPLASH -->
+        <!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">
 				<div class="col-lg-12">

@@ -1179,9 +1179,6 @@ body {
         font-size: 4.5vw;
         font-family: "Elliot-Bold";
     }
-    .about-also-desc {
-        font-size: 18px;
-    }
     .about-register-pad {
         padding-bottom: 5vh;
         padding-top: 5vh;
@@ -1201,9 +1198,25 @@ body {
         padding-bottom: 2vw;
     }
     .mobile-about-history h2{
-        padding-bottom: 8.6vw !important;
+        padding-bottom: 7.4vw !important;
         font-family: "Elliot";
         font-size: 6.67vw !important;
+        background-color: #ffffff;
+        color: #141416;
+    }
+    .about-desc p {
+        font-family: "Elliot-Thin";
+        letter-spacing: .01em;
+        font-size: 3.2vw;
+        padding-bottom: 6vw;
+    }
+    .mobile-come-hang-subheader h4 {
+        padding-top: 19.2vw !important;
+        padding-bottom: 8.6vw !important;
+        padding-right: 13.5vw;
+        padding-left: 13.5vw;
+        font-family: "Elliot";
+        font-size: 6.67vw;
         background-color: #ffffff;
         color: #141416;
     }
@@ -1214,15 +1227,15 @@ body {
         background-color: #000000;
     }
     .about-also-desc {
-        margin-top: 4.95vw;
+        margin-top: 1.2vw;
         padding-left: 6.25vw;
         padding-right: 5vw;
-        font-size: 1.56vw;
+        font-size: 4.53vw !important;
         margin-left: -.8vw;
         color: white;
-        letter-spacing: .5px;
+        letter-spacing: .02em;
+        width: 95vw;
     }
-    
     .about-also-checkout {
         margin-top: 1.6vw;
         padding-left: 6.2vw;
@@ -1248,7 +1261,7 @@ body {
         font-size: 3vw;
     }
     .about-also-register {
-        margin-bottom: 4.95vw !important;
+        margin-bottom: 10.75vw !important;
         background-color: #FF2241;
     }
     .btn {
@@ -1572,9 +1585,6 @@ body {
     }
     .about-also-pad-bot {
         padding-bottom: 5vw;
-    }
-    .about-text-also {
-        font-size: 4vw;
     }
     .about-text {
         font-size: 3vw;
