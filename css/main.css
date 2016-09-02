@@ -1576,7 +1576,7 @@ body {
         background-position-x: 1200px;
     }
     .about-splash-words .title{
-        font-size: calc(52.5px + 7vw);
+        font-size: calc(50px + 6vw);
         padding-top: 3vw;
         margin-left: -20px;
     }
