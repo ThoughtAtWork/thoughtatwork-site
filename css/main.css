@@ -1207,7 +1207,7 @@ body {
     .about-desc p {
         font-family: "Elliot-Thin";
         letter-spacing: .01em;
-        font-size: 3.2vw;
+        font-size: (12px + 1.6vw);
         padding-bottom: 6vw;
     }
     .mobile-come-hang-subheader h4 {
@@ -1227,7 +1227,7 @@ body {
         background-color: #000000;
     }
     .about-also-desc {
-        margin-top: 1.2vw;
+        margin-top: .8vw;
         padding-left: 6.25vw;
         padding-right: 5vw;
         font-size: 4.53vw !important;
@@ -1235,9 +1235,10 @@ body {
         color: white;
         letter-spacing: .02em;
         width: 95vw;
+        line-height: 1.25em;
     }
     .about-also-checkout {
-        margin-top: 1.6vw;
+        margin-top: 2.8vw;
         padding-left: 6.2vw;
         padding-right: 5vw;
         font-size: 0.7vw;
@@ -1249,19 +1250,20 @@ body {
     }
     .about-also-checkout a:link, a:visited, a:hover, a:active {
         color: white;
-        font-size: 2.5vw;
+        font-size: calc(7px + .93vw);
     }
     .about-also-roll {
         padding-left: 5.35vw;
         padding-right: 5vw;
-        margin-top: 4.2vw;
+        margin-top: .6vw;
         color: white;
         font-family: "Elliot-Thin";
         letter-spacing: 1px;
-        font-size: 3vw;
+        font-size: calc(10px + 1.33vw);
+        margin: 0;
     }
     .about-also-register {
-        margin-bottom: 10.75vw !important;
+        margin-bottom: 8.55vw !important;
         background-color: #FF2241;
     }
     .btn {
@@ -1269,7 +1271,7 @@ body {
     }
     .about-also-register a, .about-also-register a:hover {
         color: white;
-        font-size: 2.5vw !important;
+        font-size: calc(7px + .93vw) !important;
         font-family: "Elliot";
         display: flex;
         text-align: center;
@@ -1277,7 +1279,8 @@ body {
         justify-content: center;
         align-self: center;
         letter-spacing: 1.9px;
-        padding-top: .2vw;
+        width: 15.5vw;
+        height: 4.5vw;
     }
     /*Nav Padding*/
     /*    Splash Section*/
