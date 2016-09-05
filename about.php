@@ -79,7 +79,7 @@
                 
 			</div>
     </div>
-    <div class="about-desktop-coolkids about-mobile-top about-mobile-bot container-fluid">
+    <div class="about-mobile-top about-mobile-bot container-fluid">
       <div class="row about-margins">
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids">
