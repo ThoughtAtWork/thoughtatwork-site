@@ -432,6 +432,11 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
+    .mobile-ready-img {
+        display: none;
+        width: 100%;
+        height: 4vh;
+    }
     .come-hang {
         color: black;
         background-color: #ffffff;
@@ -1163,6 +1168,14 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    .get-ready-list ul {
+
+        list-style-type: none;
+        padding-left: 0px !important;
+    }
+    .clock-mobile-text {
+        font-family: "Elliot";
+    }
     .mobile-hide {
         display: none;
     }
@@ -1566,6 +1579,32 @@ body {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
+    .countdown-date{
+        font-family: "Elliot-Thin";
+        font-size: 12vw;
+
+    }
+    .count-center{
+        text-align: center;
+    }
+    .count-left {
+        padding-right: 40% !important;
+    }
+    .count-right {
+        padding-left: 40% !important;
+    }
+    .countdown-text{
+        font-family: "Elliot";
+    }
+    .get-head-pad-bot {
+        padding-bottom: 4vh;
+    }
+    .get-head-section-bot {
+        padding-bottom: 5vh;
+    }
+    .get-head-section-top {
+        padding-top: 5vh;
+    }
     .about-splash-words {
         color: #ffffff;
         padding-top: 14vw;
@@ -1590,7 +1629,7 @@ body {
         padding-bottom: 5vw;
     }
     .about-text {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     .about-history-padding {
         padding-bottom: 7vw;
@@ -2081,7 +2120,7 @@ body {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .about-text{ 
-    font-size: 4vw; 
+    font-size: 3.5vw; 
     }
     .about-text-also{ 
     font-size: 5vw; 

@@ -52,40 +52,40 @@
 
 		<!-- WHAT TO EXPECT -->
         <div class="navOff"></div>
-        <div class="container-fluid come-hang">
+        <div class="container-fluid come-hang about-mobile-top">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="getready-h2">WHAT TO EXPECT</h2>
+                    <h2 class="getready-h2 elliot about-margins">WHAT TO EXPECT</h2>
                 </div>
             </div>
         </div>
         <div class="container-fluid">
-                <div class="row" id="clockdiv">
-                    <div class="col-md-1 countdown col-md-offset-2">
-                        <h4 class="countdown-date weeks"></h4>
+                <div class="row about-margins clock-center" id="clockdiv">
+                    <div class="col-sm-1 countdown col-sm-offset-2 count-center count-left">
+                        <h4 class="countdown-date weeks "></h4>
                         <p class="countdown-text">WEEKS</p>
                     </div>
-                    <div class="col-md-1 countdown2 col-md-offset-1">
+                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right">
                         <h4 class="countdown-date days"></h4>
                         <p class="countdown-text">DAYS</p>
                     </div>
-                    <div class="col-md-1 countdown col-md-offset-1">
+                    <div class="col-sm-1 countdown col-sm-offset-1 count-center count-left">
                         <h4 class="countdown-date hours"></h4>
                         <p class="countdown-text">HOURS</p>
                     </div>
-                    <div class="col-md-1 countdown2 col-md-offset-1">
+                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right">
                         <h4 class="countdown-date minutes"></h4>
                         <p class="countdown-text">MINUTES</p>
                     </div>
                 </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid about-mobile-top">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="getready-sec">
-                            <h4>Workshops + Lectures</h4>
-                            <p>Not everything can be learned in a class. Be inspired by stories and insights from some
+                        <div class="getready-sec about-margins get-head-section-bot">
+                            <h3 class="elliot get-head-pad-bot">Workshops + Lectures</h3>
+                            <p class="about-text">Not everything can be learned in a class. Be inspired by stories and insights from some
                                 of
                                 the industry's top professionals and listen as they teach you tips, tricks, and
                                 techniques
@@ -95,9 +95,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="getready-sec2">
-                            <h4>Portfolio Review + Panel</h4>
-                            <p>Bring your work for critique by the best portfolio reviewers in the business. If you
+                        <div class="getready-sec2 about-margins get-head-section-bot">
+                            <h3 class="elliot get-head-pad-bot">Portfolio Review + Panel</h3>
+                            <p class="about-text">Bring your work for critique by the best portfolio reviewers in the business. If you
                                 don't
                                 have a portfolio or you're looking to build your professional profile, make sure you are
                                 at
@@ -109,16 +109,16 @@
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="getready-sec">
-                            <h4>Sketchoff</h4>
-                            <p>Sketching is now a competitive spectator sport. Six Pros. One Hour. Five hundred pounds
+                        <div class="getready-sec about-margins get-head-section-bot">
+                            <h3 class="elliot get-head-pad-bot">Sketchoff</h3>
+                            <p class="about-text">Sketching is now a competitive spectator sport. Six Pros. One Hour. Five hundred pounds
                                 of food. Get excited. Did we mention the audience wildcard.</p>
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="getready-sec2">
-                            <h4>Lounge or down time</h4>
-                            <p>Worried you might explode from learning so much? Wondering when you will get to connect
+                        <div class="getready-sec2 about-margins get-head-section-bot">
+                            <h3 class="get-head-pad-bot elliot">Lounge or down time</h3>
+                            <p class="about-text ">Worried you might explode from learning so much? Wondering when you will get to connect
                                 with your fellow conference goers? Don't worry. The events are planned with plenty of
                                 relaxation time in between - come spend it at our lounge! There will be sweet art, comfy
                                 sitting spaces, and maybe even free food.</p>
@@ -127,28 +127,28 @@
                 </div>
         </div>
                 <!-- WHERE TO STAY-->
-                <div class="container-fluid">
+                <div class="container-fluid about-mobile-top">
                     <div class="row top-buffer">
-                        <div class="col-lg-12">
-                            <h2 class="getready-h2">WHERE TO STAY</h2>
+                        <div class="col-lg-12 ">
+                            <h2 class="getready-h2 elliot get-head-section-bot about-margins get-head-section-bot">WHERE TO STAY</h2>
                         </div>
                     </div>
                 </div>
 
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row about-margins">
                         <div class="col-lg-6">
                             <div class="wheretostay-sec-left">
-                                <p style="height: 5vw">If you're travelling from another school -- and don't want to pay
+                                <p class="about-text">If you're travelling from another school -- and don't want to pay
                                     money for a hotel -- our student team will be happy to let you crash in one of our
                                     apartments for a few nights.</p>
-                                <p>For more information on couch-surfing, contact us <a href="#">here</a></p>
+                                <p class="about-text">For more information on couch-surfing, contact us <a href="contact.php">here</a></p>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="wheretostay-sec-right">
-                                    <p>Some nearby, cost-effective hotel accommodations include:</p><br>
-                                    <ul style="padding: 0">
+                            <div class="wheretostay-sec-right get-ready-list">
+                                    <p class="about-text">Some nearby, cost-effective hotel accommodations include:</p><br>
+                                    <ul class="">
                                         <li class="hotel-list"><strong class="hotel-bold">Holiday Inn </strong>- 800
                                             Jefferson Rd - $108 per night (one person)
                                         </li>
@@ -170,27 +170,27 @@
                         </div>
                     </div>
                 </div>
-
+                <img class="mobile-ready-img get-head-section-bot get-head-section-top" src="img/teq1.jpg" width="100%" height="150px">
 
                         <!-- WHAT TO BRING-->
-                        <div class="container-fluid">
+                        <div class="container-fluid ">
                             <div class="row top-buffer">
                                 <div class="col-lg-12">
-                                    <h2 class="getready-h2">WHAT TO BRING</h2>
+                                    <h2 class="getready-h2 elliot about-margins">WHAT TO BRING</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="container-fluid">
-                            <div class="row ">
+                            <div class="row about-margins">
                                 <div class="col-lg-6">
                                     <div class="whattobring-sec-left">
-                                        <p>Bring traveling gear, your creative juices, and an appetite for Awesome™. For
+                                        <p class="about-text">Bring traveling gear, your creative juices, and an appetite for Awesome™. For
                                             workshops and networking, bring a sketchbook, business cards, some writing
                                             utensils, your laptop (and CHARGERS), and maybe your camera. If you’re couch
                                             surfing, bring a pillow, blanket, and your teddy bear.</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 get-head-section-bot">
                                     <div class="whattobring-sec-right">
 
                                     </div>
@@ -201,14 +201,14 @@
 
                         <!--GETTING HERE + CHECKING IN-->
                         <div class="container-fluid come-hang">
-                            <div class="row top-buffer">
+                            <div class="row top-buffer about-margins">
                                 <div class="col-lg-12">
-                                    <h2 class="getready-h2">GETTING HERE + CHECKING IN</h2>
+                                    <h2 class="getready-h2 elliot">GETTING HERE + CHECKING IN</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="container-fluid come-hang">
-                            <div class="row">
+                            <div class="row about-margins">
                                 <div class="col-lg-6">
                                     <div class="gettinghere-sec-right">
                                         <div id="map"></div>
@@ -228,19 +228,19 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="gettinghere-sec-left">
-                                        <h4>Location</h4>
-                                        <p>RIT is located at 1 Lomb Memorial Drive, Rochester, NY 14623. Look up RIT on
+                                        <h4 class="elliot-bold">Location</h4>
+                                        <p class="about-text">RIT is located at 1 Lomb Memorial Drive, Rochester, NY 14623. Look up RIT on
                                             your phone. Greater Rochester International Airport is about 20 minutes
                                             away. If you’re crashing on one of our couches, contact your couch owner
                                             once you get here.
                                         </p> <br>
-                                        <h4>Parking</h4>
-                                        <p>Guest parking will be lots E and H. Upon getready to campus, there will be
+                                        <h4 class="elliot-bold">Parking</h4>
+                                        <p class="about-text">Guest parking will be lots E and H. Upon getready to campus, there will be
                                             signs to direct you to parking and check-in in Booth Hall (Building 7A). Our
                                             check-in table opens at 9am on Friday morning, and our opening reception
                                             will be at 1pm.</p><br>
-                                        <h4>Check-in</h4>
-                                        <p>Upon check-in, you’ll be provided with a lanyard for entry into the events
+                                        <h4 class="elliot-bold">Check-in</h4>
+                                        <p class="about-text">Upon check-in, you’ll be provided with a lanyard for entry into the events
                                             and workshops, a name tag, and a brochure with more information and a
                                             schedule. You’ll need your lanyard every day to enter workshops and other
                                             events.
@@ -251,18 +251,18 @@
                         </div>
 
                         <!--FOOD-->
-                        <div class="container-fluid come-hang">
+                        <div class="container-fluid come-hang about-mobile-top">
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <h2 class="getready-h2">FOOD</h2>
+                                <div class="col-lg-12 ">
+                                    <h2 class="getready-h2 elliot about-margins">FOOD</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="container-fluid">
-                            <div class="row">
+                            <div class="row about-margins">
                                 <div class="col-lg-6">
                                     <div class="food-sec-left">
-                                        <p>Food will be provided for all conference attendees a few different times over
+                                        <p class="about-text">Food will be provided for all conference attendees a few different times over
                                             the weekend (with vegetarian options). You can count on dinner on Friday,
                                             breakfast and lunch on Saturday, and coffee and continental breakfast on
                                             Sunday.
@@ -271,7 +271,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="food-sec-right">
-                                        <p>However, depending on the length of your stay in Rochester, you may need more
+                                        <p class="about-text">However, depending on the length of your stay in Rochester, you may need more
                                             grub. Check out these hand selected off and on-campus food locations to the
                                             right! All on-campus food locations are shown on the map in your brochure
                                             for your convenience.</p>
