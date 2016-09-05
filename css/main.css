@@ -671,13 +671,17 @@ body {
         font-family: "Elliot-Bold";
     }
     .about-history {
+        margin-top: -.245vw;
+        margin-left: 2.7vw;
         font-size: calc(20px + 1.04vw) !important;
+        font-family: "Elliot";
+        line-height: 2.6vw;
     }
     .about-history h2 {
         font-size: 6.67vw !important;
     }
     .about-historyMaking {
-        margin-left: 30px;
+        margin-left: 1.56vw;
     }
     .about-splash-words h1 {
         font-size: 4.5vw;
@@ -703,31 +707,27 @@ body {
         margin-top: 3.75vw;
         margin-left: 17.8vw;
     }
-    .about-desc h4 {
-        font-size: 1.6vw;
-        font-family: "Elliot-Light";
-    }
     .about-desc p {
-        font-size: calc(10 + .52vw);
+        font-size: calc(10px + .52vw);
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        width: 28vw;
+        width: calc(23vw + 134.4px);
         height: 9vw;
-        letter-spacing: .3px;
-        line-height: 1.67vw;
+        line-height: calc(16px + .835vw);
     }
     .about-also {
         position: relative;
         right: 0%;
-        width: 40%;
+        width: 46.9vw !important;
         font-size: 1.25vw;
         font-family: "Elliot-Thin";
         background-color: #000000;
+        margin-top: -1.85vw;
+        margin-left: 3.1vw;
     }
     .about-also-desc {
         margin-top: 4.95vw;
         padding-left: 6.25vw;
-        padding-right: 5vw;
         font-size: 1.56vw;
         margin-left: -.8vw;
         color: white;
@@ -784,17 +784,19 @@ body {
     .about-kids {
         width: 30vw;
         margin-top: 4.85vw;
+        margin-left: 51px;
     }
     .about-kids h2 {
-        margin-bottom: 4.8vw;
-        font-size: 4.05vw;
+        margin-bottom: 4.5vw;
+        font-size: calc(20px + 1.04vw);
         font-family: "Elliot";
-        margin-bottom: 2.00vw;
     }
     .about-kids p {
-        width: 65vw;
-        height: 8.30vw;
-        font-size: 1.6vw;
+        width: 27vw;
+        min-width: 518.4px;
+        font-size: calc(12px + .416vw);
+        margin-bottom: .7vw;
+        line-height: calc(16px + .835vw);
     }
     .about-circle {
         width: 10px;
