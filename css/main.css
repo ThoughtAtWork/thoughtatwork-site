@@ -960,6 +960,9 @@ body {
         height: 1vw;
         line-height: 1.67vw;
     }
+    .hotel-bold{
+        font-family: 'Elliot-Light';
+    }
     .whattobring-sec-left {
         width: 30vw;
         margin-top: 4.1vw;
@@ -2115,6 +2118,32 @@ body {
         margin-right: auto;
         padding-left: 1.5vw;
         padding-top: 22.8vw;
+    }
+
+    .getready-h2{
+        font-family: 'Elliot';
+        font-size: 30px;
+    }
+
+    .getready-h3{
+        font-family: 'Elliot';
+        font-size: 3.5vw;
+    }
+
+    .getready-h4{
+        font-family: 'Elliot-Bold';
+        font-size: 3vw;
+        margin-bottom: 10px;
+    }
+
+    .hotel-list{
+        font-family: 'Elliot-Light';
+        font-size: 2.8vw;
+        margin-bottom: 10px;
+    }
+
+    .hotel-bold{
+        font-family: 'Elliot';
     }
 }
 
