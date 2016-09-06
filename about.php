@@ -69,7 +69,7 @@
 				<div class="col-md-6 about-also">
                      <div class="about-also-desc about-margins about-also-pad-top"><p class="about-text-also">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
                     <div class="about-also-checkout about-margins about-register-pad"><p class="elliot-bold"><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
-                    <div class="about-also-roll about-margins"><p>Ready to roll?</p></div>
+                    <div class="about-also-roll mobile-about-also-roll about-margins"><p>Ready to roll?</p></div>
                     <div class="about-margins">
                     <button class="about-also-register btn center-web about-also-pad-bot">
                         <a href="#">REGISTER</a>
@@ -82,7 +82,7 @@
     <div class="about-mobile-top about-mobile-bot container-fluid">
       <div class="row about-margins">
             <div class="col-lg-10 col-lg-offset-1 ">
-                <div class="about-kids">
+                <div class="about-kids mobile-about-cool ">
                     <h2 class="elliot about-history-padding">THE COOL KIDS</h2>
                     <p class="elliot about-text">Our travelling event series that challenges human adults to make comedy with technology. Every event starts like a party, morphs into a hackathon, and ends in a comedy show - capped with more partying. We also own a domain.</p>
                 </div>				

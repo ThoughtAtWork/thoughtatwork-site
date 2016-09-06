@@ -144,12 +144,6 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-    .about-also-register, .about-also-register a, .about-also-register a:hover{
-        color: white;
-        background-color: #FF2241;
-        font-size:10px;
-        letter-spacing: 1.9px;
-    }
     .contact-btn, .contact-btn a, .contact-btn a:hover{
         color: white;
         background-color: #FF2241;
@@ -163,9 +157,6 @@ body {
         font-size: calc(7px + .365vw) !important;
         font-family: "Elliot";
         color: #FF2241;
-    }
-    .about-also-checkout a, .about-also-checkout a:hover {
-        color: white;
     }
     /*Contact Form Global Styles */
     .contact-splash-words {
@@ -217,9 +208,9 @@ body {
     }
     .form-control {
         padding: 0 !important;
-        border: 0 !important; 
+        border: 0 !important;
         -webkit-box-shadow: none !important;
-        box-shadow: none !important;  
+        box-shadow: none !important;
     }
     hr {
     margin-top: 0px !important;
@@ -242,7 +233,7 @@ body {
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1201px) {
     /*NAv Color Change*/
     .nav {
 
@@ -654,6 +645,9 @@ body {
         letter-spacing: 1.5px;
     }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
+    .about-also-checkout a, .about-also-checkout a:hover {
+        color: white;
+    }
     .about-splash-words {
         color: #ffffff;
         padding-top: 7.5vw;
@@ -682,10 +676,6 @@ body {
     }
     .about-historyMaking {
         margin-left: 1.56vw;
-    }
-    .about-splash-words h1 {
-        font-size: 4.5vw;
-        font-family: "Elliot-Bold";
     }
     .about {
         color: black;
@@ -767,9 +757,6 @@ body {
         margin-bottom: 4.95vw !important;
         background-color: #FF2241;
     }
-    .btn {
-         border-radius: 0 !important;
-    }
     .about-also-register a, .about-also-register a:hover {
         color: white;
         font-size: calc(7px + 0.35vw) !important;
@@ -781,6 +768,12 @@ body {
         align-self: center;
         letter-spacing: 1.9px;
         padding-top: .2vw;
+    }
+    .about-also-register, .about-also-register a, .about-also-register a:hover{
+        color: white;
+        background-color: #FF2241;
+        font-size:10px;
+        letter-spacing: 1.9px;
     }
     .about-kids {
         width: 30vw;
@@ -834,10 +827,13 @@ body {
         margin-left: 11.75vw;
         margin-right: 10vw;
     }
+    .btn {
+         border-radius: 0 !important;
+    }
 
     /*------------getready-------------*/
     .clock {
-        width: 
+        width:
     }
     .countdown{
         height: 11vw;
@@ -960,9 +956,6 @@ body {
         width: 28vw;
         height: 1vw;
         line-height: 1.67vw;
-    }
-    .hotel-bold{
-        font-family: 'Elliot-Light';
     }
     .whattobring-sec-left {
         width: 30vw;
@@ -1174,7 +1167,6 @@ body {
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
     .get-ready-list ul {
-
         list-style-type: none;
         padding-left: 0px !important;
     }
@@ -1197,67 +1189,9 @@ body {
         font-size: 4.5vw;
         font-family: "Elliot-Bold";
     }
-    .about-register-pad {
-        padding-bottom: 5vh;
-        padding-top: 5vh;
-    }
-    .about-mobile-top {
-        margin-top: 3vw;
-        padding-right: 13.5vw;
-        padding-left: 13.5vw;
-        padding-top: 2vw;
-    }
-    .about-mobile-bot {
-         margin-bottom: 20vw
-    }
-    .about-history {
-        /*font-size: 4vw;*/
-        padding-bottom: 2vw;
-    }
-    .mobile-about-history h2{
-        padding-bottom: 7.4vw !important;
-        font-family: "Elliot";
-        font-size: 6.67vw !important;
-        background-color: #ffffff;
-        color: #141416;
-    }
-    .about-desc p {
-        font-family: "Elliot-Thin";
-        letter-spacing: .01em;
-        font-size: (12px + 1.6vw);
-        padding-bottom: 6vw;
-    }
-    .mobile-come-hang-subheader h4 {
-        padding-top: 19.2vw !important;
-        padding-bottom: 8.6vw !important;
-        padding-right: 13.5vw;
-        padding-left: 13.5vw;
-        font-family: "Elliot";
-        font-size: 6.67vw;
-        background-color: #ffffff;
-        color: #141416;
-    }
-    .about-also {
-        position: relative;
-        font-size: 1.25vw;
-        font-family: "Elliot-Thin";
-        background-color: #000000;
-    }
-    .about-also-desc {
-        margin-top: .8vw;
-        padding-left: 6.25vw;
-        padding-right: 5vw;
-        font-size: 4.53vw !important;
-        margin-left: -.8vw;
-        color: white;
-        letter-spacing: .02em;
-        width: 95vw;
-        line-height: 1.25em;
-    }
+    
     .about-also-checkout {
         margin-top: 2.8vw;
-        padding-left: 6.2vw;
-        padding-right: 5vw;
         font-size: 0.7vw;
         margin-left: -.8vw;
         color: white;
@@ -1265,23 +1199,26 @@ body {
         letter-spacing: 1.5px;
         line-height: 2.1vw;
     }
-    .about-also-checkout a:link, a:visited, a:hover, a:active {
+    .about-desc {
+        width: 30vw;
+        margin-top: 2vw;
+        margin-left: 8.0vw;
+    }
+    .about-desc p {
+        font-size: 2vw;
+        width: 36vw;
+    }
+    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
         color: white;
-        font-size: calc(7px + .93vw);
+        font-size: calc(7px + .93vw) !important;
     }
     .about-also-roll {
-        padding-left: 5.35vw;
-        padding-right: 5vw;
         margin-top: .6vw;
         color: white;
         font-family: "Elliot-Thin";
         letter-spacing: 1px;
         font-size: calc(10px + 1.33vw);
         margin: 0;
-    }
-    .about-also-register {
-        margin-bottom: 8.55vw !important;
-        background-color: #FF2241;
     }
     .btn {
          border-radius: 0 !important;
@@ -1291,13 +1228,29 @@ body {
         font-size: calc(7px + .93vw) !important;
         font-family: "Elliot";
         display: flex;
-        text-align: center;
         align-items: center;
         justify-content: center;
-        align-self: center;
-        letter-spacing: 1.9px;
+        letter-spacing: .1em;
         width: 15.5vw;
         height: 4.5vw;
+    }
+    .about-also-register {
+        margin-bottom: 8.55vw !important;
+        background-color: #FF2241;
+    }
+    .about-also {
+        background-color: #000000;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mobile-about-history h2{
+        padding-bottom: 2.4vw !important;
+        font-family: "Elliot";
+        font-size: 4.4vw !important;
+    }
+    .about-historyMaking {
+        margin-left: 1.56vw;
     }
     /*Nav Padding*/
     /*    Splash Section*/
@@ -1420,7 +1373,7 @@ body {
     .p-l-12 {
         padding-left: 8vw !important;
     }
-    
+
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
         font-size: calc(11px + .40vw);
@@ -1528,12 +1481,6 @@ body {
     .mobile-learn-more {
       display: none;
     }
-    .about-also {
-        background-color: #000000;
-        color: white;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
     .view-schedule {
         font-size: calc(10px + .204vw) !important;
         font-family: "Elliot-Bold";
@@ -1544,7 +1491,7 @@ body {
         font-size: 2.5vw !important;
         letter-spacing: .1em;
     }
- 
+
     /* mobile footer styling*/
     img.sponsor-img {
         margin-left: 00px;
@@ -1586,7 +1533,6 @@ body {
     .countdown-date{
         font-family: "Elliot-Thin";
         font-size: 12vw;
-
     }
     .count-center{
         text-align: center;
@@ -1615,7 +1561,8 @@ body {
         padding-bottom: 26.2vh;
         padding-left: 11.7vw !important;
         width: 100%;
-/*        background-repeat: space;*/
+        background-attachment: fixed;
+        height: 19.8vw;
         max-height: 608px;
         background-image: url(../img/about_splash.jpg);
         background-position-y: -200px;
@@ -1629,24 +1576,83 @@ body {
     .about-also-pad-top {
         padding-top: 5vw;
     }
-    .about-also-pad-bot {
-        padding-bottom: 5vw;
-    }
-    .about-text {
-        font-size: 2.8vw;
+    .mobile-about-history h2{
+        padding-bottom: 7.4vw !important;
+        font-family: "Elliot";
+        font-size: 6.67vw !important;
     }
     .about-history-padding {
         padding-bottom: 7vw;
     }
+    .about-also-pad-bot {
+        margin-left: -.4vw;
+        padding-bottom: 5vw;
+    }
+    .mobile-about-cool h2{
+        padding-bottom: 7.4vw !important;
+        font-family: "Elliot";
+        font-size: 6.67vw !important;
+    }
+    .about-also {
+        background-color: #000000;
+        color: white;
+        font-family: "Elliot-Thin";
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-register-pad {
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+    .about-also-register {
+        margin-bottom: 8.55vw !important;
+        background-color: #FF2241;
+    }
+    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
+        color: white;
+        font-size: calc(7px + .93vw) !important;
+    }
+    .about-text {
+        font-size: 2.8vw;
+    }
     .about-splash-words h1 {
         font-size: 11vw;
-        font-family: "Elliot-Bold";
     }
+    .about-historyMaking {
+        margin-left: 0vw;
+    }
+    
     .about-mobile-top {
-         margin-top: 18vw
+        margin-top: 20vw;
     }
     .about-mobile-bot {
          margin-bottom: 20vw
+    }
+    .about-also-desc {
+        margin-top: .8vw;
+        font-size: 4.53vw !important;
+        margin-left: -.8vw;
+        color: white;
+        letter-spacing: .02em;
+        width: 95vw;
+        line-height: 1.25em;
+    }
+    .about-also-checkout {
+        margin-top: 2.8vw;
+        font-size: 0.7vw;
+        margin-left: -.8vw;
+        color: white;
+        font-family: "Elliot-Bold";
+        letter-spacing: 1.5px;
+        line-height: 2.1vw;
+    }
+    .about-also-roll {
+        margin-top: .6vw;
+        color: white;
+        font-family: "Elliot-Thin";
+        letter-spacing: 1px;
+        font-size: calc(10px + 1.33vw);
+        margin: 0;
     }
     .tablet-bot {
         padding-bottom: 50px;
@@ -1656,6 +1662,17 @@ body {
         padding-right: 13.5vw;
         text-align: left;
     }
+    .about-desc {
+        margin-top: 0;
+        margin-left: 0vw;
+        width: 100vw;
+    }
+    .about-desc p {
+        font-size: 2.8vw;
+        line-height: 1.42857143;
+         width: 98.5%;
+    }
+    
     #nav-background-color {
         background: none;
     }
@@ -1790,7 +1807,7 @@ body {
         left: 0;
         min-height: 100%;
         text-align: center;
-     
+
     }
     .menu-pad {
         padding-top: 12vh;
@@ -2119,41 +2136,15 @@ body {
         padding-left: 1.5vw;
         padding-top: 22.8vw;
     }
-
-    .getready-h2{
-        font-family: 'Elliot';
-        font-size: 30px;
-    }
-
-    .getready-h3{
-        font-family: 'Elliot';
-        font-size: 3.5vw;
-    }
-
-    .getready-h4{
-        font-family: 'Elliot-Bold';
-        font-size: 3vw;
-        margin-bottom: 10px;
-    }
-
-    .hotel-list{
-        font-family: 'Elliot-Light';
-        font-size: 2.8vw;
-        margin-bottom: 10px;
-    }
-
-    .hotel-bold{
-        font-family: 'Elliot';
-    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    .about-text{ 
-    font-size: 3.5vw; 
+    .about-text{
+    font-size: 3.5vw;
     }
-    .about-text-also{ 
-    font-size: 5vw; 
+    .about-text-also{
+    font-size: 5vw;
     }
     .close {
         left: 0vw;
