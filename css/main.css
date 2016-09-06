@@ -648,9 +648,9 @@ body {
         width: inherit;
         margin-top: 10px;
     }
-    .sponsor-want a:link, a:visited, a:hover, a:active {
+    .sponsor-want a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
         font-size: 1.04vw !important;
-        font-family: Elliot-Bold;
+        font-family: "Elliot-Bold";
         letter-spacing: 1.5px;
     }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
@@ -722,32 +722,33 @@ body {
         font-size: 1.25vw;
         font-family: "Elliot-Thin";
         background-color: #000000;
-        margin-top: -1.85vw;
+        margin-top: -1.10vw;
         margin-left: 3.1vw;
     }
     .about-also-desc {
         margin-top: 4.95vw;
         padding-left: 6.25vw;
-        font-size: 1.56vw;
+        font-size: calc(9px + 1vw);
         margin-left: -.8vw;
         color: white;
-        letter-spacing: .5px;
+        width: 41vw;
+        letter-spacing: .02em;
         line-height: 2.1vw;
     }
     .about-also-checkout {
         margin-top: 1.6vw;
         padding-left: 6.2vw;
         padding-right: 5vw;
-        font-size: 0.7vw;
+/*        font-size: 0.35vw !important;*/
         margin-left: -.8vw;
         color: white;
         font-family: "Elliot-Bold";
         letter-spacing: 1.5px;
         line-height: 2.1vw;
     }
-    .about-also-checkout a:link, a:visited, a:hover, a:active {
+    .about-also-checkout a, .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkout a:hover, .about-also-checkout a:active {
         color: white;
-        font-size: 0.7vw;
+        font-size: calc(7px + 0.35vw);
     }
     .about-also-roll {
         padding-left: 5.35vw;
@@ -756,7 +757,7 @@ body {
         color: white;
         font-family: "Elliot-Thin";
         letter-spacing: 1px;
-        font-size: 1vw;
+        font-size: calc(10px + .52vw);
     }
     .about-also-register {
         width: 7.4vw !important;
@@ -771,7 +772,7 @@ body {
     }
     .about-also-register a, .about-also-register a:hover {
         color: white;
-        font-size: .7vw !important;
+        font-size: calc(7px + 0.35vw) !important;
         font-family: "Elliot";
         display: flex;
         text-align: center;
@@ -1200,7 +1201,6 @@ body {
         padding-bottom: 5vh;
         padding-top: 5vh;
     }
-
     .about-mobile-top {
         margin-top: 3vw;
         padding-right: 13.5vw;
