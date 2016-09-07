@@ -52,22 +52,22 @@
     <div class="container-fluid contact-top-buffer about-mobile-top">
       <div class="row about-margins">
         <div class="col-lg-10 col-md-offset-1">
-            <h2 class="elliot">Get In Touch</h2>
+            <h2 class="contact-heading">Get In Touch</h2>
         </div>
       </div>
     </div>
-    <div class="container-fluid contact-top-buffer ">
+    <div class="container-fluid contact-body-buffer ">
       <div class="row about-margins">
         <div class="col-lg-10 col-md-offset-1 ">
             <div class="col-lg-6 contact-description">
               <p class="elliot about-text">Any questions or suggestions? Perhaps you're interested in speaking or sponsoring?</p><br>
-              <p class="elliot about-text">Dont hesitate to drop us a line.</p>
+              <p class="elliot about-text">Don't hesitate to drop us a line!</p>
             </div>
             <div class="col-lg-6 contact-form about-mobile-top about-mobile-bot">
               <form id="contactForm"> 
 
                   <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                     <hr>
                     <!--<hr class="red-hr">-->
                     <!--<label for="name" class="label-elliot">YOUR NAME</label>  -->                
@@ -96,7 +96,7 @@
                     <hr>
                   </div>
 
-                  <button type="submit" class="btn contact-btn">Submit</button>
+                  <button type="submit" class="btn contact-btn">Send</button>
                   <div id="msgSubmit" class="elliot text-center hidden">Message Submitted!</div>
               </form>
             </div>

@@ -147,7 +147,10 @@ body {
     .contact-btn, .contact-btn a, .contact-btn a:hover{
         color: white;
         background-color: #FF2241;
-        font-size:10px;
+        padding: 0.9vw 1.7vw !important;
+        font-family: 'Elliot';
+        font-size: calc(6px + .52vw) !important;;
+        text-transform: uppercase;
         letter-spacing: 1.9px;
     }
     .btn {
@@ -175,6 +178,16 @@ body {
         font-size: 4.43vw;
         color: #ffffff !important;
     }
+
+    .contact-heading{
+        margin-top: -.245vw;
+        margin-left: 2.7vw;
+        font-size: calc(20px + 1.04vw) !important;
+        font-family: "Elliot";
+        text-transform: uppercase;
+        line-height: 2.6vw;
+    }
+
     .contact-subheader {
         font-size: calc(20px + 1.03vw);
         text-transform: uppercase;
@@ -189,29 +202,25 @@ body {
     }
     .contact-description p {
         width: 27.9vw;
-        min-width: 300px;
+        min-width: 280px;
     }
-    .contact-top-buffer {
+    .contact-top-buffer, .contact-body-buffer {
         margin-top:3.9vw;
     }
-    input {
-        font-family: "Elliot" !important;
-        font-size: calc(10px + .52vw) !important;
-    }
-    textarea {
-        font-family: "Elliot" !important;
-        font-size: calc(10px + .52vw) !important;
-    }
-    select {
+    input, textarea, select {
         font-family: "Elliot" !important;
         font-size: calc(10px + .52vw) !important;
     }
     .form-control {
-        padding: 0 !important;
+        padding: 0 0 0.5vw 0 !important;
         border: 0 !important;
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
     }
+    .form-group{
+        margin-bottom: 4.1vw !important;
+    }
+
     hr {
     margin-top: 0px !important;
     margin-bottom: 2px !important;
@@ -835,7 +844,6 @@ body {
     .btn {
          border-radius: 0 !important;
     }
-
     /*------------getready-------------*/
     .clock {
         width:
@@ -1258,6 +1266,33 @@ body {
     .about-historyMaking {
         margin-left: 1.56vw;
     }
+
+    /*Contact Page <1200*/
+    .contact-description, .contact-form{
+        width: 45%;
+        float: left;
+    }
+    .contact-form{
+        /*padding-left: 2.65vw !important;*/
+        margin-right: 8.33333333%;
+    }
+    .contact-heading{
+        font-size: 4.4vw !important;
+    }
+    .contact-description{
+        font-size: 2vw;
+        line-height: inherit;
+    }
+
+    input, textarea, select {
+        font-size: 1.7vw !important;
+    }
+
+    .form-control{
+        height: auto !important;
+        padding-bottom: 1vw !important;
+    }
+
     /*Nav Padding*/
     /*    Splash Section*/
     .splash-words {
@@ -1683,7 +1718,45 @@ body {
         line-height: 1.42857143;
          width: 98.5%;
     }
-    
+
+    /*Contact Page <990*/
+    .contact-heading{
+        font-size: 6.67vw !important;
+        line-height: 1.1;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-bottom: 7.4vw !important;
+    }
+
+    .contact-description, .contact-form{
+        margin-right: 0;
+        float: none;
+        width: auto;
+    }
+
+    .contact-description{
+        line-height: 1.42857143;
+    }
+    .contact-description p{
+        width: auto;
+    }
+    .contact-body-buffer{
+        margin-top: 0;
+    }
+
+    .form-group{
+        margin-bottom: 8vw !important;
+    }
+    input, textarea, select {
+        font-size: 2.3vw !important;
+    }
+    .contact-btn, .contact-btn a, .contact-btn a:hover{
+        padding: 1.7vw 2.8vw !important;
+        /*margin-top: 4.1vw;*/
+        font-size: 1.8vw !important;;
+        letter-spacing: 1.9px;
+    }
+
     #nav-background-color {
         background: none;
     }
@@ -2153,12 +2226,24 @@ body {
 @media only screen and (max-width : 480px) {
     .about-text{
     font-size: 3.5vw;
+    width: 100%;
     }
     .about-text-also{
     font-size: 5vw;
     }
     .close {
         left: 0vw;
+    }
+
+    .contact-description p{
+        min-width: auto;
+    }
+    input, textarea, select {
+        font-size: 3.3vw !important;
+    }
+    .contact-btn{
+        font-size: 2.8vw !important;
+        padding: 2vw 3vw !important;
     }
 }
 
