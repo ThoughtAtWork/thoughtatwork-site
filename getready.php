@@ -228,18 +228,18 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="gettinghere-sec-left">
-                                        <h4 class="getready-h4 elliot-bold">Location</h4>
+                                        <h4 class="getready-h4 elliot">Location</h4>
                                         <p class="elliot about-text">RIT is located at 1 Lomb Memorial Drive, Rochester, NY 14623. Look up RIT on
                                             your phone. Greater Rochester International Airport is about 20 minutes
                                             away. If you’re crashing on one of our couches, contact your couch owner
                                             once you get here.
                                         </p> <br>
-                                        <h4 class="getready-h4 elliot-bold">Parking</h4>
+                                        <h4 class="getready-h4 elliot">Parking</h4>
                                         <p class="elliot about-text">Guest parking will be lots E and H. Upon getready to campus, there will be
                                             signs to direct you to parking and check-in in Booth Hall (Building 7A). Our
                                             check-in table opens at 9am on Friday morning, and our opening reception
                                             will be at 1pm.</p><br>
-                                        <h4 class="getready-h4 elliot-bold">Check-in</h4>
+                                        <h4 class="getready-h4 elliot">Check-in</h4>
                                         <p class="elliot about-text">Upon check-in, you’ll be provided with a lanyard for entry into the events
                                             and workshops, a name tag, and a brochure with more information and a
                                             schedule. You’ll need your lanyard every day to enter workshops and other
