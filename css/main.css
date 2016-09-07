@@ -255,6 +255,11 @@ body {
         color: white;
         padding-top: 2.1vw !important;
         font-size: calc(11px + .25vw);
+        letter-spacing: 0px !important;
+
+    }
+    .navbar-nav>li>a:hover{
+        color: black;
     }
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
@@ -1166,6 +1171,7 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    
     .get-ready-list ul {
         list-style-type: none;
         padding-left: 0px !important;
@@ -1396,6 +1402,11 @@ body {
         font-family: "Elliot-Thin";
         color: white;
         padding-top: 2.0vw !important;
+        font-size: calc(11px + .25vw) !important;
+        letter-spacing: 0px !important;
+    }
+    .navbar-nav>li>a:hover{
+        color: black;
     }
     .title {
         font-family: "Elliot";
