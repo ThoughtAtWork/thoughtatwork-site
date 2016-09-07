@@ -701,12 +701,12 @@ body {
         font-size: calc(10px + .52vw);
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        width: calc(23vw + 134.4px);
+        width: calc(20vw + 134.4px);
         height: 9vw;
         line-height: calc(16px + .835vw);
     }
     .about-also {
-        position: relative;
+        position: absolute !important;
         right: 0%;
         width: 46.9vw !important;
         font-size: 1.25vw;
