@@ -1610,12 +1610,18 @@ body {
         font-family: "Elliot-Thin";
         color: white;
     }
+    .food-menu-list {
+    
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
     .food-menu-list2 {
     font-size: 2vw;
     font-family: "Elliot-Thin";
     color: white;
     margin-left: 1vw;
-    padding-top: 3vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
     .mobile-food-white {
         background-color: white !important;
