@@ -1184,6 +1184,9 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    .no-list-style ul {
+        list-style: none;
+    }
     
     .get-ready-list ul {
         list-style-type: none;
@@ -1588,6 +1591,12 @@ body {
     .food-black-mobile {
         background-color: black;
     }
+    .food-margin-top {
+        padding-top: 30px;
+    }
+    .food-margin-bot {
+        padding-bottom: 30px;
+    }
     .food-menu{
         background-image: url("../img/food-menu.png");
         background-repeat: no-repeat;
@@ -1595,6 +1604,19 @@ body {
         width: 100%;
         color: white;
     }
+    .food-menu-list-item {
+        line-height: 7vw;
+        font-size: 3vw;
+        font-family: "Elliot-Thin";
+        color: white;
+    }
+    .food-menu-list2 {
+    font-size: 2vw;
+    font-family: "Elliot-Thin";
+    color: white;
+    margin-left: 1vw;
+    padding-top: 3vw;
+}
     .mobile-food-white {
         background-color: white !important;
 
@@ -1889,6 +1911,7 @@ body {
         font-size: calc(16px + .25vw);
 
     }
+    
 
     .navbar .navbar-nav {
       display: inline-block;
@@ -2257,6 +2280,19 @@ body {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .food-menu-list-item {
+        line-height: 7vw;
+        font-size: 5vw;
+        font-family: "Elliot-Thin";
+        color: white;
+    }
+    .food-menu-list2 {
+    font-size: 4vw;
+    font-family: "Elliot-Thin";
+    color: white;
+    margin-left: 1vw;
+    padding-top: 3vw;
+}
     .about-text{
     font-size: 3.5vw;
     width: 100%;
