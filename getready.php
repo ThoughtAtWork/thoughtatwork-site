@@ -202,8 +202,9 @@
                         <!--GETTING HERE + CHECKING IN-->
                         <div class="container-fluid come-hang">
                             <div class="row top-buffer about-margins">
-                                <div class="col-lg-12">
-                                    <h2 class="getready-h2 elliot">GETTING HERE + CHECKING IN</h2>
+                                <div class="col-lg-6"></div>
+                                <div class="col-lg-6">
+                                    <h2 class="elliot">GETTING HERE + CHECKING IN</h2>
                                 </div>
                             </div>
                         </div>
@@ -228,18 +229,18 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="gettinghere-sec-left">
-                                        <h4 class="getready-h4 elliot">Location</h4>
+                                        <h3 class="getready-h3 elliot">Location</h3>
                                         <p class="elliot about-text">RIT is located at 1 Lomb Memorial Drive, Rochester, NY 14623. Look up RIT on
                                             your phone. Greater Rochester International Airport is about 20 minutes
                                             away. If you’re crashing on one of our couches, contact your couch owner
                                             once you get here.
                                         </p> <br>
-                                        <h4 class="getready-h4 elliot">Parking</h4>
+                                        <h3 class="getready-h3 elliot">Parking</h3>
                                         <p class="elliot about-text">Guest parking will be lots E and H. Upon getready to campus, there will be
                                             signs to direct you to parking and check-in in Booth Hall (Building 7A). Our
                                             check-in table opens at 9am on Friday morning, and our opening reception
                                             will be at 1pm.</p><br>
-                                        <h4 class="getready-h4 elliot">Check-in</h4>
+                                        <h3 class="getready-h3 elliot">Check-in</h3>
                                         <p class="elliot about-text">Upon check-in, you’ll be provided with a lanyard for entry into the events
                                             and workshops, a name tag, and a brochure with more information and a
                                             schedule. You’ll need your lanyard every day to enter workshops and other
@@ -262,7 +263,7 @@
                             <div class="row about-margins">
                                 <div class="col-lg-6">
                                     <div class="food-sec-left">
-                                        <p class="elliot about-text">Food will be provided for all conference attendees a few different times over
+                                        <p class="about-text">Food will be provided for all conference attendees a few different times over
                                             the weekend (with vegetarian options). You can count on dinner on Friday,
                                             breakfast and lunch on Saturday, and coffee and continental breakfast on
                                             Sunday.
@@ -280,7 +281,7 @@
                             </div>
                         </div>
                         <div class="container-fluid">
-                            <div class="row">
+                            <div class="row about-margins">
                                 <div class="col-lg-4">
                                     <div class="food-menu">
                                         <ul class="food-menu-list">

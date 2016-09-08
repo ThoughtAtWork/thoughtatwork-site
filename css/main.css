@@ -70,7 +70,7 @@ body {
     text-align: -webkit-center;
 }
 .elliot {
-    font-family:"Elliot-Light";
+    font-family:"Elliot";
 }
 .elliot-thin {
     font-family: "Elliot-Thin";
@@ -715,7 +715,7 @@ body {
         font-size: calc(10px + .52vw);
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        width: calc(23vw + 134.4px);
+        /*width: calc(23vw + 134.4px);*/
         height: 9vw;
         line-height: calc(16px + .835vw);
     }
@@ -806,6 +806,11 @@ body {
         margin-bottom: .7vw;
         line-height: calc(16px + .835vw);
     }
+       .about-text {
+       font-size:calc(10px + .52vw) !important;
+       color: black;
+       font-style: "Elliot-Light" !important;
+    }
     .about-circle {
         width: 10px;
         height: 10px;
@@ -873,22 +878,22 @@ body {
 
     .getready-sec {
         width: 30vw;
-        margin-top: 4.1vw;
+        margin-top: 6vw;
         margin-left: 12.5vw;
     }
     .getready-sec2 {
          width: 30vw;
-         margin-top: 4.1vw;
+         margin-top: 6vw;
      }
     .getready-sec h4 {
         font-size: 1.6vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
     }
     .getready-sec p {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
         line-height: 1.67vw;
@@ -902,7 +907,7 @@ body {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
         line-height: 1.67vw;
@@ -945,7 +950,7 @@ body {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
         line-height: 1.67vw;
@@ -965,7 +970,7 @@ body {
     .wheretostay-sec-right p {
         font-size: 1.04vw;
         line-height: 1.65vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 28vw;
         height: 1vw;
         line-height: 1.67vw;
@@ -983,7 +988,7 @@ body {
         font-size: 1.04vw;
         line-height: 1.65vw;
         margin-top: 1.8vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
         line-height: 1.67vw;
@@ -1010,12 +1015,12 @@ body {
     }
     .gettinghere-sec-left h4 {
         font-size: 1.6vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
     }
     .gettinghere-sec-left p, li {
         font-size: 1.04vw;
         line-height: 1.65vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 28vw;
         list-style: none;
     }
@@ -1069,7 +1074,7 @@ body {
     .food-sec-left,.food-sec-right p {
         font-size: 1.04vw;
         line-height: 1.65vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
         line-height: 1.67vw;
@@ -1094,7 +1099,7 @@ body {
 
     .menu-load-text2{
         color: black;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         margin-left: 3vw;
         margin-top: 4.7vw;
         font-size: 1vw;
@@ -1163,7 +1168,7 @@ body {
     .food-menu-3 h2{
         line-height: 4vw;
         font-size: 1.6vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
     }
 
     /* font stylers */
@@ -1659,7 +1664,7 @@ body {
         font-size: calc(7px + .93vw) !important;
     }
     .about-text {
-        font-size: 2.8vw;
+       font-size:calc(10px + .52vw);
     }
     .about-splash-words h1 {
         font-size: 11vw;
