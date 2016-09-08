@@ -281,8 +281,9 @@
                             </div>
                         </div>
                         <div class="container-fluid">
-                            <div class="row about-margins">
-                                <div class="col-lg-4">
+                            <div class="row food-black-mobile">
+                                <div class="col-lg-4 mobile-no-mar ">
+                                
                                     <div class="food-menu">
                                         <ul class="food-menu-list">
                                             <li class="food-menu-list-item" onclick="campus()">On-campus &nbsp&nbsp&nbsp→</li>
@@ -290,19 +291,23 @@
                                             <li class="food-menu-list-item" onclick="rochester()">Rochester City&nbsp&nbsp&nbsp→</li>
                                         </ul>
                                     </div>
+                       
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 mobile-no-mar ">
+                                <div class="about-margins">
                                     <div class="food-menu-2" id="food-menu-2">
                                         <ul class="food-menu-list2" id="food-menu-list2">
                                             <p class="menu-load-text">←   Choose a location to view available restaurants.</p>
                                         </ul>
                                     </div>
+                                    </div>
                                 </div>
 
-                                <div class="col-lg-4">
-
+                                <div class="col-lg-4 mobile-food-white">
+                                <div class="about-margins">
                                     <div class="food-menu-3" id="food-menu-3">
-                                    <p class="menu-load-text2">←   Choose a restaurant to view its description.</p>
+                                        <p class="menu-load-text2 mobile-no-pad-food">←   Choose a restaurant to view its description.</p>
+                                        </div>
                                     </div>
                                 </div>
 
