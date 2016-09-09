@@ -1292,6 +1292,27 @@ body {
     .about-historyMaking {
         margin-left: 1.56vw;
     }
+    .mobile-about-cool {
+        padding-left: 8.0vw;
+        padding-right: 13.5vw;
+        text-align: left;
+    }
+    .mobile-about-cool h2{
+            padding-top: 5.55vw;
+            padding-bottom: 4.55vw !important;
+            font-family: "Elliot";
+            font-size: 5.0vw !important;
+    }
+    .mobile-about-cool p {
+            font-size: 2.4vw;
+            color: #333;
+            padding-bottom: 5.55vw
+    }
+    .mobile- {
+        padding-left: 13.5vw;
+        padding-right: 13.5vw;
+        text-align: left;
+    }
     /*Contact Page <1200*/
     .contact-description, .contact-form{
         width: 45%;
@@ -1436,7 +1457,6 @@ body {
     .p-l-12 {
         padding-left: 8vw !important;
     }
-
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
         font-size: calc(11px + .40vw);
@@ -1549,7 +1569,6 @@ body {
     .mobile-learn-more {
       display: none;
     }
-    
     .view-schedule {
         font-size: calc(10px + .204vw) !important;
         font-family: "Elliot-Bold";
@@ -1793,13 +1812,17 @@ body {
         color: #616161;
         line-height: 1.42857143;
     }
+    .mobile-about-cool {
+        padding: 0 !important;
+    }
     .mobile-about-cool h2{
+        padding-top: 0vw !important;
         padding-bottom: 7.4vw !important;
-        font-family: "Elliot";
         font-size: 6.67vw !important;
     }
     .mobile-about-cool p {
-        font-size: 3.2vw;
+        font-size: 3.2vw !important;
+        color: #616161 !important;
     }
     /*Contact Page <990*/
     .contact-heading{
