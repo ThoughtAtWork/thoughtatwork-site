@@ -659,9 +659,6 @@ body {
         letter-spacing: 1.5px;
     }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
-    .about-also-checkout a, .about-also-checkout a:hover {
-        color: white;
-    }
     .about-splash-words {
         color: #ffffff;
         padding-top: 7.5vw;
@@ -718,6 +715,9 @@ body {
         /*width: calc(23vw + 134.4px);*/
         height: 9vw;
         line-height: calc(16px + .835vw);
+    }
+    .about-also-checkout a, .about-also-checkout a:hover {
+        color: white;
     }
     .about-also {
         position: relative;
@@ -1208,18 +1208,8 @@ body {
         background-attachment: fixed;
     }
     .about-splash-words h1 {
-        font-size: 4.5vw;
+        font-size: 6.2vw;
         font-family: "Elliot-Bold";
-    }
-    
-    .about-also-checkout {
-        margin-top: 2.8vw;
-        font-size: 0.7vw;
-        margin-left: -.8vw;
-        color: white;
-        font-family: "Elliot-Bold";
-        letter-spacing: 1.5px;
-        line-height: 2.1vw;
     }
     .about-desc {
         width: 30vw;
@@ -1229,6 +1219,37 @@ body {
     .about-desc p {
         font-size: 2vw;
         width: 36vw;
+        line-height: 2.8vw;
+        line-height: 3.1vw;
+    }
+    .about-also {
+        background-color: #000000;
+        color: white;
+        margin-top: -12.7vw;
+        padding-top: 10px;
+        left: 0;
+        padding-bottom: 10px;
+    }
+    .about-also-desc {
+        margin-top: 4.95vw;
+        padding-left: 6.10vw;
+        font-size: calc(12px + 1.2vw) !important;
+        margin-left: -.8vw;
+        color: white;
+        font-family: "Elliot-Thin";
+        width: 41vw;
+        letter-spacing: .02em;
+        line-height: 3.7vw;
+    }
+    .about-also-checkout {
+        margin-top: 5.8vw;
+        font-size: 0.7vw;
+        color: white;
+        padding-left: 5.40vw;
+        font-family: "Elliot-Bold";
+        letter-spacing: 1.5px;
+        line-height: 2.1vw;
+        margin-bottom: 4vw;
     }
     .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
         color: white;
@@ -1237,6 +1258,7 @@ body {
     .about-also-roll {
         margin-top: .6vw;
         color: white;
+        padding-left: 5.30vw;
         font-family: "Elliot-Thin";
         letter-spacing: 1px;
         font-size: calc(10px + 1.33vw);
@@ -1257,24 +1279,19 @@ body {
         height: 4.5vw;
     }
     .about-also-register {
+        margin-left: 5.30vw;
         margin-bottom: 8.55vw !important;
         background-color: #FF2241;
-    }
-    .about-also {
-        background-color: #000000;
-        color: white;
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
     .mobile-about-history h2{
         padding-bottom: 2.4vw !important;
         font-family: "Elliot";
+        padding-top: 4vw;
         font-size: 4.4vw !important;
     }
     .about-historyMaking {
         margin-left: 1.56vw;
     }
-
     /*Contact Page <1200*/
     .contact-description, .contact-form{
         width: 45%;
@@ -1291,16 +1308,13 @@ body {
         font-size: 2vw;
         line-height: inherit;
     }
-
     input, textarea, select {
         font-size: 1.7vw !important;
     }
-
     .form-control{
         height: auto !important;
         padding-bottom: 1vw !important;
     }
-
     /*Nav Padding*/
     /*    Splash Section*/
     .splash-words {
@@ -1535,6 +1549,7 @@ body {
     .mobile-learn-more {
       display: none;
     }
+    
     .view-schedule {
         font-size: calc(10px + .204vw) !important;
         font-family: "Elliot-Bold";
@@ -1614,7 +1629,7 @@ body {
     
     padding-top: 5vw;
     padding-bottom: 5vw;
-}
+    }
     .food-menu-list2 {
     font-size: 2vw;
     font-family: "Elliot-Thin";
@@ -1622,7 +1637,7 @@ body {
     margin-left: 1vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
-}
+    }
     .mobile-food-white {
         background-color: white !important;
 
@@ -1635,7 +1650,6 @@ body {
      .food-menu-2{
         background-color: black;
         width: 100%;
-
         overflow-y: scroll;
         color: white;
     }
@@ -1667,41 +1681,38 @@ body {
     }
     .about-splash-words {
         color: #ffffff;
-        padding-top: 14vw;
-        padding-bottom: 26.2vh;
+        padding-top: 15.5vw;
+        padding-bottom: 35.2vw;
         padding-left: 11.7vw !important;
         width: 100%;
         background-attachment: fixed;
         height: 19.8vw;
         max-height: 608px;
         background-image: url(../img/about_splash.jpg);
-        background-position-y: -200px;
-        background-position-x: 1200px;
+        background-repeat: ;
+        background-position-y: -100px;
+        background-position-x: -200px;
     }
     .about-splash-words .title{
-        font-size: calc(50px + 6vw);
-        padding-top: 3vw;
+        font-size: calc(50px + 6.3vw);
+        padding-top: 2.2vw;
         margin-left: -20px;
     }
-    .about-also-pad-top {
-        padding-top: 5vw;
-    }
+    
     .mobile-about-history h2{
-        padding-bottom: 7.4vw !important;
+        padding-bottom: 5.5vw !important;
         font-family: "Elliot";
         font-size: 6.67vw !important;
     }
     .about-history-padding {
         padding-bottom: 7vw;
     }
+    .about-also-pad-top {
+        padding-top: 5vw;
+    }
     .about-also-pad-bot {
         margin-left: -.4vw;
         padding-bottom: 5vw;
-    }
-    .mobile-about-cool h2{
-        padding-bottom: 7.4vw !important;
-        font-family: "Elliot";
-        font-size: 6.67vw !important;
     }
     .about-also {
         background-color: #000000;
@@ -1721,22 +1732,6 @@ body {
     .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
         color: white;
         font-size: calc(7px + .93vw) !important;
-    }
-    .about-text {
-       font-size:calc(10px + .52vw);
-    }
-    .about-splash-words h1 {
-        font-size: 11vw;
-    }
-    .about-historyMaking {
-        margin-left: 0vw;
-    }
-    
-    .about-mobile-top {
-        margin-top: 20vw;
-    }
-    .about-mobile-bot {
-         margin-bottom: 20vw
     }
     .about-also-desc {
         margin-top: .8vw;
@@ -1764,6 +1759,21 @@ body {
         font-size: calc(10px + 1.33vw);
         margin: 0;
     }
+    .about-text {
+       font-size:calc(10px + .52vw);
+    }
+    .about-splash-words h1 {
+        font-size: 11vw;
+    }
+    .about-historyMaking {
+        margin-left: 0vw;
+    }
+    .about-mobile-top {
+        margin-top: 20vw;
+    }
+    .about-mobile-bot {
+         margin-bottom: 26.2vw
+    }
     .tablet-bot {
         padding-bottom: 50px;
     }
@@ -1773,16 +1783,24 @@ body {
         text-align: left;
     }
     .about-desc {
-        margin-top: 0;
+        margin-top: 1.5vw;
         margin-left: 0vw;
-        width: 100vw;
+        width: 97vw;
     }
     .about-desc p {
-        font-size: 2.8vw;
+        font-size: 3.2vw;
+        width: 95%;
+        color: #616161;
         line-height: 1.42857143;
-         width: 98.5%;
     }
-
+    .mobile-about-cool h2{
+        padding-bottom: 7.4vw !important;
+        font-family: "Elliot";
+        font-size: 6.67vw !important;
+    }
+    .mobile-about-cool p {
+        font-size: 3.2vw;
+    }
     /*Contact Page <990*/
     .contact-heading{
         font-size: 6.67vw !important;
@@ -1791,7 +1809,6 @@ body {
         margin-bottom: 10px;
         padding-bottom: 7.4vw !important;
     }
-
     .contact-description, .contact-form{
         margin-right: 0;
         float: none;
@@ -2308,7 +2325,7 @@ body {
     width: 100%;
     }
     .about-text-also{
-    font-size: 5vw;
+    font-size: 50vw;
     }
     .close {
         left: 0vw;
