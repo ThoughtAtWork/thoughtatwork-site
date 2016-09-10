@@ -25,7 +25,7 @@ function gofetch(name){
         }
     }
 
-    var header = document.createElement('h2');
+    var header = document.createElement('h3');
     header.innerText = title;
 
     var rtext = document.createElement('p');

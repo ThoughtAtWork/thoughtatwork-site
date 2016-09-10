@@ -1640,17 +1640,20 @@ body {
     }
     .food-menu-list-item {
         line-height: 7vw;
-        font-size: 3vw;
+        font-size: 4.5vw;
         font-family: "Elliot-Thin";
         color: white;
     }
+    .food-list-mobile-pad {
+        padding-bottom: 10vw;
+    }
     .food-menu-list {
     
-    padding-top: 5vw;
-    padding-bottom: 5vw;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
     }
     .food-menu-list2 {
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: "Elliot-Thin";
     color: white;
     margin-left: 1vw;
@@ -1779,10 +1782,16 @@ body {
         margin: 0;
     }
     .about-text {
-       font-size:calc(10px + .52vw);
+       font-size:calc(13px + .58vw);
+    }
+    .hotel-list {
+        padding-bottom: 4vw;
     }
     .about-splash-words h1 {
         font-size: 11vw;
+    }
+    .arrival-sub-head-pad {
+        padding-bottom: 5vw;
     }
     .about-historyMaking {
         margin-left: 0vw;

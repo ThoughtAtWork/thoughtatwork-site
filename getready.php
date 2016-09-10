@@ -127,7 +127,7 @@
                 </div>
         </div>
                 <!-- WHERE TO STAY-->
-                <div class="container-fluid about-mobile-top">
+                <div class="container-fluid">
                     <div class="row top-buffer">
                         <div class="col-lg-12 ">
                             <h2 class="getready-h2 elliot get-head-section-bot about-margins get-head-section-bot">WHERE TO STAY</h2>
@@ -139,13 +139,13 @@
                     <div class="row about-margins">
                         <div class="col-lg-6">
                             <div class="wheretostay-sec-left">
-                                <p class="elliot about-text">If you're travelling from another school -- and don't want to pay
+                                <p class="elliot about-text ">If you're travelling from another school -- and don't want to pay
                                     money for a hotel -- our student team will be happy to let you crash in one of our
                                     apartments for a few nights.</p>
-                                <p class="elliot about-text">For more information on couch-surfing, contact us <a href="contact.php">here</a></p>
+                                <p class="elliot about-text get-head-section-bot">For more information on couch-surfing, contact us <a href="contact.php">here</a></p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 get-head-section-bot">
                             <div class="wheretostay-sec-right get-ready-list">
                                     <p class="elliot about-text">Some nearby, cost-effective hotel accommodations include:</p><br>
                                     <ul class="">
@@ -170,17 +170,17 @@
                         </div>
                     </div>
                 </div>
-                <img class="mobile-ready-img get-head-section-bot get-head-section-top" src="img/teq1.jpg" width="100%" height="150px">
+                <img class="mobile-ready-img get-head-section-bot get-head-section-top" src="img/teq1.jpg" width="100%" height="240px">
 
                         <!-- WHAT TO BRING-->
                         <div class="container-fluid ">
                             <div class="row top-buffer">
                                 <div class="col-lg-12">
-                                    <h2 class="getready-h2 elliot about-margins">WHAT TO BRING</h2>
+                                    <h2 class="getready-h2 elliot about-margins get-head-section-bot">WHAT TO BRING</h2>
                                 </div>
                             </div>
                         </div>
-                        <div class="container-fluid">
+                        <div class="container-fluid get-head-section-bot">
                             <div class="row about-margins">
                                 <div class="col-lg-6">
                                     <div class="whattobring-sec-left">
@@ -200,7 +200,7 @@
 
 
                         <!--GETTING HERE + CHECKING IN-->
-                        <div class="container-fluid come-hang">
+                        <div class="container-fluid come-hang ">
                             <div class="row top-buffer about-margins">
                                 <div class="col-lg-6"></div>
                                 <div class="col-lg-6">
@@ -227,20 +227,20 @@
                                         </script>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 get-head-section-bot">
                                     <div class="gettinghere-sec-left">
-                                        <h3 class="getready-h3 elliot">Location</h3>
+                                        <h3 class="getready-h3 elliot arrival-sub-head-pad">Location</h3>
                                         <p class="elliot about-text">RIT is located at 1 Lomb Memorial Drive, Rochester, NY 14623. Look up RIT on
                                             your phone. Greater Rochester International Airport is about 20 minutes
                                             away. If you’re crashing on one of our couches, contact your couch owner
                                             once you get here.
                                         </p> <br>
-                                        <h3 class="getready-h3 elliot">Parking</h3>
+                                        <h3 class="getready-h3 elliot arrival-sub-head-pad">Parking</h3>
                                         <p class="elliot about-text">Guest parking will be lots E and H. Upon getready to campus, there will be
                                             signs to direct you to parking and check-in in Booth Hall (Building 7A). Our
                                             check-in table opens at 9am on Friday morning, and our opening reception
                                             will be at 1pm.</p><br>
-                                        <h3 class="getready-h3 elliot">Check-in</h3>
+                                        <h3 class="getready-h3 elliot arrival-sub-head-pad">Check-in</h3>
                                         <p class="elliot about-text">Upon check-in, you’ll be provided with a lanyard for entry into the events
                                             and workshops, a name tag, and a brochure with more information and a
                                             schedule. You’ll need your lanyard every day to enter workshops and other
@@ -252,10 +252,10 @@
                         </div>
 
                         <!--FOOD-->
-                        <div class="container-fluid come-hang about-mobile-top">
+                        <div class="container-fluid come-hang ">
                             <div class="row">
                                 <div class="col-lg-12 ">
-                                    <h2 class="getready-h2 elliot about-margins">FOOD</h2>
+                                    <h2 class="getready-h2 elliot about-margins arrival-sub-head-pad">FOOD</h2>
                                 </div>
                             </div>
                         </div>
@@ -286,9 +286,9 @@
                                 
                                     <div class="food-menu no-list-style">
                                         <ul class="food-menu-list about-margins">
-                                            <li class="food-menu-list-item pad-list-food" onclick="campus()">On-campus &nbsp&nbsp&nbsp→</li>
-                                            <li class="food-menu-list-item" onclick="henrietta()">Henrietta&nbsp&nbsp&nbsp→</li>
-                                            <li class="food-menu-list-item" onclick="rochester()">Rochester City&nbsp&nbsp&nbsp→</li>
+                                            <li class="food-menu-list-item pad-list-food food-list-mobile-pad" onclick="campus()">On-campus &nbsp&nbsp&nbsp→</li>
+                                            <li class="food-menu-list-item food-list-mobile-pad" onclick="henrietta()">Henrietta&nbsp&nbsp&nbsp→</li>
+                                            <li class="food-menu-list-item " onclick="rochester()">Rochester City&nbsp&nbsp&nbsp→</li>
                                         </ul>
                                     </div>
                        
