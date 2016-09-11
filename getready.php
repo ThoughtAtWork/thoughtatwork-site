@@ -52,7 +52,7 @@
 
 		<!-- WHAT TO EXPECT -->
         <div class="navOff"></div>
-        <div class="container-fluid come-hang about-mobile-top">
+        <div class="container-fluid come-hang about-mobile-top mobile-pad">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="getready-h2 elliot about-margins">WHAT TO EXPECT</h2>
@@ -61,26 +61,26 @@
         </div>
         <div class="container-fluid">
                 <div class="row about-margins clock-center" id="clockdiv">
-                    <div class="col-sm-1 countdown col-sm-offset-2 count-center count-left">
+                    <div class="col-sm-1 countdown col-sm-offset-2 count-center count-left mobile-position">
                         <h4 class="countdown-date weeks "></h4>
                         <p class="countdown-text">WEEKS</p>
                     </div>
-                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right">
+                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right mobile-position-2">
                         <h4 class="countdown-date days"></h4>
                         <p class="countdown-text">DAYS</p>
                     </div>
-                    <div class="col-sm-1 countdown col-sm-offset-1 count-center count-left">
+                    <div class="col-sm-1 countdown col-sm-offset-1 count-center count-left2">
                         <h4 class="countdown-date hours"></h4>
                         <p class="countdown-text">HOURS</p>
                     </div>
-                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right">
+                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right2">
                         <h4 class="countdown-date minutes"></h4>
                         <p class="countdown-text">MINUTES</p>
                     </div>
                 </div>
         </div>
 
-        <div class="container-fluid about-mobile-top">
+        <div class="container-fluid about-mobile-top mobile-arrival">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="getready-sec about-margins get-head-section-bot">

@@ -1298,6 +1298,15 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+
+    .mobile-positon {
+        position: absolute;
+        left: 20%;
+    }
+    .mobile-positon2 {
+        position: absolute;
+       right: 20%;
+    }
     .no-list-style ul {
         list-style: none;
     }
@@ -1798,10 +1807,28 @@ body {
         text-align: center;
     }
     .count-left {
-        padding-right: 40% !important;
+        position: absolute !important;
+        right: 25%;
+        margin-top: 8vw;
     }
     .count-right {
-        padding-left: 40% !important;
+        position: absolute !important;
+        left: 25%;
+
+    }
+    .count-left2 {
+        position: absolute !important;
+        right: 25%;
+        margin-top: 35vw;
+    }
+    .count-right2 {
+        position: absolute !important;
+        left: 25%;
+        margin-top: 26vw;
+
+    }
+    .mobile-arrival {
+        margin-top: 70vw !important;
     }
     .countdown-text{
         font-family: "Elliot";
