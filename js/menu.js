@@ -27,19 +27,20 @@ function gofetch(name){
 
     var header = document.createElement('h3');
     header.innerText = title;
+    header.className = "elliot";
 
     var rtext = document.createElement('p');
     rtext.innerText = text;
-    rtext.className = "food-menu-list3-item";
+    rtext.className = "food-menu-list3-item about-text";
 
     var rlocation = document.createElement('p');
     rlocation.innerText = location;
     rlocation.style.color = "red";
-    rlocation.className = "food-menu-list3-item";
+    rlocation.className = "food-menu-list3-item about-text";
 
     var rhours = document.createElement('p');
     rhours.innerText = hours;
-    rhours.className = "food-menu-list3-item";
+    rhours.className = "food-menu-list3-item about-text";
 
 
     document.getElementById("food-menu-3").appendChild(header);

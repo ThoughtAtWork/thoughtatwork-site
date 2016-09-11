@@ -1786,7 +1786,7 @@ body {
      .food-menu-2{
         background-color: black;
         width: 100%;
-        overflow-y: scroll;
+        /*overflow-y: scroll;*/
         color: white;
     }
 
