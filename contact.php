@@ -67,15 +67,18 @@
               <form id="contactForm"> 
 
                   <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    <input type="text" class="form-control" id="name" required>
+                    <div class="contact-placeholder"><p>Your Name</p></div>
+                    <div class="contact-label"><label for="name">Your Name</label></div>
                     <hr>
-                    <!--<hr class="red-hr">-->
-                    <!--<label for="name" class="label-elliot">YOUR NAME</label>  -->                
+                    <!--<hr class="red-hr">-->       
                   </div>
 
                  <div class="form-group">
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your Email" required>      
-                    <hr>          
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                    <div class="contact-placeholder"><p>Your Email</p></div>
+                    <div class="contact-label"><label for="email">Your Email</label></div>
+                    <hr>           
                   </div>
 
                   <div class="form-group">
@@ -92,11 +95,13 @@
                   </div>
 
                   <div class="form-group top-buffer ">
-                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                    <div class="contact-placeholder"><p>Your Message</p></div>
+                    <div class="contact-label"><label for="message">Your Message</label></div>
                     <hr>
                   </div>
 
-                  <button type="submit" class="btn contact-btn">Send</button>
+                  <button type="submit" class="btn contact-btn btn-effect">Send</button>
                   <div id="msgSubmit" class="elliot text-center hidden">Message Submitted!</div>
               </form>
             </div>

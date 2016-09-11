@@ -144,7 +144,7 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-    .contact-btn, .contact-btn a, .contact-btn a:hover{
+    .contact-btn{
         color: white;
         background-color: #FF2241;
         padding: 0.9vw 1.7vw !important;
@@ -152,7 +152,55 @@ body {
         font-size: calc(6px + .52vw) !important;;
         text-transform: uppercase;
         letter-spacing: 1.9px;
+        position: relative;
+        border-width: 0 !important;
+
+        transition: .2s ease-in-out;
+        -webkit-transition: .2s ease-in-out;
+        -moz-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
     }
+    .contact-btn:hover{
+        color: white !important;
+        background-color: #000;
+        letter-spacing: 4px;
+    }       
+    .contact-btn::before, .contact-btn::after {
+        box-sizing: border-box;
+        content: '';
+        position: absolute;
+    }
+    .btn-effect::before, .btn-effect::after {
+        border: 0px solid transparent;
+        width: 0;
+        height: 0;
+    }
+    .btn-effect::before, .btn-effect::after{
+        top: 0;
+        left: 0;
+    }
+    .btn-effect:hover {
+        color: #FF2241;
+    }
+    .btn-effect:hover::before {
+        width: 100%;
+        height: 100%;
+        border-bottom: 4px solid #FF2241;
+        border-left: 4px solid #FF2241;
+        transition: border-color 0s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+        -webkit-transition: border-color 0s ease-out 0.15s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+        -moz-transition: border-color 0s ease-out 0.15s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+        -o-transition: border-color 0s ease-out 0.15s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+    }
+    .btn-effect:hover::after {
+        height: calc(100% - 4px);
+        border-left: 5px solid #000;
+        transition: border-color 0s, height 0.15s ease-out .15s;
+        -webkit-transition: border-color 0s, height 0.15s ease-out .15s;
+        -moz-transition: border-color 0s, height 0.15s ease-out .15s;
+        -o-transition: border-color 0s, height 0.15s ease-out .15s;
+    }
+
     .btn {
          border-radius: 0 !important;
     }
@@ -216,9 +264,75 @@ body {
         border: 0 !important;
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
+        background-color: transparent !important;
     }
     .form-group{
         margin-bottom: 4.1vw !important;
+        position: relative;
+        font-family: 'Elliot';
+    }
+    .contact-placeholder{
+        width: 100%;
+        height: 100%;
+        color: #999;
+        font-size: calc(10px + .52vw) !important;
+        line-height: 1.7;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        z-index: -1;
+    }
+    .contact-placeholder p{
+        position: absolute;
+        top: 0;
+
+        transition: .2s ease-in-out;
+        -webkit-transition: .2s ease-in-out;
+        -moz-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+    }
+    textarea ~ .contact-placeholder p{
+        top: auto;
+        bottom: 0;
+    }
+    input:focus ~ .contact-placeholder p{
+        top: 100%;
+    }
+    textarea:focus ~ .contact-placeholder p{
+        bottom: -50%;
+    }
+    input:valid ~ .contact-placeholder p{
+        top: 100%;
+    }
+    textarea:valid ~ .contact-placeholder p{
+        top: 100%;
+    }
+    .contact-label{
+        width: 100%;
+        height: calc(15px + .52vw);
+        position: absolute;
+        top: 100%;
+        overflow: hidden;
+    }
+    .contact-label label{
+        color: #FF2241;
+        font-size: calc(7px + .365vw);
+        text-transform: uppercase;
+        letter-spacing: 0.06vw;
+        margin-bottom: 0 !important;
+        position: absolute;
+        bottom: 100%;
+
+        transition: .25s ease-in-out;
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+    }
+    input:focus ~ .contact-label label{
+        bottom: 0;
+    }
+    textarea:focus ~ .contact-label label{
+        bottom: 0;
     }
 
     hr {
@@ -1868,6 +1982,7 @@ body {
         /*margin-top: 4.1vw;*/
         font-size: 1.8vw !important;;
         letter-spacing: 1.9px;
+        position: relative;
     }
 
     #nav-background-color {
