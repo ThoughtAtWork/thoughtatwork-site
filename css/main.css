@@ -1966,7 +1966,7 @@ body {
         background-position-x: -200px;
     }
     .about-splash-words .title{
-        font-size: calc(50px + 6.3vw);
+        font-size: calc(40px + 6.3vw);
         padding-top: 2.2vw;
         margin-left: -20px;
     }
@@ -2207,7 +2207,6 @@ body {
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
     /* mobile header styles*/
      /*Menu Styles*/
      .fa {
@@ -2625,5 +2624,9 @@ body {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+    .about-splash-words .title{
+        font-size: 40px;
+        padding-top: 2.2vw;
+        margin-left: -20px;
+    }
 }

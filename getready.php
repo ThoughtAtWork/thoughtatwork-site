@@ -44,7 +44,7 @@
 		<div class="container-fluid about-splash-words">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="title">GET READY</h1>
+					<h1 class="title Title-small">GET READY</h1>
 				</div>
 			</div>
 		</div>
