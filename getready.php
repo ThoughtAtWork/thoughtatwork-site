@@ -52,14 +52,14 @@
 
 		<!-- WHAT TO EXPECT -->
         <div class="navOff"></div>
-        <div class="container-fluid come-hang about-mobile-top mobile-pad">
+        <div class="container-fluid come-hang about-mobile-top mobile-pad ">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="getready-h2 elliot about-margins">WHAT TO EXPECT</h2>
+                    <h2 class="getready-h2 elliot about-margins what-expect-tablet-top">WHAT TO EXPECT</h2>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid ">
                 <div class="row about-margins clock-center" id="clockdiv">
                     <div class="col-sm-1 countdown col-sm-offset-2 count-center count-left mobile-position">
                         <h4 class="countdown-date weeks "></h4>
@@ -80,7 +80,7 @@
                 </div>
         </div>
 
-        <div class="container-fluid about-mobile-top mobile-arrival">
+        <div class="container-fluid about-mobile-top mobile-arrival what-expect-tablet-top">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="getready-sec about-margins get-head-section-bot">
@@ -305,7 +305,7 @@
 
                                 <div class="col-lg-4 mobile-food-white food-margin-top food-margin-bot">
                                 <div class="about-margins">
-                                    <div class="food-menu-3" id="food-menu-3">
+                                    <div class="food-menu-3 food-sub-pad" id="food-menu-3">
                                         <p class="menu-load-text2 mobile-no-pad-food">←   Choose a restaurant to view its description.</p>
                                         </div>
                                     </div>
