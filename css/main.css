@@ -2076,7 +2076,7 @@ body {
     .about-desc p {
         font-size: 3.2vw;
         width: 95%;
-        color: #616161;
+        color: black;
         line-height: 1.42857143;
     }
     .mobile-about-cool {
@@ -2089,7 +2089,7 @@ body {
     }
     .mobile-about-cool p {
         font-size: 4vw;
-        color: #616161 !important;
+        color: black !important;
     }
     /*Contact Page <990*/
     .contact-heading{
@@ -2388,7 +2388,7 @@ body {
         padding-bottom: 8.4vw;
     }
     .recap-mobile-desc {
-        font-size: 3.2vw;
+        font-size: 4vw;
         padding-bottom: 13.4vw !important;
     }
     .recap-vid-mobile {
