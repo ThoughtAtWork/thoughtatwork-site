@@ -1886,8 +1886,16 @@ body {
     }
     .food-menu-list2 {
     font-size: 4vw;
-    font-family: "Elliot-Thin";
+    font-family: "Elliot-Light";
     color: white;
+    margin-left: 1vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    }
+     .food-menu-list3 {
+    font-size: 4vw;
+    font-family: "Elliot";
+    color: black;
     margin-left: 1vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
@@ -1928,12 +1936,12 @@ body {
     .count-left2 {
         position: absolute !important;
         right: 25%;
-        margin-top: 35vw;
+        margin-top: 42vw;
     }
     .count-right2 {
         position: absolute !important;
         left: 25%;
-        margin-top: 26vw;
+        margin-top: 36vw;
 
     }
     .mobile-arrival {
@@ -2080,7 +2088,7 @@ body {
         font-size: 6.67vw !important;
     }
     .mobile-about-cool p {
-        font-size: 3.2vw !important;
+        font-size: 4vw;
         color: #616161 !important;
     }
     /*Contact Page <990*/
@@ -2185,8 +2193,9 @@ body {
         padding-top: 7vh !important;
     }
     .footer-text p {
-        color: #E2E2E2 !important;
+        color: white !important;
         font-family: "Elliot-Thin";
+        font-size: 3vw;
     }
     .footer-nav a, a:hover, a:active, a:link, a: {
         font-size: 12.5px !important;
@@ -2340,7 +2349,7 @@ body {
         text-align: center;
     }
     .tawis p {
-        font-family: Elliot-Thin;
+        font-family: "Elliot-Light";
         margin: 10.5% auto 3% auto;
         font-size: 4.8vw;
         letter-spacing: 1.5px;
@@ -2401,7 +2410,7 @@ body {
         color: #141416;
     }
     .mobile-come-hang p {
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         letter-spacing: 0.5px;
     }
     .mobile-come-hang-subheader {
@@ -2588,22 +2597,43 @@ body {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .footer-text p {
+        color: white !important;
+        font-family: "Elliot-Thin";
+        font-size: 3.5vw;
+    }
+    .mobile-come-hang-desc {
+        font-size: 4.0vw;
+    }
+    .about-desc p {
+        font-size: 4.0vw;
+       
+    }
+    .about-cool p {
+        font-size: 4.0vw !important;
+       
+    }
+    .about-margins {
+        padding-left: 6.5vw;
+        padding-right: 6.5vw;
+        text-align: left;
+    }
     .food-menu-list-item {
         line-height: 9vw;
         font-size: 5vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         color: white;
     }
     .food-menu-list2 {
         line-height: 7vw;
         font-size: 4vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         color: white;
         margin-left: 1vw;
         padding-top: 3vw;
 }
     .about-text{
-    font-size: 3.5vw;
+    font-size: 4.0vw;
     width: 100%;
     }
     .close {
@@ -2628,5 +2658,10 @@ body {
         font-size: 40px;
         padding-top: 2.2vw;
         margin-left: -20px;
+    }
+    .about-margins {
+        padding-left: 6.5vw;
+        padding-right: 6.5vw;
+        text-align: left;
     }
 }

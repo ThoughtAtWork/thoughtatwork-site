@@ -306,7 +306,7 @@
                                 <div class="col-lg-4 mobile-food-white food-margin-top food-margin-bot">
                                 <div class="about-margins">
                                     <div class="food-menu-3 food-sub-pad" id="food-menu-3">
-                                        <p class="menu-load-text2 mobile-no-pad-food">←   Choose a restaurant to view its description.</p>
+                                        <p class="food-menu-list3 menu-load-text2 mobile-no-pad-food">←   Choose a restaurant to view its description.</p>
                                         </div>
                                     </div>
                                 </div>
