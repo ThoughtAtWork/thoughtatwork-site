@@ -2404,7 +2404,7 @@ body {
         padding-top: 19.2vw !important;
         padding-bottom: 8.6vw !important;
         padding-right: 6.5vw;
-        padding-left: 6.5vw;
+        padding-left: 6.5vw !important;
         font-family: "Elliot";
         font-size: 6.67vw;
         background-color: #ffffff;
