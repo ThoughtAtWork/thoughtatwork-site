@@ -90,8 +90,8 @@ body {
         padding-top: 7vh !important;
     }
     .footer-text p {
-        color: #E2E2E2 !important;
-        font-family: "Elliot-Thin";
+        color: #fff !important;
+        font-family: "Elliot-Light";
     }
     .footer-nav ul li {
         padding-left: 10vw;
@@ -677,9 +677,7 @@ body {
     .speaker-img {
         font-family: "Elliot-Light";
         text-align: left;
-/*        margin-left: 9.55vw;*/
         margin-top: .05vw;
-/*        padding-left: 200px;*/
     }
     .speaker-img img{
         width: 22.5vw;
@@ -716,7 +714,7 @@ body {
         text-align: center;
         width: inherit;
     }
-    .speaker-viewall a:link, a:visited, a:hover, a:active {
+    .speaker-viewall a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
         font-size: .75vw;
         font-family: Elliot-Bold;
         letter-spacing: 1.5px;
@@ -1483,7 +1481,7 @@ body {
         line-height: 2.1vw;
         margin-bottom: 4vw;
     }
-    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
+    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkout a:hover, .about-also-checkout a:active {
         color: white;
         font-size: calc(7px + .93vw) !important;
     }
@@ -1827,7 +1825,7 @@ body {
         width: inherit;
         margin-top: .1vw;
     }
-    .sponsor-want a:link, a:visited, a:hover, a:active {
+    .sponsor-want a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
         font-size: 2.5vw !important;
         letter-spacing: .1em;
     }
@@ -2009,7 +2007,7 @@ body {
         margin-bottom: 8.55vw !important;
         background-color: #FF2241;
     }
-    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
+    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkout a:hover, .about-also-checkout a:active {
         color: white;
         font-size: calc(7px + .93vw) !important;
     }
@@ -2195,18 +2193,20 @@ body {
     }
     .footer-text p {
         color: white !important;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         font-size: 3vw;
-    }
-    .footer-nav a, a:hover, a:active, a:link, a: {
-        font-size: 12.5px !important;
-        font-family: "Elliot" !important;
-        color: white !important;
     }
     .footer-text .special {
         padding-left: 10vw;
         padding-top: 8.3vh;
 /*        max-width: 1000px;*/
+    }
+     .footer-nav-links div {
+        width: 16vw;
+    }
+    .footer-nav-links div a{
+        font-size: calc(7.5px + 1.35vw) !important;
+/*        line-height: 35px !important;*/
     }
     .footer-text .copyright {
         padding-left: 10vw;
@@ -2227,10 +2227,7 @@ body {
         color: white;
         padding-top: 5vh !important;
         font-size: calc(16px + .25vw);
-
     }
-    
-
     .navbar .navbar-nav {
       display: inline-block;
       float: none;
@@ -2254,8 +2251,7 @@ body {
         margin-left: 75% !important;
         padding: none !important;
     }
-
-   #menu{
+    #menu{
         background: #FF2241;
         position: fixed;
         opacity: .9945;
@@ -2270,8 +2266,6 @@ body {
     .menu-pad {
         padding-top: 12vh;
     }
-
-
     html {
       background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
       -webkit-background-size: cover !important;
@@ -2530,16 +2524,16 @@ body {
         transform: rotate(-90deg);
         transform-origin: left top 0;
         font-family: "Elliot-Light";
-        margin-top: 21vh;
+        margin-top: 30vh;
         float: right;
-        margin-right: -14vw;
+        margin-right: -20vw;
         font-size: calc(14px + 1.4vw);
         display: flex;
     }
     /*speaker image size phone */
     .speaker-img img{
         width: 50vw;
-        min-width: 300px;
+        min-width: 200px;
     }
     .speaker-img-1 img {
        width: 40vw;
@@ -2567,7 +2561,7 @@ body {
         width: inherit;
         margin-top: 10px;
     }
-    .sponsor-want a:link, a:visited, a:hover, a:active {
+    .sponsor-want a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
         font-size: 3.2vw;
         letter-spacing: .1em;
     }
@@ -2582,9 +2576,9 @@ body {
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li a{
         font-size: 5.33vw !important;
-        padding-bottom: 10.3vw;
+        padding-bottom: 3vh;
         letter-spacing: .02em;
-        padding-left: 1vw;
+        padding-right: 1vw;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: #FF2241;
@@ -2594,6 +2588,13 @@ body {
         padding-left: 1.5vw;
         padding-top: 22.8vw;
     }
+    .footer-nav-links div a{
+        font-size: calc(7.5px + 2.35vw) !important;
+        line-height: 35px !important;
+    }
+    .footer-nav-links div {
+        width: 90% !important;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -2602,6 +2603,9 @@ body {
         color: white !important;
         font-family: "Elliot";
         font-size: 4vw;
+    }
+    .footer-nav-links div {
+        width: 100vw;
     }
     .mobile-come-hang-desc {
         font-size: 4.0vw;
