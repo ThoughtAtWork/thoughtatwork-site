@@ -2302,6 +2302,7 @@ body {
     .tawis-padding {
         margin-top: 0px;
         margin-bottom: 0px;
+        padding-bottom: 16.4vw;
     }
     /* Recap Mobiel */
     .recap-mobile {
@@ -2599,6 +2600,9 @@ body {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .about-splash-words {
+        padding-bottom: 50vw;
+    }
     .footer-text p {
         color: white !important;
         font-family: "Elliot";

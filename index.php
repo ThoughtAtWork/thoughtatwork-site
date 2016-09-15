@@ -58,7 +58,7 @@
 			<div class="row tawis">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<p class="elliot-thin enhance"> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
+						<p class="elliot-thin enhance"> Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology. </p>
 						<a href="" class="elliot-bold dark view-schedule">VIEW SCHEDULE</a>
 					</div>
 				</div>
@@ -72,8 +72,8 @@
                     <div class="recap-info">
                         <h3 class="elliot">RECAP </h3>
                         <br><br>
-                        <p class="elliot recap-mobile-subheader">Hundreds of passionate students get inspired &amp; collaborate.</p>
-                        <p class="elliot recap-mobile-desc">Watch last years highlights, speakers, showreels, and environment to learn more about TAW.</p>
+                        <p class="elliot recap-mobile-subheader">We bring together some of the best industry professionals with hundreds of passionate students for a weekend of inspiration, collaboration, and instruction that you can’t get in the classroom.</p>
+                        <p class="elliot recap-mobile-desc">Watch last year’s recap video to get a feel for the conference and hear some of our speakers talk about their experiences.</p>
                     </div>
                     <div class="circle-recap"></div>
                     <div class="line-recap1"></div>
@@ -96,7 +96,7 @@
 				<div class="col-lg-6">
 						<div class="offer mobile-come-hang">
 							<h4 class="elliot mobile-come-hang-subheader">What We Offer</h4>
-							<p class="elliot mobile-come-hang-desc">Registering for the conference means signing up to visit out invaluable workshops, insightful talks, cool events, delicious meals, and afterparties.  At Thought At Work, you'll learn directly from the best professionals and become apart of the broader design community.</p>
+							<p class="elliot mobile-come-hang-desc">Registering for the conference means signing up for invaluable workshops, insightful talks, cool events, tasty meals, afterparties, after-after parties, and just kicking back with a few of the coolest people in the world. Thought At Work is an opportunity to learn a ton and be immersed in a deeper design community. We also have bagels.</p>
 						</div>
 				</div>
 				<div class="col-lg-6 date center-mid tablet-top tablet-bot mobile-come-hang-date">
@@ -108,7 +108,7 @@
 				<div class="col-lg-6">
                     <div class="come mobile-come-hang">
                         <h4 class="elliot mobile-come-hang-subheader">Who Should Come</h4>
-                        <p class="elliot mobile-come-hang-desc">Thought At Work is a design conference centered around industrial, graphic, motion, 3d, and interactive designers and developers. Our workshops and events are primarily student-focused, but we welcome all graduates, high school students, pros, vets, dabblers, and design moms.</p>
+                        <p class="elliot mobile-come-hang-desc">This is a conference for designers. More specifically, it centers around the interests of industrial, graphic, motion, 3d, and interactive designers/developers. Our workshops and events are primarily student-focused (but we welcome all graduates, high schoolers, young professionals, industry vets, dabblers, and design moms).</p>
                     </div>
 				</div>
 				<div class="circle-come-hang"></div>
@@ -130,7 +130,7 @@
 						<h2>Mt. Mograph</h2>
 						<p>Motion Graphics, Photography, Development</p>
 					</div>
-                    
+
 					<div class="col-sm-4 tablet-bot speaker-img">
 						<img src="img/speaker.jpg" class="img-responsive"/>
 						<h2>Kim Alpert</h2>
