@@ -149,6 +149,7 @@
                             <div class="wheretostay-sec-right get-ready-list">
                                     <p class="elliot about-text">Some nearby, cost-effective hotel accommodations include:</p><br>
                                     <ul class="">
+                                    <br>
                                         <li class="hotel-list"><strong class="hotel-bold">Holiday Inn </strong>- 800
                                             Jefferson Rd - $108 per night (one person)
                                         </li>
@@ -211,7 +212,7 @@
                         <div class="container-fluid come-hang">
                             <div class="row about-margins">
                                 <div class="col-lg-6">
-                                    <div class="gettinghere-sec-right">
+                                    <div class="gettinghere-sec-right" onclick="onMapClickHandler()">
                                         <div id="map"></div>
                                         <script>
                                             function initMap() {
@@ -286,9 +287,9 @@
                                 
                                     <div class="food-menu no-list-style">
                                         <ul class="food-menu-list about-margins">
-                                            <li class="food-menu-list-item pad-list-food food-list-mobile-pad" onclick="campus()">On-campus &nbsp&nbsp&nbsp→</li>
-                                            <li class="food-menu-list-item food-list-mobile-pad" onclick="henrietta()">Henrietta&nbsp&nbsp&nbsp→</li>
-                                            <li class="food-menu-list-item " onclick="rochester()">Rochester City&nbsp&nbsp&nbsp→</li>
+                                            <li class="food-menu-list-item pad-list-food food-list-mobile-pad" onclick="campus();active(0);">On-campus &nbsp&nbsp&nbsp<span class="arrow">→</span></li>
+                                            <li class="food-menu-list-item food-list-mobile-pad" onclick="henrietta();active(1);">Henrietta&nbsp&nbsp&nbsp<span class="arrow">→</span></li>
+                                            <li class="food-menu-list-item " onclick="rochester();active(2);">Rochester City&nbsp&nbsp&nbsp<span class="arrow">→</span></li>
                                         </ul>
                                     </div>
                        

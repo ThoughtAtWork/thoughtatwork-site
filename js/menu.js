@@ -3,6 +3,17 @@
  */
 
 
+function active(index){
+
+    document.getElementsByClassName("arrow")[0].style.color = "white";
+    document.getElementsByClassName("arrow")[1].style.color = "white";
+    document.getElementsByClassName("arrow")[2].style.color = "white";
+
+
+    document.getElementsByClassName("arrow")[index].style.color = "red";
+
+}
+
 function gofetch(name){
 
     document.getElementById("food-menu-3").innerHTML = "";

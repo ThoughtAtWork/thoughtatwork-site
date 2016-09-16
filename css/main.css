@@ -1140,7 +1140,9 @@ body {
         width: 100%;
         height: 35vw;
         background-color: grey;
+        pointer-events: none;
     }
+
     .gettinghere-checkin-sec-left{
         color: white;
         background-color: black;
@@ -1241,6 +1243,7 @@ body {
         font-family: "Elliot-Thin";
         color: white;
     }
+
 
     .food-menu-list2{
         font-size: 1.6vw;
@@ -1871,7 +1874,7 @@ body {
     .food-menu-list-item {
         line-height: 7vw;
         font-size: 4.5vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         color: white;
     }
     .food-list-mobile-pad {
@@ -1884,7 +1887,7 @@ body {
     }
     .food-menu-list2 {
     font-size: 4vw;
-    font-family: "Elliot-Light";
+    font-family: "Elliot";
     color: white;
     margin-left: 1vw;
     padding-top: 4vw;
@@ -1904,7 +1907,7 @@ body {
     }
     .mobile-no-pad-food {
         color: black;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         margin-bottom: 0px;
     }
      .food-menu-2{
