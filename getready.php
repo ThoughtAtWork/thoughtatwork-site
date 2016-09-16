@@ -84,24 +84,20 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="getready-sec about-margins get-head-section-bot">
-                            <h3 class="elliot getready-h3 get-head-pad-bot">Workshops + Lectures</h3>
-                            <p class="elliot about-text">Not everything can be learned in a class. Be inspired by stories and insights from some
-                                of
-                                the industry's top professionals and listen as they teach you tips, tricks, and
-                                techniques
-                                they use in the field. Expose yourself to new ideas outside your major. Grab your laptop
-                                and
-                                sketchbook to get the most out of your conference experience!</p>
+                            <h3 class="elliot getready-h3 get-head-pad-bot">Workshops &amp; Lectures</h3>
+                            <p class="elliot about-text">Not everything can be learned in a class. We’ve gathered the best and the brightest
+															from around the creative world to share their insight
+															and demonstrate the tips and tricks they’ve learned from in the field. Every session
+															at Thought At Work is built to help you succeed in your industry, explore new techniques
+															and styles, or even branch out into a new field.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="getready-sec2 about-margins get-head-section-bot">
-                            <h3 class="elliot getready-h3 get-head-pad-bot">Portfolio Review + Panel</h3>
-                            <p class="elliot about-text">Bring your work for critique by the best portfolio reviewers in the business. If you
-                                don't
-                                have a portfolio or you're looking to build your professional profile, make sure you are
-                                at
-                                our panel for tips on crafting the best portfolio.</p>
+                            <h3 class="elliot getready-h3 get-head-pad-bot">Portfolio Review</h3>
+                            <p class="elliot about-text">You’ve got a portfolio, we’ve got feedback. By filling a room
+															with portfolio wizards (working professionals), we provide a venue to discuss and be taught
+															 how to craft a portfolio that’ll knock the socks off anyone who sees it. Bring your work!</p>
                         </div>
                     </div>
                 </div>
@@ -111,17 +107,18 @@
                     <div class="col-lg-6">
                         <div class="getready-sec about-margins get-head-section-bot">
                             <h3 class="elliot getready-h3 get-head-pad-bot">Sketchoff</h3>
-                            <p class="elliot about-text">Sketching is now a competitive spectator sport. Six Pros. One Hour. Five hundred pounds
-                                of food. Get excited. Did we mention the audience wildcard.</p>
+                            <p class="elliot about-text">It’s back. Load up your plate and prepare to witness the most
+															intense hour of sketching you’ve ever seen. Friday night, the specially drafted group of
+															 creative contenders will flex their artistic muscles as they compete for the coveted Sketchoff prize.</p>
                         </div>
                     </div>
                     <div class="col-lg-5">
                         <div class="getready-sec2 about-margins get-head-section-bot">
-                            <h3 class="elliot getready-h3 get-head-pad-bot ">Lounge or down time</h3>
-                            <p class="elliot about-text ">Worried you might explode from learning so much? Wondering when you will get to connect
-                                with your fellow conference goers? Don't worry. The events are planned with plenty of
-                                relaxation time in between - come spend it at our lounge! There will be sweet art, comfy
-                                sitting spaces, and maybe even free food.</p>
+                            <h3 class="elliot getready-h3 get-head-pad-bot ">Downtime</h3>
+                            <p class="elliot about-text ">Need to clear your cache? Not sure what to do in between workshops?
+															 We designed the Lounge from the ground up with conference attendees in mind, making it
+															 the perfect place to relax, have some coffee, chat with other attendees, or try your hand
+															  at the exotic sport of Ping-Pong.</p>
                         </div>
                     </div>
                 </div>
@@ -139,10 +136,14 @@
                     <div class="row about-margins">
                         <div class="col-lg-6">
                             <div class="wheretostay-sec-left">
-                                <p class="elliot about-text ">If you're travelling from another school -- and don't want to pay
-                                    money for a hotel -- our student team will be happy to let you crash in one of our
-                                    apartments for a few nights.</p>
-                                <p class="elliot about-text get-head-section-bot">For more information on couch-surfing, contact us <a href="contact.php">here</a></p>
+                                <p class="elliot about-text get-head-section-bot">Coming from out of town? There’s a pretty decent selection of hotels
+																	near RIT that would make for a comfortable home base. Airbnb is another suitable option.
+																	If your bank account disagrees, you can enlist in our Couch Surfing program and get set up
+																	 with a host from our team. Contact hello@thoughtatwork.org
+																	 and we’ll help you find somewhere to crash.
+																 <br>
+															 For more information on couch-surfing, contact us <a href="contact.php">here</a>
+														 </p>
                             </div>
                         </div>
                         <div class="col-lg-6 get-head-section-bot">
@@ -185,10 +186,12 @@
                             <div class="row about-margins">
                                 <div class="col-lg-6">
                                     <div class="whattobring-sec-left">
-                                        <p class="elliot about-text">Bring traveling gear, your creative juices, and an appetite for Awesome™. For
-                                            workshops and networking, bring a sketchbook, business cards, some writing
-                                            utensils, your laptop (and CHARGERS), and maybe your camera. If you’re couch
-                                            surfing, bring a pillow, blanket, and your teddy bear.</p>
+                                        <p class="elliot about-text">The conference comprises three days and two nights in autumnal
+																					Rochester, so pack accordingly. We recommend having a sketchbook and favorite
+																					writing utensil, and you should consider bringing your laptop as well. Bring
+																					business cards if you have them. Grab a camera if you want it to last longer. If
+																					 you’re couch surfing, you might want your own pillow, blanket, and toiletries.
+																					  Bring that creative appetite and bring a few friends.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 get-head-section-bot">
@@ -284,7 +287,7 @@
                         <div class="container-fluid">
                             <div class="row food-black-mobile pad-list-food">
                                 <div class="col-lg-4 mobile-no-mar ">
-                                
+
                                     <div class="food-menu no-list-style">
                                         <ul class="food-menu-list about-margins">
                                             <li class="food-menu-list-item pad-list-food food-list-mobile-pad" onclick="campus();active(0);">On-campus &nbsp&nbsp&nbsp<span class="arrow">→</span></li>
@@ -292,7 +295,7 @@
                                             <li class="food-menu-list-item " onclick="rochester();active(2);">Rochester City&nbsp&nbsp&nbsp<span class="arrow">→</span></li>
                                         </ul>
                                     </div>
-                       
+
                                 </div>
                                 <div class="col-lg-4 mobile-no-mar">
                                 <div class="about-margins">

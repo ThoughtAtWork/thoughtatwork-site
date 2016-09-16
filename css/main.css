@@ -164,7 +164,7 @@ body {
         color: white !important;
         background-color: #000;
         letter-spacing: 4px;
-    }       
+    }
     .contact-btn::before, .contact-btn::after {
         box-sizing: border-box;
         content: '';
@@ -1061,7 +1061,7 @@ body {
     .wheretostay-sec-left p {
         font-size: 1.04vw;
         line-height: 1.65vw;
-        margin-top: 1.8vw;
+        margin-top: 2.8vw;
         font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
@@ -1356,7 +1356,7 @@ body {
         color: white;
     }
     .food-menu-list {
-    
+
     padding-top: 3vw;
     padding-bottom: 3vw;
     }
@@ -1420,7 +1420,7 @@ body {
     .no-list-style ul {
         list-style: none;
     }
-    
+
     .get-ready-list ul {
         list-style-type: none;
         padding-left: 0px !important;
@@ -1881,7 +1881,7 @@ body {
         padding-bottom: 10vw;
     }
     .food-menu-list {
-    
+
     padding-top: 7vw;
     padding-bottom: 7vw;
     }
@@ -1979,7 +1979,7 @@ body {
         padding-top: 2.2vw;
         margin-left: -20px;
     }
-    
+
     .mobile-about-history h2{
         padding-bottom: 5.5vw !important;
         font-family: "Elliot";
@@ -2619,11 +2619,11 @@ body {
     }
     .about-desc p {
         font-size: 4.0vw;
-       
+
     }
     .about-cool p {
         font-size: 4.0vw !important;
-       
+
     }
     .about-margins {
         padding-left: 6.5vw;
