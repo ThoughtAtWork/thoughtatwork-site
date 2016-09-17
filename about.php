@@ -61,7 +61,7 @@
       <div class="row">
 				<div class="col-md-6">
 						<div class="about-desc">
-							<p class="elliot about-margins about-mobile-bot about-text">After a brief hiatus in 2012, we decided to bring the conference back in full force, and it’s been going strong ever since, with over 400 attendees in 2013, an all-time high. We have expanded our content to include both industrial and interaction design, and we hope to continue growing even further. </p>
+							<p class="elliot about-margins about-mobile-bot about-text">Thought At Work started out as a small Industrial Design conference, but over the years, dedicated students have caused it to expand considerably. Drawing a crowd of over 500 attendees last year, the conference now strives to be informed by all walks of design: Industrial Design, Interactive Design, Illustration, Motion, Graphic Design, 3D Digital Design, Experiential Design, Film and Animation, Fine Art, and more. We believe our efforts will inspire students after us to step up and bridge the gap between classroom and industry, and we hope you’ll be a part of it.  </p>
 						</div>
                 <div class="about-circle"></div>
                 <div class="about-line"></div>
@@ -76,7 +76,6 @@
                     </button>
                   </div>
 				</div>
-                
 			</div>
     </div>
     <div class="about-mobile-top about-mobile-bot container-fluid">
@@ -84,7 +83,7 @@
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids mobile-about-cool ">
                     <h2 class="elliot about-history-padding">THE COOL KIDS</h2>
-                    <p class="elliot about-text">Our travelling event series that challenges human adults to make comedy with technology. Every event starts like a party, morphs into a hackathon, and ends in a comedy show - capped with more partying. We also own a domain.</p>
+                    <p class="elliot about-text">Other than occasional check-ins from the grown-ups at RIT, this conference is entirely run by students. We contact speakers, we craft the schedule, we print the posters, and we produce the title sequence. We meet up year-round, we balance our coursework, we wrap our heads around the big picture, and we stress about the details. Our team changes every year and represents a broad range of disciplines and experiences, but we’re tied together by our appetite for creative inspiration and our willingness to do something about it.</p>
                 </div>				
 			       </div>
             </div>

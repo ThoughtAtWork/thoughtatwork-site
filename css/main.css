@@ -90,8 +90,8 @@ body {
         padding-top: 7vh !important;
     }
     .footer-text p {
-        color: #E2E2E2 !important;
-        font-family: "Elliot-Thin";
+        color: #fff !important;
+        font-family: "Elliot-Light";
     }
     .footer-nav ul li {
         padding-left: 10vw;
@@ -207,7 +207,7 @@ body {
         color: white !important;
         background-color: #000;
         letter-spacing: 4px;
-    }       
+    }
     .contact-btn::before, .contact-btn::after {
         box-sizing: border-box;
         content: '';
@@ -732,9 +732,7 @@ body {
     .speaker-img {
         font-family: "Elliot-Light";
         text-align: left;
-/*        margin-left: 9.55vw;*/
         margin-top: .05vw;
-/*        padding-left: 200px;*/
     }
     .speaker-img img{
         width: 22.5vw;
@@ -771,11 +769,11 @@ body {
         text-align: center;
         width: inherit;
     }
-    /*.speaker-viewall a:link, a:visited, a:hover, a:active { see link-effect
+    .speaker-viewall a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
         font-size: .75vw;
         font-family: Elliot-Bold;
         letter-spacing: 1.5px;
-    }*/
+    }
     .circle-speakers {
         width: 10px;
         height: 10px;
@@ -1118,7 +1116,7 @@ body {
     .wheretostay-sec-left p {
         font-size: 1.04vw;
         line-height: 1.65vw;
-        margin-top: 1.8vw;
+        margin-top: 2.8vw;
         font-family: "Elliot-Light";
         width: 28vw;
         height: 9vw;
@@ -1197,7 +1195,9 @@ body {
         width: 100%;
         height: 35vw;
         background-color: grey;
+        pointer-events: none;
     }
+
     .gettinghere-checkin-sec-left{
         color: white;
         background-color: black;
@@ -1299,6 +1299,7 @@ body {
         color: white;
     }
 
+
     .food-menu-list2{
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
@@ -1353,7 +1354,116 @@ body {
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    /* Get Ready Tablet */
+    .food-sub-pad{
+        padding-top: 2vw
+    }
+    .what-expect-tablet-top
+    {
+        padding-top: 5vw;
+    }
+     .countdown{
+        height: 11vw;
+        margin-top: 2vw;
+    }
 
+    .countdown2{
+        height: 11vw;
+        margin-top: 4vw;
+    }
+    .countdown-date{
+        font-family: "Elliot-Thin";
+        font-size: 6vw;
+
+    }
+    .countdown-text{
+        font-family: "Elliot-Thin";
+        text-align: end;
+    }
+
+    .about-text {
+       font-size:calc(11px + .50vw);
+    }
+    .mobile-no-mar {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .food-black-mobile {
+        background-color: black;
+    }
+    .food-margin-top {
+        padding-top: 20px;
+    }
+    .food-margin-bot {
+        padding-bottom: 20px;
+    }
+    .food-menu{
+        background-image: url("../img/food-menu.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        color: white;
+    }
+    .food-menu-list-item {
+        line-height: 7vw;
+        font-size: 2vw;
+        font-family: "Elliot-Thin";
+        color: white;
+    }
+    .food-menu-list {
+
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    }
+    .food-menu-list2 {
+    font-size: 1.6vw;
+    font-family: "Elliot-Thin";
+    color: white;
+    margin-left: 1vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    }
+    .mobile-food-white {
+        background-color: white !important;
+
+    }
+    .mobile-no-pad-food {
+        color: black;
+        font-family: "Elliot-Thin";
+        margin-bottom: 0px;
+    }
+     .menu-load-text2{
+        color: black;
+        font-family: "Elliot-Thin";
+        margin-left: 3vw;
+        margin-top: 4.7vw;
+        font-size: 1.6vw;
+
+    }
+     .food-menu-2{
+        background-color: black;
+        width: 100%;
+        /*overflow-y: scroll;*/
+        color: white;
+    }
+
+    .arrival-sub-head-pad {
+        padding-bottom: 2.5vw;
+    }
+    .about-margins {
+        padding-left: 13.5vw;
+        padding-right: 13.5vw;
+        text-align: left;
+    }
+    .get-head-pad-bot {
+        padding-bottom: 4vh;
+    }
+    .get-head-section-bot {
+        padding-bottom: 5vh;
+    }
+    .get-head-section-top {
+        padding-top: 5vh;
+    }
     .mobile-positon {
         position: absolute;
         left: 20%;
@@ -1365,7 +1475,7 @@ body {
     .no-list-style ul {
         list-style: none;
     }
-    
+
     .get-ready-list ul {
         list-style-type: none;
         padding-left: 0px !important;
@@ -1414,7 +1524,7 @@ body {
         font-size: calc(12px + 1.2vw) !important;
         margin-left: -.8vw;
         color: white;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         width: 41vw;
         letter-spacing: .02em;
         line-height: 3.7vw;
@@ -1429,7 +1539,7 @@ body {
         line-height: 2.1vw;
         margin-bottom: 4vw;
     }
-    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
+    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkout a:hover, .about-also-checkout a:active {
         color: white;
         font-size: calc(7px + .93vw) !important;
     }
@@ -1784,7 +1894,7 @@ body {
         width: inherit;
         margin-top: .1vw;
     }
-    .sponsor-want a:link, a:visited, a:hover, a:active {
+    .sponsor-want a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
         font-size: 2.5vw !important;
         letter-spacing: .1em;
     }
@@ -1830,21 +1940,29 @@ body {
     .food-menu-list-item {
         line-height: 7vw;
         font-size: 4.5vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         color: white;
     }
     .food-list-mobile-pad {
         padding-bottom: 10vw;
     }
     .food-menu-list {
-    
+
     padding-top: 7vw;
     padding-bottom: 7vw;
     }
     .food-menu-list2 {
     font-size: 4vw;
-    font-family: "Elliot-Thin";
+    font-family: "Elliot";
     color: white;
+    margin-left: 1vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    }
+     .food-menu-list3 {
+    font-size: 4vw;
+    font-family: "Elliot";
+    color: black;
     margin-left: 1vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
@@ -1855,7 +1973,7 @@ body {
     }
     .mobile-no-pad-food {
         color: black;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         margin-bottom: 0px;
     }
      .food-menu-2{
@@ -1885,12 +2003,12 @@ body {
     .count-left2 {
         position: absolute !important;
         right: 25%;
-        margin-top: 35vw;
+        margin-top: 42vw;
     }
     .count-right2 {
         position: absolute !important;
         left: 25%;
-        margin-top: 26vw;
+        margin-top: 36vw;
 
     }
     .mobile-arrival {
@@ -1923,11 +2041,11 @@ body {
         background-position-x: -200px;
     }
     .about-splash-words .title{
-        font-size: calc(50px + 6.3vw);
+        font-size: calc(40px + 6.3vw);
         padding-top: 2.2vw;
         margin-left: -20px;
     }
-    
+
     .mobile-about-history h2{
         padding-bottom: 5.5vw !important;
         font-family: "Elliot";
@@ -1958,7 +2076,7 @@ body {
         margin-bottom: 8.55vw !important;
         background-color: #FF2241;
     }
-    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkouta:hover, .about-also-checkout a:active {
+    .about-also-checkout a:link, .about-also-checkout a:visited, .about-also-checkout a:hover, .about-also-checkout a:active {
         color: white;
         font-size: calc(7px + .93vw) !important;
     }
@@ -1983,7 +2101,7 @@ body {
     .about-also-roll {
         margin-top: .6vw;
         color: white;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         letter-spacing: 1px;
         font-size: calc(10px + 1.33vw);
         margin: 0;
@@ -2025,7 +2143,7 @@ body {
     .about-desc p {
         font-size: 3.2vw;
         width: 95%;
-        color: #616161;
+        color: black;
         line-height: 1.42857143;
     }
     .mobile-about-cool {
@@ -2037,8 +2155,8 @@ body {
         font-size: 6.67vw !important;
     }
     .mobile-about-cool p {
-        font-size: 3.2vw !important;
-        color: #616161 !important;
+        font-size: 4vw;
+        color: black !important;
     }
     /*Contact Page <990*/
     .contact-heading{
@@ -2137,12 +2255,13 @@ body {
     }
     .splash-date {
         font-size: 5vw !important;
-        font-family: "Elliot-Thin" !important;
+        font-family: "Elliot-Light" !important;
+        color: white!important;
 /*        padding-left: 7px;*/
     }
     .splash-location {
         font-size: calc(10px + .204vw) !important;
-        font-family: "Elliot-Thin" !important;
+        font-family: "Elliot-Light" !important;
         padding-left: 4px;
     }
     .mobile-push-right {
@@ -2160,18 +2279,21 @@ body {
         padding-top: 7vh !important;
     }
     .footer-text p {
-        color: #E2E2E2 !important;
-        font-family: "Elliot-Thin";
-    }
-    .footer-nav a, a:hover, a:active, a:link, a: {
-        font-size: 12.5px !important;
-        font-family: "Elliot" !important;
         color: white !important;
+        font-family: "Elliot-Light";
+        font-size: 3vw;
     }
     .footer-text .special {
         padding-left: 10vw;
         padding-top: 8.3vh;
 /*        max-width: 1000px;*/
+    }
+     .footer-nav-links div {
+        width: 16vw;
+    }
+    .footer-nav-links div a{
+        font-size: calc(7.5px + 1.35vw) !important;
+/*        line-height: 35px !important;*/
     }
     .footer-text .copyright {
         padding-left: 10vw;
@@ -2182,21 +2304,17 @@ body {
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
     /* mobile header styles*/
      /*Menu Styles*/
      .fa {
         color: #fff;
      }
     .navbar-nav>li>a , .navbar-nav>li>a:hover{
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         color: white;
         padding-top: 5vh !important;
         font-size: calc(16px + .25vw);
-
     }
-    
-
     .navbar .navbar-nav {
       display: inline-block;
       float: none;
@@ -2220,8 +2338,7 @@ body {
         margin-left: 75% !important;
         padding: none !important;
     }
-
-   #menu{
+    #menu{
         background: #FF2241;
         position: fixed;
         opacity: .9945;
@@ -2236,8 +2353,6 @@ body {
     .menu-pad {
         padding-top: 12vh;
     }
-
-
     html {
       background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
       -webkit-background-size: cover !important;
@@ -2274,6 +2389,7 @@ body {
     .tawis-padding {
         margin-top: 0px;
         margin-bottom: 0px;
+        padding-bottom: 16.4vw;
     }
     /* Recap Mobiel */
     .recap-mobile {
@@ -2316,7 +2432,7 @@ body {
         text-align: center;
     }
     .tawis p {
-        font-family: Elliot-Thin;
+        font-family: "Elliot-Light";
         margin: 10.5% auto 3% auto;
         font-size: 4.8vw;
         letter-spacing: 1.5px;
@@ -2347,7 +2463,7 @@ body {
         color: #fff;
     }
     .recap-mobile p {
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         letter-spacing: 0.5px;
     }
     .recap-mobile-subheader {
@@ -2355,7 +2471,7 @@ body {
         padding-bottom: 8.4vw;
     }
     .recap-mobile-desc {
-        font-size: 3.2vw;
+        font-size: 4vw;
         padding-bottom: 13.4vw !important;
     }
     .recap-vid-mobile {
@@ -2363,21 +2479,21 @@ body {
         height: 56.4vw;
     }
     .mobile-come-hang {
-        padding-right: 13.5vw;
-        padding-left: 13.5vw;
+        padding-right: 6.5vw;
+        padding-left: 6.5vw;
     }
     .mobile-come-hang h2 {
         padding-top: 19.2vw !important;
         padding-bottom: 8.6vw !important;
-        padding-right: 13.5vw;
-        padding-left: 13.5vw;
+        padding-right: 6.5vw;
+        padding-left: 6.5vw !important;
         font-family: "Elliot";
         font-size: 6.67vw;
         background-color: #ffffff;
         color: #141416;
     }
     .mobile-come-hang p {
-        font-family: "Elliot-Thin";
+        font-family: "Elliot";
         letter-spacing: 0.5px;
     }
     .mobile-come-hang-subheader {
@@ -2496,16 +2612,16 @@ body {
         transform: rotate(-90deg);
         transform-origin: left top 0;
         font-family: "Elliot-Light";
-        margin-top: 21vh;
+        margin-top: 30vh;
         float: right;
-        margin-right: -14vw;
+        margin-right: -20vw;
         font-size: calc(14px + 1.4vw);
         display: flex;
     }
     /*speaker image size phone */
     .speaker-img img{
         width: 50vw;
-        min-width: 300px;
+        min-width: 200px;
     }
     .speaker-img-1 img {
        width: 40vw;
@@ -2533,7 +2649,7 @@ body {
         width: inherit;
         margin-top: 10px;
     }
-    .sponsor-want a:link, a:visited, a:hover, a:active {
+    .sponsor-want a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
         font-size: 3.2vw;
         letter-spacing: .1em;
     }
@@ -2548,38 +2664,72 @@ body {
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li a{
         font-size: 5.33vw !important;
-        padding-bottom: 10.3vw;
+        padding-bottom: 3vh;
         letter-spacing: .02em;
-        padding-left: 1vw;
+        padding-right: 1vw;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: #FF2241;
         width: 7.3vw;
         height: auto;
         margin-right: auto;
-        padding-left: 1.5vw;
+        padding-left: 2.9vw;
         padding-top: 22.8vw;
+    }
+    .footer-nav-links div a{
+        font-size: calc(7.5px + 2.35vw) !important;
+        line-height: 35px !important;
+    }
+    .footer-nav-links div {
+        width: 90% !important;
     }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .about-splash-words {
+        padding-bottom: 50vw;
+    }
+    .footer-text p {
+        color: white !important;
+        font-family: "Elliot";
+        font-size: 4vw;
+    }
+    .footer-nav-links div {
+        width: 100vw;
+    }
+    .mobile-come-hang-desc {
+        font-size: 4.0vw;
+    }
+    .about-desc p {
+        font-size: 4.0vw;
+
+    }
+    .about-cool p {
+        font-size: 4.0vw !important;
+
+    }
+    .about-margins {
+        padding-left: 6.5vw;
+        padding-right: 6.5vw;
+        text-align: left;
+    }
     .food-menu-list-item {
         line-height: 9vw;
         font-size: 5vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         color: white;
     }
     .food-menu-list2 {
         line-height: 7vw;
         font-size: 4vw;
-        font-family: "Elliot-Thin";
+        font-family: "Elliot-Light";
         color: white;
         margin-left: 1vw;
         padding-top: 3vw;
 }
     .about-text{
-    font-size: 3.5vw;
+    font-size: 4.0vw;
     width: 100%;
     }
     .close {
@@ -2617,5 +2767,14 @@ body {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+    .about-splash-words .title{
+        font-size: 40px;
+        padding-top: 2.2vw;
+        margin-left: -20px;
+    }
+    .about-margins {
+        padding-left: 6.5vw;
+        padding-right: 6.5vw;
+        text-align: left;
+    }
 }

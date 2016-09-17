@@ -49,3 +49,13 @@ function initializeClock(id, endtime){
 }
 
 initializeClock('clockdiv', deadline);
+
+
+
+function onMapClickHandler(){
+
+    document.getElementById("map").style.pointerEvents = "auto";
+
+}
+
+// Enable map zooming with mouse scroll when the user clicks the map
