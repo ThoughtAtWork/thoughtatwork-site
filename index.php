@@ -59,7 +59,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<p class="elliot-thin enhance"> Thought at Work is a three day student run, student focused annual design conference at RIT. </p>
-						<a href="" class="elliot-bold dark view-schedule">VIEW SCHEDULE</a>
+						<a href="" class="elliot-bold dark link-effect view-schedule">VIEW SCHEDULE</a>
 					</div>
 				</div>
 			</div>
@@ -146,7 +146,7 @@
 			<div class="row">
 					<div class="col-md-12 text-center">
                         <div class="row-spacer">&nbsp;</div>
-                        <a href="" class="elliot-bold dark view-all">VIEW ALL SPEAKERS</a>
+                        <a href="" class="elliot-bold dark link-effect view-all">VIEW ALL SPEAKERS</a>
                     </div>
                     <div class="circle-speakers"></div>
                     <div class="line-speakers"></div>

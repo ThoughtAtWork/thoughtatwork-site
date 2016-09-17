@@ -144,6 +144,49 @@ body {
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
+
+    .link-effect:hover{
+        text-decoration: none !important;
+    }
+    .link-effect::before, .link-effect::after{
+        color: #FF2241;
+        display: inline-block;
+        font-size: 1.6vw;
+        opacity: 0;
+        transition: .2s ease-in-out;
+        -webkit-transition: .2s ease-in-out;
+        -moz-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+    }
+    .link-effect::before{
+        content: '[';
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -o-transform: translateX(5px);
+    }
+    .link-effect::after{
+        content: ']';
+        transform: translateX(-5px);
+        -webkit-transform: translateX(-5px);
+        -moz-transform: translateX(-5px);
+        -o-transform: translateX(-5px);
+    }
+    .link-effect:hover::before{
+        opacity: 1;
+        transform: translateX(-5px);
+        -webkit-transform: translateX(-5px);
+        -moz-transform: translateX(-5px);
+        -o-transform: translateX(-5px);
+    }
+    .link-effect:hover::after{
+        opacity: 1;
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -o-transform: translateX(5px);
+    }
+
     .contact-btn{
         color: white;
         background-color: #FF2241;
@@ -174,13 +217,8 @@ body {
         border: 0px solid transparent;
         width: 0;
         height: 0;
-    }
-    .btn-effect::before, .btn-effect::after{
         top: 0;
         left: 0;
-    }
-    .btn-effect:hover {
-        color: #FF2241;
     }
     .btn-effect:hover::before {
         width: 100%;
@@ -262,14 +300,33 @@ body {
     .form-control {
         padding: 0 0 0.5vw 0 !important;
         border: 0 !important;
+        position: relative;
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         background-color: transparent !important;
     }
     .form-group{
+        border-bottom: 1px solid #555;
         margin-bottom: 4.1vw !important;
         position: relative;
         font-family: 'Elliot';
+    }
+    .form-group::before {
+        content: '';
+        position: absolute;
+    }
+    .form-effect{
+        box-sizing: content-box;
+        border-bottom: 1px solid #FF2241;
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        transition: width 0.6s ease-in-out;
+    }
+    .form-effect.changed::before{
+        width: 100%;
+        border-bottom: 1px solid #FF2241;
     }
     .contact-placeholder{
         width: 100%;
@@ -277,19 +334,20 @@ body {
         color: #999;
         font-size: calc(10px + .52vw) !important;
         line-height: 1.7;
+        padding-bottom: 0.5vw;
         position: absolute;
         top: 0;
         overflow: hidden;
-        z-index: -1;
+        pointer-events: none;
     }
     .contact-placeholder p{
         position: absolute;
         top: 0;
 
-        transition: .2s ease-in-out;
-        -webkit-transition: .2s ease-in-out;
-        -moz-transition: .2s ease-in-out;
-        -o-transition: .2s ease-in-out;
+        transition: top .2s ease-in-out, bottom .2s ease-in-out;
+        -webkit-transition: top .2s ease-in-out, bottom .2s ease-in-out;
+        -moz-transition: top .2s ease-in-out, bottom .2s ease-in-out;
+        -o-transition: top .2s ease-in-out, bottom .2s ease-in-out;
     }
     textarea ~ .contact-placeholder p{
         top: auto;
@@ -301,10 +359,7 @@ body {
     textarea:focus ~ .contact-placeholder p{
         bottom: -50%;
     }
-    input:valid ~ .contact-placeholder p{
-        top: 100%;
-    }
-    textarea:valid ~ .contact-placeholder p{
+    .contact-placeholder.notEmpty p{
         top: 100%;
     }
     .contact-label{
@@ -323,10 +378,10 @@ body {
         position: absolute;
         bottom: 100%;
 
-        transition: .25s ease-in-out;
-        -webkit-transition: .25s ease-in-out;
-        -moz-transition: .25s ease-in-out;
-        -o-transition: .25s ease-in-out;
+        transition: bottom .25s ease-in-out;
+        -webkit-transition: bottom .25s ease-in-out;
+        -moz-transition: bottom .25s ease-in-out;
+        -o-transition: bottom .25s ease-in-out;
     }
     input:focus ~ .contact-label label{
         bottom: 0;
@@ -716,11 +771,11 @@ body {
         text-align: center;
         width: inherit;
     }
-    .speaker-viewall a:link, a:visited, a:hover, a:active {
+    /*.speaker-viewall a:link, a:visited, a:hover, a:active { see link-effect
         font-size: .75vw;
         font-family: Elliot-Bold;
         letter-spacing: 1.5px;
-    }
+    }*/
     .circle-speakers {
         width: 10px;
         height: 10px;
@@ -878,8 +933,8 @@ body {
         font-size: calc(10px + .52vw);
     }
     .about-also-register {
-        width: 7.4vw !important;
-        height: 2.5vw;
+        /*width: 7.4vw !important;
+        height: 2.5vw;*/
         margin-left: 5.40vw;
         margin-top: 1.45vw;
         margin-bottom: 4.95vw !important;
@@ -1455,9 +1510,20 @@ body {
     input, textarea, select {
         font-size: 1.7vw !important;
     }
+    .contact-placeholder{
+        font-size: 1.7vw !important;
+        padding-bottom: 1vw !important;
+        line-height: 1.42857143;
+    }
     .form-control{
         height: auto !important;
         padding-bottom: 1vw !important;
+    }
+    .form-group{
+        margin-bottom: 5vw !important;
+    }
+    .contact-label label{
+        font-size: calc(8px + .365vw);
     }
     /*Nav Padding*/
     /*    Splash Section*/
@@ -2001,8 +2067,18 @@ body {
     .form-group{
         margin-bottom: 8vw !important;
     }
+
     input, textarea, select {
         font-size: 2.3vw !important;
+    }
+    .contact-placeholder{
+        font-size:  2.3vw !important;
+    }
+    .contact-label{
+        height:  2.8vw;
+    }
+    .contact-label label{
+        font-size: 1.5vw;
     }
     .contact-btn, .contact-btn a, .contact-btn a:hover{
         padding: 1.7vw 2.8vw !important;
@@ -2010,6 +2086,14 @@ body {
         font-size: 1.8vw !important;;
         letter-spacing: 1.9px;
         position: relative;
+    }
+    .btn-effect:hover::before {
+        border-left: 6px solid #FF2241;
+        border-bottom: 6px solid #FF2241;
+    }
+    .btn-effect:hover::after{
+        height: calc(100% - 6px);
+        border-left: 6px solid #000;
     }
 
     #nav-background-color {
@@ -2505,12 +2589,29 @@ body {
     .contact-description p{
         min-width: auto;
     }
-    input, textarea, select {
+    .form-group{
+        margin-bottom: 10vw !important;
+    }
+    input, textarea, select, .contact-placeholder {
         font-size: 3.3vw !important;
     }
     .contact-btn{
-        font-size: 2.8vw !important;
+        font-size: 2.5vw !important;
         padding: 2vw 3vw !important;
+    }
+    .btn-effect:hover::before {
+        border-left: 4px solid #FF2241;
+        border-bottom: 4px solid #FF2241;
+    }
+    .btn-effect:hover::after{
+        height: calc(100% - 4px);
+        border-left: 4px solid #000;
+    }
+    .contact-label{
+        height: 4.2vw;
+    }
+    .contact-label label{
+        font-size: 2.1vw;
     }
 }
 

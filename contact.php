@@ -35,6 +35,8 @@
 
 <!-- <script src="../constantlyUpdatingScript.js"></script> -->
 
+<script src="js/hoverEffects.js"></script>
+
 	</head>
 	<body>
         <?php include("header.php"); ?>
@@ -67,18 +69,11 @@
               <form id="contactForm"> 
 
                   <div class="form-group">
-                    <input type="text" class="form-control" id="name" required>
-                    <div class="contact-placeholder"><p>Your Name</p></div>
-                    <div class="contact-label"><label for="name">Your Name</label></div>
-                    <hr>
-                    <!--<hr class="red-hr">-->       
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                   </div>
 
                  <div class="form-group">
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                    <div class="contact-placeholder"><p>Your Email</p></div>
-                    <div class="contact-label"><label for="email">Your Email</label></div>
-                    <hr>           
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your Email" required>
                   </div>
 
                   <div class="form-group">
@@ -91,14 +86,10 @@
                       <option value="4">4</option>
                       <option value="5">5</option>
                     </select>
-                    <hr>
                   </div>
 
                   <div class="form-group top-buffer ">
-                    <textarea class="form-control" id="message" rows="3" required></textarea>
-                    <div class="contact-placeholder"><p>Your Message</p></div>
-                    <div class="contact-label"><label for="message">Your Message</label></div>
-                    <hr>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
                   </div>
 
                   <button type="submit" class="btn contact-btn btn-effect">Send</button>
