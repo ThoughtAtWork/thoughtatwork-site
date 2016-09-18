@@ -412,9 +412,11 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
+    .mobile-home {
+        display: none !important;
+    }
     /*NAv Color Change*/
     .nav {
-
         top: 0 !important;
     }
     /*Nav Padding*/
@@ -1483,8 +1485,13 @@ body {
     .clock-mobile-text {
         font-family: "Elliot";
     }
+/*
     .mobile-hide {
         display: none;
+    }
+*/
+    .mobile-home {
+        display: none !important;
     }
     .about-splash-words {
         color: #ffffff;
@@ -2281,7 +2288,7 @@ body {
     .footer-text p {
         color: white !important;
         font-family: "Elliot-Light";
-        font-size: 3vw;
+        font-size: 2vw;
     }
     .footer-text .special {
         padding-left: 10vw;
@@ -2666,7 +2673,7 @@ body {
         font-size: 5.33vw !important;
         padding-bottom: 3vh;
         letter-spacing: .02em;
-        padding-right: 1vw;
+        padding-right: 2vw;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: #FF2241;
@@ -2682,6 +2689,9 @@ body {
     }
     .footer-nav-links div {
         width: 90% !important;
+    }
+    .footer-nav a {
+        font-size: calc(7px + 1vw);
     }
 }
 

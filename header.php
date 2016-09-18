@@ -17,7 +17,7 @@
             </button>
             </span>
             <ul class="nav navbar-nav navbar-right p-r-9 mobile-center menu-pad">
-                <li class="active"><a href="index.php">Home</a></li>
+                <li class="mobile-home"><a href="index.php">Home</a></li>
                 <li class="text-nowrap"><a href="getready.php">Get Ready &nbsp;</a></li>
                 <li class="text-nowrap"><a href="about.php">About Us</a></li>
                <li><a href="contact.php">Contact</a></li>

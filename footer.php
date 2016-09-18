@@ -20,10 +20,10 @@
         </div>
     </div>
     <div class="row tablet-bot">
-        <div class="col-lg-12 sponsor-want center-mid">
-            <div class="row-spacer">&nbsp;</div>
-            <a href="" class="elliot-bold dark">WANT TO SPONSOR?</a>
-        </div>
+    <div class="col-lg-12 sponsor-want center-mid">
+        <div class="row-spacer">&nbsp;</div>
+        <a href="" class="elliot-bold dark">WANT TO SPONSOR?</a>
+    </div>
     </div>
 </div>
 <!-- FOOTER -->
@@ -43,9 +43,9 @@
         </div>
     </div>
     <div class="container">
-            <div class="container footer-text">
-                <p class="special">Special thanks to Lorraine Justice, Josh Own, Bruce Leonard, Adam Smith, and Benjamin Thomas</p>
-                <p class="copyright">&copy; 2016 Thought At Work. All rights reserved.</p>
-            </div>
+        <div class="container footer-text">
+            <p class="special">Special thanks to Lorraine Justice, Josh Own, Bruce Leonard, Adam Smith, and Benjamin Thomas</p>
+            <p class="copyright">&copy; 2016 Thought At Work. All rights reserved.</p>
         </div>
+    </div>
 </footer>
