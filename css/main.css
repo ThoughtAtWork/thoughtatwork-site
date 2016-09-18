@@ -827,6 +827,9 @@ body {
         font-family: "Elliot-Bold";
         letter-spacing: 1.5px;
     }
+    comingsoon-splash {
+        background-image: url(../img/comingsoon_splash.jpg) !important;
+    }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
     .about-splash-words {
         color: #ffffff;
@@ -958,6 +961,14 @@ body {
         font-size:10px;
         letter-spacing: 1.9px;
     }
+    .goback-btn {
+        margin: 0 !important;
+        padding: 1.5vw 3vw !important;
+    }
+    .goback-btn a, .goback-btn a:hover {
+        font-size: 1.4vw !important;
+        color: white;
+    }
     .about-kids {
         width: 30vw;
         margin-top: 4.85vw;
@@ -974,6 +985,12 @@ body {
         font-size: calc(12px + .416vw);
         margin-bottom: .7vw;
         line-height: calc(16px + .835vw);
+    }
+    .comingsoon-main {
+        width: 60vw;
+    }
+    .comingsoon-padding {
+        padding-bottom: 5vw;
     }
        .about-text {
        font-size:calc(10px + .52vw) !important;
@@ -1495,6 +1512,9 @@ body {
     .mobile-home {
         display: none !important;
     }
+    comingsoon-splash {
+        background-image: url(../img/comingsoon_splash.jpg) !important;
+    }
     .about-splash-words {
         color: #ffffff;
         padding-top: 7.5vw;
@@ -1580,6 +1600,9 @@ body {
         margin-bottom: 8.55vw !important;
         background-color: #FF2241;
     }
+    .goback-btn {
+        margin-left: .5vw !important;
+    }
     .mobile-about-history h2{
         padding-bottom: 2.4vw !important;
         font-family: "Elliot";
@@ -1599,6 +1622,9 @@ body {
             padding-bottom: 4.55vw !important;
             font-family: "Elliot";
             font-size: 5.0vw !important;
+    }
+    comingsoon-main h2 {
+        padding-top: 2.5vw !important;
     }
     .mobile-about-cool p {
             font-size: 2.4vw;
@@ -2035,6 +2061,12 @@ body {
     .get-head-section-top {
         padding-top: 5vh;
     }
+    comingsoon-splash {
+        background-image: url(../img/comingsoon_splash.jpg) !important;
+    }
+    .comingsoon-splash .title{
+        padding-top: 0vw !important;
+    }
     .about-splash-words {
         color: #ffffff;
         padding-top: 15.5vw;
@@ -2132,6 +2164,9 @@ body {
     }
     .about-mobile-top {
         margin-top: 20vw;
+    }
+    .comingsoon-mobile-top {
+        margin-top: 10vw;
     }
     .about-mobile-bot {
          margin-bottom: 26.2vw
