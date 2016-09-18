@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Thought At Work - Home</title>
+  <title>Thought At Work - Get Ready</title>
   <meta name="description" content="Our Website">
   <meta name="author" content="Thought at Work">
 
@@ -266,22 +266,25 @@
                         <div class="container-fluid food-margin-bot">
                             <div class="row about-margins">
                                 <div class="col-lg-6">
-                                    <div class="food-sec-left">
-                                        <p class="about-text">Food will be provided for all conference attendees a few different times over
-                                            the weekend (with vegetarian options). You can count on dinner on Friday,
-                                            breakfast and lunch on Saturday, and coffee and continental breakfast on
-                                            Sunday.
+                                    <div class="food-sec">
+                                        <p class="about-text">Until the world finally embraces the pragmatism of meal-replacement
+																					 formula, actual food will continue to be an important part of any weekend. At the
+																					 conference, meals will be provided for all conference attendees on several occasions
+																					  (with vegetarian options). You can count on Friday night dinner and Saturday lunch,
+																						as well as light breakfasts on Saturday and Sunday. You might be on your own Saturday
+																						 evening, and we can’t be responsible for snacks, second breakfast, elevenses, luncheon,
+																						  afternoon tea, etc.
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <!-- <div class="col-lg-6">
                                     <div class="food-sec-right">
                                         <p class="elliot about-text">However, depending on the length of your stay in Rochester, you may need more
                                             grub. Check out these hand selected off and on-campus food locations to the
                                             right! All on-campus food locations are shown on the map in your brochure
                                             for your convenience.</p>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="container-fluid">

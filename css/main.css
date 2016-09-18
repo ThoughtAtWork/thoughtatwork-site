@@ -1228,25 +1228,20 @@ body {
         line-height: 1.67vw;
     }
 
-    .food-sec-left{
-        width: 30vw;
+    .food-sec{
+        width: 60vw;
         margin-top: 4.1vw;
         margin-left: 12.5vw;
     }
-
-    .food-sec-right{
-        width: 30vw;
-        margin-top: 4.1vw;
-    }
-    .food-sec-left,.food-sec-right h4 {
+    .food-sec h4 {
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
     }
-    .food-sec-left,.food-sec-right p {
+    .food-sec p {
         font-size: 1.04vw;
         line-height: 1.65vw;
         font-family: "Elliot-Light";
-        width: 28vw;
+        width: 56vw;
         height: 9vw;
         line-height: 1.67vw;
     }

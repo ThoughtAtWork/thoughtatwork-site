@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Thought At Work - Home</title>
+  <title>Thought At Work - Contact</title>
   <meta name="description" content="Our Website">
   <meta name="author" content="Thought at Work">
 
@@ -66,7 +66,7 @@
               <p class="elliot about-text">Don't hesitate to drop us a line!</p>
             </div>
             <div class="col-lg-6 contact-form about-mobile-top about-mobile-bot">
-              <form id="contactForm"> 
+              <form id="contactForm">
 
                   <div class="form-group">
                     <input type="text" class="form-control" id="name" placeholder="Your Name" required>

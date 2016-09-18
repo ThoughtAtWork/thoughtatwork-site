@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Thought At Work - Home</title>
+  <title>Thought At Work - About Us</title>
   <meta name="description" content="Our Website">
   <meta name="author" content="Thought at Work">
 
@@ -84,7 +84,7 @@
                 <div class="about-kids mobile-about-cool ">
                     <h2 class="elliot about-history-padding">THE COOL KIDS</h2>
                     <p class="elliot about-text">Other than occasional check-ins from the grown-ups at RIT, this conference is entirely run by students. We contact speakers, we craft the schedule, we print the posters, and we produce the title sequence. We meet up year-round, we balance our coursework, we wrap our heads around the big picture, and we stress about the details. Our team changes every year and represents a broad range of disciplines and experiences, but we’re tied together by our appetite for creative inspiration and our willingness to do something about it.</p>
-                </div>				
+                </div>
 			       </div>
             </div>
 		</div>
