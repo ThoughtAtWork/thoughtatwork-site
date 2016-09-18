@@ -2308,6 +2308,9 @@ body {
 @media only screen and (max-width : 767px) {
     /* mobile header styles*/
      /*Menu Styles*/
+     .mobile-home {
+         display: list-item !important;
+     }
      .fa {
         color: #fff;
      }
