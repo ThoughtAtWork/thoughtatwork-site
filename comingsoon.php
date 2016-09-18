@@ -52,7 +52,7 @@
       <div class="row about-margins">
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids mobile-about-cool comingsoon-main">
-                    <h2 class="elliot about-history-padding">WE'RE STILL WORKING ON THIS PART, HEAD BACK FOR NOW</h2>
+                    <h2 class="elliot about-history-padding">WE'RE STILL WORKING ON THIS PART. HEAD BACK FOR NOW</h2>
                     <button class="about-also-register goback-btn btn center-web about-also-pad-bot">
                         <a href="#">&#8592; GO BACK</a>
                     </button>
