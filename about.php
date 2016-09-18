@@ -67,7 +67,7 @@
                 <div class="about-line"></div>
 				</div>
 				<div class="col-md-6 about-also">
-                     <div class="about-also-desc about-margins about-also-pad-top"><p class="about-text-also">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
+                     <div class="about-margins about-also-desc about-also-pad-top"><p class="about-text-also">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
                     <div class="about-also-checkout about-margins about-register-pad"><p class="elliot-bold"><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
                     <div class="about-also-roll mobile-about-also-roll about-margins"><p>Ready to roll?</p></div>
                     <div class="about-margins">

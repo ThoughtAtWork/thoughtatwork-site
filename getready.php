@@ -55,12 +55,12 @@
         <div class="container-fluid come-hang about-mobile-top mobile-pad ">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="getready-h2 elliot about-margins what-expect-tablet-top">WHAT TO EXPECT</h2>
+                    <h2 class="getready-h2 elliot about-margins getReady-margins  what-expect-tablet-top">WHAT TO EXPECT</h2>
                 </div>
             </div>
         </div>
         <div class="container-fluid ">
-                <div class="row about-margins clock-center" id="clockdiv">
+                <div class="row about-margins getReady-margins  clock-center" id="clockdiv">
                     <div class="col-sm-1 countdown col-sm-offset-2 count-center count-left mobile-position">
                         <h4 class="countdown-date weeks "></h4>
                         <p class="countdown-text">WEEKS</p>
@@ -83,7 +83,7 @@
         <div class="container-fluid about-mobile-top mobile-arrival what-expect-tablet-top">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="getready-sec about-margins get-head-section-bot">
+                        <div class="getready-sec about-margins getReady-margins  get-head-section-bot">
                             <h3 class="elliot getready-h3 get-head-pad-bot">Workshops &amp; Lectures</h3>
                             <p class="elliot about-text">Not everything can be learned in a class. We’ve gathered the best and the brightest
 															from around the creative world to share their insight
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="getready-sec2 about-margins get-head-section-bot">
+                        <div class="getready-sec2 about-margins getReady-margins  get-head-section-bot">
                             <h3 class="elliot getready-h3 get-head-pad-bot">Portfolio Review</h3>
                             <p class="elliot about-text">You’ve got a portfolio, we’ve got feedback. By filling a room
 															with portfolio wizards (working professionals), we provide a venue to discuss and be taught
@@ -105,7 +105,7 @@
         <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="getready-sec about-margins get-head-section-bot">
+                        <div class="getready-sec about-margins getReady-margins  get-head-section-bot">
                             <h3 class="elliot getready-h3 get-head-pad-bot">Sketchoff</h3>
                             <p class="elliot about-text">It’s back. Load up your plate and prepare to witness the most
 															intense hour of sketching you’ve ever seen. Friday night, the specially drafted group of
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="getready-sec2 about-margins get-head-section-bot">
+                        <div class="getready-sec2 about-margins getReady-margins  get-head-section-bot">
                             <h3 class="elliot getready-h3 get-head-pad-bot ">Downtime</h3>
                             <p class="elliot about-text ">Need to clear your cache? Not sure what to do in between workshops?
 															 We designed the Lounge from the ground up with conference attendees in mind, making it
@@ -127,13 +127,13 @@
                 <div class="container-fluid">
                     <div class="row top-buffer">
                         <div class="col-lg-12 ">
-                            <h2 class="getready-h2 elliot get-head-section-bot about-margins get-head-section-bot">WHERE TO STAY</h2>
+                            <h2 class="getready-h2 elliot get-head-section-bot about-margins getReady-margins  get-head-section-bot">WHERE TO STAY</h2>
                         </div>
                     </div>
                 </div>
 
                 <div class="container-fluid">
-                    <div class="row about-margins">
+                    <div class="row about-margins getReady-margins ">
                         <div class="col-lg-6">
                             <div class="wheretostay-sec-left">
                                 <p class="elliot about-text get-head-section-bot">Coming from out of town? There’s a pretty decent selection of hotels
@@ -178,12 +178,12 @@
                         <div class="container-fluid ">
                             <div class="row top-buffer">
                                 <div class="col-lg-12">
-                                    <h2 class="getready-h2 elliot about-margins get-head-section-bot">WHAT TO BRING</h2>
+                                    <h2 class="getready-h2 elliot about-margins getReady-margins  get-head-section-bot">WHAT TO BRING</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="container-fluid get-head-section-bot">
-                            <div class="row about-margins">
+                            <div class="row about-margins getReady-margins ">
                                 <div class="col-lg-6">
                                     <div class="whattobring-sec-left">
                                         <p class="elliot about-text">The conference comprises three days and two nights in autumnal
@@ -205,7 +205,7 @@
 
                         <!--GETTING HERE + CHECKING IN-->
                         <div class="container-fluid come-hang ">
-                            <div class="row top-buffer about-margins">
+                            <div class="row top-buffer about-margins getReady-margins ">
                                 <div class="col-lg-6"></div>
                                 <div class="col-lg-6">
                                     <h2 class="elliot">GETTING HERE + CHECKING IN</h2>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                         <div class="container-fluid come-hang">
-                            <div class="row about-margins">
+                            <div class="row about-margins getReady-margins ">
                                 <div class="col-lg-6">
                                     <div class="gettinghere-sec-right" onclick="onMapClickHandler()">
                                         <div id="map"></div>
@@ -259,12 +259,12 @@
                         <div class="container-fluid come-hang ">
                             <div class="row">
                                 <div class="col-lg-12 ">
-                                    <h2 class="getready-h2 elliot about-margins arrival-sub-head-pad">FOOD</h2>
+                                    <h2 class="getready-h2 elliot about-margins getReady-margins  arrival-sub-head-pad">FOOD</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="container-fluid food-margin-bot">
-                            <div class="row about-margins">
+                            <div class="row about-margins getReady-margins ">
                                 <div class="col-lg-6">
                                     <div class="food-sec">
                                         <p class="about-text">Until the world finally embraces the pragmatism of meal-replacement
@@ -292,7 +292,7 @@
                                 <div class="col-lg-4 mobile-no-mar ">
 
                                     <div class="food-menu no-list-style">
-                                        <ul class="food-menu-list about-margins">
+                                        <ul class="food-menu-list about-margins getReady-margins ">
                                             <li class="food-menu-list-item pad-list-food food-list-mobile-pad" onclick="campus();active(0);">On-campus &nbsp&nbsp&nbsp<span class="arrow">→</span></li>
                                             <li class="food-menu-list-item food-list-mobile-pad" onclick="henrietta();active(1);">Henrietta&nbsp&nbsp&nbsp<span class="arrow">→</span></li>
                                             <li class="food-menu-list-item " onclick="rochester();active(2);">Rochester City&nbsp&nbsp&nbsp<span class="arrow">→</span></li>
@@ -301,7 +301,7 @@
 
                                 </div>
                                 <div class="col-lg-4 mobile-no-mar">
-                                <div class="about-margins">
+                                <div class="about-margins getReady-margins ">
                                     <div class="food-menu-2 no-list-style" id="food-menu-2">
                                         <ul class="food-menu-list2 a" id="food-menu-list2">
                                             <p class="menu-load-text">←   Choose a location to view available restaurants.</p>
@@ -311,7 +311,7 @@
                                 </div>
 
                                 <div class="col-lg-4 mobile-food-white food-margin-top food-margin-bot">
-                                <div class="about-margins">
+                                <div class="about-margins getReady-margins ">
                                     <div class="food-menu-3 food-sub-pad" id="food-menu-3">
                                         <p class="food-menu-list3 menu-load-text2 mobile-no-pad-food">←   Choose a restaurant to view its description.</p>
                                         </div>

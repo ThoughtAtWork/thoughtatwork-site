@@ -1447,7 +1447,14 @@ body {
     .arrival-sub-head-pad {
         padding-bottom: 2.5vw;
     }
+/*
     .about-margins {
+        padding-left: 13.5vw;
+        padding-right: 13.5vw;
+        text-align: left;
+    }
+*/
+    .getReady-margins {
         padding-left: 13.5vw;
         padding-right: 13.5vw;
         text-align: left;
