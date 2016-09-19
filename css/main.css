@@ -2649,7 +2649,7 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
-        background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
+        background: url(../img/backgroundMobile.png) no-repeat !important;
         -webkit-background-size: cover !important;
         -moz-background-size: cover !important;
         -o-background-size: cover !important;
