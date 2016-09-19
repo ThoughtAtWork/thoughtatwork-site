@@ -31,10 +31,10 @@
     <div class="container footer-nav navbar-inner">
         <div class="row">
             <div class="col-sm-10 col-md-offset-1 text-center">
-                <div class="col-sm-2"><a>FAQ</a></div>
-                <div class="col-sm-2"><a>GET READY</a></div>
-                <div class="col-sm-2"><a>REGISTER</a></div>
-                <div class="col-sm-2 text-nowrap"><a>GET IN TOUCH</a></div>
+                <!--<div class="col-sm-2"><a>FAQ</a></div>-->
+                <div class="col-sm-2"><a href="getready.php">GET READY</a></div>
+                <div class="col-sm-2"><a href="register.php">REGISTER</a></div>
+                <div class="col-sm-2 text-nowrap"><a href="contact.php">GET IN TOUCH</a></div>
                 <div class="col-sm-2 tablet-hide">
                     <div class="circle-footer"></div>
                     <div class="line-footer"></div>
