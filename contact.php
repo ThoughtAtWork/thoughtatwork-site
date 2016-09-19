@@ -80,11 +80,11 @@
                     <select class="form-control" id="concern" >
 
                     <option value="0" selected disabled>Subject of your Concern</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
+                      <option value="Just saying hey">Just saying hey</option>
+                      <option value="Important question">Important question</option>
+                      <option value="Sponsorship inquiry">Sponsorship inquiry</option>
+                      <option value="Speaking inquiry">Speaking inquiry</option>
+                      <option value="Dream interpretation">Dream interpretation</option>
                     </select>
                   </div>
 

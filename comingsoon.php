@@ -53,7 +53,7 @@
             <div class="col-lg-10 col-lg-offset-1 ">
                 <div class="about-kids mobile-about-cool comingsoon-main">
                     <h2 class="elliot about-history-padding">WE'RE STILL WORKING ON THIS PART. HEAD BACK FOR NOW</h2>
-                    <button class="about-also-register goback-btn btn center-web about-also-pad-bot">
+                    <button onclick="goBack()" class="about-also-register goback-btn btn center-web about-also-pad-bot">
                         <a href="#">&#8592; GO BACK</a>
                     </button>
                 </div>
@@ -63,5 +63,10 @@
         <!--- Footer Include-->
 		<?php include("footer.php"); ?>
        <script type="text/javascript" src="js/navScript.js"></script>
+			 <script>
+				function goBack() {
+				    window.history.back();
+				}
+				</script>
 	</body>
 </html>

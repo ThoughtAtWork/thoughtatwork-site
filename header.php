@@ -21,7 +21,7 @@
                 <li class="text-nowrap"><a href="getready.php">Get Ready</a></li>
                 <li class="text-nowrap"><a href="about.php">About Us</a></li>
                <li><a href="contact.php">Contact</a></li>
-               <li><a class="nav-register menu-pad" href="#">Register</a></li>
+               <li><a class="nav-register menu-pad" href="register.php">Register</a></li>
             </ul>
         </div>
     </div>
