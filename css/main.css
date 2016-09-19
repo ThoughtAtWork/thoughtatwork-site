@@ -846,7 +846,7 @@ a{
         font-family: "Elliot-Bold";
         letter-spacing: 1.5px;
     }
-    comingsoon-splash {
+    .comingsoon-splash {
         background-image: url(../img/comingsoon_splash.jpg) !important;
     }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
@@ -1533,7 +1533,7 @@ a{
     .mobile-home {
         display: none !important;
     }
-    comingsoon-splash {
+    .comingsoon-splash {
         background-image: url(../img/comingsoon_splash.jpg) !important;
     }
     .about-splash-words {
@@ -2082,7 +2082,7 @@ a{
     .get-head-section-top {
         padding-top: 5vh;
     }
-    comingsoon-splash {
+    .comingsoon-splash {
         background-image: url(../img/comingsoon_splash.jpg) !important;
     }
     .comingsoon-splash .title{
