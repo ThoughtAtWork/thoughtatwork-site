@@ -22,7 +22,7 @@
     <div class="row tablet-bot">
     <div class="col-lg-12 sponsor-want center-mid">
         <div class="row-spacer">&nbsp;</div>
-        <a href="" class="elliot-bold dark">WANT TO SPONSOR?</a>
+        <a href="" class="elliot-bold dark link-effect">WANT TO SPONSOR?</a>
     </div>
     </div>
 </div>
@@ -31,10 +31,10 @@
     <div class="container footer-nav navbar-inner">
         <div class="row">
             <div class="col-sm-10 col-md-offset-1 text-center">
-                <!--<div class="col-sm-2"><a>FAQ</a></div>-->
-                <div class="col-sm-2"><a href="getready.php">GET READY</a></div>
-                <div class="col-sm-2"><a href="register.php">REGISTER</a></div>
-                <div class="col-sm-2 text-nowrap"><a href="contact.php">GET IN TOUCH</a></div>
+                <!--<div class="col-sm-2"><a class="link-effect">FAQ</a></div>-->
+                <div class="col-sm-2"><a href="getready.php" class="link-effect">GET READY</a></div>
+                <div class="col-sm-2"><a href="register.php" class="link-effect">REGISTER</a></div>
+                <div class="col-sm-2 text-nowrap"><a href="contact.php" class="link-effect">GET IN TOUCH</a></div>
                 <div class="col-sm-2 tablet-hide">
                     <div class="circle-footer"></div>
                     <div class="line-footer"></div>

@@ -68,10 +68,10 @@
 				</div>
 				<div class="col-md-6 about-also">
                      <div class="about-margins about-also-desc about-also-pad-top"><p class="about-text-also">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
-                    <div class="about-also-checkout about-margins about-register-pad"><p class="elliot-bold"><span> </span><a href="#">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
+                    <div class="about-also-checkout about-margins about-register-pad"><p class="elliot-bold"><span> </span><a href="#" class="link-effect">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
                     <div class="about-also-roll mobile-about-also-roll about-margins"><p>Ready to roll?</p></div>
                     <div class="about-margins">
-                    <button class="about-also-register btn center-web about-also-pad-bot">
+                    <button class="about-also-register btn contact-btn btn-effect center-web about-also-pad-bot">
                         <a href="#">REGISTER</a>
                     </button>
                   </div>
@@ -92,6 +92,7 @@
             <img src="img/team-photo.png" class="img-responsive" />
         </div>
         <!--- Footer Include-->
+
 		<?php include("footer.php"); ?>
        <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
