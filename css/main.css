@@ -421,7 +421,9 @@ a{
     border: 0 !important;
     border-top: 1px solid #FF2241 !important;
     }
-
+    .nav>li>a {
+      padding: 0;
+    }
 
 
 /*==========  Non-Mobile First Method  ==========*/
