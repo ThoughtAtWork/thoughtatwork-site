@@ -175,11 +175,35 @@ a{
         -moz-transition: width 0.15s ease-out;
         -o-transition: width 0.15s ease-out;
     }
+    .food-menu-list li.link-effect::before{
+        height: 75%;
+    }
+    .food-menu-list li.link-effect:hover::before{
+        border-bottom: 6px solid #FF2241;
+        transition: width .3s ease-out;
+        -webkit-transition: width .3s ease-out;
+        -moz-transition: width .3s ease-out;
+        -o-transition: width .3s ease-out;
+    }
+    .food-menu-list li:hover, .food-menu-list2 li:hover, .food-menu-list-item.selected-item, .food-menu-list2-item.selected-item{
+        color: #FF2241;
+        transition: .15s ease-in-out;
+        -webkit-transition: .15s ease-in-out;
+        -moz-transition: .15s ease-in-out;
+        -o-transition: .15s ease-in-out;
+    }
+    .food-menu-list2 li.link-effect::before{
+        height: 80%;
+    }
+    .food-menu-list2 li.link-effect:hover::before{
+        border-bottom: 4px solid #FF2241;
+        transition: width .3s ease-out;
+        -webkit-transition: width .3s ease-out;
+        -moz-transition: width .3s ease-out;
+        -o-transition: width .3s ease-out;
+    }
     .about-also-checkout .link-effect::before{
         height: 140%;
-    }
-    .about-also-checkout .link-effect:hover::before{
-
     }
     .contact-btn{
         color: white;
@@ -197,7 +221,7 @@ a{
         -moz-transition: .2s ease-in-out;
         -o-transition: .2s ease-in-out;
     }
-    .btn::before, .btn::after, a::before, a::after, .nav li::before, .nav li::after{
+    .btn::before, .btn::after, a::before, a::after, .nav li::before, .nav li::after, .food-menu-list li::before, .food-menu-list li::after, .food-menu-list2 li::before, .food-menu-list2 li::after{
         box-sizing: border-box;
         content: '';
         position: absolute;
@@ -438,6 +462,9 @@ a{
       padding-right: 0 !important;
     }
 
+    .food-black-mobile li:hover{
+        cursor: pointer;
+    }
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -1310,9 +1337,6 @@ a{
         height: 32vw;
         width: 32vw;
     }
-    .food-black-mobile li:hover{
-        cursor: pointer;
-    }
     .menu-load-text{
         color: white;
         font-family: "Elliot-Thin";
@@ -1352,6 +1376,7 @@ a{
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
         color: white;
+        position: relative;
     }
 
 
@@ -1368,6 +1393,7 @@ a{
         font-size: 1.6vw;
         font-family: "Elliot-Thin";
         color: white;
+        position: relative;
     }
 
     .food-menu-list3{
@@ -1382,6 +1408,7 @@ a{
         margin-bottom: 2vw;
         font-family: "Elliot-Light";
         color: black;
+        position: relative;
     }
 
     .food-menu-3{
@@ -1467,6 +1494,7 @@ a{
         font-size: 2vw;
         font-family: "Elliot-Thin";
         color: white;
+        position: relative;
     }
     .food-menu-list {
 
@@ -1474,12 +1502,22 @@ a{
     padding-bottom: 3vw;
     }
     .food-menu-list2 {
+    line-height: 3.3vw;
     font-size: 1.6vw;
     font-family: "Elliot-Thin";
     color: white;
     margin-left: 1vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
+    }
+    .food-menu-list2-item{
+        position: relative;
+    }
+    .food-menu-list2 li.link-effect::before{
+        height: 90%;
+    }
+    .food-menu-list2 li.link-effect:hover::before{
+        border-bottom: 3px solid #FF2241;
     }
     .mobile-food-white {
         background-color: white !important;
@@ -2031,12 +2069,19 @@ a{
     padding-bottom: 7vw;
     }
     .food-menu-list2 {
+    line-height: 8vw;
     font-size: 4vw;
     font-family: "Elliot";
     color: white;
     margin-left: 1vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
+    }
+    .food-menu-list2 li.link-effect::before{
+        height: 90%;
+    }
+    .food-menu-list2 li.link-effect:hover::before{
+        border-bottom: 3px solid #FF2241;
     }
      .food-menu-list3 {
     font-size: 4vw;
@@ -2443,6 +2488,15 @@ a{
     }
     .menu-pad {
         padding-top: 12vh;
+    }
+    .food-menu-list2 li.link-effect::before{
+        height: 90%;
+    }
+    .food-menu-list2 li.link-effect:hover::before{
+        border-bottom: 6px solid #FF2241;
+    }
+    .food-menu-list2 li.link-effect.selected-item::before{
+        border-bottom: 6px solid #FF2241;
     }
     html {
       background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;

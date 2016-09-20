@@ -9,15 +9,18 @@ function active(index){
     document.getElementsByClassName("arrow")[1].style.color = "white";
     document.getElementsByClassName("arrow")[2].style.color = "white";
 
+    document.getElementsByClassName("arrow")[index].style.color = "#FF2241";
 
-    document.getElementsByClassName("arrow")[index].style.color = "red";
-
+    //selected css states for first menu
+    $('.food-menu-list-item').removeClass('selected-item');
+    var selectedItem = document.getElementsByClassName("food-menu-list-item")[index];
+    $(selectedItem).addClass('selected-item');
 }
 
 function gofetch(name){
+    $('.food-menu-3').children().fadeOut(200);
 
     document.getElementById("food-menu-3").innerHTML = "";
-
 
     var title;
     var text;
@@ -59,13 +62,15 @@ function gofetch(name){
     document.getElementById("food-menu-3").appendChild(rlocation);
     document.getElementById("food-menu-3").appendChild(rhours);
 
-
+    $('.food-menu-3').children().css('display', 'none');
+    $('.food-menu-3').children().fadeIn(200);
 
 }
 
 
 
 function campus(){
+    $('.food-menu-list2').children().fadeOut(200);
 
     document.getElementById("food-menu-2").scrollTop = 0;
     document.getElementById("food-menu-list2").innerHTML = "";
@@ -80,16 +85,20 @@ function campus(){
         (function () {
             var tofetch = restaurants[i].name;
             listItem.addEventListener('click',function () {
+                $('.food-menu-list2-item').removeClass('selected-item');    //selected css state for second menu
+                $(this).addClass('selected-item');
                 gofetch(tofetch);
             });
         }());
+
+        $(listItem).css('display', 'none');
         document.getElementById("food-menu-list2").appendChild(listItem);
     }
-
-
+    $('.food-menu-list2').children().fadeIn(200);
 }
 
 function henrietta(){
+    $('.food-menu-list2').children().fadeOut(200);
 
     document.getElementById("food-menu-2").scrollTop = 0;
     document.getElementById("food-menu-list2").innerHTML = "";
@@ -104,16 +113,21 @@ function henrietta(){
         (function () {
             var tofetch = restaurants[i].name;
             listItem.addEventListener('click',function () {
+                $('.food-menu-list2-item').removeClass('selected-item');
+                $(this).addClass('selected-item');
                 gofetch(tofetch);
             });
         }());
+
+        $(listItem).css('display', 'none');
         document.getElementById("food-menu-list2").appendChild(listItem);
     }
-
+    $('.food-menu-list2').children().fadeIn(200);
 }
 
 
 function rochester(){
+    $('.food-menu-list2').children().fadeOut(200);
 
     document.getElementById("food-menu-2").scrollTop = 0;
     document.getElementById("food-menu-list2").innerHTML = "";
@@ -128,14 +142,17 @@ function rochester(){
         (function () {
             var tofetch = restaurants[i].name;
             listItem.addEventListener('click',function () {
+                $('.food-menu-list2-item').removeClass('selected-item');
+                $(this).addClass('selected-item');
                 gofetch(tofetch);
             });
         }());
+
+        $(listItem).css('display', 'none');
         document.getElementById("food-menu-list2").appendChild(listItem);
     }
-
+    $('.food-menu-list2').children().fadeIn(200);
 }
-
 restaurants = [
     {
         "name": "Java's",
