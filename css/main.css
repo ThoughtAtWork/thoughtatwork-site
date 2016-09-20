@@ -871,7 +871,7 @@ a{
         width: 100%;
         z-index: 100;
         margin-top: 6.5vw !important;
-        height: 29vw;
+        height: 42vw;
     }
     img.sponsor-img {
 /*        min-width: 214px !important;*/
@@ -881,6 +881,15 @@ a{
     }
     .sponsor-top{
         padding-top: 8.68vw;
+    }
+    .firstRow-sponsor-images{
+        margin-left: -2vw !important;
+    }
+    .secondRow-sponsor-images{
+        margin-left: 17vw !important;
+    }
+    .sponsor-bottom{
+        padding-bottom: 2.17vw;
     }
     .sponsor-want{
         align-content: center;
@@ -2027,8 +2036,20 @@ a{
         margin-left: 8vw;
         padding-right: -1.5vw;
     }
+    .firstRow-sponsor-images{
+        margin-left: -2vw !important;
+    }
+    .secondRow-sponsor-images{
+        margin-left: 17vw !important;
+    }
     .sponsor-top{
         padding-top: 8.68vw;
+    }
+    .sponsor-bottom{
+        padding-bottom: 2.17vw
+    }
+    .sponsor-tablet-pushLeft {
+        margin-left: 0vw !important;
     }
 }
 

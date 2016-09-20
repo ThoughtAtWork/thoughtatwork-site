@@ -1,21 +1,31 @@
 <!-- SPONSORS -->
 <div class="container-fluid sponsors tablet-top">
     <div class="row sponsor-top">
-        <div class="center-mid sponsor-images">
-             <div class="col-sm-2 ">
-                <img class="sponsor-img" src="img/sponsor.png" />
+        <div class="center-mid">
+             <div class="col-sm-3 firstRow-sponsor-images">
+                <img class="sponsor-img" src="img/sponsor-logos_01-01.png" />
              </div>
-             <div class="col-sm-2">
-                <img class="sponsor-img" src="img/sponsor.png" />
+             <div class="col-sm-3">
+                <img class="sponsor-img" src="img/sponsor-logos_01-02.png" />
              </div>
-             <div class="col-sm-2 ">
-                <img class="sponsor-img" src="img/sponsor.png" />
+             <div class="col-sm-3  firstRow-sponsor-images">
+                <img class="sponsor-img" src="img/sponsor-logos_01-03.png" />
              </div>
-             <div class="col-sm-2">
-                <img class="sponsor-img" src="img/sponsor.png" />
+             <div class="col-sm-3">
+                <img class="sponsor-img" src="img/sponsor-logos_01-04.png" />
              </div>
-             <div class="col-sm-2">
-                <img class="sponsor-img" src="img/sponsor.png" />
+        </div>
+    </div>
+    <div class="row sponsor-top sponsor-bottom">
+        <div class="center-mid">
+            <div class="col-sm-4">
+               <img class="sponsor-img secondRow-sponsor-images" src="img/sponsor-logos_01-05.png" />
+            </div>
+             <div class="col-sm-4">
+                <img class="sponsor-img sponsor-tablet-pushLeft" src="img/sponsor-logos_01-06.png" />
+             </div>
+             <div class="col-sm-4">
+                <img class="sponsor-img firstRow-sponsor-images" src="img/sponsor-logos_01-07.png" />
              </div>
         </div>
     </div>
