@@ -78,6 +78,7 @@
 				</div>
 			</div>
     </div>
+    <!--
     <div class="about-mobile-top about-mobile-bot container-fluid">
       <div class="row about-margins">
             <div class="col-lg-10 col-lg-offset-1 ">
@@ -91,6 +92,7 @@
         <div class="about-teampic  small-top about-mobile-bot">
             <img src="img/team-photo.png" class="img-responsive" />
         </div>
+      -->
         <!--- Footer Include-->
 
 		<?php include("footer.php"); ?>

@@ -39,7 +39,7 @@
 	</head>
 	<body>
     <?php include("header.php"); ?>
-        <!-- HEADER / SPLASH -->
+  	<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">
 				<div class="col-lg-12">
@@ -115,8 +115,9 @@
                 <div class="line-come-hang"></div>
 			</div>
 		</div>
-
 		<!-- SPEAKERS -->
+		
+		<!--
 		<div class="container-fluid speakers tablet-bot tablet-top" >
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 elliot speakers-title mobile-speakers">
@@ -151,7 +152,7 @@
                     <div class="circle-speakers"></div>
                     <div class="line-speakers"></div>
             </div>
-		</div>
+		</div>-->
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
