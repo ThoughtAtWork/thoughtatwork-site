@@ -251,7 +251,7 @@ a{
         -moz-transition: border-color 0s, height 0.15s ease-out .15s;
         -o-transition: border-color 0s, height 0.15s ease-out .15s;
     }
-    .nav li.btn-effect:hover, .nav-register:hover{
+    .nav li:hover, .nav-register:hover{
         background-color: #eee !important;
         transition: .2s ease-in-out;
     }
