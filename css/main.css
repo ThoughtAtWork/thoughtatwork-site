@@ -197,7 +197,7 @@ a{
         -moz-transition: .2s ease-in-out;
         -o-transition: .2s ease-in-out;
     }
-    .btn::before, .btn::after, a::before, a::after{
+    .btn::before, .btn::after, a::before, a::after, .nav li::before, .nav li::after{
         box-sizing: border-box;
         content: '';
         position: absolute;
@@ -215,9 +215,9 @@ a{
         border-bottom: 4px solid #FF2241;
         border-left: 4px solid #FF2241;
         transition: border-color 0s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
-        -webkit-transition: border-color 0s ease-out 0.15s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
-        -moz-transition: border-color 0s ease-out 0.15s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
-        -o-transition: border-color 0s ease-out 0.15s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+        -webkit-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+        -moz-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+        -o-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
     }
     .btn-effect:hover::after {
         height: calc(100% - 4px);
@@ -226,6 +226,26 @@ a{
         -webkit-transition: border-color 0s, height 0.15s ease-out .15s;
         -moz-transition: border-color 0s, height 0.15s ease-out .15s;
         -o-transition: border-color 0s, height 0.15s ease-out .15s;
+    }
+    .nav li.btn-effect:hover{
+        background-color: #eee;
+        transition: .2s ease-in-out;
+    }
+    .nav li.btn-effect:hover::before {
+        border-bottom: 6px solid #FF2241;
+        border-left: 6px solid #FF2241;
+    }
+    .nav li.btn-effect:hover::after {
+        height: calc(100% - 6px);
+        border-left: 6px solid #eee;
+    }
+    .nav-register.btn-effect:hover::before {
+        border-bottom: 6px solid #eee;
+        border-left: 6px solid #eee;
+    }
+    .nav-register.btn-effect:hover::after {
+        height: calc(100% - 6px);
+        border-left: 6px solid #FF2241;
     }
     .goback-btn.btn-effect:hover::before{
         border-bottom: 8px solid #FF2241;
@@ -455,12 +475,14 @@ a{
         font-family: "Elliot-Thin";
         color: white;
         padding-top: 2.1vw !important;
+        padding-bottom: 19px !important;
         font-size: calc(11px + .25vw);
         letter-spacing: 0px !important;
 
     }
     .navbar-nav>li>a:hover{
         color: black;
+        background-color: rgba(255, 255, 255, 0) !important;
     }
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
@@ -1391,6 +1413,9 @@ a{
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    .navbar-nav>li>a:hover{
+        background-color: rgba(255, 255, 255, 0) !important;
+    }
     /* Get Ready Tablet */
     .food-sub-pad{
         padding-top: 2vw
