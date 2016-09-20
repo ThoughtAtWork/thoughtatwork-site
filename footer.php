@@ -16,7 +16,7 @@
              </div>
         </div>
     </div>
-    <div class="row sponsor-top sponsor-bottom">
+    <div class="row sponsor-top mobile-remove-sponsor-top sponsor-bottom">
         <div class="center-mid">
             <div class="col-sm-4">
                <img class="sponsor-img secondRow-sponsor-images" src="img/sponsor-logos_01-05.png" />

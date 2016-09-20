@@ -2820,7 +2820,7 @@ a{
         letter-spacing: .1em;
     }
     .sponsors.tablet-top {
-        margin-top: 4vw !important;
+        margin-top: 0vw !important;
         background-color: #E6E6E6;
     }
     img.sponsor-img {
@@ -2851,6 +2851,12 @@ a{
     }
     .footer-nav a {
         font-size: calc(7px + 1vw);
+    }
+    .secondRow-sponsor-images {
+      margin-left: 0 !important;
+    }
+    .mobile-remove-sponsor-top {
+      padding-top: 0;
     }
 }
 
@@ -2896,7 +2902,7 @@ a{
         color: white;
         margin-left: 1vw;
         padding-top: 3vw;
-}
+    }
     .about-text{
     font-size: 4.0vw;
     width: 100%;
