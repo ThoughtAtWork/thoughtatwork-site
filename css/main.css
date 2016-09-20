@@ -227,8 +227,8 @@ a{
         -moz-transition: border-color 0s, height 0.15s ease-out .15s;
         -o-transition: border-color 0s, height 0.15s ease-out .15s;
     }
-    .nav li.btn-effect:hover{
-        background-color: #eee;
+    .nav li.btn-effect:hover, .nav-register:hover{
+        background-color: #eee !important;
         transition: .2s ease-in-out;
     }
     .nav li.btn-effect:hover::before {
@@ -238,14 +238,6 @@ a{
     .nav li.btn-effect:hover::after {
         height: calc(100% - 6px);
         border-left: 6px solid #eee;
-    }
-    .nav-register.btn-effect:hover::before {
-        border-bottom: 6px solid #eee;
-        border-left: 6px solid #eee;
-    }
-    .nav-register.btn-effect:hover::after {
-        height: calc(100% - 6px);
-        border-left: 6px solid #FF2241;
     }
     .goback-btn.btn-effect:hover::before{
         border-bottom: 8px solid #FF2241;
@@ -442,7 +434,8 @@ a{
     border-top: 1px solid #FF2241 !important;
     }
     .nav>li>a {
-      padding: 0;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
 
 
@@ -498,6 +491,9 @@ a{
         width: 6.9vw;
         height: 5.05vw !important;
         margin-right: 2.1vw;
+    }
+    ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child:hover {
+        background-color: #eee;
     }
     .navbar-inner ul li {
         width: 7vw;
