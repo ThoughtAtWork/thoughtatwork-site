@@ -1,6 +1,7 @@
-<!-- SPONSORS -->
+       <!-- SPONSORS -->
 <div class="container-fluid sponsors tablet-top">
     <div class="row sponsor-top">
+<!--
         <div class="center-mid">
              <div class="col-sm-3 firstRow-sponsor-images">
                 <img class="sponsor-img" src="img/sponsor-logos_01-01.png" />
@@ -13,6 +14,18 @@
              </div>
              <div class="col-sm-3">
                 <img class="sponsor-img" src="img/sponsor-logos_01-04.png" />
+             </div>
+        </div>
+-->
+        <div class="center-mid">
+            <div class="col-sm-4">
+               <img class="sponsor-img secondRow-sponsor-images" src="img/sponsor-logos_01-01.png" />
+            </div>
+             <div class="col-sm-4">
+                <img class="sponsor-img sponsor-tablet-pushLeft" src="img/sponsor-logos_01-02.png" />
+             </div>
+             <div class="col-sm-4">
+                <img class="sponsor-img firstRow-sponsor-images" src="img/sponsor-logos_01-04.png" />
              </div>
         </div>
     </div>
@@ -32,7 +45,7 @@
     <div class="row tablet-bot">
     <div class="col-lg-12 sponsor-want center-mid">
         <div class="row-spacer">&nbsp;</div>
-        <a href="" class="elliot-bold dark link-effect">WANT TO SPONSOR?</a>
+        <a href="contact.php" class="elliot-bold dark link-effect">WANT TO SPONSOR?</a>
     </div>
     </div>
 </div>
@@ -54,8 +67,9 @@
     </div>
     <div class="container">
         <div class="container footer-text">
-            <p class="special">Special thanks to Lorraine Justice, Josh Own, Bruce Leonard, Adam Smith, and Benjamin Thomas</p>
+            <p class="special">Special thanks to Lorraine Justice, Josh Owen, Bruce Leonard, Adam Smith, and Benjamin Thomas</p>
             <p class="copyright">&copy; 2016 Thought At Work. All rights reserved.</p>
         </div>
     </div>
+<!--    <img class="footer-logo" src="img/TAW_Logo.svg">-->
 </footer>

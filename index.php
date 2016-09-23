@@ -45,7 +45,7 @@
 				<div class="col-lg-12">
 					<h1>Thought at Work</h1>
 					<h2 class="splash-date">Oct 21-23 2016</h2>
-					<h3 class="splash-location"><span class="mobile-push-right">&nbsp; &nbsp;</span>@ Rochester Institute of Technology </h3>
+					<h3 class="splash-location"><span class="mobile-push-right">&nbsp; &nbsp;</span>Student-run design conference </h3>
 				</div>
 			</div>
             <div class="mobile-learn-more">

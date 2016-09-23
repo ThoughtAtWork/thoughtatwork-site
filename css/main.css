@@ -91,7 +91,7 @@ a{
 /* Footer Styles */
     footer {
         background-color: #FF2241;
-        padding-top: 7vh !important;
+        padding-top: 7vw !important;
     }
     .footer-text p {
         color: #fff !important;
@@ -102,9 +102,9 @@ a{
         width: 14vw;
         max-width: 250px !important;
     }
-    .footer-nav .nav {
-        padding-top: .3vh;
-        padding-bottom: 5.4vh;
+    .footer-nav.nav {
+        padding-top: .3vw;
+        padding-bottom: 5.4vw;
     }
     .footer-nav a {
         font-size: 12.5px;
@@ -114,13 +114,13 @@ a{
     }
     .footer-text .special {
         padding-left: 10vw;
-        padding-top: 8.3vh;
+        padding-top: 7.8vw;
         max-width: 1000px;
     }
     .footer-text .copyright {
         padding-left: 10vw;
-        padding-top: 4.4vh;
-        padding-bottom: 8.0vh;
+        padding-top: 3.8vw;
+        padding-bottom: 8.0vw;
         max-width: 1000px;
     }
     .circle-footer {
@@ -148,7 +148,6 @@ a{
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-
     .link-effect:hover{
         text-decoration: none !important;
     }
@@ -174,6 +173,10 @@ a{
         -webkit-transition: width 0.15s ease-out;
         -moz-transition: width 0.15s ease-out;
         -o-transition: width 0.15s ease-out;
+    }
+    .footer-logo {
+        width: 200px;
+        margin: 100px;
     }
     .food-menu-list li.link-effect::before{
         height: 75%;
@@ -516,7 +519,7 @@ a{
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child {
         background-color: #FF2241;
         width: 6.9vw;
-        height: 5.05vw !important;
+        height: 5.3vw !important;
         margin-right: 2.1vw;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li:last-child:hover {
@@ -589,7 +592,7 @@ a{
     .recap-recap {
         background-color: #000000;
         float:left;
-        height: 98.7vh;
+        height: 50.7vw;
         width: 50%;
         z-index: -1;
     }
@@ -597,7 +600,7 @@ a{
         font-family: "Elliot-Light";
         color: #ffffff;
         width: 60%;
-        margin: 32.15% auto 0 auto;
+        margin: 11vw auto 0 auto;
         margin-left: 20%;
         margin-bottom: 2vw;
     }
