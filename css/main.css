@@ -40,6 +40,15 @@ a{
     position: relative;
     text-decoration: none !important;
 }
+.currentPage::after{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    margin: 0 auto;
+    width: 50%;
+    height: 80%;
+    border-bottom: 4px solid #FF2241;
+}
 .close {
     position: absolute;
     left: 10.8vw;
