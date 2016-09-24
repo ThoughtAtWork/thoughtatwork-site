@@ -116,7 +116,7 @@
 			</div>
 		</div>
 		<!-- SPEAKERS -->
-		
+
 		<!--
 		<div class="container-fluid speakers tablet-bot tablet-top" >
 			<div class="row">
@@ -156,7 +156,6 @@
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
-            <!---->
         <script type="text/javascript" src="js/navScript.js"></script>
 	</body>
 </html>

@@ -184,8 +184,13 @@ a{
         -o-transition: width 0.15s ease-out;
     }
     .footer-logo {
-        width: 200px;
-        margin: 100px;
+        background-image: url("../img/TAW_Logo.png");
+        width: 120px;
+        height: 120px;
+        margin-top: 7.5vw;
+        position: absolute;
+        margin-left: calc(10px + -3.0vw);
+        background-repeat: no-repeat;
     }
     .food-menu-list li.link-effect::before{
         height: 75%;
@@ -890,6 +895,9 @@ a{
         width: 15vw;
         margin-left: 8vw;
         padding-right: -1.5vw;
+    }
+    img.sponsor-img a {
+        width: 15vw;
     }
     .sponsor-top{
         padding-top: 8.68vw;
@@ -2048,11 +2056,17 @@ a{
         margin-left: 8vw;
         padding-right: -1.5vw;
     }
+    img.sponsor-img a {
+        width: 15vw;
+    }
     .firstRow-sponsor-images{
         margin-left: -2vw !important;
     }
     .secondRow-sponsor-images{
         margin-left: 17vw !important;
+    }
+    .secondRow-sponsor-images-pushRight{
+        margin-left: -15vw !important;
     }
     .sponsor-top{
         padding-top: 8.68vw;
@@ -2337,7 +2351,6 @@ a{
         float: none;
         width: auto;
     }
-
     .contact-description{
         line-height: 1.42857143;
     }
@@ -2467,6 +2480,10 @@ a{
         padding-bottom: 8.0vh;
         max-width: 1000px;
     }
+    .footer-logo {
+        margin-top: 6.5vw;
+        margin-left: calc(10px + -7vw);
+    }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
@@ -2512,12 +2529,10 @@ a{
         position: fixed;
         opacity: .9945;
         top: 0;
-/*        width: 104%;*/
         right: 0;
         left: 0;
         min-height: 100%;
         text-align: center;
-
     }
     .menu-pad {
         padding-top: 12vh;
@@ -2820,6 +2835,15 @@ a{
         margin-left: 0;
         margin-bottom: 3vw;
     }
+    .footer-logo {
+        display: none;
+    }
+    .footer-logo-mobile {
+        background-image: url("../img/TAW_Logo_mobile.png");
+        height: 12vh;
+        background-position:  bottom center;
+        background-repeat: no-repeat;
+    }
     .sponsor-want{
         align-content: center;
         letter-spacing: .1em;
@@ -2839,6 +2863,12 @@ a{
         width: 25vw;
         min-width: 150px;
         padding-right: -1.5vw;
+    }
+    img.sponsor-img {
+        width: 25vw;
+    }
+    .secondRow-sponsor-images-pushRight{
+        margin-left: -2vw !important;
     }
     ul.nav.navbar-nav.navbar-right.p-r-9>li a{
         font-size: 5.33vw !important;
@@ -2922,7 +2952,6 @@ a{
     .close {
         left: 0vw;
     }
-
     .contact-description p{
         min-width: auto;
     }

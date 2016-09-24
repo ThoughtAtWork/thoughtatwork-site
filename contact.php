@@ -79,7 +79,7 @@
                   <div class="form-group">
                     <select class="form-control" id="concern" >
 
-                    <option value="0" selected disabled>Subject of your Concern</option>
+                    <option value="0" selected disabled>What's this about?</option>
                       <option value="Just saying hey">Just saying hey</option>
                       <option value="Important question">Important question</option>
                       <option value="Sponsorship inquiry">Sponsorship inquiry</option>
