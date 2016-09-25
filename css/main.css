@@ -541,6 +541,7 @@ a{
     }
     .navbar-inner ul li {
         width: 7vw;
+        height: 5.3vw !important;
         max-width: 179px;
         text-align: center;
     }
