@@ -42,7 +42,7 @@
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
-		<div class="container-fluid about-splash-words">
+		<div class="container-fluid about-splash-words contact-splash-words">
 			<div class="row">
 				<div class="col-lg-12 ">
 					<h1 class="title">Contact</h1>
