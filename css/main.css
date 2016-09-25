@@ -2905,6 +2905,9 @@ a{
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .moible-hide {
+        display: none;
+    }
     .about-splash-words {
         padding-bottom: 50vw;
     }
