@@ -40,7 +40,7 @@ a{
     position: relative;
     text-decoration: none !important;
 }
-.currentPage::after{
+.currentPage::after, .currentRegister::after{
     position: absolute;
     top: 0;
     left: 25%;
@@ -48,6 +48,9 @@ a{
     width: 50%;
     height: 80%;
     border-bottom: 4px solid #FF2241;
+}
+.currentRegister::after{
+    border-bottom: 4px solid #000;
 }
 .close {
     position: absolute;
@@ -2516,6 +2519,13 @@ a{
     .nav>li>a:focus, .nav>li>a:hover {
         background-color: transparent !important;
     }
+    .nav li:hover, .nav-register:hover{
+        background-color: transparent !important;
+    }
+    .currentPage::after, .currentRegister{
+        height: 100%;
+        border-bottom: 4px solid #FFF;
+    }
     .exit {
         display: block;
         position: absolute !important;
@@ -2909,6 +2919,10 @@ a{
     }
     .about-splash-words {
         padding-bottom: 50vw;
+    }
+    .currentPage::after, .currentRegister{
+        height: 90%;
+        border-bottom: 2px solid #FFF;
     }
     .footer-text p {
         color: white !important;
