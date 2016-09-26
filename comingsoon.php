@@ -13,6 +13,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+		<meta property="og:image" content="../img/tawtemp_share_image.png"/>
+
+		<meta property="og:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology. "/>
+
+		<meta property="og:url"content="http://thoughtatwork.cias.rit.edu/"/>
+
+		<meta property="og:title" content="Thought At Work, a student-run design conference"/>
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/main.css">
