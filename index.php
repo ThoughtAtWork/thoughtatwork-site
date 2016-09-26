@@ -55,6 +55,20 @@
 	</head>
 	<body>
     <?php include("header.php"); ?>
+<!--Underline effect for current page in nav-->
+<script>
+    $('.nav').find('a').each(function(){
+        var href = document.location.href;
+        var fileName = href.substr(href.lastIndexOf('/') + 1);
+        if($(this).attr('href') == fileName && fileName != "index.php"){
+            if(fileName == "register.php")
+                $(this.addClass('currentRegister'))
+            else
+                $(this).addClass('currentPage');
+        }
+    });
+</script>
+
   	<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">

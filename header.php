@@ -32,7 +32,6 @@
     $('.nav').find('a').each(function(){
         var href = document.location.href;
         var fileName = href.substr(href.lastIndexOf('/') + 1);
-        console.log(fileName + " " + $(this).attr('href'));
         if($(this).attr('href') == fileName && fileName != "index.php"){
             if(fileName == "register.php")
                 $(this.addClass('currentRegister'))
