@@ -2823,7 +2823,7 @@ a{
         font-family: "Elliot-Light";
         margin-top: 30vh;
         float: right;
-        margin-right: -20vw;
+        margin-right: -15vw;
         font-size: calc(14px + 1.4vw);
         display: flex;
     }
