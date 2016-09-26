@@ -1130,7 +1130,9 @@ a{
         height: 11vw;
         margin-top: 2vw;
     }
-
+    .clock-top-pad {
+        margin-top: 5vw;
+    }
     .countdown2{
         height: 11vw;
         margin-top: 4vw;
@@ -1294,7 +1296,6 @@ a{
         font-size: 1.04vw;
         line-height: 1.65vw;
         font-family: "Elliot-Light";
-        width: 28vw;
         list-style: none;
     }
     #map{
@@ -2079,6 +2080,9 @@ a{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
+    .countdown-marg-top {
+        height: 70vw;
+    }
     .mobile-no-mar {
         padding-right: 0px !important;
         padding-left: 0px !important;
@@ -2161,8 +2165,8 @@ a{
     }
     .count-left {
         position: absolute !important;
-        right: 25%;
-        margin-top: 8vw;
+        right: 28%;
+    
     }
     .count-right {
         position: absolute !important;
@@ -2172,7 +2176,7 @@ a{
     .count-left2 {
         position: absolute !important;
         right: 25%;
-        margin-top: 42vw;
+        margin-top: 36vw;
     }
     .count-right2 {
         position: absolute !important;
@@ -2181,7 +2185,6 @@ a{
 
     }
     .mobile-arrival {
-        margin-top: 70vw !important;
     }
     .countdown-text{
         font-family: "Elliot";
@@ -2302,7 +2305,10 @@ a{
         margin-left: 0vw;
     }
     .about-mobile-top {
-        margin-top: 20vw;
+        /*margin-top: 20vw;*/
+    }
+    .about-clock-mobile {
+        margin-top: 10vw;
     }
     .comingsoon-mobile-top {
         margin-top: 10vw;

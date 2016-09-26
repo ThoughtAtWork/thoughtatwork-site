@@ -42,7 +42,7 @@
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
-		<div class="container-fluid about-splash-words getready-splash-words">
+		<div class="container-fluid about-splash-words getready-splash-words ">
 			<div class="row">
 				<div class="col-lg-12">
 					<h1 class="title Title-small">GET READY</h1>
@@ -53,32 +53,33 @@
 
 		<!-- WHAT TO EXPECT -->
         <div class="navOff"></div>
-        <div class="container-fluid come-hang about-mobile-top mobile-pad ">
+        
+        <div class="container-fluid about-mobile-top countdown-marg-top clock-top-pad about-clock-mobile">
+                <div class="row about-margins getReady-margins  clock-center" id="clockdiv">
+                    <div class="col-sm-1 countdown col-sm-offset-2 count-center count-right mobile-position">
+                        <h4 class="countdown-date weeks "></h4>
+                        <p class="countdown-text">WEEKS</p>
+                    </div>
+                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-left mobile-position-2">
+                        <h4 class="countdown-date days"></h4>
+                        <p class="countdown-text">DAYS</p>
+                    </div>
+                    <div class="col-sm-1 countdown col-sm-offset-1 count-center count-right2">
+                        <h4 class="countdown-date hours"></h4>
+                        <p class="countdown-text">HOURS</p>
+                    </div>
+                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-left2">
+                        <h4 class="countdown-date minutes"></h4>
+                        <p class="countdown-text">MINUTES</p>
+                    </div>
+                </div>
+        </div>
+        <div class="container-fluid come-hang  mobile-pad ">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="getready-h2 elliot about-margins getReady-margins  what-expect-tablet-top">WHAT TO EXPECT</h2>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid ">
-                <div class="row about-margins getReady-margins  clock-center" id="clockdiv">
-                    <div class="col-sm-1 countdown col-sm-offset-2 count-center count-left mobile-position">
-                        <h4 class="countdown-date weeks "></h4>
-                        <p class="countdown-text">WEEKS</p>
-                    </div>
-                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right mobile-position-2">
-                        <h4 class="countdown-date days"></h4>
-                        <p class="countdown-text">DAYS</p>
-                    </div>
-                    <div class="col-sm-1 countdown col-sm-offset-1 count-center count-left2">
-                        <h4 class="countdown-date hours"></h4>
-                        <p class="countdown-text">HOURS</p>
-                    </div>
-                    <div class="col-sm-1 countdown2 col-sm-offset-1 count-center count-right2">
-                        <h4 class="countdown-date minutes"></h4>
-                        <p class="countdown-text">MINUTES</p>
-                    </div>
-                </div>
         </div>
 
         <div class="container-fluid about-mobile-top mobile-arrival what-expect-tablet-top">
@@ -153,19 +154,19 @@
                                     <ul class="">
                                     <br>
                                         <li class="hotel-list"><strong class="hotel-bold">Holiday Inn </strong>- 800
-                                            Jefferson Rd - $108 per night (one person)
+                                            Jefferson Rd - <a href="https://www.ihg.com/holidayinn/hotels/us/en/rochester/rocjr/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-USA-_-ROCJR">Website</a>
                                         </li>
                                         <li class="hotel-list"><strong class="hotel-bold">Microtel </strong>- 900 Lehigh
-                                            Station Rd - $41 per night (one person)
+                                            Station Rd - <a href="https://www.wyndhamhotels.com/microtel/henrietta-new-york/microtel-inn-rochester-henrietta/overview?WID=LC:MT:20150901:Rio:Local">Website</a>
                                         </li>
                                         <li class="hotel-list"><strong class="hotel-bold">Days Inn </strong>- 4853 W.
-                                            Henrietta Rd - $47 per night (one person)
+                                            Henrietta Rd - <a href="https://www.wyndhamhotels.com/days-inn/henrietta-new-york/days-inn-rochester-thruway-henrietta/overview?WID=LC:DI:20160226:RIO:Local:SM-dimatl">Website</a>
                                         </li>
                                         <li class="hotel-list"><strong class="hotel-bold">Radisson Hotel </strong>- 175
-                                            Jefferson Rd - $98 per night (one person)
+                                            Jefferson Rd - <a href="https://www.radisson.com/rochester-hotel-ny-14623/nyrochrd">Website</a>
                                         </li>
                                         <li class="hotel-list"><strong class="hotel-bold">RIT Inn and Conference
-                                            Center </strong>- 5257 W. Henrietta Rd - Check availability
+                                            Center </strong>- 5257 W. Henrietta Rd - <a href="http://www.rit.edu/ritinn/">Website</a>
                                         </li>
 
                                     </ul>
@@ -270,7 +271,7 @@
                                     <div class="food-sec">
                                         <p class="about-text">Until the world finally embraces the pragmatism of meal-replacement
 																					 formula, actual food will continue to be an important part of any weekend. At the
-																					 conference, meals will be provided for all conference attendees on several occasions
+																					 conference, meals will be provided  on several occasions
 																					  (with vegetarian options). You can count on Friday night dinner and Saturday lunch,
 																						as well as light breakfasts on Saturday and Sunday. You might be on your own Saturday
 																						 evening, and we can’t be responsible for snacks, second breakfast, elevenses, luncheon,
