@@ -50,7 +50,7 @@ a{
     border-bottom: 4px solid #FF2241;
 }
 .currentRegister::after{
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #FFF;
 }
 .close {
     position: absolute;
@@ -282,6 +282,42 @@ a{
     .nav li.btn-effect:hover::after {
         height: calc(100% - 6px);
         border-left: 6px solid #eee;
+    }
+    .logo-effect{
+        position: relative;
+        clip: rect(8px, 158px, 13px, 0);
+    }
+    .logo-effect::before, .logo-effect::after{
+        content: 'Thought at Work';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-brand:hover .logo-effect::before{
+        left: 1px;
+        color: #FF2241;
+        clip: rect(8px, 158px, 13px, 0);
+        animation: glitch-anim .2s 2 linear alternate-reverse;
+    }
+    .logo-effect::after{
+        left: -1px;
+        clip: rect(5px, 158px, 8px, 0);
+    }
+    @keyframes glitch-anim {
+        0% {
+          clip: rect(0px, 158px, 2px, 0);
+        }
+        30% {
+          clip: rect(4px, 158px, 8px, 0);
+        }
+        60% {
+          clip: rect(5px, 158px, 12px, 0);
+        }
+        100% {
+          clip: rect(10px, 158px, 20px, 0);
+        }
     }
     .goback-btn.btn-effect:hover::before{
         border-bottom: 8px solid #FF2241;
