@@ -166,7 +166,8 @@
 																	 with a host from our team. Contact hello@thoughtatwork.org
 																	 and we’ll help you find somewhere to crash.
 																 <br>
-															 For more information on couch-surfing, contact us <a href="contact.php">here</a>
+															 For more information on couch-surfing, contact us <a href="mailto:email@zxk3766@rit.edu?subject=Couch%20Surfing">
+Send Email</a>
 														 </p>
                             </div>
                         </div>
