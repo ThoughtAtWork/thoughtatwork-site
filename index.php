@@ -55,7 +55,6 @@
 	</head>
 	<body>
     <?php include("header.php"); ?>
-<!--Underline effect for current page in nav-->
   	<!-- HEADER / SPLASH -->
 		<div class="container-fluid splash-words">
 			<div class="row">

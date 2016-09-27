@@ -283,9 +283,14 @@ a{
         height: calc(100% - 6px);
         border-left: 6px solid #eee;
     }
+    .navbar-brand:hover .tempHover{
+        color: #FF2241 !important;
+        transition: .2s ease-in-out;
+    }
     .logo-effect{
         position: relative;
         clip: rect(8px, 158px, 13px, 0);
+        transition: none;
     }
     .logo-effect::before, .logo-effect::after{
         content: 'Thought at Work';
@@ -295,28 +300,78 @@ a{
         width: 100%;
         height: 100%;
     }
-    .navbar-brand:hover .logo-effect::before{
-        left: 1px;
+    .navbar-brand:hover .logo-effect{
         color: #FF2241;
-        clip: rect(8px, 158px, 13px, 0);
-        animation: glitch-anim .2s 2 linear alternate-reverse;
+        animation: glitch-anim 1s linear;
+        animation-fill-mode: forwards;
     }
-    .logo-effect::after{
-        left: -1px;
-        clip: rect(5px, 158px, 8px, 0);
+    .navbar-brand:hover .logo-effect::before{
+        left: 2px;
+        color: #FFF;
+        animation: glitch-anim1 1s linear;
+        animation-fill-mode: forwards;
+    }
+    .navbar-brand:hover .logo-effect::after{
+        color: #FFF;
+        left: -2px;
+        animation: glitch-anim2 1s linear;
+        animation-fill-mode: forwards;
     }
     @keyframes glitch-anim {
         0% {
-          clip: rect(0px, 158px, 2px, 0);
+            clip: rect(0px, 158px, 0px, 0);
         }
-        30% {
-          clip: rect(4px, 158px, 8px, 0);
+        20%{
+            clip: rect(0px, 158px, 13px, 0);
         }
-        60% {
-          clip: rect(5px, 158px, 12px, 0);
+        99%{
+            clip: rect(0px, 158px, 0px, 0);
         }
         100% {
-          clip: rect(10px, 158px, 20px, 0);
+            color: #FF2241;
+        }
+    }
+    @keyframes glitch-anim1 {
+        0% {
+            clip: rect(0px, 158px, 0px, 0);
+        }
+        20%{
+            clip: rect(13px, 158px, 16px, 0);
+        }
+        60% {
+            clip: rect(0px, 158px, 3px, 0);
+            left: 2px;
+            color: #FFF;
+        }
+        61% {
+            clip: rect(0px, 158px, 3px, 0);
+            left: 0;
+            color: #FF2241;
+        }
+        100% {
+            color: #FF2241;
+            left: 0;
+        }
+    }
+    @keyframes glitch-anim2 {
+        0% {
+            clip: rect(0px, 158px, 20px, 0);
+        }
+        20%{
+            clip: rect(16px, 158px, 20px, 0);
+        }
+        49% {
+            clip: rect(3px, 158px, 20px, 0);
+            left: -2px;
+            color: #FFF;
+        }
+        50% {
+            clip: rect(3px, 158px, 20px, 0);
+            left: 0;
+            color: #FF2241;
+        }
+        100% {
+            left: 0;
         }
     }
     .goback-btn.btn-effect:hover::before{

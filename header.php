@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand title p-l-12 mobile-hide" href="index.php">Thought at Work</a>
+            <a class="navbar-brand title p-l-12 mobile-hide" href="index.php"><div class="tempHover">Thought at Work</div></a>
         </div>
         <div id="menu" class="navbar-collapse collapse navbar-inner pull-right drop-down" >
             <span class="x">
