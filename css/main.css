@@ -1567,7 +1567,7 @@ a{
 
     .countdown2{
         height: 11vw;
-        margin-top: 4vw;
+        margin-top: 2vw;
     }
     .countdown-date{
         font-family: "Elliot-Thin";
@@ -2261,7 +2261,6 @@ a{
     }
     .count-right {
         position: absolute !important;
-        left: 25%;
 
     }
     .count-left2 {
@@ -2587,6 +2586,11 @@ a{
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+    .count-right {
+        position: absolute !important;
+        left: 25%;
+
+    }
     /* mobile header styles*/
      /*Menu Styles*/
      .mobile-home {
