@@ -12,7 +12,7 @@
 	<meta property="og:type"               content="article" />
 	<meta property="og:title"              content="Thought At Work, a student-run design conference" />
 	<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
-	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.png" />
+	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.jpg" />
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="product">
@@ -22,7 +22,7 @@
 	<meta name="twitter:creator" content="@TAW_RIT">
 	<meta name="twitter:image" content="http://www.example.com/image.jpg">
 
-	<meta name="description" content="Our Website">
+	<meta name="description" content="Student-Run Design Conference">
 	<meta name="title" content="Thought at Work">
 
   <!-- Mobile Specific Metas

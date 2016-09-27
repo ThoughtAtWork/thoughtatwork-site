@@ -7,23 +7,23 @@
   <meta charset="utf-8">
   <title>Thought At Work - Coming Soon</title>
 
-		<!-- Open Graph data -->
-		<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />
-		<meta property="og:type"               content="article" />
-		<meta property="og:title"              content="Thought At Work, a student-run design conference" />
-		<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
-		<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.png" />
+	<!-- Open Graph data -->
+	<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="Thought At Work, a student-run design conference" />
+	<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
+	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.jpg" />
 
-		<!-- Twitter Card data -->
-		<meta name="twitter:card" content="product">
-		<meta name="twitter:site" content="@TAW_RIT">
-		<meta name="twitter:title" content="Thought At Work, a student-run design conference">
-		<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
-		<meta name="twitter:creator" content="@TAW_RIT">
-		<meta name="twitter:image" content="http://www.example.com/image.jpg">
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="product">
+	<meta name="twitter:site" content="@TAW_RIT">
+	<meta name="twitter:title" content="Thought At Work, a student-run design conference">
+	<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
+	<meta name="twitter:creator" content="@TAW_RIT">
+	<meta name="twitter:image" content="http://www.example.com/image.jpg">
 
-		<meta name="description" content="Our Website">
-		<meta name="title" content="Thought at Work">
+	<meta name="description" content="Student-Run Design Conference">
+	<meta name="title" content="Thought at Work">
 
 
 	  <!-- Mobile Specific Metas

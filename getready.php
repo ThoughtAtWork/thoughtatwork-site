@@ -7,23 +7,23 @@
   <meta charset="utf-8">
   <title>Thought At Work - Get Ready</title>
 
-		<!-- Open Graph data -->
-		<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />
-		<meta property="og:type"               content="article" />
-		<meta property="og:title"              content="Thought At Work, a student-run design conference" />
-		<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
-		<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.png" />
+	<!-- Open Graph data -->
+	<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="Thought At Work, a student-run design conference" />
+	<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
+	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.jpg" />
 
-		<!-- Twitter Card data -->
-		<meta name="twitter:card" content="product">
-		<meta name="twitter:site" content="@TAW_RIT">
-		<meta name="twitter:title" content="Thought At Work, a student-run design conference">
-		<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
-		<meta name="twitter:creator" content="@TAW_RIT">
-		<meta name="twitter:image" content="http://www.example.com/image.jpg">
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="product">
+	<meta name="twitter:site" content="@TAW_RIT">
+	<meta name="twitter:title" content="Thought At Work, a student-run design conference">
+	<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
+	<meta name="twitter:creator" content="@TAW_RIT">
+	<meta name="twitter:image" content="http://www.example.com/image.jpg">
 
-		<meta name="description" content="Our Website">
-		<meta name="title" content="Thought at Work">
+	<meta name="description" content="Student-Run Design Conference">
+	<meta name="title" content="Thought at Work">
 
 	  <!-- Mobile Specific Metas
 	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -264,10 +264,10 @@
                                             once you get here.
                                         </p> <br>
                                         <h3 class="getready-h3 elliot arrival-sub-head-pad">Parking</h3>
-                                        <p class="elliot about-text">Guest parking will be lots E and H. Upon getready to campus, there will be
-                                            signs to direct you to parking and check-in in Booth Hall (Building 7A). Our
-                                            check-in table opens at 9am on Friday morning, and our opening reception
-                                            will be at 1pm.</p><br>
+                                        <p class="elliot about-text">Guest parking will be lots E and H. When you get to campus, there will be
+                                            signs to direct you to parking and check-in in Booth Hall (Building 7A). If you're getting here friday, you'll have to grab
+																						a free visitors pass from the welcome center. Our check-in table opens at 9am on Friday morning, and
+																						our opening reception will be at 11:45 am.</p><br>
                                         <h3 class="getready-h3 elliot arrival-sub-head-pad">Check-in</h3>
                                         <p class="elliot about-text">Upon check-in, you’ll be provided with a lanyard for entry into the events
                                             and workshops, a name tag, and a brochure with more information and a
