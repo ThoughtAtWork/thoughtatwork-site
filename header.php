@@ -34,7 +34,7 @@
         var fileName = href.substr(href.lastIndexOf('/') + 1);
         if($(this).attr('href') == fileName && fileName != "index.php"){
             if(fileName == "register.php")
-                $(this.addClass('currentRegister'))
+                $(this).addClass('currentRegister');
             else
                 $(this).addClass('currentPage');
         }
