@@ -7,6 +7,8 @@
   <meta charset="utf-8">
   <title>Thought At Work - Home</title>
 
+	<meta name="format-detection" content="telephone=no">
+
 	<!-- Open Graph data -->
 	<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />
 	<meta property="og:type"               content="article" />
