@@ -317,6 +317,20 @@ a{
         animation: glitch-anim2 1s linear;
         animation-fill-mode: forwards;
     }
+    .speaker-h2 {
+        font-family: "Elliot";
+    }
+    .speaker-h3 {
+        margin-top: 0px !important;
+        font-family: "Elliot";
+        padding-bottom: .6vw;
+    }
+    .speaker-h4 {
+        font-family: "Elliot";
+        border-bottom: 2px solid #000;
+        width: 31vw;
+        padding-bottom: 5px;
+    }
     @keyframes glitch-anim {
         0% {
             clip: rect(0px, 158px, 0px, 0);
@@ -1549,6 +1563,18 @@ a{
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    .speaker-h2 {
+        font-family: "Elliot";
+    }
+    .speaker-h3 {
+        font-family: "Elliot";
+    }
+    .speaker-h4 {
+        font-family: "Elliot";
+        border-bottom: 2px solid #000;
+        width: 37vw;
+        padding-bottom: 5px;
+    }
     .navbar-nav>li>a:hover{
         background-color: rgba(255, 255, 255, 0) !important;
     }
@@ -2171,6 +2197,18 @@ a{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
+    .speaker-h2 {
+        font-family: "Elliot";
+    }
+    .speaker-h3 {
+        font-family: "Elliot";
+    }
+    .speaker-h4 {
+        font-family: "Elliot";
+        border-bottom: 2px solid #000;
+        width: 50vw;
+        padding-bottom: 5px;
+    }
     .countdown-marg-top {
         height: 70vw;
     }
