@@ -163,8 +163,8 @@
                                 <p class="elliot about-text get-head-section-bot">Coming from out of town? There’s a pretty decent selection of hotels
 																	near RIT that would make for a comfortable home base. Airbnb is another suitable option.
 																	If your bank account disagrees, you can enlist in our Couch Surfing program and get set up
-																	 with a host from our team. Contact <a href="mailto:email@zxk3766@rit.edu?subject=Couch%20Surfing">Zoe </a>
-																	 and we’ll help you find somewhere to crash (spots are limited).
+																	 with a host from our team. Contact <a href="mailto:zxk3766@rit.edu?subject=Couch%20Surfing">Zoe </a>
+																	 before October 16th and she’ll help you find somewhere to crash (spots are limited).
 														 </p>
                             </div>
                         </div>
