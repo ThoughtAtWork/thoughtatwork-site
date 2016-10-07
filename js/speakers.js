@@ -1,0 +1,1 @@
+var info = $.get(speakerInfo.txt);
