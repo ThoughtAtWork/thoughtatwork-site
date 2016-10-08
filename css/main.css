@@ -336,20 +336,6 @@ a{
         animation: glitch-anim2 .2s linear .07s;
         animation-fill-mode: forwards;
     }
-    .speaker-h2 {
-        font-family: "Elliot";
-    }
-    .speaker-h3 {
-        margin-top: 0px !important;
-        font-family: "Elliot";
-        padding-bottom: .6vw;
-    }
-    .speaker-h4 {
-        font-family: "Elliot";
-        border-bottom: 2px solid #000;
-        width: 31vw;
-        padding-bottom: 5px;
-    }
     @keyframes glitch-anim {
         0% {
             clip: rect(20px, 160px, 20px, 0);
@@ -565,6 +551,21 @@ a{
         cursor: pointer;
     }
 
+    /*speaker page*/
+    .speaker h2 {
+        font-family: "Elliot";
+    }
+    .speaker-h3 {
+        margin-top: 0px !important;
+        font-family: "Elliot";
+        padding-bottom: .6vw;
+    }
+    .speaker-h4 {
+        font-family: "Elliot";
+        border-bottom: 2px solid #000;
+        width: 31vw;
+        padding-bottom: 5px;
+    }
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */

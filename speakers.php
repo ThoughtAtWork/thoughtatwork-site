@@ -49,6 +49,8 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+<!--Generate speaker info-->
+<script src="js/speakers.js"></script>
 <!-- <script src="../constantlyUpdatingScript.js"></script> -->
 
 	</head>
@@ -79,11 +81,6 @@
 						<img src="img/speaker.jpg" class="img-responsive"></img>
 				</div>
         <div class="col-md-5">
-            <h2 class="speaker-h2">Mount Mograph</h2>
-            <h3 class="speaker-h3">DCI-Artform</h3>
-            <h4 class="speaker-h4">Creative Coding, Photography, Development</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
         </div>
 
 			</div>
