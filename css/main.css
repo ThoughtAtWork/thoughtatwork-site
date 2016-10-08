@@ -305,7 +305,7 @@ a{
     }
     .navbar-brand{
         position: relative;
-        width: 336px;
+        min-width: 336px;
     }
 
     .navbar-brand::before, .navbar-brand::after{
