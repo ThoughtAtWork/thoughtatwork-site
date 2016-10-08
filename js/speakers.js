@@ -47,7 +47,7 @@ function initSecond(){
 		}
 		console.log(fields);
 		$('.container-speakers').append(
-			'<div class="speaker">\n<img src=\"' + speakers[i].img + '\" class="speaker-img">\n' + 
+			'<div class="speaker">\n<img src=\"' + speakers[i].img + '\" class="speaker-image">\n' + 
 			'<h2 class="speaker-name">' + speakers[i].name + '</h2>\n' +
 			'<p class="speaker-fields">' + fields + '</p></div>'
 		);
