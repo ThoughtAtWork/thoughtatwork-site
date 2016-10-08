@@ -12,7 +12,7 @@ var info = $.get('speakerInfo.txt', function(data){
 });
 
 function offline(){
-	var info = "Bushra\|\|Senior Director\|Nicholas Cage\'presentations\'stuff\|aldksflkj description\|Adding Cage\-ism\|Friday October 21, 7:00\-8:00PM\|loremipsum.com\|link.com\\Person\|\|Junior Something\|eqwr\'sdf\'jobs\'stuffs\|dfjljjjf desc\|Bloops\|Sunday, 5\-2AM\|bleepbloop.com\|otherlink.com\\Kiddo\|\|Manager of Someplace\|laskdfj\'ekcv\'lafkj\|bnc,mznvew descr\|Meeps\|Monday, 4\-0PM\|meepmeep.com\|otherotherlink.com";
+	var info = "Bushra\|\|Senior Director\|Nicholas Cage\'presentations\'stuff\|aldksflkj description\|Adding Cage\-ism\|Friday October 21, 7:00\-8:00PM\|loremipsum.com\|link.com\\Person\|\|Junior Something\|eqwr\'sdf\'jobs\'stuffs\|dfjljjjf desc\|Bloops\|Sunday, 5\-2AM\|bleepbloop.com\|otherlink.com\\Kiddo\|\|Manager of Someplace\|laskdfj\'ekcv\'lafkj\|bnc,mznvew descr\|Meeps\|Monday, 4\-0PM\|meepmeep.com\|otherotherlink.com\\Fourtho\|\|Manager of Someotherplace\|cxzxcv\'qweg\'lfdhshh\|erasdgardff descr\|Mops\|Monday, 4\-6PM\|meepmop.com\|otherslink.com";
 	console.dir(info);
 	sortData(info);
 	initSecond();
@@ -46,8 +46,8 @@ function initSecond(){
 				fields += ", ";
 		}
 		console.log(fields);
-		$('.col-md-5').append(
-			'<div class="speaker">\n<img src=\"' + speakers[i].img + '\">\n' + 
+		$('.container-speakers').append(
+			'<div class="speaker">\n<img src=\"' + speakers[i].img + '\" class="speaker-img">\n' + 
 			'<h2 class="speaker-name">' + speakers[i].name + '</h2>\n' +
 			'<p class="speaker-fields">' + fields + '</p></div>'
 		);

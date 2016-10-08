@@ -76,14 +76,8 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row">
-				<div class="col-md-3 col-md-offset-2">
-						<img src="img/speaker.jpg" class="img-responsive"></img>
-				</div>
-        <div class="col-md-5">
-        </div>
-
-			</div>
+        <div class="container-speakers">
+		</div>
     </div>
     
         <!--- Footer Include-->
