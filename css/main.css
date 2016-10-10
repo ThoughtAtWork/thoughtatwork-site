@@ -633,6 +633,9 @@ a{
         position: fixed;
         top: 0;
     }
+    .blur{
+        filter: blur(10px);
+    }
     .speaker-modal-image{
         float: left;
         width: 36vw;
@@ -664,7 +667,6 @@ a{
     }
     .speaker-modal-socialMedia{
         margin-top: 5vw;
-        background-color: #00F;
     }
 /*==========  Non-Mobile First Method  ==========*/
 

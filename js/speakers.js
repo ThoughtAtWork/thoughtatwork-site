@@ -59,11 +59,13 @@ $(document).ready(function(){
 			fillModal($(this).index());
 			$('.speaker-modal').toggleClass('modal-hidden');
 			$('.close-modal').toggleClass('modal-hidden');
+			$('.container-fluid').toggleClass('blur');
 		});
 
 		$('.close-modal').click(function(){
 			$('.speaker-modal').toggleClass('modal-hidden');	
 			$(this).toggleClass('modal-hidden');
+			$('.container-fluid').toggleClass('blur');
 		})
 	}
 
