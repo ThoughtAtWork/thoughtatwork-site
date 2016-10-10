@@ -595,13 +595,24 @@ a{
     /*modal css*/
     .speaker-modal{
         width: 76vw;
-        height: 80vh;
         position: fixed;
-        top: 10vh;
+        top: 7.5vh;
         left: 12vw;
-        background-color: #DDD;
-        font-family: 'Elliot';
+        background-color: #FFF;
+        font-family: 'Elliot-Light';
         z-index: 1;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    }
+    .speaker-modal p{
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+    }
+    .speaker-modal a{
+        font-family: 'Elliot-Bold';
+        font-size: 1vw;
+        letter-spacing: 0.1vw;
+        color: #333;
+        text-transform: uppercase;
     }
     .speaker-modal-content{
         position: relative;
@@ -611,7 +622,7 @@ a{
     }
     .speaker-modal-info{
         float: left;
-        padding: 10vh 6vw;
+        padding: 7vh 4.2vw;
     }
     .modal-hidden{
         display: none;
@@ -624,28 +635,36 @@ a{
     }
     .speaker-modal-image{
         float: left;
-        width: 30vw;
-        height: 80vh;
+        width: 36vw;
+        height: 85vh;
     }
     .speaker-modal-name{
+        font-family: 'Elliot';
+        font-size: 1.8vw;
     }
     .speaker-modal-position{
-        
+        margin-bottom: 3vw;
     }
     .speaker-modal-description{
-        
+        margin-bottom: 2.5vw;
     }
     .speaker-modal-label{
-        
+        font-family: 'Elliot';
+        font-size: 1.2vw;
     }
     .speaker-modal-presentation{
-
+        
     }
     .speaker-modal-dateTime{
-
+        margin-bottom: 2.5vw;
+    }
+    .speaker-modal-website{
+        padding-top: 5vw;
+        margin-bottom: 5vw;
     }
     .speaker-modal-socialMedia{
-
+        margin-top: 5vw;
+        background-color: #00F;
     }
 /*==========  Non-Mobile First Method  ==========*/
 

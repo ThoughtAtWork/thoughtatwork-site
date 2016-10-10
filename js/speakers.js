@@ -76,7 +76,8 @@ $(document).ready(function(){
 			'<h3 class="speaker-modal-label">' + speakers[i].name + '\'s Presentations<\/h3>\n' +
 			'<p class="speaker-modal-presentation">' + speakers[i].presentation + '<\/p>\n' + 
 			'<p class="speaker-modal-dateTime">' + speakers[i].dateTime + '<\/p>\n' +
-			'<a href=\"' + speakers[i].websiteURL + '\">View Schedule<\/a><br>\n' +
+			'<a href=\"' + '\">View Schedule<\/a><br>\n' +
+			'<a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website\">' + speakers[i].website + '<\/a><br>\n' +
 			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia">' + speakers[i].socialMedia + '<\/a><\/div><\/div>'
 		);
 	}
