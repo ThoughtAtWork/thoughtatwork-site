@@ -28,19 +28,24 @@
 </div>
 <div class="row sponsor-top mobile-remove-sponsor-top sponsor-bottom">
 <div class="center-mid">
-<div class="col-sm-4">
-       <a href="http://cias.rit.edu/" target="_blank">
-   <img class="sponsor-img secondRow-sponsor-images" src="img/sponsor-logos-05.png" />
-    </a>
-</div>
- <div class="col-sm-4">
-     <a href="http://www.wacom.com/" target="_blank">
-    <img class="sponsor-img sponsor-tablet-pushLeft" src="img/sponsor-logos-08_1.png" />
+ <div class="col-sm-3 firstRow-sponsor-images">
+    <a href="http://cias.rit.edu/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-05.png" />
+     </a>
+         </div>
+ <div class="col-sm-3">
+    <a href="http://www.wacom.com/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-06.png" />
      </a>
  </div>
- <div class="col-sm-4">
-     <a href="https://www.stickermule.com/" target="_blank">
-    <img class="sponsor-img firstRow-sponsor-images secondRow-sponsor-images-pushRight" src="img/sponsor-logos-06.png" />
+ <div class="col-sm-3  firstRow-sponsor-images">
+    <a href="https://www.stickermule.com/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-07.png" />
+     </a>
+ </div>
+ <div class="col-sm-3">
+     <a href="http://www.tinyfishprinting.com/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-08.png" />
      </a>
  </div>
 </div>
