@@ -591,6 +591,26 @@ a{
         opacity: 0.9;
         padding-top: 60%;
     }
+
+    /*modal css*/
+    .speaker-modal{
+        width: 50%;
+        height: 50%;
+        position: fixed;
+        top: 50px;
+        background-color: #DDD;
+        z-index: 1;
+    }
+    .modal-hidden{
+        display: none !important;
+    }
+    .close-modal{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */

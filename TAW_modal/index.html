@@ -6,6 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Nifty Modal Window Effects</title>
 		<link rel="stylesheet" type="text/css" href="css/modal.css" /> <!-- modal for page -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="../js/speakers.js"></script>
 	</head>
 	<body>
 		<div class="md-modal md-effect-16" id="modal-16">
@@ -22,9 +26,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="clearfix">
-				<button class="md-trigger" data-modal="modal-16">Blur</button>
-				<!-- special modal that will add a perspective class to the html element -->
+		<div class="container">
+			<div class="clearfix">
+					<button class="md-trigger" data-modal="modal-16">Blur</button>
+					<button class="md-trigger" data-modal="modal-16">Blur2</button>
+					<button class="md-trigger" data-modal="modal-16">Blur3</button>
+					<!-- special modal that will add a perspective class to the html element -->
+			</div>
 		</div>
 		<div class="md-overlay"></div><!-- the overlay element -->
 
@@ -38,6 +46,7 @@
 			// this is important for IEs
 			var polyfilter_scriptpath = '/js/';
 		</script>
+		<script src="js/cssParser.js"></script>
 		<script src="js/css-filters-polyfill.js"></script>
 	</body>
 </html>

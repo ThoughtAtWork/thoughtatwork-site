@@ -79,7 +79,9 @@
         <div class="container-speakers">
 		</div>
     </div>
-    
+    <div class="speaker-modal modal-hidden">
+    </div>
+    <div class="close-modal modal-hidden">toggle</div>
         <!--- Footer Include-->
 
 		<?php include("footer.php"); ?>
