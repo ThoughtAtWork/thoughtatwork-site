@@ -82,9 +82,21 @@
     <div class="speaker-modal modal-hidden">
     </div>
     <div class="close-modal modal-hidden"></div>
+
+		<div class="md-overlay"></div><!-- the overlay element -->
+
         <!--- Footer Include-->
 
 		<?php include("footer.php"); ?>
        <script type="text/javascript" src="js/navScript.js"></script>
+			 <script>
+					var polyfilter_scriptpath = '/css-filters-polyfill/lib/';
+			</script>
+			<script>
+					var polyfilter_scriptpath = '/css-filters-polyfill/lib/';
+					var polyfilter_skip_stylesheets = true;
+			</script>
+			<script src="/css-filters-polyfill/lib/cssParser.js"></script>
+			<script src="/css-filters-polyfill/lib/css-filters-polyfill.js"></script>
 	</body>
 </html>
