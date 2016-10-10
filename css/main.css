@@ -633,6 +633,9 @@ a{
         position: fixed;
         top: 0;
     }
+    .blur{
+        filter: blur(10px);
+    }
     .speaker-modal-image{
         float: left;
         width: 36vw;
@@ -653,7 +656,7 @@ a{
         font-size: 1.2vw;
     }
     .speaker-modal-presentation{
-        
+
     }
     .speaker-modal-dateTime{
         margin-bottom: 2.5vw;
@@ -2388,7 +2391,7 @@ a{
     .count-left {
         position: absolute !important;
         right: 28%;
-    
+
     }
     .count-right {
         position: absolute !important;
