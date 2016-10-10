@@ -636,7 +636,7 @@ a{
     .speaker-modal-image{
         float: left;
         width: 36vw;
-        height: 85vh;
+        height: 65vh;
     }
     .speaker-modal-name{
         font-family: 'Elliot';
@@ -661,10 +661,10 @@ a{
     .speaker-modal-website{
         padding-top: 5vw;
         margin-bottom: 5vw;
+        top: 7vw;
     }
     .speaker-modal-socialMedia{
-        margin-top: 5vw;
-        background-color: #00F;
+        top: 7vw;
     }
 /*==========  Non-Mobile First Method  ==========*/
 
