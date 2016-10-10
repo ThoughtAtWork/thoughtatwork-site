@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	var speakers = [];
-	$('.speaker-modal').removeAttr('style');
 
 	$( document ).ajaxError(function() {
 		$('.top-buffer').prepend("Need to be on server to access external speakers file. Here is some test content.");
@@ -58,29 +57,27 @@ $(document).ready(function(){
 		$('.speaker').click(function(){
 			$('.speaker-modal-content').detach();
 			fillModal($(this).index());
-			$('.speaker-modal').toggle('modal-hidden');
+			$('.speaker-modal').toggleClass('modal-hidden');
 			$('.close-modal').toggleClass('modal-hidden');
-			$('.speaker-modal').removeAttr('style');
 		});
 
 		$('.close-modal').click(function(){
 			$('.speaker-modal').toggleClass('modal-hidden');	
 			$(this).toggleClass('modal-hidden');
-			$('.speaker-modal').removeAttr('style');
 		})
 	}
 
 	function fillModal(i){
 		$('.speaker-modal').append(
 			'<div class=\"speaker-modal-content\">\n<img src=\"' + speakers[i].img + '\" class=\"speaker-modal-image\">\n' + 
-			'<h2 class=\"speaker-name\">' + speakers[i].name + '<\/h2>\n' +
+			'<div class=\"speaker-modal-info\"><h2 class=\"speaker-modal-name\">' + speakers[i].name + '<\/h2>\n' +
 			'<p class="speaker-modal-position">' + speakers[i].position + '<\/p>\n' +
 			'<p class="speaker-modal-description">' + speakers[i].description + '<\/p>\n' +
 			'<h3 class="speaker-modal-label">' + speakers[i].name + '\'s Presentations<\/h3>\n' +
 			'<p class="speaker-modal-presentation">' + speakers[i].presentation + '<\/p>\n' + 
 			'<p class="speaker-modal-dateTime">' + speakers[i].dateTime + '<\/p>\n' +
-			'<a href=\"' + speakers[i].websiteURL + '\">View Schedule<\/a>\n' +
-			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia">' + speakers[i].socialMedia + '<\/a><\/div>'
+			'<a href=\"' + speakers[i].websiteURL + '\">View Schedule<\/a><br>\n' +
+			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia">' + speakers[i].socialMedia + '<\/a><\/div><\/div>'
 		);
 	}
 });
