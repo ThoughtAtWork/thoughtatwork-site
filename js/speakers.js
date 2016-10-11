@@ -68,7 +68,15 @@ $(document).ready(function(){
 			$(this).toggle();
 			$('.container-fluid').toggleClass('blur');
 			$('.speakers-splash-words').removeAttr('id');
-		})
+		});
+
+		$('.modal-x').click(function(){
+			console.log("hit");
+			$('.speaker-modal').toggleClass('modal-hidden');	
+			$('.close-modal').toggle();
+			$('.container-fluid').toggleClass('blur');
+			$('.speakers-splash-words').removeAttr('id');
+		});
 	}
 
 	function fillModal(i){

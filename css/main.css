@@ -625,8 +625,9 @@ a{
     #changeBG::after{
         opacity: none !important;
     }
-    .speaker-modal{
+     .speaker-modal{
         width: 76vw;
+        height: 40vw;
         position: fixed;
         top: 7.5vh;
         left: 12vw;
@@ -650,6 +651,14 @@ a{
     .modal-hidden{
         top: -80vh;
     }
+    .modal-x {
+        position: absolute;
+        left: 74vw;
+        top: 1vw;
+        width: 2vw;
+        height: 2vw;
+        z-index: 2000;
+    }
     .close-modal{
         z-index: 1999;
         width: 100%;
@@ -666,6 +675,7 @@ a{
     .speaker-modal-info{
         float: left;
         width: 50%;
+        height: 100%;
         padding: 6vh 3.5vw;
         overflow-y: scroll;
     }

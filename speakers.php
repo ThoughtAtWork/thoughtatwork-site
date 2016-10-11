@@ -79,6 +79,7 @@
 		</div>
     </div>
     <div class="speaker-modal modal-hidden">
+    <div class="modal-x"><a>X</a></div>
     </div>
     <div class="close-modal" style="display:none;"></div>
 
