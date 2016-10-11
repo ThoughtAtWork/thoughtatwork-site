@@ -2459,7 +2459,7 @@ a{
         background-attachment: fixed;
         height: 19.8vw;
         max-height: 608px;
-        background-image: url(https://taw.imgix.net/about_splash.jpg?w=990&h=1);
+        background-image: url(https://taw.imgix.net/about_splash.jpg?w=1&h=1);
         background-repeat: ;
         background-position-y: -100px;
         background-position-x: -200px;
@@ -2470,10 +2470,10 @@ a{
         margin-left: -20px;
     }
     .contact-splash-words {
-      background-image: url(https://taw.imgix.net/contact_splash.jpg?w=990&h=1) !important;
+      background-image: url(https://taw.imgix.net/contact_splash.jpg?w=1&h=1) !important;
     }
     .getready-splash-words {
-      background-image: url(https://taw.imgix.net/getready_splash.jpg?w=990&h=1) !important;
+      background-image: url(https://taw.imgix.net/getready_splash.jpg?w=1&h=609) !important;
     }
     .speakers-splash-words::before{
         background-image: url(https://taw.imgix.net/speakers_splashblur.jpg?w=990&h=1) !important;
