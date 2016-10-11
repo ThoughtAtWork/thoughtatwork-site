@@ -576,11 +576,6 @@ a{
         margin: 0 !important;
         position: relative;
     }
-    .speaker-fields {
-        margin: 0 !important;
-        font-family: "Elliot-Light";
-        font-size: 1.1vw;
-    }
     .speaker-image::after{
         content: ' ';
         color: #FFF;
@@ -594,6 +589,14 @@ a{
         opacity: 0;
         padding-top: 60%;
         transition: .15s ease-in-out;
+    }
+    .speaker-fields {
+        margin: 0 !important;
+        font-family: "Elliot-Light";
+        font-size: 1.1vw;
+    }
+    .speaker-expand{
+        display: none;
     }
     .speaker:hover .speaker-image::after{
         content: 'hover';
@@ -2782,6 +2785,15 @@ a{
     }
     .speaker-fields {
         font-size: 1.7vw;
+        margin-bottom: 0.8vw !important;
+    }
+    .speaker-expand{
+        color: #333;
+        display: inline-block;
+        font-family: 'Elliot-Bold';
+        font-size: 1.4vw;
+        letter-spacing: 0.07vw;
+        text-transform: uppercase;
     }
 }
 /* Small Devices, Tablets */
@@ -3241,8 +3253,14 @@ a{
     }
     .speaker-fields {
         margin: 0 !important;
+        margin-bottom: 1vw !important;
         font-family: "Elliot-Light";
         font-size: 2.5vw;
+    }
+    .speaker-expand{
+        font-family: 'Elliot-Bold';
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
     }
 }
 

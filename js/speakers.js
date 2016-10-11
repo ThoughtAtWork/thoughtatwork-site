@@ -50,7 +50,7 @@ $(document).ready(function(){
 			$('.container-speakers').append(
 				'<div class="speaker">\n<img src=\"' + speakers[i].img + '\" class="speaker-image">\n' + 
 				'<div class="speaker-content"><h2 class="speaker-name">' + speakers[i].name + '</h2>\n' +
-				'<p class="speaker-fields">' + fields + '</p></div></div>'
+				'<p class="speaker-fields">' + fields + '</p>\n<a href=\"\" class=\"speaker-expand link-effect\" onclick=\"return false;\">View More</a>\n</div>\n</div>'
 			);
 		}
 
