@@ -649,7 +649,7 @@ a{
         text-transform: uppercase;
     }
     .modal-hidden{
-        top: -80vh;
+        top: -160vh;
     }
     .modal-x {
         position: absolute;
