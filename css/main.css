@@ -14,9 +14,6 @@
   font-family: 'Elliot-Thin';
   src: url("../fonts/Elliot-Thin.otf"); }
 body {
-    /* Location of the image */
-/*    background-image: url(../images/background.jpg);*/
-
     /* Background image is centered vertically and horizontally at all times */
     background-position:center top;
 
@@ -190,7 +187,7 @@ a{
         -o-transition: width 0.15s ease-out;
     }
     .footer-logo {
-        background-image: url("../img/TAW_Logo.png");
+        background-image: url(https://taw.imgix.net/TAW_Logo.png?w=120&h=1);
         width: 120px;
         height: 120px;
         margin-top: 7.5vw;
@@ -607,7 +604,7 @@ a{
         height: 19.8vw;
         position: absolute;
         top: 0;
-        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1&fit=crop&crop=fit');
+        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1');
         background-position-y: -1.8vw;
         background-position-x: -2vw;
         background-attachment: fixed;
@@ -794,8 +791,7 @@ a{
         padding-left: 12.4vw !important;
         width: 100%;
         height: 37.9vw;
-        background-image: url(../img/background.jpg);
-        /*background-position: left bottom;*/
+        background-image: url(https://taw.imgix.net/background.jpg?w=1920&h=1);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
@@ -1147,7 +1143,7 @@ a{
         letter-spacing: 1.5px;
     }
     .comingsoon-splash {
-        background-image: url(../img/comingsoon_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/comingsoon_splash.jpg?w=2420&h=1) !important;
     }
 /*    ABOUT PAGE ABOUT PAGE ABOUT PAGEABOUT PAGE*/
     .about-splash-words {
@@ -1156,7 +1152,7 @@ a{
         padding-left: 11.7vw !important;
         width: 100%;
         height: 19.8vw;
-        background-image: url(../img/about_splash.jpg);
+        background-image: url(https://taw.imgix.net/about_splash.jpg?w=2560&h=1);
         /*background-position: left bottom;*/
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -1167,13 +1163,13 @@ a{
         font-family: "Elliot-Bold";
     }
     .contact-splash-words {
-        background-image: url(../img/contact_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/contact_splash.jpg?w=2560&h=1) !important;
     }
     .getready-splash-words {
-        background-image: url(../img/getready_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/getready_splash.jpg?w=2560&h=1) !important;
     }
     .speakers-splash-words{
-        background-image: url(../img/speakers_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1920&h=1) !important;
     }
     .about-history {
         margin-top: -.245vw;
@@ -1510,7 +1506,7 @@ a{
         line-height: 1.67vw;
     }
     .whattobring-sec-right{
-        background-image: url(../img/teq1.jpg);
+        background-image: url(https://taw.imgix.net/whattobring.jpg?w=1051&h=1);
         background-position:center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1593,7 +1589,7 @@ a{
     }
 
     .food-menu{
-        background-image: url("../img/food-menu.png");
+        background-image: url(https://taw.imgix.net/food-menu.png?w=600&h=1);
         background-repeat: no-repeat;
         background-size: cover;
         margin-top: 3vw;
@@ -1758,7 +1754,7 @@ a{
         padding-bottom: 20px;
     }
     .food-menu{
-        background-image: url("../img/food-menu.png");
+        background-image: url(https://taw.imgix.net/food-menu.png?w=600&h=1);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -1870,7 +1866,7 @@ a{
         display: none !important;
     }
     .comingsoon-splash {
-        background-image: url(../img/comingsoon_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/comingsoon_splash.jpg?w=1200&h=1) !important;
     }
     .about-splash-words {
         color: #ffffff;
@@ -1878,7 +1874,7 @@ a{
         padding-left: 11.7vw !important;
         width: 100%;
         height: 19.8vw;
-        background-image: url(../img/about_splash.jpg);
+        background-image: url(https://taw.imgix.net/about_splash.jpg?w=1200&h=1);
         background-attachment: fixed;
     }
     .about-splash-words h1 {
@@ -1886,13 +1882,13 @@ a{
         font-family: "Elliot-Bold";
     }
     .contact-splash-words {
-        background-image: url(../img/contact_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/contact_splash.jpg?w=1200&h=1) !important;
     }
     .getready-splash-words {
-      background-image: url(../img/getready_splash.jpg) !important;
+      background-image: url(https://taw.imgix.net/getready_splash.jpg?w=1200&h=1) !important;
     }
     .speakers-splash-words{
-        background-image: url(../img/speakers_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/speakers_splashblur.jpg?w=1200&h=1) !important;
     }
     .about-desc {
         width: 30vw;
@@ -2044,7 +2040,7 @@ a{
         padding-left: 12.4vw !important;
         width: 100%;
         height: 49.2vw;
-        background-image: url(../img/background.jpg);
+        background-image: url(https://taw.imgix.net/background.jpg?w=1200&h=1);
         /*background-position: left bottom;*/
         background-color: #16161E;
         background-repeat: no-repeat;
@@ -2220,8 +2216,6 @@ a{
     .tablet-hide {
         display: none !important;
     }
-
-    /* speaker image size and text tablet */
     .speakers {
         padding-bottom: 0px;
     }
@@ -2336,18 +2330,6 @@ a{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
-    /*.speaker-h2 {
-        font-family: "Elliot";
-    }
-    .speaker-h3 {
-        font-family: "Elliot";
-    }
-    .speaker-h4 {
-        font-family: "Elliot";
-        border-bottom: 2px solid #000;
-        width: 50vw;
-        padding-bottom: 5px;
-    }*/
     .countdown-marg-top {
         height: 70vw;
     }
@@ -2365,7 +2347,7 @@ a{
         padding-bottom: 30px;
     }
     .food-menu{
-        background-image: url("../img/food-menu.png");
+        background-image: url(https://taw.imgix.net/food-menu.png?w=600&h=1);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -2410,7 +2392,6 @@ a{
     }
     .mobile-food-white {
         background-color: white !important;
-
     }
     .mobile-no-pad-food {
         color: black;
@@ -2423,7 +2404,6 @@ a{
         /*overflow-y: scroll;*/
         color: white;
     }
-
     .countdown-date{
         font-family: "Elliot-Thin";
         font-size: 12vw;
@@ -2449,7 +2429,6 @@ a{
         position: absolute !important;
         left: 25%;
         margin-top: 36vw;
-
     }
     .mobile-arrival {
     }
@@ -2466,7 +2445,7 @@ a{
         padding-top: 5vh;
     }
     .comingsoon-splash {
-        background-image: url(../img/comingsoon_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/comingsoon_splash.jpg?w=990&h=1) !important;
     }
     .comingsoon-splash .title{
         padding-top: 0vw !important;
@@ -2480,7 +2459,7 @@ a{
         background-attachment: fixed;
         height: 19.8vw;
         max-height: 608px;
-        background-image: url(../img/about_splash.jpg);
+        background-image: url(https://taw.imgix.net/about_splash.jpg?w=990&h=1);
         background-repeat: ;
         background-position-y: -100px;
         background-position-x: -200px;
@@ -2491,13 +2470,13 @@ a{
         margin-left: -20px;
     }
     .contact-splash-words {
-      background-image: url(../img/contact_splash.jpg) !important;
+      background-image: url(https://taw.imgix.net/contact_splash.jpg?w=990&h=1) !important;
     }
     .getready-splash-words {
-      background-image: url(../img/getready_splash.jpg) !important;
+      background-image: url(https://taw.imgix.net/getready_splash.jpg?w=990&h=1) !important;
     }
     .speakers-splash-words::before{
-        background-image: url(../img/speakers_splash.jpg) !important;
+        background-image: url(https://taw.imgix.net/speakers_splashblur.jpg?w=990&h=1) !important;
         z-index: -1;
         opacity: 1;
         transition: .15s ease-in;
@@ -2702,7 +2681,7 @@ a{
         padding-left: 12.4vw !important;
         width: 100%;
         height: 49.2vw;
-        background-image: url(../img/background.jpg);
+        background-image: url(https://taw.imgix.net/background.jpg?w=990&h=1);
         /*background-position: left bottom;*/
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -3113,12 +3092,11 @@ a{
         padding-left: 9.85vw !important;
         width: 100%;
         height: 110vh;
-        background-image: url(../img/backgroundMobile.png) !important;
-        /*background-position: left bottom;*/
+        background-image: url(https://taw.imgix.net/backgroundMobile.png?w=750&h=1) !important;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
-        background: url(../img/backgroundMobile.png) no-repeat !important;
+        background: url(https://taw.imgix.net/backgroundMobile.png?w=750&h=1) no-repeat !important;
         -webkit-background-size: cover !important;
         -moz-background-size: cover !important;
         -o-background-size: cover !important;
@@ -3162,7 +3140,7 @@ a{
         display: none;
     }
     .footer-logo-mobile {
-        background-image: url("../img/TAW_Logo_mobile.png");
+        background-image: url(https://taw.imgix.net/TAW_Logo_mobile.png?w=80&h=1);
         height: 12vh;
         background-position:  bottom center;
         background-repeat: no-repeat;
