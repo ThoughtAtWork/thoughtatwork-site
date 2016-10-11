@@ -563,6 +563,7 @@ a{
         margin: 3vw 1.8vw;
         text-align: left;
         vertical-align: top;
+        cursor: pointer;
     }
     .speaker-name {
         font-family: "Elliot";
@@ -3210,6 +3211,39 @@ a{
     .mobile-remove-sponsor-top {
       padding-top: 0;
     }
+    /*speakers page*/
+    .container-speakers{
+        width: 66vw;
+    }
+    .speaker{
+        display: inline-block;
+        width: 100%;
+        margin: 5vw 0;
+        text-align: left;
+        vertical-align: top;
+    }
+    .speaker-name {
+        font-family: "Elliot";
+        font-size: 3.5vw;
+        margin: 5vw 0 1.5vw 0;
+    }
+    .speaker-image{
+        float: left;
+        display: inline-block;
+        width: 35%;
+        height: 31.6vw;
+        margin: 0 !important;
+        position: relative;
+    }
+    .speaker-content{
+        float: left;
+        margin-left: 4vw;
+    }
+    .speaker-fields {
+        margin: 0 !important;
+        font-family: "Elliot-Light";
+        font-size: 2.5vw;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -3295,6 +3329,40 @@ a{
     }
     .contact-label label{
         font-size: 2.1vw;
+    }
+    /*speakers page*/
+    .container-speakers{
+        width: 75vw;
+    }
+    .speaker{
+        display: inline-block;
+        width: 100%;
+        margin: 5vw 0;
+        text-align: left;
+        vertical-align: top;
+    }
+    .speaker-name {
+        font-family: "Elliot";
+        font-size: 5vw;
+        margin: 5vw 0 1.5vw 0;
+    }
+    .speaker-image{
+        float: left;
+        display: inline-block;
+        width: 40%;
+        height: 38.6vw;
+        margin: 0 !important;
+        position: relative;
+    }
+    .speaker-content{
+        width: calc(60% - 6vw);
+        float: left;
+        margin-left: 6vw;
+    }
+    .speaker-fields {
+        margin: 0 !important;
+        font-family: "Elliot-Light";
+        font-size: 3.5vw;
     }
 }
 
