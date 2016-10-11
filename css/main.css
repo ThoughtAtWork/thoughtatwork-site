@@ -607,7 +607,7 @@ a{
         height: 19.8vw;
         position: absolute;
         top: 0;
-        background-image: url('../img/speakers_splashblur.jpg');
+        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1&fit=crop&crop=fit');
         background-position-y: -1.8vw;
         background-position-x: -2vw;
         background-attachment: fixed;
