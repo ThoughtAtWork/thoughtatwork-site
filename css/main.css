@@ -162,6 +162,7 @@ a{
     }
 
     .link-effect:hover{
+        color: #333;
         text-decoration: none !important;
     }
 
@@ -591,8 +592,31 @@ a{
         opacity: 0.9;
         padding-top: 60%;
     }
-
+    #blurryPic{
+        width: 100%;
+        height: 19.8vw;
+        position: absolute;
+        top: 0;
+        background-image: url('../img/speakers_splashblur.jpg');
+        background-position-y: -1.8vw;
+        background-position-x: -2vw;
+        background-attachment: fixed;
+        background-size: 105%;
+        overflow: hidden;
+        z-index: -1;
+    }
+    #whiteEdge{ 
+        width: 100%;
+        height: 1.3vw;
+        position: absolute;
+        bottom: 0;
+        background-image : linear-gradient(to bottom, 
+            rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+    }
     /*modal css*/
+    #changeBG{
+        background: none !important;
+    }
     .speaker-modal{
         width: 76vw;
         position: fixed;
@@ -610,7 +634,7 @@ a{
     .speaker-modal a{
         font-family: 'Elliot-Bold';
         font-size: 1vw;
-        letter-spacing: 0.1vw;
+        letter-spacing: 0.08vw;
         color: #333;
         text-transform: uppercase;
     }
@@ -622,7 +646,7 @@ a{
     }
     .speaker-modal-info{
         float: left;
-        padding: 7vh 4.2vw;
+        padding: 6vh 3.5vw;
     }
     .modal-hidden{
         display: none;
@@ -639,7 +663,6 @@ a{
     .speaker-modal-image{
         float: left;
         width: 36vw;
-        height: 65vh;
     }
     .speaker-modal-name{
         font-family: 'Elliot';
@@ -662,9 +685,7 @@ a{
         margin-bottom: 2.5vw;
     }
     .speaker-modal-website{
-        padding-top: 5vw;
-        margin-bottom: 5vw;
-        top: 7vw;
+        top: 6vw;
     }
     .speaker-modal-socialMedia{
         top: 7vw;
@@ -1133,7 +1154,10 @@ a{
         background-image: url(../img/contact_splash.jpg) !important;
     }
     .getready-splash-words {
-      background-image: url(../img/getready_splash.jpg) !important;
+        background-image: url(../img/getready_splash.jpg) !important;
+    }
+    .speakers-splash-words{
+        background-image: url(../img/speakers_splash.jpg) !important;
     }
     .about-history {
         margin-top: -.245vw;
@@ -2293,7 +2317,7 @@ a{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
-    .speaker-h2 {
+    /*.speaker-h2 {
         font-family: "Elliot";
     }
     .speaker-h3 {
@@ -2304,7 +2328,7 @@ a{
         border-bottom: 2px solid #000;
         width: 50vw;
         padding-bottom: 5px;
-    }
+    }*/
     .countdown-marg-top {
         height: 70vw;
     }
@@ -2716,6 +2740,32 @@ a{
     .footer-logo {
         margin-top: 6.5vw;
         margin-left: calc(10px + -7vw);
+    }
+
+    /*speaker page*/
+    .container-speakers{
+        width: 76vw;
+    }
+    .speaker{
+        width: 30vw;
+        margin: 3vw 4vw;
+        text-align: left;
+    }
+    .speaker-name {
+        font-family: "Elliot-Light";
+        font-size: 1.73vw;
+        margin: 2.4vw 0 .8vw 0;
+    }
+    .speaker-image{
+        width: 100%;
+        height: 31.6vw;
+        margin: 0 !important;
+        position: relative;
+    }
+    .speaker-fields {
+        margin: 0 !important;
+        font-family: "Elliot-Light";
+        font-size: 1.1vw;
     }
 }
 /* Small Devices, Tablets */

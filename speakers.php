@@ -55,10 +55,11 @@
 
 	</head>
 	<body>
+		<div id="blurryPic"><div id="whiteEdge"> </div></div>
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
-		<div class="container-fluid about-splash-words ">
+		<div class="container-fluid about-splash-words speakers-splash-words">
 			<div class="row">
 				<div class="col-lg-12 ">
 					<h1 class="title ">Speakers</h1>

@@ -60,12 +60,14 @@ $(document).ready(function(){
 			$('.speaker-modal').toggleClass('modal-hidden');
 			$('.close-modal').toggleClass('modal-hidden');
 			$('.container-fluid').toggleClass('blur');
+			$('.speakers-splash-words').attr('id', 'changeBG');
 		});
 
 		$('.close-modal').click(function(){
 			$('.speaker-modal').toggleClass('modal-hidden');	
 			$(this).toggleClass('modal-hidden');
 			$('.container-fluid').toggleClass('blur');
+			$('.speakers-splash-words').removeAttr('id');
 		})
 	}
 
@@ -78,9 +80,9 @@ $(document).ready(function(){
 			'<h3 class="speaker-modal-label">' + speakers[i].name + '\'s Presentations<\/h3>\n' +
 			'<p class="speaker-modal-presentation">' + speakers[i].presentation + '<\/p>\n' + 
 			'<p class="speaker-modal-dateTime">' + speakers[i].dateTime + '<\/p>\n' +
-			'<a href=\"' + '\">View Schedule<\/a><br>\n' +
-			'<a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website\">' + speakers[i].website + '<\/a><br>\n' +
-			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia">' + speakers[i].socialMedia + '<\/a><\/div><\/div>'
+			'<a href=\"' + '\" class="link-effect">View Schedule<\/a><br>\n' +
+			'<a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a><br>\n' +
+			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div><\/div>'
 		);
 	}
 });
