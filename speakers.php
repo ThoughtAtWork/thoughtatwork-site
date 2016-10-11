@@ -55,7 +55,7 @@
 
 	</head>
 	<body>
-		<div id="blurryPic"><div id="whiteEdge"> </div></div>
+		<div class="about-splash-words" id="blurryPic"><div id="whiteEdge"> </div></div>
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->
@@ -82,7 +82,7 @@
     </div>
     <div class="speaker-modal modal-hidden">
     </div>
-    <div class="close-modal modal-hidden"></div>
+    <div class="close-modal" style="display:none;"></div>
 
 		<div class="md-overlay"></div><!-- the overlay element -->
 

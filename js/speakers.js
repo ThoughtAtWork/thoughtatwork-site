@@ -58,14 +58,14 @@ $(document).ready(function(){
 			$('.speaker-modal-content').detach();
 			fillModal($(this).index());
 			$('.speaker-modal').toggleClass('modal-hidden');
-			$('.close-modal').toggleClass('modal-hidden');
+			$('.close-modal').toggle();
 			$('.container-fluid').toggleClass('blur');
 			$('.speakers-splash-words').attr('id', 'changeBG');
 		});
 
 		$('.close-modal').click(function(){
 			$('.speaker-modal').toggleClass('modal-hidden');	
-			$(this).toggleClass('modal-hidden');
+			$(this).toggle();
 			$('.container-fluid').toggleClass('blur');
 			$('.speakers-splash-words').removeAttr('id');
 		})

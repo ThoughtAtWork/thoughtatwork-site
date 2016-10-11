@@ -580,8 +580,8 @@ a{
         font-family: "Elliot-Light";
         font-size: 1.1vw;
     }
-    .speaker:hover .speaker-image::after{
-        content: 'hover';
+    .speaker-image::after{
+        content: ' ';
         color: #FFF;
         position: absolute;
         top: 0;
@@ -590,8 +590,13 @@ a{
         height: 100%;
         background-color: #FF2241;
         text-align: center;
-        opacity: 0.9;
+        opacity: 0;
         padding-top: 60%;
+        transition: .15s ease-in-out;
+    }
+    .speaker:hover .speaker-image::after{
+        content: 'hover';
+        opacity: 0.9;
     }
     #blurryPic{
         width: 100%;
@@ -610,13 +615,14 @@ a{
         width: 100%;
         height: 1.3vw;
         position: absolute;
+        left: 0;
         bottom: 0;
         background-image : linear-gradient(to bottom, 
             rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
     }
     /*modal css*/
-    #changeBG{
-        background: none !important;
+    #changeBG::after{
+        opacity: none !important;
     }
     .speaker-modal{
         width: 76vw;
@@ -627,7 +633,7 @@ a{
         font-family: 'Elliot-Light';
         z-index: 1;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
-        transition: 0.2s ease-in-out;
+        transition: 0.3s ease-in-out;
     }
     .speaker-modal p{
         font-size: 1.2vw;
@@ -639,6 +645,15 @@ a{
         letter-spacing: 0.08vw;
         color: #333;
         text-transform: uppercase;
+    }
+    .modal-hidden{
+        top: -80vh;
+    }
+    .close-modal{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
     }
     .speaker-modal-content{
         position: relative;
@@ -652,18 +667,9 @@ a{
         padding: 6vh 3.5vw;
         overflow-y: scroll;
     }
-    .modal-hidden{
-        display: none;
-        top: -100vh;
-    }
-    .close-modal{
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-    }
     .blur{
         filter: blur(10px);
+        transition: 0.1s ease-in;
     }
     .speaker-modal-image{
         float: left;
@@ -1880,6 +1886,9 @@ a{
     .getready-splash-words {
       background-image: url(../img/getready_splash.jpg) !important;
     }
+    .speakers-splash-words{
+        background-image: url(../img/speakers_splash.jpg) !important;
+    }
     .about-desc {
         width: 30vw;
         margin-top: 2vw;
@@ -2481,6 +2490,12 @@ a{
     }
     .getready-splash-words {
       background-image: url(../img/getready_splash.jpg) !important;
+    }
+    .speakers-splash-words::before{
+        background-image: url(../img/speakers_splash.jpg) !important;
+        z-index: -1;
+        opacity: 1;
+        transition: .15s ease-in;
     }
     .mobile-about-history h2{
         padding-bottom: 5.5vw !important;
