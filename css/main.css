@@ -604,11 +604,12 @@ a{
         height: 19.8vw;
         position: absolute;
         top: 0;
-        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1');
+        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1') !important;
         background-position-y: -1.8vw;
         background-position-x: -2vw;
         background-attachment: fixed;
         background-size: 105%;
+        background-repeat: no-repeat;
         overflow: hidden;
         z-index: -1;
     }
@@ -2487,11 +2488,20 @@ a{
     .getready-splash-words {
       background-image: url(https://taw.imgix.net/getready_splash.jpg?w=1&h=609) !important;
     }
+    /*testing things help .speakers-splash-words{
+        background: none;
+    }*/
     .speakers-splash-words::before{
         background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1&h=1) !important;
         z-index: -1;
-        opacity: 1;
+        opacity: 0;
         transition: .15s ease-in;
+    }
+    #blurryPic{
+        height: 50.7vw;
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: 155%;
     }
     .mobile-about-history h2{
         padding-bottom: 5.5vw !important;
@@ -3116,6 +3126,14 @@ a{
         -moz-background-size: cover !important;
         -o-background-size: cover !important;
         background-size: cover !important;
+    }
+    .speakers-splash-words{
+        background: none !important; /*will be removed after blurry pic error is fixed*/
+    }
+    #blurryPic{
+        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1') !important;
+        background-attachment: fixed;
+        background-size: 155%;
     }
     .mobile-learn-more {
         transform: rotate(-90deg);
