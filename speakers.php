@@ -53,7 +53,7 @@
 
 	</head>
 	<body>
-		<div id="blurryPic"><div id="whiteEdge"> </div></div>
+		<div class="about-splash-words" id="blurryPic"><div id="whiteEdge"> </div></div>
         <?php include("header.php"); ?>
  <!--  -->
 		<!-- HEADER / SPLASH -->

@@ -98,271 +98,271 @@ a{
     font-size: 30px;
 }
 /* Footer Styles */
-    footer {
-        background-color: #FF2241;
-        padding-top: 7vw !important;
-    }
-    .footer-text p {
-        color: #fff !important;
-        font-family: "Elliot-Light";
-    }
-    .footer-nav ul li {
-        padding-left: 10vw;
-        width: 14vw;
-        max-width: 250px !important;
-    }
-    .footer-nav.nav {
-        padding-top: .3vw;
-        padding-bottom: 5.4vw;
-    }
-    .footer-nav a {
-        font-size: 12.5px;
-        font-family: "Elliot" !important;
-        color: white !important;
-        text-decoration: none;
-    }
-    .footer-text .special {
-        padding-left: 10vw;
-        padding-top: 7.8vw;
-        max-width: 1000px;
-    }
-    .footer-text .copyright {
-        padding-left: 10vw;
-        padding-top: 3.8vw;
-        padding-bottom: 8.0vw;
-        max-width: 1000px;
-    }
-    .circle-footer {
-        width: 10px;
-        height: 10px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-        margin-top: 6px;
-    }
-    .line-footer {
-        margin-top: 10px;
-        width: 31vw;
-        max-width: 235px;
-        height: 2px;
-        float: right;
-        position: absolute;
-        z-index: 100;
-        background: white;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-    }
+footer {
+    background-color: #FF2241;
+    padding-top: 7vw !important;
+}
+.footer-text p {
+    color: #fff !important;
+    font-family: "Elliot-Light";
+}
+.footer-nav ul li {
+    padding-left: 10vw;
+    width: 14vw;
+    max-width: 250px !important;
+}
+.footer-nav.nav {
+    padding-top: .3vw;
+    padding-bottom: 5.4vw;
+}
+.footer-nav a {
+    font-size: 12.5px;
+    font-family: "Elliot" !important;
+    color: white !important;
+    text-decoration: none;
+}
+.footer-text .special {
+    padding-left: 10vw;
+    padding-top: 7.8vw;
+    max-width: 1000px;
+}
+.footer-text .copyright {
+    padding-left: 10vw;
+    padding-top: 3.8vw;
+    padding-bottom: 8.0vw;
+    max-width: 1000px;
+}
+.circle-footer {
+    width: 10px;
+    height: 10px;
+    float: right;
+    position: absolute;
+    z-index: 100;
+    background: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+.line-footer {
+    margin-top: 10px;
+    width: 31vw;
+    max-width: 235px;
+    height: 2px;
+    float: right;
+    position: absolute;
+    z-index: 100;
+    background: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
 
-    .link-effect:hover{
-        color: #333;
-        text-decoration: none !important;
-    }
+.link-effect:hover{
+    color: #333;
+    text-decoration: none !important;
+}
 
-    .link-effect::before{
-        position: absolute;
-        border-bottom: 3px solid transparent;
-        width: 0;
-        height: 120%;
-        top: 0;
-        left: 0;
-    }
-    .link-effect:hover::before {
-        width: 100%;
-        border-bottom: 3px solid #FF2241;
-        transition: width 0.25s ease-out;
-        -webkit-transition: width 0.25s ease-out;
-        -moz-transition: width 0.25s ease-out;
-        -o-transition: width 0.25s ease-out;
-    }
-    footer .link-effect:hover::before{
-        border-bottom: 1px solid #000;
-        transition: width 0.15s ease-out;
-        -webkit-transition: width 0.15s ease-out;
-        -moz-transition: width 0.15s ease-out;
-        -o-transition: width 0.15s ease-out;
-    }
-    .footer-logo {
-        background-image: url(https://taw.imgix.net/TAW_Logo.png?w=120&h=1);
-        width: 120px;
-        height: 120px;
-        margin-top: 7.5vw;
-        position: absolute;
-        margin-left: calc(10px + -3.0vw);
-        background-repeat: no-repeat;
-    }
-    .food-menu-list li .link-effect::before{
-        height: 75%;
-    }
-    .food-menu-list li .link-effect:hover::before{
-        border-bottom: 6px solid #FF2241;
-        transition: width .3s ease-out;
-        -webkit-transition: width .3s ease-out;
-        -moz-transition: width .3s ease-out;
-        -o-transition: width .3s ease-out;
-    }
-    .food-menu-list li:hover, .food-menu-list2 li:hover, .food-menu-list-item.selected-item, .food-menu-list2-item.selected-item{
-        color: #FF2241;
-        transition: .15s ease-in-out;
-        -webkit-transition: .15s ease-in-out;
-        -moz-transition: .15s ease-in-out;
-        -o-transition: .15s ease-in-out;
-    }
-    .food-menu-list2 li.link-effect::before{
-        height: 80%;
-    }
-    .food-menu-list2 li.link-effect:hover::before{
-        border-bottom: 4px solid #FF2241;
-        transition: width .3s ease-out;
-        -webkit-transition: width .3s ease-out;
-        -moz-transition: width .3s ease-out;
-        -o-transition: width .3s ease-out;
-    }
-    .about-also-checkout .link-effect::before{
-        height: 140%;
-    }
-    .contact-btn{
-        color: white;
-        background-color: #FF2241;
-        padding: 0.9vw 1.7vw !important;
-        font-family: 'Elliot';
-        font-size: calc(6px + .52vw) !important;;
-        text-transform: uppercase;
-        letter-spacing: 1.9px;
-        position: relative;
-        border-width: 0 !important;
+.link-effect::before{
+    position: absolute;
+    border-bottom: 3px solid transparent;
+    width: 0;
+    height: 120%;
+    top: 0;
+    left: 0;
+}
+.link-effect:hover::before {
+    width: 100%;
+    border-bottom: 3px solid #FF2241;
+    transition: width 0.25s ease-out;
+    -webkit-transition: width 0.25s ease-out;
+    -moz-transition: width 0.25s ease-out;
+    -o-transition: width 0.25s ease-out;
+}
+footer .link-effect:hover::before{
+    border-bottom: 1px solid #000;
+    transition: width 0.15s ease-out;
+    -webkit-transition: width 0.15s ease-out;
+    -moz-transition: width 0.15s ease-out;
+    -o-transition: width 0.15s ease-out;
+}
+.footer-logo {
+    background-image: url(https://taw.imgix.net/TAW_Logo.png?w=120&h=1);
+    width: 120px;
+    height: 120px;
+    margin-top: 7.5vw;
+    position: absolute;
+    margin-left: calc(10px + -3.0vw);
+    background-repeat: no-repeat;
+}
+.food-menu-list li .link-effect::before{
+    height: 75%;
+}
+.food-menu-list li .link-effect:hover::before{
+    border-bottom: 6px solid #FF2241;
+    transition: width .3s ease-out;
+    -webkit-transition: width .3s ease-out;
+    -moz-transition: width .3s ease-out;
+    -o-transition: width .3s ease-out;
+}
+.food-menu-list li:hover, .food-menu-list2 li:hover, .food-menu-list-item.selected-item, .food-menu-list2-item.selected-item{
+    color: #FF2241;
+    transition: .15s ease-in-out;
+    -webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    -o-transition: .15s ease-in-out;
+}
+.food-menu-list2 li.link-effect::before{
+    height: 80%;
+}
+.food-menu-list2 li.link-effect:hover::before{
+    border-bottom: 4px solid #FF2241;
+    transition: width .3s ease-out;
+    -webkit-transition: width .3s ease-out;
+    -moz-transition: width .3s ease-out;
+    -o-transition: width .3s ease-out;
+}
+.about-also-checkout .link-effect::before{
+    height: 140%;
+}
+.contact-btn{
+    color: white;
+    background-color: #FF2241;
+    padding: 0.9vw 1.7vw !important;
+    font-family: 'Elliot';
+    font-size: calc(6px + .52vw) !important;;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+    position: relative;
+    border-width: 0 !important;
 
-        transition: .2s ease-in-out;
-        -webkit-transition: .2s ease-in-out;
-        -moz-transition: .2s ease-in-out;
-        -o-transition: .2s ease-in-out;
-    }
-    .btn::before, .btn::after, a::before, a::after, .nav li::before, .nav li::after, .food-menu-list li::before, .food-menu-list li::after, .food-menu-list2 li::before, .food-menu-list2 li::after{
-        box-sizing: border-box;
-        content: '';
-        position: absolute;
-    }
-    .btn-effect::before, .btn-effect::after {
-        border: 0 solid transparent;
-        width: 0;
-        height: 0;
-        top: 0;
-        left: 0;
-    }
-    .btn-effect:hover::before {
-        width: 100%;
-        height: 100%;
-        border-bottom: 4px solid #FF2241;
-        border-left: 4px solid #FF2241;
-        transition: border-color 0s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
-        -webkit-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
-        -moz-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
-        -o-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
-    }
-    .btn-effect:hover::after {
-        height: calc(100% - 4px);
-        border-left: 5px solid #000;
-        transition: border-color 0s, height 0.15s ease-out .15s;
-        -webkit-transition: border-color 0s, height 0.15s ease-out .15s;
-        -moz-transition: border-color 0s, height 0.15s ease-out .15s;
-        -o-transition: border-color 0s, height 0.15s ease-out .15s;
-    }
-    .nav li:hover, .nav-register:hover{
-        background-color: #eee !important;
-        transition: .2s ease-in-out;
-    }
-    .nav li.btn-effect:hover::before {
-        border-bottom: 6px solid #FF2241;
-        border-left: 6px solid #FF2241;
-    }
-    .nav li.btn-effect:hover::after {
-        height: calc(100% - 6px);
-        border-left: 6px solid #eee;
-    }
-    .navbar-brand:hover .tempHover{
-        color: #FF2241 !important;
-        transition: .2s ease-in-out;
-    }
-    .logo-effect{
-        font-family: 'Elliot-Bold';
-        position: relative;
-        transition: none;
-    }
-    .logo-effect::before, .logo-effect::after{
-        content: 'Thought at Work';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        clip: rect(0px, 0px, 0px, 0);
-    }
-    .navbar-brand{
-        position: relative;
-        min-width: 336px;
-    }
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
+.btn::before, .btn::after, a::before, a::after, .nav li::before, .nav li::after, .food-menu-list li::before, .food-menu-list li::after, .food-menu-list2 li::before, .food-menu-list2 li::after{
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+}
+.btn-effect::before, .btn-effect::after {
+    border: 0 solid transparent;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+.btn-effect:hover::before {
+    width: 100%;
+    height: 100%;
+    border-bottom: 4px solid #FF2241;
+    border-left: 4px solid #FF2241;
+    transition: border-color 0s, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+    -webkit-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+    -moz-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+    -o-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+.btn-effect:hover::after {
+    height: calc(100% - 4px);
+    border-left: 5px solid #000;
+    transition: border-color 0s, height 0.15s ease-out .15s;
+    -webkit-transition: border-color 0s, height 0.15s ease-out .15s;
+    -moz-transition: border-color 0s, height 0.15s ease-out .15s;
+    -o-transition: border-color 0s, height 0.15s ease-out .15s;
+}
+.nav li:hover, .nav-register:hover{
+    background-color: #eee !important;
+    transition: .2s ease-in-out;
+}
+.nav li.btn-effect:hover::before {
+    border-bottom: 6px solid #FF2241;
+    border-left: 6px solid #FF2241;
+}
+.nav li.btn-effect:hover::after {
+    height: calc(100% - 6px);
+    border-left: 6px solid #eee;
+}
+.navbar-brand:hover .tempHover{
+    color: #FF2241 !important;
+    transition: .2s ease-in-out;
+}
+.logo-effect{
+    font-family: 'Elliot-Bold';
+    position: relative;
+    transition: none;
+}
+.logo-effect::before, .logo-effect::after{
+    content: 'Thought at Work';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip: rect(0px, 0px, 0px, 0);
+}
+.navbar-brand{
+    position: relative;
+    min-width: 336px;
+}
 
-    .navbar-brand::before, .navbar-brand::after{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .navbar-brand:hover .logo-effect p{
-        position: absolute;
-        width: 100%;
-        height: 100%;
+.navbar-brand::before, .navbar-brand::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar-brand:hover .logo-effect p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip: rect(20px, 160px, 20px, 0);
+    animation: glitch-anim .2s linear .07s;
+    animation-fill-mode: forwards;
+    color: #fff;
+}
+.navbar-brand:hover .logo-effect::before{
+    left: 1px;
+    clip: rect(0px, 160px, 8px, 0);
+    animation: glitch-anim1 .2s linear .07s;
+    animation-fill-mode: forwards;
+}
+.navbar-brand:hover .logo-effect::after{
+    left: -2px;
+    clip: rect(8px, 160px, 20px, 0);
+    animation: glitch-anim2 .2s linear .07s;
+    animation-fill-mode: forwards;
+}
+@keyframes glitch-anim {
+    0% {
         clip: rect(20px, 160px, 20px, 0);
-        animation: glitch-anim .2s linear .07s;
-        animation-fill-mode: forwards;
-        color: #fff;
     }
-    .navbar-brand:hover .logo-effect::before{
-        left: 1px;
+    100% {
+        clip: rect(0px, 160px, 20px, 0);
+    }
+}
+@keyframes glitch-anim1 {
+    0% {
         clip: rect(0px, 160px, 8px, 0);
-        animation: glitch-anim1 .2s linear .07s;
-        animation-fill-mode: forwards;
     }
-    .navbar-brand:hover .logo-effect::after{
-        left: -2px;
+    40% {
+        clip: rect(0px, 160px, 0px, 0);
+    }
+    100% {
+        clip: rect(0px, 160px, 0px, 0);
+    }
+}
+@keyframes glitch-anim2 {
+    0% {
         clip: rect(8px, 160px, 20px, 0);
-        animation: glitch-anim2 .2s linear .07s;
-        animation-fill-mode: forwards;
     }
-    @keyframes glitch-anim {
-        0% {
-            clip: rect(20px, 160px, 20px, 0);
-        }
-        100% {
-            clip: rect(0px, 160px, 20px, 0);
-        }
+    40% {
+        clip: rect(0px, 160px, 12px, 0);
     }
-    @keyframes glitch-anim1 {
-        0% {
-            clip: rect(0px, 160px, 8px, 0);
-        }
-        40% {
-            clip: rect(0px, 160px, 0px, 0);
-        }
-        100% {
-            clip: rect(0px, 160px, 0px, 0);
-        }
+    100% {
+        clip: rect(0px, 160px, 0px, 0);
     }
-    @keyframes glitch-anim2 {
-        0% {
-            clip: rect(8px, 160px, 20px, 0);
-        }
-        40% {
-            clip: rect(0px, 160px, 12px, 0);
-        }
-        100% {
-            clip: rect(0px, 160px, 0px, 0);
-        }
     }
     .goback-btn.btn-effect:hover::before{
         border-bottom: 8px solid #FF2241;
@@ -604,12 +604,11 @@ a{
         height: 19.8vw;
         position: absolute;
         top: 0;
-        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1') !important;
+        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1');
         background-position-y: -1.8vw;
         background-position-x: -2vw;
         background-attachment: fixed;
         background-size: 105%;
-        background-repeat: no-repeat;
         overflow: hidden;
         z-index: -1;
     }
@@ -3128,10 +3127,10 @@ a{
         background-size: cover !important;
     }
     .speakers-splash-words{
-        background: none !important; /*will be removed after blurry pic error is fixed*/
+/*        background: none !important;*/
     }
     #blurryPic{
-        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=2000&h=1') !important;
+        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=1&h=1') !important;
         background-attachment: fixed;
         background-size: 155%;
     }
