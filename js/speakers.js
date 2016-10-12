@@ -73,6 +73,9 @@ $(document).ready(function(){
 			$('.speaker-expand').click(function(){
 				showModal($(this).parent());
 			});
+			$('.speaker-image').click(function(){
+				showModal($(this).parent());
+			});
 		}
 		else{
 			$('.speaker').click(function(){
@@ -84,6 +87,7 @@ $(document).ready(function(){
 	$(window).resize(function(){ // also changes clicking on speaker to clicking on view more
 		$('.speaker').off();
 		$('.speaker-expand').off();
+		$('.speaker-image').off();
 		if($('.speaker-expand').css('display') == 'none'){
 			mobile = false;
 			$('.speaker').click(function(){
@@ -93,6 +97,9 @@ $(document).ready(function(){
 		else{
 			mobile = true;
 			$('.speaker-expand').click(function(){
+				showModal($(this).parent());
+			});
+			$('.speaker-image').click(function(){
 				showModal($(this).parent());
 			});
 		}
