@@ -2488,7 +2488,7 @@ a{
       background-image: url(https://taw.imgix.net/getready_splash.jpg?w=1&h=609) !important;
     }
     .speakers-splash-words::before{
-        background-image: url(https://taw.imgix.net/speakers_splashblur.jpg?w=1&h=1) !important;
+        background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1&h=1) !important;
         z-index: -1;
         opacity: 1;
         transition: .15s ease-in;
