@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 		if(mobile){
 			$('.speaker-expand').click(function(){
-				showModal($(this).parent());
+				showModal($(this).parents('.speaker'));
 			});
 			$('.speaker-image').click(function(){
 				showModal($(this).parent());
