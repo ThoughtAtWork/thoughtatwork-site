@@ -593,7 +593,7 @@ a{
         font-size: 1.1vw;
     }
     .speaker-expand{
-        display: none;
+        display: none !important;
     }
     .speaker:hover .speaker-image::after{
         content: 'hover';
@@ -2754,9 +2754,13 @@ a{
         width: 30vw;
         margin: 0 4vw 7vw 4vw;
         text-align: left;
+        cursor: initial;
     }
     .speaker-image{
         height: 38vw;
+    }
+    .speaker:hover .speaker-image::after{
+        opacity: 0;
     }
     .speaker-name {
         font-size: 2vw;
@@ -2764,15 +2768,14 @@ a{
     }
     .speaker-fields {
         font-size: 1.7vw;
-        margin-bottom: 0.8vw !important;
+        margin-bottom: 1.5vw !important;
     }
     .speaker-expand{
-        color: #333;
-        display: inline-block;
-        font-family: 'Elliot-Bold';
-        font-size: 1.4vw;
-        letter-spacing: 0.07vw;
+        display: inline-block !important;
+        font-size: 1.3vw !important;
+        letter-spacing: 0.02vw;
         text-transform: uppercase;
+        padding: 1.2vw 2vw !important;
     }
 }
 /* Small Devices, Tablets */
@@ -3206,6 +3209,7 @@ a{
         width: 66vw;
     }
     .speaker{
+        position: relative;
         display: inline-block;
         width: 100%;
         margin: 5vw 0;
@@ -3236,9 +3240,10 @@ a{
         font-size: 2.5vw;
     }
     .speaker-expand{
-        font-family: 'Elliot-Bold';
-        font-size: 2vw;
+        position: absolute;
+        font-size: 1.8vw !important;
         letter-spacing: 0.2vw;
+        bottom: 5vw;
     }
 }
 

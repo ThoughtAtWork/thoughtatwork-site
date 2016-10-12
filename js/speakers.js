@@ -40,6 +40,7 @@ $(document).ready(function(){
 	}
 
 	function initSecond(){
+
 		for(var i = 0; i < speakers.length; i++){
 			var fields = "";
 			for(var j = 0; j < speakers[i].fields.length; j++){
@@ -50,18 +51,9 @@ $(document).ready(function(){
 			$('.container-speakers').append(
 				'<div class="speaker">\n<img src=\"' + speakers[i].img + '\" class="speaker-image">\n' + 
 				'<div class="speaker-content"><h2 class="speaker-name">' + speakers[i].name + '</h2>\n' +
-				'<p class="speaker-fields">' + fields + '</p>\n<a href=\"\" class=\"speaker-expand link-effect\" onclick=\"return false;\">View More</a>\n</div>\n</div>'
+				'<p class="speaker-fields">' + fields + '</p>\n<button type=\"button\" class=\"speaker-expand btn contact-btn btn-effect\" onclick=\"return false;\">View More</button>\n</div>\n</div>'
 			);
 		}
-
-		$('.speaker').click(function(){
-			$('.speaker-modal-content').detach();
-			fillModal($(this).index());
-			$('.speaker-modal').toggleClass('modal-hidden');
-			$('.close-modal').toggle();
-			$('.container-fluid').toggleClass('blur');
-			$('.speakers-splash-words').attr('id', 'changeBG');
-		});
 
 		$('.close-modal').click(function(){
 			$('.speaker-modal').toggleClass('modal-hidden');	
@@ -69,6 +61,50 @@ $(document).ready(function(){
 			$('.container-fluid').toggleClass('blur');
 			$('.speakers-splash-words').removeAttr('id');
 		})
+		
+		if($('.speaker-expand').css('display') == 'none')
+			var mobile = false;
+		else
+			var mobile = true;
+		console.log(mobile);
+
+		if(mobile){
+			$('.speaker-expand').click(function(){
+				showModal($(this).parent());
+			});
+		}
+		else{
+			$('.speaker').click(function(){
+				showModal(this);
+			});
+		}
+	}
+
+	$(window).resize(function(){
+		$('.speaker').off();
+		$('.speaker-expand').off();
+		if($('.speaker-expand').css('display') == 'none'){
+			mobile = false;
+			$('.speaker').click(function(){
+				showModal(this);
+			});
+		}
+		else{
+			mobile = true;
+			$('.speaker-expand').click(function(){
+				showModal($(this).parent());
+			});
+		}
+		console.log(mobile);
+	});
+
+	function showModal(speaker){
+		$('.speaker-modal-content').detach();
+		fillModal($(speaker).index());
+		$('.speaker-modal').toggleClass('modal-hidden');
+		$('.close-modal').toggle();
+		$('.container-fluid').toggleClass('blur');
+		$('.speakers-splash-words').attr('id', 'changeBG');
 	}
 
 	function fillModal(i){
