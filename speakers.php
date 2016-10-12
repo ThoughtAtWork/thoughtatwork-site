@@ -11,17 +11,15 @@
 	<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />
 	<meta property="og:type"               content="article" />
 	<meta property="og:title"              content="Thought At Work, a student-run design conference" />
-	<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
-	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.jpg" />
-
+    <meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
+    <meta property="og:image"              content="https://taw.imgix.net/tawtemp_share_image.jpg?w=1466&h=1" />
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="product">
 	<meta name="twitter:site" content="@TAW_RIT">
 	<meta name="twitter:title" content="Thought At Work, a student-run design conference">
 	<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
 	<meta name="twitter:creator" content="@TAW_RIT">
-	<meta name="twitter:image" content="http://www.example.com/image.jpg">
-
+	<meta name="twitter:image" content="https://taw.imgix.net/tawtemp_share_image.jpg?w=1466&h=1">
 	<meta name="description" content="Student-Run Design Conference">
 	<meta name="title" content="Thought at Work">
 
@@ -81,6 +79,7 @@
 		</div>
     </div>
     <div class="speaker-modal modal-hidden">
+    <div class="modal-x"><a>X</a></div>
     </div>
     <div class="close-modal" style="display:none;"></div>
 

@@ -56,17 +56,18 @@ $(document).ready(function(){
 		}
 
 		$('.close-modal').click(function(){
-			$('.speaker-modal').toggleClass('modal-hidden');	
-			$(this).toggle();
-			$('.container-fluid').toggleClass('blur');
-			$('.speakers-splash-words').removeAttr('id');
-		})
+			closeModal();
+		});
 		
+		$('.modal-x').click(function(){
+			closeModal();
+		});
+
+		//change clicking on speaker to clicking on view more depending on size
 		if($('.speaker-expand').css('display') == 'none')
 			var mobile = false;
 		else
 			var mobile = true;
-		console.log(mobile);
 
 		if(mobile){
 			$('.speaker-expand').click(function(){
@@ -80,7 +81,7 @@ $(document).ready(function(){
 		}
 	}
 
-	$(window).resize(function(){
+	$(window).resize(function(){ // also changes clicking on speaker to clicking on view more
 		$('.speaker').off();
 		$('.speaker-expand').off();
 		if($('.speaker-expand').css('display') == 'none'){
@@ -105,6 +106,13 @@ $(document).ready(function(){
 		$('.close-modal').toggle();
 		$('.container-fluid').toggleClass('blur');
 		$('.speakers-splash-words').attr('id', 'changeBG');
+	}
+
+	function closeModal(){
+		$('.speaker-modal').toggleClass('modal-hidden');	
+		$('.close-modal').toggle();
+		$('.container-fluid').toggleClass('blur');
+		$('.speakers-splash-words').removeAttr('id');
 	}
 
 	function fillModal(i){
