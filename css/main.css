@@ -627,9 +627,11 @@ a{
     }
      .speaker-modal{
         width: 76vw;
-        height: 40vw;
+        max-width: 1500px;
+        height: 41vw;
+        max-height: 700px;
         position: fixed;
-        top: 7.5vh;
+        top: 8vh;
         left: 12vw;
         background-color: #FFF;
         font-family: 'Elliot-Light';
@@ -637,9 +639,9 @@ a{
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
         transition: 0.3s ease-in-out;
     }
-    .speaker-modal p{
-        font-size: 1.2vw;
-        line-height: 1.4vw;
+    .speaker-modal 
+        font-size: 1vw;
+        line-height: 1.6vw;
     }
     .speaker-modal a{
         font-family: 'Elliot-Bold';
@@ -653,10 +655,10 @@ a{
     }
     .modal-x {
         position: absolute;
-        left: 74vw;
+        left: 74.5vw;
         top: 1vw;
-        width: 2vw;
-        height: 2vw;
+        width: 1.2vw;
+        height: 1.2vw;
         z-index: 2000;
     }
     .close-modal{
@@ -676,7 +678,7 @@ a{
         float: left;
         width: 50%;
         height: 100%;
-        padding: 6vh 3.5vw;
+        padding: 2vw 3.5vw;
         overflow-y: scroll;
     }
     .blur{
@@ -708,10 +710,10 @@ a{
         margin-bottom: 2.5vw;
     }
     .speaker-modal-website{
-        top: 6vw;
+        top: 2vw;
     }
     .speaker-modal-socialMedia{
-        top: 7vw;
+        top: 2vw;
     }
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -1179,7 +1181,7 @@ a{
         background-image: url(https://taw.imgix.net/getready_splash.jpg?w=2560&h=1) !important;
     }
     .speakers-splash-words{
-        background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1920&h=1) !important;
+        background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1&h=1) !important;
     }
     .about-history {
         margin-top: -.245vw;
@@ -1898,7 +1900,7 @@ a{
       background-image: url(https://taw.imgix.net/getready_splash.jpg?w=1200&h=1) !important;
     }
     .speakers-splash-words{
-        background-image: url(https://taw.imgix.net/speakers_splashblur.jpg?w=1200&h=1) !important;
+        background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1&h=1) !important;
     }
     .about-desc {
         width: 30vw;
@@ -2486,7 +2488,7 @@ a{
       background-image: url(https://taw.imgix.net/getready_splash.jpg?w=1&h=609) !important;
     }
     .speakers-splash-words::before{
-        background-image: url(https://taw.imgix.net/speakers_splashblur.jpg?w=990&h=1) !important;
+        background-image: url(https://taw.imgix.net/speakers_splashblur.jpg?w=1&h=1) !important;
         z-index: -1;
         opacity: 1;
         transition: .15s ease-in;
