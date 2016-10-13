@@ -78,10 +78,14 @@
         <div class="container-speakers">
 		</div>
     </div>
-    <div class="close-modal modal-hidden">
-    <div class="speaker-modal modal-hidden">
-    <div class="modal-x"><a>X</a></div>
+
+    <div class="modal-holder modal-hidden">
+	    <div class="speaker-modal">
+    	<div class="modal-x"><a>X</a></div>
+	    </div>
     </div>
+    
+    <div class="close-modal modal-hidden">
     </div>
 
 		<div class="md-overlay"></div><!-- the overlay element -->

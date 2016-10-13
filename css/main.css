@@ -363,7 +363,7 @@ footer .link-effect:hover::before{
     100% {
         clip: rect(0px, 160px, 0px, 0);
     }
-    }
+}
     .goback-btn.btn-effect:hover::before{
         border-bottom: 8px solid #FF2241;
         border-left: 8px solid #FF2241;
@@ -630,13 +630,12 @@ footer .link-effect:hover::before{
         max-width: 1500px;
         height: 41vw;   /*for testing, on actual thing, image will determine height*/
         max-height: 700px;
-        position: absolute;
-        top: 8vh;
-        left: 12vw;
+        margin: 8vh auto;
+        position: relative;
         background-color: #FFF;
         font-family: 'Elliot-Light';
-        z-index: 2000;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+        pointer-events: auto;
     }
     .speaker-modal{
         font-size: 1vw;
@@ -649,10 +648,20 @@ footer .link-effect:hover::before{
         color: #333;
         text-transform: uppercase;
     }
+    .modal-holder{
+        content: ' ';
+        width: calc(100% + 50px);
+        height: 100vh;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        z-index: 2000;
+        pointer-events: none;
+        transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
     .modal-hidden{
-        top: -160vh;
+        top: -160vh !important;
         opacity: 0;
-        transition: 0.3s ease-in-out;
     }
     .modal-x {
         position: absolute;
@@ -669,7 +678,6 @@ footer .link-effect:hover::before{
         position: fixed;
         top: 0;
         opacity: 1;
-        overflow: scroll;
         transition: 0.3s ease-in-out;
     }
     .speaker-modal-content{
@@ -719,6 +727,7 @@ footer .link-effect:hover::before{
     .speaker-modal-socialMedia{
         top: 2vw;
     }
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -1332,7 +1341,7 @@ footer .link-effect:hover::before{
     .comingsoon-padding {
         padding-bottom: 5vw;
     }
-       .about-text {
+    .about-text {
        font-size:calc(10px + .52vw) !important;
        color: black;
        font-style: "Elliot-Light" !important;
@@ -2084,6 +2093,7 @@ footer .link-effect:hover::before{
     }
     body {
         background-color: #16161E;
+        overflow-x: hidden;
     }
     .tawis-padding {
         margin-top: 100px;

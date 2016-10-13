@@ -109,20 +109,21 @@ $(document).ready(function(){
 	function showModal(speaker){
 		$('.speaker-modal-content').detach();
 		fillModal($(speaker).index());
-		$('.speaker-modal').toggleClass('modal-hidden');
-		$('.close-modal').toggle();
+		$('.modal-holder').toggleClass('modal-hidden');
+		$('.close-modal').toggleClass('modal-hidden');
 		$('.container-fluid').toggleClass('blur');
 		$('.speakers-splash-words').attr('id', 'changeBG');
 	}
 
 	function closeModal(){
-		$('.speaker-modal').toggleClass('modal-hidden');	
-		$('.close-modal').toggle();
+		$('.modal-holder').toggleClass('modal-hidden');	
+		$('.close-modal').toggleClass('modal-hidden');
 		$('.container-fluid').toggleClass('blur');
 		$('.speakers-splash-words').removeAttr('id');
 	}
 
 	function fillModal(i){
+		console.log('working');
 		$('.speaker-modal').append(
 			'<div class=\"speaker-modal-content\">\n<img src=\"' + speakers[i].img + '\" class=\"speaker-modal-image\">\n' + 
 			'<div class=\"speaker-modal-info\"><h2 class=\"speaker-modal-name\">' + speakers[i].name + '<\/h2>\n' +
