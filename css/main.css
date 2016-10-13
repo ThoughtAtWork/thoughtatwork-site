@@ -625,21 +625,20 @@ footer .link-effect:hover::before{
     #changeBG::after{
         opacity: none !important;
     }
-     .speaker-modal{
+    .speaker-modal{
         width: 76vw;
         max-width: 1500px;
-        height: 41vw;
+        height: 41vw;   /*for testing, on actual thing, image will determine height*/
         max-height: 700px;
-        position: fixed;
+        position: absolute;
         top: 8vh;
         left: 12vw;
         background-color: #FFF;
         font-family: 'Elliot-Light';
         z-index: 2000;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
-        transition: 0.3s ease-in-out;
     }
-    .speaker-modal 
+    .speaker-modal{
         font-size: 1vw;
         line-height: 1.6vw;
     }
@@ -652,6 +651,8 @@ footer .link-effect:hover::before{
     }
     .modal-hidden{
         top: -160vh;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
     }
     .modal-x {
         position: absolute;
@@ -667,6 +668,9 @@ footer .link-effect:hover::before{
         height: 100%;
         position: fixed;
         top: 0;
+        opacity: 1;
+        overflow: scroll;
+        transition: 0.3s ease-in-out;
     }
     .speaker-modal-content{
         position: relative;
@@ -3284,7 +3288,6 @@ footer .link-effect:hover::before{
         background-position: center top;
         background-attachment: fixed;
         background-size: 155%;
-    }
     }
     .currentPage::after, .currentRegister{
         height: 90%;
