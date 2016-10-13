@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Thought At Work - About Us</title>
+  <title>Thought At Work - Speakers</title>
 
 	<!-- Open Graph data -->
 	<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />

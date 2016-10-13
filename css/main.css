@@ -2487,9 +2487,6 @@ footer .link-effect:hover::before{
     .getready-splash-words {
       background-image: url(https://taw.imgix.net/getready_splash.jpg?w=1&h=609) !important;
     }
-    /*testing things help .speakers-splash-words{
-        background: none;
-    }*/
     .speakers-splash-words::before{
         background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1&h=1) !important;
         z-index: -1;
@@ -2873,7 +2870,7 @@ footer .link-effect:hover::before{
         border-bottom: 6px solid #FF2241;
     }
     html {
-      background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;
+/*      background: url(../img/backgroundMobile.png) no-repeat center center fixed !important;*/
       -webkit-background-size: cover !important;
       -moz-background-size: cover !important;
       -o-background-size: cover !important;
@@ -3127,12 +3124,7 @@ footer .link-effect:hover::before{
         background-size: cover !important;
     }
     .speakers-splash-words{
-/*        background: none !important;*/
-    }
-    #blurryPic{
-        background-image: url('https://taw.imgix.net/speakers_splashblur.jpg?w=1&h=1') !important;
-        background-attachment: fixed;
-        background-size: 155%;
+        background-repeat: repeat-y;
     }
     .mobile-learn-more {
         transform: rotate(-90deg);
@@ -3282,7 +3274,17 @@ footer .link-effect:hover::before{
         display: none;
     }
     .about-splash-words {
-        padding-bottom: 50vw;
+/*        padding-bottom: 50vw;*/
+    }
+    .speakers-splash-words {
+        padding-bottom: 35.2vw;
+    }
+    #blurryPic{
+        height: 50.7vw;
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: 155%;
+    }
     }
     .currentPage::after, .currentRegister{
         height: 90%;
@@ -3301,7 +3303,6 @@ footer .link-effect:hover::before{
     }
     .about-desc p {
         font-size: 4.0vw;
-
     }
     .about-cool p {
         font-size: 4.0vw !important;
