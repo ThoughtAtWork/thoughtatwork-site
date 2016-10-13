@@ -65,15 +65,7 @@
 			</div>
 		</div>
      <div class="navOff"></div>
-
-			<!-- COME HANG -->
-		<div class="container-fluid top-buffer about-mobile-top">
-			<div class="row about-margins">
-				<div class="col-lg-10 col-md-offset-1 mobile-about-history">
-						<h2 class="elliot about-history-padding ">Speakers</h2>
-				</div>
-      </div>
-    </div>
+     
     <div class="container-fluid">
         <div class="container-speakers">
 		</div>
