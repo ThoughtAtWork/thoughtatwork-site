@@ -97,7 +97,7 @@ $(document).ready(function(){
 		else{
 			mobile = true;
 			$('.speaker-expand').click(function(){
-				showModal($(this).parent());
+				showModal($(this).parents('.speaker'));
 			});
 			$('.speaker-image').click(function(){
 				showModal($(this).parent());
