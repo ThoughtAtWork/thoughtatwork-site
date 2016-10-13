@@ -1,5 +1,4 @@
-<!---->
-   <!-- SPONSORS -->
+ <!-- SPONSORS -->
 <div class="container-fluid sponsors tablet-top">
 <div class="row sponsor-top">
 <!--Because tiny fish is currently not a spnsor they've been removed but this code is still here just in case-->
@@ -26,13 +25,13 @@
  </div>
 </div>
 </div>
-<div class="row sponsor-top mobile-remove-sponsor-top sponsor-bottom">
+<div class="row sponsor-top mobile-remove-sponsor-top">
 <div class="center-mid">
- <div class="col-sm-3 firstRow-sponsor-images">
-    <a href="http://cias.rit.edu/" target="_blank">
-    <img class="sponsor-img" src="img/sponsor-logos-05.png" />
-     </a>
-         </div>
+    <div class="col-sm-3 firstRow-sponsor-images">
+        <a href="http://cias.rit.edu/" target="_blank">
+            <img class="sponsor-img" src="img/sponsor-logos-05.png" />
+         </a>
+    </div>
  <div class="col-sm-3">
     <a href="http://www.wacom.com/" target="_blank">
     <img class="sponsor-img" src="img/sponsor-logos-06.png" />

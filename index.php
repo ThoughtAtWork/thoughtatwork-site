@@ -173,5 +173,7 @@
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
         <script type="text/javascript" src="js/navScript.js"></script>
+        <!---->
+  
 	</body>
 </html>
