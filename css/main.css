@@ -635,11 +635,9 @@ footer .link-effect:hover::before{
     #changeBG::after{
         opacity: none !important;
     }
-    .speaker-modal{
+    .speaker-modal {
         width: 76vw;
-        max-width: 1500px;
-        height: 41vw;   /*for testing, on actual thing, image will determine height*/
-        max-height: 700px;
+        height: 41vw;
         margin: 8vh auto;
         position: relative;
         background-color: #FFF;
@@ -651,16 +649,9 @@ footer .link-effect:hover::before{
         font-size: 1vw;
         line-height: 1.6vw;
     }
-    .speaker-modal a{
-        font-family: 'Elliot-Bold';
-        font-size: 1vw;
-        letter-spacing: 0.08vw;
-        color: #333;
-        text-transform: uppercase;
-    }
     .modal-holder{
         content: ' ';
-        width: calc(100% + 50px);
+        width: 100%;
         height: 100vh;
         overflow-y: scroll;
         position: fixed;
@@ -675,8 +666,8 @@ footer .link-effect:hover::before{
     }
     .modal-x {
         position: absolute;
-        left: 74.5vw;
-        top: 1vw;
+        left: 78vw;
+        top: 0.5vw;
         width: 1.2vw;
         height: 1.2vw;
         z-index: 2000;
@@ -710,6 +701,14 @@ footer .link-effect:hover::before{
     .speaker-modal-image{
         float: left;
         width: 50%;
+        height: 100%;
+    }
+    .speaker-modal a{
+        font-family: 'Elliot-Bold';
+        font-size: 1vw;
+        letter-spacing: 0.08vw;
+        color: #333;
+        text-transform: uppercase;
     }
     .speaker-modal-name{
         font-family: 'Elliot';
@@ -739,9 +738,96 @@ footer .link-effect:hover::before{
     }
 
 /*==========  Non-Mobile First Method  ==========*/
-
+@media only screen and (min-width : 1500px) {
+    .speaker-modal a{
+        font-family: 'Elliot-Bold';
+        font-size: 1.3vw;
+        letter-spacing: 0.124vw;
+    }
+    .speaker-modal{
+        width: 78vw;
+        height: 56vw;
+        font-size: 1.3vw;
+        line-height: 2vw;
+    }
+    .speaker-modal-name{
+        font-family: 'Elliot';
+        font-size: 2.3vw;
+    }
+    .speaker-modal-position{
+        margin-bottom: 4vw;
+    }
+    .speaker-modal-description{
+        margin-bottom: 3.2vw;
+    }
+    .speaker-modal-label{
+        font-family: 'Elliot';
+        font-size: 1.6vw;
+    }
+    .speaker-modal-website{
+        top: 2.8vw;
+    }
+    .speaker-modal-socialMedia{
+        top: 2.8vw;
+    }
+    .speaker-modal-dateTime{
+        margin-bottom: 3.3vw;
+    }
+    .modal-x {
+        position: absolute;
+        left: 78vw;
+        top: 0.5vw;
+        width: 1.2vw;
+        height: 1.2vw;
+        z-index: 2000;
+    }
+}
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
+    
+    .speaker-modal a{
+        font-family: 'Elliot-Bold';
+        font-size: 1.3vw;
+        letter-spacing: 0.124vw;
+    }
+    .speaker-modal{
+        width: 81vw;
+        height: 56vw;
+        font-size: 1.3vw;
+        line-height: 2vw;
+    }
+    .speaker-modal-name{
+        font-family: 'Elliot';
+        font-size: 2.3vw;
+    }
+    .speaker-modal-position{
+        margin-bottom: 4vw;
+    }
+    .speaker-modal-description{
+        margin-bottom: 3.2vw;
+    }
+    .speaker-modal-label{
+        font-family: 'Elliot';
+        font-size: 1.6vw;
+    }
+    .speaker-modal-website{
+        top: 2.8vw;
+    }
+    .speaker-modal-socialMedia{
+        top: 2.8vw;
+    }
+    .speaker-modal-dateTime{
+        margin-bottom: 3.3vw;
+    }
+    .modal-x {
+        position: absolute;
+        left: 78vw;
+        top: 0.5vw;
+        width: 1.2vw;
+        height: 1.2vw;
+        z-index: 2000;
+    }
+    
     .mobile-home {
         display: none !important;
     }
@@ -1730,6 +1816,50 @@ footer .link-effect:hover::before{
 
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
+    
+    .speaker-modal a{
+        font-family: 'Elliot-Bold';
+        font-size: 1.3vw;
+        letter-spacing: 0.124vw;
+    }
+    .speaker-modal{
+        width: 88vw;
+        height: 62vw;
+        font-size: 1.3vw;
+        line-height: 2vw;
+    }
+    .speaker-modal-name{
+        font-family: 'Elliot';
+        font-size: 2.3vw;
+    }
+    .speaker-modal-position{
+        margin-bottom: 4vw;
+    }
+    .speaker-modal-description{
+        margin-bottom: 3.2vw;
+    }
+    .speaker-modal-label{
+        font-family: 'Elliot';
+        font-size: 1.6vw;
+    }
+    .speaker-modal-website{
+        top: 2.8vw;
+    }
+    .speaker-modal-socialMedia{
+        top: 2.8vw;
+    }
+    .speaker-modal-dateTime{
+        margin-bottom: 3.3vw;
+    }
+    .modal-x {
+        position: absolute;
+        left: 78vw;
+        top: 0.5vw;
+        width: 1.2vw;
+        height: 1.2vw;
+        z-index: 2000;
+    }
+    
     .speaker-h2 {
         font-family: "Elliot";
     }
