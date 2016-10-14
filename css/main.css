@@ -658,7 +658,7 @@ footer .link-effect:hover::before{
         top: 0;
         z-index: 2000;
         pointer-events: none;
-        transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        transition: top .2s ease-in-out, opacity .2s ease-in-out;
     }
     .modal-hidden{
         top: -160vh !important;
