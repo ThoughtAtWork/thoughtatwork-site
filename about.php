@@ -104,8 +104,10 @@
                 </div>
 			       </div>
             </div>
-		</div>
-        <div class="about-teampic  small-top about-mobile-bot">
+		</div-->
+    <div class="about-mobile-top about-mobile-bot container-fluid team-headshots">
+    </div>
+        <!--div class="about-teampic  small-top about-mobile-bot">
             <img src="img/team-photo.png" class="img-responsive" />
         </div>
       -->

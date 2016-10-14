@@ -553,18 +553,11 @@ footer .link-effect:hover::before{
     .container-speakers{
         width: 83.7vw;
         margin: 5vw auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: flex-start;
-        justify-content: space-between;
     }
     .speaker{
         display: inline-block;
         width: 24.3vw;
-        min-width: 200px;
-        max-width: 500px;
-        margin: 3vw 0;
+        margin: 3vw 1.8vw;
         text-align: left;
         vertical-align: top;
         cursor: pointer;
@@ -592,6 +585,7 @@ footer .link-effect:hover::before{
         text-align: center;
         opacity: 0;
         padding-top: 60%;
+        z-index: 5000;
         transition: .15s ease-in-out;
     }
     .speaker-fields {
@@ -642,7 +636,7 @@ footer .link-effect:hover::before{
         position: relative;
         background-color: #FFF;
         font-family: 'Elliot-Light';
-        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 1.6vw 50px rgba(0, 0, 0, 0.3);
         pointer-events: auto;
     }
     .speaker-modal{
@@ -651,7 +645,7 @@ footer .link-effect:hover::before{
     }
     .modal-holder{
         content: ' ';
-        width: 100%;
+        width: calc(100% + 30px);
         height: 100vh;
         overflow-y: scroll;
         position: fixed;
@@ -679,7 +673,7 @@ footer .link-effect:hover::before{
         position: fixed;
         top: 0;
         opacity: 1;
-        transition: 0.3s ease-in-out;
+        /*transition: 0.2s ease-in-out;*/
     }
     .speaker-modal-content{
         position: relative;
