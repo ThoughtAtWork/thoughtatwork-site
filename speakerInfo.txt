@@ -1,10 +1,35 @@
-Bushra||Senior Director|Nicholas Cage'presentations'stuff|Bushra is a senior experience designer currently working at Adobe in San Francisco. She has built a diverse portfolio working in finance, government, advertising, e-commerce and digital publishing. She has worked for several high profile clients including Whole Foods, NBA, Skype, Nokia, Blackberry and Cornell University. Before Adobe, Bushra worked as the lead designer at a finance startup that was successfully acquired by Goldman Sachs. 
+Allan Chochinov|https://sandbox-uploads.imgix.net/u/1476414825-599741bb134c6eaa29fcd78c8f1a8a94?w=1&fp-y=0.48&fp-x=.38&crop=focal&h=740&fit=crop|Chair, SVA MFA Products of Design; Partner, Core77|Design Education|description||Killing the Cat||productsofdesign.sva.edu|http://productsofdesign.sva.edu|Core77|http://www.core77.com\
+
+Bushra Mahmood|https://taw.imgix.net/bushra_mahmood.jpg?fp-debug=0&fp-y=.3&fp-x=.25&crop=focalpoint&fit=crop&h=990&w=772|Senior Director|Nicholas Cage'presentations'stuff|Bushra is a senior experience designer currently working at Adobe in San Francisco. She has built a diverse portfolio working in finance, government, advertising, e-commerce and digital publishing. She has worked for several high profile clients including Whole Foods, NBA, Skype, Nokia, Blackberry and Cornell University. Before Adobe, Bushra worked as the lead designer at a finance startup that was successfully acquired by Goldman Sachs. 
 |Adding Cage-ism|Friday October 21, 7:00-8:00PM|instagram|http://url.com|loremipsum.com|link.com\
 
-Person||Junior Something|eqwr'sdf'jobs'stuffs|dfjlj;jj;f desc|Bloops|Sunday, 5-2AM|bleepbloop.com|http://url.com|instagram|otherlink.com\
+Chris Remo||Junior Something|eqwr'sdf'jobs'stuffs|dfjlj;jj;f desc|Bloops|Sunday, 5-2AM|bleepbloop.com|http://url.com|instagram|otherlink.com\
 
-Kiddo||Manager of Someplace|laskdfj'ekcv'lafkj|bnc,mznvew descr|Meeps|Monday, 4-0PM|meepmeep.com|http://url.com|instagram|otherotherlink.com\
+Helen Androlia|https://taw.imgix.net/HelenAndrolia.jpg?fp-y=.6&fp-x=.52&crop=focalpoint&fit=crop&h=990&w=772|Manager of Someplace|laskdfj'ekcv'lafkj|bnc,mznvew descr|Meeps|Monday, 4-0PM|meepmeep.com|http://url.com|instagram|otherotherlink.com\
 
-Fourtho||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+Jake Lodwick||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
 
-Allan Chochinov||Chair, SVA MFA Products of Design; Partner, Core77|Design Education|description||Killing the Cat||productsofdesign.sva.edu|http://productsofdesign.sva.edu|Core77|http://www.core77.com
+Jasmin Lai||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Jeff Soyk||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Jordan Nollman||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Kim Alpert||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Maria Eife||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Matt Olpinski||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Maya Bruck||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Miguel Cardona||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Mitch Goldstein||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Pattie Moore||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Tnaya Witmer||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Will Gibbons||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com
+

@@ -24,7 +24,7 @@ $(document).ready(function(){
 			info[i] = info[i].split('\|');
 			var speaker = {
 				name: info[i][0],
-				img: info[i][1],
+				image: info[i][1],
 				position: info[i][2],
 				fields: info[i][3].split('\''),
 				description: info[i][4],
@@ -48,8 +48,9 @@ $(document).ready(function(){
 				if(j < speakers[i].fields.length-1)
 					fields += ", ";
 			}
+			console.log(i + " " + speakers[i].name);
 			$('.container-speakers').append(
-				'<div class="speaker">\n<img src=\"' + speakers[i].img + '\" class="speaker-image">\n' + 
+				'<div class="speaker">\n<img src=\"' + speakers[i].image + '\" class=\"speaker-image\">\n' + 
 				'<div class="speaker-content"><h2 class="speaker-name">' + speakers[i].name + '</h2>\n' +
 				'<p class="speaker-fields">' + fields + '</p>\n<button type=\"button\" class=\"speaker-expand btn contact-btn btn-effect\" onclick=\"return false;\">View More</button>\n</div>\n</div>'
 			);
@@ -125,7 +126,7 @@ $(document).ready(function(){
 	function fillModal(i){
 		console.log('working');
 		$('.speaker-modal').append(
-			'<div class=\"speaker-modal-content\">\n<img src=\"' + speakers[i].img + '\" class=\"speaker-modal-image\">\n' + 
+			'<div class=\"speaker-modal-content\">\n<img src=\"' + speakers[i].image + '\" class=\"speaker-modal-image\">\n' + 
 			'<div class=\"speaker-modal-info\"><h2 class=\"speaker-modal-name\">' + speakers[i].name + '<\/h2>\n' +
 			'<p class="speaker-modal-position">' + speakers[i].position + '<\/p>\n' +
 			'<p class="speaker-modal-description">' + speakers[i].description + '<\/p>\n' +
