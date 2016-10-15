@@ -1,4 +1,5 @@
 $("#contactForm").submit(function(event){
+    $("#contactForm").reset();
     // cancels the form submission
     event.preventDefault();
     submitForm();
@@ -24,5 +25,4 @@ function submitForm(){
 }
 function formSuccess(){
     $( "#msgSubmit" ).removeClass( "hidden" );
-    $("#contactForm").reset();
 }
