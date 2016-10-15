@@ -2969,7 +2969,7 @@ footer .link-effect:hover::before{
     .speaker-modal-info::before{
         content: ' ';
         width: 23.4vw;
-        height: 30vw;
+        height: 30.7vw;
         margin-right: 4vw;
         float: left;
     }
