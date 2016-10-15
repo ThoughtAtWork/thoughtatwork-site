@@ -588,6 +588,9 @@ footer .link-effect:hover::before{
         z-index: 5000;
         transition: .15s ease-in-out;
     }
+    .speaker-image:hover {
+        cursor: pointer !important;
+    }
     .speaker-fields {
         margin: 0 !important;
         font-family: "Elliot-Light";
@@ -636,7 +639,7 @@ footer .link-effect:hover::before{
         position: relative;
         background-color: #FFF;
         font-family: 'Elliot-Light';
-        box-shadow: 0px 1.6vw 50px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 1.6vw 60px rgba(0, 0, 0, 1);
         pointer-events: auto;
     }
     .speaker-modal{
@@ -657,6 +660,9 @@ footer .link-effect:hover::before{
     .modal-hidden{
         top: -160vh !important;
         opacity: 0;
+    }
+    .modal-x:hover {
+        cursor: pointer !important;
     }
     .modal-x {
         position: absolute;
