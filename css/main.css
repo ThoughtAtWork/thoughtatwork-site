@@ -2964,6 +2964,7 @@ footer .link-effect:hover::before{
         height: auto;
         margin: 0;
         padding: 0;
+        overflow: initial;
     }
     .speaker-modal-info::before{
         content: ' ';
@@ -2999,7 +3000,7 @@ footer .link-effect:hover::before{
     .speaker-modal-socialMedia{
         display: inline-block;
         line-height: initial;
-        margin-top: 2.1vw;
+        margin: 2.1vw 0 6.5vw 0;
     }
     .speaker-modal-dateTime{
         margin-bottom: 4.95vw;
