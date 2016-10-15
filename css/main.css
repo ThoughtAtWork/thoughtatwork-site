@@ -3565,7 +3565,7 @@ footer .link-effect:hover::before{
     .speaker-name {
         font-family: "Elliot";
         font-size: 5vw;
-        margin: 5vw 0 1.5vw 0;
+        margin: 2.9vw 0 1.5vw 0;
     }
     .speaker-image{
         float: left;
@@ -3584,6 +3584,9 @@ footer .link-effect:hover::before{
         margin: 0 !important;
         font-family: "Elliot-Light";
         font-size: 3.5vw;
+    }
+    .speaker-expand{
+        bottom: 3.8vw;
     }
 }
 
