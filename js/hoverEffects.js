@@ -4,7 +4,7 @@ function init(){
 	//form input focus effects
 	var inputs = $('.form-control');
 
-	$('.form-control').each(function(){
+	$(inputs).each(function(){
 		var placeholder = $(this).attr('placeholder');
 		if(placeholder != undefined){
 			$(this).after('<div class="contact-label"><label for="' + $(this).attr('id') + '">' + placeholder + '</label></div>');
