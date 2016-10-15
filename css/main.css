@@ -734,7 +734,8 @@ footer .link-effect:hover::before{
         top: 2vw;
     }
 
-/*==========  Non-Mobile First Method  ==========*/
+/*
+==========  Non-Mobile First Method  ==========
 @media only screen and (min-width : 1500px) {
     .speaker-modal a{
         font-family: 'Elliot-Bold';
@@ -776,44 +777,45 @@ footer .link-effect:hover::before{
         z-index: 2000;
     }
 }
+*/
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
     
     .speaker-modal a{
         font-family: 'Elliot-Bold';
-        font-size: 1.3vw;
+        font-size: 1.05vw;
         letter-spacing: 0.124vw;
     }
     .speaker-modal{
-        width: 81vw;
-        height: 56vw;
-        font-size: 1.3vw;
-        line-height: 2vw;
+        width: 71vw;
+        height: 47vw;
+        font-size: 1.05vw;
+        line-height: 1.6vw;
     }
     .speaker-modal-name{
         font-family: 'Elliot';
-        font-size: 2.3vw;
+        font-size: 1.86vw;
     }
     .speaker-modal-position{
-        margin-bottom: 4vw;
+        margin-bottom: 3.23vw;
     }
     .speaker-modal-description{
-        margin-bottom: 3.2vw;
+        margin-bottom: 2.58vw;
     }
     .speaker-modal-label{
         font-family: 'Elliot';
-        font-size: 1.6vw;
+        font-size: 1.29vw;
     }
     .speaker-modal-website, .speaker-modal-socialMedia{
-        top: 2.8vw;
+        top: 2.26vw;
     }
     .speaker-modal-dateTime{
-        margin-bottom: 3.3vw;
+        margin-bottom: 2.66vw;
     }
     .modal-x {
         position: absolute;
-        left: 78vw;
-        top: 0.5vw;
+        left: 70vw;
+        top: 0.0vw;
         width: 1.2vw;
         height: 1.2vw;
         z-index: 2000;
@@ -1814,34 +1816,46 @@ footer .link-effect:hover::before{
         letter-spacing: 0.124vw;
     }
     .speaker-modal{
-        width: 98vw;
-        height: 66vw;
-        font-size: 1.65vw;
-        line-height: 2.45vw;
+        width: 81vw;
+        height: 56vw;
+        font-size: 1.3vw;
+        line-height: 2vw;
     }
     .speaker-modal-name{
         font-family: 'Elliot';
-        font-size: 2.8vw;
+        font-size: 2.3vw;
+    }
+    .speaker-modal-info{
+        float: left;
+        width: 48%;
+        height: 100%;
+        padding: 2vw 3.5vw;
+        overflow-y: auto;
+    }
+    .speaker-modal-image{
+        float: left;
+        width: 52%;
+        height: 100%;
     }
     .speaker-modal-position{
         margin-bottom: 4vw;
     }
     .speaker-modal-description{
-        margin-bottom: 4vw;
+        margin-bottom: 3.2vw;
     }
     .speaker-modal-label{
         font-family: 'Elliot';
-        font-size: 2.1vw;
+        font-size: 1.6vw;
     }
     .speaker-modal-website, .speaker-modal-socialMedia{
-        top: 3.4vw;
+        top: 2.8vw;
     }
     .speaker-modal-dateTime{
         margin-bottom: 3.3vw;
     }
     .modal-x {
         position: absolute;
-        left: 96vw;
+        left: 78vw;
         top: 0.5vw;
         width: 1.2vw;
         height: 1.2vw;
@@ -2485,6 +2499,55 @@ footer .link-effect:hover::before{
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
     
+    .speaker-modal a{
+        font-family: 'Elliot-Bold';
+        font-size: 1.4022472vw;
+        letter-spacing: 0.154vw;
+    }
+    .speaker-modal{
+        width: 96.5vw;
+        height: 68vw;
+        font-size: 1.8vw;
+        line-height: 2.4vw;
+    }
+    .speaker-modal-name{
+        font-family: 'Elliot';
+        font-size: 2.86632vw;
+    }
+    .speaker-modal-info{
+        float: left;
+        width: 48%;
+        height: 100%;
+        padding: 2vw 3.5vw;
+        overflow-y: auto;
+    }
+    .speaker-modal-image{
+        width: 52%;
+    }
+    .speaker-modal-position{
+        margin-bottom: 4.0vw;
+    }
+    .speaker-modal-description{
+        margin-bottom: 3.4vw;
+    }
+    .speaker-modal-label{
+        font-family: 'Elliot';
+        font-size: 1.9872vw;
+    }
+    .speaker-modal-website, .speaker-modal-socialMedia{
+        top: 3.2vw;
+    }
+    .speaker-modal-dateTime{
+        margin-bottom: 4vw;
+    }
+    .modal-x {
+        position: absolute;
+        left: 94vw;
+        top: 0.5vw;
+        width: 1.2vw;
+        height: 1.2vw;
+        z-index: 2000;
+    }
     
     .countdown-marg-top {
         height: 70vw;
