@@ -654,12 +654,10 @@ footer .link-effect:hover::before{
         position: relative;
         background-color: #FFF;
         font-family: 'Elliot-Light';
-        box-shadow: 0px 1.6vw 60px rgba(0, 0, 0, 1);
-        pointer-events: auto;
-    }
-    .speaker-modal{
         font-size: 1vw;
         line-height: 1.6vw;
+        box-shadow: 0px 1.6vw 60px rgba(0, 0, 0, 1);
+        pointer-events: auto;
     }
     .modal-holder{
         content: ' ';
@@ -720,17 +718,20 @@ footer .link-effect:hover::before{
     }
     .speaker-modal a{
         font-family: 'Elliot-Bold';
-        font-size: 1vw;
+        font-size: 0.5vw;
         letter-spacing: 0.08vw;
         color: #333;
         text-transform: uppercase;
     }
     .speaker-modal-name{
+        display: inline-block;
         font-family: 'Elliot';
         font-size: 1.8vw;
+        margin-bottom: 0.5vw;
     }
-    .speaker-modal-position, .speaker-modal-dateTime{
+    .speaker-modal-position{
         font-family: 'Elliot-LightItalic';
+        margin-bottom: 1.4vw;
     }
     .speaker-modal-description{
         margin-bottom: 2.5vw;
@@ -743,15 +744,24 @@ footer .link-effect:hover::before{
         
     }
     .speaker-modal-dateTime{
+        font-family: 'Elliot-LightItalic';
         margin-bottom: 2.5vw;
         line-height: .124vw !important;
     }
     .speaker-modal-links{
-        float: none;
+        text-align: right;
+        float: right;
         height: auto;
+        margin-top: 2.1vw;
     }
-    .speaker-modal-website, .speaker-modal-socialMedia{
+    .speaker-modal-website{
         display: inline-block;
+        float: right;
+        margin-bottom: 0.6vw;
+    }
+    .speaker-modal-socialMedia{
+        display: inline-block;
+        float: right;
     }
 
 /*
@@ -812,8 +822,8 @@ footer .link-effect:hover::before{
     }
     .speaker-modal a{
         font-family: 'Elliot-Bold';
-        font-size: 1.05vw;
-        letter-spacing: 0.124vw;
+        font-size: 0.95vw;
+        letter-spacing: 0.06vw;
     }
     .speaker-modal{
         width: 71vw;
@@ -3108,19 +3118,22 @@ footer .link-effect:hover::before{
     .speaker-modal-label{
         font-size: 3.6vw;
     }
-    .speaker-modal-website{
-        display: inline-block;
-        line-height: initial;
-        margin-top: 5.1vw;
-    }
     .speaker-modal-links{
         width: 52%;
+        text-align: left;
         margin-right: 4vw;
         float: left;
         clear: left;
     }
+    .speaker-modal-website{
+        display: inline-block;
+        float: right;
+        line-height: initial;
+        margin-top: 5.1vw;
+    }
     .speaker-modal-socialMedia{
         display: inline-block;
+        float: right;
         line-height: initial;
         margin: 2.1vw 0 6.5vw 0;
     }

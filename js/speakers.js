@@ -48,7 +48,6 @@ $(document).ready(function(){
 				if(j < speakers[i].fields.length-1)
 					fields += ", ";
 			}
-			console.log(i + " " + speakers[i].name);
 			$('.container-speakers').append(
 				'<div class="speaker">\n<img src=\"' + speakers[i].image + '\" class=\"speaker-image\">\n' + 
 				'<div class="speaker-content"><h2 class="speaker-name">' + speakers[i].name + '</h2>\n' +
@@ -127,10 +126,11 @@ $(document).ready(function(){
 		console.log('working');
 		$('.speaker-modal').append(
 			'<div class=\"speaker-modal-content\">\n<img src=\"' + speakers[i].image + '\" class=\"speaker-modal-image\">\n' + 
-			'<div class=\"speaker-modal-info\"><h2 class=\"speaker-modal-name\">' + speakers[i].name + '<\/h2>\n' +
+			'<div class=\"speaker-modal-info\">\n' + 
+			'<a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a><br>\n' +
+			'<h2 class=\"speaker-modal-name\">' + speakers[i].name + '<\/h2>\n' +
+			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a>' + 
 			'<p class="speaker-modal-position">' + speakers[i].position + '<\/p>\n' +
-			'<div class="speaker-modal-links"><a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a><br>\n' +
-			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div>' + 
 			'<p class="speaker-modal-description">' + speakers[i].description + '<\/p>\n' +
 			'<h3 class="speaker-modal-label">Presentations<\/h3>\n' +
 			'<p class="speaker-modal-presentation">' + speakers[i].presentation + '<\/p>\n' + 
