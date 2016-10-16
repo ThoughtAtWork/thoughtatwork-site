@@ -714,7 +714,6 @@ footer .link-effect:hover::before{
         height: 100%;
     }
     .speaker-modal-info{
-        float: left;
         width: 50%;
         height: 100%;
         padding: 2vw 3.5vw;
@@ -747,7 +746,7 @@ footer .link-effect:hover::before{
         margin-bottom: 1.4vw;
     }
     .speaker-modal-description{
-        margin-bottom: 2.5vw;
+        margin-bottom: 2vw;
     }
     .speaker-modal-label{
         font-family: 'Elliot';
@@ -769,6 +768,7 @@ footer .link-effect:hover::before{
     .speaker-modal-website{
         display: inline-block;
         margin-top: 0vw;
+        margin-bottom: 0.5vw;
     }
     .speaker-modal-socialMedia{
         display: inline-block;
@@ -848,7 +848,7 @@ footer .link-effect:hover::before{
     .speaker-modal-position{
     }
     .speaker-modal-description{
-        margin-bottom: 2.58vw;
+        margin-bottom: 1vw;
     }
     .speaker-modal-label{
         font-family: 'Elliot';
@@ -1897,7 +1897,6 @@ footer .link-effect:hover::before{
         font-size: 2.3vw;
     }
     .speaker-modal-info{
-        float: left;
         width: 37.4vw;
         height: 100%;
         padding: 2vw 3.5vw;
@@ -2609,7 +2608,6 @@ footer .link-effect:hover::before{
         font-size: 2.86632vw;
     }
     .speaker-modal-info{
-        float: left;
         width: 43.5vw;
         height: 100%;
         padding: 2vw 3.5vw;
@@ -3128,16 +3126,15 @@ footer .link-effect:hover::before{
         min-height: 90vw;
         height: auto;
         font-size: 2.4vw;
-        line-height: 2.8vw;
+        line-height: 3.5vw;
         padding: 6vw 6vw;
     }
    .speaker-modal a{
         font-family: 'Elliot-Bold';
-        font-size: 2.55vw;
+        font-size: 2.3vw;
         letter-spacing: 0.27vw;
     }
     .speaker-modal-info{
-        float: left;
         width: 100%;
         height: auto;
         padding: 0;
@@ -3161,18 +3158,19 @@ footer .link-effect:hover::before{
         padding: 0;
         font-size: 4.5vw;
         margin: 0 auto;
+        margin-bottom: 0.75vw;
     }
     .speaker-modal-position{
     }
     .speaker-modal-description{
-        line-height: 4vw;
-        margin-bottom: 6vw;
+        margin-bottom: 3vw;
     }
     .speaker-modal-label{
         font-size: 3.6vw;
     }
     .speaker-modal-links{
-        width: 46.6vw;
+        width: 40.5vw;
+        height: 30vw;
         text-align: left;
         margin-right: 4vw;
         float: left;
