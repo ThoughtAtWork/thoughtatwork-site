@@ -106,6 +106,7 @@
             </div>
 		</div-->
     <div class="about-mobile-top about-mobile-bot container-fluid team-headshots">
+        <script type="text/javascript" src="js/team.js"></script>
     </div>
         <!--div class="about-teampic  small-top about-mobile-bot">
             <img src="img/team-photo.png" class="img-responsive" />
