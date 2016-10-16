@@ -759,7 +759,7 @@ footer .link-effect:hover::before{
     .speaker-modal-dateTime{
         font-family: 'Elliot-LightItalic';
         margin-bottom: 2.5vw;
-        line-height: .124vw !important;
+        
     }
     .speaker-modal-links{
         float: none;
