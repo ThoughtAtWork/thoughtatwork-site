@@ -129,13 +129,14 @@ $(document).ready(function(){
 			'<div class=\"speaker-modal-content\">\n<img src=\"' + speakers[i].image + '\" class=\"speaker-modal-image\">\n' + 
 			'<div class=\"speaker-modal-info\"><h2 class=\"speaker-modal-name\">' + speakers[i].name + '<\/h2>\n' +
 			'<p class="speaker-modal-position">' + speakers[i].position + '<\/p>\n' +
+			'<div class="speaker-modal-links"><a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a><br>\n' +
+			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div>' + 
 			'<p class="speaker-modal-description">' + speakers[i].description + '<\/p>\n' +
-			'<h3 class="speaker-modal-label">' + speakers[i].name + '\'s Presentations<\/h3>\n' +
+			'<h3 class="speaker-modal-label">Presentations<\/h3>\n' +
 			'<p class="speaker-modal-presentation">' + speakers[i].presentation + '<\/p>\n' + 
 			'<p class="speaker-modal-dateTime">' + speakers[i].dateTime + '<\/p>\n' +
 			'<a href=\"' + '\" class="link-effect">View Schedule<\/a><br>\n' +
-			'<a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a><br>\n' +
-			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div><\/div>'
+			'<\/div><\/div>'
 		);
 	}
 });
