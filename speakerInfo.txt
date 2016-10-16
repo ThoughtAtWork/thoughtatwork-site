@@ -22,11 +22,15 @@ Matt Olpinski|https://taw.imgix.net/speakers/matt_olpinski.jpg?w=.779&h=1&crop=f
 
 Maya Bruck|https://taw.imgix.net/speakers/maya_bruck.jpg?w=.779&h=1&crop=focalpoint&fit=crop&fp-x=0.6&fp-y=0.4|Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
 
-Miguel Cardona||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+Miguel Cardona|https://taw.imgix.net/speakers/miguel_cardona.jpg?w=2641&h=1&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.4|Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
 
 Mitch Goldstein|https://taw.imgix.net/speakers/mitch_goldstein.jpg?w=1&h=1540&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.4|Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
 
+Owen Davey||Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
 Pattie Moore|https://taw.imgix.net/speakers/pattie_moore.jpg?w=1&h=832&crop=focalpoint&fit=crop&fp-x=0.48&fp-y=0.4|Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
+
+Tim Scanlon|https://taw.imgix.net/speakers/tim_scanlon.jpg?w=.779&h=1&crop=focalpoint&fit=crop&fp-x=0.6&fp-y=0.5|Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
 
 Tnaya Witmer|https://taw.imgix.net/speakers/tnaya_witmer.jpg?w=1513&h=1&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.3|Manager of Someotherplace|cxzxcv'qweg'lfdhshh|erasdgardff descr|Mops|Monday, 4-6PM|meepmop.com|http://url.com|instagram|otherslink.com\
 
