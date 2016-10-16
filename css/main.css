@@ -1864,14 +1864,14 @@ footer .link-effect:hover::before{
     }
     .speaker-modal-info{
         float: left;
-        width: 48%;
+        width: 37.4vw;
         height: 100%;
         padding: 2vw 3.5vw;
         overflow-y: auto;
     }
     .speaker-modal-image{
         float: left;
-        width: 52%;
+        width: 43.6vw;
         height: 100%;
     }
     .speaker-modal-position{
@@ -2561,13 +2561,13 @@ footer .link-effect:hover::before{
     }
     .speaker-modal-info{
         float: left;
-        width: 48%;
+        width: 43.5vw;
         height: 100%;
         padding: 2vw 3.5vw;
         overflow-y: auto;
     }
     .speaker-modal-image{
-        width: 52%;
+        width: 53vw;
     }
     .speaker-modal-position{
     }
@@ -3065,21 +3065,15 @@ footer .link-effect:hover::before{
     .speaker-modal{
         width: 96vw;
         min-height: 115vw;
-        height: auto;
-        font-size: 3.3vw;
-        line-height: 4.5vw;
+        height: 68vw;
+        font-size: 2.4vw;
+        line-height: 2.8vw;
         padding: 4vw 4vw;
     }
    .speaker-modal a{
         font-family: 'Elliot-Bold';
         font-size: 2.55vw;
         letter-spacing: 0.27vw;
-    }
-    .speaker-modal{
-        width: 96.5vw;
-        height: 68vw;
-        font-size: 2.4vw;
-        line-height: 2.8vw;
     }
     .speaker-modal-info{
         float: left;
@@ -3091,13 +3085,13 @@ footer .link-effect:hover::before{
     .speaker-modal-info::before{
         content: ' ';
         float: left;
-        width: 52%;
+        width: 27.5vw;
         height: 52%;
         margin-right: 4vw;
     }
     .speaker-modal-image{
         position: absolute;
-        width: 52%;
+        width: 27.5vw;
         height: 52%;
     }
     .speaker-modal-name{
@@ -3589,7 +3583,7 @@ footer .link-effect:hover::before{
     .speaker-image{
         float: left;
         display: inline-block;
-        width: 35%;
+        width: 24.6vw;              /*fix this width thing*/
         height: 31.6vw;
         margin: 0 !important;
         position: relative;
