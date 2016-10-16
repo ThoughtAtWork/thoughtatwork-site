@@ -106,6 +106,13 @@
             </div>
 		</div-->
     <div class="about-mobile-top about-mobile-bot container-fluid team-headshots">
+        <script type="text/javascript" src="js/team.js"></script>
+        <div class="col-md-10 col-md-offset-1 team-buffer">
+            <div class="col-md-3 team-block"><img src="img/team/jacob_frank1.jpg" class="img-responsive team-img text-center"><h2 class="team-name">Pretty Boy</h2><h2 class="team-major">School of Individualized Study</h2></div>
+            <div class="col-md-3 team-block"><img src="img/team/jacob_frank1.jpg" class="img-responsive team-img"><h2 class="team-name">Pretty Boy</h2><h2 class="team-major">School of Individualized Study</h2></div>
+            <div class="col-md-3 team-block"><img src="img/team/jacob_frank1.jpg" class="img-responsive team-img"><h2 class="team-name">Pretty Boy</h2><h2 class="team-major">School of Individualized Study</h2></div>
+            <div class="col-md-3 team-block"><img src="img/team/jacob_frank1.jpg" class="img-responsive team-img"><h2 class="team-name">Pretty Boy</h2><h2 class="team-major">School of Individualized Study</h2></div>
+        </div>
     </div>
         <!--div class="about-teampic  small-top about-mobile-bot">
             <img src="img/team-photo.png" class="img-responsive" />
