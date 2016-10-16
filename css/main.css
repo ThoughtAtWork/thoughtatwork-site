@@ -13,6 +13,12 @@
 @font-face {
   font-family: 'Elliot-Thin';
   src: url("../fonts/Elliot-Thin.otf"); }
+@font-face {
+  font-family: 'Elliot-Italic';
+  src: url("../fonts/Elliot-Italic.otf"); }
+@font-face {
+  font-family: 'Elliot-LightItalic';
+  src: url("../fonts/Elliot-LightItalic.otf"); }
 body {
     /* Background image is centered vertically and horizontally at all times */
     background-position:center top;
@@ -48,6 +54,15 @@ a{
 }
 .currentRegister::after{
     border-bottom: 4px solid #FFF;
+}
+.modal-holder .close {
+    left: 89vw;
+    top: 2.4vw;
+}
+.modal-holder .close:before, .modal-holder .close:after{
+    background-color: #333;
+    height: 20px;
+    width: 1px;
 }
 .close {
     position: absolute;
@@ -714,8 +729,9 @@ footer .link-effect:hover::before{
         font-family: 'Elliot';
         font-size: 1.8vw;
     }
-    .speaker-modal-position{
+    .speaker-modal-position, .speaker-modal-dateTime{
         margin-bottom: 3vw;
+        font-family: 'Elliot-LightItalic';
     }
     .speaker-modal-description{
         margin-bottom: 2.5vw;
@@ -725,10 +741,11 @@ footer .link-effect:hover::before{
         font-size: 1.2vw;
     }
     .speaker-modal-presentation{
-
+        
     }
     .speaker-modal-dateTime{
         margin-bottom: 2.5vw;
+        line-height: .124vw !important;
     }
     .speaker-modal-website, .speaker-modal-socialMedia{
         top: 2vw;
@@ -781,6 +798,15 @@ footer .link-effect:hover::before{
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
     
+    .modal-holder .close {
+        left: 68.7vw;
+        top: .6vw;
+    }
+    .modal-holder .close:before, .modal-holder .close:after{
+        background-color: #333;
+        height: 20px;
+        width: 1px;
+    }
     .speaker-modal a{
         font-family: 'Elliot-Bold';
         font-size: 1.05vw;
@@ -1810,6 +1836,15 @@ footer .link-effect:hover::before{
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
     
+    .modal-holder .close {
+        left: 78vw;
+        top: .9vw;
+    }
+    .modal-holder .close:before, .modal-holder .close:after{
+        background-color: #333;
+        height: 20px;
+        width: 1px;
+    }
     .speaker-modal a{
         font-family: 'Elliot-Bold';
         font-size: 1.3vw;
@@ -1855,7 +1890,7 @@ footer .link-effect:hover::before{
     }
     .modal-x {
         position: absolute;
-        left: 78vw;
+        left: 79.5vw;
         top: 0.5vw;
         width: 1.2vw;
         height: 1.2vw;
@@ -2499,6 +2534,15 @@ footer .link-effect:hover::before{
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px ) {
     
+    .modal-holder .close {
+        left: 93vw;
+        top: .9vw;
+    }
+    .modal-holder .close:before, .modal-holder .close:after{
+        background-color: #333;
+        height: 20px;
+        width: 1px;
+    }
     .speaker-modal a{
         font-family: 'Elliot-Bold';
         font-size: 1.4022472vw;
@@ -3008,6 +3052,16 @@ footer .link-effect:hover::before{
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+    
+    .modal-holder .close {
+        left: 92vw;
+        top: .9vw;
+    }
+    .modal-holder .close:before, .modal-holder .close:after{
+        background-color: #333;
+        height: 20px;
+        width: 1px;
+    }
     .speaker-modal{
         width: 96vw;
         min-height: 115vw;
@@ -3016,38 +3070,34 @@ footer .link-effect:hover::before{
         line-height: 4.5vw;
         padding: 4vw 4vw;
     }
-    .speaker-modal a{
-        font-size: 2.55vw;
-        letter-spacing: 0.27vw;
+   .speaker-modal a{
+        font-family: 'Elliot-Bold';
+        font-size: 1.4022472vw;
+        letter-spacing: 0.154vw;
     }
-    .speaker-modal-info{
-        position: static;
-        float: none;
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-        overflow: initial;
-    }
-    .speaker-modal-info::before{
-        content: ' ';
-        width: 23.4vw;
-        height: 30.7vw;
-        margin-right: 4vw;
-        float: left;
-    }
-    .speaker-modal-image{
-/*        display: none;*/
-        position: absolute;
-        width: 23.4vw;
-        height: 30vw;
+    .speaker-modal{
+        width: 96.5vw;
+        height: 68vw;
+        font-size: 1.8vw;
+        line-height: 2.4vw;
     }
     .speaker-modal-name{
-        padding: 0;
-        font-size: 4.5vw;
+        font-family: 'Elliot';
+        font-size: 2.86632vw;
+    }
+    .speaker-modal-info{
+        float: left;
+        width: 48%;
+        height: 100%;
+        padding: 2vw 3.5vw;
+        overflow-y: auto;
+    }
+    .speaker-modal-image{
+        width: 52%;
+        height: 52%
     }
     .speaker-modal-position{
-        margin-bottom: 6vw;
+        margin-bottom: 4.0vw;
     }
     .speaker-modal-description{
         margin-bottom: 6vw;
