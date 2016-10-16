@@ -3031,7 +3031,7 @@ footer .link-effect:hover::before{
     }
     .speaker-modal-info::before{
         content: ' ';
-        width: 23.4vw;
+        width: 36vw;
         height: 30.7vw;
         margin-right: 4vw;
         float: left;
@@ -3044,7 +3044,7 @@ footer .link-effect:hover::before{
     }
     .speaker-modal-name{
         padding: 0;
-        font-size: 4.5vw;
+        font-size: 2.86632vw;
     }
     .speaker-modal-position{
         margin-bottom: 6vw;
