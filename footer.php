@@ -9,18 +9,18 @@
      </a>
          </div>
  <div class="col-sm-3">
-     <a href="http://fitc.ca/" target="_blank">
-    <img class="sponsor-img" src="img/sponsor-logos-02.png" />
-     </a>
- </div>
- <div class="col-sm-3  firstRow-sponsor-images">
      <a href="http://www.autodesk.com" target="_blank">
     <img class="sponsor-img" src="img/sponsor-logos-03.png" />
      </a>
  </div>
+ <div class="col-sm-3  firstRow-sponsor-images">
+     <a href="http://www.core77.com/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-12.png" />
+     </a>
+ </div>
  <div class="col-sm-3">
-     <a href="https://www.rit.edu/" target="_blank">
-    <img class="sponsor-img" src="img/sponsor-logos-04.png" />
+     <a href="http://fitc.ca/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-02.png" />
      </a>
  </div>
 </div>
@@ -28,23 +28,47 @@
 <div class="row sponsor-top mobile-remove-sponsor-top">
 <div class="center-mid">
     <div class="col-sm-3 firstRow-sponsor-images">
-        <a href="http://cias.rit.edu/" target="_blank">
-            <img class="sponsor-img" src="img/sponsor-logos-05.png" />
+        <a href="http://www.eastman.com/" target="_blank">
+            <img class="sponsor-img" src="img/sponsor-logos-09.png" />
          </a>
     </div>
  <div class="col-sm-3">
-    <a href="http://www.wacom.com/" target="_blank">
-    <img class="sponsor-img" src="img/sponsor-logos-06.png" />
+    <a href="https://www.raymondcorp.com/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-10.png" />
      </a>
  </div>
  <div class="col-sm-3  firstRow-sponsor-images">
-    <a href="https://www.stickermule.com/" target="_blank">
-    <img class="sponsor-img" src="img/sponsor-logos-07.png" />
+    <a href="http://www.wacom.com/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-08.png" />
      </a>
  </div>
  <div class="col-sm-3">
-     <a href="http://www.tinyfishprinting.com/" target="_blank">
-    <img class="sponsor-img" src="img/sponsor-logos-08.png" />
+     <a href="http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/" target="_blank">
+    <img class="sponsor-img" src="img/sponsor-logos-11.png" />
+     </a>
+ </div>
+</div>
+</div>
+<div class="row sponsor-top mobile-remove-sponsor-top">
+<div class="center-mid">
+    <div class="col-sm-3 firstRow-sponsor-images">
+        <a href="http://www.rit.edu/" target="_blank">
+            <img class="sponsor-img" src="img/sponsor-logos-04.png" />
+         </a>
+    </div>
+ <div class="col-sm-3">
+    <a href="http://cias.rit.edu/" target="_blank">
+            <img class="sponsor-img" src="img/sponsor-logos-05.png" />
+     </a>
+ </div>
+ <div class="col-sm-3  firstRow-sponsor-images">
+    <a href="http://www.tinyfishprinting.com/" target="_blank">
+        <img class="sponsor-img" src="img/sponsor-logos-07.png" />
+     </a>
+ </div>
+ <div class="col-sm-3">
+     <a href="https://www.stickermule.com/" target="_blank">
+        <img class="sponsor-img" src="img/sponsor-logos-06.png" />
      </a>
  </div>
 </div>
