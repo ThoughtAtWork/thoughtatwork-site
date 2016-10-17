@@ -2612,6 +2612,7 @@ footer .link-effect:hover::before{
     }
     .speaker-modal-image{
         width: 53vw;
+        height: 68vw;
     }
     .speaker-modal-position{
     }
