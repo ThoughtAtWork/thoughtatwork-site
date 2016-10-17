@@ -589,6 +589,7 @@ footer .link-effect:hover::before{
     .speaker-image{
         width: 100%;
         height: 31.6vw;
+        filter: grayscale();
         margin: 0 !important;
         position: relative;
     }
@@ -671,6 +672,8 @@ footer .link-effect:hover::before{
         line-height: 1.6vw;
         box-shadow: 0px 1.6vw 60px rgba(0, 0, 0, 1);
         pointer-events: auto;
+        transform: scale(1);
+        transition: transform .25s ease-in-out, opacity .3s ease;
     }
     .modal-holder{
         content: ' ';
@@ -681,11 +684,13 @@ footer .link-effect:hover::before{
         top: 0;
         z-index: 2000;
         pointer-events: none;
-        transition: top .3s ease-in-out, opacity .3s ease-in-out;
+        transition: .3s ease-in-out;
     }
     .modal-hidden{
-        top: -160vh !important;
+        top: 0vh !important;
         opacity: 0;
+        pointer-events: none;
+        transform: scale(0.98);
     }
     .modal-x {
         position: absolute;

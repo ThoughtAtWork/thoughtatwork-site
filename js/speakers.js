@@ -112,14 +112,14 @@ $(document).ready(function(){
 	function showModal(speaker){
 		$('.speaker-modal-content').detach();
 		fillModal($(speaker).index());
-		$('.modal-holder').toggleClass('modal-hidden');
+		$('.speaker-modal').toggleClass('modal-hidden');
 		$('.close-modal').toggleClass('modal-hidden');
 		$('.container-fluid').toggleClass('blur');
 		$('.speakers-splash-words').attr('id', 'changeBG');
 	}
 
 	function closeModal(){
-		$('.modal-holder').toggleClass('modal-hidden');	
+		$('.speaker-modal').toggleClass('modal-hidden');
 		$('.close-modal').toggleClass('modal-hidden');
 		$('.container-fluid').toggleClass('blur');
 		$('.speakers-splash-words').removeAttr('id');

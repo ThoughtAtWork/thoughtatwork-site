@@ -71,8 +71,8 @@
 		</div>
     </div>
 
-    <div class="modal-holder modal-hidden">
-	    <div class="speaker-modal">
+    <div class="modal-holder">
+	    <div class="speaker-modal modal-hidden">
     	<div class="modal-x close"></div>
 	    </div>
     </div>
