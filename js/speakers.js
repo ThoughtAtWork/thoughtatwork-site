@@ -143,17 +143,4 @@ $(document).ready(function(){
 			'<\/div><\/div>'
 		);
 	}
-
-	(function (flags, app) {
-	    os('Win', 'os-win');
-	    os('Mac', 'os-mac');
-
-	    if (document.documentElement) {
-	        document.documentElement.className += flags.join(' ');
-	    }
-
-	    function os (s, f) { if (app.indexOf(s) !== -1) flags.push(f); }
-
-	}([''], String(navigator && navigator.appVersion)));
-	
 });
