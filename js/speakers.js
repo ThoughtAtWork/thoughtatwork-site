@@ -54,6 +54,9 @@ $(document).ready(function(){
 				'<p class="speaker-fields">' + fields + '</p>\n<button type=\"button\" class=\"speaker-expand btn contact-btn btn-effect\" onclick=\"return false;\">View More</button>\n</div>\n</div>'
 			);
 		}
+		$('.speaker-image').each(function(){
+			$(this).after('<div class=\"speaker-image-hover\"></div>');
+		});
 
 		$('.close-modal').click(function(){
 			closeModal();

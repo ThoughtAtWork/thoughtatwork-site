@@ -573,6 +573,7 @@ footer .link-effect:hover::before{
         margin: 5vw auto;
     }
     .speaker{
+        position: relative;
         display: inline-block;
         width: 24.3vw;
         margin: 3vw 1.8vw;
@@ -585,36 +586,26 @@ footer .link-effect:hover::before{
         font-size: 1.73vw;
         margin: 2.4vw 0 .8vw 0;
     }
-    .team-name  {
-        font-family: "Elliot";
-        font-size: 2vw;
-        margin: 2vw 0 .8vw 0;
-    }
-    .team-major {
-        font-family: "Elliot";
-        font-size: 1vw;
-        margin: .8vw 0 .8vw 0;
-    }
     .speaker-image{
         width: 100%;
         height: 31.6vw;
         margin: 0 !important;
         position: relative;
     }
-    .speaker-image::after{
+    .speaker-image-hover{
         content: ' ';
         color: #FFF;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 31.6vw;
         background-color: #FF2241;
         text-align: center;
         opacity: 0;
-        padding-top: 60%;
-        z-index: 5000;
-        transition: .15s ease-in-out;
+        z-index: 2000;
+        pointer-events: none;
+        transition: .17s ease-in-out;
     }
     .speaker-image:hover {
         cursor: pointer !important;
@@ -627,9 +618,18 @@ footer .link-effect:hover::before{
     .speaker-expand{
         display: none !important;
     }
-    .speaker:hover .speaker-image::after{
-        content: 'hover';
-        opacity: 0.9;
+    .speaker:hover .speaker-image-hover{
+        opacity: 0.5;
+    }
+    .team-name  {
+        font-family: "Elliot";
+        font-size: 2vw;
+        margin: 2vw 0 .8vw 0;
+    }
+    .team-major {
+        font-family: "Elliot";
+        font-size: 1vw;
+        margin: .8vw 0 .8vw 0;
     }
     #blurryPic{
         width: 100%;
@@ -687,16 +687,14 @@ footer .link-effect:hover::before{
         top: -160vh !important;
         opacity: 0;
     }
-    .modal-x:hover {
-        cursor: pointer !important;
-    }
     .modal-x {
         position: absolute;
         left: 78vw;
         top: 0.5vw;
-        width: 1.2vw;
-        height: 1.2vw;
         z-index: 2000;
+    }
+    .modal-x:hover {
+        cursor: pointer !important;
     }
     .close-modal{
         z-index: 1999;
@@ -706,23 +704,6 @@ footer .link-effect:hover::before{
         top: 0;
         opacity: 1;
         /*transition: 0.2s ease-in-out;*/
-    }
-    .speaker-modal-content{
-        position: relative;
-        top: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .speaker-modal-info{
-        width: 50%;
-        height: 100%;
-        padding: 2vw 3.5vw;
-        overflow-y: auto;
-    }
-    .speaker-modal-image{
-        float: left;
-        width: 50%;
-        height: 100%;
     }
     .blur{
         filter: blur(10px);
@@ -841,6 +822,23 @@ footer .link-effect:hover::before{
         font-size: 1.05vw;
         line-height: 1.6vw;
     }
+    .speaker-modal-content{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .speaker-modal-image{
+        float: left;
+        width: 36.6vw;
+        height: 100%;
+    }
+    .speaker-modal-info{
+        width: 34.4;
+        height: 100%;
+        padding: 2vw 3.5vw;
+        overflow-y: auto;
+    }
     .speaker-modal-name{
         font-family: 'Elliot';
         font-size: 1.86vw;
@@ -864,8 +862,6 @@ footer .link-effect:hover::before{
         position: absolute;
         left: 70vw;
         top: 0.0vw;
-        width: 1.2vw;
-        height: 1.2vw;
         z-index: 2000;
     }
     
@@ -1931,8 +1927,6 @@ footer .link-effect:hover::before{
         position: absolute;
         left: 79.5vw;
         top: 0.5vw;
-        width: 1.2vw;
-        height: 1.2vw;
         z-index: 2000;
     }
     
@@ -2638,8 +2632,6 @@ footer .link-effect:hover::before{
         position: absolute;
         left: 94vw;
         top: 0.5vw;
-        width: 1.2vw;
-        height: 1.2vw;
         z-index: 2000;
     }
     
@@ -3081,7 +3073,7 @@ footer .link-effect:hover::before{
     .speaker-image{
         height: 38vw;
     }
-    .speaker:hover .speaker-image::after{
+    .speaker:hover .speaker-image-hover{
         opacity: 0;
     }
     .speaker-name {
@@ -3205,8 +3197,6 @@ footer .link-effect:hover::before{
         position: absolute;
         left: 93vw;
         top: 0.5vw;
-        width: 1.2vw;
-        height: 1.2vw;
         z-index: 2000;
     }
     
