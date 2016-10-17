@@ -3062,7 +3062,6 @@ footer .link-effect:hover::before{
         margin-top: 6.5vw;
         margin-left: calc(10px + -7vw);
     }
-
     /*speaker page*/
     .container-speakers{
         width: 76vw;
@@ -3079,8 +3078,8 @@ footer .link-effect:hover::before{
     .speaker-image{
         height: 38vw;
     }
-    .speaker:hover .speaker-image-hover{
-        opacity: 0;
+    .speaker-image-hover{
+        height: 38vw;
     }
     .speaker-name {
         font-size: 2vw;
@@ -3653,12 +3652,19 @@ footer .link-effect:hover::before{
     .speaker-image{
         float: left;
         display: inline-block;
-        width: 24.6vw;              /*fix this width thing*/
+        width: 24.6vw;
         height: 31.6vw;
         margin: 0 !important;
         position: relative;
     }
+    .speaker-image-hover{
+        height: 31.6vw;
+    }
+    .speaker:hover .speaker-image-hover{
+        opacity: 0;
+    }
     .speaker-content{
+        width: calc(60% - 4vw);
         float: left;
         margin-left: 4vw;
     }
@@ -3800,6 +3806,9 @@ footer .link-effect:hover::before{
         height: 38.6vw;
         margin: 0 !important;
         position: relative;
+    }
+    .speaker-image-hover{
+        height: 38.6vw;
     }
     .speaker-content{
         width: calc(60% - 6vw);
