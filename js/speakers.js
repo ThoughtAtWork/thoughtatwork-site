@@ -129,6 +129,7 @@ $(document).ready(function(){
 			'<div class=\"speaker-modal-info\">\n' + 
 			'<h2 class=\"speaker-modal-name\">' + speakers[i].name + '<\/h2>\n' +
 			'<p class="speaker-modal-position">' + speakers[i].position + '<\/p>\n' +
+			'<div class=\"modal-space-holder\"></div>' + 
 			'<p class="speaker-modal-description">' + speakers[i].description + '<\/p>\n' +
 			'<div class=\"speaker-modal-links\"><a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a>\n<br>' +
 			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div>' + 
