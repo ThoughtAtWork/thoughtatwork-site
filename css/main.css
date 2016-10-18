@@ -746,7 +746,7 @@ footer .link-effect:hover::before{
     .speaker-modal-dateTime{
         font-family: 'Elliot-LightItalic';
         margin-bottom: 2.5vw;
-        
+
     }
     .speaker-modal-links{
         float: none;
@@ -808,7 +808,10 @@ footer .link-effect:hover::before{
 */
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
-    
+
+  .modal-x.close {
+    margin: 0px 0px 0px 0px !important;
+  }
     .modal-holder .close {
         left: 68vw;
         top: 1vw;
@@ -871,7 +874,7 @@ footer .link-effect:hover::before{
         top: 0.0vw;
         z-index: 2000;
     }
-    
+
     .mobile-home {
         display: none !important;
     }
@@ -1936,7 +1939,7 @@ footer .link-effect:hover::before{
         top: 0.5vw;
         z-index: 2000;
     }
-    
+
     .speaker-h2 {
         font-family: "Elliot";
     }
@@ -2586,7 +2589,6 @@ footer .link-effect:hover::before{
         display: inline-block;
         max-width: 24%; 
     }
-       
     .modal-holder .close {
         left: 92.5vw;
         top: 1vw;
@@ -2642,7 +2644,7 @@ footer .link-effect:hover::before{
         top: 0.5vw;
         z-index: 2000;
     }
-    
+
     .countdown-marg-top {
         height: 70vw;
     }
@@ -3103,7 +3105,7 @@ footer .link-effect:hover::before{
 @media only screen and (max-width : 767px) {
     .team-block {
     display: inline-block;
-    max-width: 49%; 
+    max-width: 49%;
 }
     .team-name  {
         font-family: "Elliot";
@@ -3209,7 +3211,7 @@ footer .link-effect:hover::before{
         top: 0.5vw;
         z-index: 2000;
     }
-    
+
     .count-right {
         position: absolute !important;
         left: 25%;
