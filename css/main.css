@@ -2930,7 +2930,7 @@ footer .link-effect:hover::before{
         letter-spacing: 1.9px;
         position: relative;
     }
-    
+
 
     #nav-background-color {
         background: none;
@@ -3733,7 +3733,7 @@ footer .link-effect:hover::before{
         font-size: 2.5vw !important;
         padding: 2vw 3vw !important;
     }
-    
+
     .contact-label{
         height: 4.2vw;
     }
@@ -4133,7 +4133,7 @@ footer .link-effect:hover::before{
   font-family: 'elliot-thin';
   margin-top: 15px !important;
   text-align: justify;
-  max-height: 200px;
+  max-height: 1000px;
   transition: max-height 0.3s ease-in;
   overflow: hidden;
 }
