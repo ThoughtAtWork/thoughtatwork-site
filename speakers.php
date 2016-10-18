@@ -73,7 +73,7 @@
 
     <div class="modal-holder">
 	    <div class="speaker-modal modal-hidden">
-    	<div class="modal-x close"></div>
+    	<div class="modal-x"><img src="img/modal-x.png"></div>
 	    </div>
     </div>
     
