@@ -2257,7 +2257,7 @@ a{
     .count-left {
         position: absolute !important;
         right: 28%;
-    
+
     }
     .count-right {
         position: absolute !important;
@@ -3111,4 +3111,247 @@ a{
         padding-right: 6.5vw;
         text-align: left;
     }
+}
+
+/*******************************************************************************
+************ Schedule Page Stuff || (stuff that sam kilgus guy did) ************
+*******************************************************************************/
+
+/******************************* General Stuff ********************************/
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_center {
+  justify-content: center;
+}
+
+.flex_space_between {
+  justify-content: space-between;
+}
+
+.flex_space_around {
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 990px) {
+  .schedule_main {
+    padding-top: 100px;
+    margin: 0 20%;
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .schedule_main {
+    padding-top: 100px;
+    margin: 0 10%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .schedule_main {
+    padding-top: 30px;
+    margin: 0 5%;
+    width: 90%;
+  }
+}
+
+.schedule_main * {
+  flex-shrink: 0;
+}
+
+.schedule_main p {
+  margin: 0;
+  padding: 0;
+}
+
+/******************************* Day Selector *********************************/
+
+
+@media screen and (min-width: 550px) {
+  .day_selector_cont {
+    font-family: 'elliot';
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .day_selector_cont {
+    font-family: 'elliot';
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (min-width: 840px) {
+  .day_option {
+    padding: 15px 40px;
+    background-color: #E6E6E6;
+    font-size: 2.5rem;
+    font-weight: 200;
+    transition: background-color 0.3s, color 0.3s;
+  }
+}
+
+@media screen and (max-width: 840px) and (min-width: 550px) {
+  .day_option {
+    padding: 10px 30px;
+    background-color: #E6E6E6;
+    font-size: 2rem;
+    font-weight: 200;
+    transition: background-color 0.3s, color 0.3s;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .day_option {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    background-color: #E6E6E6;
+    font-size: 2rem;
+    font-weight: 200;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+  }
+}
+
+
+
+.day_option:hover {
+  background-color: #b5b5b5;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #ff2241;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.active:hover {
+  background-color: #ff2241;
+  color: white;
+  cursor: default;
+}
+
+/******************************* Schedule *************************************/
+
+.time_cont {
+  border-bottom: 1px solid #E6E6E6;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.time_cont_no_border {
+  margin-top: 40px;
+  padding-bottom: -40px;
+}
+
+
+.time_text {
+  font-family: 'elliot-bold';
+  height: 100%;
+  width: 20%;
+  min-width: 70px;
+  margin-right: 10% !important;
+}
+
+.events_cont {
+  width: 70%;
+}
+
+.event_cont_no_disc {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.event_cont {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.event_cont:hover {
+  cursor: pointer;
+}
+
+.event_cont:hover  .title_text {
+  color: #ff2241;
+  transition: color 0.3s;
+}
+
+.title_text_no_disc {
+  width: 100%;
+  font-family: 'elliot';
+  font-size: 1.7rem;
+  color: black;
+  transition: color 0.3s;
+}
+
+.title_text {
+  width: 100%;
+  font-family: 'elliot';
+  font-size: 1.7rem;
+  color: black;
+  transition: color 0.3s;
+}
+
+.title_text_expanded {
+  width: 100%;
+  font-family: 'elliot';
+  font-size: 1.7rem;
+  color: #ff2241;
+  transition: color 0.3s;
+}
+
+.person_text {
+  font-size: 1.7rem;
+  width: 100%;
+  font-family: 'elliot-thin';
+  color: #b5b5b5;
+}
+
+.loc_text {
+  width: 100%;
+  font-family: 'elliot-thin';
+  color: #b5b5b5;
+}
+
+.disc_text {
+  width: 100%;
+  font-family: 'elliot-thin';
+  margin-top: 15px !important;
+  text-align: justify;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+.disc_text_expanded {
+  width: 100%;
+  font-family: 'elliot-thin';
+  margin-top: 15px !important;
+  text-align: justify;
+  max-height: 200px;
+  transition: max-height 0.3s ease-in;
+  overflow: hidden;
 }
