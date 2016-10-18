@@ -75,6 +75,9 @@ a{
 }
 .team-block {
     display: inline-block;
+    max-width: 25%;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .close:hover {
   opacity: 1;

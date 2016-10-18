@@ -7,22 +7,29 @@ $.ajax({
         //img URL
         var images = $(this).attr("href");
 
+        //img2
+        var images2 = images.replace(/1/g, '2');
+
         //first name
 		var start_pos = images.indexOf('');
 		var end_pos = images.indexOf('_',start_pos);
 		var firstName = images.substring(start_pos,end_pos)
-		console.log(firstName);
 
 		//last name
 		var start_pos = images.indexOf('_') + 1;
-		var end_pos = images.indexOf('1',start_pos);
+		var end_pos = images.indexOf('1',start_pos) - 1;
 		var lastName = images.substring(start_pos,end_pos)
-		console.log(lastName);
 
-		console.log(images);
+		//major
+		var start_pos = images.indexOf('1_') + 2;
+		var end_pos = images.indexOf('.jpg',start_pos);
+		var majorRaw = images.substring(start_pos,end_pos)
+		var major = majorRaw.replace(/_/g, ' ');
+	
 
+		//$( "#teamOut" ).append("<h1>"+firstName+"</h1>");
 
-
+		$( "#teamOut" ).append('<div class="team-block"><img src="img/team/'+images+'" class="img-responsive team-img"><h2 class="team-name">'+firstName+' '+lastName+'</h2><h2 class="team-major">'+major+'</h2></div>');
      });
   }
 });
