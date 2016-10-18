@@ -85,7 +85,7 @@
 <div class="container footer-nav navbar-inner">
 <div class="row">
 <div class="col-sm-10 col-md-offset-1 text-center">
-    <!--<div class="col-sm-2"><a class="link-effect">FAQ</a></div>-->
+    <!-- <div class="col-sm-2"><a href="schedule.php"  class="link-effect">SCHEDULE</a></div> -->
     <div class="col-sm-2"><a href="getready.php" class="link-effect">GET READY</a></div>
     <div class="col-sm-2"><a href="register.php" class="link-effect">REGISTER</a></div>
     <div class="col-sm-2 text-nowrap footer-logo-mobile"><a href="contact.php" class="link-effect">GET IN TOUCH</a></div>
