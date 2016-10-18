@@ -694,6 +694,7 @@ footer .link-effect:hover::before{
         transform: scale(0.98);
     }
     .modal-x {
+        text-align: left;
         position: absolute;
         left: 78vw;
         top: 0.5vw;
@@ -740,7 +741,7 @@ footer .link-effect:hover::before{
         font-size: 1.2vw;
     }
     .speaker-modal-presentation{
-        
+        margin-bottom: 0vw !important;
     }
     .speaker-modal-dateTime{
         font-family: 'Elliot-LightItalic';
@@ -862,7 +863,7 @@ footer .link-effect:hover::before{
         margin-bottom: 0;
     }
     .speaker-modal-dateTime{
-        margin-bottom: 2.66vw;
+        margin-bottom: 1.5vw;
     }
     .modal-x {
         position: absolute;
@@ -1863,9 +1864,9 @@ footer .link-effect:hover::before{
 /* Mid Desktop Breakpoint */
 @media only screen and (max-width: 1200px) {
     .team-block {
-    display: inline-block;
-    max-width: 49%; 
-    padding-top: 5vw;
+        display: inline-block;
+        max-width: 49%; 
+        padding-top: 5vw;
     }
 
     .team-buffer {
@@ -1910,7 +1911,7 @@ footer .link-effect:hover::before{
     .speaker-modal-image{
         float: left;
         width: 43.6vw;
-        height: 100%;
+        height: 56vw;
     }
     .speaker-modal-position{
     }
@@ -1927,7 +1928,7 @@ footer .link-effect:hover::before{
         margin-top: 0vw;
     }
     .speaker-modal-dateTime{
-        margin-bottom: 3.3vw;
+        margin-bottom: 1.3vw;
     }
     .modal-x {
         position: absolute;
@@ -2580,11 +2581,11 @@ footer .link-effect:hover::before{
     .team-major {
         font-family: "Elliot";
         font-size: 1.5vw;
-  }
-  .team-block {
-    display: inline-block;
-    max-width: 24%; 
-}
+    }
+    .team-block {
+        display: inline-block;
+        max-width: 24%; 
+    }
        
     .modal-holder .close {
         left: 92.5vw;
@@ -2623,7 +2624,7 @@ footer .link-effect:hover::before{
     .speaker-modal-position{
     }
     .speaker-modal-description{
-        margin-bottom: 3.4vw;
+        margin-bottom: 1.3vw;
     }
     .speaker-modal-label{
         font-family: 'Elliot';
@@ -2633,7 +2634,7 @@ footer .link-effect:hover::before{
         margin-top: 0vw;
     }
     .speaker-modal-dateTime{
-        margin-bottom: 4vw;
+        margin-bottom: 1.3vw;
     }
     .modal-x {
         position: absolute;
@@ -3114,7 +3115,7 @@ footer .link-effect:hover::before{
         font-size: 2vw;
     }
     .modal-holder .close {
-        left: 92vw;
+        left: 91vw;
         top: 1.5vw;
     }
     .modal-holder .close:before, .modal-holder .close:after{
@@ -3138,8 +3139,8 @@ footer .link-effect:hover::before{
     }
    .speaker-modal a{
         font-family: 'Elliot-Bold';
-        font-size: 2.3vw;
-        letter-spacing: 0.27vw;
+        font-size: 2vw;
+        letter-spacing: 0.18vw;
     }
     .speaker-modal-info{
         width: 100%;
@@ -3169,6 +3170,9 @@ footer .link-effect:hover::before{
     }
     .speaker-modal-position{
     }
+    .modal-space-holder{
+        height: 43vw;
+    }
     .speaker-modal-description{
         margin-bottom: 3vw;
     }
@@ -3179,7 +3183,7 @@ footer .link-effect:hover::before{
         width: 40.5vw;
         height: 30vw;
         text-align: left;
-        margin-top: -26vw;
+        margin-top: -39vw;
         margin-right: 4vw;
         float: left;
         clear: left;
@@ -3197,7 +3201,7 @@ footer .link-effect:hover::before{
         margin: 2.1vw 0 6.5vw 0;
     }
     .speaker-modal-dateTime{
-        margin-bottom: 4.95vw;
+        margin-bottom: 1.3vw;
     }
     .modal-x {
         position: absolute;
@@ -3831,18 +3835,18 @@ footer .link-effect:hover::before{
         height: auto;
         font-size: 14px;
         line-height: 18px;
-        padding: 4vw 4vw;
+        padding: 5vw 4vw;
     }
    .speaker-modal a{
         font-family: 'Elliot-Bold';
-        font-size: 2.3vw;
+        font-size: 12px;
         letter-spacing: 0.27vw;
     }
     .speaker-modal-info{
         width: 100%;
         height: auto;
         padding: 0;
-        margin-bottom: 10vw;
+        margin-bottom: 0vw;
         overflow-y: initial;
     }
     .speaker-modal-info::before{
@@ -3860,11 +3864,12 @@ footer .link-effect:hover::before{
     .speaker-modal-name{
         font-family: 'Elliot';
         padding: 0;
-        font-size: 4.5vw;
+        font-size: 15px;
         margin: 0 auto;
         margin-bottom: 0.75vw;
     }
     .speaker-modal-position{
+        font-size: 13px;
     }
     .speaker-modal-description{
         margin-bottom: 3vw;
@@ -3872,11 +3877,14 @@ footer .link-effect:hover::before{
     .speaker-modal-label{
         font-size: 3.6vw;
     }
+    .modal-space-holder{
+        height: 200vw;
+    }
     .speaker-modal-links{
         width: 40.5vw;
         height: 30vw;
         text-align: left;
-        margin-top: -26vw;
+        margin-top: -190vw;
         margin-right: 4vw;
         float: left;
         clear: left;
@@ -3894,19 +3902,23 @@ footer .link-effect:hover::before{
         margin: 2.1vw 0 6.5vw 0;
     }
     .speaker-modal-dateTime{
-        margin-bottom: 4.95vw;
+        margin-bottom: 1.3vw;
     }
     .modal-x {
         position: absolute;
-        left: 90vw;
-        top: 0.5vw;
-        z-index: 2000;
     }
     .modal-holder .close{
-        left: 90vw;
-        top: 1vw;
-        width: 4vw;
-        height: 4vw;
+        left: 87vw;
+        top: 3vw;
+        width: 20px;
+        height: 20px;
+        z-index: 2000;
+    }
+    .modal-holder .close:before{
+        height: 14px;
+    }
+    .modal-holder .close:after{
+        height: 14px;
     }
 }
 

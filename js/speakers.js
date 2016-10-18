@@ -28,12 +28,11 @@ $(document).ready(function(){
 				position: info[i][2],
 				fields: info[i][3].split('\''),
 				description: info[i][4],
-				presentation: info[i][5],
-				dateTime: info[i][6],
-				website: info[i][7],
-				websiteURL: info[i][8],
-				socialMedia: info[i][9],
-				socialMediaURL: info[i][10]
+				presentations: info[i][5].split('_'),
+				website: info[i][6],
+				websiteURL: info[i][7],
+				socialMedia: info[i][8],
+				socialMediaURL: info[i][9]
 			};
 			speakers.push(speaker);
 		}
@@ -126,6 +125,13 @@ $(document).ready(function(){
 	}
 
 	function fillModal(i){
+		var presentations = "";
+		for(var k = 0; k < speakers[i].presentations.length; k++){
+			if((k%2) == 0)
+				presentations += '<p class=\"speaker-modal-presentation\">' + speakers[i].presentations[k] + '<\/p>';
+			else
+				presentations += '<p class=\"speaker-modal-dateTime\">' + speakers[i].presentations[k] + '<\/p>';
+		}
 		console.log('working');
 		$('.speaker-modal').append(
 			'<div class=\"speaker-modal-content\">\n<img src=\"' + speakers[i].image + '\" class=\"speaker-modal-image\">\n' + 
@@ -137,10 +143,13 @@ $(document).ready(function(){
 			'<div class=\"speaker-modal-links\"><a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a>\n<br>' +
 			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div>' + 
 			'<h3 class="speaker-modal-label">Presentations<\/h3>\n' +
-			'<p class="speaker-modal-presentation">' + speakers[i].presentation + '<\/p>\n' + 
-			'<p class="speaker-modal-dateTime">' + speakers[i].dateTime + '<\/p>\n' +
+			presentations + '\n' +
 			'<a href=\"' + '\" class="link-effect">View Schedule<\/a><br>\n' +
 			'<\/div><\/div>'
 		);
+		if($('.speaker-modal-image').attr('src') == 'https://taw.imgix.net/speakers/jeff_smith.jpg?w=.779&h=1&crop=focalpoint&fit=crop&fp-x=0.2&fp-y=0.3')
+			$('.speaker-modal-image').attr('title', 'Jeff didn\'t give us a good picture.');
+		else
+			$('.speaker-modal-image').removeAttr('title');
 	}
 });
