@@ -140,8 +140,8 @@ $(document).ready(function(){
 			'<p class="speaker-modal-position">' + speakers[i].position + '<\/p>\n' +
 			'<div class=\"modal-space-holder\"></div>' + 
 			'<p class="speaker-modal-description">' + speakers[i].description + '<\/p>\n' +
-			'<div class=\"speaker-modal-links\"><a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\">' + speakers[i].website + '<\/a>\n<br>' +
-			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div>' + 
+			'<div class=\"speaker-modal-links\"><a href=\"' + speakers[i].websiteURL + '\" class=\"speaker-modal-website link-effect\" target=\"_blank\">' + speakers[i].website + '<\/a>\n<br>' +
+			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect" target=\"_blank\">' + speakers[i].socialMedia + '<\/a><\/div>' + 
 			'<h3 class="speaker-modal-label">Presentations<\/h3>\n' +
 			presentations + '\n' +
 			'<a href=\"..\/schedule.php\" class="link-effect">View Schedule<\/a><br>\n' +
