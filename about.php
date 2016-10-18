@@ -84,7 +84,7 @@
 				</div>
 				<div class="col-md-6 about-also">
                      <div class="about-margins about-also-desc about-also-pad-top"><p class="about-text-also">Thought At Work has  always aimed to keep the content fresh and interesting to our generation since students know what students want to learn.</p></div>
-                    <div class="about-also-checkout about-margins about-register-pad"><p class="elliot-bold"><span> </span><a href="speakers.php" class="link-effect">CHECK OUT OUR PAST SPEAKERS &rarr;</a></p></div>
+                    <div class="about-also-checkout about-margins about-register-pad"><p class="elliot-bold"><span> </span><a href="speakers.php" class="link-effect">CHECK OUT OUR SPEAKER LINEUP &rarr;</a></p></div>
                     <div class="about-also-roll mobile-about-also-roll about-margins"><p>Ready to roll?</p></div>
                     <div class="about-margins">
                     <button class="about-also-register btn contact-btn btn-effect center-web about-also-pad-bot">
@@ -105,7 +105,7 @@
 			       </div>
             </div>
 		</div-->
-    <div class="about-mobile-top about-mobile-bot container-fluid team-headshots">
+    <!-- <div class="about-mobile-top about-mobile-bot container-fluid team-headshots">
         <script type="text/javascript" src="js/team.js"></script>
         <div class="col-md-10 col-md-offset-1 team-buffer">
             <div class="col-md-3 team-block"><img src="img/team/jacob_frank1.jpg" class="img-responsive team-img text-center"><h2 class="team-name">Pretty Boy</h2><h2 class="team-major">School of Individualized Study</h2></div>
@@ -113,7 +113,7 @@
             <div class="col-md-3 team-block"><img src="img/team/jacob_frank1.jpg" class="img-responsive team-img"><h2 class="team-name">Pretty Boy</h2><h2 class="team-major">School of Individualized Study</h2></div>
             <div class="col-md-3 team-block"><img src="img/team/jacob_frank1.jpg" class="img-responsive team-img"><h2 class="team-name">Pretty Boy</h2><h2 class="team-major">School of Individualized Study</h2></div>
         </div>
-    </div>
+    </div> -->
         <!--div class="about-teampic  small-top about-mobile-bot">
             <img src="img/team-photo.png" class="img-responsive" />
         </div>
