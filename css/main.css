@@ -682,7 +682,7 @@ footer .link-effect:hover::before{
         overflow-y: scroll;
         position: fixed;
         top: 0;
-        padding-right: 30px;
+        padding-right: 50px;
         z-index: 2000;
         pointer-events: none;
         transition: .3s ease-in-out;
@@ -1820,7 +1820,7 @@ footer .link-effect:hover::before{
 @media only screen and (max-width: 1200px) {
     .team-block {
         display: inline-block;
-        max-width: 49%; 
+        max-width: 49%;
         padding-top: 5vw;
     }
 
@@ -2543,7 +2543,7 @@ footer .link-effect:hover::before{
     }
     .team-block {
         display: inline-block;
-        max-width: 24%; 
+        max-width: 24%;
     }
     .modal-holder .close {
         left: 92.5vw;
@@ -3535,7 +3535,7 @@ footer .link-effect:hover::before{
     }
     .footer-logo-mobile {
         background-image: url(https://taw.imgix.net/TAW_Logo_mobile.png?w=80&h=1);
-        height: 12vh;
+        height: 20vh;
         background-position:  bottom center;
         background-repeat: no-repeat;
     }
