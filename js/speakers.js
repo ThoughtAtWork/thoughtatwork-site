@@ -144,7 +144,7 @@ $(document).ready(function(){
 			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speaker-modal-socialMedia link-effect">' + speakers[i].socialMedia + '<\/a><\/div>' + 
 			'<h3 class="speaker-modal-label">Presentations<\/h3>\n' +
 			presentations + '\n' +
-			'<a href=\"' + '\" class="link-effect">View Schedule<\/a><br>\n' +
+			'<a href=\"..\/schedule.php\" class="link-effect">View Schedule<\/a><br>\n' +
 			'<\/div><\/div>'
 		);
 		if($('.speaker-modal-image').attr('src') == 'https://taw.imgix.net/speakers/jeff_smith.jpg?w=.779&h=1&crop=focalpoint&fit=crop&fp-x=0.2&fp-y=0.3')

@@ -75,7 +75,7 @@
 				<div class="col-md-6 col-md-offset-3">
 					<div class="col-lg-12 text-center">
 						<p class="elliot-thin enhance"> Thought At Work is a three-day,<br class="mobile-hide">student-run, student-focused design conference that takes place every October at Rochester Institute of Technology. </p>
-						<a href="comingsoon.php" class="elliot-bold dark link-effect view-schedule">VIEW SCHEDULE</a>
+						<a href="schedule.php" class="elliot-bold dark link-effect view-schedule">VIEW SCHEDULE</a>
 					</div>
 				</div>
 			</div>
