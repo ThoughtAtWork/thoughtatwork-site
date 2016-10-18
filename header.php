@@ -18,6 +18,7 @@
             </span>
             <ul class="nav navbar-nav navbar-right p-r-9 mobile-center menu-pad">
                 <li class="mobile-home"><a href="index.php">Home</a></li>
+                <li><a href="speakers.php">Speakers</a></li>
                 <li class="text-nowrap"><a href="getready.php">Get Ready</a></li>
                 <li class="text-nowrap"><a href="about.php">About Us</a></li>
                <li><a href="contact.php">Contact</a></li>

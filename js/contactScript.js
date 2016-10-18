@@ -5,6 +5,7 @@ $("#contactForm").submit(function(event){
 });
 
 function submitForm(){
+    clearForm();
     // Initiate Variables With Form Content
     var name = $("#name").val();
     var email = $("#email").val();
@@ -24,4 +25,11 @@ function submitForm(){
 }
 function formSuccess(){
     $( "#msgSubmit" ).removeClass( "hidden" );
+}
+
+function clearForm(){
+    document.querySelector("#contactForm").reset();
+    $('.form-control').each(function(){
+        $(this).next().removeClass('notEmpty');
+    });
 }

@@ -14,16 +14,14 @@
 	<meta property="og:type"               content="article" />
 	<meta property="og:title"              content="Thought At Work, a student-run design conference" />
 	<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
-	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.jpg" />
-
+	<meta property="og:image"              content="https://taw.imgix.net/tawtemp_share_image.jpg?w=1466&h=1" />
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="product">
 	<meta name="twitter:site" content="@TAW_RIT">
 	<meta name="twitter:title" content="Thought At Work, a student-run design conference">
 	<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
 	<meta name="twitter:creator" content="@TAW_RIT">
-	<meta name="twitter:image" content="http://www.example.com/image.jpg">
-
+	<meta name="twitter:image" content="https://taw.imgix.net/tawtemp_share_image.jpg?w=1466&h=1">
 	<meta name="description" content="Student-Run Design Conference">
 	<meta name="title" content="Thought at Work">
 
@@ -133,47 +131,11 @@
                 <div class="line-come-hang"></div>
 			</div>
 		</div>
-		<!-- SPEAKERS -->
-
-		<!--
-		<div class="container-fluid speakers tablet-bot tablet-top" >
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1 elliot speakers-title mobile-speakers">
-					<h2>SPEAKERS</h2>
-				</div>
-			</div>
-			<div class="row speakers-centered center-mid">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="col-sm-4 tablet-bot speaker-img">
-					<img src="img/speaker.jpg" class="img-responsive" />
-						<h2>Mt. Mograph</h2>
-						<p>Motion Graphics, Photography, Development</p>
-					</div>
-
-					<div class="col-sm-4 tablet-bot speaker-img">
-						<img src="img/speaker.jpg" class="img-responsive"/>
-						<h2>Kim Alpert</h2>
-						<p>Creative Coding, Photography, Development</p>
-					</div>
-					<div class="col-sm-4 tablet-bot speaker-img speaker-img-3">
-						<img src="img/speaker.jpg" class="img-responsive"/>
-						<h2>Patty Moore</h2>
-						<p class="speaker-p-3">Industrial Design, Photography, Development</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-					<div class="col-md-12 text-center">
-                        <div class="row-spacer">&nbsp;</div>
-                        <a href="comingsoon.php" class="elliot-bold dark link-effect view-all">VIEW ALL SPEAKERS</a>
-                    </div>
-                    <div class="circle-speakers"></div>
-                    <div class="line-speakers"></div>
-            </div>
-		</div>-->
 
 		<!--- Footer Include-->
 		<?php include("footer.php"); ?>
         <script type="text/javascript" src="js/navScript.js"></script>
+        <!---->
+
 	</body>
 </html>

@@ -12,15 +12,14 @@
 	<meta property="og:type"               content="article" />
 	<meta property="og:title"              content="Thought At Work, a student-run design conference" />
 	<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
-	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/img/tawtemp_share_image.jpg" />
-
+	<meta property="og:image"              content="https://taw.imgix.net/tawtemp_share_image.jpg?w=1466&h=1" />
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="product">
 	<meta name="twitter:site" content="@TAW_RIT">
 	<meta name="twitter:title" content="Thought At Work, a student-run design conference">
 	<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
 	<meta name="twitter:creator" content="@TAW_RIT">
-	<meta name="twitter:image" content="http://www.example.com/image.jpg">
+	<meta name="twitter:image" content="https://taw.imgix.net/tawtemp_share_image.jpg?w=1466&h=1">
 
 	<meta name="description" content="Student-Run Design Conference">
 	<meta name="title" content="Thought at Work">
@@ -162,10 +161,8 @@
                             <div class="wheretostay-sec-left">
                                 <p class="elliot about-text get-head-section-bot">Coming from out of town? There’s a pretty decent selection of hotels
 																	near RIT that would make for a comfortable home base. Airbnb is another suitable option.
-																	If your bank account disagrees, you can enlist in our Couch Surfing program and get set up
-																	 with a host from our team. Contact <a href="mailto:email@zxk3766@rit.edu?subject=Couch%20Surfing">Zoe </a>
-																	 and we’ll help you find somewhere to crash (spots are limited).
-														 </p>
+																	</p>
+                                                                    <p>**COUCH SURFING UPDATE: due to an unusually high number of couch surfing requests, we can't take any more applications until further notice (or until we find bigger couches). Thank you for understanding!</p>
                             </div>
                         </div>
                         <div class="col-lg-6 get-head-section-bot">
@@ -194,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="mobile-ready-img get-head-section-bot get-head-section-top" src="img/teq1.jpg" width="100%" height="240px">
+                <img class="mobile-ready-img get-head-section-bot get-head-section-top" src="https://taw.imgix.net/whattobring.jpg?w=1051&h=1" width="100%" height="240px">
 
                         <!-- WHAT TO BRING-->
                         <div class="container-fluid ">
