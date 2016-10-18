@@ -1831,7 +1831,7 @@ footer .link-effect:hover::before{
 @media only screen and (max-width: 1200px) {
     .team-block {
         display: inline-block;
-        max-width: 49%;
+        max-width: 50%;
         padding-top: 5vw;
     }
 
@@ -1842,7 +1842,7 @@ footer .link-effect:hover::before{
         margin-top:5vw;
     }
     .team-block {
-        max-width: 24%;
+        max-width: 25%;
     }
     .modal-holder .close {
         left: 78vw;
@@ -2554,7 +2554,7 @@ footer .link-effect:hover::before{
     }
     .team-block {
         display: inline-block;
-        max-width: 24%;
+        max-width: 25%;
     }
     .modal-holder .close {
         left: 92.5vw;
@@ -3065,7 +3065,7 @@ footer .link-effect:hover::before{
 @media only screen and (max-width : 767px) {
     .team-block {
     display: inline-block;
-    max-width: 49%;
+    max-width: 50%;
 }
     .team-name  {
         font-family: "Elliot";
