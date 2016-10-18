@@ -762,56 +762,8 @@ footer .link-effect:hover::before{
         display: inline-block;
     }
 
-/*
-==========  Non-Mobile First Method  ==========
-@media only screen and (min-width : 1500px) {
-    .speaker-modal a{
-        font-family: 'Elliot-Bold';
-        font-size: 1.3vw;
-        letter-spacing: 0.124vw;
-    }
-    .speaker-modal{
-        width: 78vw;
-        height: 56vw;
-        font-size: 1.3vw;
-        line-height: 2vw;
-    }
-    .speaker-modal-name{
-        font-family: 'Elliot';
-        font-size: 2.3vw;
-    }
-    .speaker-modal-position{
-        margin-bottom: 4vw;
-    }
-    .speaker-modal-description{
-        margin-bottom: 3.2vw;
-    }
-    .speaker-modal-label{
-        font-family: 'Elliot';
-        font-size: 1.6vw;
-    }
-    .speaker-modal-website, .speaker-modal-socialMedia{
-        top: 2.8vw;
-    }
-    .speaker-modal-dateTime{
-        margin-bottom: 3.3vw;
-    }
-    .modal-x {
-        position: absolute;
-        left: 78vw;
-        top: 0.5vw;
-        width: 1.2vw;
-        height: 1.2vw;
-        z-index: 2000;
-    }
-}
-*/
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
-
-  .modal-x.close {
-    margin: 0px 0px 0px 0px !important;
-  }
     .modal-holder .close {
         left: 68vw;
         top: 1vw;
@@ -870,8 +822,8 @@ footer .link-effect:hover::before{
     }
     .modal-x {
         position: absolute;
-        left: 70vw;
-        top: 0.0vw;
+        left: 68.5vw;
+        top: 1vw;
         z-index: 2000;
     }
 
@@ -1935,9 +1887,13 @@ footer .link-effect:hover::before{
     }
     .modal-x {
         position: absolute;
-        left: 79.5vw;
-        top: 0.5vw;
+        left: 78vw;
+        top: 1vw;
         z-index: 2000;
+    }
+    .modal-x img{
+        width: 17px;
+        height: 17px;
     }
 
     .speaker-h2 {
@@ -2640,8 +2596,8 @@ footer .link-effect:hover::before{
     }
     .modal-x {
         position: absolute;
-        left: 94vw;
-        top: 0.5vw;
+        left: 93vw;
+        top: 1vw;
         z-index: 2000;
     }
 
@@ -3207,8 +3163,8 @@ footer .link-effect:hover::before{
     }
     .modal-x {
         position: absolute;
-        left: 93vw;
-        top: 0.5vw;
+        left: 91.8vw;
+        top: 1.2vw;
         z-index: 2000;
     }
 
@@ -3907,7 +3863,13 @@ footer .link-effect:hover::before{
         margin-bottom: 1.3vw;
     }
     .modal-x {
+        left: 90vw;
+        top: 1.7vw;
         position: absolute;
+    }
+    .modal-x img{
+        width: 14px;
+        height: 14px;
     }
     .modal-holder .close{
         left: 87vw;
