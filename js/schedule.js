@@ -14,12 +14,12 @@ var schedule = {
         disc: ""
       },
       {
-        title: "Product Timecapsule: Round Table Discussion With Wendell Castle",
-        person: "Josh Owen & Wendell Castle",
+        title: "Product Timecapsule: Round Table Discussion",
+        person: "Wendell Castle",
         loc: "Vignelli",
         start: "10:00AM",
         end: "11:00AM",
-        disc: ""
+        disc: "Educated in industrial design and sculpture, Wendell Castle emerged from this thaw in the craft world, boldly challenging the tradition and expectations of material reverence, daring to ask: why can’t furniture be art—and is credited with leading the American Studio Furniture movement through the sixties and seventies. Taking interest in making his designs more available to a wider audience, Castle began working with production furniture and plastic in the early 1970s. His Molar Chair referenced earlier forms sculpted from stack-laminated wood and became the crown of this new line of molded plastic furniture, quickly deemed a modern classic and exhibited in galleries and museums while simultaneously being sold to the general public. In conjunction with Thought At Work, please join us for a dialogue with Wendell as he discusses his entry to the Product Timecapsule archives. This talk will take place in the Hamlyn Room, on the fourth level of the Vignelli Center for Design Studies. Use the University Gallery Entrance."
       },
       {
         title: "Opening Address",
@@ -51,15 +51,15 @@ var schedule = {
         loc: "Booth 3550",
         start: "12:45PM",
         end: "1:45PM",
-        disc: "Jordan will be showcasing some of Sprout's new and old ventures, as well sharing the pros and cons of these endeavors."
+        disc: "Jordan Nollman is an award-winning designer who is inspired by the entrepreneurial spirit of design. As CEO of Sprout Studios, he knows what he’s talking about. Jordan will be showcasing some of Sprout's new and old ventures, as well sharing the pros and cons of these projects."
       },
       {
-        title: "Title Coming Soon",
+        title: "The Future of Making and Making Your Future",
         person: "Tim Scanlon",
         loc: "Webb Auditorium",
         start: "12:45PM",
         end: "1:45PM",
-        disc: "Description coming soon"
+        disc: "Tim Scanlon is a global leader in experience design. He integrates design and research methods to help businesses differentiate themselves. Technology is emerging and offering new solutions – but so are you. How do you plan a career in an seemingly unpredictable landscape?"
       },
       {
         title: "Friday Keynote Presentation – Design: A User Experience",
@@ -78,12 +78,12 @@ var schedule = {
         disc: "Navigating a creative life isn’t easy. Kim’s done a plethora of embarrassing things, taken a variety of risks and some how gotten to where she is with only a few (visible) battle scars. This follow up talk to Why Would You Can’t explores more of the deep stories about honesty and risk, pushing through the endless mud of reality, and setting an intention even when you’re thrashing about like a tadpole in a frying pan with the struggles of each day. Her stories along with tips and tools will entertain, and help you carve your own practice to stay the course and achieve the life you want. Moments arise where inspiration is elusive, life is painful, and you just need to ask yourself, Truth or Dare?"
       },
       {
-        title: "Title Coming Soon",
+        title: "Journeys",
         person: "Owen Davey",
         loc: "Booth 3310",
         start: "3:45PM",
         end: "4:45PM",
-        disc: "Description coming soon."
+        disc: "Owen Davey wasn’t always an award-winning illustrator. This talk is all about Owen’s path from student to where he is now. He’ll talk a bit about his process and some of the stuff he’s learned along the way."
       },
       {
         title: "The 3D Printed Jewelry of Maria Eife",
@@ -94,12 +94,12 @@ var schedule = {
         disc: "Using new technologies combined with traditional craft skill and values, Maria Eife creates jewelry that is itself an exploration of materials, processes and structure. Maria will discuss her work, career path, and experience – basically her whole journey since graduating college."
       },
       {
-        title: "Adding Cage-Ism to your creative workflow",
+        title: "Adding Cage-ism to your creative workflow",
         person: "Bushra Mahmood",
         loc: "Booth 3550",
         start: "3:45PM",
         end: "4:45PM",
-        disc: "Description coming soon."
+        disc: "It could happen to you. One minute you’re moonstruck with a kick-ass idea. Next, it’s gone in 60 seconds as if stolen like a national treasure. The kiss of death. Do you have the trust to be wild at heart? Bushra Mahmood left behind the frozen ground, and she calls it adaptation. That’s high praise."
       },
       {
         title: "Title Coming Soon",
@@ -167,7 +167,7 @@ var schedule = {
         loc: "Booth 2nd Floor Lobby",
         start: "9:00AM",
         end: "11:00AM",
-        disc: "Bagels & Coffee"
+        disc: "Bagels & coffee"
       },
       {
         title: "Portfolio Review",
@@ -178,12 +178,12 @@ var schedule = {
         disc: "You’ve got a portfolio, we’ve got feedback. By filling a room with portfolio wizards (working professionals), we provide a venue to discuss and be taught how to craft a portfolio that’ll knock the socks off anyone who sees it. Bring your work!"
       },
       {
-        title: "Title coming soon",
+        title: "Real World Scenario #1",
         person: "Owen Davey",
         loc: "University Gallery",
         start: "9:30AM",
         end: "11:00AM",
-        disc: "Description coming soon."
+        disc: "Yeah, sometimes clients know what they want. But what happens when a client doesn’t give you much to go on at all, and you don’t have a lot of time to figure it out? In Owen’s workshop, you’ll struggle through the conception of a draft illustration that you’d present to a client before moving onto a final version. This kind of thing tests your technical skills, your lateral thinking, and your patience – but you might as well get used to that now."
       },
       {
         title: "KeyShot: Advanced Features",
@@ -236,13 +236,13 @@ var schedule = {
       {
         title: "Lunch",
         person: "",
-        loc: "",
+        loc: "Booth 3310",
         start: "12:30PM",
         end: "1:30PM",
-        disc: "It’s lunch! You know, like eating food."
+        disc: "It’s lunch! You know, food."
       },
       {
-        title: "Keynote Opener – Killing the Cat",
+        title: "Saturday Keynote Opener – Killing The Cat",
         person: "Allan Chochinov + Core77",
         loc: "Ingle Auditorium",
         start: "1:45PM",
@@ -266,20 +266,20 @@ var schedule = {
         disc: "You’ve been called in for a job interview with the agency of your dreams. You arrive early, but not too early. You have multiple copies of your resume in a folder and a list of questions in your head with their corresponding answers. You stride into the room and get ready to knock some socks off. Only this interview is different. Instead of talking about your experience, they want you to draw your ideas – on a whiteboard – and you have a limited amount of time. You crumble into a sweaty, weeping ball of misplaced preparation. Don’t let this be you. Go to Miguel’s workshop."
       },
       {
-        title: "Title Coming Soon",
-        person: "Jeff Smith",
+        title: "Fusion 360 Hands-on Workshop",
+        person: "Jeff Smith + Autodesk",
         loc: "GAN 1217",
         start: "4:15PM",
         end: "5:45PM",
-        disc: "Description coming soon."
+        disc: "Dive into this next generation design software with design educator Jeff Smith. Learn how to use Fusion 360 from ideation through execution and enhance your product design skillset."
       },
       {
-        title: "Adding Cage-Ism to Your Creative Workflow",
+        title: "Alignment",
         person: "Bushra Mahmood",
         loc: "Booth 3330",
         start: "4:15PM",
         end: "5:45PM",
-        disc: "Description coming soon."
+        disc: "If you're a solo freelancer, you might not immediately fit in with the other kids. When the success of a project is at stake, you need to know how to overcome those barriers, strengthen your team, and get shit done. Bushra will tell you how."
       },
       {
         title: "Building A Better Mousetrap: AGEing By Design",
@@ -287,10 +287,10 @@ var schedule = {
         loc: "Booth 3330",
         start: "4:15PM",
         end: "5:45PM",
-        disc: "How Design defines the wishes, wants and needs of all consumers for th‎eir entire lifespan."
+        disc: "How Design defines the wishes, wants and needs of all consumers for their entire lifespan."
       },
       {
-        title: "Bowling!",
+        title: "Core77 Bowling Night",
         person: "",
         loc: "Bowl-A-Roll",
         start: "9:00PM",
@@ -307,7 +307,7 @@ var schedule = {
         loc: "Booth 2nd Floor Lobby",
         start: "10:00AM",
         end: "11:30AM",
-        disc: "Coffee & Cereal (not mixed together)"
+        disc: "Coffee & cereal (not mixed together)"
       },
       {
         title: "Kickstart Your Freelancing Career",
@@ -323,23 +323,23 @@ var schedule = {
         loc: "Booth 3540",
         start: "11:30AM",
         end: "1:00PM",
-        disc: "Conferences like this usually focus on software tools, production techniques, and which lines of code to write. But life as a designer gets hectic, even overwhelming…so how do we handle the demands of our work while still making time to nurture ourselves and our creativity? In this experiential and discussion-based session, Susanna Rose will focus on topics like mindfulness, self-compassion, non-judgment, and play. This workshop was born out Susanna’s own experiences as an artist and her training as a Mental Health Counselor at St. John Fisher College."
+        disc: "Design conferences usually focus on software tools, production techniques, and which lines of code to write. But life as a designer gets hectic, even overwhelming…so how do we handle the demands of our work while still making time to nurture ourselves and our creativity? In this experiential and discussion-based session, Susanna Rose will focus on topics like mindfulness, self-compassion, non-judgment, and play. This workshop was born out Susanna’s own experiences as an artist and her training as a Mental Health Counselor at St. John Fisher College."
       },
       {
-        title: "Hand-Sketching Workshop",
+        title: "Roll Up Your Sleeves",
         person: "Jeff Smith",
         loc: "Booth 3310",
         start: "11:30AM",
         end: "1:00PM",
-        disc: "Description coming soon."
+        disc: "Pencils don't get dull and markers never fade. Join TAW veteran Jeff Smith in this interactive workshop as he demonstrates some old-school sketching techniques."
       },
       {
         title: "Lazy Sunday: A Panel Discussion",
-        person: "",
+        person: "TBA",
         loc: "Booth 3310",
         start: "1:15PM",
         end: "2:15PM",
-        disc: "Description coming soon"
+        disc: "Design is meant to be talked about. Our very own Colton Woytas will moderate this digestible yet introspective conversation among guests."
       },
       {
         title: "Closing Address",
@@ -347,7 +347,7 @@ var schedule = {
         loc: "Carlson Auditorium",
         start: "2:30PM",
         end: "3:15PM",
-        disc: "Description coming soon."
+        disc: "The closing address will wrap up the 2016 conference with giveaways, announcements, and one more look at the title sequence."
       }
     ]
   }
