@@ -4123,12 +4123,13 @@ footer .link-effect:hover::before{
 
 .disc_text {
   width: 100%;
-  font-family: 'elliot-thin';
+  font-family: 'elliot-light';
   margin-top: 15px !important;
   text-align: justify;
   max-height: 0;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .disc_text_expanded {
