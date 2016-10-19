@@ -9,9 +9,10 @@ $.ajax({
         var imagesFull = "img/team/"+images 
 
         //keys for string
-        var urlString = "'img/team2/";
+        var urlString = "'https://taw.imgix.net/team/";
+        var urlString2 = "'https://taw.imgix.net/team2/";
 		var endString = "'";
-
+		var sizeString = "?h=628&amp;w=418";
         //img2
         var images2 = images.replace(/1/g, '2');
 
@@ -35,7 +36,7 @@ $.ajax({
 
 		//$( "#teamOut" ).append("<h1>"+firstName+"</h1>");
 
-		$( "#teamOut" ).append('<div class="team-block"><img src="img/team/'+images+'" class="img-responsive team-img" onmouseover="this.src='+urlString+images2+endString+'" onmouseout="this.src='+endString+imagesFull+endString+'"><h2 class="team-name">'+firstName+'<br>'+lastName+'</h2><h2 class="team-major">'+major+'</h2></div>');
+		$( "#teamOut" ).append('<div class="team-block"><img src="https://taw.imgix.net/team/'+images+sizeString+'" class="img-responsive team-img" onmouseover="this.src='+urlString2+images2+sizeString+endString+'" onmouseout="this.src='+urlString+images+sizeString+endString+'"><h2 class="team-name">'+firstName+'<br>'+lastName+'</h2><h2 class="team-major">'+major+'</h2></div>');
      });
   }
 });
