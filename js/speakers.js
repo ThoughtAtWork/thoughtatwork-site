@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$.ajaxSetup({cache: false});
 	var speakers = [];
 
 	$( document ).ajaxError(function() {
