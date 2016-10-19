@@ -45,6 +45,8 @@ var schedule = {
         end: "1:45PM",
         disc: "Where do ideas come from? In this candid talk, designer and RIT professor Mitch Goldstein takes us on a journey through the past 44 years of his life and examines the art he saw, the movies he watched, the music he listened to, and the books he read — and how these things (might) have influenced his work."
       },
+      /*
+      //Jordan backed out due to family stuff
       {
         title: "The Entrepreneurial Spirit of Design",
         person: "Jordan Nollman",
@@ -53,6 +55,7 @@ var schedule = {
         end: "1:45PM",
         disc: "Jordan Nollman is an award-winning designer who is inspired by the entrepreneurial spirit of design. As CEO of Sprout Studios, he knows what he’s talking about. Jordan will be showcasing some of Sprout's new and old ventures, as well sharing the pros and cons of these projects."
       },
+      */
       {
         title: "The Future of Making / Making Your Future",
         person: "Tim Scanlon",
