@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$.ajaxSetup({cache: false});
 	var speakers = [];
+	var mobileQuery = window.matchMedia('(max-width : 767px)');
+	var modalShown = false;
 
 	$( document ).ajaxError(function() {
 		$('.top-buffer').prepend("Need to be on server to access external speakers file. Here is some test content.");
@@ -106,22 +108,31 @@ $(document).ready(function(){
 				showModal($(this).parent());
 			});
 		}
-		console.log(mobile);
+		if(mobileQuery.matches)
+			$('.container-fluid').removeClass('blur');
+		if(!mobileQuery.matches && modalShown)
+			$('.container-fluid').addClass('blur');
 	});
 
 	function showModal(speaker){
+		modalShown = true;
 		$('.speaker-modal-content').detach();
 		fillModal($(speaker).index());
 		$('.speaker-modal').toggleClass('modal-hidden');
 		$('.close-modal').toggleClass('modal-hidden');
-		$('.container-fluid').toggleClass('blur');
+
+		if(!mobileQuery.matches)
+			$('.container-fluid').addClass('blur');
 		$('.speakers-splash-words').attr('id', 'changeBG');
 	}
 
 	function closeModal(){
+		modalShown = false;
 		$('.speaker-modal').toggleClass('modal-hidden');
 		$('.close-modal').toggleClass('modal-hidden');
-		$('.container-fluid').toggleClass('blur');
+
+		if(!mobileQuery.matches)
+			$('.container-fluid').removeClass('blur');
 		$('.speakers-splash-words').removeAttr('id');
 	}
 

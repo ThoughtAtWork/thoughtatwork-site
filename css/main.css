@@ -3082,8 +3082,15 @@ footer .link-effect:hover::before{
         font-family: "Elliot";
         font-size: 2vw;
     }
+    .modal-holder{
+        width: 100%;
+        height: 2000px;
+        position: absolute;
+        padding: 0;
+        overflow-y: visible;
+    }
     .modal-holder .close {
-        left: 91vw;
+        left: 95vw;
         top: 1.5vw;
     }
     .modal-holder .close:before, .modal-holder .close:after{
@@ -3093,17 +3100,22 @@ footer .link-effect:hover::before{
     }
     .modal-space-holder{
         float: left;
+        clear: left;
         width: 40.5vw;
         height: 30vw;
         margin-right: 4vw;
     }
     .speaker-modal{
-        width: 96vw;
-        min-height: 90vw;
-        height: auto;
+        position: fixed;
+        width: 100vw;
+        min-height: 100vh;
+        height: 100vh;
         font-size: 2.4vw;
         line-height: 3.5vw;
-        padding: 6vw 6vw;
+        padding: 8vw;
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
    .speaker-modal a{
         font-family: 'Elliot-Bold';
@@ -3173,8 +3185,8 @@ footer .link-effect:hover::before{
     }
     .modal-x {
         position: absolute;
-        left: 91.8vw;
-        top: 1.2vw;
+        left: 94vw;
+        top: 2vw;
         z-index: 2000;
     }
 
@@ -3791,9 +3803,6 @@ footer .link-effect:hover::before{
     }
 
     .speaker-modal{
-        width: 95vw;
-        min-height: 90vw;
-        height: auto;
         font-size: 14px;
         line-height: 18px;
         padding: 5vw 4vw;
@@ -3866,7 +3875,7 @@ footer .link-effect:hover::before{
         margin-bottom: 1.3vw;
     }
     .modal-x {
-        left: 90vw;
+        left: 92.4vw;
         top: 1.7vw;
         position: absolute;
     }
