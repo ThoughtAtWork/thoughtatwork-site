@@ -54,7 +54,7 @@ var schedule = {
         disc: "Jordan Nollman is an award-winning designer who is inspired by the entrepreneurial spirit of design. As CEO of Sprout Studios, he knows what he’s talking about. Jordan will be showcasing some of Sprout's new and old ventures, as well sharing the pros and cons of these projects."
       },
       {
-        title: "The Future of Making and Making Your Future",
+        title: "The Future of Making / Making Your Future",
         person: "Tim Scanlon",
         loc: "Webb Auditorium",
         start: "12:45PM",
@@ -78,6 +78,14 @@ var schedule = {
         disc: "Navigating a creative life isn’t easy. Kim’s done a plethora of embarrassing things, taken a variety of risks and some how gotten to where she is with only a few (visible) battle scars. This follow up talk to Why Would You Can’t explores more of the deep stories about honesty and risk, pushing through the endless mud of reality, and setting an intention even when you’re thrashing about like a tadpole in a frying pan with the struggles of each day. Her stories along with tips and tools will entertain, and help you carve your own practice to stay the course and achieve the life you want. Moments arise where inspiration is elusive, life is painful, and you just need to ask yourself, Truth or Dare?"
       },
       {
+        title: "The 3D Printed Jewelry of Maria Eife",
+        person: "Maria Eife",
+        loc: "Booth 3330",
+        start: "3:45PM",
+        end: "4:45PM",
+        disc: "Using new technologies combined with traditional craft skill and values, Maria Eife creates jewelry that is itself an exploration of materials, processes and structure. Maria will discuss her work, career path, and experience – basically her whole journey since graduating college."
+    },
+       {
         title: "Journeys",
         person: "Owen Davey",
         loc: "Booth 3310",
@@ -86,15 +94,7 @@ var schedule = {
         disc: "Owen Davey wasn’t always an award-winning illustrator. This talk is all about Owen’s path from student to where he is now. He’ll talk a bit about his process and some of the stuff he’s learned along the way."
       },
       {
-        title: "The 3D Printed Jewelry of Maria Eife",
-        person: "Maria Eife",
-        loc: "Booth 3330",
-        start: "3:45PM",
-        end: "4:45PM",
-        disc: "Using new technologies combined with traditional craft skill and values, Maria Eife creates jewelry that is itself an exploration of materials, processes and structure. Maria will discuss her work, career path, and experience – basically her whole journey since graduating college."
-      },
-      {
-        title: "Adding Cage-ism to your creative workflow",
+        title: "Adding Cage-ism to Your Creative Workflow",
         person: "Bushra Mahmood",
         loc: "Booth 3550",
         start: "3:45PM",
@@ -102,7 +102,7 @@ var schedule = {
         disc: "It could happen to you. One minute you’re moonstruck with a kick-ass idea. Next, it’s gone in 60 seconds as if stolen like a national treasure. The kiss of death. Do you have the trust to be wild at heart? Bushra Mahmood left behind the frozen ground, and she calls it adaptation. That’s high praise."
       },
       {
-        title: "Title Coming Soon",
+        title: "Title coming soon",
         person: "Jeff Soyk",
         loc: "Booth 1400",
         start: "5:00PM",
