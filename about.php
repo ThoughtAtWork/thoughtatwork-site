@@ -105,7 +105,8 @@
 			       </div>
             </div>
 		</div-->
-    <div class="about-mobile-top about-mobile-bot container-fluid team-container">
+    <div class="about-mobile-top about-mobile-bot container-fluid team-container">  
+        <h2 class="elliot team-header">Thought at Work Team</h2>
         <div class="team-buffer" id="teamOut">
            <script type="text/javascript" src="js/team.js"></script>
         </div>

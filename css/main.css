@@ -83,7 +83,12 @@ a{
     max-width: 25%;
     padding-left: 2vw;
     padding-right: 2vw;
-     padding-top: 3vw;
+     padding-bottom: 3vw;
+}
+
+.team-img2 {
+    position: absolute;
+    width: 100%;
 }
 .close:hover {
   opacity: 1;
@@ -773,6 +778,7 @@ footer .link-effect:hover::before{
     -moz-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
     -o-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
 }
+
 .btn-effect:hover::after {
     height: calc(100% - 4px);
     border-left: 5px solid #000;
@@ -1311,6 +1317,9 @@ footer .link-effect:hover::before{
     .speakers-splash-words{
         background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1&h=1) !important;
     }
+    .team-header{
+    margin-left: 20px;
+}
     .about-history {
         margin-top: -.245vw;
         margin-left: 2.7vw;
