@@ -73,11 +73,17 @@ a{
     height: 32px;
     opacity: 1 !important;
 }
+.team-container {
+    width: 83.7vw;
+    margin: 5vw auto;
+}
+
 .team-block {
     display: inline-block;
     max-width: 25%;
     padding-left: 2vw;
     padding-right: 2vw;
+     padding-top: 3vw;
 }
 .close:hover {
   opacity: 1;

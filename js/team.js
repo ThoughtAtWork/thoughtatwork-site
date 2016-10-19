@@ -1,11 +1,12 @@
 $.ajax({
-  url: "http://localhost:8888/Website/img/team/",
+  url: "img/team/",
   success: function(data){
      $(data).find("a:contains(.jpg)").each(function(){
         // will loop through 
         
         //img URL
         var images = $(this).attr("href");
+        var imagesFull = "img/team/"+images 
 
         //img2
         var images2 = images.replace(/1/g, '2');
@@ -25,11 +26,13 @@ $.ajax({
 		var end_pos = images.indexOf('.jpg',start_pos);
 		var majorRaw = images.substring(start_pos,end_pos)
 		var major = majorRaw.replace(/_/g, ' ');
-	
+		
+		var urlString = "'img/team2/";
+		var endString = "'";
 
 		//$( "#teamOut" ).append("<h1>"+firstName+"</h1>");
 
-		$( "#teamOut" ).append('<div class="team-block"><img src="img/team/'+images+'" class="img-responsive team-img"><h2 class="team-name">'+firstName+' '+lastName+'</h2><h2 class="team-major">'+major+'</h2></div>');
+		$( "#teamOut" ).append('<div class="team-block"><img src="img/team/'+images+'" class="img-responsive team-img" onmouseover="this.src='+urlString+images2+endString+'" onmouseout="this.src='+endString+imagesFull+endString+'"><h2 class="team-name">'+firstName+'<br>'+lastName+'</h2><h2 class="team-major">'+major+'</h2></div>');
      });
   }
 });
