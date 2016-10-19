@@ -8,6 +8,10 @@ $.ajax({
         var images = $(this).attr("href");
         var imagesFull = "img/team/"+images 
 
+        //keys for string
+        var urlString = "'img/team2/";
+		var endString = "'";
+
         //img2
         var images2 = images.replace(/1/g, '2');
 
@@ -27,8 +31,7 @@ $.ajax({
 		var majorRaw = images.substring(start_pos,end_pos)
 		var major = majorRaw.replace(/_/g, ' ');
 		
-		var urlString = "'img/team2/";
-		var endString = "'";
+		
 
 		//$( "#teamOut" ).append("<h1>"+firstName+"</h1>");
 
@@ -36,3 +39,4 @@ $.ajax({
      });
   }
 });
+
