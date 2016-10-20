@@ -84,6 +84,11 @@ a{
     padding-left: 2vw;
     padding-right: 2vw;
      padding-top: 3vw;
+     position: relative;
+}
+.team-img {
+   width: 100%;
+
 }
 .close:hover {
   opacity: 1;
