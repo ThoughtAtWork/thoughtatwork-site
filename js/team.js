@@ -1,5 +1,4 @@
 $.ajax({
-  url: "http://thoughtatwork.cias.rit.edu/",
   success: function(data){
      $(data).find("a:contains(.jpg)").each(function(){
         // will loop through
