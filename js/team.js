@@ -20,7 +20,7 @@ $.ajax({
 		var start_pos = images.indexOf('');
 		var end_pos = images.indexOf('_',start_pos);
 		var firstName = images.substring(start_pos,end_pos)
-		firstName = firstName.replace('%', ' ');
+		firstName = firstName.replace('^', ' ');
 
 		//last name
 		var start_pos = images.indexOf('_') + 1;
