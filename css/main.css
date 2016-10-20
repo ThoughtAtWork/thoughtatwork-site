@@ -637,7 +637,7 @@ footer .link-effect:hover::before{
     }
     .team-major {
         font-family: "Elliot";
-        font-size: 1vw;
+        font-size: 1.3vw;
         margin: .8vw 0 .8vw 0;
     }
     #blurryPic{
@@ -1855,7 +1855,8 @@ footer .link-effect:hover::before{
     .team-block {
         display: inline-block;
         max-width: 50%;
-        padding-top: 5vw;
+        max-width: 25%;
+        /*padding-top: 5vw;*/
     }
 
     .team-buffer {
@@ -1863,9 +1864,6 @@ footer .link-effect:hover::before{
     }
     .team-buffer {
         margin-top:5vw;
-    }
-    .team-block {
-        max-width: 25%;
     }
     .modal-holder .close {
         left: 78vw;
@@ -2526,7 +2524,7 @@ footer .link-effect:hover::before{
         margin-top: .1vw;
     }
     .sponsor-want a:link, .sponsor-want a:visited, .sponsor-want a:hover, .sponsor-want a:active {
-        font-size: 2.5vw !important;
+        font-size: 2.0vw !important;
         letter-spacing: .1em;
     }
     .sponsors {
