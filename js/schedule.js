@@ -250,7 +250,7 @@ var schedule = {
         loc: "Ingle Auditorium",
         start: "1:45PM",
         end: "2:30PM",
-        disc: "Should design ever hold back? As our keynote opener, Allan Chochinov (Partner at Core77) will explore the role and limits of design in areas that make often make people uncomfortable – but maybe that’s exactly where design is needed the most."
+        disc: "Should design ever hold back? As our keynote opener, Allan Chochinov (Partner at Core77) will explore the role and limits of design in areas that often make people uncomfortable – but maybe that’s exactly where design is needed the most."
       },
       {
         title: "Saturday Keynote Presentation – Stuff I Did",
