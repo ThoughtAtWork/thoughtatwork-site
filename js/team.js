@@ -43,6 +43,8 @@ $.ajax({
 		$( "#teamOut" ).append('<div class="team-block"><img src='+urlString2+images2+sizeString+endString+'" class="team-img2">' +
 			'<img src="https://taw.imgix.net/team/'+images+sizeString+'" class="team-img">\n<h2 class="team-name">'+firstName+'<br>'+lastName+'</h2><h2 class="team-major">'+major+'</h2></div>');
      });
+	
+	$('#teamOut > h2').css('text-transform', 'capitalize');
   }
 });
 
