@@ -105,7 +105,7 @@ var schedule = {
         disc: "It could happen to you. One minute you’re moonstruck with a kick-ass idea. Next, it’s gone in 60 seconds as if stolen like a national treasure. The kiss of death. Do you have the trust to be wild at heart? Bushra Mahmood left behind the frozen ground, and she calls it adaptation. That’s high praise."
       },
       {
-        title: "What The Hell is an i-Doc?",
+        title: "What the Hell is an i-Doc?",
         person: "Jeff Soyk",
         loc: "Booth 1400",
         start: "5:00PM",
