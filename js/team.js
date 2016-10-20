@@ -2,11 +2,11 @@ $.ajax({
   url: "img/team/",
   success: function(data){
      $(data).find("a:contains(.jpg)").each(function(){
-        // will loop through 
-        
+        // will loop through
+
         //img URL
         var images = $(this).attr("href");
-        var imagesFull = "img/team/"+images 
+        var imagesFull = "img/team/"+images
 
         //keys for string
         var urlString = "'https://taw.imgix.net/team/";
@@ -20,7 +20,7 @@ $.ajax({
 		var start_pos = images.indexOf('');
 		var end_pos = images.indexOf('_',start_pos);
 		var firstName = images.substring(start_pos,end_pos)
-		firstName = firstName.replace('^', ' ');
+		firstName = firstName.replace('!', ' ');
 
 		//last name
 		var start_pos = images.indexOf('_') + 1;
@@ -32,8 +32,8 @@ $.ajax({
 		var end_pos = images.indexOf('.jpg',start_pos);
 		var majorRaw = images.substring(start_pos,end_pos)
 		var major = majorRaw.replace(/_/g, ' ');
-		
-		
+
+
 
 		//$( "#teamOut" ).append("<h1>"+firstName+"</h1>");
 
@@ -44,10 +44,7 @@ $.ajax({
 		$( "#teamOut" ).append('<div class="team-block"><img src='+urlString2+images2+sizeString+endString+'" class="team-img2">' +
 			'<img src="https://taw.imgix.net/team/'+images+sizeString+'" class="team-img">\n<h2 class="team-name">'+firstName+'<br>'+lastName+'</h2><h2 class="team-major">'+major+'</h2></div>');
      });
-	
+
 	$('#teamOut > h2').css('text-transform', 'capitalize');
   }
 });
-
-
-

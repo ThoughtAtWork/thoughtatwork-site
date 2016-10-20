@@ -83,8 +83,9 @@ a{
     max-width: 25%;
     padding-left: 2vw;
     padding-right: 2vw;
-     padding-top: 3vw;
-     position: relative;
+    padding-top: 3vw;
+    position: relative;
+    vertical-align: top;
 }
 .team-img {
     display: block;
