@@ -1,4 +1,5 @@
 $.ajax({
+  url: "img/team/",
   success: function(data){
      $(data).find("a:contains(.jpg)").each(function(){
         // will loop through
