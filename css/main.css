@@ -83,12 +83,7 @@ a{
     max-width: 25%;
     padding-left: 2vw;
     padding-right: 2vw;
-     padding-bottom: 3vw;
-}
-
-.team-img2 {
-    position: absolute;
-    width: 100%;
+     padding-top: 3vw;
 }
 .close:hover {
   opacity: 1;
@@ -778,7 +773,6 @@ footer .link-effect:hover::before{
     -moz-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
     -o-transition: border-color 0s ease-out, height 0.15s ease-out, width 0.15s ease-out 0.15s;
 }
-
 .btn-effect:hover::after {
     height: calc(100% - 4px);
     border-left: 5px solid #000;
@@ -865,10 +859,10 @@ footer .link-effect:hover::before{
         background: none;
     }
     .p-r-9 {
-        padding-right: 9.5vw !important;
+        padding-right: 7.5vw !important;
     }
     .p-l-12 {
-        padding-left: 12.4vw !important;
+        padding-left: 10.4vw !important;
     }
     /*Menu Styles*/
     .navbar-nav>li>a {
@@ -1317,9 +1311,6 @@ footer .link-effect:hover::before{
     .speakers-splash-words{
         background-image: url(https://taw.imgix.net/speakers_splash.jpg?w=1&h=1) !important;
     }
-    .team-header{
-    margin-left: 20px;
-}
     .about-history {
         margin-top: -.245vw;
         margin-left: 2.7vw;
@@ -2376,10 +2367,10 @@ footer .link-effect:hover::before{
     }
     /* Footer Styles */
     .p-r-9 {
-        padding-right: 6vw !important;
+        padding-right: 2vw !important;
     }
     .p-l-12 {
-        padding-left: 8vw !important;
+        padding-left: 4vw !important;
     }
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
@@ -3215,7 +3206,7 @@ footer .link-effect:hover::before{
     .navbar-nav>li>a , .navbar-nav>li>a:hover{
         font-family: "Elliot";
         color: white;
-        padding-top: 5vh !important;
+        padding-top: 3.4vh !important;
         font-size: calc(16px + .25vw);
     }
     .navbar .navbar-nav {
@@ -3259,7 +3250,7 @@ footer .link-effect:hover::before{
         text-align: center;
     }
     .menu-pad {
-        padding-top: 12vh;
+        padding-top: 9vh;
     }
     .food-menu-list2 li.link-effect::before{
         height: 90%;
