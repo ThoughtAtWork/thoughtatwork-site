@@ -2910,20 +2910,6 @@ footer .link-effect:hover::before{
         color: black !important;
     }
     /*Contact Page <990*/
-    .btn-effect:hover::before {
-        border-left: 6px solid #FF2241;
-        border-bottom: 6px solid #FF2241;
-    }
-    .btn-effect:hover::after{
-        height: calc(100% - 6px);
-        border-left: 6px solid #000;
-    }
-    .container-speakers .btn-effect:hover::before{
-        border: 0;
-    }
-    .container-speakers .btn-effect:hover::after{
-        border: 0;
-    }
     .contact-heading{
         font-size: 6.67vw !important;
         line-height: 1.1;
