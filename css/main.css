@@ -89,10 +89,9 @@ a{
 .team-img {
     display: block;
     position: absolute;
-    left: 0;
-    top: 0;
-    margin: 3vw 2vw 0 2vw;
-    width: 100%;
+    left: 2vw;
+    top: 3vw;
+    width: calc(100% - 4vw);
     z-index: 1;
     opacity: 1;
     transition: 0.2s ease-in-out;
