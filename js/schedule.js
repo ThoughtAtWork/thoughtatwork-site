@@ -78,7 +78,7 @@ var schedule = {
         loc: "Webb Auditorium",
         start: "3:45PM",
         end: "4:45PM",
-        disc: "Navigating a creative life isn’t easy. Kim’s done a plethora of embarrassing things, taken a variety of risks and some how gotten to where she is with only a few (visible) battle scars. This follow up talk to Why Would You Can’t explores more of the deep stories about honesty and risk, pushing through the endless mud of reality, and setting an intention even when you’re thrashing about like a tadpole in a frying pan with the struggles of each day. Her stories along with tips and tools will entertain, and help you carve your own practice to stay the course and achieve the life you want. Moments arise where inspiration is elusive, life is painful, and you just need to ask yourself, Truth or Dare?"
+        disc: "Navigating a creative life isn’t easy. Kim’s done a plethora of embarrassing things, taken a variety of risks and some how gotten to where she is with only a few (visible) battle scars. This follow up talk to Why Would You Can’t explores more of the deep stories about honesty and risk, pushing through the endless mud of reality, and setting an intention even when you’re thrashing about like a tadpole in a frying pan with the struggles of each day. Her stories along with tips and tools will entertain, and help you carve your own practice to stay the course and achieve the life you want. Moments arise where inspiration is elusive, life is painful, and you just need to ask yourself, \'Truth or Dare?\'"
       },
       {
         title: "The 3D Printed Jewelry of Maria Eife",
@@ -105,12 +105,12 @@ var schedule = {
         disc: "It could happen to you. One minute you’re moonstruck with a kick-ass idea. Next, it’s gone in 60 seconds as if stolen like a national treasure. The kiss of death. Do you have the trust to be wild at heart? Bushra Mahmood left behind the frozen ground, and she calls it adaptation. That’s high praise."
       },
       {
-        title: "Title coming soon",
+        title: "What The Hell is an i-Doc?",
         person: "Jeff Soyk",
         loc: "Booth 1400",
         start: "5:00PM",
         end: "6:00PM",
-        disc: "Description coming soon."
+        disc: "Alternate title: \'Interactive Documentary: Storytelling with Multiple Mediums and Makers\' Documentary film and journalism have long been ingrained in traditional media—film/video, written text, spoken word. With the incorporation of diverse web technologies, we’re continuing to redefine storytelling in these spaces. The single author, or auteur, approach has changed dramatically with subject/user participation, blurring the lines between storyteller, subject, and audience. Jeff will explore how we can create meaningful stories and experiences that affect real people with today’s tools."
       },
       {
         title: "Top 10 Things I Wish I Knew When I Graduated",
