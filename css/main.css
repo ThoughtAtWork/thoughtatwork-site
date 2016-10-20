@@ -3788,10 +3788,10 @@ footer .link-effect:hover::before{
         border-left: 4px solid #FF2241;
         border-bottom: 4px solid #FF2241;
     }
-    .btn-effect:hover::after{
+    /*.btn-effect:hover::after{
         height: calc(100% - 4px);
         border-left: 4px solid #000;
-    }
+    }*/
     .container-speakers .btn-effect:hover::before{
         border: 0;
     }
