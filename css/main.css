@@ -90,6 +90,18 @@ a{
    width: 100%;
 
 }
+.team-img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+}
+.team-img:hover .team-img2{
+    opacity: 1;
+}
 .close:hover {
   opacity: 1;
 }
