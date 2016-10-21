@@ -205,7 +205,7 @@ var schedule = {
         disc: "In this timed exercise you will design a title card for the remake of a movie. When time is up you will have 2 minutes to pitch your concept. No pressure!"
       },
       {
-        title: "Beyond The Waterfall: Rethinking How We Work",
+        title: "Design As A Team Sport",
         person: "Maya Bruck",
         loc: "Booth 1480",
         start: "11:15AM",
@@ -287,7 +287,7 @@ var schedule = {
       {
         title: "Building A Better Mousetrap: AGEing By Design",
         person: "Patricia Moore",
-        loc: "Booth 3330",
+        loc: "Booth 3550",
         start: "4:15PM",
         end: "5:45PM",
         disc: "How Design defines the wishes, wants and needs of all consumers for their entire lifespan."
@@ -297,7 +297,7 @@ var schedule = {
         person: "",
         loc: "Bowl-A-Roll",
         start: "9:00PM",
-        end: "10:30PM",
+        end: "12:00PM",
         disc: "We’re trying something new this year – bowling! Come hang out, play a few games, and connect with other designers. Huge thanks to Core77 for making this event possible. Address: 1560 Jefferson Rd, Rochester, NY 14623."
       }
     ]
