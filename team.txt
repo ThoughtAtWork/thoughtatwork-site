@@ -14,7 +14,7 @@ autumn hausthor|industrial design|autumn_hausthor_1_industrial_design.jpg\
 
 caleb payne|new media design|caleb_payne_1_new_media_design.jpg\
 
-celina tassone|industrial design|celina_tassone_1_industrial_design.jpg
+celina tassone|industrial design|celina_tassone_1_industrial_design.jpg\
 
 chris locke|new media design|chris_locke_1_new_media_design.jpg\
 
@@ -78,7 +78,7 @@ stacey yip|industrial design|stacey_yip_1_industrial_design.jpg\
 
 sumin oh|industrial design|sumin_oh_1_industrial_design.jpg\
 
-tom babasidis|information technology|tom_babasidis_1_information_technology.jpg
+tom babasidis|information technology|tom_babasidis_1_information_technology.jpg\
 
 tori bonagura|graphic desgin|tori_bonagura_1_graphic_design.jpg\
 
