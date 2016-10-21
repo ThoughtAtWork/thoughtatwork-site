@@ -80,7 +80,7 @@ sumin oh|industrial design|sumin_oh_1_industrial_design.jpg\
 
 tom babasidis|information technology|tom_babasidis_1_information_technology.jpg\
 
-tori bonagura|graphic desgin|tori_bonagura_1_graphic_design.jpg\
+tori bonagura|graphic design|tori_bonagura_1_graphic_design.jpg\
 
 zach thesier|industrial design|zach_thesier_1_industrial_design.jpg\
 
