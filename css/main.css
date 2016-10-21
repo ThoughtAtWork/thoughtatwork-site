@@ -2377,10 +2377,10 @@ footer .link-effect:hover::before{
     }
     /* Footer Styles */
     .p-r-9 {
-        padding-right: 1vw !important;
+        padding-right: 2vw !important;
     }
     .p-l-12 {
-        padding-left: 2vw !important;
+        padding-left: 4vw !important;
     }
     a.navbar-brand.title.p-l-12.mobile-hide:link, a.navbar-brand.title.p-l-12.mobile-hide:visited, a.navbar-brand.title.p-l-12.mobile-hide:hover, a.navbar-brand.title.p-l-12.mobile-hide:active{
         padding-top: 2.1vw !important;
