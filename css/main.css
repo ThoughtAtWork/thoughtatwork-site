@@ -653,11 +653,13 @@ footer .link-effect:hover::before{
         font-family: "Elliot";
         font-size: 2vw;
         margin: 2vw 0 .8vw 0;
+        text-transform: capitalize;
     }
     .team-major {
         font-family: "Elliot";
         font-size: 1.3vw;
         margin: .8vw 0 .8vw 0;
+        text-transform: capitalize;
     }
     #blurryPic{
         width: 100%;

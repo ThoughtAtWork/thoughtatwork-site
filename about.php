@@ -108,7 +108,7 @@
     <div class="about-mobile-top about-mobile-bot container-fluid team-container">  
         <h2 class="elliot team-header">The Thought at Work Team</h2>
         <div class="team-buffer" id="teamOut">
-           <script type="text/javascript" src="js/team.js"></script>
+           <script type="text/javascript" src="js/teamHS.js"></script>
         </div>
 
     </div>

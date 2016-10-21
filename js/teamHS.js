@@ -3,6 +3,7 @@ $(document).ready(function(){
 	var team = [];
     var urlString = "https://taw.imgix.net/team/";
     var urlString2 = "https://taw.imgix.net/team2/";
+	var sizeString = "?h=628&amp;w=418";
 
 	$( document ).ajaxError(function() {
 		$('.top-buffer').prepend("Need to be on server to access external speakers file. Here is some test content.");
@@ -13,7 +14,6 @@ $(document).ready(function(){
 	var info = $.get('team.txt', function(data){
 		sortData(data);
 		initSecond();
-		$('.team-block > h2').css('text-transform', 'capitalize');
 	});
 
 	function offline(){
@@ -40,9 +40,9 @@ $(document).ready(function(){
 	function initSecond(){
 		var src2 = "";
 		for(var i = 0; i < team.length; i++){
-			src2 = team[i].src.replace('1', '2');
+			src2 = (team[i].src).replace('1', '2');
 			$('#teamOut').append(
-				'<div class="team-block"><img src="' + urlString2 + src2 + '" class="team-img2"><img src="' + urlString + team[i].src + '" class="team-img">\n' + 
+				'<div class="team-block"><img src="' + urlString2 + src2 + sizeString + '" class="team-img2"><img src="' + urlString + team[i].src + sizeString + '" class="team-img">\n' + 
 				'<h2 class="team-name">' + team[i].name + '</h2>\n' +
 				'<h2 class="team-major">' + team[i].major + '</h2></div>'
 			);
