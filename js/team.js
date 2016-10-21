@@ -48,3 +48,5 @@ $.ajax({
 	$('#teamOut > h2').css('text-transform', 'capitalize');
   }
 });
+
+
