@@ -1,5 +1,5 @@
 <!--Web Team
-    
+
     Spiritual Leader:Jacob Frank
     Moral Support: Cole Johnson
     Loopy Lady: Amy Pham
@@ -8,8 +8,7 @@
     In Loving Memory of Sara Artese
 -->
 <nav id="nav-background-color" class="navbar navbar-fixed-top p-a-9 nav" role="navigation">
-    <div class="contain
-    er-fluid navColorChange">
+    <div class="container-fluid navColorChange">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
