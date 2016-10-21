@@ -115,7 +115,7 @@ var schedule = {
       {
         title: "Top 10 Things I Wish I Knew When I Graduated",
         person: "Tnaya Witmer",
-        loc: "Booth 1480",
+        loc: "Booth 3550",
         start: "5:00PM",
         end: "6:00PM",
         disc: "An overview of working with Sarofsky on Captain America, Guardians of the Galaxy and more. Plus a Top 10 list of things Tnaya wishes she had known as a recent graduate."
@@ -131,7 +131,7 @@ var schedule = {
       {
         title: "Intro to KeyShot",
         person: "Will Gibbons + KeyShot",
-        loc: "Booth 3550",
+        loc: "Gannett 1217",
         start: "5:00PM",
         end: "6:30PM",
         disc: "What is KeyShot? How do you use it? Will Gibbons will give you an overview of this advanced rendering software, so you can be ready to take it to the next level."
@@ -183,7 +183,7 @@ var schedule = {
       {
         title: "Real World Scenario #1",
         person: "Owen Davey",
-        loc: "University Gallery",
+        loc: "Booth 3310",
         start: "9:30AM",
         end: "11:00AM",
         disc: "Yeah, sometimes clients know what they want. But what happens when a client doesn’t give you much to go on at all, and you don’t have a lot of time to figure it out? In Owen’s workshop, you’ll struggle through the conception of a draft illustration that you’d present to a client before moving onto a final version. This kind of thing tests your technical skills, your lateral thinking, and your patience – but you might as well get used to that now."
