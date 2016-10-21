@@ -1,5 +1,5 @@
 $.ajax({
-  url: "http://thoughtatwork.cias.rit.edu/img/team/&callback=?"+,
+  url: "img/team",
   success: function(data){
      $(data).find("a:contains(.jpg)").each(function(){
         // will loop through
@@ -48,5 +48,3 @@ $.ajax({
 	$('#teamOut > h2').css('text-transform', 'capitalize');
   }
 });
-
-
