@@ -1,4 +1,4 @@
-abbey lee|graphic design|abbey_lee_1_new_media_design.jpg\
+abbey lee|new media design|abbey_lee_1_new_media_design.jpg\
 
 abbey jo leyendecker|graphic design|abbey!jo_leyendecker_1_graphic_design.jpg\
 
@@ -22,7 +22,7 @@ cole johnson|human centered computing|cole_johnson_1_human_centered_computing.jp
 
 colton woytas|new media design|colton_woytas_1_new_media_design.jpg\
 
-cynthia chu film|animation|cynthia_chu_1_film___animation.jpg\
+cynthia chu|film & animation|cynthia_chu_1_film___animation.jpg\
 
 dan noppenberger|industrial design|dan_noppenberger_1_industrial_design.jpg\
 
@@ -70,9 +70,9 @@ rafif santoso|industrial design|rafif_santoso_1_industrial_design.jpg\
 
 rikesh mistry|industrial design|rikesh_mistry_1_industrial_design.jpg\
 
-rozie yeghiazaria|psychology|rozie_yeghiazarian_1_industrial_engineering___psychology.jpg\
+rozie yeghiazaria|engineering|rozie_yeghiazarian_1_industrial_engineering___psychology.jpg\
 
-sabrina nichols|digital design|sabrina_nichols_1_3d_digital_design.jpg\
+sabrina nichols|3d digital design|sabrina_nichols_1_3d_digital_design.jpg\
 
 stacey yip|industrial design|stacey_yip_1_industrial_design.jpg\
 
