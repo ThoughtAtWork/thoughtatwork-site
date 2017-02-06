@@ -75,7 +75,7 @@
 		<!-- WHAT TO EXPECT -->
         <div class="navOff"></div>
 
-        <div class="container-fluid about-mobile-top countdown-marg-top clock-top-pad about-clock-mobile">
+        <!-- <div class="container-fluid about-mobile-top countdown-marg-top clock-top-pad about-clock-mobile">
                 <div class="row about-margins getReady-margins  clock-center" id="clockdiv">
                     <div class="col-sm-1 countdown col-sm-offset-2 count-center count-right mobile-position">
                         <h4 class="countdown-date weeks "></h4>
@@ -94,7 +94,7 @@
                         <p class="countdown-text">MINUTES</p>
                     </div>
                 </div>
-        </div>
+        </div> -->
         <div class="container-fluid come-hang  mobile-pad ">
             <div class="row">
                 <div class="col-lg-12">
