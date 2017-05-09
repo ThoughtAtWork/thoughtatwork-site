@@ -1,11 +1,22 @@
 
 @font-face {
-	font-family: 'Elliot-bold';
+	font-family: 'FS Elliot-bold';
 	src: url("./fonts/Elliot-Bold.otf");
 }
 
 body {
-	font-family: "Open Sans", sans-serif ;
+	font-family: "FS Elliot", sans-serif;
+}
+
+h1{
+	margin: 40px 0 12px 0;
+}
+
+p{
+	font-weight: 200;
+	font-size: 16px;
+	letter-spacing: 0.4px;
+	margin: 0 0 12px 0;
 }
 
 .flex__col__center {
@@ -21,12 +32,21 @@ body {
 
 }
 
-.pageTitle {
-
+.darkTheme{
+	background-color: #2d2d2d;
+	color: #FFF;
 }
 
-.social__img {
+.pageTitle {
+	font-size: 60px;
+	color: #FFF;
+	text-shadow: 0 0 15px #000;
+}
+
+.social__img{
+	width: 20px;
 	height: 30px;
+	margin: 0 12px;
 }
 
 .iframe {
@@ -43,14 +63,15 @@ body {
 }
 
 div.contaer {
-
 	width: 70vw ;
+	margin-top: 40px;
 }
 
-div.container div.tagline {
+.tagline {
 	font-size: 20px ;
 	font-weight: 600 ;
-	margin-bottom: 20px ;
+	letter-spacing: 1.4px;
+	margin-bottom: 40px ;
 	text-align: center ;
 	text-transform: uppercase ;
 }
@@ -70,7 +91,6 @@ div.container input {
 	font-size: 20px ;
 	font-weight: 300 ;
 	text-align: center ;
-	width: 300px ;
 }
 
 span.scatter-item {
@@ -84,8 +104,7 @@ span.scatter-item {
 }
 
 .register-button {
-	font-family: "Elliot-Bold";
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: -0.1px;
 	color: #f8f8f8;
@@ -94,23 +113,26 @@ span.scatter-item {
 
 .register-rectangle {
 	border-radius: 4px;
-	background-color: #4DB6AC;
+	background-color: #3DCCD0;
 	text-decoration: none;
-	padding: 20px;
+	padding: 10px 20px;
 	-webkit-transition: .2s ease-in;
 	transition: .2s ease-in;
-	box-shadow: 0 0px 0px 0 #4DB6AC;
+	box-shadow: 0 0px 0px 0 #3DCCD0;
     border: none;
 }
 
 .register-rectangle:hover {
 	-webkit-transition: .2s ease-out;
 	transition: .2s ease-out;
-	box-shadow: 0 2px 15px 0 #4DB6AC;
+	box-shadow: 0 2px 15px 0 #3DCCD0;
 }
 
 .register-rectangle:active {
 	-webkit-transition: .2s ease-in;
 	transition: .2s ease-in;
-	box-shadow: 0 2px 35px 0 #4DB6AC;
+	box-shadow: 0 2px 35px 0 #3DCCD0;
 }
+
+
+
