@@ -1,0 +1,116 @@
+
+@font-face {
+	font-family: 'Elliot-bold';
+	src: url("./fonts/Elliot-Bold.otf");
+}
+
+body {
+	font-family: "Open Sans", sans-serif ;
+}
+
+.flex__col__center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex__row__center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.pageTitle {
+
+}
+
+.social__img {
+	height: 30px;
+}
+
+.iframe {
+	/*z-index: -1;*/
+	/*pointer-events: none;*/
+}
+
+.video-wrapper {
+	pointer-events: none !important;
+}
+
+.controls-wrapper {
+	pointer-events: all !important;
+}
+
+div.contaer {
+
+	width: 70vw ;
+}
+
+div.container div.tagline {
+	font-size: 20px ;
+	font-weight: 600 ;
+	margin-bottom: 20px ;
+	text-align: center ;
+	text-transform: uppercase ;
+}
+
+div.container div.tagline em {
+	color: #FF0099 ;
+	font-style: normal ;
+}
+
+div.container input {
+	box-sizing: border-box ;
+		-moz-box-sizing: border-box ;
+		-webkit-box-sizing: border-box ;
+	display: block ;
+	margin: 0px auto 0px auto ;
+	padding: 5px 5px 5px 5px ;
+	font-size: 20px ;
+	font-weight: 300 ;
+	text-align: center ;
+	width: 300px ;
+}
+
+span.scatter-item {
+	position: relative ;
+	z-index: 100 ;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+.register-button {
+	font-family: "Elliot-Bold";
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: -0.1px;
+	color: #f8f8f8;
+	text-decoration: none;
+}
+
+.register-rectangle {
+	border-radius: 4px;
+	background-color: #4DB6AC;
+	text-decoration: none;
+	padding: 20px;
+	-webkit-transition: .2s ease-in;
+	transition: .2s ease-in;
+	box-shadow: 0 0px 0px 0 #4DB6AC;
+    border: none;
+}
+
+.register-rectangle:hover {
+	-webkit-transition: .2s ease-out;
+	transition: .2s ease-out;
+	box-shadow: 0 2px 15px 0 #4DB6AC;
+}
+
+.register-rectangle:active {
+	-webkit-transition: .2s ease-in;
+	transition: .2s ease-in;
+	box-shadow: 0 2px 35px 0 #4DB6AC;
+}
