@@ -1,0 +1,75 @@
+#header h1{
+  font-size:1.3em;
+  color:#03b199;
+  float:left;
+  margin-left: 10px;
+  padding: 22px 0 0 0px !important;
+  }
+
+element.style {
+opacity: 1;
+}
+
+.person {
+  display: block;
+  width: 640px;
+  border-bottom: 3px solid #C54F9C;
+  padding: 0 0 20px 0;
+  margin-bottom: 20px;
+  overflow: auto;
+
+}
+
+/* picture fade */
+.picture {
+  width:200px;
+  height:200px;
+  overflow: hidden;
+  margin: 0 30px 0 0;
+  position: relative;
+  border-radius: 100px;
+  float: left;
+}
+
+div.picture img:first-child {
+  z-index: 1;
+}
+
+.picture img:first-child:hover {
+  opacity: 0;
+  -webkit-transition-property:
+}
+
+div.picture img:last-child {
+  z-index: 0;
+}
+
+div.picture img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bio {
+  float: left;
+  width: 410px;
+  font-size: .9em !important;
+  font-weight: 300;
+  color: #181B1B;
+}
+
+.no-border {
+  border-bottom: none;
+}
+
+.bio p:first-child {
+  font-weight: 800;
+  font-size: 1.5em;
+  padding: 0 !important;
+}
+
+.bio p:nth-child(2) {
+  font-weight: 800;
+
+}

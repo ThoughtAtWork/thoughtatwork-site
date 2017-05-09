@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.content{
+	padding:0 15px;
+	}
+	
+.mobile_hidden{
+	display:none !important;
+	}
+	
+.mobile_shown{
+	display:block !important;
+	}
+
+/*---------------------
+NAV BOX
+-----------------------*/
+
+#nav_bar{
+	display:none;
+	}
+	
+#nav_btn{
+	display:block;
+	}
+	
+#nav_box{
+	display:none;
+	}
+
+/*---------------------
+TITLE SECTIONS
+-----------------------*/
+
+#work h2{
+	font-size:3.6em
+	}
+	
+/*---------------------
+GALLERY
+-----------------------*/
+
+#gallery{
+	margin:0 auto 0 auto;
+	}
+	
+.arrow_block{
+	background:rgba(50,50,50,.75);
+	}
+	
+.arrow_block:hover{
+	background:rgba(30,30,30,.90);
+	}
+	
+.arrow_block.left{
+	left:0;
+	}
+	
+.arrow_block.right{
+	right:0;
+	}
+	
+.arrow{
+	opacity:.75;
+	margin:5px;
+	}
+	
+.left{
+	left:0;
+	}
+	
+.right{
+	right:0;
+	}
+
+/*---------------------
+FOOTER
+-----------------------*/
+
+#footer,.push {
+	height: 400px; /* .push must be the same height as .footer */
+}
+
+.footer_text{
+	width:46%;
+	}

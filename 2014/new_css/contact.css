@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#header h1 {
+font-size: 1.3em;
+color: #03b199;
+float: left;
+}
+
+h1.contact_head {
+	margin-top:20px;
+	}
+	
+/*---------------------
+CONTACT
+-----------------------*/
+
+.pic{
+	width:100%;
+	min-height:50px;
+	margin-bottom:20px;
+	overflow:hidden;
+	border-radius:1px;
+	-moz-border-radius:1px;
+	cursor:pointer;
+	border:2px #eee solid;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-shadow:0 0 5px 5px #E0E0DE;
+	-webkit-box-shadow:0 0 5px 5px #E0E0DE;
+	-moz-box-shadow:0 0 5px 3px #E0E0DE;
+	position:relative;
+	transition:bottom .2s ease;
+	-webkit-transition:bottom .2s ease;
+	-moz-transition:bottom .2s ease;
+	-o-transition:bottom .2s ease;
+	}
+	
+/*.pic:hover{
+	bottom:5px;
+	}*/
+	
+.pic img{
+	width:100%;
+	display:block;
+	}
+	
+/*---------------------
+TEAM
+-----------------------*/
+	
+#team{
+	overflow:hidden;
+	background:#f8f9ea;
+	/*border-top:1px #CCABA3 solid;*/
+	}
+	
+#team h1{
+	color:#4a4a44;
+	}
+	
+#team h2{
+	font-size:1.2em;
+	color:#555;
+	}
+	
+#team h3{
+	color:#5a5a55;
+	min-height:30px;
+	}
+	
+#team p{
+	color:#7a7a77;
+	font-size:.8em;
+	min-height:20px;
+	}
+	
+#team a{
+	font-size:1em;
+	color:#b7d059;
+	}	
+	
+#team a:hover{
+	color:#c54f9c;
+	}
+	
+#team .block{
+	width:29.333333333333%;
+	margin:2%;
+	float:left;
+	min-height:50px;
+	}
+	
+#team .pic{
+	width:90%;
+	margin:0 auto 30px auto;
+	min-height:50px;
+	border-radius:5000px;
+	-moz-border-radius:5000px;
+	cursor:pointer;
+	border:2px #fff solid;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-shadow:0 0 5px 3px #f7f3f2;
+	-webkit-box-shadow:0 0 5px 3px #f7f3f2;
+	-moz-box-shadow:0 0 5px 3px #f7f3f2;
+	
+	position:relative;
+	transition:bottom .2s ease;
+	-webkit-transition:bottom .2s ease;
+	-moz-transition:bottom .2s ease;
+	-o-transition:bottom .2s ease;
+	}
+
+/*.pic:hover{
+	bottom:5px;
+	}*/
+	
+.pic img{
+	width:100%;
+	display:block;
+	}
+	
+#team.page .content{
+	max-width:100%;
+	padding:0;
+}
+
+#team.page .blocks{
+	margin:0 auto;
+	max-width:640px;
+	width:100%;
+	padding:0 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#team.page li{
+	overflow:hidden;
+	padding-top:20px;
+}
+
+#team.page li:nth-child(odd) { 
+	border-top:1px #dadada solid;
+	background:#eee;
+}
+
+#team.page li:nth-child(even) { 
+	border-top:1px #d0d0d0 solid;
+}

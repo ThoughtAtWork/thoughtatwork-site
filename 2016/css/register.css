@@ -1,0 +1,293 @@
+.pricing-container{
+
+  text-align: center;
+  padding: 75px 100px;
+
+}
+
+.pricing-block{
+
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+
+
+#registerForm{
+
+  padding:75px 20%;
+
+}
+
+#registerForm .form-group{
+
+  width:100%;
+
+}
+
+#registerForm .form-group label{
+
+  text-transform: uppercase;
+  color:#26363b;
+  font-size: 16px;
+  padding-left: 65px;
+
+}
+
+#registerForm .form-group label,
+#registerForm .form-group input[type=text],
+#registerForm .form-group input[type=email],
+#registerForm .form-group input[type=tel],
+#registerForm .form-group .checkbox-group{
+
+  width:49%;
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 34px;
+
+
+}
+
+#registerForm .form-group input[type=text],
+#registerForm .form-group input[type=email],
+#registerForm .form-group input[type=tel]{
+
+  font-size: 20px !important;
+}
+
+#registerForm .form-group label{
+
+  font-size: 16px !important;
+  font-weight: bold;
+
+}
+
+#registerForm .form-group hr{
+
+  text-align: right;
+  width: 49%;
+  margin-left: 49%;
+}
+
+#registerForm .contact-btn,
+#payment .contact-btn{
+
+  font-size:14px !important;
+  text-transform: uppercase;
+  padding:20px 60px;
+  margin-left: 49%;
+  margin-top: 75px;;
+  font-weight: 300 !important;
+  letter-spacing: normal;
+
+}
+.form-group{border-bottom: none;}
+
+#payment .contact-btn{margin-left: 0;}
+.coupon-container{height:34px;}
+.coupon-status{
+
+  display:none;
+  width: 49%;
+  margin-left: 49%;
+  line-height: 34px;
+  text-transform: uppercase;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;*/
+}
+
+.coupon-success{
+
+  color:#79e779;
+  position: relative;
+
+
+}
+.nobox-container,
+.yesbox-container{
+
+
+}
+
+.nobox-container input,
+.yesbox-container input{
+
+  display:none;
+
+}
+
+#registerForm .form-group .nobox-container label,
+#registerForm .form-group .yesbox-container label{
+
+  padding-left: 0;
+  vertical-align: middle;
+  line-height: 21px;
+  max-height: 21px;
+  color:#26363b;
+  font-size: 20px !important;
+
+  text-transform: capitalize;
+}
+
+.nobox-container label::after,
+.yesbox-container label::after{
+
+  content:"";
+  height:21px;
+  width:21px;
+  position: relative;
+  background-image: url(../img/reg-unchecked.png);
+    background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 21px;
+  margin-left: 15px;
+  max-height: 21px;
+  cursor: pointer;
+  -webkit-transition: background-image 200ms ease-in-out;
+  -moz-transition: background-image 200ms ease-in-out;
+  -o-transition: background-image 200ms ease-in-out;
+  transition: background-image 200ms ease-in-out;
+
+}
+
+.yesbox-container input[type=checkbox]:checked + label::after,
+.nobox-container > input[type=checkbox]:checked + label::after{
+
+  top:-1px;
+}
+
+.coupon-success::before,
+.yesbox-container input[type=checkbox]:checked + label::after{
+
+  content:"";
+  height:21px;
+  width:21px;
+  position: relative;
+  background-image: url(../img/reg-success.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.coupon-fail{
+
+  color:#ff1838;
+  position: relative;
+
+}
+
+.coupon-fail::before,
+.nobox-container > input[type=checkbox]:checked + label::after{
+
+  content:"";
+  height:21px;
+  width:21px;
+  position: relative;
+  background-image: url(../img/reg-fail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+
+.confirm-heading{
+
+  color:#26363b;
+  font-size:60px;
+  font-family: "Elliot-Light";
+
+}
+
+.confirm-email{
+
+  color:#26363b;
+  font-size:20px;
+  margin-bottom: 15px;
+}
+
+.confirm-email a, .confirm-email a:hover{
+
+  color:#ff1838;
+  font-size:20px;
+  font-weight: 300;
+  font-family: "Elliot-Light";
+  letter-spacing: normal;
+
+}
+
+.confirm-action a{
+
+  color:#191919;
+  font-size:16px;
+  font-family: "Elliot-Bold";
+  letter-spacing: normal;
+  text-transform: uppercase;
+
+}
+
+.confirm-action a:hover{
+
+  color:#191919;
+
+}
+
+.checkmark{
+
+  margin-top: 65px;
+  margin-bottom: 65px;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing-container{padding: 25px;}
+
+  .contact-form{
+
+    width:100%;
+    float: none;
+
+  }
+}
+@media screen and (max-width: 1100px) {
+  #registerForm{
+
+    padding:25px 5%;
+
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pricing-block{width:100%;}
+}
+
+@media screen and (max-width:850px) {
+
+  .about-mobile-top{margin-top: 25px;}
+
+  #registerForm .form-group label,
+  #registerForm .form-group input[type=text],
+  #registerForm .form-group input[type=email],
+  #registerForm .form-group input[type=tel],
+  #registerForm .form-group .checkbox-group,
+  #registerForm .form-group hr,
+  .coupon-status{
+
+    width:100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:550px) {
+  #registerForm .contact-btn{margin-left: 0;}
+  .pricing-container{padding: 0px;}
+}

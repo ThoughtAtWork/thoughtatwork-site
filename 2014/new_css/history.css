@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------------------
+HISTORY
+-----------------------*/
+
+#header h1 {
+font-size: 1.3em;
+color: #03b199;
+float: left;
+
+}
+
+#history{
+	overflow:hidden;
+	background:#f8f9ea;
+	}
+	
+#history h1{
+	text-align:center;
+	margin-top:40px;
+	}
+	
+#history h2{
+	margin:50px 0 30px 0;
+	font-size:1.2em;
+	color:#555;
+	}
+	
+#history p{
+	clear:both;
+	}
+
+#register_btn{
+	width:200px;
+	height:50px;
+	margin:30px auto;
+	background:#444;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	}
+	
+#register_btn h2{
+	color:#e5e5e5;
+	line-height:2.5em;
+	text-align:center;
+	font-weight:300;
+	margin:0;
+	}
+
+#register_btn:hover{
+	background:#333;
+	}
+	
+#register_btn:hover h2{
+	color:#f5f5f5;
+	}
+	
+#register_btn:selected{
+	background:#bbb;
+	}
+	
+#history .block{
+	width:50%;
+	overflow:hidden;
+	margin:20px 0 30px 0;
+	float:left;
+	}
+	
+#history .third{
+	width:33%;
+	overflow:hidden;
+	margin:20px 0 30px 0;
+	float:left;
+	}
+	
+#history .third p{
+	color:#181b1b;
+	line-height:1.4em;
+	text-align:left;
+	margin-right:15px;
+	text-align:center;
+	font-size:1em;
+	line-height:1.4em;
+	margin-bottom:0 !important;
+	margin-top:0 !important;
+	}
+	
+#history .history_coordinators{
+	text-align:center;
+	}
+	
+#history .block p{
+	color:#181b1b;
+	line-height:1.4em;
+	text-align:left;
+	margin-right:15px;
+	}
+	
+#history .history_coordinators p {
+	text-align:left;
+	}
+	
+#history p.year{
+	font-size:1.5em;
+	text-align:center;
+	}
+	
+#history span{
+	font-size:.6em;
+	font-weight:200;
+	color:#666;
+	margin-top:-30px;
+	}
+	
+#history p.sponsor_list{
+	font-size:1em;
+	margin-top:-20px;
+	margin-bottom:40px;
+	}
+	
+#detail{
+	width:46%;
+	margin:2%;
+	height:200px;
+	float:left;
+	}
+	
+#history .more{
+	background:#ccc;
+	}
+	
+#history .more h2{
+	color:#f5f5f5;
+	}
+
+#history .more:hover{
+	background:#666;
+	}
+	
+#history .more:hover h2{
+	color:#fff;
+	}
