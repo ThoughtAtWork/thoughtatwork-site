@@ -66,6 +66,10 @@ p {
     text-shadow: 0 0 15px #000;
 }
 
+.pastSites a{
+    margin: 0 20px 10px 20px;
+}
+
 .social__img {
     width: 20px;
     height: 30px;

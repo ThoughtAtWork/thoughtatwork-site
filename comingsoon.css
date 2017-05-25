@@ -10,6 +10,15 @@ footer p{
 	font-size: 20px;
 }
 
+a{
+	font-weight: 500;
+	color: #3DCCD0;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
 em{
 	font-style: normal;
 	font-weight: 400;
