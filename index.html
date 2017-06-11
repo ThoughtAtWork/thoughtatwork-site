@@ -2,15 +2,14 @@
 <html ng-app="myApp">
 
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8"/>
 
 	<title>
 		Thought At Work - Coming Soon
 	</title>
 
-	<link rel="stylesheet" type="text/css" href="./main.css">
-	<link rel="stylesheet" type="text/css" href="./comingsoon.css">
-	<link>
+	<link rel="stylesheet" type="text/css" href="build/styles/main.css">
+	<link rel="stylesheet" type="text/css" href="build/styles/comingsoon.css">
 </head>
 
 <body class="darkTheme">
@@ -22,8 +21,8 @@
 			October 20 - 22, 2017
 		</div>
 		<!-- <iframe src="https://player.vimeo.com/video/174857850?title=0&byline=0&portrait=0" class="iframe" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-		<video width="auto" height="264" controls poster="videoTN.png">
-		  <source src="TAW16-recap.mp4" type="video/mp4">
+		<video width="auto" height="264" controls poster="build/assets/graphics/videoTN.png">
+		  <source src="build/assets/video/TAW16-recap.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
 
@@ -45,7 +44,7 @@
 			<!--End mc_embed_signup-->
 
 			<p>Think this is the place for you? <span style="font-family: 'Elliot-Italic';">(it is)</span></p>
-			
+
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
 			<form action="//thoughtatwork.us11.list-manage.com/subscribe/post?u=b7382be9cefedf9a14a848650&amp;id=17326e7ef5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -74,9 +73,9 @@
 					<a href="2016/index.php">2016</a>
 				</div>
 				<div class="flex__row__center social">
-					<a href="https://www.facebook.com/ThoughtAtWork/"><img class="social__img" src="facebook.svg"></a>
-					<a href="https://www.instagram.com/taw_rit/"><img class="social__img" src="instagram.svg"></a>
-					<a href="https://twitter.com/taw_rit?lang=en"><img class="social__img" src="twitter.svg"></a>
+					<a href="https://www.facebook.com/ThoughtAtWork/"><img class="social__img" src="build/assets/graphics/facebook.svg"></a>
+					<a href="https://www.instagram.com/taw_rit/"><img class="social__img" src="build/assets/graphics/instagram.svg"></a>
+					<a href="https://twitter.com/taw_rit?lang=en"><img class="social__img" src="build/assets/graphics/twitter.svg"></a>
 				</div>
 			</footer>
 		</div>
@@ -84,9 +83,10 @@
 
 
 	<!-- Load scripts. -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="angular-1.4.7.js"></script>
-	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="build/vendors/jquery.min.js"></script>
+	<script type="text/javascript" src="build/vendors/angular.min.js"></script>
+	<script type="text/javascript" src="build/vendors/wordSpread.js"></script>
+	<script type="text/javascript" src="build/js/app.js"></script>
 	</div>
 
 </body>

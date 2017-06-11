@@ -1,0 +1,19 @@
+{
+  "name": "thoughatwork",
+  "version": "1.0.0",
+  "description": "Website for Thought At Work Design Conference",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThoughtAtWork/ThoughtAtWork.github.io.git"
+  },
+  "author": "TAW Web Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io/issues"
+  },
+  "homepage": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io#readme"
+}
