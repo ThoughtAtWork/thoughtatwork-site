@@ -10,6 +10,7 @@ notify = require('gulp-notify'),
 babel = require('gulp-babel'),
 browserify = require('browserify'),
 source = require('vinyl-source-stream'),
+runSequence = require('run-sequence'),
 buffer = require('vinyl-buffer');
 
 
