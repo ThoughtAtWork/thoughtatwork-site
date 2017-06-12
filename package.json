@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io#readme",
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "run-sequence": "^1.2.2"
   }
 }

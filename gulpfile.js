@@ -26,29 +26,24 @@ var server = {
   port: '8001'
 }
 
-gulp.task('sass', function () {
+gulp.task('sass', () =>
   gulp.src( sourcePaths.styles )
     .pipe(plumber())
     .pipe(sass())
-    .pipe(gulp.dest( distPaths.styles ));
-});
+    .pipe(gulp.dest( distPaths.styles )));
 
-gulp.task('webserver', function() {
-  gulp.src( '.' )
+gulp.task('webserver', () =>
+  gulp.src('build')
     .pipe(webserver({
       host:             server.host,
       port:             server.port,
       livereload:       true,
       directoryListing: false
-    }));
-});
+    })));
 
-gulp.task('cleanJS', function() {
-    var testFiles = glob.sync('./source/js/*.js');
-    console.log(testFiles)
+gulp.task('browserify', (cb) => {
     var b = browserify({
-        entries: testFiles
-        // entries: 'source/js/index.js'
+        entries: 'source/js/index.js'
     })
 
     // bundle all our file into one file
@@ -62,23 +57,41 @@ gulp.task('cleanJS', function() {
             presets: ['es2015']
         }))
         .pipe(uglify())
-        .pipe(gulp.dest('./build/js'))
         .pipe(notify({
             message: 'build complete.',
             onLast: true
         }))
-});
-gulp.src("source/assets/**/**.*")
-      .pipe(gulp.dest('build/assets'));
-
-gulp.task('openbrowser', function() {
-  opn( 'http://' + server.host + ':' + server.port );
+        .on('end', () => cb())
+        .pipe(gulp.dest('./build/js'))
 });
 
-gulp.task('watch', function(){
-  gulp.watch(sourcePaths.styles, ['sass']);
+gulp.task('copy', () => {
+  gulp.src('source/**/*.html')
+    .pipe(gulp.dest('build'));
+
+  return gulp.src('source/assets/**/*.*')
+    .pipe(gulp.dest('build/assets'))
 });
 
-gulp.task('build', ['sass']);
+gulp.task('openbrowser', () =>
+  opn( 'http://' + server.host + ':' + server.port ));
 
-gulp.task('default', ['build', 'webserver', 'watch', 'openbrowser', 'cleanJS']);
+gulp.task('watch', ['webserver'], () =>
+  gulp.watch(sourcePaths.styles, ['sass']));
+
+gulp.task('build', (cb) =>
+  runSequence(
+    ['copy'],
+    ['sass'],
+    ['browserify'],
+    () => cb()
+  ));
+
+gulp.task('serve', ['build'], (cb) =>
+  runSequence(
+    ['watch'],
+    ['openbrowser'],
+    () => cb()
+  ));
+
+gulp.task('default', ['build']);
