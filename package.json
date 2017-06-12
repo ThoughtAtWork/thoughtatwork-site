@@ -4,6 +4,8 @@
   "description": "Website for Thought At Work Design Conference",
   "main": "index.html",
   "scripts": {
+    "nodemon": "nodemon -w gulpfile.js",
+    "serve": "npm run nodemon -- gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io/issues"
   },
-  "homepage": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io#readme"
+  "homepage": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }

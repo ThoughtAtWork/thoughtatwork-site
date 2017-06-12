@@ -44,10 +44,11 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('cleanJS', function() {
-    // var testFiles = glob.sync('./source/js/*.js');
+    var testFiles = glob.sync('./source/js/*.js');
+    console.log(testFiles)
     var b = browserify({
-        // entries: testFiles
-        entries: 'source/js/index.js'
+        entries: testFiles
+        // entries: 'source/js/index.js'
     })
 
     // bundle all our file into one file
