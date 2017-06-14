@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
 plumber = require('gulp-plumber'),
 sass = require('gulp-sass'),
 webserver = require('gulp-webserver'),
@@ -11,21 +11,26 @@ babel = require('gulp-babel'),
 browserify = require('browserify'),
 source = require('vinyl-source-stream'),
 runSequence = require('run-sequence'),
+$ = require('gulp-load-plugins')(),
 buffer = require('vinyl-buffer');
 
 
-var sourcePaths = {
+const sourcePaths = {
   styles: ['source/styles/*.scss']
 };
 
-var distPaths = {
+const distPaths = {
   styles: 'build/styles'
 };
 
-var server = {
+const server = {
   host: 'localhost',
   port: '8001'
 }
+
+const localUrl = `http://localhost:${server.port}`;
+const logSeperator = /*$.util.colors.grey*/(
+    ' ----------------------------------------');
 
 gulp.task('sass', () =>
   gulp.src( sourcePaths.styles )
@@ -91,8 +96,14 @@ gulp.task('build', (cb) =>
 gulp.task('serve', ['build'], (cb) =>
   runSequence(
     ['watch'],
-    ['openbrowser'],
-    () => cb()
+    // ['openbrowser'],
+    () => {
+        console.log();
+        console.log(/*$.util.colors.bold*/('     Express Server Urls:'));
+        console.log(logSeperator);
+        console.log(`       Local: ${/*$.util.colors.magenta*/(localUrl)}`);
+        console.log(logSeperator);
+        return cb()}
   ));
 
 gulp.task('default', ['build']);
