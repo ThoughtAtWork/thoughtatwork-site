@@ -99,9 +99,9 @@ gulp.task('serve', ['build'], (cb) =>
     // ['openbrowser'],
     () => {
         console.log();
-        console.log(/*$.util.colors.bold*/('     Express Server Urls:'));
+        console.log(/*$.util.colors.bold*/('     Server Urls:'));
         console.log(logSeperator);
-        console.log(`       Local: ${/*$.util.colors.magenta*/(localUrl)}`);
+        console.log(`     Local: ${/*$.util.colors.magenta*/(localUrl)}`);
         console.log(logSeperator);
         return cb()}
   ));
