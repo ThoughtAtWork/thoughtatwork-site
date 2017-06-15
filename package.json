@@ -31,10 +31,10 @@
     "gulp-babel": "^6.1.2",
     "browserify": "^14.4.0",
     "vinyl-source-stream": "^1.1.0",
-    "browserify": "^14.4.0",
     "gulp-load-plugins": "^1.2.0",
     "vinyl-buffer": "^1.0.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "node-sass": "^4.5.3"
   },
   "dependencies": {
     "run-sequence": "^1.2.2"
