@@ -2,3 +2,9 @@
 img/.DS_Store
 
 .DS_Store
+
+node_modules/node-notifier/vendor/notifu/notifu.exe
+
+node_modules/node-notifier/vendor/notifu/notifu64.exe
+
+node_modules/node-notifier/vendor/toaster/toast.exe
