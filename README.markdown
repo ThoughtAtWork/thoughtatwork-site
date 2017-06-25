@@ -20,23 +20,23 @@ Thought At Work Conference Website by students and for students
 - **Marketing Team Lead:** [Kevin Geary]
 
 #### Design Team
-- [Ethelia Lung]
-- [Abbey Lee]
-- [Amy Pham]
-- [Hasque May]
-- [Apriet Kenig]
-- [Jacob Frank]
-- [Jialing Chen]
+- Ethelia Lung
+- Abbey Lee
+- Amy Pham
+- Hasque May
+- Apriet Kenig
+- Jacob Frank
+- Jialing Chen
 
 #### Development Team
-- [Jacob Frank]
-- [Amy Pham]
-- [Sara Artese]
-- [Lucas Kern]
-- [Patrick Ly]
-- [Shihab Uddin]
-- [Apriet Kenig]
-- [Jialing Chen]
+- Jacob Frank
+- Amy Pham
+- Sara Artese
+- Lucas Kern
+- Patrick Ly
+- Shihab Uddin
+- Apriet Kenig
+- Jialing Chen
 
 ## <a name="requirements"></a>Requirements
 #### Development
