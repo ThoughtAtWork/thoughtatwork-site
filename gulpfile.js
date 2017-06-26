@@ -16,7 +16,8 @@ buffer = require('vinyl-buffer');
 
 
 const sourcePaths = {
-  styles: ['source/styles/*.scss']
+  styles: ['source/styles/*.scss'],
+  html: ['source/*.html']
 };
 
 const distPaths = {
@@ -37,6 +38,11 @@ gulp.task('sass', () =>
     .pipe(plumber())
     .pipe(sass())
     .pipe(gulp.dest( distPaths.styles )));
+
+gulp.task('copyHTML', () => {
+  return gulp.src('source/*.html')
+    .pipe(gulp.dest('build'));
+});
 
 gulp.task('webserver', () =>
   gulp.src('build')
@@ -72,7 +78,7 @@ gulp.task('browserify', (cb) => {
 });
 
 gulp.task('copy', () => {
-  gulp.src('source/**/*.html')
+  gulp.src('source/*.html')
     .pipe(gulp.dest('build'));
 
   return gulp.src('source/assets/**/*.*')
@@ -82,13 +88,16 @@ gulp.task('copy', () => {
 gulp.task('openbrowser', () =>
   opn( 'http://' + server.host + ':' + server.port ));
 
-gulp.task('watch', ['webserver'], () =>
-  gulp.watch(sourcePaths.styles, ['sass']));
+gulp.task('watch', ['webserver'], () => {
+  gulp.watch(sourcePaths.styles, ['sass']);
+  gulp.watch('source/*.html', ['copyHTML']);
+});
 
 gulp.task('build', (cb) =>
   runSequence(
     ['copy'],
     ['sass'],
+    ['copyHTML'],
     ['browserify'],
     () => cb()
   ));

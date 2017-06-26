@@ -1,3 +1,6 @@
+@import "fonts";
+@import "vars";
+
 body {
   font-family: "Elliot", sans-serif;
 }
@@ -27,13 +30,13 @@ p {
 
 .darkTheme {
   background-color: #2d2d2d;
-  color: #FFF;
+  color: white;
 }
 
 .pageTitle {
   font-size: 60px;
-  color: #FFF;
-  text-shadow: 0 0 15px #000;
+  color: white;
+  text-shadow: 0 0 15px black;
 }
 
 .pastSites a {
@@ -74,10 +77,6 @@ div.contaer {
 }
 
 div.container {
-  div.tagline em {
-    color: #FF0099;
-    font-style: normal;
-  }
   input {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
