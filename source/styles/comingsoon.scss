@@ -1,5 +1,13 @@
+@import "fonts";
+@import "vars";
+
 body {
   text-align: center;
+}
+
+.darkTheme {
+  background-color: darken($dark-grey, 12.5%);
+  color: white;
 }
 
 footer {
@@ -11,7 +19,7 @@ footer {
 
 a {
   font-weight: 500;
-  color: #3DCCD0;
+  color: $teal;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
