@@ -8,6 +8,16 @@ body {
 .darkTheme {
   background-color: darken($dark-grey, 12.5%);
   color: white;
+  overflow: hidden;
+}
+
+.pageTitle {
+  color: white;
+  margin: 40px 0 12px 0;
+}
+
+.sponsor-link {
+  font-weight: 500;
 }
 
 footer {
@@ -18,7 +28,6 @@ footer {
 }
 
 a {
-  font-weight: 500;
   color: $teal;
   text-decoration: none;
   &:hover {
@@ -26,16 +35,17 @@ a {
   }
 }
 
-em {
-  font-style: normal;
-  font-weight: 400;
-}
-
 #mc_embed_signup {
   background: transparent;
   input {
     font-family: 'Elliot', sans-serif;
   }
+}
+
+.social__img {
+  width: 20px;
+  height: 30px;
+  margin: 0 18px;
 }
 
 .mc-field-group {

@@ -1,12 +1,21 @@
 @import "fonts";
 @import "vars";
 
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
 body {
   font-family: "Elliot", sans-serif;
 }
 
 h1 {
-  margin: 40px 0 12px 0;
+  font-size: 60px;
+  color: black;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px black;
 }
 
 p {
@@ -16,32 +25,20 @@ p {
   margin: 0 0 12px 0;
 }
 
-.flex__col__center {
+.flex-col-center {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.flex__row__center {
+.footer-row {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-}
-
-.pageTitle {
-  font-size: 60px;
-  color: white;
-  text-shadow: 0 0 15px black;
+  overflow: none;
 }
 
 .pastSites a {
   margin: 0 20px 10px 20px;
-}
-
-.social__img {
-  width: 20px;
-  height: 30px;
-  margin: 0 12px;
 }
 
 .iframe {
@@ -57,7 +54,7 @@ p {
   pointer-events: all !important;
 }
 
-div.contaer {
+div.container {
   width: 70vw;
   margin-top: 40px;
 }
@@ -71,28 +68,9 @@ div.contaer {
   text-transform: uppercase;
 }
 
-div.container {
-  input {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    display: block;
-    margin: 0px auto 0px auto;
-    padding: 5px 5px 5px 5px;
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-  }
-}
-
 span.scatter-item {
   position: relative;
   z-index: 100;
-}
-
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
 }
 
 .register-button {
