@@ -47,8 +47,12 @@ h1 {
 p {
   font-weight: 200;
   font-size: 16px;
-  letter-spacing: 0.4px;
-  margin: 0 0 12px 0; }
+  letter-spacing: 0.4px; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
 
 .flex-col-center {
   display: flex;
@@ -60,43 +64,14 @@ p {
   justify-content: center;
   overflow: none; }
 
-.pastSites a {
-  margin: 0 20px 10px 20px; }
-
-.iframe {
-  /*z-index: -1;*/
-  /*pointer-events: none;*/ }
-
-.video-wrapper {
-  pointer-events: none !important; }
-
-.controls-wrapper {
-  pointer-events: all !important; }
-
-div.container {
-  width: 70vw;
-  margin-top: 40px; }
-
-.tagline {
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 1.4px;
-  margin-bottom: 40px;
-  text-align: center;
-  text-transform: uppercase; }
-
-span.scatter-item {
-  position: relative;
-  z-index: 100; }
-
-.register-button {
+.action-button {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: -0.1px;
   color: #f8f8f8;
   text-decoration: none; }
 
-.register-rectangle {
+.action-rectangle {
   border-radius: 4px;
   background-color: #3DCCD0;
   text-decoration: none;
@@ -104,12 +79,13 @@ span.scatter-item {
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
   box-shadow: 0 0px 0px 0 #3DCCD0;
-  border: none; }
-  .register-rectangle:hover {
+  border: none;
+  cursor: pointer; }
+  .action-rectangle:hover {
     -webkit-transition: .2s ease-out;
     transition: .2s ease-out;
     box-shadow: 0 2px 15px 0 #3DCCD0; }
-  .register-rectangle:active {
+  .action-rectangle:active {
     -webkit-transition: .2s ease-in;
     transition: .2s ease-in;
     box-shadow: 0 2px 35px 0 #3DCCD0; }

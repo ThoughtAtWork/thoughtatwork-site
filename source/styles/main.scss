@@ -22,7 +22,13 @@ p {
   font-weight: 200;
   font-size: 16px;
   letter-spacing: 0.4px;
-  margin: 0 0 12px 0;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .flex-col-center {
@@ -37,43 +43,7 @@ p {
   overflow: none;
 }
 
-.pastSites a {
-  margin: 0 20px 10px 20px;
-}
-
-.iframe {
-  /*z-index: -1;*/
-  /*pointer-events: none;*/
-}
-
-.video-wrapper {
-  pointer-events: none !important;
-}
-
-.controls-wrapper {
-  pointer-events: all !important;
-}
-
-div.container {
-  width: 70vw;
-  margin-top: 40px;
-}
-
-.tagline {
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 1.4px;
-  margin-bottom: 40px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-span.scatter-item {
-  position: relative;
-  z-index: 100;
-}
-
-.register-button {
+.action-button {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: -0.1px;
@@ -81,7 +51,7 @@ span.scatter-item {
   text-decoration: none;
 }
 
-.register-rectangle {
+.action-rectangle {
   border-radius: 4px;
   background-color: #3DCCD0;
   text-decoration: none;
@@ -90,6 +60,7 @@ span.scatter-item {
   transition: .2s ease-in;
   box-shadow: 0 0px 0px 0 #3DCCD0;
   border: none;
+  cursor: pointer;
   &:hover {
     -webkit-transition: .2s ease-out;
     transition: .2s ease-out;

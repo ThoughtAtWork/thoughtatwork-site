@@ -5,19 +5,30 @@ body {
   text-align: center;
 }
 
-.darkTheme {
+.dark-theme {
   background-color: darken($dark-grey, 12.5%);
+  background-image: url(../assets/graphics/TAW-Vis-Dev-3-Edit.jpg);
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-.pageTitle {
+.page-title {
   color: white;
   margin: 40px 0 12px 0;
 }
 
+span.scatter-item {
+  position: relative;
+  z-index: 100;
+}
+
 .sponsor-link {
+  color: $teal;
   font-weight: 500;
+}
+
+.content {
+  margin-top: 40px;
 }
 
 footer {
@@ -27,12 +38,18 @@ footer {
   }
 }
 
-a {
+.tagline {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pastSite {
+  margin: 0 20px 10px 20px;
   color: $teal;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 #mc_embed_signup {
@@ -42,53 +59,54 @@ a {
   }
 }
 
-.social__img {
+.social-icon {
   width: 20px;
   height: 30px;
   margin: 0 18px;
+  cursor: pointer;
 }
 
-.mc-field-group {
-  display: inline-block;
-  width: auto;
-  position: relative;
-  margin-top: 16px;
-  input {
-    background: transparent;
-    color: #FFF;
-    font-size: 14px;
-    border: none;
-    border-bottom: solid 1px #FFF;
-    outline: none;
-    width: 244px;
-    margin-right: 44px;
-    padding: 8px 12px;
+.mc {
+  &-clear {
+    display: inline-block;
   }
-}
+  &-field-group {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    margin-top: 16px;
 
-.clear {
-  display: inline-block;
-}
+    & input {
+      background: transparent;
+      color: #FFF;
+      font-size: 14px;
+      border: none;
+      border-bottom: solid 1px #FFF;
+      outline: none;
+      width: 244px;
+      margin-right: 44px;
+      padding: 8px 12px;
 
-.mc-field-group input {
-  &::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    font-weight: 400;
-    color: #FFF;
-  }
-  &::-moz-placeholder {
-    /* Firefox 19+ */
-    font-weight: 400;
-    color: #FFF;
-  }
-  &:-ms-input-placeholder {
-    /* IE 10+ */
-    font-weight: 400;
-    color: #FFF;
-  }
-  &:-moz-placeholder {
-    /* Firefox 18- */
-    font-weight: 400;
-    color: #FFF;
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-weight: 400;
+        color: #FFF;
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        font-weight: 400;
+        color: #FFF;
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        font-weight: 400;
+        color: #FFF;
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        font-weight: 400;
+        color: #FFF;
+      }
+    }
   }
 }
