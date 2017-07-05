@@ -15,9 +15,8 @@ Thought At Work Conference Website by students and for students
 
 ## <a name="team"></a>Team
 #### Producers & Contributors
-- **Web Team Lead:** [Jacob Frank]
-- **Graphics Team Lead:** [Dasha Buduchina]
-- **Marketing Team Lead:** [Kevin Geary]
+- **Web Team Lead:** Jacob Frank
+- **Graphics Team Lead:** Dasha Buduchina
 
 #### Design Team
 - Ethelia Lung
@@ -35,7 +34,6 @@ Thought At Work Conference Website by students and for students
 - Lucas Kern
 - Patrick Ly
 - Shihab Uddin
-- Apriet Kenig
 - Jialing Chen
 
 ## <a name="requirements"></a>Requirements
@@ -51,7 +49,7 @@ NodeJS, Gulp, SASS
 
 #### Development Build
 1. Run through the Project Setup to install the required dependencies.
-2. From the root directory, run `gulp serve` in the command line. 
+2. From the root directory, run `gulp serve` in the command line.
 3. To just run the build and not develop go to the root directory and run `gulp build` in the command line.     
 
 ## <a name="deployment"></a>Deployment

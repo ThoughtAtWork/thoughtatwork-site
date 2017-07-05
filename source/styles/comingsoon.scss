@@ -38,6 +38,11 @@ footer {
   }
 }
 
+.coming-soon-video {
+  width: auto;
+  height: 264px;
+}
+
 .tagline {
   font-size: 20px;
   font-weight: 600;
@@ -74,7 +79,7 @@ footer {
     display: inline-block;
     width: auto;
     position: relative;
-    margin-top: 16px;
+    margin-top: 30px;
 
     & input {
       background: transparent;
