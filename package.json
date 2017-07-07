@@ -38,5 +38,8 @@
   },
   "dependencies": {
     "run-sequence": "^1.2.2"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
