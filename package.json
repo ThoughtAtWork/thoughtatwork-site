@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThoughtAtWork/ThoughtAtWork.github.io.git"
+    "url": "git+https://github.com/ThoughtAtWork/taw17.git"
   },
   "author": "TAW Web Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io/issues"
+    "url": "https://github.com/ThoughtAtWork/taw17/issues"
   },
-  "homepage": "https://github.com/ThoughtAtWork/ThoughtAtWork.github.io#readme",
+  "homepage": "https://github.com/ThoughtAtWork/taw17#readme",
   "devDependencies": {
     "nodemon": "^1.11.0",
     "gulp": "^3.9.0",
