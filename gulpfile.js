@@ -21,7 +21,7 @@ const sourcePaths = {
 };
 
 const distPaths = {
-  styles: 'docs/styles'
+  styles: 'build/styles'
 };
 
 const server = {
@@ -41,11 +41,11 @@ gulp.task('sass', () =>
 
 gulp.task('copyHTML', () => {
   return gulp.src('source/*.html')
-    .pipe(gulp.dest('docs'));
+    .pipe(gulp.dest('build'));
 });
 
 gulp.task('webserver', () =>
-  gulp.src('docs')
+  gulp.src('build')
     .pipe(webserver({
       host:             server.host,
       port:             server.port,
@@ -74,15 +74,15 @@ gulp.task('browserify', (cb) => {
             onLast: true
         }))
         .on('end', () => cb())
-        .pipe(gulp.dest('./docs/js'))
+        .pipe(gulp.dest('./build/js'))
 });
 
 gulp.task('copy', () => {
   gulp.src('source/*.html')
-    .pipe(gulp.dest('docs'));
+    .pipe(gulp.dest('build'));
 
   return gulp.src('source/assets/**/*.*')
-    .pipe(gulp.dest('docs/assets'))
+    .pipe(gulp.dest('build/assets'))
 });
 
 gulp.task('openbrowser', () =>
