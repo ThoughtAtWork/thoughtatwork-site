@@ -50,7 +50,7 @@ NodeJS, Gulp, SASS
 #### Development Build
 1. Run through the Project Setup to install the required dependencies.
 2. From the root directory, run `gulp serve` in the command line.
-3. To just run the build and not develop go to the root directory and run `gulp build` in the command line.     
+3. To just run the build and not develop go to the root directory run `gulp build` in the command line.     
 
 ## <a name="deployment"></a>Deployment
 #### Development
