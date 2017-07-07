@@ -38,6 +38,11 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./build/ --domain thoughtatwork.surge.sh"
+    }
+  },
   "dependencies": {
     "run-sequence": "^1.2.2"
   },
