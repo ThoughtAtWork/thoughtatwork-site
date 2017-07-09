@@ -1,5 +1,6 @@
 @import "fonts";
 @import "vars";
+@import "include-media";
 
 body {
   text-align: center;
@@ -32,7 +33,7 @@ span.scatter-item {
 }
 
 footer {
-  margin: 80px 0 40px 0;
+  margin: 70px 0 40px 0;
   p {
     font-size: 20px;
   }
@@ -53,7 +54,7 @@ footer {
 }
 
 .pastSite {
-  margin: 0 20px 10px 20px;
+  margin: 0 20px;
   color: $teal;
 }
 

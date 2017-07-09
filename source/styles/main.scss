@@ -1,5 +1,6 @@
 @import "fonts";
 @import "vars";
+@import "include-media";
 
 * {
   box-sizing: border-box;
@@ -40,7 +41,7 @@ a {
 .footer-row {
   display: flex;
   justify-content: center;
-  overflow: none;
+  margin: 10px 0;
 }
 
 .action-button {
