@@ -1,1 +1,1 @@
-console.log('run');
+console.log('js compiled');

@@ -3,116 +3,126 @@
 @import "include-media";
 
 body {
-  text-align: center;
+    text-align: center;
 }
 
 .dark-theme {
-  background-color: darken($dark-grey, 12.5%);
-  background-image: url(../assets/graphics/TAW-Vis-Dev-3-Edit.jpg);
-  color: white;
-  overflow-x: hidden;
+    background-color: darken($dark-grey, 12.5%);
+    background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
+    color: white;
+    overflow-x: hidden;
 }
 
 .page-title {
-  color: white;
-  margin: 40px 0 12px 0;
+    color: white;
+    margin: 40px 0 12px;
 }
 
 span.scatter-item {
-  position: relative;
-  z-index: 100;
+    position: relative;
+    z-index: 100;
 }
 
 .sponsor-link {
-  color: $teal;
-  font-weight: 500;
+    color: $teal;
+    font-weight: 500;
 }
 
 .content {
-  margin-top: 40px;
+    margin-top: 40px;
+}
+
+.coming-soon-text {
+    margin-bottom: 35px;
 }
 
 footer {
-  margin: 70px 0 40px 0;
-  p {
-    font-size: 20px;
-  }
+    margin: 70px 0 40px;
+
+    p {
+        font-size: 20px;
+    }
 }
 
 .coming-soon-video {
-  width: auto;
-  height: 264px;
+    width: auto;
+    height: 264px;
 }
 
 .tagline {
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 1.4px;
-  margin-bottom: 40px;
-  text-align: center;
-  text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .pastSite {
-  margin: 0 20px;
-  color: $teal;
+    margin: 0 20px;
+    color: $teal;
 }
 
 #mc_embed_signup {
-  background: transparent;
-  input {
-    font-family: 'Elliot', sans-serif;
-  }
+    background: transparent;
+
+    input {
+        font-family: 'Elliot', sans-serif;
+    }
 }
 
 .social-icon {
-  width: 20px;
-  height: 30px;
-  margin: 0 18px;
-  cursor: pointer;
+    width: 20px;
+    height: 30px;
+    margin: 0 18px;
+    cursor: pointer;
 }
 
 .mc {
-  &-clear {
-    display: inline-block;
-  }
-  &-field-group {
-    display: inline-block;
-    width: auto;
-    position: relative;
-    margin-top: 30px;
-
-    & input {
-      background: transparent;
-      color: #FFF;
-      font-size: 14px;
-      border: none;
-      border-bottom: solid 1px #FFF;
-      outline: none;
-      width: 244px;
-      margin-right: 44px;
-      padding: 8px 12px;
-
-      &::-webkit-input-placeholder {
-        /* Chrome/Opera/Safari */
-        font-weight: 400;
-        color: #FFF;
-      }
-      &::-moz-placeholder {
-        /* Firefox 19+ */
-        font-weight: 400;
-        color: #FFF;
-      }
-      &:-ms-input-placeholder {
-        /* IE 10+ */
-        font-weight: 400;
-        color: #FFF;
-      }
-      &:-moz-placeholder {
-        /* Firefox 18- */
-        font-weight: 400;
-        color: #FFF;
-      }
+    &-clear {
+        display: inline-block;
     }
-  }
+
+    &-field-group {
+        display: inline-block;
+        width: auto;
+        position: relative;
+        margin-top: 30px;
+
+        & input {
+            background: transparent;
+            color: #FFF;
+            font-size: 14px;
+            border: none;
+            border-bottom: solid 1px #FFF;
+            outline: none;
+            width: 244px;
+            margin-right: 44px;
+            padding: 8px 12px;
+
+            &::-webkit-input-placeholder {
+                /* Chrome/Opera/Safari */
+                font-weight: 400;
+                color: #FFF;
+            }
+
+            &::-moz-placeholder {
+                /* Firefox 19+ */
+                font-weight: 400;
+                color: #FFF;
+            }
+
+            &:-ms-input-placeholder {
+                /* IE 10+ */
+                font-weight: 400;
+                color: #FFF;
+            }
+
+            &:-moz-placeholder {
+                /* Firefox 18- */
+                font-weight: 400;
+                color: #FFF;
+            }
+        }
+    }
 }
