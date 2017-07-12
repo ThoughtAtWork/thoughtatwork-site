@@ -12,6 +12,7 @@ browserify = require('browserify'),
 source = require('vinyl-source-stream'),
 runSequence = require('run-sequence'),
 $ = require('gulp-load-plugins')(),
+autoprefixer = require('gulp-autoprefixer'),
 buffer = require('vinyl-buffer');
 
 
@@ -37,6 +38,10 @@ gulp.task('sass', () =>
   gulp.src( sourcePaths.styles )
     .pipe(plumber())
     .pipe(sass())
+    .pipe(autoprefixer({
+            browsers: ['last 2 versions', '> 1%', 'ie 8'],
+            cascade: false
+    }))
     .pipe(gulp.dest( distPaths.styles )));
 
 gulp.task('copyHTML', () => {

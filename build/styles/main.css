@@ -54,38 +54,43 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.flex-col-center {
+.flex__col--center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
-.footer-row {
+.flex__row--center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  margin: 10px 0; }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
-.action-button {
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: -0.1px;
-  color: #f8f8f8;
+.action {
   text-decoration: none; }
-
-.action-rectangle {
-  border-radius: 4px;
-  background-color: #3DCCD0;
-  text-decoration: none;
-  padding: 10px 20px;
-  -webkit-transition: .2s ease-in;
-  transition: .2s ease-in;
-  box-shadow: 0 0px 0px 0 #3DCCD0;
-  border: none;
-  cursor: pointer; }
-  .action-rectangle:hover {
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
-    box-shadow: 0 2px 15px 0 #3DCCD0; }
-  .action-rectangle:active {
-    -webkit-transition: .2s ease-in;
-    transition: .2s ease-in;
-    box-shadow: 0 2px 35px 0 #3DCCD0; }
+  .action-button {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+    color: #f8f8f8;
+    border-radius: 4px;
+    background-color: #3DCCD0;
+    padding: 10px 20px;
+    transition: 0.2s ease-in;
+    box-shadow: 0 0 0 0 #3DCCD0;
+    border: none;
+    cursor: pointer; }
+    .action-button:hover {
+      transition: 0.2s ease-out;
+      box-shadow: 0 2px 15px 0 #3DCCD0; }
+    .action-button:active {
+      transition: 0.2s ease-in;
+      box-shadow: 0 2px 35px 0 #3DCCD0; }

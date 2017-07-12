@@ -33,40 +33,29 @@
 body {
   text-align: center; }
 
-.dark-theme {
+.coming-soon--dark-theme {
   background-color: #2d2d2d;
   background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
   color: white;
   overflow-x: hidden; }
 
-.page-title {
+.coming-soon__title {
   color: white;
   margin: 40px 0 12px; }
 
-span.scatter-item {
-  position: relative;
-  z-index: 100; }
-
-.sponsor-link {
+.coming-soon__sponsor-link {
   color: #46CCCF;
   font-weight: 500; }
 
-.content {
-  margin-top: 40px; }
-
-.coming-soon-text {
+.coming-soon__body-copy {
   margin-bottom: 35px; }
 
-footer {
-  margin: 70px 0 40px; }
-  footer p {
-    font-size: 20px; }
-
-.coming-soon-video {
+.coming-soon--video {
   width: auto;
-  height: 264px; }
+  height: 264px;
+  margin-bottom: 40px; }
 
-.tagline {
+.coming-soon--date {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1.4px;
@@ -74,20 +63,31 @@ footer {
   text-align: center;
   text-transform: uppercase; }
 
-.pastSite {
+.coming-soon--pastSite {
   margin: 0 20px;
   color: #46CCCF; }
+
+.coming-soon--social-icon {
+  width: 20px;
+  height: 30px;
+  margin: 0 18px;
+  cursor: pointer; }
+
+.coming-soon--footer {
+  margin: 70px 0 40px; }
+  .coming-soon--footer .flex__row--center {
+    margin: 10px 0; }
+  .coming-soon--footer p {
+    font-size: 20px; }
+
+span.scatter-item {
+  position: relative;
+  z-index: 100; }
 
 #mc_embed_signup {
   background: transparent; }
   #mc_embed_signup input {
     font-family: 'Elliot', sans-serif; }
-
-.social-icon {
-  width: 20px;
-  height: 30px;
-  margin: 0 18px;
-  cursor: pointer; }
 
 .mc-clear {
   display: inline-block; }

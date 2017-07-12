@@ -6,61 +6,71 @@ body {
     text-align: center;
 }
 
-.dark-theme {
-    background-color: darken($dark-grey, 12.5%);
-    background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-    color: white;
-    overflow-x: hidden;
-}
+.coming-soon {
+    &--dark-theme {
+        background-color: darken($dark-grey, 12.5%);
+        background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
+        color: white;
+        overflow-x: hidden;
+    }
 
-.page-title {
-    color: white;
-    margin: 40px 0 12px;
+    &__title {
+        color: white;
+        margin: 40px 0 12px;
+    }
+
+    &__sponsor-link {
+        color: $teal;
+        font-weight: 500;
+    }
+
+    &__body-copy {
+        margin-bottom: 35px;
+    }
+
+    &--video {
+        width: auto;
+        height: 264px;
+        margin-bottom: 40px;
+    }
+
+    &--date {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1.4px;
+        margin-bottom: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &--pastSite {
+        margin: 0 20px;
+        color: $teal;
+    }
+
+    &--social-icon {
+        width: 20px;
+        height: 30px;
+        margin: 0 18px;
+        cursor: pointer;
+    }
+
+    &--footer {
+        margin: 70px 0 40px;
+
+        .flex__row--center {
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
 }
 
 span.scatter-item {
     position: relative;
     z-index: 100;
-}
-
-.sponsor-link {
-    color: $teal;
-    font-weight: 500;
-}
-
-.content {
-    margin-top: 40px;
-}
-
-.coming-soon-text {
-    margin-bottom: 35px;
-}
-
-footer {
-    margin: 70px 0 40px;
-
-    p {
-        font-size: 20px;
-    }
-}
-
-.coming-soon-video {
-    width: auto;
-    height: 264px;
-}
-
-.tagline {
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1.4px;
-    margin-bottom: 40px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.pastSite {
-    margin: 0 20px;
-    color: $teal;
 }
 
 #mc_embed_signup {
@@ -69,13 +79,6 @@ footer {
     input {
         font-family: 'Elliot', sans-serif;
     }
-}
-
-.social-icon {
-    width: 20px;
-    height: 30px;
-    margin: 0 18px;
-    cursor: pointer;
 }
 
 .mc {

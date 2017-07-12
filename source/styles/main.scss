@@ -3,73 +3,72 @@
 @import "include-media";
 
 * {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
 }
 
 body {
-  font-family: "Elliot", sans-serif;
+    font-family: "Elliot", sans-serif;
 }
 
 h1 {
-  font-size: 60px;
-  color: black;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px black;
+    font-size: 60px;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px black;
 }
 
 p {
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.4px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px;
 }
 
 a {
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
-.flex-col-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.flex__col--center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer-row {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
+.flex__row--center {
+    display: flex;
+    justify-content: center;
 }
 
-.action-button {
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: -0.1px;
-  color: #f8f8f8;
-  text-decoration: none;
-}
+.action {
+    text-decoration: none;
 
-.action-rectangle {
-  border-radius: 4px;
-  background-color: #3DCCD0;
-  text-decoration: none;
-  padding: 10px 20px;
-  -webkit-transition: .2s ease-in;
-  transition: .2s ease-in;
-  box-shadow: 0 0px 0px 0 #3DCCD0;
-  border: none;
-  cursor: pointer;
-  &:hover {
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
-    box-shadow: 0 2px 15px 0 #3DCCD0;
-  }
-  &:active {
-    -webkit-transition: .2s ease-in;
-    transition: .2s ease-in;
-    box-shadow: 0 2px 35px 0 #3DCCD0;
-  }
+    &-button {
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: -0.1px;
+        color: #f8f8f8;
+        border-radius: 4px;
+        background-color: #3DCCD0;
+        padding: 10px 20px;
+        transition: 0.2s ease-in;
+        box-shadow: 0 0 0 0 #3DCCD0;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            transition: 0.2s ease-out;
+            box-shadow: 0 2px 15px 0 #3DCCD0;
+        }
+
+        &:active {
+            -webkit-transition: 0.2s ease-in;
+            transition: 0.2s ease-in;
+            box-shadow: 0 2px 35px 0 #3DCCD0;
+        }
+    }
 }
