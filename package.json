@@ -32,6 +32,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-webserver": "^0.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "normalize-scss": "^6.0.0",
     "node-sass": "^4.5.3",
     "nodemon": "^1.11.0",
     "opn": "^5.1.0",

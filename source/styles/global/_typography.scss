@@ -1,0 +1,75 @@
+html {
+    font-size: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: "Elliot", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: black;
+    text-transform: uppercase;
+    @include text--drop-shadow;
+}
+
+h2 {
+    font-size: 120px;
+    font-weight: 500;
+    color: light-grey;
+}
+
+h3 {
+    font-size: 80px;
+    @include text--drop-shadow;
+    color: dark-grey;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: 500;
+    color: dark-grey;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+    // color: grey;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22.4pt;
+    color: dark-grey;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 500;
+    color: teal;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

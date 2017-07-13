@@ -17,7 +17,7 @@ buffer = require('vinyl-buffer');
 
 
 const sourcePaths = {
-  styles: ['source/styles/*.scss'],
+  styles: ['source/styles/**/*.scss'],
   html: ['source/*.html']
 };
 

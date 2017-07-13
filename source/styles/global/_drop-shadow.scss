@@ -1,0 +1,6 @@
+@mixin text--drop-shadow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+}
+@mixin card--drop-shadow {
+    box-shadow: 0 0 20px 0 rgba(70, 207, 176, 0.15);
+}

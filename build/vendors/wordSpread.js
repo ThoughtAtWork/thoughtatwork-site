@@ -66,7 +66,7 @@ angular.module("myApp").directive(
                     function(node) {
 
                         // Replace each individual letter with a Span tag.
-                        var wrappedHtml = node.nodeValue.replace(/([^\s])/g, "<span class='scatter-item'>$1</span>");
+                        var wrappedHtml = node.nodeValue.replace(/([^\s])/g, "<span class='coming-soon--scatter-item'>$1</span>");
 
                         var fragment = angular.element(document.createDocumentFragment())
                             .append(wrappedHtml);
@@ -100,7 +100,7 @@ angular.module("myApp").directive(
             var maxScatterDistance = (parseInt(attributes.scatterDistance, 10) || 30);
 
             // Create our collection of letter configurations.
-            var letters = element.find("span.scatter-item")
+            var letters = element.find("span.coming-soon--scatter-item")
                 .map(
                     function operator(i, node) {
 

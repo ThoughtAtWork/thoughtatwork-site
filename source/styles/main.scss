@@ -1,74 +1,19 @@
-@import "fonts";
-@import "vars";
-@import "include-media";
+// Vendor
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
 
-* {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    margin: 0;
-}
+// Functions, Mixins
+@import "lib/include-media";
+@import 'global/drop-shadow';
 
-body {
-    font-family: "Elliot", sans-serif;
-}
+// Globals, Vars
+@import 'global/fonts';
+@import 'global/colors';
+@import 'global/breakpoints';
+@import 'global/typography';
 
-h1 {
-    font-size: 60px;
-    color: black;
-    text-transform: uppercase;
-    text-shadow: 0 0 10px black;
-}
+// Components
+@import 'components/buttons';
 
-p {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.4px;
-}
-
-a {
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-.flex__col--center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.flex__row--center {
-    display: flex;
-    justify-content: center;
-}
-
-.action {
-    text-decoration: none;
-
-    &-button {
-        font-size: 16px;
-        font-weight: bold;
-        letter-spacing: -0.1px;
-        color: #f8f8f8;
-        border-radius: 4px;
-        background-color: #3DCCD0;
-        padding: 10px 20px;
-        transition: 0.2s ease-in;
-        box-shadow: 0 0 0 0 #3DCCD0;
-        border: none;
-        cursor: pointer;
-
-        &:hover {
-            transition: 0.2s ease-out;
-            box-shadow: 0 2px 15px 0 #3DCCD0;
-        }
-
-        &:active {
-            -webkit-transition: 0.2s ease-in;
-            transition: 0.2s ease-in;
-            box-shadow: 0 2px 35px 0 #3DCCD0;
-        }
-    }
-}
+// Utility Classes
+@import 'utilities/layout';
+@import 'utilities/typography';
