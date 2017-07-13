@@ -465,17 +465,17 @@ h1 {
 h2 {
   font-size: 120px;
   font-weight: 500;
-  color: light-grey; }
+  color: #EFEFEF; }
 
 h3 {
   font-size: 80px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
-  color: dark-grey; }
+  color: #4D4D4D; }
 
 h4 {
   font-size: 32px;
   font-weight: 500;
-  color: dark-grey; }
+  color: #4D4D4D; }
 
 h5 {
   font-size: 20px;
@@ -504,7 +504,7 @@ p {
 a {
   font-size: 16px;
   font-weight: 500;
-  color: teal;
+  color: #46CCCF;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -537,33 +537,27 @@ a {
   overflow-x: hidden;
   text-align: center; }
 
-.coming-soon__title {
+.coming-soon--title {
   color: white;
-  margin: 40px 0 12px; }
-
-.coming-soon__sponsor-link {
-  color: #46CCCF;
+  margin: 40px 0 12px;
+  font-size: 50px;
   font-weight: 500; }
 
-.coming-soon__body-copy {
-  margin-bottom: 35px; }
-
-.coming-soon--video {
-  width: auto;
-  height: 264px;
-  margin-bottom: 40px; }
-
 .coming-soon--date {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 500;
   letter-spacing: 1.4px;
   margin-bottom: 40px;
   text-align: center;
   text-transform: uppercase; }
 
-.coming-soon--pastSite {
-  margin: 0 20px;
-  color: #46CCCF; }
+.coming-soon--subhead {
+  margin-bottom: 10px; }
+
+.coming-soon--video {
+  width: auto;
+  height: 360px;
+  margin-bottom: 30px; }
 
 .coming-soon--social-icon {
   width: 20px;
@@ -574,9 +568,18 @@ a {
 .coming-soon--footer {
   margin: 70px 0 40px; }
   .coming-soon--footer--row {
-    margin: 10px 10px; }
-  .coming-soon--footer p {
-    font-size: 20px; }
+    margin: 10px; }
+  .coming-soon--footer--sponsor {
+    font-size: 18px; }
+    .coming-soon--footer--sponsor-link {
+      color: #46CCCF;
+      font-weight: 500;
+      font-size: 18px; }
+
+.coming-soon--past-site {
+  margin: 0 15px;
+  color: #46CCCF;
+  font-size: 14px; }
 
 .coming-soon--mc-clear {
   display: inline-block; }

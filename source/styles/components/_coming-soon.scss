@@ -7,27 +7,15 @@
         text-align: center;
     }
 
-    &__title {
+    &--title {
         color: white;
         margin: 40px 0 12px;
-    }
-
-    &__sponsor-link {
-        color: $teal;
+        font-size: 50px;
         font-weight: 500;
     }
 
-    &__body-copy {
-        margin-bottom: 35px;
-    }
-
-    &--video {
-        width: auto;
-        height: 264px;
-        margin-bottom: 40px;
-    }
     &--date {
-        font-size: 20px;
+        font-size: 28px;
         font-weight: 500;
         letter-spacing: 1.4px;
         margin-bottom: 40px;
@@ -35,9 +23,14 @@
         text-transform: uppercase;
     }
 
-    &--pastSite {
-        margin: 0 20px;
-        color: $teal;
+    &--subhead {
+        margin-bottom: 10px;
+    }
+
+    &--video {
+        width: auto;
+        height: 360px;
+        margin-bottom: 30px;
     }
 
     &--social-icon {
@@ -51,13 +44,26 @@
         margin: 70px 0 40px;
 
         &--row {
-            margin: 10px 10px;
+            margin: 10px;
         }
 
-        p {
-            font-size: 20px;
+        &--sponsor {
+            font-size: 18px;
+
+            &-link {
+                color: $teal;
+                font-weight: 500;
+                font-size: 18px;
+            }
         }
     }
+
+    &--past-site {
+        margin: 0 15px;
+        color: $teal;
+        font-size: 14px;
+    }
+
     &--mc {
         &-clear {
             display: inline-block;

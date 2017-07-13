@@ -465,17 +465,17 @@ h1 {
 h2 {
   font-size: 120px;
   font-weight: 500;
-  color: light-grey; }
+  color: #EFEFEF; }
 
 h3 {
   font-size: 80px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
-  color: dark-grey; }
+  color: #4D4D4D; }
 
 h4 {
   font-size: 32px;
   font-weight: 500;
-  color: dark-grey; }
+  color: #4D4D4D; }
 
 h5 {
   font-size: 20px;
@@ -504,7 +504,7 @@ p {
 a {
   font-size: 16px;
   font-weight: 500;
-  color: teal;
+  color: #46CCCF;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }

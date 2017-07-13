@@ -381,7 +381,7 @@ p {
   display: block;
   line-height: 21px; }
   p a {
-    color: teal; }
+    color: $teal; }
 
 .text-centered, hgroup {
   text-align: center; }

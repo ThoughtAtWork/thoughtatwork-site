@@ -19,25 +19,25 @@ h1 {
 h2 {
     font-size: 120px;
     font-weight: 500;
-    color: light-grey;
+    color: $light-grey;
 }
 
 h3 {
     font-size: 80px;
     @include text--drop-shadow;
-    color: dark-grey;
+    color: $dark-grey;
 }
 
 h4 {
     font-size: 32px;
     font-weight: 500;
-    color: dark-grey;
+    color: $dark-grey;
 }
 
 h5 {
     font-size: 20px;
     font-weight: 500;
-    // color: grey;
+    // color: $grey;
 }
 
 b,
@@ -66,7 +66,7 @@ p {
 a {
     font-size: 16px;
     font-weight: 500;
-    color: teal;
+    color: $teal;
     text-decoration: none;
 
     &:hover {
