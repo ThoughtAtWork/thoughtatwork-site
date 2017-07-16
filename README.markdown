@@ -34,7 +34,6 @@ Thought At Work Conference Website by students and for students
 - Lucas Kern
 - Patrick Ly
 - Shihab Uddin
-- Jialing Chen
 
 ## <a name="requirements"></a>Requirements
 #### Development
