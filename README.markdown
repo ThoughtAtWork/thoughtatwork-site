@@ -63,3 +63,6 @@ TBA
 
 ## <a name="resources"></a>Additional Resources
 [Node](https://nodejs.org)
+[Code Style Guide](https://github.com/ThoughtAtWork/thoughtatwork.github.io/wiki/Style-Guide)
+[Git Commands to Know](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
+[Static Component Library](https://paper.dropbox.com/doc/TAW-Component-Library-7dJ9GwQUfMqcvzgSfp0Ns)

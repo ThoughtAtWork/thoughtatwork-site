@@ -3,12 +3,11 @@
 
 // Functions, Mixins
 @import "lib/include-media";
-@import "lib/fluid";
-@import 'global/drop-shadow';
+@import "lib/fluid-type";
 
 // Globals, Vars
+@import 'global/variables';
 @import 'global/fonts';
-@import 'global/colors';
 @import 'global/breakpoints';
 @import 'global/typography';
 
