@@ -703,10 +703,10 @@ a {
   @media (max-width: 0) {
     .text-align-left-xs-down {
       text-align: left !important; } }
-  @media (min-width: 376px) {
+  @media (min-width: 446px) {
     .text-align-left-sm-up {
       text-align: left !important; } }
-  @media (max-width: 374px) {
+  @media (max-width: 444px) {
     .text-align-left-sm-down {
       text-align: left !important; } }
   @media (min-width: 769px) {
@@ -736,10 +736,10 @@ a {
   @media (max-width: 0) {
     .text-align-center-xs-down {
       text-align: center !important; } }
-  @media (min-width: 376px) {
+  @media (min-width: 446px) {
     .text-align-center-sm-up {
       text-align: center !important; } }
-  @media (max-width: 374px) {
+  @media (max-width: 444px) {
     .text-align-center-sm-down {
       text-align: center !important; } }
   @media (min-width: 769px) {
@@ -769,10 +769,10 @@ a {
   @media (max-width: 0) {
     .text-align-right-xs-down {
       text-align: right !important; } }
-  @media (min-width: 376px) {
+  @media (min-width: 446px) {
     .text-align-right-sm-up {
       text-align: right !important; } }
-  @media (max-width: 374px) {
+  @media (max-width: 444px) {
     .text-align-right-sm-down {
       text-align: right !important; } }
   @media (min-width: 769px) {
@@ -802,7 +802,7 @@ a {
   .text-xs-center {
     text-align: center !important; } }
 
-@media (min-width: 376px) {
+@media (min-width: 446px) {
   .text-sm-left {
     text-align: left !important; }
   .text-sm-right {
