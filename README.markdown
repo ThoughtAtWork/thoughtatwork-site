@@ -51,9 +51,9 @@ NodeJS, Gulp, SASS
 1. Run through the Project Setup to install the required dependencies.
 2. From the root directory, run `gulp serve` in the command line.
 3. To just run the build and not develop go to the root directory run `gulp build` in the command line.     
-4. When committing to upload to surge.sh use git add -A && git commit -am "type message here"
-5. Then '''git push''' to push to github and surge
-- If gulp sass has a problem run "npm rebuild node-sass"
+4. When committing to upload to surge.sh use git add `-A && git commit -am "type message here"`
+5. Then `git push` to push to github and surge
+- If gulp sass has a problem run `npm rebuild node-sass`
 
 ## <a name="deployment"></a>Deployment
 #### Development
