@@ -6,7 +6,8 @@
   "scripts": {
     "nodemon": "nodemon -w gulpfile.js",
     "serve": "npm run nodemon -- gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepush": "surge --project ./build/ --domain thoughtatwork.surge.sh"
   },
   "repository": {
     "type": "git",
@@ -38,12 +39,8 @@
     "opn": "^5.1.0",
     "surge": "^0.19.0",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./build/ --domain thoughtatwork.surge.sh"
-    }
+    "vinyl-source-stream": "^1.1.0",
+    "husky": "^0.13.3"
   },
   "dependencies": {
     "run-sequence": "^1.2.2"
