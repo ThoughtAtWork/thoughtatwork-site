@@ -6,8 +6,7 @@
   "scripts": {
     "nodemon": "nodemon -w gulpfile.js",
     "serve": "npm run nodemon -- node_modules/.bin/gulp serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepush": "surge --project ./build/ --domain thoughtatwork.surge.sh"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
