@@ -6,7 +6,6 @@ opn = require('opn'),
 glob = require('glob'),
 rename = require('gulp-rename'),
 uglify = require('gulp-uglify'),
-notify = require('gulp-notify'),
 babel = require('gulp-babel'),
 browserify = require('browserify'),
 source = require('vinyl-source-stream'),
@@ -74,10 +73,6 @@ gulp.task('browserify', (cb) => {
             presets: ['es2015']
         }))
         .pipe(uglify())
-        .pipe(notify({
-            message: 'build complete.',
-            onLast: true
-        }))
         .on('end', () => cb())
         .pipe(gulp.dest('./build/js'))
 });
