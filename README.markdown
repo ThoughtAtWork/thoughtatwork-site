@@ -72,3 +72,5 @@ TBA
 [Static Component Library](https://paper.dropbox.com/doc/TAW-Development-Component-Library-NuZpIleMA1UDTlUfzFQkn)
 <br>
 [BEM](https://css-tricks.com/bem-101/)
+<br>
+[atom text editor]((https://atom.io)
