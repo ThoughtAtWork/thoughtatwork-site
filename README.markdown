@@ -49,6 +49,7 @@ NodeJS, Gulp, SASS
 - There's a possibility that Libsass will not compile correctly on your machine. The easiest way to install system-wide is to the use the Libsass MSI Installer | https://github.com/mgreter/libsass-msi-installer
 1. Download and install [Node](https://nodejs.org)
 2. Due to issues on Windows with npm and it's non-unix setup, please follow this [document](https://paper.dropbox.com/doc/ToDo-On-Windows-x2NlFJOAXXI4kd0FiCqu9)
+3. If there is a node-sass issue on compile, run `npm rebuild node-sass`
 
 #### Development Build
 1. Run through the Project Setup to install the required dependencies.
