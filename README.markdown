@@ -39,13 +39,16 @@ Thought At Work Conference Website by students and for students
 #### Development
 NodeJS, Gulp, SASS  
 
-## <a name="environments"></a>Environments  
-
 ## <a name="setup"></a>Project Setup
-- Note for Windows Developers: There's a possibility that Libsass will not compile correctly on your machine. The easiest way to install system-wide is to the use the Libsass MSI Installer | https://github.com/mgreter/libsass-msi-installer
+#### Mac OS
 1. Download and install [Node](https://nodejs.org)
 2. Install local Node dependencies `npm install`
 3. Check and make sure you have the latest versions of node and npm
+
+#### Windows
+- There's a possibility that Libsass will not compile correctly on your machine. The easiest way to install system-wide is to the use the Libsass MSI Installer | https://github.com/mgreter/libsass-msi-installer
+1. Download and install [Node](https://nodejs.org)
+2. Due to issues on Windows with npm and it's non-unix setup, please follow this [document](https://paper.dropbox.com/doc/ToDo-On-Windows-x2NlFJOAXXI4kd0FiCqu9)
 
 #### Development Build
 1. Run through the Project Setup to install the required dependencies.
@@ -53,6 +56,7 @@ NodeJS, Gulp, SASS
 3. To just run the build and not develop go to the root directory run `gulp build` in the command line.     
 4. When committing to upload to surge.sh use git add `-A && git commit -am "type message here"`
 5. Then `git push` to push to github and surge
+<br>
 - If gulp sass has a problem run `npm rebuild node-sass`
 
 ## <a name="deployment"></a>Deployment
