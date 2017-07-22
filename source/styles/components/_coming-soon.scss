@@ -2,15 +2,25 @@
     &--dark-theme {
         background-color: darken($dark-grey, 12.5%);
         background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-        background-size: auto;
+        background-size: 100%;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 0 17%;
         color: white;
         overflow-x: hidden;
         text-align: center;
+
+        p{
+            color: inherit;
+        }
+
+        @include media ('<=lg') {
+            background-size: 1024px;
+        }
     }
 
     &--page-container {
-        margin: 9.5vh 5px 0 5px;
+        margin: 9.5vh 5px 6vh 5px;
         position: absolute;
         right: 0;
         left: 0;
@@ -62,9 +72,8 @@
     }
 
     &--social-icon {
-        width: 18px;
-        height: 30px;
-        margin: 0 18px;
+        width: 24px;
+        margin: 2px 24px;
         cursor: pointer;
     }
 
@@ -104,7 +113,7 @@
         &-field-group {
             display: inline-block;
             width: auto;
-            margin-top: 2.5vh;
+            margin-top: 4.5vh;
             @include media('<sm') {
                 margin: 2.5vh 0;
             }
@@ -149,6 +158,10 @@
                     /* Firefox 18- */
                     font-weight: 400;
                     color: #FFF;
+                }
+
+                &:focus{
+                    border-color: $teal;
                 }
             }
         }

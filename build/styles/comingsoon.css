@@ -509,7 +509,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.4px;
-  line-height: 22.4pt;
+  line-height: 22.4px;
   color: #4D4D4D; }
 
 a {
@@ -544,14 +544,21 @@ a {
 .coming-soon--dark-theme {
   background-color: #2d2d2d;
   background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-  background-size: auto;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 17%;
   color: white;
   overflow-x: hidden;
   text-align: center; }
+  .coming-soon--dark-theme p {
+    color: inherit; }
+  @media (max-width: 1024px) {
+    .coming-soon--dark-theme {
+      background-size: 1024px; } }
 
 .coming-soon--page-container {
-  margin: 9.5vh 5px 0 5px;
+  margin: 9.5vh 5px 6vh 5px;
   position: absolute;
   right: 0;
   left: 0; }
@@ -601,9 +608,8 @@ a {
   margin: calc(10px + 2vh) 0 calc(10px + 1vh) 0; }
 
 .coming-soon--social-icon {
-  width: 18px;
-  height: 30px;
-  margin: 0 18px;
+  width: 24px;
+  margin: 2px 24px;
   cursor: pointer; }
 
 .coming-soon--footer {
@@ -631,7 +637,7 @@ a {
 .coming-soon--mc-field-group {
   display: inline-block;
   width: auto;
-  margin-top: 2.5vh; }
+  margin-top: 4.5vh; }
   @media (max-width: 444px) {
     .coming-soon--mc-field-group {
       margin: 2.5vh 0; } }
@@ -668,6 +674,8 @@ a {
       /* Firefox 18- */
       font-weight: 400;
       color: #FFF; }
+    .coming-soon--mc-field-group input:focus {
+      border-color: #46CCCF; }
 
 span.coming-soon--scatter-item {
   position: relative;
