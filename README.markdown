@@ -51,14 +51,16 @@ NodeJS, Gulp, SASS
 2. Due to issues on Windows with npm and it's non-unix setup, please follow this [document](https://paper.dropbox.com/doc/ToDo-On-Windows-x2NlFJOAXXI4kd0FiCqu9)
 3. If there is a node-sass issue on compile, run `npm rebuild node-sass`
 
-#### Development Build
-1. Run through the Project Setup to install the required dependencies.
-2. From the root directory, run `npm run serve` in the command line.
-3. To just run the build and not develop go to the root directory run `gulp build` in the command line.     
-4. When committing to upload to surge.sh use git add `-A && git commit -am "type message here"`
-5. Then `git push` to push to github and surge
-<br>
 - If gulp sass has a problem run `npm rebuild node-sass`
+
+#### Development Build
+1. Learn how to use branches via [this guide here](https://github.com/ThoughtAtWork/thoughtatwork.github.io/wiki/Create-a-new-branch-with-git-and-manage-branches) and review the [Code Style Guide](https://github.com/ThoughtAtWork/thoughtatwork.github.io/wiki/Style-Guide)
+2. Run through the Project Setup to install the required dependencies.
+3. From the root directory, run `npm run serve` in the command line.
+4. To just run the build and not develop go to the root directory run `gulp build` in the command line.     
+5. When committing to upload to surge.sh use git add `-A && git commit -am "type message here"`
+6. Then `git push` to push to github
+
 
 ## <a name="deployment"></a>Deployment
 #### Development
@@ -71,6 +73,8 @@ TBA
 [Node](https://nodejs.org)
 <br>
 [Code Style Guide](https://github.com/ThoughtAtWork/thoughtatwork.github.io/wiki/Style-Guide)
+<br>
+[Git Branches Guide](https://github.com/ThoughtAtWork/thoughtatwork.github.io/wiki/Create-a-new-branch-with-git-and-manage-branches)
 <br>
 [Git Commands to Know](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
 <br>
