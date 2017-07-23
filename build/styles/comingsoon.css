@@ -544,7 +544,7 @@ a {
 .coming-soon--dark-theme {
   background-color: #2d2d2d;
   background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 0 17%;
@@ -553,9 +553,6 @@ a {
   text-align: center; }
   .coming-soon--dark-theme p {
     color: inherit; }
-  @media (max-width: 1024px) {
-    .coming-soon--dark-theme {
-      background-size: 1024px; } }
 
 .coming-soon--page-container {
   margin: 9.5vh 5px 6vh 5px;

@@ -2,7 +2,7 @@
     &--dark-theme {
         background-color: darken($dark-grey, 12.5%);
         background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 0 17%;
@@ -12,10 +12,6 @@
 
         p{
             color: inherit;
-        }
-
-        @include media ('<=lg') {
-            background-size: 1024px;
         }
     }
 
