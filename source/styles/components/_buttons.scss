@@ -24,5 +24,9 @@
             transition: 0.2s ease-in;
             box-shadow: 0 2px 35px 0 #3DCCD0;
         }
+
+        &:focus {
+            outline: 0;
+        }
     }
 }
