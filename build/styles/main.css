@@ -540,6 +540,8 @@ a {
     .action-button:active {
       transition: 0.2s ease-in;
       box-shadow: 0 2px 35px 0 #3DCCD0; }
+    .action-button:focus {
+      outline: 0; }
 
 .clearfix:after {
   content: '';
