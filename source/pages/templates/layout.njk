@@ -17,27 +17,15 @@
 	      content="black">
   	<link rel="icon" type="image/ico" href="assets/graphics/favicon.png">
 	<base href="/">
-	<title>
-    Home
-  </title>
+	<title>{% block title %} {% endblock %}  </title>
 	<link rel="stylesheet"
 	      type="text/css"
 	      href="styles/main.css">
 </head>
 
 <body class="">
-	<!-- source/templates/partials/ -->
-<navigation>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Say Hi!</a></li>
-    </ul>
-</navigation>
-
-	
-    <p class="m-text">I am the home page</p>
-
+	{% include "partials/navigation.njk" %}
+	{% block content %} {% endblock %}
 	<!-- Load scripts. -->
 	<script type="text/javascript"
 	        src="vendors/jquery.min.js"></script>
