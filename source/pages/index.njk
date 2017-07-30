@@ -5,5 +5,8 @@
     Home
 {% endblock %}
 {% block content %}
-    <p class="m-text">I am the home page</p>
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'index' -->
+    {{nav.active('index')}}
+    {% include "partials/example.njk" %}
 {%  endblock %}

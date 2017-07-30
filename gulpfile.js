@@ -54,7 +54,7 @@ gulp.task('nunjucks', function() {
   return gulp.src('source/pages/*.+(html|njk|nunjucks)')
   // Renders template with nunjucks
   .pipe(nunjucksRender({
-      path: ['source/pages/templates/']
+      path: ['source/pages/components/']
     }))
   // output files in app folder
   .pipe(gulp.dest('build'))

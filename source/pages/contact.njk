@@ -5,5 +5,8 @@
     Contact
 {% endblock %}
 {% block content %}
-    <p class="m-text">Get in touch with me</p>
-{%  endblock %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'contact' -->
+    {{nav.active('contact')}}
+    {% include "partials/example.njk" %}
+{% endblock %}
