@@ -10,7 +10,7 @@
         overflow-x: hidden;
         text-align: center;
 
-        p{
+        p {
             color: inherit;
         }
     }
@@ -65,6 +65,7 @@
         height: 34vw;
         max-height: 360px;
         margin: calc(10px + 2vh) 0 calc(10px + 1vh) 0;
+        z-index: 10;
     }
 
     &--social-icon {
@@ -82,6 +83,8 @@
 
         &--sponsor {
             font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 3vh;
 
             &-link {
                 color: $teal;
@@ -166,7 +169,7 @@
 
 span.coming-soon--scatter-item {
     position: relative;
-    z-index: 100;
+    transition: all 0.75s ease-out;
 }
 
 #coming-soon--mc_embed_signup {
