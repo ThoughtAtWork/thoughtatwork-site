@@ -17,28 +17,16 @@
 	      content="black">
   	<link rel="icon" type="image/ico" href="assets/graphics/favicon.png">
 	<base href="/">
-	<title>
-    Home
-  </title>
+	<title>{% block title %} {% endblock %}  </title>
 	<link rel="stylesheet"
 	      type="text/css"
 	      href="styles/main.css">
 </head>
 
 <body class="">
-	
-    
-    <!-- Creating the navigation with activePage = 'index' -->
-    
-<nav>
-  <a href="index.html" class=" active ">Home</a>
-  <a href="about.html" class="">About</a>
-  <a href="contact.html" class="">Contact</a>
-</nav>
+	{% block content %}
 
-    <p>Example includes for nunjucks</p>
-
-
+ 	{% endblock %}
 	<!-- Load scripts. -->
 	<script type="text/javascript"
 	        src="vendors/jquery.min.js"></script>

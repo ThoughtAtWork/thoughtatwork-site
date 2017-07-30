@@ -12,7 +12,8 @@ source = require('vinyl-source-stream'),
 runSequence = require('run-sequence'),
 $ = require('gulp-load-plugins')(),
 autoprefixer = require('gulp-autoprefixer'),
-buffer = require('vinyl-buffer');
+buffer = require('vinyl-buffer'),
+nunjucksRender = require('gulp-nunjucks-render');
 
 
 const sourcePaths = {
@@ -43,9 +44,20 @@ gulp.task('sass', () =>
     }))
     .pipe(gulp.dest( distPaths.styles )));
 
-gulp.task('copyHTML', () => {
-  return gulp.src('source/*.html')
-    .pipe(gulp.dest('build'));
+// gulp.task('nunjucks', () => {
+//   return gulp.src('source/*.html')
+//     .pipe(gulp.dest('build'));
+// });
+
+gulp.task('nunjucks', function() {
+  // Gets .html and .nunjucks files in pages
+  return gulp.src('source/pages/*.+(html|njk|nunjucks)')
+  // Renders template with nunjucks
+  .pipe(nunjucksRender({
+      path: ['source/pages/components/']
+    }))
+  // output files in app folder
+  .pipe(gulp.dest('build'))
 });
 
 gulp.task('webserver', () =>
@@ -90,14 +102,15 @@ gulp.task('openbrowser', () =>
 
 gulp.task('watch', ['webserver'], () => {
   gulp.watch(sourcePaths.styles, ['sass']);
-  gulp.watch('source/*.html', ['copyHTML']);
+  gulp.watch('source/**/*.+(html|njk|nunjucks)', ['nunjucks']);
+  gulp.watch('source/js/**.js', ['browserify']);
 });
 
 gulp.task('build', (cb) =>
   runSequence(
     ['copy'],
     ['sass'],
-    ['copyHTML'],
+    ['nunjucks'],
     ['browserify'],
     () => cb()
   ));

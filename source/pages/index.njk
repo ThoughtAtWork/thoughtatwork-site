@@ -1,0 +1,12 @@
+<!-- index.njk -->
+{% extends "layout.njk" %}
+
+{% block title %}
+    Home
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'index' -->
+    {{nav.active('index')}}
+    {% include "partials/example.njk" %}
+{%  endblock %}
