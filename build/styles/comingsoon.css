@@ -570,7 +570,8 @@ a {
   transform: translateZ(0);
   will-change: transform;
   background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-  background-position: 0 17%; }
+  background-position: 0 17%;
+  overflow-y: scroll; }
 
 .coming-soon--page-container {
   margin: 9.5vh 5px 6vh 5px;
