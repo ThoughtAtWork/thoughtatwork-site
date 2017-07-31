@@ -104,6 +104,7 @@ gulp.task('watch', ['webserver'], () => {
   gulp.watch(sourcePaths.styles, ['sass']);
   gulp.watch('source/**/*.+(html|njk|nunjucks)', ['nunjucks']);
   gulp.watch('source/js/**.js', ['browserify']);
+  gulp.watch('source/assets/**/*.*', ['copy']);
 });
 
 gulp.task('build', (cb) =>

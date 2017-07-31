@@ -1,18 +1,33 @@
 .coming-soon {
     &--dark-theme {
-        background-color: darken($dark-grey, 12.5%);
-        background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         background-position: 0 17%;
+        clip: rect(0, auto, auto, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         color: white;
         overflow-x: hidden;
         text-align: center;
-
         p {
             color: inherit;
         }
+    }
+
+    &--bg {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        transform: translateZ(0);
+        will-change: transform;
+        background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
+        background-position: 0 17%;
     }
 
     &--page-container {

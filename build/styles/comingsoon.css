@@ -544,17 +544,33 @@ a {
       outline: 0; }
 
 .coming-soon--dark-theme {
-  background-color: #2d2d2d;
-  background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: 0 17%;
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   color: white;
   overflow-x: hidden;
   text-align: center; }
   .coming-soon--dark-theme p {
     color: inherit; }
+
+.coming-soon--bg {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
+  background-position: 0 17%; }
 
 .coming-soon--page-container {
   margin: 9.5vh 5px 6vh 5px;
