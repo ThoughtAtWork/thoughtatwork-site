@@ -563,7 +563,7 @@ a {
   left: 0; }
   @media (max-width: 767px) {
     .coming-soon--page-container {
-      margin: 6vh 5px 0 5px; } }
+      margin: 5vh 5px 0 5px; } }
 
 .coming-soon--title {
   color: white;
@@ -614,6 +614,9 @@ a {
 
 .coming-soon--footer {
   margin: 10vh 0 0; }
+  @media (max-width: 767px) {
+    .coming-soon--footer {
+      margin: 6vh 0 0; } }
   .coming-soon--footer--row {
     margin: 8px; }
   .coming-soon--footer--sponsor {

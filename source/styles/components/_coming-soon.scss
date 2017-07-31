@@ -21,7 +21,7 @@
         right: 0;
         left: 0;
         @include media ('<md') {
-            margin: 6vh 5px 0 5px;
+            margin: 5vh 5px 0 5px;
         }
     }
 
@@ -76,6 +76,9 @@
 
     &--footer {
         margin: 10vh 0 0;
+        @include media ('<md') {
+            margin: 6vh 0 0;
+        }
 
         &--row {
             margin: 8px;
