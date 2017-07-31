@@ -552,7 +552,6 @@ a {
   width: 100%;
   height: 100%;
   color: white;
-  overflow-x: hidden;
   text-align: center; }
   .coming-soon--dark-theme p {
     color: inherit; }
@@ -571,7 +570,8 @@ a {
   will-change: transform;
   background-image: url("../assets/graphics/TAW-Vis-Dev-3-Edit.jpg");
   background-position: 0 17%;
-  overflow-y: scroll; }
+  overflow-y: auto;
+  overflow-x: hidden; }
 
 .coming-soon--page-container {
   margin: 9.5vh 5px 6vh 5px;
