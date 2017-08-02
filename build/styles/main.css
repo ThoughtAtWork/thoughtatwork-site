@@ -543,6 +543,78 @@ a {
     .action-button:focus {
       outline: 0; }
 
+body {
+  font-family: 'Elliot';
+  font-weight: 500; }
+
+.card, .eventRow .eventWrap .event {
+  position: relative;
+  background-color: #FFF;
+  box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15); }
+  .card .card__header, .eventRow .eventWrap .event .card__header, .card #schedule .timeLine p, #schedule .timeLine .card p, .eventRow .eventWrap .event #schedule .timeLine p, #schedule .timeLine .eventRow .eventWrap .event p, .eventRow .eventWrap .event .title {
+    color: #4D4D4D; }
+  .card .card__subhead, .eventRow .eventWrap .event .card__subhead, .eventRow .eventWrap .event .location {
+    color: #46CCCF; }
+  .card .card__subhead2, .eventRow .eventWrap .event .card__subhead2, .card #schedule .timeLine hr, #schedule .timeLine .card hr, .eventRow .eventWrap .event #schedule .timeLine hr, #schedule .timeLine .eventRow .eventWrap .event hr, .eventRow .eventWrap .event .name {
+    color: #B0B0B0; }
+
+#schedule {
+  margin: 0 auto 2vw auto;
+  width: 80.7vw; }
+  #schedule .timeLine {
+    clear: both;
+    margin: 1vw 0vw; }
+    #schedule .timeLine p {
+      font-size: 16pt;
+      font-weight: 500;
+      padding-bottom: 10px; }
+    #schedule .timeLine hr {
+      width: 80.7vw; }
+
+.eventRow {
+  clear: both;
+  margin: 0 auto;
+  text-align: center; }
+  .eventRow .eventWrap {
+    display: inline; }
+    .eventRow .eventWrap img {
+      height: 12px; }
+    .eventRow .eventWrap .event {
+      min-height: 8.5vw;
+      padding: 1vw;
+      margin: 0vw 3.3vw;
+      display: inline-block;
+      text-align: left;
+      border-style: solid;
+      border-width: 0px 0px 11px;
+      -o-border-image: url("../assets/graphics/TAW-Vis-Dev-6-Edit.jpg") 0 0 3072 stretch;
+      border-image: url("../assets/graphics/TAW-Vis-Dev-6-Edit.jpg") 0 0 3072 stretch; }
+      .eventRow .eventWrap .event--4 {
+        width: 10vw; }
+      .eventRow .eventWrap .event--3 {
+        width: 15vw; }
+      .eventRow .eventWrap .event--2 {
+        width: 25vw; }
+      .eventRow .eventWrap .event--1 {
+        width: 60vw; }
+      .eventRow .eventWrap .event .title {
+        font-size: 18pt;
+        margin-bottom: 1vw; }
+      .eventRow .eventWrap .event .name {
+        font-size: 14pt;
+        text-transform: uppercase;
+        margin-bottom: 0.5vw; }
+      .eventRow .eventWrap .event .location {
+        font-size: 14pt;
+        text-transform: uppercase;
+        margin-bottom: 3vw; }
+
+.event::after {
+  content: '';
+  height: 20px;
+  width: 100%;
+  background: url("../assets/graphics/TAW-Vis-Dev-6-Edit.jpg"); }
+
 .clearfix:after {
   content: '';
   display: table;

@@ -43,6 +43,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "gulp-sass": "^3.1.0",
     "run-sequence": "^1.2.2"
   },
   "directories": {

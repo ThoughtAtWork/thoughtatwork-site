@@ -1,0 +1,13 @@
+<!-- app/pages/lucas.njk-->
+{% extends "layout.njk" %}
+
+{% block title %}
+    Filters Component
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'contact' -->
+    {{nav.active('about')}}
+    {# {% include "partials/filters.njk" %} #}
+    {% include "partials/eventCards.njk" %}
+{% endblock %}
