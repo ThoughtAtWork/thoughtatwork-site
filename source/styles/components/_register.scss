@@ -3,13 +3,13 @@
 	position: relative;
 }
 
-.icon-row-heading h2 {
+.icon-row-heading .icon-row-title {
 	position: absolute;
 	right: 3vw;
 	top: 0;
 	z-index: -1;
 }
-.form-row-heading h2 {
+.form-row-heading .form-row-title {
 	position: absolute;
 	left: 3vw;
 	top: 0;
@@ -28,13 +28,13 @@
 		text-align: center;
 		margin: 0;
 
-		figcaption {
+		.icon-label {
 			font-size: 16pt;
 			line-height: 22.4pt;
 			font-weight: bold;
 		}
 
-		img {
+		.icon-image {
 			width: 9.83vw;
 			height: 9.83vw;
 			margin: 2vw 3.67vw; /* top/bottom not specified */
@@ -44,19 +44,19 @@
 
 
 /* Form */
-form {
+.input-form {
 	background-color: white;
 	width: 67.06vw;
 	padding: 5.58vw 6.02vw;
 	margin: 3vw auto;
 
-	p {
+	.form-message {
 		margin-bottom: 2vw; // not specified
 	} 
 }
 
 /* Input */
-input, select {
+.input-text {
 	background-color: #F9F9F9; // good
 	height: 4.4vw; // good
 	margin: 1.5vw auto;
@@ -69,10 +69,6 @@ input, select {
 	text-indent: 1.5vw;
 }
 
-/* webkit solution */
-//::-webkit-input-placeholder { padding-left: 1.5vw; }
-/* mozilla solution */
-//input:-moz-placeholder { padding-left: 1.5vw; }
 
 .first-half {
 	margin-right: 0.99vw;
@@ -94,7 +90,7 @@ input, select {
 	display: inline-block;
 
 	position: relative;
-	p {
+	.checkbox-label {
 		position: absolute;
 		top: 3.5vw;
 		left: 4vw;
