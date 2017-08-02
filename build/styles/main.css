@@ -543,6 +543,61 @@ a {
     .action-button:focus {
       outline: 0; }
 
+body {
+  font-family: 'Elliot';
+  font-weight: 500; }
+
+.card, .schedFilter, .speakFilter {
+  position: relative;
+  background-color: #FFF;
+  box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15); }
+  .card .card__header, .schedFilter .card__header, .speakFilter .card__header, .schedFilter .filter__header, .speakFilter .filter__header {
+    color: #4D4D4D; }
+  .card .card__subhead, .schedFilter .card__subhead, .speakFilter .card__subhead, .schedFilter .filter__subhead {
+    color: #46CCCF; }
+  .card .card__subhead2, .schedFilter .card__subhead2, .speakFilter .card__subhead2 {
+    color: #B0B0B0; }
+
+.filters {
+  margin: 3vw auto;
+  display: table; }
+
+.schedFilter {
+  width: 16.432vw;
+  height: 5.168vw;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0vw 2vw; }
+  .schedFilter .content {
+    display: table;
+    height: inherit;
+    width: inherit;
+    position: relative; }
+  .schedFilter .filter__header {
+    font-size: 24pt;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle; }
+  .schedFilter .filter__subhead {
+    font-size: 16pt;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle; }
+
+.schedFilter--selected {
+  width: 20.54vw;
+  height: 6.46vw; }
+
+.speakFilter {
+  width: 20.54vw;
+  height: 4.4vw;
+  text-align: center;
+  float: left;
+  padding: 0px 16px; }
+  .speakFilter .filter__header {
+    font-size: 16pt; }
+
 .clearfix:after {
   content: '';
   display: table;

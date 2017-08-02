@@ -1,0 +1,23 @@
+// @import 'variables';
+// @import 'fonts';
+
+body{
+	font-family: 'Elliot';
+	font-weight: 500;
+}
+
+.card {
+	position: relative;
+	background-color: #FFF;
+	@include card--drop-shadow;
+
+	.card__header{
+		color: $dark-grey;
+	}
+	.card__subhead{
+		color: $teal;
+	}
+	.card__subhead2{
+		color: $normal-grey;
+	}
+}
