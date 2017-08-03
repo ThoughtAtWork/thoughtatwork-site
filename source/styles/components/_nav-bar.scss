@@ -1,0 +1,89 @@
+.nav {
+    &--header {
+        background-color: $color-background;
+        height: 500px;
+    }
+    &--container {
+        height: 220px;
+        background-color: $color-background;
+        border-bottom: 1px solid #555;
+    }
+
+    &--logo {
+        padding: 10px;
+        width: auto;
+        float: left;
+    }
+
+    &--logo img {
+        height: 55px;
+    }
+
+    &--list {
+        float: right;
+        margin-right: 25px;
+        margin-top: 17px;
+    }
+
+    &--list-item {
+        float: left;
+        padding: 13px;
+        font-size: 18px;
+        border-radius: 3px;
+        transition: all 0.7s ease-in-out;
+        text-decoration: none;
+        list-style: none
+    }
+
+    &--list-item a {
+        color: $normal-grey;
+        text-transform: uppercase;
+    }
+
+    &--list-item a:hover {
+        color: $teal;
+        text-decoration: none;
+    }
+
+    &--icon {
+        display: none;
+    }
+
+    &--toggle {
+        float: right;
+        margin: 20px;
+        color: #EEE;
+        font-size: 30px;
+        border: 1px solid #EEE;
+        padding: 0 5px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    @include media ('<md') {
+        &--icon {
+            display: block;
+            width: 100%;
+            height: 80px;
+            background-color: #111;
+            border-bottom: 1px solid #444;
+        }
+
+        &--list {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -4px;
+            background-color: #222;
+            display: none;
+        }
+
+        &--list-item {
+            text-align: center;
+            display: block;
+            border-bottom: 1px solid #333;
+            float: none;
+        }
+    }
+}

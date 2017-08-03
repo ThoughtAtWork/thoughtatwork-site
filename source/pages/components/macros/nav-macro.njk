@@ -1,8 +1,33 @@
-{% macro active(activePage='home') %}
-<nav>
-  <a href="index.html" class="{%if activePage == 'index' %} active {% endif %}">Home</a>
-  <a href="about.html" class="{%if activePage == 'about' %} active {% endif %}">About</a>
-  <a href="contact.html" class="{%if activePage == 'contact' %} active {% endif %}">Contact</a>
-  <a href="coming-soon.html" class="{%if activePage == 'coming-soon' %} active {% endif %}">Coming-Soon</a>
-</nav>
+{% macro active(activePage = 'home') %}
+    <header class="nav--header">
+        <nav class="nav--container">
+            <div class="nav--logo">
+                <a href="index.html">
+                    <img src="https://taw.imgix.net/TAW_Logo.png?w=120&h=1"/></a>
+            </div>
+            <div class="nav--icon">
+                <span class="nav--toggle">☰</span>
+            </div>
+            <ul class="nav--list">
+                <li class="nav--list-item">
+                    <a href="speakers.html" class="{%if activePage == 'speakers' %} active {% endif %}">Speakers</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="schedule.html" class="{%if activePage == 'schedule' %} active {% endif %}">Schedule</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="details.html" class="{%if activePage == 'details' %} active {% endif %}">Details</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="contact.html" class="{%if activePage == 'contact' %} active {% endif %}">Contact</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="about.html" class="{%if activePage == 'about' %} active {% endif %}">About</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="register.html" class="{%if activePage == 'register' %} active {% endif %}">Register</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 {% endmacro %}
