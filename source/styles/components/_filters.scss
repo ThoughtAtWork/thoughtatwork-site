@@ -68,16 +68,31 @@ body{
 }
 
 .speakFilter {
-	width: 20.54vw;
-	height: 4.4vw;
+	width: 16.432vw;
+	height: 3.52vw;
 	text-align: center;
-	float: left;
-	padding: 0px 16px;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0vw 2vw;
 
 	@extend .card;
 
+	.content {
+    display: table;
+    height: inherit;
+    width: inherit;
+    position: relative;
+	}
+
 	.filter__header {
-		font-size: 16pt;
+		font-size: 20pt;
+		display: table-cell;
+		vertical-align: middle;
 		@extend .card__header;
 	}
+}
+
+.speakFilter--selected {
+	padding: 0px 16px;
+	height: 4.4vw;
 }
