@@ -564,30 +564,32 @@ body {
 
 .schedFilter {
   width: 16.432vw;
-  height: 5.168vw;
   text-align: center;
   vertical-align: middle;
   display: inline-block;
   margin: 0vw 2vw; }
   .schedFilter .content {
-    display: table;
-    height: inherit;
+    display: table-cell;
+    height: 5.168vw;
     width: inherit;
-    position: relative; }
+    vertical-align: middle; }
+  .schedFilter p {
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-weight: 500; }
   .schedFilter .filter__header {
-    font-size: 24pt;
-    text-transform: uppercase;
-    display: table-cell;
-    vertical-align: middle; }
+    padding-bottom: 5px;
+    font-size: 24pt; }
   .schedFilter .filter__subhead {
-    font-size: 16pt;
-    text-transform: uppercase;
-    display: table-cell;
-    vertical-align: middle; }
+    font-size: 16pt; }
 
 .schedFilter--selected {
   width: 20.54vw;
   height: 6.46vw; }
+  .schedFilter--selected .content {
+    height: 6.46vw; }
+  .schedFilter--selected .filter__subhead, .schedFilter--selected .filter__header {
+    opacity: 1; }
 
 .speakFilter {
   width: 16.432vw;
@@ -602,13 +604,17 @@ body {
     width: inherit;
     position: relative; }
   .speakFilter .filter__header {
+    font-weight: 500;
     font-size: 20pt;
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    opacity: 0.6; }
 
 .speakFilter--selected {
   padding: 0px 16px;
   height: 4.4vw; }
+  .speakFilter--selected .filter__header {
+    opacity: 1.0; }
 
 .clearfix:after {
   content: '';

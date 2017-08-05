@@ -29,7 +29,7 @@ body{
 
 .schedFilter {
 	width: 16.432vw;
-	height: 5.168vw;
+	//height: 5.168vw;
 	text-align: center;
 	vertical-align: middle;
 	display: inline-block;
@@ -38,25 +38,26 @@ body{
 	@extend .card;
 
 	.content {
-    display: table;
-    height: inherit;
+    display: table-cell;
+    height: 5.168vw;
     width: inherit;
-    position: relative;
+	vertical-align: middle;
+	}
+
+	p {
+		text-transform: uppercase;
+		opacity: 0.6;
+		font-weight: 500;
 	}
 
 	.filter__header {
+		padding-bottom: 5px;
 		font-size: 24pt;
-		text-transform: uppercase;
-		display: table-cell;
-		vertical-align: middle;
 		@extend .card__header;
 	}
 
 	.filter__subhead {
 		font-size: 16pt;
-		text-transform: uppercase;
-		display: table-cell;
-		vertical-align: middle;
 		@extend .card__subhead;
 	}
 
@@ -65,6 +66,14 @@ body{
 .schedFilter--selected {
 	width: 20.54vw;
 	height: 6.46vw;
+
+	.content {
+		height: 6.46vw;
+	}
+
+	.filter__subhead , .filter__header {
+		opacity: 1;
+	}
 }
 
 .speakFilter {
@@ -85,9 +94,11 @@ body{
 	}
 
 	.filter__header {
+		font-weight: 500;
 		font-size: 20pt;
 		display: table-cell;
 		vertical-align: middle;
+		opacity: 0.6;
 		@extend .card__header;
 	}
 }
@@ -95,4 +106,8 @@ body{
 .speakFilter--selected {
 	padding: 0px 16px;
 	height: 4.4vw;
+
+	.filter__header {
+		opacity: 1.0;
+	}
 }
