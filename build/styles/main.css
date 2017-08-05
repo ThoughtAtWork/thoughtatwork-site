@@ -635,6 +635,14 @@ a {
 .submit-link {
   margin-right: 6vw; }
 
+.home .home-header {
+  text-align: center; }
+  .home .home-header h1 {
+    letter-spacing: 42px; }
+  .home .home-header img {
+    width: 80.7vw;
+    height: 39.47vw; }
+
 .clearfix:after {
   content: '';
   display: table;
