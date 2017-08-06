@@ -1,0 +1,107 @@
+.nav {
+    &--brand {
+        width: 45px;
+    }
+
+    &--header {
+        background-color: $color-background;
+    }
+
+    &--container {
+        height: 85px;
+        background-color: $color-background;
+        padding: 0 86px;
+    }
+
+    &--logo {
+        float: left;
+        margin-top: 33px;
+        margin-left: 7px;
+    }
+
+    &--list {
+        float: right;
+        margin: 0;
+    }
+
+    &--list-item {
+        float: left;
+        padding: 0 24px 0 20px;
+        font-size: 18px;
+        transition: all 0.7s ease-in-out;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 49px;
+
+        &:last-child {
+            padding: 49px 15px 0 19px;
+            z-index: 100;
+            background-color: $teal;
+            width: 75px;
+            height: 36px;
+            margin-top: 0;
+            @include register--drop-shadow;
+            & a {
+                color: white;
+            }
+        }
+    }
+
+    &--list-item a {
+        color: $normal-grey;
+        text-transform: uppercase;
+        transition: all 0.4s ease-in-out;
+    }
+
+    &--list-item a:hover {
+        color: $teal;
+        text-decoration: none;
+        transition-duration: 0.4s;
+    }
+
+    &--active {
+        color: $teal !important;
+    }
+
+    &--icon {
+        display: none;
+    }
+
+    &--toggle {
+        float: right;
+        margin: 20px;
+        color: #EEE;
+        font-size: 30px;
+        border: 1px solid #EEE;
+        padding: 0 5px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    @include media ('<md') {
+        &--icon {
+            display: block;
+            width: 100%;
+            height: 80px;
+            background-color: #111;
+            border-bottom: 1px solid #444;
+        }
+
+        &--list {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -4px;
+            background-color: #222;
+            display: none;
+        }
+
+        &--list-item {
+            text-align: center;
+            display: block;
+            border-bottom: 1px solid #333;
+            float: none;
+        }
+    }
+}

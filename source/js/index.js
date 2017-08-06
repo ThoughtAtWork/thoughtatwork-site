@@ -10,3 +10,9 @@
 // }
 
 console.log('js compiled');
+
+const navigation = require('./navigation.js');
+
+window.onload = function() {
+    console.log("file included", navigation);
+}
