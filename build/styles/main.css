@@ -663,6 +663,14 @@ body {
   .text-card h5 {
     padding-bottom: 3%; }
 
+.recap-video {
+  width: 47.69vw;
+  height: 24.5vw; }
+
+.logo {
+  width: 28.76vw;
+  height: 28.76vw; }
+
 .clearfix:after {
   content: '';
   display: table;
