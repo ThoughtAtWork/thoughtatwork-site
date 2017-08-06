@@ -41,7 +41,7 @@
             height: 36px;
             margin-top: 0;
             @include register--drop-shadow;
-            & a {
+            & a , a:hover{
                 color: white;
             }
         }
