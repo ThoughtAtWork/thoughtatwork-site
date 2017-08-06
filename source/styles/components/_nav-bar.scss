@@ -1,48 +1,66 @@
 .nav {
+    &--brand {
+        width: 45px;
+    }
+
     &--header {
         background-color: $color-background;
-        height: 500px;
     }
+
     &--container {
-        height: 220px;
+        height: 85px;
         background-color: $color-background;
-        border-bottom: 1px solid #555;
+        padding: 0 86px;
     }
 
     &--logo {
-        padding: 10px;
-        width: auto;
         float: left;
-    }
-
-    &--logo img {
-        height: 55px;
+        margin-top: 33px;
+        margin-left: 7px;
     }
 
     &--list {
         float: right;
-        margin-right: 25px;
-        margin-top: 17px;
+        margin: 0;
     }
 
     &--list-item {
         float: left;
-        padding: 13px;
+        padding: 0 24px 0 20px;
         font-size: 18px;
-        border-radius: 3px;
         transition: all 0.7s ease-in-out;
         text-decoration: none;
-        list-style: none
+        list-style: none;
+        margin-top: 49px;
+
+        &:last-child {
+            padding: 49px 15px 0 19px;
+            z-index: 100;
+            background-color: $teal;
+            width: 75px;
+            height: 36px;
+            margin-top: 0;
+            @include register--drop-shadow;
+            & a {
+                color: white;
+            }
+        }
     }
 
     &--list-item a {
         color: $normal-grey;
         text-transform: uppercase;
+        transition: all 0.4s ease-in-out;
     }
 
     &--list-item a:hover {
         color: $teal;
         text-decoration: none;
+        transition-duration: 0.4s;
+    }
+
+    &--active {
+        color: $teal !important;
     }
 
     &--icon {
