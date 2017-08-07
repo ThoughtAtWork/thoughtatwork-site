@@ -1,7 +1,7 @@
 .action {
     text-decoration: none;
 
-    &-button {
+    &--button {
         font-size: 16px;
         font-weight: bold;
         letter-spacing: -0.1px;
@@ -29,4 +29,18 @@
             outline: 0;
         }
     }
+
+    &--link {
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: -0.1px;
+        color: $teal;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration-line: none;
+        }
+    }
 }
+// A link...
+// <a href="" class="action--link">Link  <i class="fa fa-long-arrow-right"></i> </a>

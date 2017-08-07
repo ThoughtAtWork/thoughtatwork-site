@@ -1,0 +1,118 @@
+// @import 'variables';
+// @import 'fonts';
+
+body{
+	font-family: 'Elliot';
+	font-weight: 500;
+}
+
+.card {
+	position: relative;
+	background-color: #FFF;
+	@include card--drop-shadow;
+
+	.card__header{
+		color: $dark-grey;
+	}
+	.card__subhead{
+		color: $teal;
+	}
+	.card__subhead2{
+		color: $normal-grey;
+	}
+}
+
+#schedule {
+	margin: 0 auto 2vw auto;
+	width: 80.7vw;
+
+	.timeLine {
+		clear: both;
+		margin: 1vw 0vw;
+		p {
+			font-size: 16pt;
+			font-weight: 500;
+			padding-bottom: 10px;
+			@extend .card__header;
+		}
+
+		hr {
+			width: 80.7vw;
+			@extend .card__subhead2;
+		}
+	}
+}
+
+.eventRow {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+
+	.eventWrap {
+
+		display: inline;
+
+		img {
+			height: 12px;
+		}
+
+	.event {
+		@extend .card;
+
+		min-height:8.5vw;
+		padding: 1vw;
+		margin: 0vw 3.3vw;
+		display: inline-block;
+		text-align: left;
+
+		border-style: solid;
+		border-width: 0px 0px 11px;
+		-moz-border-image: url('../assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+		-webkit-border-image: url('../assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+		-o-border-image: url('../assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+		border-image: url('../assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+
+		&--4 {
+			width: 10vw;
+		}
+
+		&--3 {
+			width: 15vw;
+		}
+
+		&--2 {
+			width: 25vw;
+		}
+
+		&--1 {
+			width: 60vw;
+		}
+
+		.title {
+			@extend .card__header;
+			font-size: 18pt;
+			margin-bottom: 1vw;
+		}
+
+		.name {
+			@extend .card__subhead2;
+			font-size: 14pt;
+			text-transform: uppercase;
+			margin-bottom: 0.5vw;
+		}
+
+		.location {
+			@extend .card__subhead;
+			font-size: 14pt;
+			text-transform: uppercase;
+			margin-bottom: 3vw;
+		}
+	}
+}
+}
+
+.event::after {
+	content: '';
+	height:20px;
+	width:100%;   background:url('../assets/graphics/TAW-Vis-Dev-6-Edit.jpg');
+}
