@@ -1,0 +1,12 @@
+<!-- app/pages/register.njk-->
+{% extends "layout.njk" %}
+
+{% block title %}
+    Register
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'register' -->
+    {{nav.active('register')}}
+    {% include "partials/register.njk" %}
+{% endblock %}
