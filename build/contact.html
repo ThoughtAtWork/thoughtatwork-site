@@ -48,13 +48,38 @@
     
     <!-- Creating the navigation with activePage = 'contact' -->
     
-<nav>
-  <a href="home.html" class="">Home</a>
-  <a href="about.html" class="">About</a>
-  <a href="contact.html" class=" active ">Contact</a>
-  <a href="coming-soon.html" class="">Coming-Soon</a>
-</nav>
-
+    <header class="nav--header">
+        <nav class="nav--container">
+            <div class="nav--logo">
+                <a href="home.html">
+                    <img class="nav--brand" src="assets/graphics/brand.svg"/></a>
+            </div>
+            <div class="nav--icon">
+                <span class="nav--toggle">☰</span>
+            </div>
+            <ul class="nav--list">
+                <li class="nav--list-item">
+                    <a href="speakers.html" class="">Speakers</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="schedule.html" class="">Schedule</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="details.html" class="">Details</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="contact.html" class=" nav--active ">Contact</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="about.html" class="">About</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="register.html" class="">Register</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+ 
     <p>Example includes for nunjucks</p>
 
 

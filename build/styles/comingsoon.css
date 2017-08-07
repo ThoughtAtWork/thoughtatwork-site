@@ -522,7 +522,7 @@ a {
 
 .action {
   text-decoration: none; }
-  .action-button {
+  .action--button {
     font-size: 16px;
     font-weight: bold;
     letter-spacing: -0.1px;
@@ -534,14 +534,23 @@ a {
     box-shadow: 0 0 0 0 #3DCCD0;
     border: none;
     cursor: pointer; }
-    .action-button:hover {
+    .action--button:hover {
       transition: 0.2s ease-out;
       box-shadow: 0 2px 15px 0 #3DCCD0; }
-    .action-button:active {
+    .action--button:active {
       transition: 0.2s ease-in;
       box-shadow: 0 2px 35px 0 #3DCCD0; }
-    .action-button:focus {
+    .action--button:focus {
       outline: 0; }
+  .action--link {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+    color: #46CCCF;
+    text-transform: uppercase; }
+    .action--link:hover {
+      -webkit-text-decoration-line: none;
+      text-decoration-line: none; }
 
 .coming-soon--dark-theme {
   background-position: 0 17%;
