@@ -5,9 +5,6 @@ node_modules
 npm-debug.log
 !.gitkeep
 package-lock.json
-build
-!build/assets
-!build/2014
-!build/2015
-!build/2016
-!build/vendors
+build/*.html
+build/styles
+build/js
