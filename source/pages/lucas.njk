@@ -1,12 +1,13 @@
-<!-- app/pages/about.njk-->
+<!-- app/pages/lucas.njk-->
 {% extends "layout.njk" %}
 
 {% block title %}
-    About
+    Filters Component
 {% endblock %}
 {% block content %}
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'contact' -->
     {{nav.active('about')}}
-    {% include "partials/about.njk" %}
+    {% include "partials/filters.njk" %}
+    {% include "partials/eventCards.njk" %}
 {% endblock %}
