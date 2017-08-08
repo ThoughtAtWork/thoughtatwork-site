@@ -43,8 +43,15 @@
             @include register--drop-shadow;
             & a , a:hover{
                 color: white;
+                &.nav--active {
+                    color: #FFF !important;
+                }
             }
         }
+    }
+
+    &--active {
+        color: $teal !important;
     }
 
     &--list-item a {
@@ -57,10 +64,6 @@
         color: $teal;
         text-decoration: none;
         transition-duration: 0.4s;
-    }
-
-    &--active {
-        color: $teal !important;
     }
 
     &--icon {
