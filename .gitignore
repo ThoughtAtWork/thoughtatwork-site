@@ -8,3 +8,4 @@ package-lock.json
 build/*.html
 build/styles
 build/js
+build/assets
