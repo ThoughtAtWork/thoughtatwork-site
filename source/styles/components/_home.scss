@@ -1,32 +1,27 @@
-body{
-  background-color: #fafafa;
-}
-
-.header{
-  img{
-    height: 6.6vw;
-    width: 67.06vw;
-  }
-}
-
 .home-header{
   position: relative;
   text-align: center;
 
-  h1{
+  .home-header__title{
     letter-spacing: 42px;
   }
-  img{
+  .home-header__image{
     width: 80.7vw;
     height: 39.47vw;
   }
-  .home-date{
+  .home-header__date{
     position: absolute;
     right: 380px;
     top: 620px;
   }
 }
 
+.header{
+  .header__img{
+    height: 6.6vw;
+    width: 67.06vw;
+  }
+}
 
 .text-card{
   background-color: white;
@@ -34,7 +29,7 @@ body{
   height: 9.9vw;
   padding: 30px 33px 30px 33px;
 
-  h5{
+  .text-card__title{
     padding-bottom: 3%;
   }
 }
