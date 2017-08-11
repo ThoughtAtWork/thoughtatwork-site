@@ -1,0 +1,18 @@
+/*General Card Class*/
+.card{
+	box-sizing: border-box;
+	position: relative;
+	background-color: #FFF;
+	@include card--drop-shadow;
+	vertical-align: top;
+
+	.card__header{
+		color: $dark-grey;
+	}
+	.card__subhead{
+		color: $teal;
+	}
+	.card__subhead2{
+		color: $normal-grey;
+	}
+}

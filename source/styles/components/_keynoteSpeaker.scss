@@ -1,0 +1,45 @@
+/*Keynote Speaker Card*/
+.speakers-card--keynote{
+	display: inline-block;
+	width: 21.64vw;
+	height: 29.71vw;
+
+	margin: 0 5.65vw;
+
+	.speakers-card__headshot{
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.speakers-card__name, .speakers-card__position{
+		position: relative;
+		left: -2.2vw;
+		z-index: 2;
+	}
+
+	.speakers-card__name{
+		display: block;
+		padding: 10px 0 6px 0;
+		font-size: 36px;
+		letter-spacing: -0.01em;
+	}
+
+	.speakers-card__position{
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+	.speakers-card__backing-img{
+		width: 100%;
+		height: 100%;
+
+		position: absolute;
+		top: 1.1vw;
+		left: 1.1vw;
+		overflow: hidden;
+		z-index: -1;
+		
+		@include card--drop-shadow;
+	}
+}
