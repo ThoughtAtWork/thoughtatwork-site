@@ -7,4 +7,6 @@ npm-debug.log
 package-lock.json
 build/*.html
 build/styles
+build/styles/*
 build/js
+build/assets/graphics/*
