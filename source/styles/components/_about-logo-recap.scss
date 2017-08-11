@@ -1,6 +1,9 @@
 .recap-video{
   width: 47.69vw;
   height: 24.5vw;
+
+  // Needed to shift not push controls outside of video width
+  width: auto;
 }
 
 .logo{
