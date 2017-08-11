@@ -1,0 +1,13 @@
+<!-- app/pages/contact.njk -->
+{% extends "layout.njk" %}
+
+{% block title %}
+    Speakers
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'contact' -->
+    {{nav.active('speakers')}}
+    {% include "partials/cardGridSpeaker.njk" %}
+    {% include "partials/cardKeynoteSpeaker.njk" %}
+{% endblock %}
