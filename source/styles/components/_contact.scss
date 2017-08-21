@@ -1,0 +1,58 @@
+// General Info Section
+.gen-info-section, .contact-form-section {
+	position: relative;
+}
+
+.gen-info-heading {
+	position: absolute;
+	right: 3vw;
+	top: 0;
+	z-index: -1;
+}
+
+.gen-info-row {
+	width: 69.06vw; 
+	margin: auto; 
+	display: flex;
+    align-items: center; 
+    padding-top: 4vw;
+
+	.gen-info-icon {
+		display: inline-block; 
+		margin-left: 18vw; 
+		margin-right: 10vw;
+
+		.icon-image {
+			height: 15vw; 
+			width: 15vw;
+		}
+	}
+
+	.gen-info-message {
+		display: inline-block;
+	}
+}
+
+// Contact Form Section
+.contact-form-heading {
+	position: absolute;
+	left: 3vw;
+	top: 0;
+	z-index: -1;
+}
+
+.contact-form-row {
+	padding-top: 2.5vw;
+
+	.contact-message {
+		height: 8.8vw; 
+		padding-top: 1.5vw; 
+		box-sizing: border-box; 
+		padding-left: 1.5vw; 
+		padding-right: 1.5vw;
+		resize: vertical;
+		background-color: #F9F9F9;
+		border: none;
+		font-style: italic;
+	}
+}
