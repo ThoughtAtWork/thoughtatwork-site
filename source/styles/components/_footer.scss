@@ -1,0 +1,99 @@
+.footer-top {
+    margin-top: 20vh;
+    a{ 
+        text-align: center;
+        font-weight: bold;
+    }
+
+    font: 16pt bold teal;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    
+
+    .footer-lines {
+        background-color:grey;
+        text-align: center;
+        vertical-align: middle;
+        width: 11vw;
+        height: 1px; 
+        display: inline;
+    }
+}
+
+
+
+.footer-sponsors{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20vh;
+
+    .logo-card{
+        display: inline-block;
+        width: 20%;
+        height: 13.94vh;
+        line-height: 13.94vh;
+        vertical-align: middle;
+        padding: {
+            top: 20px;
+            bottom: 20px;
+        }
+        img
+        {
+            box-shadow: 0px 0px 25px rgba(70,204,207,0.25);
+        }
+    }
+
+    .sponsor {
+        font-weight: bold;
+        border: { 
+            color: #b0b0b0;
+            width: 1px;
+            style: dashed;
+        } 
+        height: 13.94vh;
+        line-height: 13.94vh;
+    }
+    
+    .be-sponsor {
+        font-size: 12pt;
+        color: #46cccf;
+        font-weight: bold;
+    }
+}
+
+.footer-bottom {
+    font-size: 12pt;
+    padding:{
+        left: 20pt;
+        right:20pt;
+    }
+    .footer-text{
+        line-height: 16.8pt;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .footer-p{
+        color: #4d4d4d;
+        line-height: 16.8pt;
+        width: 65%;
+        margin-bottom: 16.9pt;
+    }
+    .copyright{
+        color: #b0b0b0;
+        display: inline-block;
+    }
+
+    .social-media{
+        display: inline;
+        float: right;
+
+        .icon{
+            display: inline-block;
+            text-align: right;
+            width: 2.2vw;
+            height: 2.2vw;
+        }
+    }
+}
