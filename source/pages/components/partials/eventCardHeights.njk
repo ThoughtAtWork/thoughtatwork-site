@@ -1,18 +1,18 @@
-<div class="eventRow">
-{% for i in range(0, 4) %}
-    <div class="eventWrap">
-        <div class="event event--3">
-            <div class="title">
-                {{title}}
-            </div>
-            <div class="name">
-                COO NAME
-            </div>
+{% macro eventCard(height) %}
+    <div class="eventRow">
+        <div class="eventWrap">
+            <div class="event event--3" style="height: {{height}}">
+                <div class="title">
+                    {{title}}
+                </div>
+                <div class="name">
+                    COO NAME
+                </div>
 
-            <div class="location">
-                BOO-1304
+                <div class="location">
+                    BOO-1304
+                </div>
             </div>
         </div>
     </div>
-{% endfor %}
-</div>
+{% endmacro %}

@@ -10,10 +10,12 @@
     {{nav.active('schedule')}}
 
     <div id="schedule">
-	    {% for i in range(0, 17) %}
+	    {% for i in range(9, 18) %}
 	    	<div class="timeLine">
 		        <p>
-		        	{% if i < 12 %}
+			        {% if i == 0 %}
+			        	12 am
+		        	{% elif i < 12 %}
 			            {{i}} am
 			        {% elif i == 12 %}
 			        	12 pm
@@ -71,7 +73,10 @@
 				return totalMinutes;
 			}
 	    </script>
-	    {% include "partials/eventCardHeights.njk" %}
+	    {% from "partials/eventCardHeights.njk" import eventCard %}
+	    <div class="eventRow">
+	    	{{ eventCard("300px") }}
+	    </div>
     </div>
     
 {% endblock %}
