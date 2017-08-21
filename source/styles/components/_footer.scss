@@ -5,14 +5,14 @@
         font-weight: bold;
     }
 
-    font: 16pt bold teal;
+    font: 16pt bold $teal;
     width: 100vw;
     height: 50px;
     text-align: center;
     
 
     .footer-lines {
-        background-color:grey;
+        padding: 5px;
         text-align: center;
         vertical-align: middle;
         width: 11vw;
@@ -48,7 +48,7 @@
     .sponsor {
         font-weight: bold;
         border: { 
-            color: #b0b0b0;
+            color:$normal-grey;
             width: 1px;
             style: dashed;
         } 
@@ -58,14 +58,15 @@
     
     .be-sponsor {
         font-size: 12pt;
-        color: #46cccf;
+        color: $teal;
         font-weight: bold;
     }
 }
 
 .footer-bottom {
     font-size: 12pt;
-    padding:{
+    padding:
+    {
         left: 20pt;
         right:20pt;
     }
@@ -75,13 +76,13 @@
         vertical-align: middle;
     }
     .footer-p{
-        color: #4d4d4d;
+        color: $dark-grey;
         line-height: 16.8pt;
         width: 65%;
         margin-bottom: 16.9pt;
     }
     .copyright{
-        color: #b0b0b0;
+        color: $normal-grey;
         display: inline-block;
     }
 
