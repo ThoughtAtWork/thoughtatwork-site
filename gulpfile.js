@@ -13,7 +13,8 @@ runSequence = require('run-sequence'),
 $ = require('gulp-load-plugins')(),
 autoprefixer = require('gulp-autoprefixer'),
 buffer = require('vinyl-buffer'),
-nunjucksRender = require('gulp-nunjucks-render');
+nunjucksRender = require('gulp-nunjucks-render'),
+data = require('gulp-data');
 
 
 const sourcePaths = {
@@ -52,6 +53,10 @@ gulp.task('sass', () =>
 gulp.task('nunjucks', function() {
   // Gets .html and .nunjucks files in pages
   return gulp.src('source/pages/*.+(html|njk|nunjucks)')
+  // Adding data to Nunjucks
+  .pipe(data(function() {
+    return require('./source/assets/json/data.json')
+  }))
   // Renders template with nunjucks
   .pipe(nunjucksRender({
       path: ['source/pages/components/']

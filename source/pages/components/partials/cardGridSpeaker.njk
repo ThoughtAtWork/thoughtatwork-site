@@ -1,12 +1,14 @@
 <div class="speakers-card--grid">
-	<div class="speakers-card__fields">{{fields}}</div>
-	<img src="{{headshot}}" class="speakers-card__headshot">
+	<div class="speakers-card__fields">{{speaker.fields}}</div>
+	<img src="{{speaker.headshot}}" class="speakers-card__headshot">
 
 	<div class="card">
-		<span class="card__header speakers-card__name">{{firstName}} {{lastName}}</span>
-		<span class="card__subhead speakers-card__position">{{position}}</span>
+		<span class="card__header speakers-card__name">{{speaker.firstName}} {{speaker.lastName}}</span>
+		<span class="card__subhead speakers-card__position">{{speaker.position}}</span>
 		<div class="speakers-card__backing-img">
-			<img src="{{backingImg}}">
+			<img src="{{speaker.backingImg}}">
 		</div>
 	</div>
 </div>
+Image test
+<p> {{image.src}} <p>
