@@ -4,16 +4,9 @@
 	position: relative;
 }
 
-.icon-row-heading .icon-row-title {
+.icon-row-heading .icon-row-title, .form-row-heading .form-row-title {
 	position: absolute;
 	right: 3vw;
-	top: 0;
-	z-index: -1;
-}
-
-.form-row-heading .form-row-title {
-	position: absolute;
-	left: 3vw;
 	top: 0;
 	z-index: -1;
 }
@@ -87,19 +80,21 @@
 	position: relative;
 
 	.checkbox-label {
-		position: absolute;
-		top: 3.5vw;
-		left: 4vw;
+		// position: absolute;
+		// top: 3.5vw;
+		// left: 4vw;
+	  display: inline-block;
 	}
 }
 
 .checkbox {
-	margin: 0;
-	width: 2.35vw;
-	height: 2.35vw;
-	position: absolute;
-	top: 3vw;
-	left: 0;
+	// margin: 0;
+	// width: 2.35vw;
+	// height: 2.35vw;
+	// position: absolute;
+	// top: 3vw;
+	// left: 0;
+	margin-right: 15px;
 }
 // EXTRA STUFF
 .input-field {
