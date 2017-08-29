@@ -55,7 +55,7 @@ gulp.task('nunjucks', function() {
   return gulp.src('source/pages/*.+(html|njk|nunjucks)')
   // Adding data to Nunjucks
   .pipe(data(function() {
-    return require('./source/assets/json/data.json')
+    return require('./source/assets/json/speakers.json')
   }))
   // Renders template with nunjucks
   .pipe(nunjucksRender({
@@ -107,7 +107,7 @@ gulp.task('openbrowser', () =>
 
 gulp.task('watch', ['webserver'], () => {
   gulp.watch(sourcePaths.styles, ['sass']);
-  gulp.watch('source/**/*.+(html|njk|nunjucks)', ['nunjucks']);
+  gulp.watch(['source/**/*.+(html|njk|nunjucks)', 'source/assets/json/*.*'], ['nunjucks']);
   gulp.watch('source/js/**.js', ['browserify']);
   gulp.watch('source/assets/**/*.*', ['copy']);
 });
@@ -127,9 +127,9 @@ gulp.task('serve', ['build'], (cb) =>
     // ['openbrowser'],
     () => {
         console.log();
-        console.log(/*$.util.colors.bold*/('     Server Urls:'));
+        console.log(('     Server Urls:'));
         console.log(logSeperator);
-        console.log(`     Local: ${/*$.util.colors.magenta*/(localUrl)}`);
+        console.log(`     Local: ${(localUrl)}`);
         console.log(logSeperator);
         return cb()}
   ));
