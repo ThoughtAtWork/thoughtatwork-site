@@ -47,6 +47,11 @@
     "gulp-sass": "^3.1.0",
     "run-sequence": "^1.2.2"
   },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./build/ --domain taw-production.surge.sh"
+    }
+  },
   "directories": {
     "doc": "docs"
   }
