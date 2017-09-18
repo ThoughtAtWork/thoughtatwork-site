@@ -107,9 +107,9 @@ gulp.task('openbrowser', () =>
 
 gulp.task('watch', ['webserver'], () => {
   gulp.watch(sourcePaths.styles, ['sass']);
-  gulp.watch(['source/**/*.+(html|njk|nunjucks)', 'source/assets/json/*.*'], ['nunjucks']);
+  gulp.watch('source/**/*.+(html|njk|nunjucks)', ['nunjucks']);
   gulp.watch('source/js/**.js', ['browserify']);
-  gulp.watch('source/assets/**/*.*', ['copy']);
+  gulp.watch('source/assets/**/*.*', ['copy', 'nunjucks']);
 });
 
 gulp.task('build', (cb) =>

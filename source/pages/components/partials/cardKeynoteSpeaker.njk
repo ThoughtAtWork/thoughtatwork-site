@@ -1,8 +1,9 @@
+{% set data = global %}
 <div class="card speakers-card--keynote">
-	<img src="{{headshot}}" class="speakers-card__headshot">
-	<span class="card__header speakers-card__name">{{firstName}}<br>{{lastName}}</span>
-	<span class="card__subhead speakers-card__position">{{position}}<br>at {{company}}</span>
+	<img src="{{global.headshot}}" class="speakers-card__headshot">
+	<span class="card__header speakers-card__name">{{global.firstName}}<br>{{global.lastName}}</span>
+	<span class="card__subhead speakers-card__position">{{global.position}}</span>
 	<div class="speakers-card__backing-img">
-		<img src="{{backingImg}}">
+		<img src="{{global.backingImg}}">
 	</div>
 </div>
