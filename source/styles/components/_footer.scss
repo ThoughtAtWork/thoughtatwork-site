@@ -1,6 +1,6 @@
 .footer-top {
     margin-top: 20vh;
-    a{ 
+    a{
         text-align: center;
         font-weight: bold;
     }
@@ -9,14 +9,14 @@
     width: 100vw;
     height: 50px;
     text-align: center;
-    
+
 
     .footer-lines {
         padding: 5px;
         text-align: center;
         vertical-align: middle;
         width: 11vw;
-        height: 1px; 
+        height: 1px;
         display: inline;
     }
 }
@@ -27,7 +27,7 @@
     width: 100vw;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
 
     .logo-card{
         display: inline-block;
@@ -41,21 +41,23 @@
         }
         img
         {
-            box-shadow: 0px 0px 25px rgba(70,204,207,0.25);
+            //box-shadow: 0px 0px 25px rgba(70,204,207,0.25);
         }
     }
 
     .sponsor {
         font-weight: bold;
-        border: { 
-            color:$normal-grey;
+        border: {
+            color:$teal;
             width: 1px;
             style: dashed;
-        } 
-        height: 13.94vh;
-        line-height: 13.94vh;
+        }
+        height: 6vh;
+        line-height: 6vh;
+        margin-top: 1.75vh;
+        background-color: white;
     }
-    
+
     .be-sponsor {
         font-size: 12pt;
         color: $teal;
@@ -95,6 +97,8 @@
             text-align: right;
             width: 2.2vw;
             height: 2.2vw;
+            margin-right: 2.2vw;
+            color: $teal;
         }
     }
 }
