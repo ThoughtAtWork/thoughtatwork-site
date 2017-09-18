@@ -30,10 +30,10 @@ Thought At Work Conference Website by students and for students
 #### Development Team
 - Jacob Frank
 - Amy Pham
-- Sara Artese
 - Lucas Kern
 - Patrick Ly
 - Shihab Uddin
+- Sara Artese
 
 ## <a name="requirements"></a>Requirements
 #### Development
