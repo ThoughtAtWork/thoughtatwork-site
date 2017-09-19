@@ -28,10 +28,12 @@ body{
 }
 
 .schedFilter {
+	box-sizing: content-box;
 	width: 16.432vw;
 	//height: 5.168vw;
 	text-align: center;
-	vertical-align: middle;
+	box-sizing: content-box !important;
+	vertical-align: middle !important;
 	display: inline-block;
 	margin: 0vw 2vw;
 
@@ -80,7 +82,8 @@ body{
 	width: 16.432vw;
 	height: 3.52vw;
 	text-align: center;
-	vertical-align: middle;
+	box-sizing: content-box !important;
+	vertical-align: middle !important;
 	display: inline-block;
 	margin: 0vw 2vw;
 
