@@ -1,11 +1,19 @@
 {
-  "global":
-    {
+  "speakers": [{
       "fields": "UI/UX | Marketing",
       "headshot": "assets/graphics/speakers/miguel_cardona.jpg",
       "firstName": "Miguel",
       "lastName": "Cardona",
       "position": "Lead Designer at Imgix",
       "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+    },
+    {
+      "fields": "UI/UX | Marketing",
+      "headshot": "assets/graphics/speakers/julie.png",
+      "firstName": "Julie",
+      "lastName": "Zhuo",
+      "position": "VP of Design at Facebook",
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
     }
+  ]
 }
