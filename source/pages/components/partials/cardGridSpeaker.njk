@@ -1,12 +1,15 @@
-<div class="speakers-card--grid">
-	<div class="speakers-card__fields">{{fields}}</div>
-	<img src="{{headshot}}" class="speakers-card__headshot">
+{% for speaker in speakers %}
+	<div class="speakers-card--grid">
+		<div class="speakers-card__fields">{{speaker.fields}}</div>
+		<img src="{{speaker.headshot}}" class="speakers-card__headshot">
 
-	<div class="card">
-		<span class="card__header speakers-card__name">{{firstName}} {{lastName}}</span>
-		<span class="card__subhead speakers-card__position">{{position}}</span>
-		<div class="speakers-card__backing-img">
-			<img src="{{backingImg}}">
+		<div class="card">
+			<span class="card__header speakers-card__name">{{speaker.firstName}}
+				{{lastName}}</span>
+			<span class="card__subhead speakers-card__position">{{speaker.position}}</span>
+			<div class="speakers-card__backing-img">
+				<img src="{{speaker.backingImg}}">
+			</div>
 		</div>
 	</div>
-</div>
+{% endfor %}
