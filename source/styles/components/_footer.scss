@@ -47,6 +47,7 @@
 
     .sponsor {
         font-weight: bold;
+        color: $teal;
         border: {
             color:$teal;
             width: 1px;
@@ -73,6 +74,7 @@
         right:20pt;
     }
     .footer-text{
+      width: 65%;
         line-height: 16.8pt;
         display: inline-block;
         vertical-align: middle;
@@ -80,7 +82,6 @@
     .footer-p{
         color: $dark-grey;
         line-height: 16.8pt;
-        width: 65%;
         margin-bottom: 16.9pt;
     }
     .copyright{
@@ -89,9 +90,10 @@
     }
 
     .social-media{
+        width: 35%;
         display: inline;
         float: right;
-
+        text-align: right;
         .icon{
             display: inline-block;
             text-align: right;
