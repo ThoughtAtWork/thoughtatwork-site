@@ -1,0 +1,106 @@
+.footer-top {
+    margin-top: 20vh;
+    a{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    font: 16pt bold $teal;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+
+
+    .footer-lines {
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+        width: 11vw;
+        height: 1px;
+        display: inline;
+    }
+}
+
+
+
+.footer-sponsors{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5vh;
+
+    .logo-card{
+        display: inline-block;
+        width: 20%;
+        height: 13.94vh;
+        line-height: 13.94vh;
+        vertical-align: middle;
+        padding: {
+            top: 20px;
+            bottom: 20px;
+        }
+        img
+        {
+            //box-shadow: 0px 0px 25px rgba(70,204,207,0.25);
+        }
+    }
+
+    .sponsor {
+        font-weight: bold;
+        color: $teal;
+        border: {
+            color:$teal;
+            width: 1px;
+            style: dashed;
+        }
+        height: 6vh;
+        line-height: 6vh;
+        margin-top: 1.75vh;
+        background-color: white;
+    }
+
+    .be-sponsor {
+        font-size: 12pt;
+        color: $teal;
+        font-weight: bold;
+    }
+}
+
+.footer-bottom {
+    font-size: 12pt;
+    padding:
+    {
+        left: 20pt;
+        right:20pt;
+    }
+    .footer-text{
+      width: 65%;
+        line-height: 16.8pt;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .footer-p{
+        color: $dark-grey;
+        line-height: 16.8pt;
+        margin-bottom: 16.9pt;
+    }
+    .copyright{
+        color: $normal-grey;
+        display: inline-block;
+    }
+
+    .social-media{
+        width: 35%;
+        display: inline;
+        float: right;
+        text-align: right;
+        .icon{
+            display: inline-block;
+            text-align: right;
+            width: 2.2vw;
+            height: 2.2vw;
+            margin-right: 2.2vw;
+            color: $teal;
+        }
+    }
+}
