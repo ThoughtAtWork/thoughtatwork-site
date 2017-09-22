@@ -4,6 +4,7 @@
 // Functions, Mixins
 @import "lib/include-media";
 @import "lib/fluid-type";
+@import "lib/grid";
 
 // Globals, Vars
 @import 'global/variables';
@@ -23,6 +24,8 @@
 @import 'components/gridSpeaker';
 @import 'components/cards';
 @import 'components/footer';
+@import 'components/contact';
+@import 'components/scrollUp';
 
 // Utility Classes
 @import 'utilities/layout';

@@ -13,7 +13,8 @@ runSequence = require('run-sequence'),
 $ = require('gulp-load-plugins')(),
 autoprefixer = require('gulp-autoprefixer'),
 buffer = require('vinyl-buffer'),
-nunjucksRender = require('gulp-nunjucks-render');
+nunjucksRender = require('gulp-nunjucks-render'),
+data = require('gulp-data');
 
 
 const sourcePaths = {
@@ -52,6 +53,10 @@ gulp.task('sass', () =>
 gulp.task('nunjucks', function() {
   // Gets .html and .nunjucks files in pages
   return gulp.src('source/pages/*.+(html|njk|nunjucks)')
+  // Adding data to Nunjucks
+  .pipe(data(function() {
+    return require('./source/assets/json/data.json')
+  }))
   // Renders template with nunjucks
   .pipe(nunjucksRender({
       path: ['source/pages/components/']
@@ -93,6 +98,10 @@ gulp.task('copy', () => {
   gulp.src('source/*.html')
     .pipe(gulp.dest('build'));
 
+  // for register page stuff from rit
+  gulp.src('source/register-files/*')
+    .pipe(gulp.dest('build'));
+
   return gulp.src('source/assets/**/*.*')
     .pipe(gulp.dest('build/assets'))
 });
@@ -104,7 +113,7 @@ gulp.task('watch', ['webserver'], () => {
   gulp.watch(sourcePaths.styles, ['sass']);
   gulp.watch('source/**/*.+(html|njk|nunjucks)', ['nunjucks']);
   gulp.watch('source/js/**.js', ['browserify']);
-  gulp.watch('source/assets/**/*.*', ['copy']);
+  gulp.watch('source/assets/**/*.*', ['copy', 'nunjucks']);
 });
 
 gulp.task('build', (cb) =>
@@ -122,9 +131,9 @@ gulp.task('serve', ['build'], (cb) =>
     // ['openbrowser'],
     () => {
         console.log();
-        console.log(/*$.util.colors.bold*/('     Server Urls:'));
+        console.log(('     Server Urls:'));
         console.log(logSeperator);
-        console.log(`     Local: ${/*$.util.colors.magenta*/(localUrl)}`);
+        console.log(`     Local: ${(localUrl)}`);
         console.log(logSeperator);
         return cb()}
   ));

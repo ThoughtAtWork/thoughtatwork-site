@@ -1,3 +1,8 @@
+@function vw($target) {
+    $vw-context: (1000*.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}
+
 html {
     font-size: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

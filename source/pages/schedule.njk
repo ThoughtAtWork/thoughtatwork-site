@@ -1,0 +1,39 @@
+<!-- app/pages/schedule.njk-->
+{% extends "layout.njk" %}
+
+{% block title %}
+    Schedule
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'schedule' -->
+    {{nav.active('schedule')}}
+
+    <div id="schedule">
+        {% for i in range(9, 18) %}
+            <div class="timeLine">
+                <p>
+                    {% if i == 0 %}
+                        12 am
+                    {% elif i < 12 %}
+                        {{i}}
+                        am
+                    {% elif i == 12 %}
+                        12 pm
+                    {% else %}
+                        {{i - 12}}
+                        pm
+                    {% endif %}
+                </p>
+                <hr>
+            </div>
+        {% endfor %}
+
+        <script></script>
+        {% from "partials/eventCardHeights.njk" import eventCard %}
+        <div class="eventRow">
+            {{ eventCard("300px") }}
+        </div>
+    </div>
+
+{% endblock %}

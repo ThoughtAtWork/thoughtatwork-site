@@ -2,6 +2,10 @@
 // Floats
 //
 
+body {
+  background-color: $color-background;
+}
+
 .clearfix {
     &:after {
         content: '';
