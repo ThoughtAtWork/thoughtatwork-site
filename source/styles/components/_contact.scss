@@ -42,18 +42,15 @@
 	z-index: -1;
 }
 
-.contact-form-row {
-	padding-top: 2.5vw;
 
-	.contact-message {
-		height: 8.8vw;
-		padding-top: 1.5vw;
-		box-sizing: border-box;
-		padding-left: 1.5vw;
-		padding-right: 1.5vw;
-		resize: vertical;
-		background-color: #F9F9F9;
-		border: none;
-		font-style: italic;
-	}
+.contact-message {
+	height: 8.8vw;
+	padding-top: 1.5vw;
+	box-sizing: border-box;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	resize: vertical;
+	background-color: #F9F9F9;
+	border: none;
+	font-style: italic;
 }
