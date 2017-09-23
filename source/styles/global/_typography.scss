@@ -1,3 +1,6 @@
+// EXAMPLE
+// to call
+// vw(h5) or vw(40px)
 @function vw($target) {
     $vw-context: (1000*.01) * 1px;
     @return ($target/$vw-context) * 1vw;
