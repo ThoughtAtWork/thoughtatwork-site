@@ -41,6 +41,14 @@ body {
         min-width: 0;
     }
 
+    &-row {
+        flex-direction: row;
+    }
+
+    &-column {
+        flex-direction: column;
+    }
+
     &-align {
         &-stretch {
             align-items: stretch;
