@@ -4,7 +4,8 @@
 	position: relative;
 }
 
-.icon-row-heading .icon-row-title, .form-row-heading .form-row-title {
+.form-row-heading .form-row-title,
+.icon-row-heading .icon-row-title {
 	position: absolute;
 	right: 3vw;
 	top: 0;
@@ -83,7 +84,7 @@
 		// position: absolute;
 		// top: 3.5vw;
 		// left: 4vw;
-	  display: inline-block;
+		display: inline-block;
 	}
 }
 
@@ -97,6 +98,7 @@
 	margin-right: 15px;
 }
 // EXTRA STUFF
+
 .input-field {
 	position: relative;
 	display: inline-block;
@@ -104,4 +106,74 @@
 
 .submit-link {
 	margin-right: 6vw;
+}
+// from rit
+
+.coupon-container {
+	height: 34px;
+}
+
+.coupon-status {
+	display: none;
+	width: 49%;
+	margin-left: 49%;
+	line-height: 34px;
+	text-transform: uppercase;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+	*/;
+}
+@media screen and (max-width:850px) {
+	#registerForm .form-group .checkbox-group,
+	#registerForm .form-group hr,
+	#registerForm .form-group input[type=email],
+	#registerForm .form-group input[type=tel],
+	#registerForm .form-group input[type=text],
+	#registerForm .form-group label,
+	.coupon-status {
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
+.coupon-success {
+	color: #79e779;
+	position: relative;
+}
+
+.coupon-success::before,
+.yesbox-container input[type=checkbox]:checked + label::after {
+	content: "";
+	height: 21px;
+	width: 21px;
+	position: relative;
+	background-image: url("../img/reg-success.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.coupon-fail{
+
+  color:#ff1838;
+  position: relative;
+
+}
+
+.coupon-fail::before,
+.nobox-container > input[type=checkbox]:checked + label::after{
+
+  content:"";
+  height:21px;
+  width:21px;
+  position: relative;
+  background-image: url(../img/reg-fail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+
 }

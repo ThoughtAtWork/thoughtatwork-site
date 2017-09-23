@@ -8,8 +8,10 @@
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'contact' -->
     {{nav.active('speakers')}}
-    {% include "partials/cardGridSpeaker.njk" %}
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    {% include "partials/cardKeynoteSpeaker.njk" %}
-    {# {% include "partials/speakerCards-example.njk" %} #}
+    <div class="">
+        {% include "partials/cardGridSpeaker.njk" %}
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        {% include "partials/cardKeynoteSpeaker.njk" %}
+        {# {% include "partials/speakerCards-example.njk" %} #}
+    </div>
 {% endblock %}

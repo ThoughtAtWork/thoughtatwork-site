@@ -1,4 +1,3 @@
-
 {# For register back end use #}
 <script src="js/register.js"></script>
 
@@ -50,24 +49,24 @@
     </div>
 
     <div class="form-row">
-        <form class="text-align-center input-form">
+        <form class="text-align-center input-form" id="registerForm" method="post" action="review.php">
 
             <p class="text-align-left form-message">Now that we have your attention -</p>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" name="first_name" placeholder="First Name">
+                <input class="first-half input-text" type="text" id="first-name" name="first-name" placeholder="First Name" required>
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" name="last_name" placeholder="Last Name">
+                <input class="second-half input-text" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" name="email" placeholder="Email">
+                <input class="first-half input-text" type="email" id="email" name="email" placeholder="Email" required>
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" name="phone_number" placeholder="Phone number">
+                <input class="second-half input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
             </div>
 
             <div class="input-field">
@@ -76,40 +75,49 @@
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" name="address" placeholder="Address">
-            </div>
-
-            <div class="input-field">
-                <input class="second-half input-text" type="text" name="city" placeholder="City">
-            </div>
-
-            <div class="input-field">
-                <input class="first-half input-text" type="text" name="state" placeholder="State">
-            </div>
-
-            <div class="input-field">
-                <input class="second-half input-text" type="text" name="zip" placeholder="Zip">
-            </div>
-
-            <div class="input-field">
                 <input class="first-half input-text" type="text" name="position" placeholder="Major or job title">
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" name="dietary_restrictions" placeholder="Dietary restrictions"><br>
+                <input class="second-half input-text" type="text" name="address" placeholder="Address">
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" name="discount_code" placeholder="Have a discount code?">
+                <input class="first-half input-text" type="text" name="city" placeholder="City">
+            </div>
+
+            <div class="input-field">
+                <input class="second-half input-text" type="text" name="state" placeholder="State">
+            </div>
+
+            <div class="input-field">
+                <input class="first-half input-text" type="text" name="zip" placeholder="Zip">
             </div>
 
             <div class="text-align-left checkbox-container second-half">
-                <input class="checkbox" type="checkbox" name="interpret" value="interpret">
+                <input class="checkbox" value="yes" type="checkbox" name="interpret" id = "yesbox">
                 <p class="checkbox-label">I need interpreting services.</p>
             </div>
 
+            <div class="input-field">
+                <input class="first-half input-text" type="text" id="dietary" name="dietary" placeholder="Dietary restrictions"><br>
+            </div>
+
+            <div class="input-field">
+                <input class="second-half input-text" type="text" id="coupon" name="coupon" placeholder="Have a discount code?">
+                <hr>
+  							<div class="coupon-container">
+  								<div class="coupon-status coupon-success">
+  									Valid Coupon
+  								</div>
+  								<div class="coupon-status coupon-fail">
+  									Invalid Coupon
+  								</div>
+  							</div>
+            </div>
+
             <div class="text-align-right submit-link">
-                <a href="">SUBMIT &rarr;</a>
+                <button type="submit" href="">SUBMIT &rarr;</button>
             </div>
 
         </form>

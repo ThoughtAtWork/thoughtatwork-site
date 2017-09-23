@@ -8,8 +8,10 @@
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'contact' -->
     {{nav.active('about')}}
-    {% include "partials/filters.njk" %}
-    {% include "partials/eventCards.njk" %}
-    {% include "partials/footer.njk" %}
-    {% include "partials/scrollUp.njk" %}
+    <div class="">
+        {% include "partials/filters.njk" %}
+        {% include "partials/eventCards.njk" %}
+        {% include "partials/footer.njk" %}
+        {% include "partials/scrollUp.njk" %}
+    </div>
 {% endblock %}
