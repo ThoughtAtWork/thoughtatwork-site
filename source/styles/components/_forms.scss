@@ -39,6 +39,8 @@
 }
 /* Form */
 .form__input{
+	box-sizing: border-box;
+	width: 100%;
 	background-color: #F9F9F9;
 	padding: vw(24px) vw(20px);
 	margin: 1.5vw auto;
@@ -61,7 +63,6 @@
 /* Input */
 .input-text {
 	font-style: italic; // good (based on comp)
-	width: 26.56vw;
 }
 
 .first-half {
@@ -73,8 +74,8 @@
 }
 
 .form-full-size {
-	width: 55.76vw;
-	margin: 1.5vw auto;
+	width: calc(100% + 16px);
+	/*margin: 1.5vw auto;*/
 }
 /* Checkbox */
 .checkbox-container {
