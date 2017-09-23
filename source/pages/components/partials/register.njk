@@ -48,47 +48,47 @@
     <div class="form-row">
         <form class="text-align-center input-form" id="registerForm" method="post" action="review.php">
 
-            <p class="text-align-left form-message">Now that we have your attention -</p>
+            <p class="text-align-left form__input form-message">Now that we have your attention -</p>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                <input class="first-half form__input input-text" type="text" id="first-name" name="first-name" placeholder="First Name" required>
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                <input class="second-half form__input input-text" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="email" id="email" name="email" placeholder="Email" required>
+                <input class="first-half form__input input-text" type="email" id="email" name="email" placeholder="Email" required>
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
+                <input class="second-half form__input input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
             </div>
 
             <div class="input-field">
-                <input class="form-full-size input-text" type="text" name="university" placeholder="University">
+                <input class="form-full-size form__input input-text" type="text" name="university" placeholder="University">
                 <!-- <span class="input-label"><p>University</p></span> -->
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" name="position" placeholder="Major or job title">
+                <input class="first-half form__input input-text" type="text" name="position" placeholder="Major or job title">
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" name="address" placeholder="Address">
+                <input class="second-half form__input input-text" type="text" name="address" placeholder="Address">
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" name="city" placeholder="City">
+                <input class="first-half form__input input-text" type="text" name="city" placeholder="City">
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" name="state" placeholder="State">
+                <input class="second-half form__input input-text" type="text" name="state" placeholder="State">
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" name="zip" placeholder="Zip">
+                <input class="first-half form__input input-text" type="text" name="zip" placeholder="Zip">
             </div>
 
             <div class="text-align-left checkbox-container second-half">
@@ -97,11 +97,11 @@
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" id="dietary" name="dietary" placeholder="Dietary restrictions"><br>
+                <input class="first-half form__input input-text" type="text" id="dietary" name="dietary" placeholder="Dietary restrictions"><br>
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" id="coupon" name="coupon" placeholder="Have a discount code?">
+                <input class="second-half form__input input-text" type="text" id="coupon" name="coupon" placeholder="Have a discount code?">
                 <hr>
   							<div class="coupon-container">
   								<div class="coupon-status coupon-success">
@@ -113,9 +113,10 @@
   							</div>
             </div>
 
-            <div class="text-align-right submit-link">
-                <button type="submit" href="">SUBMIT &rarr;</button>
-            </div>
+            <div class="text-align-right">
+            <input type="submit" value="SUBMIT" class="action--button submit-link">
+            </input>
+            <div>
 
         </form>
         <div></section>
