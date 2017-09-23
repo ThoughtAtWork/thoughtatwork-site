@@ -21,24 +21,25 @@
         bottom: 36px;
         @include text--drop-shadow;
         .date-month{
-          margin-right: 250px;
+          margin-right: 280px;
           line-height: 55px;
         }
         .date-days{
-          margin-right: 184px;
+          margin-right: 200px;
         }
         .date-link{
-          margin-right: 184px;
+          margin-right: 200px;
         }
     }
 }
 
-.text--normal{
-  font-size: 32px;
-}
-
 .home-intro__text{
   margin-left: 178px;
+  .text--normal{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: normal;
+  }
 }
 
 .home-every{
