@@ -98,6 +98,10 @@ gulp.task('copy', () => {
   gulp.src('source/*.html')
     .pipe(gulp.dest('build'));
 
+  // for register page stuff from rit
+  gulp.src('source/register-files/*')
+    .pipe(gulp.dest('build'));
+
   return gulp.src('source/assets/**/*.*')
     .pipe(gulp.dest('build/assets'))
 });

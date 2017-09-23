@@ -13,6 +13,8 @@ console.log('js compiled');
 
 const navigation = require('./navigation.js');
 const scrollUp = require('./scrollUp.js');
+const register = require('./register.js');
+
 
 window.onload = function() {
     console.log("file included", navigation);
