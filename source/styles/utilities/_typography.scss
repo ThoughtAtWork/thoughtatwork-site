@@ -37,16 +37,17 @@
     &-align {
         &-left {
             text-align: left !important;
+
             @each $breakpoint in map-keys($breakpoints) {
                 &-#{$breakpoint} {
                     &-up {
-                        @include media (' > #{$breakpoint}') {
+                        @include media('>#{$breakpoint}') {
                             text-align: left !important;
                         }
                     }
 
                     &-down {
-                        @include media ('<#{$breakpoint}') {
+                        @include media('<#{$breakpoint}') {
                             text-align: left !important;
                         }
                     }
@@ -56,16 +57,17 @@
 
         &-center {
             text-align: center !important;
+
             @each $breakpoint in map-keys($breakpoints) {
                 &-#{$breakpoint} {
                     &-up {
-                        @include media (' > #{$breakpoint}') {
+                        @include media('>#{$breakpoint}') {
                             text-align: center !important;
                         }
                     }
 
                     &-down {
-                        @include media ('<#{$breakpoint}') {
+                        @include media('<#{$breakpoint}') {
                             text-align: center !important;
                         }
                     }
@@ -75,16 +77,17 @@
 
         &-right {
             text-align: right !important;
+
             @each $breakpoint in map-keys($breakpoints) {
                 &-#{$breakpoint} {
                     &-up {
-                        @include media (' > #{$breakpoint}') {
+                        @include media('>#{$breakpoint}') {
                             text-align: right !important;
                         }
                     }
 
                     &-down {
-                        @include media ('<#{$breakpoint}') {
+                        @include media('<#{$breakpoint}') {
                             text-align: right !important;
                         }
                     }
@@ -92,13 +95,14 @@
             }
         }
     }
+
     //
     // DEPRECATED | Will be removed in future versions
     // Use 'text-align-{left, center, right}-{down,up}' instead
     //
     @each $breakpoint in map-keys($breakpoints) {
         &-#{$breakpoint} {
-            @include media (' > #{$breakpoint}') {
+            @include media('>#{$breakpoint}') {
                 &-left {
                     text-align: left !important;
                 }
