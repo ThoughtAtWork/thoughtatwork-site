@@ -1,20 +1,28 @@
 .home-header {
     margin-top: 94px;
     text-align: center;
+    position: relative;
     .home-header__title {
         letter-spacing: 42px;
         @include text--drop-shadow;
     }
     .home-header__image {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: -1;
         width: 80.7vw;
         height: 39.47vw;
         @include card--drop-shadow;
     }
     .home-header__date {
+        position: relative;
         text-align: right;
+        bottom: 36px;
         @include text--drop-shadow;
         .date-month{
           margin-right: 250px;
+          line-height: 55px;
         }
         .date-days{
           margin-right: 184px;
@@ -22,14 +30,6 @@
         .date-link{
           margin-right: 184px;
         }
-    }
-}
-
-.header {
-    .header__img {
-        height: 6.6vw;
-        width: 67.06vw;
-        @include card--drop-shadow;
     }
 }
 
@@ -50,12 +50,13 @@
     margin-right: auto;
   }
   .home-every__text{
+    position: relative;
+    bottom: 40px;
     width: 30.06vw;
     margin: auto;
     text-align: left;
   }
 }
-
 
 .home-text{
   .home-text__what{
@@ -71,20 +72,22 @@
     display: inline-block;
     width: 30.06vw;
   }
-
   .title--gap{
     line-height: 70px;
   }
 }
 
 .home-video{
+   margin-top: 228px;
   .video-backdrop{
+    line-height: 0;
+    margin-left: 165px;
   }
 
   .home-video__recap{
     height: 530px;
     width: 945px;
-    margin-top: 228px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -110,9 +113,24 @@
 .home-cards{
    margin-top: 264px;
    margin-left: 285px;
-  .home-card__speaker1{
-  }
   .home-card__speaker2{
     margin-top: 72px(!important);
   }
+}
+
+.speaker-link{
+  .lineup{
+    margin-top: 60px;
+    position: absolute;
+    right: 350px;
+    text-transform: capitalize;
+  }
+}
+
+.header {
+    .header__img {
+        height: 6.6vw;
+        width: 67.06vw;
+        @include card--drop-shadow;
+    }
 }
