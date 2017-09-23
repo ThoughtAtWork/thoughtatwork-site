@@ -1,8 +1,10 @@
-<div class="card speakers-card--keynote">
-	<img src="{{headshot}}" class="speakers-card__headshot">
-	<span class="card__header speakers-card__name">{{firstName}}<br>{{lastName}}</span>
-	<span class="card__subhead speakers-card__position">{{position}}<br>at {{company}}</span>
-	<div class="speakers-card__backing-img">
-		<img src="{{backingImg}}">
+{% for speaker in speakers %}
+	<div class="card speakers-card--keynote">
+		<img src="{{speaker.headshot}}" class="speakers-card__headshot">
+		<span class="card__header speakers-card__name">{{speaker.firstName}}<br>{{speaker.lastName}}</span>
+		<span class="card__subhead speakers-card__position">{{speaker.position}}</span>
+		<div class="speakers-card__backing-img">
+			<img src="{{speaker.backingImg}}">
+		</div>
 	</div>
-</div>
+{% endfor %}

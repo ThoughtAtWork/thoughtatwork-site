@@ -8,5 +8,7 @@
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'index' -->
     {{nav.active('about')}}
-    {% include "partials/about.njk" %}
-{%  endblock %}
+    <div class="container">
+        {% include "partials/about.njk" %}
+    </div>
+{% endblock %}

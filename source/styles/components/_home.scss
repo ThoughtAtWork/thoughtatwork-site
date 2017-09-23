@@ -1,24 +1,132 @@
 .home-header {
-    position: relative;
+    margin-top: 94px;
     text-align: center;
-
+    position: relative;
     .home-header__title {
         letter-spacing: 42px;
         @include text--drop-shadow;
     }
-
     .home-header__image {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: -1;
         width: 80.7vw;
         height: 39.47vw;
         @include card--drop-shadow;
     }
-
     .home-header__date {
-        position: absolute;
-        right: 380px;
-        top: 620px;
+        position: relative;
+        text-align: right;
+        bottom: 36px;
         @include text--drop-shadow;
+        .date-month{
+          margin-right: 280px;
+          line-height: 55px;
+        }
+        .date-days{
+          margin-right: 200px;
+        }
+        .date-link{
+          margin-right: 200px;
+        }
     }
+}
+
+.home-intro__text{
+  margin-left: 178px;
+  .text--normal{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: normal;
+  }
+}
+
+.home-every{
+  text-align: center;
+  margin-top: 204px;
+  .home-every__backdrop{
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-every__text{
+    position: relative;
+    bottom: 40px;
+    width: 30.06vw;
+    margin: auto;
+    text-align: left;
+  }
+}
+
+.home-text{
+  .home-text__what{
+    display: inline-block;
+    width: 30.06vw;
+    margin-top: 78px;
+    margin-left: 184px;
+  }
+
+  .home-text__who{
+    margin-left: 82px;
+    margin-top: 80px;
+    display: inline-block;
+    width: 30.06vw;
+  }
+  .title--gap{
+    line-height: 70px;
+  }
+}
+
+.home-video{
+   margin-top: 228px;
+  .video-backdrop{
+    line-height: 0;
+    margin-left: 165px;
+  }
+
+  .home-video__recap{
+    height: 530px;
+    width: 945px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+.text-card {
+    margin-top: 10px;
+    background-color: white;
+    width: 432px;
+    height: 138px;
+    padding: 30px 33px;
+    float: right;
+    margin-right: 106px;
+    @include card--drop-shadow;
+
+    .text-card__title {
+        padding-bottom: 3%;
+        text-transform: uppercase;
+        color: $normal-grey;
+    }
+}
+
+.home-cards{
+   margin-top: 264px;
+   margin-left: 285px;
+  .home-card__speaker2{
+    margin-top: 72px(!important);
+  }
+}
+
+.speaker-link{
+  .lineup{
+    margin-top: 60px;
+    position: absolute;
+    right: 350px;
+    text-transform: capitalize;
+  }
 }
 
 .header {
@@ -26,19 +134,5 @@
         height: 6.6vw;
         width: 67.06vw;
         @include card--drop-shadow;
-    }
-}
-
-.text-card {
-    background-color: white;
-    width: 31.55vw;
-    height: 9.9vw;
-    padding: 30px 33px;
-    @include card--drop-shadow;
-
-    .text-card__title {
-        padding-bottom: 3%;
-        text-transform: uppercase;
-        color: $normal-grey;
     }
 }

@@ -1,116 +1,121 @@
-<h1>Register</h1>
-	
+<div class="header">
+    <h1 class="header__title">register</h1>
+    <img class="header__img" src="assets/graphics/TAW-Vis-Dev-6-Edit.jpg" alt="header graphic">
+</div>
+
 <!-- Icon Section -->
 
 <section class="icon-section">
-	<div class="text-align-right icon-row-heading">
-		<h2 class="icon-row-title">thirty dollar value</h2>
-	</div>
+    <div class="text-align-right icon-row-heading">
+        <h2 class="icon-row-title">thirty dollar value</h2>
+    </div>
 
-	<div class="text-align-center icon-row">
-		<figure class="icon">
-			<img class="icon-image" src="" alt="Icon" class="icon-image" />	
-			<figcaption class="icon-label">Tickets</figcaption>
-		</figure>
+    <div class="text-align-center icon-row">
+        <figure class="icon">
+            <img class="icon-image" src="" alt="Icon" class="icon-image"/>
+            <figcaption class="icon-label">Tickets</figcaption>
+        </figure>
 
-		<figure class="icon">
-			<img class="icon-image" src="" alt="Icon" class="icon-image" />	
-			<figcaption class="icon-label">Food</figcaption>
-		</figure>
+        <figure class="icon">
+            <img class="icon-image" src="" alt="Icon" class="icon-image"/>
+            <figcaption class="icon-label">Food</figcaption>
+        </figure>
 
-		<figure class="icon">
-			<img class="icon-image" src="" alt="Icon" class="icon-image" />	
-			<figcaption class="icon-label">People</figcaption>
-		</figure>
+        <figure class="icon">
+            <img class="icon-image" src="" alt="Icon" class="icon-image"/>
+            <figcaption class="icon-label">People</figcaption>
+        </figure>
 
-		<figure class="icon">
-			<img class="icon-image" src="" alt="Icon" class="icon-image" />	
-			<figcaption class="icon-label">Swag</figcaption>
-		</figure>
+        <figure class="icon">
+            <img class="icon-image" src="" alt="Icon" class="icon-image"/>
+            <figcaption class="icon-label">Swag</figcaption>
+        </figure>
 
-		<figure class="icon">
-			<img class="icon-image" src="" alt="Icon" class="icon-image" />	
-			<figcaption class="icon-label">Shenanigans</figcaption>
-		</figure>
-	</div>
+        <figure class="icon">
+            <img class="icon-image" src="" alt="Icon" class="icon-image"/>
+            <figcaption class="icon-label">Shenanigans</figcaption>
+        </figure>
+    </div>
 </section>
 
 <!-- Registration Form Section -->
 
 <section class="form-section">
-	<div class="form-row-heading">
-		<h2 class="form-row-title">ready, set, register</h2>
-	</div>
+    <div class="form-row-heading">
+        <h2 class="form-row-title">ready, set, register</h2>
+    </div>
 
-	<div class="form-row">
-		<form class="text-align-center input-form">
+    <div class="form-row">
+        <form class="text-align-center input-form" id="registerForm" method="post" action="review.php">
 
-			<p class="text-align-left form-message">Now that we have your attention -</p>
+            <p class="text-align-left form-message">Now that we have your attention -</p>
 
-			<div class="input-field">
-				<input class="first-half input-text" type="text" name="first_name" placeholder="First Name">
-			</div>
+            <div class="input-field">
+                <input class="first-half input-text" type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            </div>
 
-			<div class="input-field">
-				<input class="second-half input-text" type="text" name="last_name" placeholder="Last Name">
-			</div>
+            <div class="input-field">
+                <input class="second-half input-text" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </div>
 
-			<div class="input-field">
-				<input class="first-half input-text" type="text" name="email" placeholder="Email">
-			</div>
+            <div class="input-field">
+                <input class="first-half input-text" type="email" id="email" name="email" placeholder="Email" required>
+            </div>
 
-			<div class="input-field">
-				<input class="second-half input-text" type="text" name="phone_number" placeholder="Phone number">
-			</div>
+            <div class="input-field">
+                <input class="second-half input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
+            </div>
 
-			<div class="input-field">
-				<input class="full-size input-text" type="text" name="university" placeholder="University">
-				<!-- <span class="input-label"><p>University</p></span> -->
-			</div>
+            <div class="input-field">
+                <input class="form-full-size input-text" type="text" name="university" placeholder="University">
+                <!-- <span class="input-label"><p>University</p></span> -->
+            </div>
 
-			<div class="input-field">
-				<input class="first-half input-text" type="text" name="address" placeholder="Address">
-			</div>
+            <div class="input-field">
+                <input class="first-half input-text" type="text" name="position" placeholder="Major or job title">
+            </div>
 
-			<div class="input-field">
-				<input class="second-half input-text" type="text" name="city" placeholder="City">
-			</div>
+            <div class="input-field">
+                <input class="second-half input-text" type="text" name="address" placeholder="Address">
+            </div>
 
-			<div class="input-field">
-				<input class="first-half input-text" type="text" name="state" placeholder="State">
-			</div>
+            <div class="input-field">
+                <input class="first-half input-text" type="text" name="city" placeholder="City">
+            </div>
 
-			<div class="input-field">
-				<input class="second-half input-text" type="text" name="zip" placeholder="Zip">
-			</div>
+            <div class="input-field">
+                <input class="second-half input-text" type="text" name="state" placeholder="State">
+            </div>
 
-			<div class="input-field">
-				<select class="first-half input-text" name="shirt_size">
-					<option value="shirt-size" selected="true" disabled="disabled">Shirt size</option>
-			  		<option value="small">Small</option>
-					<option value="medium">Medium</option>
-					<option value="large">Large</option>
-					<option value="x-large">X-Large</option>
-				</select>
-			</div>
+            <div class="input-field">
+                <input class="first-half input-text" type="text" name="zip" placeholder="Zip">
+            </div>
 
-			<div class="input-field">
-				<input class="second-half input-text" type="text" name="dietary_restrictions" placeholder="Dietary restrictions"><br>
-			</div>	
+            <div class="text-align-left checkbox-container second-half">
+                <input class="checkbox" value="yes" type="checkbox" name="interpret" id = "yesbox">
+                <p class="checkbox-label">I need interpreting services.</p>
+            </div>
 
-			<div class="input-field">
-				<input class="first-half input-text" type="text" name="discount_code" placeholder="Have a discount code?">
-			</div>
+            <div class="input-field">
+                <input class="first-half input-text" type="text" id="dietary" name="dietary" placeholder="Dietary restrictions"><br>
+            </div>
 
-			<div class="text-align-left checkbox-container second-half">
-				<input class="checkbox" type="checkbox" name="interpret" value="interpret">
-				<p class="checkbox-label">I need interpreting services.</p>
-			</div>
+            <div class="input-field">
+                <input class="second-half input-text" type="text" id="coupon" name="coupon" placeholder="Have a discount code?">
+                <hr>
+  							<div class="coupon-container">
+  								<div class="coupon-status coupon-success">
+  									Valid Coupon
+  								</div>
+  								<div class="coupon-status coupon-fail">
+  									Invalid Coupon
+  								</div>
+  							</div>
+            </div>
 
-			<div class="text-align-right submit-link">
-				<a href="">SUBMIT &rarr;</a>
-			</div>
+            <div class="text-align-right submit-link">
+                <button type="submit" href="">SUBMIT &rarr;</button>
+            </div>
 
-		</form>
-	<div>
-</section>
+        </form>
+        <div></section>

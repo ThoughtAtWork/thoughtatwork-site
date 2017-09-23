@@ -2,6 +2,11 @@
 // Floats
 //
 
+body {
+  background-color: $color-background;
+  -webkit-padding-start: none;
+}
+
 .clearfix {
     &:after {
         content: '';

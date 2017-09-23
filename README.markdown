@@ -30,10 +30,10 @@ Thought At Work Conference Website by students and for students
 #### Development Team
 - Jacob Frank
 - Amy Pham
-- Sara Artese
 - Lucas Kern
 - Patrick Ly
 - Shihab Uddin
+- Sara Artese
 
 ## <a name="requirements"></a>Requirements
 #### Development
@@ -82,4 +82,6 @@ TBA
 <br>
 [BEM](https://css-tricks.com/bem-101/)
 <br>
-[atom text editor]((https://atom.io)
+[atom text editor](https://atom.io)
+<br>
+[Toast SCSS Grid](daneden.github.io/Toast/)
