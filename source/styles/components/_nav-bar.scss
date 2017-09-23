@@ -33,20 +33,15 @@
         list-style: none;
         margin-top: 49px;
 
-        &:last-child {
-            padding: 49px 15px 0 19px;
+        &:last-child a{
+            padding: 49px 15px 10px 19px;
             z-index: 100;
             background-color: $teal;
-            width: 75px;
-            height: 36px;
+            // width: 75px;
+            // height: 36px;
             margin-top: 0;
+            color: #FFF !important;
             @include register--drop-shadow;
-            & a , a:hover{
-                color: white;
-                &.nav--active {
-                    color: #FFF !important;
-                }
-            }
         }
     }
 
