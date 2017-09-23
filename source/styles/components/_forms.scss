@@ -4,12 +4,7 @@
 	position: relative;
 }
 
-<<<<<<< HEAD
 .icon-row-heading .icon-row-title, .form-row-heading .form-row-title {
-=======
-.form-row-heading .form-row-title,
-.icon-row-heading .icon-row-title {
->>>>>>> d8726349d2d03898938f9edf69678d46dd718932
 	position: absolute;
 	right: 3vw;
 	top: 0;
@@ -43,7 +38,6 @@
 	}
 }
 /* Form */
-<<<<<<< HEAD
 .form__input{
 	background-color: #F9F9F9;
 	padding: vw(24px) vw(20px);
@@ -53,8 +47,6 @@
 	font-family: 'Elliot', sans-serif;
 }
 
-=======
->>>>>>> d8726349d2d03898938f9edf69678d46dd718932
 .input-form {
 	background-color: white;
 	width: 67.06vw;
@@ -68,18 +60,8 @@
 }
 /* Input */
 .input-text {
-<<<<<<< HEAD
 	font-style: italic; // good (based on comp)
 	width: 26.56vw;
-=======
-	background-color: #F9F9F9; // good
-	height: 4.4vw; // good
-	margin: 1.5vw auto;
-	border: none; // good
-	font-style: italic; // good (based on comp)
-	width: 26.56vw;
-	text-indent: 1.5vw;
->>>>>>> d8726349d2d03898938f9edf69678d46dd718932
 }
 
 .first-half {
@@ -105,11 +87,7 @@
 		// position: absolute;
 		// top: 3.5vw;
 		// left: 4vw;
-<<<<<<< HEAD
 	  display: inline-block;
-=======
-		display: inline-block;
->>>>>>> d8726349d2d03898938f9edf69678d46dd718932
 	}
 }
 
@@ -123,10 +101,6 @@
 	margin-right: 15px;
 }
 // EXTRA STUFF
-<<<<<<< HEAD
-=======
-
->>>>>>> d8726349d2d03898938f9edf69678d46dd718932
 .input-field {
 	position: relative;
 	display: inline-block;
@@ -134,7 +108,6 @@
 
 .submit-link {
 	margin-right: 6vw;
-<<<<<<< HEAD
 	font-family: 'Elliot', sans-serif;
 }
 
@@ -223,75 +196,3 @@
 		text-align: center;
 	}
 }
-=======
-}
-// from rit
-
-.coupon-container {
-	height: 34px;
-}
-
-.coupon-status {
-	display: none;
-	width: 49%;
-	margin-left: 49%;
-	line-height: 34px;
-	text-transform: uppercase;
-	-webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	transition: all 200ms ease-in-out;
-}
-@media screen and (max-width:850px) {
-	#registerForm .form-group .checkbox-group,
-	#registerForm .form-group hr,
-	#registerForm .form-group input[type=email],
-	#registerForm .form-group input[type=tel],
-	#registerForm .form-group input[type=text],
-	#registerForm .form-group label,
-	.coupon-status {
-		width: 100%;
-		padding-left: 0;
-		margin-left: 0;
-	}
-}
-
-.coupon-success {
-	color: #79e779;
-	position: relative;
-}
-
-.coupon-success::before,
-.yesbox-container input[type=checkbox]:checked + label::after {
-	content: "";
-	height: 21px;
-	width: 21px;
-	position: relative;
-	background-image: url("../img/reg-success.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: middle;
-}
-.coupon-fail{
-
-  color:#ff1838;
-  position: relative;
-
-}
-
-.coupon-fail::before,
-.nobox-container > input[type=checkbox]:checked + label::after{
-
-  content:"";
-  height:21px;
-  width:21px;
-  position: relative;
-  background-image: url(../img/reg-fail.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-
-}
->>>>>>> d8726349d2d03898938f9edf69678d46dd718932
