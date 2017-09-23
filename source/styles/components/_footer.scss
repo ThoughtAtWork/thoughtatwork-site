@@ -1,16 +1,13 @@
 .footer-top {
     margin-top: 20vh;
-    a{
+    a {
         text-align: center;
         font-weight: bold;
     }
-
     font: 16pt bold $teal;
     width: 100vw;
     height: 120px;
     text-align: center;
-
-
     .footer-lines {
         padding: 5px;
         text-align: center;
@@ -20,16 +17,12 @@
         display: inline;
     }
 }
-
-
-
-.footer-sponsors{
+.footer-sponsors {
     width: 100vw;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 5vh;
-
-    .logo-card{
+    .logo-card {
         display: inline-block;
         width: 20%;
         height: 13.94vh;
@@ -39,17 +32,15 @@
             top: 20px;
             bottom: 20px;
         }
-        img
-        {
+        img {
             //box-shadow: 0px 0px 25px rgba(70,204,207,0.25);
         }
     }
-
     .sponsor {
         font-weight: bold;
         color: $teal;
         border: {
-            color:$teal;
+            color: $teal;
             width: 1px;
             style: dashed;
         }
@@ -58,49 +49,71 @@
         margin-top: 1.75vh;
         background-color: white;
     }
-
     .be-sponsor {
         font-size: 12pt;
         color: $teal;
         font-weight: bold;
     }
 }
-
 .footer-bottom {
     font-size: 12pt;
-    padding:
-    {
+    padding: {
         left: 20pt;
-        right:20pt;
+        right: 20pt;
     }
-    .footer-text{
-      width: 65%;
+    .footer-text {
+        width: 65%;
         line-height: 16.8pt;
         display: inline-block;
         vertical-align: middle;
     }
-    .footer-p{
+    .footer-p {
         color: $dark-grey;
         line-height: 16.8pt;
         margin-bottom: 16.9pt;
     }
-    .copyright{
+    .copyright {
         color: $normal-grey;
         display: inline-block;
     }
-
-    .social-media{
+    .social-media {
         width: 35%;
         display: inline;
         float: right;
         text-align: right;
-        .icon{
+        .icon {
             display: inline-block;
             text-align: right;
             width: 2.2vw;
             height: 2.2vw;
             margin-right: 2.2vw;
             color: $teal;
+        }
+    }
+}
+@media only screen and (max-width: 750px) {
+    .footer-sponsors {
+      width: inherit;
+        .logo-card {
+            width: 45%;
+        }
+        .sponsor {}
+        .be-sponsor {}
+    }
+    .footer-bottom {
+      text-align: center;
+        .footer-text {
+          width: 100%;
+          margin-bottom: 50px;
+        }
+        .footer-p {}
+        .copyright {}
+        .social-media {
+          width: 100%;
+          text-align: center;
+            .icon {
+              margin: 0vw 3.5vw;
+            }
         }
     }
 }
