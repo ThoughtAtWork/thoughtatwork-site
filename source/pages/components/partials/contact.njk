@@ -34,35 +34,33 @@
 	</div>
 
 	<div class="form-row">
-		<form class="text-align-center input-form">
+		<form class="text-align-center input-form grid">
 			<p class="text-align-left form-message">How can we help? -</p>
 
-			<div class="input-field">
-				<input class="first-half input-text" type="text" name="first_name" placeholder="First Name">
+			<div class="input-field grid__col grid__col--1-of-2">
+				<input class="first-half form__input input-text" type="text" name="first_name" placeholder="First Name">
 			</div>
 
-			<div class="input-field">
-				<input class="second-half input-text" type="text" name="last_name" placeholder="Last Name">
+			<div class="input-field grid__col grid__col--1-of-2">
+				<input class="second-half form__input input-text" type="text" name="last_name" placeholder="Last Name">
 			</div>
 
-			<div class="input-field">
-				<input class="first-half input-text" type="text" name="email" placeholder="Email">
+			<div class="input-field grid__col grid__col--1-of-2">
+				<input class="first-half form__input input-text" type="text" name="email" placeholder="Email">
 			</div>
 
-			<div class="input-field">
-				<select class="second-half input-text" name="what_this_about">
+			<div class="input-field grid__col grid__col--1-of-2">
+				<select class="second-half form__input input-text" name="what_this_about">
 					<option value="what-this-about" selected="true" disabled="disabled">What's this about?</option>
 				</select>
 			</div>
 
-			<div class="input-field">
-				<textarea class="form-full-size contact-message" placeholder="Your Message"></textarea>
+			<div class="input-field form-full-size grid__col grid__col--5-of-5">
+				<textarea class="form__input contact-message" placeholder="Your Message"></textarea>
 			</div>
 
-			<div class="text-align-right submit-link">
-				<a href="">SUBMIT &rarr;</a>
-			</div>
-
+			<input type="submit" value="SUBMIT" class="action--button submit-link grid__col grid__col--1-of-5 grid__col--push-4-of-5">
+			</input>
 		</form>
 	</div>
 

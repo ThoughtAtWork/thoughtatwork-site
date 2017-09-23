@@ -45,12 +45,34 @@
 
 .contact-message {
 	height: 8.8vw;
-	padding-top: 1.5vw;
 	box-sizing: border-box;
-	padding-left: 1.5vw;
-	padding-right: 1.5vw;
 	resize: vertical;
 	background-color: #F9F9F9;
 	border: none;
+	outline: none;
 	font-style: italic;
+}
+
+@include media('<sm') {
+	.gen-info-row {
+		box-sizing: border-box;
+		width: 100%;
+		display: block;
+		padding: 4vw vw(100px);
+
+		.gen-info-icon, .gen-info-message {
+			display: block;
+			margin: 0;
+
+			.icon-image {
+				height: vw(340px);
+				width: vw(340px);
+			}
+		}
+	}
+
+	.contact-message{
+		width: 100%;
+		min-height: 120px;
+	}
 }

@@ -46,62 +46,62 @@
     </div>
 
     <div class="form-row">
-        <form class="text-align-center input-form" id="registerForm" method="post" action="review.php">
+        <form class="text-align-center input-form grid" id="registerForm" method="post" action="review.php">
 
             <p class="text-align-left form-message">Now that we have your attention -</p>
 
-            <div class="input-field">
-                <input class="first-half input-text" type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="first-half form__input input-text" type="text" id="first-name" name="first-name" placeholder="First Name" required>
             </div>
 
-            <div class="input-field">
-                <input class="second-half input-text" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="second-half form__input input-text" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
             </div>
 
-            <div class="input-field">
-                <input class="first-half input-text" type="email" id="email" name="email" placeholder="Email" required>
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="first-half form__input input-text" type="email" id="email" name="email" placeholder="Email" required>
             </div>
 
-            <div class="input-field">
-                <input class="second-half input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="second-half form__input input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
             </div>
 
-            <div class="input-field">
-                <input class="form-full-size input-text" type="text" name="university" placeholder="University">
+            <div class="input-field grid__col grid__col--2-of-2">
+                <input class="form__input input-text" type="text" name="university" placeholder="University">
                 <!-- <span class="input-label"><p>University</p></span> -->
             </div>
 
-            <div class="input-field">
-                <input class="first-half input-text" type="text" name="position" placeholder="Major or job title">
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="first-half form__input input-text" type="text" name="position" placeholder="Major or job title">
             </div>
 
-            <div class="input-field">
-                <input class="second-half input-text" type="text" name="address" placeholder="Address">
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="second-half form__input input-text" type="text" name="address" placeholder="Address">
             </div>
 
-            <div class="input-field">
-                <input class="first-half input-text" type="text" name="city" placeholder="City">
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="first-half form__input input-text" type="text" name="city" placeholder="City">
             </div>
 
-            <div class="input-field">
-                <input class="second-half input-text" type="text" name="state" placeholder="State">
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="second-half form__input input-text" type="text" name="state" placeholder="State">
             </div>
 
-            <div class="input-field">
-                <input class="first-half input-text" type="text" name="zip" placeholder="Zip">
+            <div class="input-field grid__col grid__col--1-of-2">
+                <input class="first-half form__input input-text" type="text" name="zip" placeholder="Zip">
             </div>
 
-            <div class="text-align-left checkbox-container second-half">
+            <div class="text-align-left checkbox-container second-half grid__col grid__col--1-of-2">
                 <input class="checkbox" value="yes" type="checkbox" name="interpret" id = "yesbox">
                 <p class="checkbox-label">I need interpreting services.</p>
             </div>
 
             <div class="input-field">
-                <input class="first-half input-text" type="text" id="dietary" name="dietary" placeholder="Dietary restrictions"><br>
+                <input class="first-half form__input input-text" type="text" id="dietary" name="dietary" placeholder="Dietary restrictions"><br>
             </div>
 
             <div class="input-field">
-                <input class="second-half input-text" type="text" id="coupon" name="coupon" placeholder="Have a discount code?">
+                <input class="second-half form__input input-text" type="text" id="coupon" name="coupon" placeholder="Have a discount code?">
                 <hr>
   							<div class="coupon-container">
   								<div class="coupon-status coupon-success">
@@ -113,9 +113,10 @@
   							</div>
             </div>
 
-            <div class="text-align-right submit-link">
-                <button type="submit" href="">SUBMIT &rarr;</button>
-            </div>
+            <div class="text-align-right">
+            <input type="submit" value="SUBMIT" class="action--button submit-link">
+            </input>
+            <div>
 
         </form>
         <div></section>

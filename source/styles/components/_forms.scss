@@ -4,8 +4,7 @@
 	position: relative;
 }
 
-.form-row-heading .form-row-title,
-.icon-row-heading .icon-row-title {
+.icon-row-heading .icon-row-title, .form-row-heading .form-row-title {
 	position: absolute;
 	right: 3vw;
 	top: 0;
@@ -39,6 +38,17 @@
 	}
 }
 /* Form */
+.form__input{
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #F9F9F9;
+	padding: vw(24px) vw(20px);
+	margin: 1.5vw auto;
+	border: none;
+	outline: none;
+	font-family: 'Elliot', sans-serif;
+}
+
 .input-form {
 	background-color: white;
 	width: 67.06vw;
@@ -52,13 +62,7 @@
 }
 /* Input */
 .input-text {
-	background-color: #F9F9F9; // good
-	height: 4.4vw; // good
-	margin: 1.5vw auto;
-	border: none; // good
 	font-style: italic; // good (based on comp)
-	width: 26.56vw;
-	text-indent: 1.5vw;
 }
 
 .first-half {
@@ -70,8 +74,8 @@
 }
 
 .form-full-size {
-	width: 55.76vw;
-	margin: 1.5vw auto;
+	width: calc(100% + 16px);
+	/*margin: 1.5vw auto;*/
 }
 /* Checkbox */
 .checkbox-container {
@@ -84,7 +88,7 @@
 		// position: absolute;
 		// top: 3.5vw;
 		// left: 4vw;
-		display: inline-block;
+	  display: inline-block;
 	}
 }
 
@@ -98,7 +102,6 @@
 	margin-right: 15px;
 }
 // EXTRA STUFF
-
 .input-field {
 	position: relative;
 	display: inline-block;
@@ -106,73 +109,91 @@
 
 .submit-link {
 	margin-right: 6vw;
-}
-// from rit
-
-.coupon-container {
-	height: 34px;
+	font-family: 'Elliot', sans-serif;
 }
 
-.coupon-status {
-	display: none;
-	width: 49%;
-	margin-left: 49%;
-	line-height: 34px;
-	text-transform: uppercase;
-	-webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	transition: all 200ms ease-in-out;
-}
-@media screen and (max-width:850px) {
-	#registerForm .form-group .checkbox-group,
-	#registerForm .form-group hr,
-	#registerForm .form-group input[type=email],
-	#registerForm .form-group input[type=tel],
-	#registerForm .form-group input[type=text],
-	#registerForm .form-group label,
-	.coupon-status {
+@include media('<sm') {
+	.form-row {
+		padding-top: 2.5vw;
+	}
+
+	.icon-row {
+		padding-top: 2.5vw;
+
+		.icon {
+			display: inline-block;
+			text-align: center;
+			margin: 0;
+
+			.icon-label {
+				font-size: 16pt;
+				line-height: 22.4pt;
+				font-weight: bold;
+			}
+
+			.icon-image {
+				width: 9.83vw;
+				height: 9.83vw;
+				margin: 2vw 3.67vw;
+				/* top/bottom not specified */
+			}
+		}
+	}
+	/* Form */
+	.input-form {
+		box-sizing: border-box;
 		width: 100%;
-		padding-left: 0;
+		padding: 5.58vw 6.02vw;
+		margin: 3vw 0;
+		@include card--drop-shadow;
+
+		.form-message {
+			margin: vw(68px) vw(32px);
+		}
+	}
+	/* Input */
+	.form__input{
+		box-sizing: border-box;
+		width: 100%;
+		height: auto; // good
+		padding: vw(44px) vw(32px);
+	}
+
+	.first-half {
+		margin-right: 0;
+	}
+
+	.second-half {
 		margin-left: 0;
 	}
-}
 
-.coupon-success {
-	color: #79e779;
-	position: relative;
-}
+	.form-full-size {
+		width: 55.76vw;
+		margin: 1.5vw auto;
+	}
+	/* Checkbox */
+	.checkbox-container {
+		height: 4.4vw;
+		width: 26.56vw;
+		display: inline-block;
+		position: relative;
+	}
 
-.coupon-success::before,
-.yesbox-container input[type=checkbox]:checked + label::after {
-	content: "";
-	height: 21px;
-	width: 21px;
-	position: relative;
-	background-image: url("../img/reg-success.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: middle;
-}
-.coupon-fail{
+	.checkbox {
+		margin-right: 15px;
+	}
+	// EXTRA STUFF
+	.input-field {
+		display: block;
+		margin: vw(44px) auto;
+	}
 
-  color:#ff1838;
-  position: relative;
+	.submit-link {
+		margin-right: 6vw;
+	}
 
-}
-
-.coupon-fail::before,
-.nobox-container > input[type=checkbox]:checked + label::after{
-
-  content:"";
-  height:21px;
-  width:21px;
-  position: relative;
-  background-image: url(../img/reg-fail.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-
+	.action--button{
+		width: 100%;
+		text-align: center;
+	}
 }
