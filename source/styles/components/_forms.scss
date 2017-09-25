@@ -4,7 +4,16 @@
 	position: relative;
 }
 
-.icon-row-heading .icon-row-title, .form-row-heading .form-row-title {
+.form-section{
+	margin-top: vw(48px);
+
+	.form-row-heading{
+		left: 3vw;
+		right: auto;
+	}
+}
+
+.icon-row-heading .icon-row-title, .form-row-heading{
 	position: absolute;
 	right: 3vw;
 	top: 0;
@@ -12,57 +21,58 @@
 }
 
 .form-row {
-	padding-top: 2.5vw;
+	padding-top: 6.1vw;
 }
 
 .icon-row {
+	width: vw(960px);
 	padding-top: 2.5vw;
+	margin: 0 auto;
 
 	.icon {
-		display: inline-block;
 		text-align: center;
 		margin: 0;
 
 		.icon-label {
-			font-size: 16pt;
-			line-height: 22.4pt;
+			font-size: 16px;
 			font-weight: bold;
 		}
 
 		.icon-image {
-			width: 9.83vw;
-			height: 9.83vw;
-			margin: 2vw 3.67vw;
+			width: vw(152px);
+			height: vw(152px);
+			/*margin: 2vw 3.67vw;*/
 			/* top/bottom not specified */
 		}
 	}
 }
 /* Form */
-.form__input{
-	box-sizing: border-box;
-	width: 100%;
-	background-color: #F9F9F9;
-	padding: vw(24px) vw(20px);
-	margin: 1.5vw auto;
-	border: none;
-	outline: none;
-	font-family: 'Elliot', sans-serif;
-}
-
 .input-form {
 	background-color: white;
 	width: 67.06vw;
 	padding: 5.58vw 6.02vw;
-	margin: 3vw auto;
+	margin: 0 auto;
 	@include card--drop-shadow;
 
 	.form-message {
 		margin-bottom: 2vw; // not specified
 	}
 }
+
 /* Input */
+.form__input{
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #F9F9F9;
+	padding: 0 vw(20px);
+	margin: 1.5vw auto;
+	border: none;
+	outline: none;
+	font-family: 'Elliot', sans-serif;
+}
 .input-text {
 	font-style: italic; // good (based on comp)
+	height: 4.6vw;
 }
 
 .first-half {
@@ -79,16 +89,19 @@
 }
 /* Checkbox */
 .checkbox-container {
-	height: 4.4vw;
-	width: 26.56vw;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	/*width: 26.56vw;
 	display: inline-block;
-	position: relative;
+	position: relative;*/
 
 	.checkbox-label {
 		// position: absolute;
 		// top: 3.5vw;
 		// left: 4vw;
 	  display: inline-block;
+	  transform: translateY(-30%);
 	}
 }
 
@@ -100,11 +113,32 @@
 	// top: 3vw;
 	// left: 0;
 	margin-right: 15px;
+	width: 32px;
+	height: 32px;
+
+	-webkit-appearance: none;
+	background-color: #F9F9F9;
+	border: none;
+	outline: none;
+	padding: 2px;
+	position: relative;
 }
+.checkbox:checked:after{
+	content: ' ';
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 16px;
+	height: 16px;
+	background-color: $normal-grey;
+}
+
+
 // EXTRA STUFF
 .input-field {
 	position: relative;
 	display: inline-block;
+	min-height: 100px;
 }
 
 .submit-link {
@@ -119,22 +153,21 @@
 
 	.icon-row {
 		padding-top: 2.5vw;
+		width: 100%;
 
 		.icon {
-			display: inline-block;
-			text-align: center;
 			margin: 0;
+			padding: 0;
 
 			.icon-label {
-				font-size: 16pt;
-				line-height: 22.4pt;
+				font-size: 16px;
 				font-weight: bold;
 			}
 
 			.icon-image {
-				width: 9.83vw;
-				height: 9.83vw;
-				margin: 2vw 3.67vw;
+				width: vw(336px);
+				height: vw(336px);
+				/*margin: 2vw 3.67vw;*/
 				/* top/bottom not specified */
 			}
 		}
@@ -145,6 +178,7 @@
 		width: 100%;
 		padding: 5.58vw 6.02vw;
 		margin: 3vw 0;
+		margin-top: vw(216px);
 		@include card--drop-shadow;
 
 		.form-message {
@@ -152,11 +186,12 @@
 		}
 	}
 	/* Input */
+	
 	.form__input{
 		box-sizing: border-box;
 		width: 100%;
-		height: auto; // good
-		padding: vw(44px) vw(32px);
+		padding: 0 vw(32px);
+		margin: vw(32px) auto;
 	}
 
 	.first-half {
@@ -168,15 +203,20 @@
 	}
 
 	.form-full-size {
-		width: 55.76vw;
+		width: 100%;
 		margin: 1.5vw auto;
 	}
+
+	.input-text{
+		height: 14.2vw;
+	}
+
 	/* Checkbox */
 	.checkbox-container {
 		height: 4.4vw;
-		width: 26.56vw;
+		/*width: 26.56vw;
 		display: inline-block;
-		position: relative;
+		position: relative;*/
 	}
 
 	.checkbox {
@@ -185,11 +225,7 @@
 	// EXTRA STUFF
 	.input-field {
 		display: block;
-		margin: vw(44px) auto;
-	}
-
-	.submit-link {
-		margin-right: 6vw;
+		padding: 0;
 	}
 
 	.action--button{
