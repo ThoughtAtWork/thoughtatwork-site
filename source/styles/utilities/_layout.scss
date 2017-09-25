@@ -4,7 +4,6 @@
 
 body {
   background-color: $color-background;
-  -webkit-padding-start: none;
 }
 
 .clearfix {
@@ -40,6 +39,14 @@ body {
     &-inline {
         display: inline-flex;
         min-width: 0;
+    }
+
+    &-row {
+        flex-direction: row;
+    }
+
+    &-column {
+        flex-direction: column;
     }
 
     &-align {
