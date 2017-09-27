@@ -2,55 +2,69 @@
 // to call
 // vw(h5) or vw(40px)
 @function vw($target) {
-    $vw-context: (1000*.01) * 1px;
-    @return ($target/$vw-context) * 1vw;
+	$vw-context: (1000*.01) * 1px;
+	@return ($target/$vw-context) * 1vw;
 }
 
 html {
-    font-size: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	font-size: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    font-family: "Elliot", sans-serif;
+	font-family: "Elliot", sans-serif;
 }
 
 h1 {
-    font-size: 60px;
-    color: black;
-    text-transform: uppercase;
-    @include text--drop-shadow;
+	font-size: 60px;
+	color: black;
+	text-transform: uppercase;
+	@include text--drop-shadow;
+
+	@include media ('>sm') {
+		font-size: 60px;
+
+		.home-header__title {
+			font-size: 48px;
+		}
+	}
 }
 
 h2 {
-    font-size: 120px;
-    font-weight: 500;
-    color: $light-grey;
+	font-size: 120px;
+	font-weight: 500;
+	color: $light-grey;
+	@include media ('>md') {
+		font-size: 100px;
+	}
 }
 
 h3 {
-    font-size: 80px;
-    @include text--drop-shadow;
-    color: $dark-grey;
+	font-size: 80px;
+	@include text--drop-shadow;
+	color: $dark-grey;
+	@include media ('>sm') {
+		font-size: 64px;
+	}
 }
 
 h4 {
-    font-size: 32px;
-    font-weight: 500;
-    color: $dark-grey;
+	font-size: 32px;
+	font-weight: 500;
+	color: $dark-grey;
 }
 
 h5 {
-    font-size: 20px;
-    font-weight: 500;
-    // color: $grey;
+	font-size: 20px;
+	font-weight: 500;
+	// color: $grey;
 }
 
 b,
 strong {
-    font-weight: 500;
+	font-weight: 500;
 }
 
 h1,
@@ -60,24 +74,29 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+	margin: 0;
 }
 
 p {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.4px;
-    line-height: 22.4px;
-    color: $dark-grey;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: .4px;
+	line-height: 22.4px;
+	color: $dark-grey;
+
+	@include media ('<sm') {
+		font-size: 30px;
+		// letter-spacing: 44px;
+	}
 }
 
 a {
-    font-size: 16px;
-    font-weight: 500;
-    color: $teal;
-    text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: $teal;
+	text-decoration: none;
 
-    &:hover {
-        text-decoration: underline;
-    }
+	&:hover {
+		text-decoration: underline;
+	}
 }

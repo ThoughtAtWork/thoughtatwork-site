@@ -57,7 +57,7 @@ $toast-gutter-width: 16px !default;
 $toast-breakpoint-xlarge: 1280px !default;
 $toast-breakpoint-large: 1024px !default;
 $toast-breakpoint-medium: 768px !default;
-$toast-breakpoint-small: 445px !default;
+$toast-breakpoint-small: 525px !default;
 $toast-breakpoint-xsmall: 0px !default;
 
 // Pushes and pulls
@@ -188,7 +188,7 @@ $toast-pulls: true !default;
   display: inline-block;
   margin-right: -.25em;
   min-height: 1px;
-  
+
   /*changed padding from left to right*/
   padding-right: $toast-gutter-width;
   vertical-align: top;

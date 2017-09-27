@@ -4,16 +4,20 @@
 	position: relative;
 }
 
-.form-section{
+.form-section {
 	margin-top: vw(48px);
 
-	.form-row-heading{
-		left: 3vw;
-		right: auto;
+	.form-section {
+		margin-top: vw(48px);
+
+		.form-row-heading {
+			left: 3vw;
+			right: auto;
+		}
 	}
 }
-
-.icon-row-heading .icon-row-title, .form-row-heading{
+.icon-row-heading,
+.form-row-heading {
 	position: absolute;
 	right: 3vw;
 	top: 0;
@@ -50,6 +54,7 @@
 .input-form {
 	background-color: white;
 	width: 67.06vw;
+	max-width: $lg;
 	padding: 5.58vw 6.02vw;
 	margin: 0 auto;
 	@include card--drop-shadow;
@@ -60,7 +65,7 @@
 }
 
 /* Input */
-.form__input{
+.form__input {
 	box-sizing: border-box;
 	width: 100%;
 	background-color: #F9F9F9;
@@ -76,11 +81,11 @@
 }
 
 .first-half {
-	margin-right: 0.99vw;
+	margin-right: .99vw;
 }
 
 .second-half {
-	margin-left: 0.99vw;
+	margin-left: .99vw;
 }
 
 .form-full-size {
@@ -100,8 +105,8 @@
 		// position: absolute;
 		// top: 3.5vw;
 		// left: 4vw;
-	  display: inline-block;
-	  transform: translateY(-30%);
+		display: inline-block;
+		transform: translateY(-30%);
 	}
 }
 
@@ -115,7 +120,6 @@
 	margin-right: 15px;
 	width: 32px;
 	height: 32px;
-
 	-webkit-appearance: none;
 	background-color: #F9F9F9;
 	border: none;
@@ -123,7 +127,7 @@
 	padding: 2px;
 	position: relative;
 }
-.checkbox:checked:after{
+.checkbox:checked:after {
 	content: ' ';
 	position: absolute;
 	top: 8px;
@@ -139,6 +143,7 @@
 	position: relative;
 	display: inline-block;
 	min-height: 100px;
+	max-height: 200px;
 }
 
 .submit-link {
@@ -146,30 +151,30 @@
 	font-family: 'Elliot', sans-serif;
 }
 
-@include media('<sm') {
+@include media('<525px') {
 	.form-row {
 		padding-top: 2.5vw;
 	}
 
-	.icon-row {
-		padding-top: 2.5vw;
-		width: 100%;
+	.icon {
+		margin: 0;
+		padding: 0;
+		
+		&-row {
+			padding-top: 2.5vw;
+			width: 100%;
+		}
 
-		.icon {
-			margin: 0;
-			padding: 0;
+		&-label {
+			font-size: 16px;
+			font-weight: bold;
+		}
 
-			.icon-label {
-				font-size: 16px;
-				font-weight: bold;
-			}
-
-			.icon-image {
-				width: vw(336px);
-				height: vw(336px);
-				/*margin: 2vw 3.67vw;*/
-				/* top/bottom not specified */
-			}
+		&-image {
+			width: vw(336px);
+			height: vw(336px);
+			/*margin: 2vw 3.67vw;*/
+			/* top/bottom not specified */
 		}
 	}
 	/* Form */
@@ -186,8 +191,8 @@
 		}
 	}
 	/* Input */
-	
-	.form__input{
+
+	.form__input {
 		box-sizing: border-box;
 		width: 100%;
 		padding: 0 vw(32px);
@@ -207,7 +212,7 @@
 		margin: 1.5vw auto;
 	}
 
-	.input-text{
+	.input-text {
 		height: 14.2vw;
 	}
 
@@ -228,7 +233,7 @@
 		padding: 0;
 	}
 
-	.action--button{
+	.action--button {
 		width: 100%;
 		text-align: center;
 	}

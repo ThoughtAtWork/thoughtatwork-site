@@ -1,0 +1,10 @@
+.register {
+    h1 {
+
+    }
+    &-h2 {
+      @include media ('<lg') {
+          display: none;
+      }
+    }
+}
