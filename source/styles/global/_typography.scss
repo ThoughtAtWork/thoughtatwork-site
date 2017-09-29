@@ -86,7 +86,7 @@ p {
 
 	@include media ('<sm') {
 		font-size: 30px;
-		// letter-spacing: 44px;
+    line-height: 44px;
 	}
 }
 
