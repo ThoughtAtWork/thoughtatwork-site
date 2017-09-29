@@ -1,4 +1,4 @@
-$('.nav--toggle').click(function () {
+/*$('.nav--toggle').click(function () {
     "use strict";
     $('.nav--list').slideToggle();
 });
@@ -10,4 +10,4 @@ $(window).resize(function () {
     if ($(window).width() > 768) {
         $('.nav--list').removeAttr('style');
     }
-});
+});*/
