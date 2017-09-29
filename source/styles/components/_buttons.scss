@@ -1,7 +1,7 @@
 .action {
     text-decoration: none;
 
-    &--button {
+    &--link--button, &--button {
         font-size: 16px;
         font-weight: 500;
         color: #fafafa;
@@ -44,7 +44,7 @@
 
 @include media('<sm') {
     .action{
-        &--button{
+        &--link--button, &--button{
             padding: vw(44px) 20px;
         }
     }

@@ -35,6 +35,10 @@
 	&-label {
 		font-size: 16px;
 		font-weight: bold;
+		padding-top: vw(30px);
+		@include media('>lg') {
+			padding-top: 30px;
+		}
 	}
 
 	&-image {
@@ -80,6 +84,7 @@
 .input-text {
 	font-style: italic; // good (based on comp)
 	height: 4.6vw;
+	max-height: 65px;
 }
 
 .first-half {
@@ -136,7 +141,7 @@
 	left: 8px;
 	width: 16px;
 	height: 16px;
-	background-color: $normal-grey;
+	background-color: $dark-grey;
 }
 
 
@@ -146,11 +151,21 @@
 	display: inline-block;
 	min-height: 100px;
 	max-height: 200px;
+	padding-right: 30px;
 }
-
-.submit-link {
-	margin-right: 6vw;
-	font-family: 'Elliot', sans-serif;
+.action--link--button {
+	padding: 8px 10px;
+}
+.submit {
+	&-link {
+		margin-right: 6vw;
+		font-family: 'Elliot', sans-serif;
+		font-weight: bold;
+    padding: 8px 10px;
+	}
+	&-icon {
+		padding-top: 9px;
+	}
 }
 
 @include media('<sm') {
@@ -165,11 +180,6 @@
 		&-row {
 			padding: 82px 0;
 			width: 100%;
-		}
-
-		&-label {
-			font-size: 16px;
-			font-weight: bold;
 		}
 	}
 
@@ -229,7 +239,7 @@
 		padding: 0;
 	}
 
-	.action--button {
+	.action--link--button {
 		width: 100%;
 		text-align: center;
 	}

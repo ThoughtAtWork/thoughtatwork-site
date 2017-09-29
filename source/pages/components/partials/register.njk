@@ -14,19 +14,25 @@
         <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/food.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Food</figcaption>
-        </figure><!--
+        </figure>
+        <!--
 
-        --><figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
+        -->
+        <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/network.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Mingle</figcaption>
-        </figure><!--
+        </figure>
+        <!--
 
-        --><figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
+        -->
+        <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/swag.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Swag</figcaption>
-        </figure><!--
+        </figure>
+        <!--
 
-        --><figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
+        -->
+        <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/party.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Fun</figcaption>
         </figure>
@@ -61,7 +67,7 @@
                 <input class="form__input input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
             </div>
 
-            <div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
+            <div class="input-field grid__col grid__col--2-of-2 grid__col--m-2-of-2">
                 <input class="form__input input-text" type="text" name="university" placeholder="University">
                 <!-- <span class="input-label"><p>University</p></span> -->
             </div>
@@ -88,7 +94,7 @@
 
             <div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
                 <div class="text-align-left checkbox-container">
-                    <input class="checkbox" value="yes" type="checkbox" name="interpret" id = "yesbox">
+                    <input class="checkbox yesbox-container" value="yes" type="checkbox" name="interpret" id="yesbox">
                     <p class="checkbox-label">I need interpreting services.</p>
                 </div>
             </div>
@@ -99,21 +105,21 @@
 
             <div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
                 <input class="form__input input-text" type="text" id="coupon" name="coupon" placeholder="Have a discount code?">
-                <hr>
-  							<div class="coupon-container">
-  								<div class="coupon-status coupon-success">
-  									Valid Coupon
-  								</div>
-  								<div class="coupon-status coupon-fail">
-  									Invalid Coupon
-  								</div>
-  							</div>
+                <div class="coupon-container">
+                    <div class="coupon-status coupon-success">
+                        Valid Coupon
+                    </div>
+                    <div class="coupon-status coupon-fail">
+                        Invalid Coupon
+                    </div>
+                </div>
             </div>
 
             <div class="text-align-right">
-            <input type="submit" value="SUBMIT" class="action--button submit-link grid__col grid__col--1-of-5 grid__col--m-1-of-5 grid__col--push-4-of-5">
-            </input>
-            <div>
-
+              <button class="action--link--button submit-link">
+                <input type="submit" value="SUBMIT" class="action--link--button grid__col grid__col--m-1-of-5"></input>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
         </form>
-        <div></section>
+    </section>
