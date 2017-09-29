@@ -4,18 +4,11 @@
 	position: relative;
 }
 
-.form-section {
-	margin-top: vw(48px);
-
-	.form-section {
-		margin-top: vw(48px);
-
-		.form-row-heading {
-			left: 3vw;
-			right: auto;
-		}
-	}
+.form-row-heading {
+	left: 3vw;
+	right: auto;
 }
+
 .icon-row-heading,
 .form-row-heading {
 	position: absolute;
@@ -28,28 +21,37 @@
 	padding-top: 6.1vw;
 }
 
-.icon-row {
-	width: vw(960px);
-	padding-top: 2.5vw;
-	margin: 0 auto;
+.icon {
+	text-align: center;
+	margin: 0;
 
-	.icon {
-		text-align: center;
-		margin: 0;
+	&-row {
+		max-width: 960px;
+		width: 96vw;
+		padding: 82px 0;
+		margin: 0 auto;
+	}
 
-		.icon-label {
-			font-size: 16px;
-			font-weight: bold;
-		}
+	&-label {
+		font-size: 16px;
+		font-weight: bold;
+	}
 
-		.icon-image {
-			width: vw(152px);
-			height: vw(152px);
-			/*margin: 2vw 3.67vw;*/
-			/* top/bottom not specified */
-		}
+	&-image {
+		border-radius: 50%;
+		max-width: 134px;
+		max-height: 134px;
+		width: vw(134px);
+		height: vw(134px);
+		min-width: 72px;
+		min-height: 72px;
+		background-color: white;
+		@include card--drop-shadow;
+		/*margin: 2vw 3.67vw;*/
+		/* top/bottom not specified */
 	}
 }
+
 /* Form */
 .input-form {
 	background-color: white;
@@ -151,7 +153,7 @@
 	font-family: 'Elliot', sans-serif;
 }
 
-@include media('<525px') {
+@include media('<sm') {
 	.form-row {
 		padding-top: 2.5vw;
 	}
@@ -159,9 +161,9 @@
 	.icon {
 		margin: 0;
 		padding: 0;
-		
+
 		&-row {
-			padding-top: 2.5vw;
+			padding: 82px 0;
 			width: 100%;
 		}
 
@@ -169,14 +171,8 @@
 			font-size: 16px;
 			font-weight: bold;
 		}
-
-		&-image {
-			width: vw(336px);
-			height: vw(336px);
-			/*margin: 2vw 3.67vw;*/
-			/* top/bottom not specified */
-		}
 	}
+
 	/* Form */
 	.input-form {
 		box-sizing: border-box;

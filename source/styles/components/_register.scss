@@ -1,10 +1,7 @@
 .register {
-    h1 {
-
-    }
-    &-h2 {
-      @include media ('<lg') {
-          display: none;
-      }
-    }
+	&-h2 {
+		@include media ('<md') {
+			display: none;
+		}
+	}
 }
