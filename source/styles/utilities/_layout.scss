@@ -6,6 +6,11 @@ body {
   background-color: $color-background;
 }
 
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
 .clearfix {
     &:after {
         content: '';
@@ -39,6 +44,14 @@ body {
     &-inline {
         display: inline-flex;
         min-width: 0;
+    }
+
+    &-row {
+        flex-direction: row;
+    }
+
+    &-column {
+        flex-direction: column;
     }
 
     &-align {

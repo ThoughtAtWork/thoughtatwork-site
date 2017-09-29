@@ -6,9 +6,8 @@
 {% endblock %}
 {% block content %}
     {% import 'macros/nav-macro.njk' as nav %}
-    <!-- Creating the navigation with activePage = 'index' -->
     {{nav.active('index')}}
-    <div class="">
+    <div class="container">
         {% include "partials/home.njk" %}
         {% include "partials/footer.njk" %}
     </div>

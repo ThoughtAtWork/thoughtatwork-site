@@ -4,8 +4,13 @@
 	position: relative;
 }
 
-.form-row-heading .form-row-title,
-.icon-row-heading .icon-row-title {
+.form-row-heading {
+	left: 3vw;
+	right: auto;
+}
+
+.icon-row-heading,
+.form-row-heading {
 	position: absolute;
 	right: 3vw;
 	top: 0;
@@ -13,78 +18,102 @@
 }
 
 .form-row {
-	padding-top: 2.5vw;
+	padding-top: 6.1vw;
 }
 
-.icon-row {
-	padding-top: 2.5vw;
+.icon {
+	text-align: center;
+	margin: 0;
 
-	.icon {
-		display: inline-block;
-		text-align: center;
-		margin: 0;
+	&-row {
+		max-width: 960px;
+		width: 96vw;
+		padding: 82px 0;
+		margin: 0 auto;
+	}
 
-		.icon-label {
-			font-size: 16pt;
-			line-height: 22.4pt;
-			font-weight: bold;
-		}
-
-		.icon-image {
-			width: 9.83vw;
-			height: 9.83vw;
-			margin: 2vw 3.67vw;
-			/* top/bottom not specified */
+	&-label {
+		font-size: 16px;
+		font-weight: bold;
+		padding-top: vw(30px);
+		@include media('>lg') {
+			padding-top: 30px;
 		}
 	}
+
+	&-image {
+		border-radius: 50%;
+		max-width: 134px;
+		max-height: 134px;
+		width: vw(134px);
+		height: vw(134px);
+		min-width: 72px;
+		min-height: 72px;
+		background-color: white;
+		@include card--drop-shadow;
+		/*margin: 2vw 3.67vw;*/
+		/* top/bottom not specified */
+	}
 }
+
 /* Form */
 .input-form {
 	background-color: white;
 	width: 67.06vw;
+	max-width: $lg;
 	padding: 5.58vw 6.02vw;
-	margin: 3vw auto;
+	margin: 0 auto;
 	@include card--drop-shadow;
 
 	.form-message {
 		margin-bottom: 2vw; // not specified
 	}
 }
+
 /* Input */
-.input-text {
-	background-color: #F9F9F9; // good
-	height: 4.4vw; // good
+.form__input {
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #F9F9F9;
+	padding: 0 vw(20px);
 	margin: 1.5vw auto;
-	border: none; // good
+	border: none;
+	outline: none;
+	font-family: 'Elliot', sans-serif;
+}
+.input-text {
 	font-style: italic; // good (based on comp)
-	width: 26.56vw;
-	text-indent: 1.5vw;
+	height: 4.6vw;
+	max-height: 65px;
 }
 
 .first-half {
-	margin-right: 0.99vw;
+	margin-right: .99vw;
 }
 
 .second-half {
-	margin-left: 0.99vw;
+	margin-left: .99vw;
 }
 
 .form-full-size {
-	width: 55.76vw;
-	margin: 1.5vw auto;
+	width: calc(100% + 16px);
+	/*margin: 1.5vw auto;*/
 }
 /* Checkbox */
 .checkbox-container {
-	height: 4.4vw;
-	width: 26.56vw;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	/*width: 26.56vw;
 	display: inline-block;
-	position: relative;
+	position: relative;*/
 
 	.checkbox-label {
 		// position: absolute;
 		// top: 3.5vw;
 		// left: 4vw;
 		display: inline-block;
+		transform: translateY(-30%);
 	}
 }
 
@@ -96,83 +125,122 @@
 	// top: 3vw;
 	// left: 0;
 	margin-right: 15px;
+	width: 32px;
+	height: 32px;
+	-webkit-appearance: none;
+	background-color: #F9F9F9;
+	border: none;
+	outline: none;
+	padding: 2px;
+	position: relative;
 }
-// EXTRA STUFF
+.checkbox:checked:after {
+	content: ' ';
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 16px;
+	height: 16px;
+	background-color: $dark-grey;
+}
 
+
+// EXTRA STUFF
 .input-field {
 	position: relative;
 	display: inline-block;
+	min-height: 100px;
+	max-height: 200px;
+	padding-right: 30px;
 }
-
-.submit-link {
-	margin-right: 6vw;
+.action--link--button {
+	padding: 8px 10px;
 }
-// from rit
-
-.coupon-container {
-	height: 34px;
-}
-
-.coupon-status {
-	display: none;
-	width: 49%;
-	margin-left: 49%;
-	line-height: 34px;
-	text-transform: uppercase;
-	-webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	transition: all 200ms ease-in-out;
-}
-@media screen and (max-width:850px) {
-	#registerForm .form-group .checkbox-group,
-	#registerForm .form-group hr,
-	#registerForm .form-group input[type=email],
-	#registerForm .form-group input[type=tel],
-	#registerForm .form-group input[type=text],
-	#registerForm .form-group label,
-	.coupon-status {
-		width: 100%;
-		padding-left: 0;
-		margin-left: 0;
+.submit {
+	&-link {
+		margin-right: 6vw;
+		font-family: 'Elliot', sans-serif;
+		font-weight: bold;
+    padding: 8px 10px;
+	}
+	&-icon {
+		padding-top: 9px;
 	}
 }
 
-.coupon-success {
-	color: #79e779;
-	position: relative;
-}
+@include media('<sm') {
+	.form-row {
+		padding-top: 2.5vw;
+	}
 
-.coupon-success::before,
-.yesbox-container input[type=checkbox]:checked + label::after {
-	content: "";
-	height: 21px;
-	width: 21px;
-	position: relative;
-	background-image: url("../img/reg-success.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: middle;
-}
-.coupon-fail{
+	.icon {
+		margin: 0;
+		padding: 0;
 
-  color:#ff1838;
-  position: relative;
+		&-row {
+			padding: 82px 0;
+			width: 100%;
+		}
+	}
 
-}
+	/* Form */
+	.input-form {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 5.58vw 6.02vw;
+		margin: 3vw 0;
+		margin-top: vw(216px);
+		@include card--drop-shadow;
 
-.coupon-fail::before,
-.nobox-container > input[type=checkbox]:checked + label::after{
+		.form-message {
+			margin: vw(68px) vw(32px);
+		}
+	}
+	/* Input */
 
-  content:"";
-  height:21px;
-  width:21px;
-  position: relative;
-  background-image: url(../img/reg-fail.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
+	.form__input {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0 vw(32px);
+		margin: vw(32px) auto;
+	}
 
+	.first-half {
+		margin-right: 0;
+	}
+
+	.second-half {
+		margin-left: 0;
+	}
+
+	.form-full-size {
+		width: 100%;
+		margin: 1.5vw auto;
+	}
+
+	.input-text {
+		height: 14.2vw;
+	}
+
+	/* Checkbox */
+	.checkbox-container {
+		height: 4.4vw;
+		/*width: 26.56vw;
+		display: inline-block;
+		position: relative;*/
+	}
+
+	.checkbox {
+		margin-right: 15px;
+	}
+	// EXTRA STUFF
+	.input-field {
+		display: block;
+		padding: 0;
+	}
+
+	.action--link--button {
+		width: 100%;
+		text-align: center;
+	}
 }

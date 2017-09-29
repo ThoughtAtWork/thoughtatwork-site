@@ -5,10 +5,11 @@
     Register
 {% endblock %}
 {% block content %}
-    {% import 'macros/nav-macro.njk' as nav %}
-    <!-- Creating the navigation with activePage = 'register' -->
-    {{nav.active('register')}}
-    <div class="">
+    {# leaving these out for soft launch -- PUT BACK IN ON NAV LAUNCH #}
+    {# {% import 'macros/nav-macro.njk' as nav %} #}
+    {# {{nav.active('register')}} #}
+    <div class="container">
         {% include "partials/register.njk" %}
+        {% include "partials/footer.njk" %}
     </div>
 {% endblock %}

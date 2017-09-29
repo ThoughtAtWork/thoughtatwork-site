@@ -188,7 +188,9 @@ $toast-pulls: true !default;
   display: inline-block;
   margin-right: -.25em;
   min-height: 1px;
-  padding-left: $toast-gutter-width;
+
+  /*changed padding from left to right*/
+  padding-right: $toast-gutter-width;
   vertical-align: top;
 
   @media (max-width: $toast-breakpoint-medium) {
