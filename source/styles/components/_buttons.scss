@@ -1,28 +1,27 @@
 .action {
     text-decoration: none;
 
-    &--button {
+    &--link--button, &--button {
         font-size: 16px;
-        font-weight: bold;
-        letter-spacing: -0.1px;
-        color: #f8f8f8;
-        border-radius: 4px;
-        background-color: #3DCCD0;
-        padding: 10px 20px;
+        font-weight: 500;
+        color: #fafafa;
+        letter-spacing: 0.8px;
+        background-color: $teal;
+        padding: 16px 20px;
         transition: 0.2s ease-in;
-        box-shadow: 0 0 0 0 #3DCCD0;
+        box-shadow: 0 0 0 0 $teal;
         border: none;
         cursor: pointer;
 
         &:hover {
             transition: 0.2s ease-out;
-            box-shadow: 0 2px 15px 0 #3DCCD0;
+            box-shadow: 0 2px 15px 0 $teal;
         }
 
         &:active {
             -webkit-transition: 0.2s ease-in;
             transition: 0.2s ease-in;
-            box-shadow: 0 2px 35px 0 #3DCCD0;
+            box-shadow: 0 2px 35px 0 $teal;
         }
 
         &:focus {
@@ -39,6 +38,14 @@
 
         &:hover {
             text-decoration-line: none;
+        }
+    }
+}
+
+@include media('<sm') {
+    .action{
+        &--link--button, &--button{
+            padding: vw(44px) 20px;
         }
     }
 }

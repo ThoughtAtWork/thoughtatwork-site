@@ -6,9 +6,9 @@
 {% endblock %}
 {% block content %}
     {% import 'macros/nav-macro.njk' as nav %}
-    <!-- Creating the navigation with activePage = 'contact' -->
+
     {{nav.active('speakers')}}
-    <div class="">
+    <div class="container">
         {% include "partials/cardGridSpeaker.njk" %}
         <br><br><br><br><br><br><br><br><br><br><br><br>
         {% include "partials/cardKeynoteSpeaker.njk" %}

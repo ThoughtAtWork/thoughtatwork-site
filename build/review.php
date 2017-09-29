@@ -189,19 +189,15 @@
 
 
 
-  if(strtolower($coupon) == strtolower('Free0TAW16') ){
+  if(strtolower($coupon) == strtolower('Free0TAW17') ){
 
     $adjustedAmount = '0';
-
-  }else if(strtolower($coupon) == strtolower('DISCOUNT4HARAMBE')){
-
-    $adjustedAmount = '25';
 
   }else if(strtolower($coupon) == strtolower('30ISBETTERTHAN40')){
 
     $adjustedAmount = '30';
 
-  }else if($numOrders < 100 && strtotime("1 October 2016") > strtotime('now')){
+  }else if($numOrders < 100 && strtotime("1 October 2017") > strtotime('now')){
 
     $adjustedAmount = '35';
 

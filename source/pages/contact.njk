@@ -8,7 +8,8 @@
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'contact' -->
     {{nav.active('contact')}}
-    <div class="">
+    <div class="container">
         {% include "partials/contact.njk" %}
+        {% include "partials/footer.njk" %}
     </div>
 {% endblock %}

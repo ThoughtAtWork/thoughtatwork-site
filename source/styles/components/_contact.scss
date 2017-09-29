@@ -8,25 +8,25 @@
 .gen-info-heading {
 	position: absolute;
 	right: 3vw;
-	top: 0;
+	top: 2.9vw;
 	z-index: -1;
 }
 
 .gen-info-row {
 	width: 69.06vw;
-	margin: auto;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	padding-top: 4vw;
 
 	.gen-info-icon {
 		display: inline-block;
-		margin-left: 18vw;
+		margin: 0;
 		margin-right: 10vw;
 
 		.icon-image {
-			height: 15vw;
-			width: 15vw;
+			height: 18.4vw;
+			width: 18.4vw;
 		}
 	}
 
@@ -45,12 +45,32 @@
 
 .contact-message {
 	height: 8.8vw;
-	padding-top: 1.5vw;
+	padding: vw(20px) vw(20px);
 	box-sizing: border-box;
-	padding-left: 1.5vw;
-	padding-right: 1.5vw;
 	resize: vertical;
-	background-color: #F9F9F9;
-	border: none;
-	font-style: italic;
+}
+
+@include media('<sm') {
+	.gen-info-row {
+		box-sizing: border-box;
+		width: 100%;
+		display: block;
+		padding: 4vw vw(100px);
+
+		.gen-info-icon, .gen-info-message {
+			display: block;
+			margin: 0;
+
+			.icon-image {
+				width: 48vw;
+				height: auto;
+			}
+		}
+	}
+
+	.contact-message{
+		width: 100%;
+		min-height: 120px;
+		padding: vw(44px) vw(32px);
+	}
 }
