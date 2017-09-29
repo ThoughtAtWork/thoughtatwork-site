@@ -1,14 +1,6 @@
 {% macro active(activePage = 'home') %}
     <header class="nav--header">
         <nav class="nav--container">
-        
-            <div class="nav--logo">
-                <a href="index.html">
-                    <img class="nav--brand" src="assets/graphics/brand.svg"/></a>
-            </div>
-            <div class="nav--icon">
-                <span class="nav--toggle" onclick="openNav()">☰</span>
-            </div>
 
             <ul class="nav--list">
                 <li class="nav--list-item">
@@ -31,51 +23,56 @@
                 </li>
             </ul>
 
-            <div class="nav--register">
+            <div class="nav--mobile-icons">
+
+                <div class="nav--icon">
+                    <span class="nav--toggle"">☰</span>
+                </div>
+
+                <div class="nav--logo">
+                    <a href="index.html">
+                    <img class="nav--brand" src="assets/graphics/brand.svg"/></a>
+                </div>
+                    
+                <div class="nav--register">
                 <a href="register.html">
-                    <img class="nav--ticket" src="assets/graphics/icons/ticket.svg"/>  
-                </a>
+                    <img class="nav--ticket" src="assets/graphics/icons/ticket.svg"/></a>
+                </div>    
+
             </div>
 
-            <div id="myNav" class="overlay">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="speakers.html" class="{%if activePage == 'speakers' %} nav--active {% endif %}">SPEAKERS</a>
-                <a href="schedule.html" class="{%if activePage == 'schedule' %} nav--active {% endif %}">SCHEDULE</a>
-                <a href="info.html" class="{%if activePage == 'info' %} nav--active {% endif %}">INFO</a>
-                <a href="about.html" class="{%if activePage == 'about' %} nav--active {% endif %}">ABOUT</a>
-                <a href="register.html" class="{%if activePage == 'register' %} nav--active {% endif %}">REGISTER</a>
+            <div id="nav--mobile" class="nav--overlay">
+
+              <a href="javascript:void(0)" class="nav--overlay-closebtn">&times;</a>
+
+              <div class="nav--overlay-content">
+
+                <a href="index.html" class="{%if activePage == 'home' %} nav--active {% endif %} nav--overlay-content-link">HOME</a>
+                <a href="speakers.html" class="{%if activePage == 'speakers' %} nav--active {% endif %} nav--overlay-content-link">SPEAKERS</a>
+                <a href="schedule.html" class="{%if activePage == 'schedule' %} nav--active {% endif %} nav--overlay-content-link">SCHEDULE</a>
+                <a href="info.html" class="{%if activePage == 'info' %} nav--active {% endif %} nav--overlay-content-link">INFO</a>
+                <a href="about.html" class="{%if activePage == 'about' %} nav--active {% endif %} nav--overlay-content-link">ABOUT</a>
+                <a href="register.html" class="{%if activePage == 'register' %} nav--active {% endif %} nav--overlay-content-link">REGISTER</a>
+
                 <div class="nav--social">
-                    <a href="https://facebook.com/ThoughtAtWork">
-                        <img src="assets/graphics/facebook.svg">
+                    <a class="nav--social-link" href="https://facebook.com/ThoughtAtWork">
+                        <img class="nav--social-image" src="assets/graphics/facebook.svg">
                     </a>
-                    <a href="https://twitter.com/taw_rit">
-                        <img src="assets/graphics/twitter.svg">
+                    <a class="nav--social-link" href="https://twitter.com/taw_rit">
+                        <img class="nav--social-image" src="assets/graphics/twitter.svg">
                     </a>
-                    <a href="https://instagram.com/taw_rit">
-                        <img src="assets/graphics/instagram.svg">
+                    <a class="nav--social-link" href="https://instagram.com/taw_rit">
+                        <img class="nav--social-image" src="assets/graphics/instagram.svg">
                     </a>
                 </div>
-                <p><em>Special Thanks</em> to Lorraine Justice,
+
+                <p class="nav--overlay-text"><em>Special Thanks</em> to Lorraine Justice,
                 Josh Owen, Bruce Leonard, Adam Smith</p>
                 <br>
-                <p>&copy;2017 Thought At Work. All rights reserved.</p>
+                <p class="nav--overlay-text">&copy;2017 Thought At Work. All rights reserved.</p>
               </div>
+
             </div>
-
-            <script>
-                function openNav() {
-                    document.getElementById("myNav").style.width = "100%";
-                    $('body').addClass('noScroll');
-                }
-
-                function closeNav() {
-                    document.getElementById("myNav").style.width = "0%";
-                    $('body').removeClass('noScroll');
-                }
-                </script>
-
 
         </nav>
     </header>
