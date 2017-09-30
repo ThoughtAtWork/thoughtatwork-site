@@ -1,13 +1,11 @@
 $('.nav--toggle').click(function () {
     "use strict";
-    $('.nav--list').slideToggle();
+    document.getElementById("nav--mobile").style.width = "100%";
+    $('body').addClass('noScroll');
 });
 
-
-
-$(window).resize(function () {
+$('.nav--overlay-closebtn').click(function () {
     "use strict";
-    if ($(window).width() > 768) {
-        $('.nav--list').removeAttr('style');
-    }
+    document.getElementById("nav--mobile").style.width = "0%";
+    $('body').removeClass('noScroll');
 });
