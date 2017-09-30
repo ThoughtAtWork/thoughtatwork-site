@@ -83,6 +83,7 @@
 }
 .input-text {
 	font-style: italic; // good (based on comp)
+	min-height: 55px;
 	height: 4.6vw;
 	max-height: 65px;
 }
@@ -99,24 +100,16 @@
 	width: calc(100% + 16px);
 	/*margin: 1.5vw auto;*/
 }
-/* Checkbox */
-.checkbox-container {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	/*width: 26.56vw;
-	display: inline-block;
-	position: relative;*/
 
-	.checkbox-label {
-		// position: absolute;
-		// top: 3.5vw;
-		// left: 4vw;
-		display: inline-block;
-		transform: translateY(-30%);
-	}
+.input-field {
+	position: relative;
+	display: inline-block;
+	min-height: 100px;
+	max-height: 200px;
+	padding-right: 30px;
 }
 
+/* Checkbox */
 .checkbox {
 	// margin: 0;
 	// width: 2.35vw;
@@ -124,6 +117,7 @@
 	// position: absolute;
 	// top: 3vw;
 	// left: 0;
+	display: inline;
 	margin-right: 15px;
 	width: 32px;
 	height: 32px;
@@ -133,35 +127,50 @@
 	outline: none;
 	padding: 2px;
 	position: relative;
-}
-.checkbox:checked:after {
-	content: ' ';
-	position: absolute;
-	top: 8px;
-	left: 8px;
-	width: 16px;
-	height: 16px;
-	background-color: $dark-grey;
+	&:checked:after {
+		content: ' ';
+		position: absolute;
+		top: 8px;
+		left: 8px;
+		width: 16px;
+		height: 16px;
+		background-color: $dark-grey;
+	}
+	&-group {
+		height: 15vw;
+		max-height: 150px;
+		min-height: 80px;
+	}
+	&-container {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		/*width: 26.56vw;
+	display: inline-block;
+	position: relative;*/
+
+		&-label {
+			// position: absolute;
+			// top: 3.5vw;
+			// left: 4vw;
+			display: inline-block;
+			transform: translateY(-30%);
+		}
+	}
 }
 
 
 // EXTRA STUFF
-.input-field {
-	position: relative;
-	display: inline-block;
-	min-height: 100px;
-	max-height: 200px;
-	padding-right: 30px;
-}
 .action--link--button {
 	padding: 8px 10px;
+	@include card--drop-shadow;
 }
 .submit {
 	&-link {
 		margin-right: 6vw;
 		font-family: 'Elliot', sans-serif;
-		font-weight: bold;
-    padding: 8px 10px;
+		// font-weight: 800;
+		padding: 8px 10px;
 	}
 	&-icon {
 		padding-top: 9px;
@@ -178,7 +187,7 @@
 		padding: 0;
 
 		&-row {
-			padding: 82px 0;
+			padding: 42px 0;
 			width: 100%;
 		}
 	}
@@ -189,7 +198,7 @@
 		width: 100%;
 		padding: 5.58vw 6.02vw;
 		margin: 3vw 0;
-		margin-top: vw(216px);
+    margin-top: 4vw;
 		@include card--drop-shadow;
 
 		.form-message {
@@ -223,13 +232,6 @@
 	}
 
 	/* Checkbox */
-	.checkbox-container {
-		height: 4.4vw;
-		/*width: 26.56vw;
-		display: inline-block;
-		position: relative;*/
-	}
-
 	.checkbox {
 		margin-right: 15px;
 	}
@@ -240,7 +242,9 @@
 	}
 
 	.action--link--button {
-		width: 100%;
 		text-align: center;
+	}
+	.submit-link {
+		width: 100%;
 	}
 }
