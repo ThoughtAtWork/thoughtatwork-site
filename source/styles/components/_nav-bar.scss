@@ -70,21 +70,102 @@
         margin: 20px;
         color: #EEE;
         font-size: 30px;
-        border: 1px solid #EEE;
         padding: 0 5px;
         border-radius: 4px;
         cursor: pointer;
+        display: hidden;
     }
 
+    &--register {
+        padding: 15px;
+        width: 30px;
+        height: 30px;
+        display: hidden;
+        background-color: none;
+    }
+
+    &--overlay {
+        width: 0%;
+        display: none;
+    }
+
+    // Mobile Nav Bar
     @include media ('<md') {
-        &--icon {
-            display: block;
+
+        &--container {
+            padding: 0;
+            box-shadow: 0 0 10px 0 rgba(70, 204, 207, 0.74);
+            background-color: white;
+            position: fixed;
             width: 100%;
             height: 80px;
-            background-color: #111;
-            border-bottom: 1px solid #444;
         }
 
+        &--active {
+            color: black !important;
+        }
+
+        &--social {
+            margin-top: 30px;
+            margin-bottom: 80px;
+            display: flex;
+            flex-direction: row;
+
+            &-image {
+                width: 35px;
+                height: 35px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 50px;
+            }
+
+            &-link {
+                display: inline-block;
+            }
+        }
+
+        &--mobile-icons {
+            max-width: 100%;
+        }
+
+        // MOBILE NAV TOGGLE
+        &--icon {
+            width: auto;
+            height: 80px;
+            float: left;
+            display: inline-block;
+        }
+
+        &--toggle {
+            border: none;
+            color: #111;
+            font-size: 35px;
+
+            display: visible;
+        }
+
+        /// MOBILE NAV LOGO
+        &--logo {
+            float: none;
+            margin-top: 20px;
+            margin-left: 0;
+            position: absolute;
+            left: 43%;
+            display: inline-block;
+        }
+
+        /// MOBILE NAV TICKET ICON
+        &--register {
+            display: visible;
+            background-color: rgb(70,204,207);
+            box-shadow: 0 0 10px 0 rgba(70, 204, 207, 0.74);
+            float: right;
+            margin-top: 10px;
+            margin-right: 15px;
+            display: inline-block;
+        }
+
+        // Prevents Desktop Nav From Appearing on Mobile
         &--list {
             width: 100%;
             margin: 0;
@@ -101,5 +182,70 @@
             border-bottom: 1px solid #333;
             float: none;
         }
+
+        // Overlay Effect
+        &--overlay {
+            display: initial;
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 4 !important;
+            top: 0;
+            left: 0;
+            background-color: rgb(70,204,207);
+            background-color: rgba(70,204,207, 0.9);
+            overflow: hidden;
+
+            &-closebtn {
+                position: absolute;
+                top: 7px;
+                left: 27px;
+                font-size: 50px;
+                color: black;
+            }
+
+            &-text {
+                color: white;
+                font-size: 12px;
+            }
+        }
+
+        &--overlay-content {
+            position: relative;
+            top: 12%;
+            width: 70%;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 60px;
+
+            &-link {
+                padding: 8px;
+                text-decoration: none;
+                font-size: 30px;
+                color: white;
+                display: block;
+                transition: 0.3s;
+
+                &:hover, &:focus {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+
     }
+}
+
+// Applies to all pages to allow for fixed navbar
+.container {
+    padding-top: 80px;
+    z-index: -1;
+    position: relative;
+}
+
+// Locks page from scrolling when overlay is present
+.noScroll {
+    overflow: hidden;
 }
