@@ -1,17 +1,18 @@
 <?php
-$fName = $_POST["fName"];
-$lName = $_POST["lName"];
+$name = $_POST["name"];
 $email = $_POST["email"];
 $concern = $_POST["concern"];
 $message = $_POST["message"];
 
-$EmailTo = "hello@thoughtatwork.org";
+
+//$EmailTo = "hello@thoughtatwork.org";
+$EmailTo = "lucaskern8@gmail.com";
 
 $Subject = "Thought At Work Contact Form Submission";
 
 // prepare email body text
 $Body .= "Name: ";
-$Body .= $fName + " " + $lName;
+$Body .= $name;
 $Body .= "\n";
 
 $Body .= "Email: ";
