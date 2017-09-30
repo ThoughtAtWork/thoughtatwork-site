@@ -7,15 +7,16 @@ $("#contactForm").submit(function(event){
 function submitForm(){
     clearForm();
     // Initiate Variables With Form Content
-    var name = $("#name").val();
+    var fName = $("#fName").val();
+    var lName = $("#lName").val();
     var email = $("#email").val();
     var concern = $("#concern").val();
     var message = $("#message").val();
- 
+
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
-        data: "name=" + name + "&email=" + email + "&message=" + message,
+        url: "2016/php/form-process.php",
+        data: "name=" + fName + " " + lName + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
                 formSuccess();
@@ -24,6 +25,7 @@ function submitForm(){
     });
 }
 function formSuccess(){
+    console.log("form success");
     $( "#msgSubmit" ).removeClass( "hidden" );
 }
 
