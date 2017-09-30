@@ -36,6 +36,9 @@ h2 {
 	font-size: 120px;
 	font-weight: 500;
 	color: $light-grey;
+
+	position: absolute;
+	
 	@include media ('<lg') {
 		font-size: 100px;
 	}
