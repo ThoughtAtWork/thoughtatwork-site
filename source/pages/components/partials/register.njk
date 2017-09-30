@@ -1,6 +1,6 @@
 <div class="header">
-    <h1 class="header__title">register</h1>
-    <img class="header__img" src="assets/graphics/TAW-Vis-Dev-6-Edit.jpg" alt="header graphic">
+    <h1 class="header__title" style="margin: 30px">register</h1>
+    {# <img class="header__img" src="assets/graphics/TAW-Vis-Dev-6-Edit.jpg" alt="header graphic"> #}
 </div>
 
 <!-- Icon Section -->
@@ -14,25 +14,19 @@
         <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/food.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Food</figcaption>
-        </figure>
-        <!--
+        </figure><!--
 
-        -->
-        <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
+        --><figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/network.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Mingle</figcaption>
-        </figure>
-        <!--
+        </figure><!--
 
-        -->
-        <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
+        --><figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/swag.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Swag</figcaption>
-        </figure>
-        <!--
+        </figure><!--
 
-        -->
-        <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
+        --><figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
             <img class="icon-image" src="../assets/graphics/icons/party.svg" alt="Icon" class="icon-image"/>
             <figcaption class="icon-label">Fun</figcaption>
         </figure>
@@ -67,9 +61,8 @@
                 <input class="form__input input-text" type="tel" id="phone" name="phone" placeholder="Phone number" required>
             </div>
 
-            <div class="input-field grid__col grid__col--2-of-2 grid__col--m-2-of-2">
+            <div class="input-field grid__col grid--no-gutter grid__col--span-all">
                 <input class="form__input input-text" type="text" name="university" placeholder="University">
-                <!-- <span class="input-label"><p>University</p></span> -->
             </div>
 
             <div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
@@ -93,9 +86,9 @@
             </div>
 
             <div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
-                <div class="text-align-left checkbox-container">
+                <div class="checkbox-container flex text-align-left">
                     <input class="checkbox yesbox-container" value="yes" type="checkbox" name="interpret" id="yesbox">
-                    <p class="checkbox-label">I need interpreting services.</p>
+                    <p class="checkbox-label">I need interpreting services</p>
                 </div>
             </div>
 
@@ -116,10 +109,10 @@
             </div>
 
             <div class="text-align-right">
-              <button class="action--link--button submit-link">
-                <input type="submit" value="SUBMIT" class="action--link--button grid__col grid__col--m-1-of-5"></input>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </button>
+                <button class="flex-inline flex-align-items-center flex-justify-center action--link--button submit-link">
+                    <input type="submit" value="SUBMIT" class="action--link--button grid__col grid__col--m-1-of-5"></input>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </button>
             </div>
         </form>
     </section>

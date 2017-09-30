@@ -88,13 +88,13 @@ p {
 	color: $dark-grey;
 
 	@include media ('<sm') {
-		font-size: 30px;
-    line-height: 44px;
+		font-size: 18px;
+    line-height: 26px;
 	}
 }
 
 a {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 500;
 	color: $teal;
 	text-decoration: none;
