@@ -1,0 +1,22 @@
+{# <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    $(".schedFilter").click(function(){
+        $(".schedFilter").toggleClass(".schedFilter--selected");
+    });
+</script> #}
+<div class="filters">
+    <div class="card filter speakFilter">
+        <p class="card__header filter__header">
+            All
+        </p>
+    </div>
+    {% for field in speakersFilters %}
+        <div class="card filter speakFilter">
+            <p class="card__header filter__header">
+                {{field}}
+            </p>
+        </div>
+    {% endfor %}
+</div>
+
+{# <div class="filters"> <div class="speakFilter"> <p class="filter__header"> Speaker </p> </div> <div class="speakFilter"> <p class="filter__header"> Speaker </p> </div> <div class="speakFilter"> <p class="filter__header"> Speaker </p> </div> </div> #}

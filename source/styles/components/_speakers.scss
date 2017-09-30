@@ -1,0 +1,12 @@
+.speakers__grid{
+	margin: 0 auto;
+}
+
+.speakers__keynote{
+	margin: vw(154px) auto;
+	text-align: center;
+}
+
+.speakers-card--keynote:last-child{
+	margin-top: vw(40px);
+}

@@ -4,15 +4,17 @@
       "headshot": "assets/graphics/speakers/miguel_cardona.jpg",
       "firstName": "Miguel",
       "lastName": "Cardona",
-      "position": "Lead Designer at Imgix",
+      "position": "Lead Designer",
+      "company": "Imgix",
       "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
     },
     {
       "fields": "UI/UX | Marketing",
-      "headshot": "assets/graphics/speakers/julie.png",
+      "headshot": "assets/graphics/speakers/miguel_cardona.jpg",
       "firstName": "Julie",
       "lastName": "Zhuo",
-      "position": "VP of Design at Facebook",
+      "position": "VP of Design",
+      "company": "Facebook",
       "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
     },
     {
@@ -20,8 +22,35 @@
       "headshot": "assets/graphics/speakers/pattie_moore.jpg",
       "firstName": "Patricia",
       "lastName": "Moore",
-      "position": "President Officer at Moore Design Associates",
+      "position": "President Officer",
+      "company": "Moore Design Associates",
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+    },
+    {
+      "fields": "UI/UX | Marketing",
+      "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+      "firstName": "Julie",
+      "lastName": "Zhuo",
+      "position": "VP of Design",
+      "company": "Facebook",
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+    },
+    {
+      "fields": "Industrial Design | UX | Geriatrics",
+      "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+      "firstName": "Patricia",
+      "lastName": "Moore",
+      "position": "President Officer",
+      "company": "Moore Design Associates",
       "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
     }
+  ],
+
+  "speakersFilters":[
+    "Graphic Design",
+    "Illustration",
+    "UX Design",
+    "Motion Graphics",
+    "Industrial Design"
   ]
 }

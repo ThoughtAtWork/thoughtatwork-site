@@ -1,10 +1,19 @@
-{% for speaker in speakers %}
+<div class="speakers__keynote">
 	<div class="card speakers-card--keynote">
-		<img src="{{speaker.headshot}}" class="speakers-card__headshot">
-		<span class="card__header speakers-card__name">{{speaker.firstName}}<br>{{speaker.lastName}}</span>
-		<span class="card__subhead speakers-card__position">{{speaker.position}}</span>
+		<img src="{{speakers[1].headshot}}" class="speakers-card__headshot">
+		<span class="card__header speakers-card__name">{{speakers[1].firstName}}<br>{{speakers[1].lastName}}</span>
+		<span class="card__subhead speakers-card__position">{{speakers[1].position}}<br>at {{speakers[1].company}}</span>
 		<div class="speakers-card__backing-img">
-			<img src="{{speaker.backingImg}}">
+			<img src="{{speakers[1].backingImg}}">
 		</div>
 	</div>
-{% endfor %}
+
+	<div class="card speakers-card--keynote">
+		<img src="{{speakers[4].headshot}}" class="speakers-card__headshot">
+		<span class="card__header speakers-card__name">{{speakers[4].firstName}}<br>{{speakers[4].lastName}}</span>
+		<span class="card__subhead speakers-card__position">{{speakers[4].position}}<br>at {{speakers[1].company}}</span>
+		<div class="speakers-card__backing-img">
+			<img src="{{speakers[4].backingImg}}">
+		</div>
+	</div>
+</div>
