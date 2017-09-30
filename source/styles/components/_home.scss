@@ -3,6 +3,7 @@
     text-align: center;
     position: relative;
     &__title {
+        text-transform: capitalize;
         letter-spacing: 42px;
         @include text--drop-shadow;
     }
@@ -210,10 +211,28 @@
   }
 }
 
+/*
 .header {
     &__img {
         height: 6.6vw;
         width: 67.06vw;
         @include card--drop-shadow;
     }
+}
+*/
+
+//Squiggle
+.squggle{
+  text-transform: capitalize;
+  letter-spacing: 42px;
+  position: relative;
+  @include text--drop-shadow;
+}
+
+.up{
+  position: relative;
+}
+
+.down{
+  position: relative;
 }
