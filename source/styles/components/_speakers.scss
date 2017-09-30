@@ -1,3 +1,7 @@
+.speakers__keynote, .speakers__grid, .filters{
+	position: relative;
+}
+
 .speakers__grid{
 	margin: 0 auto;
 }
@@ -9,4 +13,20 @@
 
 .speakers-card--keynote:last-child{
 	margin-top: vw(40px);
+}
+
+.speakers__keynote__header{
+	top: vw(-20px);
+	right: vw(48px);
+}
+
+.speakers__grid__header{
+	top: vw(-64px);
+	left: vw(116px);
+}
+
+.filters {
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
 }

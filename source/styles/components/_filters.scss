@@ -6,16 +6,8 @@ body{
 	font-weight: 500;
 }
 
-.filters {
-	margin: 3vw auto;
-	display: table;
-}
-
 .filter{
-	box-sizing: content-box;
 	text-align: center;
-	box-sizing: content-box !important;
-	vertical-align: middle !important;
 	display: inline-block;
 }
 
@@ -66,7 +58,8 @@ body{
 }
 
 .speakFilter {
-	margin: 0vw 2vw;
+	margin: 0 2vw;
+	margin-bottom: 1.8vw;
 	padding: vw(16px) vw(24px);
 
 	.filter__header {
