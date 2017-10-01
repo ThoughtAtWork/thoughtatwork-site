@@ -15,9 +15,11 @@ const navigation = require('./navigation.js');
 const scrollUp = require('./scrollUp.js');
 const register = require('./register.js');
 const contact = require('./contactScript.js');
+const squiggle = require('./squiggle.js');
 
 
 window.onload = function() {
     console.log("file included", navigation);
     console.log("file included", scrollUp);
+    console.log("file included". squiggle);
 }
