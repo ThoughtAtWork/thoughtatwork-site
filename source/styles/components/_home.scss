@@ -211,20 +211,49 @@
   }
 }
 
-/*
 .header {
+    position: relative;
+    margin-bottom: 100px;
+
     &__img {
+      position: absolute;
+      height: 6.6vw;
+      width: 75.06vw;
+      @include card--drop-shadow;
+      z-index: -1;
+      top: 30px;
+      right: 0;
+      &-register {
         height: 6.6vw;
-        width: 67.06vw;
-        @include card--drop-shadow;
+        width: 75.06vw;
+        background-image: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        background-size: cover;
+      }
     }
+
+    @include media ('<md') {
+
+      margin-top: 20px;
+      //margin-bottom: 100px;
+
+        &__img {
+          height: 100px;
+          top: 40px;
+        }
+
+    }
+
+
 }
-*/
 
 //Squiggle
-.squggle{
+.squiggle{
   text-transform: capitalize;
-  letter-spacing: 42px;
+  letter-spacing: 15px;
   position: relative;
   @include text--drop-shadow;
 }
@@ -235,4 +264,8 @@
 
 .down{
   position: relative;
+}
+
+.span--space{
+  white-space: pre;
 }
