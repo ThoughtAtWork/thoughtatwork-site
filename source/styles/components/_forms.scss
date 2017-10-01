@@ -182,7 +182,7 @@
 	}
 }
 
-@include media('<sm') {
+@include media('<smedium') {
 	.form-row {
 		padding-top: 2.5vw;
 	}

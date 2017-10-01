@@ -23,7 +23,7 @@ h1 {
 	text-transform: uppercase;
 	@include text--drop-shadow;
 
-	@include media ('>sm') {
+	@include media ('>smedium') {
 		font-size: 60px;
 
 		.home-header__title {
