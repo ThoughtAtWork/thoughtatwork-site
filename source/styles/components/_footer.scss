@@ -55,6 +55,9 @@ footer {
         margin-left: 35px;
         margin-top: 8px;
         background-color: white;
+        & a {
+          text-decoration: none;
+        }
     }
 
     .be-sponsor {
