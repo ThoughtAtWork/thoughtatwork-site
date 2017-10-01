@@ -130,9 +130,30 @@
 }
 
 .header {
-    .header__img {
-        height: 6.6vw;
-        width: 67.06vw;
-        @include card--drop-shadow;
+    position: relative;
+    margin-bottom: 100px;
+
+    &__img {
+      position: absolute;
+      height: 6.6vw;
+      width: 75.06vw;
+      @include card--drop-shadow;
+      z-index: -1;
+      top: 30px;
+      right: 0;
     }
+
+    @include media ('<md') {
+
+      margin-top: 20px;
+      //margin-bottom: 100px;
+        
+        &__img {
+          height: 100px;
+          top: 40px;
+        }
+
+    }  
+
+
 }
