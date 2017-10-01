@@ -6,35 +6,14 @@ body{
 	font-weight: 500;
 }
 
-.card {
-	position: relative;
-	background-color: #FFF;
-	@include card--drop-shadow;
-
-	.card__header{
-		color: $dark-grey;
-	}
-	.card__subhead{
-		color: $teal;
-	}
-	.card__subhead2{
-		color: $normal-grey;
-	}
-}
-
-.filters {
-	margin: 3vw auto;
-	display: table;
+.filter{
+	text-align: center;
+	display: inline-block;
 }
 
 .schedFilter {
-	box-sizing: content-box;
-	width: 16.432vw;
+	/*width: 16.432vw;*/
 	//height: 5.168vw;
-	text-align: center;
-	box-sizing: content-box !important;
-	vertical-align: middle !important;
-	display: inline-block;
 	margin: 0vw 2vw;
 
 	@extend .card;
@@ -79,38 +58,23 @@ body{
 }
 
 .speakFilter {
-	width: 16.432vw;
-	height: 3.52vw;
-	text-align: center;
-	box-sizing: content-box !important;
-	vertical-align: middle !important;
-	display: inline-block;
-	margin: 0vw 2vw;
-
-	@extend .card;
-
-	.content {
-    display: table;
-    height: inherit;
-    width: inherit;
-    position: relative;
-	}
+	margin: 0 2vw;
+	margin-bottom: 1.8vw;
+	padding: vw(16px) vw(24px);
 
 	.filter__header {
 		font-weight: 500;
-		font-size: 20pt;
-		display: table-cell;
-		vertical-align: middle;
+		font-size: vw(20px);
 		opacity: 0.6;
-		@extend .card__header;
 	}
+
+	transition: padding 0.2s ease-in-out;
 }
 
-.speakFilter--selected {
-	padding: 0px 16px;
-	height: 4.4vw;
+.speakFilter:hover, .speakFilter--selected {
+	padding: vw(20px) vw(24px);
+}
 
-	.filter__header {
+.speakFilter--selected .filter__header {
 		opacity: 1.0;
-	}
 }

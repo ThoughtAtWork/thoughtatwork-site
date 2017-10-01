@@ -11,6 +11,9 @@
         height: 85px;
         background-color: $color-background;
         padding: 0 86px;
+        @include media ('<lg') {
+            padding: 0 1vw;
+        };
     }
 
     &--logo {
@@ -99,6 +102,9 @@
             position: fixed;
             width: 100%;
             height: 80px;
+            top: 0;
+            background-color: white;
+            z-index: 10;
         }
 
         &--active {
@@ -241,7 +247,7 @@
 // Applies to all pages to allow for fixed navbar
 .container {
     padding-top: 80px;
-    z-index: -1;
+    // z-index: -1;
     position: relative;
 }
 

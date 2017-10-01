@@ -1,14 +1,15 @@
-<!-- index.njk -->
+<!-- app/pages/info.njk -->
 {% extends "layout.njk" %}
 
 {% block title %}
-    Home
+    Info
 {% endblock %}
 {% block content %}
     {% import 'macros/nav-macro.njk' as nav %}
-    {{nav.active('home')}}
+    <!-- Creating the navigation with activePage = 'info' -->
+    {{nav.active('info')}}
     <div class="container">
-        {% include "partials/home.njk" %}
+        {% include "partials/info.njk" %}
         {% include "partials/footer.njk" %}
     </div>
 {% endblock %}
