@@ -3,7 +3,7 @@ window.addEventListener('scroll', function(e) {
  //var height = window.screen.height
 
  //console.log("h: " + h)
- console.log("scrl: " +scrl)
+ // console.log("scrl: " +scrl)
 
  document.querySelectorAll('.up')
    .forEach(function(el){
