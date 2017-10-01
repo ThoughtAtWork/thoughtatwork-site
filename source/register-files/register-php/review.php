@@ -1,199 +1,266 @@
 <?php
-  header('Location: register.html');
+
+  //print '<pre>';print_r($_POST); print '</pre>';
+
+  // header('Location: register.html');
   use RIT\Prod\Nelnet as Nelnet;
 
   require_once('admin/config.php');
   require_once("nelnet-library/src/autoload.php");
-  $curDT = date('c');
 
-  $freeOrder = false;
-  $transNum = '';
-  if(isset($_GET['freeSuccess'])){
+  $proceed = false;
+  $speaker = false;
 
-    $transStatus = 10;
-    $newTransNum = "0 - Free Order using Coupon Code Free0TAW16";
-    $originalTransNo = $_GET['freeSuccess'];
+  //print '<pre>';print_r($_POST); print '</pre>';
+
+  if( isset($_POST['submit']) && !empty($_POST['orderNumber']) ){
+
+    $orderID = $_POST['orderNumber'];
+    $sql = "SELECT email, amount FROM $db_table WHERE trans_num = $orderID";
+
+    $result = $mysqli->query($sql);
+    print $sql;
+    print_r($result);
+    if ($result->num_rows == 1) {
+
+      $row = $result->fetch_assoc();
+      $orderAmount = $row['amount'];
+      $orderEmail = $row['email'];
+      if($orderAmount > 0){$proceed = true;}
+
+    }
 
 
-    $freeOrder = true;
+
+    if($proceed){
+
+      $nelnet = new Nelnet\Nelnet();
+      $nelnet->orderType = $paymentType;
+      $nelnet->sharedSecret = $hashCode;
+      $nelnet->redirectUrl = $redirectURL;
+      $nelnet->setNelnetEnvironment('production');
+
+      $params = array(
+          "id" => $orderID,
+          "amount" => ($orderAmount * 100),
+          "email" => $orderEmail,
+      );
+
+      $request = $nelnet->buildRequest();
+      $request->send($params);
+    }else{
+
+
+
+    }
+
+  }
+
+
+  $insertedID = '';
+
+  function strip_tags_deep($value)
+  {
+    return is_array($value) ?
+      array_map('strip_tags_deep', $value) :
+      strip_tags($value);
+  }
+  $_POST = strip_tags_deep($_POST);
+
+  function xss_clean($data)
+  {
+  	// Fix &entity\n;
+  	$data = str_replace(array('&amp;','&lt;','&gt;'), array('&amp;amp;','&amp;lt;','&amp;gt;'), $data);
+  	$data = preg_replace('/(&#*\w+)[\x00-\x20]+;/u', '$1;', $data);
+  	$data = preg_replace('/(&#x*[0-9A-F]+);*/iu', '$1;', $data);
+  	$data = html_entity_decode($data, ENT_COMPAT, 'UTF-8');
+
+  	// Remove any attribute starting with "on" or xmlns
+  	$data = preg_replace('#(<[^>]+?[\x00-\x20"\'])(?:on|xmlns)[^>]*+>#iu', '$1>', $data);
+
+  	// Remove javascript: and vbscript: protocols
+  	$data = preg_replace('#([a-z]*)[\x00-\x20]*=[\x00-\x20]*([`\'"]*)[\x00-\x20]*j[\x00-\x20]*a[\x00-\x20]*v[\x00-\x20]*a[\x00-\x20]*s[\x00-\x20]*c[\x00-\x20]*r[\x00-\x20]*i[\x00-\x20]*p[\x00-\x20]*t[\x00-\x20]*:#iu', '$1=$2nojavascript...', $data);
+  	$data = preg_replace('#([a-z]*)[\x00-\x20]*=([\'"]*)[\x00-\x20]*v[\x00-\x20]*b[\x00-\x20]*s[\x00-\x20]*c[\x00-\x20]*r[\x00-\x20]*i[\x00-\x20]*p[\x00-\x20]*t[\x00-\x20]*:#iu', '$1=$2novbscript...', $data);
+  	$data = preg_replace('#([a-z]*)[\x00-\x20]*=([\'"]*)[\x00-\x20]*-moz-binding[\x00-\x20]*:#u', '$1=$2nomozbinding...', $data);
+
+  	// Only works in IE: <span style="width: expression(alert('Ping!'));"></span>
+  	$data = preg_replace('#(<[^>]+?)style[\x00-\x20]*=[\x00-\x20]*[`\'"]*.*?expression[\x00-\x20]*\([^>]*+>#i', '$1>', $data);
+  	$data = preg_replace('#(<[^>]+?)style[\x00-\x20]*=[\x00-\x20]*[`\'"]*.*?behaviour[\x00-\x20]*\([^>]*+>#i', '$1>', $data);
+  	$data = preg_replace('#(<[^>]+?)style[\x00-\x20]*=[\x00-\x20]*[`\'"]*.*?s[\x00-\x20]*c[\x00-\x20]*r[\x00-\x20]*i[\x00-\x20]*p[\x00-\x20]*t[\x00-\x20]*:*[^>]*+>#iu', '$1>', $data);
+
+  	// Remove namespaced elements (we do not need them)
+  	$data = preg_replace('#</*\w+:\w[^>]*+>#i', '', $data);
+
+  	do
+  	{
+  			// Remove really unwanted tags
+  			$old_data = $data;
+  			$data = preg_replace('#</*(?:applet|b(?:ase|gsound|link)|embed|frame(?:set)?|i(?:frame|layer)|l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>#i', '', $data);
+  	}
+  	while ($old_data !== $data);
+
+  	// we are done...
+  	return $data;
+  }
+
+  #CHANGE THIS TO MAKE MORE REQUIREMENTS
+  function verifyFormData()
+  {
+    global $amount, $firstname,  $lastname,  $address, $city,  $state, $zip, $email, $phone, $university;
+
+    if( $amount == '' || $firstname == '' ||  $lastname == '' ||  $email == '' || !filter_var($email, FILTER_VALIDATE_EMAIL))
+    {
+      return 0;
+      }
+    else
+    {
+          return 1;
+      }
+  }
+
+  function writeToDB()
+  {
+  	global $mysqli, $db_table, $content;
+
+  	global $adjustedAmount, $referenceId, $firstname, $lastname, $address, $city, $state, $zip, $email, $phone, $university, $title, $dietary, $interpreter, $insertedID;
+
+  	$insertStatement = "INSERT INTO $db_table (first, last, address, city, state, zipcode, email, phone, university, title, dietary, interpreterNeeded, amount) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+
+  	//echo $insertStatement;
+  	$stmt = $mysqli->prepare($insertStatement);
+
+  	if (! $stmt) {
+        echo "Error: ".$mysqli->error;
+        exit;
+    }
+
+  	$stmt->bind_param('sssssssssssss', $firstname, $lastname, $address, $city, $state, $zip, $email, $phone, $university, $title, $dietary, $interpreter, $adjustedAmount);
+  	$stmt->execute();
+
+
+  	$numRows = $stmt->affected_rows;
+  	//echo $stmt->error;
+  	if($numRows < 0){
+      $content .=   "there was an error inserting your data";
+    }else{
+
+      $insertedID = $mysqli->insert_id;
+      //print $insertedID;
+    }
+  	$stmt->close();
+  }
+
+  function sendError($vError)
+  {
+  	global $content;
+  	$content .=  '<br />
+  	<div style=\"text-align:left\">
+  		<div style="padding: 20px;">';
+  	$content .=   $vError;
+  	$content .=   '
+  		</div>
+  	</div>';
+  }
+
+
+
+
+  $adjustedAmount = '40';
+
+
+
+  $amount = number_format($adjustedAmount,2);
+  $firstname = isset($_POST['first-name']) ? $_POST['first-name'] : "";
+  $lastname = isset($_POST['last-name']) ? $_POST['last-name'] : "";
+  $address = isset($_POST['address']) ? $_POST['address'] : "";
+  $city = isset($_POST['city']) ? $_POST['city'] : "";
+  $state = isset($_POST['state']) ? $_POST['state'] : "";
+  $zip = isset($_POST['zip']) ? $_POST['zip'] : "";
+  $email = isset($_POST['email']) ? $_POST['email'] : "";
+  $phone = isset($_POST['phone']) ? $_POST['phone'] : "";
+  $university = isset($_POST['employer']) ? $_POST['employer'] : "";
+  $title = isset($_POST['title']) ? $_POST['title'] : "";
+  $dietary = isset($_POST['dietary']) ? $_POST['dietary'] : "";
+  $interpreter = isset($_POST['interpret']) ? $_POST['interpret'] : "No";
+  $coupon = isset($_POST['coupon']) ? $_POST['coupon'] : "";
+
+  $query = "SELECT `refID` FROM `registrations` WHERE `refID` != ''";
+	$numOrders = mysqli_num_rows($mysqli->query( $query ));
+
+
+
+  if(strtolower($coupon) == strtolower('Free0TAW17') ){
+
+    $adjustedAmount = '0';
+
+  }else if(strtolower($coupon) == strtolower('30ISBETTERTHAN40')){
+
+    $adjustedAmount = '30';
+
+  }else if($numOrders < 100 && strtotime("1 October 2017") > strtotime('now')){
+
+    $adjustedAmount = '35';
+
+  }
+
+
+
+  if(verifyFormData()){
+
+
+  	writeToDB();
+
+
+
+    $transNum = $insertedID;
+
+    if($adjustedAmount === '0'){
+
+      header("Status: 301 Moved Permanently");
+      header("Location:./success.php?freeSuccess=". $transNum);
+
+
+    }
+  	//processMail( "Credit Card");
+
+  	//$redirectURL = "https://".$_SERVER['HTTP_HOST']."/success.php";
+  	$formData = "<form action=\"\" name=\"form\" method=\"POST\" id=\"payment\"  style = \"vertical-align:middle;margin:0;margin-bottom:2em;font-size: 1.2em;
+      line-height: 1.5em;\">";
+
+
+  	$formData .= "<input type=\"hidden\" name=\"orderType\" value=\"ThoughtAtWork\">";
+
+
+  	$formData .= "<input type=\"hidden\" name=\"orderNumber\" value=\"$transNum\">
+  	<input type=\"hidden\" name=\"amount\" value=\"".str_replace(array(".",","),"",$adjustedAmount)."\">
+  	<input type=\"hidden\" name=\"redirectUrl\" value=\"$redirectURL\">
+  	<input type=\"hidden\" name=\"email\" value=\"$email\">
+  	<input type=\"hidden\" name=\"redirectUrlParameters\" value=\"transactionStatus,transactionType,transactionId,originalTransactionId,orderNumber,transactionTotalAmount\">
+
+  	<span class=\"elliot\"><strong></strong>Payment amount: \$$adjustedAmount</strong></span> <br /><br /><input type=\"submit\" name=\"submit\" value=\"Proceed to Payment\" id=\"submit\" class=\"btn contact-btn btn-effect elliot\" \>
+  	</form>
+  	";
+
+
+  	$content .= $formData;
 
   }else{
 
-    $nelnet = new Nelnet\Nelnet();
-    $nelnet->sharedSecret = $hashCode;
-    $response = $nelnet->buildResponse($_GET);
+    $errorMsg = '<b>The following fields are required and were not filled:</b><br />';
+    $emailInvalid = '';
+    if( $amount == '' ){ $errorMsg.="Amount<br />"; }
+    if( $firstname == '' ){ $errorMsg.="First Name<br />"; }
+    if( $lastname == '' ) { $errorMsg .= "Last Name<br />"; }
+    if( $address == '' ){ $errorMsg.="Address<br />"; }
+    if( $city == '' ){ $errorMsg.="City<br />"; }
+    if( $state == '' ){ $errorMsg.="State<br />"; }
+    if( $zip == '' ){ $errorMsg.="Zipcode<br />"; }
+    if( $email == ''){ $errorMsg.="Email<br />"; }
+    else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){$emailInvalid = '<p>The email you entered is invalid.</p>';}
+    $errorMsg.= $emailInvalid.'<br /><a href="javascript:history.go(-1)">Go Back and Retry</a>';
 
-    if( $response->validate()){
+    sendError($errorMsg);
 
-      //print '<pre>';print_r($response); print '</pre>';
-
-      $originalTransNo = $response->orderNumber;
-      $newTransNum = $response->transactionId;
-      $transStatus = $response->transactionStatus;
-      $transactionTotalAmount = $response->transactionTotalAmount;
-
-    }
-
-
-
-    /*$transStatus = isset($_POST['transactionStatus']) ? $_POST['transactionStatus'] : (isset($_GET['transactionStatus']) ? $_GET['transactionStatus'] : "");
-    $newTransNum = isset($_POST['transactionId']) ? $_POST['transactionId'] : (isset($_GET['transactionId']) ? $_GET['transactionId'] : "");
-    $originalTransNo = isset($_POST['orderNumber']) ? $_POST['orderNumber'] : (isset($_GET['orderNumber']) ? $_GET['orderNumber'] : "");*/
-
-  }
-
-  if($freeOrder){
-
-    $transStatus = '10';
-    $transText = "Free Order using Coupon Code Free0TAW16";
-    updateDB($transStatus, $transText);
-
-  }else if(isset($transStatus)){
-
-    switch($transStatus)
-    {
-    	case 1:
-    		$status = "Accepted credit card payment/refund (successful).";
-    		$transText = "1 - Accepted";
-    		updateDB($transStatus, $transText);
-
-    		break;
-    	case 2:
-    		$status = "Rejected credit card payment/refund (declined).";
-    		$transText = "2 - Rejected";
-    		updateDB($transStatus, $transText);
-
-    		break;
-    	case 3:
-    		$status =  "Error credit car payment/refund (error).";
-    		$transText = "3 - Error";
-    		updateDB($transStatus, $transText);
-
-    		break;
-    	case 4:
-    		$status  = "Unkown credit car payment/refund (unknown).";
-    		$transText = "4 - Unknown credit card";
-    		updateDB($transStatus, $transText);
-
-    		break;
-    	case 5:
-    		$status =  "Accepted eCheck payment (successful).";
-    		$transText = "5 - Accepted eCheck";
-    		updateDB($transStatus, $transText);
-
-    		break;
-    	case 6:
-    		$status = "Posted eCheck payment (successful).";
-    		$transText = "6 - Posted eCheck";
-    		updateDB($transStatus, $transText);
-    		break;
-    	case 7:
-    		$status = "Returned eCheck payment (failed).";
-    		$transText = "7 - Returned eCheck";
-    		updateDB($transStatus, $transText);
-    		break;
-    	case 8:
-    		$status = "NOC eCheck payment (successful).";
-    		$transText = "8 - NOC";
-    		updateDB($transStatus, $transText);
-
-    		break;
-    	default:
-    		$status = "Unknown status.";
-    		break;
-    }
-
-  }
-
-  function updateDB($transStatus, $transText)
-  {
-  	global $mysqli, $db_table, $originalTransNo, $newTransNum;
-
-  	if($transStatus == 1 || $transStatus == 5 || $transStatus == 6 || $transStatus == 8 || $transStatus == 10)
-  	{
-  		$updateStatement = "UPDATE $db_table SET refID = ? WHERE trans_num = ?";
-
-  		$stmt = $mysqli->prepare($updateStatement);
-  		$stmt->bind_param('ss', $newTransNum, $originalTransNo);
-  		$stmt->execute();
-  		//echo "<br />Errors: ".$stmt->error." <br />";
-  		//if($stmt->affected_rows < 1) echo "<br />There was an error updating your data into the database.";
-  		//else echo "updated ".$stmt->affected_rows." rows";
-  		$stmt->close();
-  		processMail("Credit Card");
-  	}
-  }
-  function processMail($money_type)
-  {
-  	global $mysqli, $db_table, $originalTransNo, $newTransNum;
-
-  	$selectQuery = "SELECT * FROM $db_table WHERE trans_num = ?";
-  	//echo $selectQuery;
-  	//echo "original transno: $originalTransNo";
-  	$stmt = $mysqli->prepare($selectQuery);
-  	$stmt->bind_param("s", $originalTransNo);
-  	$stmt->execute();
-  	$stmt->bind_result($trans_num, $timestamp, $refID, $recordId, $firstname, $lastname, $address, $city, $state, $zip, $email, $phone, $university, $title, $dietary, $interpreter, $amount, $mailSent);
-  	$stmt->fetch();
-  	$stmt->close();
-
-
-  	$message = "Thank you for registering for Thought At Work, a design student conference to be held Oct 21-23, 2016, at Rochester Institute of Technology.\n\nThe following is the information you provided:\n\n";
-
-  	$message .= "Name: " . $firstname .  " " . $lastname . "\n";
-  	$message .= "Address:\n";
-  	$message .= $address . "\n";
-  	$message .= $city . ", " . $state . " " . $zip . "\n\n";
-  	if($phone != "") $message .= "Phone: " . $phone . "\n";
-  	if($email != "") $message .= "E-mail: " . $email . "\n";
-  	if($university != "") $message .= "University or Employer: " . $university . "\n";
-    if($title != "") $message .= "Major or Job Title: " . $title . "\n";
-    if($dietary != "") $message .= "Dietary Needs: " . $dietary . "\n";
-  	if($interpreter != "") $message .= "Interpreter Requested: " . $interpreter . "\n";
-  	$message .= "Amount Paid: $".$amount."\n";
-  	$message .= "\nVisit the conference website here: http://thoughtatwork.cias.rit.edu";
-
-
-
-
-  	//only send the email if it hasn't already been sent
-  	if($mailSent != 1) {
-
-  		$testerEmail = "gpltwc@rit.edu";
-  		$adminEmail = "hello@thoughtatwork.org";
-      $from = "Thought At Work <hello@thoughtatwork.org>";
-      $headers = 'From: ' . $from . "\r\n";
-
-  		# Customized Thank You Email
-
-  		sendEmail( $email, $from, 'Thought At Work Registration', $message );
-      sendEmail( $adminEmail, $from, 'Thought At Work Registration', $message );
-      //sendEmail( $testerEmail, $from, 'Thought At Work Registration', $message );
-
-  		$debug_info = print_r($_SERVER, true)."\n";
-  		$debug_info .= print_r($_REQUEST, true);
-  		global $curDT;
-  		$debug_info .=  $curDT . '<hr />' . $debug_info;
-  		//$debug_info .=  "<p>Previous page: $previousPage";
-  		$debug_info .=  "<p style=\"color:#ffffff\">Message 1<br />$message";
-  		//$debug_info .=  "<p style=\"color:#ffffff\">Message 2<br />$message2";
-  		//echo $debug_info;
-  		//sendEmail($testerEmail, $from, 'Thought at Work Debug '.$curDT, $debug_info);
-
-  		//update the database to indicate that mail message has been sent
-  		$stmt = $mysqli->stmt_init();
-  		$updateStatement = "UPDATE $db_table SET mailSent = 1 WHERE trans_num = ?";
-  		$stmt->prepare($updateStatement);
-  		$stmt->bind_param('s', $originalTransNo);
-  		$stmt->execute();
-  		$stmt->close();
-  	}
-  }
-  function sendEmail($toAddress, $fromAddress, $subject, $body)
-  {
-
-    $headers = 'From: ' . $fromAddress . "\r\n";
-  	mail($toAddress, $subject, $body, $headers);
   }
 
 ?>
@@ -297,7 +364,7 @@
 		<div class="container-fluid about-splash-words">
 			<div class="row">
 				<div class="col-lg-12 ">
-					<h1 class="title">Success</h1>
+					<h1 class="title">Register</h1>
 				</div>
 			</div>
 		</div>
@@ -307,27 +374,26 @@
       <div class="row about-margins">
         <div class="col-lg-10 col-md-offset-1">
 
-          <?php if(isset($transStatus) && ($transStatus == 1 || $transStatus == 5 || $transStatus == 6 || $transStatus == 8 || $transStatus == 10)){ ?>
+          <a href="register"><div id="flag"></div></a>
 
-            <div class = "elliot" style= "text-align:center;">
+           <section id="register" class="section-fullscreen light">
+          	<div class="section-content">
+          		<h2 class="elliot">Register</h2>
 
-              <h2 class = "confirm-heading">Thank You For Registering!</h2>
-              <p class = "checkmark"><img src = "http://thoughtatwork.cias.rit.edu/img/confirm_check.png" /></p>
-              <p class = "confirm-email">You will be receiving a confirmation email from <a href = "mailto:hello@thoughtatwork.org">hello@thoughtatwork.org</a></p>
-              <p class = "confirm-action"><a href = "getready.html">Getting Ready &#8594;</a></p>
+                  <p class="elliot" class >Thank you for completing the first step in your registration. To make your secure credit card payment, click the button below.</p>
+                  <p class="elliot">Immediately after the payment transaction is processed, you will receive an email verifying the information you provided.</p>
 
-            </div>
+          <?php
 
-          <?php }else{ ?>
 
-            <div class = "elliot" style= "text-align:center;">
+      	//print '<pre>';print_r($_POST);print '</pre>';
+      	echo $content;
 
-              <h2 class = "confirm-heading">There was a problem processing your order.</h2>
-              <p class = "confirm-email">Please contact <a href = "mailto:hello@thoughtatwork.org">hello@thoughtatwork.org</a></p>
+          ?>
 
-            </div>
+          	</div>
+           </section>
 
-          <?php } ?>
 
         </div>
       </div>

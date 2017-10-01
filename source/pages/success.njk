@@ -1,0 +1,15 @@
+<!-- app/pages/register.njk-->
+{% extends "layout-success.njk" %}
+
+{% block title %}
+    Success
+{% endblock %}
+{% block content %}
+    {# leaving these out for soft launch -- PUT BACK IN ON NAV LAUNCH #}
+    {# {% import 'macros/nav-macro.njk' as nav %}
+    {{nav.active('register')}} #}
+    <div class="container">
+        {% include "partials/success.njk" %}
+        {% include "partials/footer.njk" %}
+    </div>
+{% endblock %}

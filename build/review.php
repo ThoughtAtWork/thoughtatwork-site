@@ -2,10 +2,10 @@
 
   //print '<pre>';print_r($_POST); print '</pre>';
 
-  header('Location: register.html');
+  // header('Location: register.html');
   use RIT\Prod\Nelnet as Nelnet;
 
-  // require_once('admin/config.php');
+  require_once('admin/config.php');
   require_once("nelnet-library/src/autoload.php");
 
   $proceed = false;

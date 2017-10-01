@@ -1,0 +1,40 @@
+<script src="js/register.js"></script>
+
+<div class="header">
+    <h1 class="header__title" style="margin: 30px">success</h1>
+    <div class="header__img header__img-background-success" alt="header graphic"></div>
+</div>
+
+<div class="container">
+    <?php if(isset($transStatus) && ($transStatus == 1 || $transStatus == 5 || $transStatus == 6 || $transStatus == 8 || $transStatus == 10)){ ?>
+
+    <div class="text-card-default">
+        <h4>Thank You For Registering!</h4>
+        <br><br>
+        <p class="checkmark"><img src="http://thoughtatwork.cias.rit.edu/img/confirm_check.png"/></p>
+        <br>
+        <p>You will be receiving a confirmation email from 
+            <a href="mailto:hello@thoughtatwork.org">hello@thoughtatwork.org</a>
+        </p>
+        <br>
+        {# <p class="confirm-action">
+                <a href="info.html">Find out a bit more &#8594;</a>
+            </p> #}
+
+    </div>
+
+<?php }else{ ?>
+
+    <div class="text-card-default">
+        <br><br>
+        <h4 class="confirm-heading">There was a problem processing your order.</h4>
+        <br>
+        <p class="confirm-email">Please contact
+            <a href="mailto:hello@thoughtatwork.org">hello@thoughtatwork.org</a>
+        </p>
+
+    </div>
+
+    <?php } ?>
+
+</div>
