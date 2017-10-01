@@ -52,6 +52,8 @@ footer {
         height: 60px;
         line-height: 60px;
         margin-top: 18px;
+        margin-left: 35px;
+        margin-top: 8px;
         background-color: white;
     }
 
@@ -108,7 +110,9 @@ footer {
             width: 45%;
         }
 
-        .sponsor {}
+        .sponsor {
+          margin-left: 20px;
+        }
 
         .be-sponsor {}
     }
