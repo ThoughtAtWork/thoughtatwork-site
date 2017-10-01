@@ -5,16 +5,21 @@
 }
 
 .form-row-heading {
-	left: 3vw;
+	left: 3%;
 	right: auto;
 }
 
 .icon-row-heading,
 .form-row-heading {
 	position: absolute;
-	right: 3vw;
-	top: 0;
+	right: 3%;
+	top: -4%;
 	z-index: -1;
+}
+
+.icon-row-heading,
+{
+	position: relative;
 }
 
 .form-row {
