@@ -1,0 +1,39 @@
+.header {
+    position: relative;
+    margin-bottom: 100px;
+    &__img {
+      position: absolute;
+      height: 6.6vw;
+      width: 75.06vw;
+      @include card--drop-shadow;
+      z-index: -1;
+      top: 30px;
+      right: 0;
+      &-background {
+        height: 6.6vw;
+        width: 75.06vw;
+        &-register{
+          background: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
+          background-position: center center;
+          background-size: cover;
+        }
+        &-review{
+          background: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
+          background-position: right top;
+          background-size: cover;
+        }
+        &-success{
+          background: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
+          background-position: left bottom;
+          background-size: cover;
+        }
+      }
+    }
+    @include media ('<md') {
+      margin-top: 20px;
+        &__img {
+          height: 100px;
+          top: 40px;
+        }
+    }
+}
