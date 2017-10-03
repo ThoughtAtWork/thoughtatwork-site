@@ -1,7 +1,7 @@
 {
   "speakers": [{
       "fields": "UI/UX | Marketing",
-      "headshot": "assets/graphics/speakers/miguel_cardona.jpg",
+      "headshot": "assets/graphics/speakers/miguel_cardona.png",
       "firstName": "Miguel",
       "lastName": "Cardona",
       "position": "Lead Designer",
@@ -19,7 +19,7 @@
     },
     {
       "fields": "UI/UX | Marketing",
-      "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+      "headshot": "assets/graphics/speakers/julie.png",
       "firstName": "Julie",
       "lastName": "Zhuo",
       "position": "VP of Design",
@@ -64,7 +64,7 @@
 },
 {
   "fields": "Industrial Design",
-  "headshot": "assets/graphics/speakers/emilie_baltz",
+  "headshot": "assets/graphics/speakers/emilie_baltz.png",
   "firstName": "Emilie",
   "lastName": "Baltz",
   "position": "Food Technologist",
@@ -100,7 +100,7 @@
 },
 {
   "fields": "Health Care",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/susanna_rose.png",
   "firstName": "Susanna",
   "lastName": "Rose",
   "position": "Mental Health Counselor",
@@ -109,7 +109,7 @@
 },
 {
   "fields": "Motion Graphics | Graphic Design",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/austin_shaw.png",
   "firstName": "Austin",
   "lastName": "Shaw",
   "position": "Professor",
@@ -118,7 +118,7 @@
 },
 {
   "fields": "Graphic Design",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/mitch_goldstein.png",
   "firstName": "Mitch",
   "lastName": "Goldstein",
   "position": "Professor",
@@ -127,7 +127,7 @@
 },
 {
   "fields": "Motion Graphics",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/tnaya_witmer.png",
   "firstName": "Tnaya",
   "lastName": "Witmer",
   "position": "Senior Designer",
@@ -136,7 +136,7 @@
 },
 {
   "fields": "Graphic Design | UX Design",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/andrew_herzog.png",
   "firstName": "Andrew",
   "lastName": "Herzog",
   "position": "Designer",
