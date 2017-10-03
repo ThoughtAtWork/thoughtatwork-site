@@ -15,6 +15,7 @@
       position: absolute;
       height: 80px;
       width: 75.06vw;
+	  max-width: 1440px;
       @include card--drop-shadow;
       z-index: -1;
       top: 30px;
