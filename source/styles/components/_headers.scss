@@ -3,7 +3,9 @@
     margin-bottom: 100px;
 	&__botmargin{
 		position: relative;
-		margin-bottom: 258px;
+    	margin-bottom: 270px;
+    	margin-top: 136px;
+    	margin-right: 90px;
 	}
 	&__title{
 		position: absolute;
@@ -15,6 +17,7 @@
       position: absolute;
       height: 80px;
       width: 75.06vw;
+	  max-width: 1800px;
       @include card--drop-shadow;
       z-index: -1;
       top: 30px;
@@ -70,5 +73,11 @@
           height: 80px;
           top: 40px;
         }
+		&__botmargin{
+			position: relative;
+	    	margin-bottom: 270px;
+	    	margin-top: -116px;
+	    	margin-right: 0;
+		}
     }
 }

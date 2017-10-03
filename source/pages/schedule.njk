@@ -8,12 +8,12 @@
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'schedule' -->
     {{nav.active('schedule')}}
+
+	{% import 'macros/header-macro.njk' as header %}
+	{{header.pageNames( 'Schedule' )}}
+	
     <div class="container">
-        <div class="header__botmargin">
-			<div class="header__img header__img-background-schedule" alt="header graphic">
-				<h1 class="header__title">Schedule</h1>
-			</div>
-        </div>
+
         <div id="schedule">
             {% for i in range(9, 18) %}
                 <div class="timeLine">
