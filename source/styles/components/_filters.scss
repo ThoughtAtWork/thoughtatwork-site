@@ -64,7 +64,14 @@ body{
 
 	.filter__header {
 		font-weight: 500;
-		font-size: vw(20px);
+		// font-size: vw(20px);
+
+		$min_width: $sm;
+		$max_width: $xl;
+		$min_font: 22px;
+		$max_font: 28px;
+		@include fluid-type($min_width, $max_width, $min_font, $max_font);
+
 		opacity: 0.6;
 	}
 
