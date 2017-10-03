@@ -28,7 +28,7 @@
   },
   {
 	"fields": "Industrial Design | Illustration",
-	"headshot": "assets/graphics/speakers/pattie_moore.jpg",
+	"headshot": "assets/graphics/speakers/anita_casale.png",
 	"firstName": "Anita",
 	"lastName": "Casale",
 	"position": "Design Operations",
@@ -37,7 +37,7 @@
  },
  {
    "fields": "Industrial Design | Illustration",
-   "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+   "headshot": "assets/graphics/speakers/spencer_nugent.png",
    "firstName": "Spencer",
    "lastName": "Nugent",
    "position": "Owner-Founder",
@@ -46,7 +46,7 @@
 },
 {
   "fields": "Motion Graphics",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/gordon_reid.png",
   "firstName": "Gordon",
   "lastName": "Reid",
   "position": "Creative Director",
@@ -55,7 +55,7 @@
 },
 {
   "fields": "Industrial Design",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/jeff_smith.png",
   "firstName": "Jeff",
   "lastName": "Smith",
   "position": "Education Program Manager",
@@ -64,7 +64,7 @@
 },
 {
   "fields": "Industrial Design",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/emilie_baltz",
   "firstName": "Emilie",
   "lastName": "Baltz",
   "position": "Food Technologist",
@@ -73,7 +73,7 @@
 },
 {
   "fields": "Motion Graphics",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/jeremy_cox.png",
   "firstName": "Jeremy",
   "lastName": "Cox",
   "position": "Creative Director",
@@ -82,7 +82,7 @@
 },
 {
   "fields": "Industrial Design | UX Design",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/tim_wood.png",
   "firstName": "Tim",
   "lastName": "Wood",
   "position": "Professor",
@@ -91,7 +91,7 @@
 },
 {
   "fields": "Industrial Design",
-  "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+  "headshot": "assets/graphics/speakers/will_gibbons.png",
   "firstName": "Will",
   "lastName": "Gibbons",
   "position": "Global Training Specialist",
