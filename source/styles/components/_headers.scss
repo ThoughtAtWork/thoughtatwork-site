@@ -1,24 +1,58 @@
 .header {
     position: relative;
     margin-bottom: 100px;
+	&__botmargin{
+		position: relative;
+		margin-bottom: 258px;
+	}
+	&__title{
+		position: absolute;
+		top: -65px;
+		left: -120px;
+	}
     &__img {
       position: absolute;
-      height: 6.6vw;
+      height: 80px;
       width: 75.06vw;
       @include card--drop-shadow;
       z-index: -1;
       top: 30px;
       right: 0;
       &-background {
-        height: 6.6vw;
+        height: 80px;
         width: 75.06vw;
         &-register{
           background: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
           background-position: center center;
           background-size: cover;
         }
+		&-info{
+          background: url("../assets/graphics/taw-vis-inverted-1.jpg");
+          background-position: left top;
+          background-size: cover;
+        }
+		&-speakers{
+          background: url("../assets/graphics/taw-vis-inverted-1.jpg");
+          background-position: left top;
+          background-size: cover;
+        }
+		&-schedule{
+          background: url("../assets/graphics/taw-vis-inverted-1.jpg");
+          background-position: left top;
+          background-size: cover;
+        }
+		&-contact{
+          background: url("../assets/graphics/taw-vis-inverted-1.jpg");
+          background-position: left top;
+          background-size: cover;
+        }
+		&-about{
+          background: url("../assets/graphics/taw-vis-inverted-1.jpg");
+          background-position: left top;
+          background-size: cover;
+        }
         &-review{
-          background: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
+          background: url("../assets/graphics/TAW-Vis-Dev-6-Edit.jpg");
           background-position: right top;
           background-size: cover;
         }
@@ -32,7 +66,7 @@
     @include media ('<md') {
       margin-top: 20px;
         &__img {
-          height: 100px;
+          height: 80px;
           top: 40px;
         }
     }
