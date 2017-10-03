@@ -8,8 +8,14 @@
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'info' -->
     {{nav.active('info')}}
+
+
+	{% import 'macros/header-macro.njk' as header %}
+	{{header.pageNames( 'Info' )}}
+
+
     <div class="container">
-        {% include "partials/info.njk" %}
+		{% include "partials/info.njk" %}
         {% include "partials/footer.njk" %}
     </div>
 {% endblock %}
