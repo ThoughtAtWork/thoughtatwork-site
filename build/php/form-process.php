@@ -7,7 +7,7 @@ $message = $_POST["message"];
 
 
 //$EmailTo = "hello@thoughtatwork.org";
-$EmailTo = "lucaskern8@gmail.com";
+$EmailTo = "hello@thoughtatwork.org";
 
 $Subject = "Thought At Work Contact Form Submission";
 

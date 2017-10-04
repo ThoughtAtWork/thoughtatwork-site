@@ -1,16 +1,16 @@
 /* Color Variables */
 $teal: #46CCCF;
 $normal-grey: #B0B0B0;
-$light-grey: #EFEFEF;
+$light-grey: #E4E4E4;
 $dark-grey: #4D4D4D;
 $color-background: #FAFAFA;
 /* Drop Shadows*/
 @mixin text--drop-shadow {
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	text-shadow: 0 0 10px rgba(0, 0, 0, .15);
 }
 @mixin card--drop-shadow {
-    box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+	box-shadow: 0 0 20px 0 rgba(79, 170, 177, .15);
 }
 @mixin register--drop-shadow {
-    box-shadow: 0 0 10px 0 rgba(70, 204, 207, 0.74);
+	box-shadow: 0 0 10px 0 rgba(70, 204, 207, .74);
 }

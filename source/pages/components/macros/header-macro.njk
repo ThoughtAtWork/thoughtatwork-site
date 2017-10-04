@@ -1,0 +1,22 @@
+{% macro pageNames(pName) %}
+<div class="header__botmargin">
+	<div class="header__img header__img-background-register" alt="header graphic">
+		<h1 class="header__title" >
+			{# {{ pName }} #}
+			{%if pName == 'Info' %}
+			<span class="up">I<span>nfo
+				{%elif pName == 'Speakers' %}
+				Speakers
+				{%elif pName == 'Contact' %}
+				Contact
+				{%elif pName == 'Schedule' %}
+				Schedule
+				{%elif pName == 'About' %}
+				About
+				{%elif pName == 'Register' %}
+				Register
+				{% endif %}
+			</h1>
+		</div>
+	</div>
+	{% endmacro %}

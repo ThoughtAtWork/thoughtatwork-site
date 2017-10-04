@@ -9,17 +9,20 @@
 
     {{nav.active('speakers')}}
 
-    
-	<div class="header">
-	    <h1 class="header__title">Speakers</h1>
-	    <img class="header__img" src="assets/graphics/TAW-Vis-Dev-6-Edit.jpg" alt="header graphic">
-	</div>
-    <div class="container">
+
+
+	{% import 'macros/header-macro.njk' as header %}
+
+	{{header.pageNames( 'Speakers' )}}
+
+	<div class="container">
+
+
         {% include "partials/cardKeynoteSpeaker.njk" %}
         {% include "partials/speakersFilters.njk" %}
         {% include "partials/cardGridSpeaker.njk" %}
         {# {% include "partials/speakerCards-example.njk" %} #}
-        
+
         {% include "partials/footer.njk" %}
     </div>
 {% endblock %}

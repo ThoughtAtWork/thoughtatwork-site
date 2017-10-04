@@ -14,12 +14,14 @@ console.log('js compiled');
 const navigation = require('./navigation.js');
 const scrollUp = require('./scrollUp.js');
 const register = require('./register.js');
-const contact = require('./contactScript.js');
+const contactScript = require('./contactScript.js');
 const squiggle = require('./squiggle.js');
 
 
 window.onload = function() {
-    console.log("file included", navigation);
-    console.log("file included", scrollUp);
-    console.log("file included". squiggle);
+    console.log("navigation included", navigation);
+    console.log("register included", register);
+    console.log("contactScript included", contactScript);
+    console.log("squiggle included", squiggle);
+    console.log("scrollUp include", scrollUp);
 }

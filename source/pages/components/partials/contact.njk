@@ -1,7 +1,4 @@
-<div class="header">
-    <h1 class="header__title">Contact</h1>
-    <img class="header__img" src="assets/graphics/TAW-Vis-Dev-6-Edit.jpg" alt="header graphic">
-</div>
+
 
 <!-- General Info Section -->
 <section class="gen-info-section">
@@ -39,15 +36,15 @@
 			<p class="text-align-left form-message">How can we help? -</p>
 
 			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
-				<input id="fName" class="first-half form__input input-text" type="text" name="first_name" placeholder="First Name">
+				<input id="fName" class="form-control first-half form__input input-text" type="text" name="first_name" placeholder="First Name">
 			</div>
 
 			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
-				<input id="lName" class="second-half form__input input-text" type="text" name="last_name" placeholder="Last Name">
+				<input id="lName" class="form-control second-half form__input input-text" type="text" name="last_name" placeholder="Last Name">
 			</div>
 
 			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
-				<input id="email" class="first-half form__input input-text" type="text" name="email" placeholder="Email">
+				<input id="email" class="form-control first-half form__input input-text" type="text" name="email" placeholder="Email">
 			</div>
 
 			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
@@ -57,10 +54,11 @@
 			</div>
 
 			<div class="input-field form-full-size grid__col grid__col--5-of-5">
-				<textarea id="message" value="comment" class="form__input contact-message" placeholder="Your Message"></textarea>
+				<textarea id="message" value="comment" class="form-control form__input contact-message" placeholder="Your Message"></textarea>
 			</div>
 
 			<input type="submit" value="SUBMIT" class="action--button submit-link grid__col grid__col--1-of-5 grid__col--m-1-of-5 grid__col--push-4-of-5">
+      <div id="msgSubmit" class="text-align-right display-none" style="padding-top: 20px;"><p>Message Submitted!</p></div>
 			</input>
 		</form>
 	</div>

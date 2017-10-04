@@ -1,5 +1,5 @@
 <?php
-  header('Location: register.html');
+  // header('Location: register.html');
   use RIT\Prod\Nelnet as Nelnet;
 
   require_once('admin/config.php');
