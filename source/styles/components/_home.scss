@@ -8,6 +8,7 @@
         @include text--drop-shadow;
     }
     &__image {
+        //padding-top: calc( 27vw/ 55vw * 100%);
         margin: 0 auto;
         z-index: -1;
         width: 80.7vw;
@@ -69,6 +70,7 @@
   text-align: center;
   margin-top: 204px;
   &__backdrop{
+    position: relative;
     z-index: -1;
     margin-left: auto;
     margin-right: auto;
