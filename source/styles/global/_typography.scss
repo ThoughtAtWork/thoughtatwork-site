@@ -48,7 +48,7 @@ h3 {
 	font-size: 80px;
 	@include text--drop-shadow;
 	color: $dark-grey;
-	@include media ('>sm') {
+	@include media ('<md') {
 		font-size: 64px;
 	}
 }

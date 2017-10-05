@@ -8,6 +8,11 @@
     {# leaving these out for soft launch -- PUT BACK IN ON NAV LAUNCH #}
     {# {% import 'macros/nav-macro.njk' as nav %}
     {{nav.active('register')}} #}
+
+    {% import 'macros/header-macro.njk' as header %}
+
+    {{header.pageNames( 'Success' )}}
+
     <div class="container">
         {% include "partials/success.njk" %}
         {% include "partials/footer.njk" %}
