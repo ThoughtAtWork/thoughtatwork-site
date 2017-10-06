@@ -5,7 +5,7 @@
 
 	<div class="gen-info-row">
 		<div class="text-align-right gen-info-heading">
-			<h2 class="gen-info-title">we're here for you</h2>
+			{# <h2 class="gen-info-title">we're here for you</h2> #}
 		</div>
 
 		<figure class="gen-info-icon">
@@ -28,36 +28,37 @@
 <section class="form-section">
 
 	<div class="contact-form-heading">
-		<h2 class="form-title">get in touch</h2>
+		<h2 class="form-title" style="
+    width: 100vw; bottom: -7vw;">get in touch</h2>
 	</div>
 
 	<div class="form-row">
 		<form id="contactForm" class="input-form grid">
 			<p class="text-align-left form-message">How can we help? -</p>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
 				<input id="fName" class="form-control first-half form__input input-text" type="text" name="first_name" placeholder="First Name">
 			</div>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
 				<input id="lName" class="form-control second-half form__input input-text" type="text" name="last_name" placeholder="Last Name">
 			</div>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
 				<input id="email" class="form-control first-half form__input input-text" type="text" name="email" placeholder="Email">
 			</div>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
 				<select id="concern" class="second-half form__input input-text" name="what_this_about">
 					<option value="what-this-about" selected="true" disabled="disabled">What's this about?</option>
 				</select>
 			</div>
 
-			<div class="input-field form-full-size grid__col grid__col--5-of-5">
+			<div class="input-field form-full-size grid__col grid__col--5-of-5" style="padding-right: 15px;">
 				<textarea id="message" value="comment" class="form-control form__input contact-message" placeholder="Your Message"></textarea>
 			</div>
 
-			<input type="submit" value="SUBMIT" class="action--button submit-link grid__col grid__col--1-of-5 grid__col--m-1-of-5 grid__col--push-4-of-5">
+			<input type="submit" value="SUBMIT" class="action--button submit-link grid__col grid__col--1-of-5 grid__col--m-1-of-5 grid__col--push-4-of-5" style="padding-right: 15px;">
       <div id="msgSubmit" class="text-align-right display-none" style="padding-top: 20px;"><p>Message Submitted!</p></div>
 			</input>
 		</form>
