@@ -50,6 +50,13 @@
 	resize: vertical;
 }
 
+@include media('<md') {
+	.gen-info-row .gen-info-icon .icon-image{
+		width: 28vw;
+		height: auto;
+	}
+}
+
 @include media('<sm') {
 	.gen-info-row {
 		box-sizing: border-box;
@@ -65,6 +72,10 @@
 				width: 48vw;
 				height: auto;
 			}
+		}
+
+		.gen-info-message{
+			margin-top: 7vw;
 		}
 	}
 
