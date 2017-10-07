@@ -1,5 +1,3 @@
-
-
 <!-- General Info Section -->
 <section class="gen-info-section">
 
@@ -33,7 +31,8 @@
 	</div>
 
 	<div class="form-row">
-		<form id="contactForm" class="input-form grid">
+		 <form id="contactForm" class="input-form grid" action="https://formspree.io/mjyyebex" method="POST">
+		 	<input type="text" name="_gotcha" style="display: none">
 			<p class="text-align-left form-message">How can we help? -</p>
 
 			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
@@ -51,6 +50,11 @@
 			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
 				<select id="concern" class="second-half form__input input-text" name="what_this_about">
 					<option value="what-this-about" selected="true" disabled="disabled">What's this about?</option>
+					<option value="Just saying hey">Just saying hey</option>
+					<option value="Important question">Important question</option>
+					<option value="Sponsorship inquiry">Sponsorship inquiry</option>
+					<option value="Speaking inquiry">Speaking inquiry</option>
+					<option value="Dream interpretation">Dream interpretation</option>
 				</select>
 			</div>
 
