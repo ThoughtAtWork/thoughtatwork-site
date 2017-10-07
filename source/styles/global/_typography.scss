@@ -38,6 +38,7 @@ h2 {
 	color: $light-grey;
 
 	position: absolute;
+	z-index: -1;
 
 	@include media ('<lg') {
 		font-size: 80px;
