@@ -70,9 +70,17 @@
 .home-every{
   text-align: center;
   margin-top: 204px;
-  z-index: -1;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  //z-index: -1;
+  //margin-left: auto;
+  //margin-right: auto;
+  &__backdrop{
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    //margin bottom: 80px;
+  }
   &__text{
     position: relative;
     bottom: 40px;
@@ -112,8 +120,8 @@
   }
   &__why{
     display: block;
-    width: 30.06vw;
-    margin-left: 50px;
+    margin-top: 10px;
+    width: 22.06vw;
   }
   .title--gap{
     line-height: 8.94vh;
@@ -172,14 +180,13 @@
 
 .text-card {
     margin-top: 10px;
-    background-color: white;
+    //background-color: white;
     width: 432px;
     height: 138px;
     padding: 30px 33px;
-    float: right;
+    margin-left: 50px;
     margin-right: 106px;
-    @include card--drop-shadow;
-
+    //@include card--drop-shadow
     &__title {
         padding-bottom: 3%;
         text-transform: uppercase;
