@@ -1,14 +1,17 @@
+<script type="text/javascript" src="vendors/jquery.min.js"></script>
+
 <div class="header">
     <h1 class="header__title" style="margin: 30px">register</h1>
-    {# <img class="header__img" src="assets/graphics/TAW-Vis-Dev-6-Edit.jpg" alt="header graphic"> #}
+    <div class="header__img header__img-background-register" alt="header graphic"> </div>
 </div>
 
 <!-- Icon Section -->
 
 <section class="icon-section">
-    <div class="text-align-right icon-row-heading">
-        <h2 class="register-icon-title register-h2">thirty dollar value</h2>
-    </div>
+    <h2 class="text-align-right icon-row-heading register-icon-title register-h2">thirty dollar value</h2>
+    {# <div class="text-align-right icon-row-heading">
+        <h2 class="text-align-right icon-row-heading register-icon-title register-h2">thirty dollar value</h2>
+    </div> #}
 
     <div class="text-align-center icon-row grid">
         <figure class="icon grid__col grid__col--1-of-4 grid__col--m-1-of-4 grid__col--s-1-of-4">
@@ -37,13 +40,14 @@
 
 <section class="form-section">
     <div class="form-row-heading">
-        <h2 class="form-row-title register-h2">ready, set, register</h2>
+        <h2 class="text-align-right icon-row-heading form-row-title register-h2">ready, set, register</h2>
     </div>
 
     <div class="form-row">
         <form class="text-align-center input-form grid" id="registerForm" method="post" action="review.php">
 
-            <p class="text-align-left form-message">Now that we have your attention -</p>
+            {# <p class="text-align-left form-message">Now that we have your attention -</p> #}
+            <p  class="form-message" style="padding-bottom: 20px">Register now for only 30$ with code <strong>30ISBETTERTHAN40</strong></p>
 
             <div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
                 <input class="form__input input-text" type="text" id="first-name" name="first-name" placeholder="First Name" required>

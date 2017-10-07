@@ -74,7 +74,7 @@
     width: 30.06vw;
   }
   .title--gap{
-    line-height: 70px;
+    margin-bottom: 20px;
   }
 }
 
@@ -100,10 +100,21 @@
     background-color: white;
     width: 432px;
     height: 138px;
-    padding: 30px 33px;
+    padding: 30px 30px;
     float: right;
     margin-right: 106px;
     @include card--drop-shadow;
+    &-default {
+      padding: 30px;
+      background-color: white;
+      margin: 0 150px;
+      width: auto;
+      height: auto;
+      @include card--drop-shadow;
+      @include media ('<md') {
+        margin: 0 0px;
+      }
+    }
 
     .text-card__title {
         padding-bottom: 3%;
@@ -127,12 +138,4 @@
     right: 350px;
     text-transform: capitalize;
   }
-}
-
-.header {
-    .header__img {
-        height: 6.6vw;
-        width: 67.06vw;
-        @include card--drop-shadow;
-    }
 }

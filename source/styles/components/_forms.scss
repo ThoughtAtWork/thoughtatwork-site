@@ -5,16 +5,21 @@
 }
 
 .form-row-heading {
-	left: 3vw;
+	left: 3%;
 	right: auto;
 }
 
 .icon-row-heading,
 .form-row-heading {
 	position: absolute;
-	right: 3vw;
-	top: 0;
+	right: 3%;
+	top: -4%;
 	z-index: -1;
+}
+
+.icon-row-heading,
+{
+	position: relative;
 }
 
 .form-row {
@@ -167,7 +172,7 @@
 }
 .submit {
 	&-link {
-		margin-right: 6vw;
+		margin-right: 30px;
 		font-family: 'Elliot', sans-serif;
 		// font-weight: 800;
 		padding: 8px 10px;
@@ -177,7 +182,7 @@
 	}
 }
 
-@include media('<sm') {
+@include media('<smedium') {
 	.form-row {
 		padding-top: 2.5vw;
 	}

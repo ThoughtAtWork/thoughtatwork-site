@@ -23,7 +23,7 @@ h1 {
 	text-transform: uppercase;
 	@include text--drop-shadow;
 
-	@include media ('>sm') {
+	@include media ('>smedium') {
 		font-size: 60px;
 
 		.home-header__title {
@@ -38,9 +38,9 @@ h2 {
 	color: $light-grey;
 
 	position: absolute;
-	
+
 	@include media ('<lg') {
-		font-size: 100px;
+		font-size: 80px;
 	}
 }
 

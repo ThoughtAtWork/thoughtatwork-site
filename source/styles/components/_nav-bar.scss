@@ -76,14 +76,14 @@
         padding: 0 5px;
         border-radius: 4px;
         cursor: pointer;
-        display: hidden;
+        display: none;
     }
 
     &--register {
         padding: 15px;
         width: 30px;
         height: 30px;
-        display: hidden;
+        display: none;
         background-color: none;
     }
 
@@ -147,7 +147,7 @@
             color: #111;
             font-size: 35px;
 
-            display: visible;
+            display: block;
         }
 
         /// MOBILE NAV LOGO
@@ -162,7 +162,7 @@
 
         /// MOBILE NAV TICKET ICON
         &--register {
-            display: visible;
+            display: block;
             background-color: rgb(70,204,207);
             box-shadow: 0 0 10px 0 rgba(70, 204, 207, 0.74);
             float: right;

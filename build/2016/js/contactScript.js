@@ -12,7 +12,7 @@ function submitForm(){
     var email = $("#email").val();
     var concern = $("#concern").val();
     var message = $("#message").val();
- 
+
     $.ajax({
         type: "POST",
         url: "php/form-process.php",
@@ -25,7 +25,7 @@ function submitForm(){
     });
 }
 function formSuccess(){
-    $( "#msgSubmit" ).removeClass( "hidden" );
+    $( "#msgSubmit" ).removeClass( "display-none" );
 }
 
 function clearForm(){
