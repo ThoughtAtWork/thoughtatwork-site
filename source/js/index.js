@@ -16,7 +16,6 @@ const scrollUp = require('./scrollUp.js');
 const register = require('./register.js');
 const contact = require('./contactScript.js');
 
-
 window.onload = function() {
     console.log("file included", navigation);
     console.log("file included", scrollUp);
