@@ -5,9 +5,13 @@
     Contact
 {% endblock %}
 {% block content %}
-    {% import 'macros/nav-macro.njk' as nav %}
+    {# {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'contact' -->
-    {{nav.active('contact')}}
+    {{nav.active('contact')}} #}
+
+    {% import 'macros/header-macro.njk' as header %}
+    {{header.pageNames( 'Contact' )}}
+
     <div class="container">
         {% include "partials/contact.njk" %}
         {% include "partials/footer.njk" %}

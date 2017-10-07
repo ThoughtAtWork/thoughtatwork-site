@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><style>.cls-1{fill:none;stroke:#3dccd0;stroke-miterlimit:10;stroke-width:3px;}</style></defs><title>mail</title><g id="Layer_1" data-name="Layer 1"><rect class="cls-1" x="5.51" y="34.27" width="188.97" height="131.47" rx="5.77" ry="5.77"/><path class="cls-1" d="M193.63,40.76a10.69,10.69,0,0,0-9.83-6.49H16.21a10.69,10.69,0,0,0-9.79,6.41l88.24,70.9a7.84,7.84,0,0,0,9.79,0Z"/><line class="cls-1" x1="6.77" y1="161.64" x2="75.39" y2="97.76"/><line class="cls-1" x1="192.19" y1="161.64" x2="121.83" y2="96.14"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#3DCCD0;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<title>mail</title>
+<g id="Layer_1_1_">
+	<path class="st0" d="M34.4,51.4h131.2c2.4,0,4.3,1.9,4.3,4.3v88.7c0,2.4-1.9,4.3-4.3,4.3H34.4c-2.4,0-4.3-1.9-4.3-4.3V55.7
+		C30.1,53.3,32,51.4,34.4,51.4z"/>
+	<path class="st0" d="M169.2,56.2c-1.2-2.9-4.1-4.8-7.3-4.8H38c-3.1,0-6,1.9-7.2,4.7l65.2,52.4c2.1,1.7,5.1,1.7,7.2,0L169.2,56.2z"
+		/>
+	<line class="st0" x1="31.1" y1="145.6" x2="81.8" y2="98.3"/>
+	<line class="st0" x1="168.2" y1="145.6" x2="116.1" y2="97.1"/>
+</g>
+</svg>
