@@ -75,11 +75,11 @@ body{
 		opacity: 0.6;
 	}
 
-	transition: padding 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
 }
 
 .speakFilter:hover, .speakFilter--selected {
-	padding: vw(20px) vw(24px);
+	transform: scale(1.1);
 }
 
 .speakFilter--selected .filter__header {
