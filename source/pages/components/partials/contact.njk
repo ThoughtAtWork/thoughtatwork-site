@@ -1,21 +1,21 @@
-<!-- General Info Section -->
-<section class="gen-info-section">
+<!-- contacteral Info Section -->
+<section class="contact-info-section">
 
-	<div class="gen-info-row">
-		<div class="text-align-right gen-info-heading">
-			{# <h2 class="gen-info-title">we're here for you</h2> #}
+	<div class="contact-info-row">
+		<div class="text-align-right contact-info-heading">
+			<h2 class="text-align-right icon-row-heading register-icon-title">we're here for you</h2>
 		</div>
 
-		<figure class="gen-info-icon">
-			<img class="icon-image" src="../assets/graphics/icons/mail.svg" alt="Gen-Info-Icon">
+		<figure class="contact-info-icon">
+			<img class="icon-image icon-contact" src="../assets/graphics/icons/mail.svg" alt="contact-Info-Icon">
 		</figure>
 
-		<div class="gen-info-message">
+		<div class="contact-info-message">
 			<p>Any questions or concerns? Perhaps you're interested in speaking or sponsoring?</p>
 			<br><br>
 			<p>Maybe we already have an answer to your question.</p>
 			<br>
-			<a href="info.html">CHECK OUT OUR GENERAL INFO PAGE &rarr;</a>
+			<a class="text-uppercase" href="register.php">Register Now &rarr;</a>
 		</div>
 
 	</div>
@@ -25,29 +25,28 @@
 <!-- Contact Form Section -->
 <section class="form-section">
 
-	<div class="contact-form-heading">
-		<h2 class="form-title" style="
-    width: 100vw; bottom: -7vw;">get in touch</h2>
+	<div class="contact-form-heading form-row-heading">
+		<h2 class="form-title form-row-title">get in touch</h2>
 	</div>
 
 	<div class="form-row">
-		 <form id="contactForm" class="input-form grid" action="https://formspree.io/mjyyebex" method="POST">
-		 	<input type="text" name="_gotcha" style="display: none">
+		<form id="contactForm" class="input-form grid" action="https://formspree.io/xljjwezx" method="POST">
+			<input type="text" name="_gotcha" style="display: none">
 			<p class="text-align-left form-message">How can we help? -</p>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
 				<input id="fName" class="form-control first-half form__input input-text" type="text" name="first_name" placeholder="First Name">
 			</div>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
 				<input id="lName" class="form-control second-half form__input input-text" type="text" name="last_name" placeholder="Last Name">
 			</div>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
 				<input id="email" class="form-control first-half form__input input-text" type="text" name="email" placeholder="Email">
 			</div>
 
-			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2" style="padding-right: 15px;">
+			<div class="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
 				<select id="concern" class="second-half form__input input-text" name="what_this_about">
 					<option value="what-this-about" selected="true" disabled="disabled">What's this about?</option>
 					<option value="Just saying hey">Just saying hey</option>
@@ -58,13 +57,21 @@
 				</select>
 			</div>
 
-			<div class="input-field form-full-size grid__col grid__col--5-of-5" style="padding-right: 15px;">
+			<div class="input-field form-full-size grid__col grid__col--5-of-5">
 				<textarea id="message" value="comment" class="form-control form__input contact-message" placeholder="Your Message"></textarea>
 			</div>
 
-			<input type="submit" value="SUBMIT" class="action--button submit-link grid__col grid__col--1-of-5 grid__col--m-1-of-5 grid__col--push-4-of-5" style="padding-right: 15px;">
-      <div id="msgSubmit" class="text-align-right display-none" style="padding-top: 20px;"><p>Message Submitted!</p></div>
-			</input>
+			<!-- <input type="submit" value="SUBMIT" class="action--button submit-link grid__col grid__col--1-of-5 grid__col--m-1-of-5 grid__col--push-4-of-5" style="padding-right: 15px;">
+			</input> -->
+			<div class="text-align-right">
+				<button type="submit" class="flex-inline flex-align-items-center flex-justify-center action--link--button submit-link" style="margin-right: 17px;">
+					<input type="submit" value="SUBMIT" class="action--link--button grid__col grid__col--m-1-of-5"></input>
+					<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					<div id="msgSubmit" class="text-align-right display-none" style="padding-top: 20px;">
+						<p>Message Submitted!</p>
+					</div>
+			</button>
+			</div>
 		</form>
 	</div>
 

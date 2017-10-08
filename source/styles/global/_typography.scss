@@ -23,7 +23,13 @@ h1 {
 	text-transform: uppercase;
 	@include text--drop-shadow;
 
-	@include media ('>smedium') {
+	$min_width: $sm;
+	$max_width: $xl;
+	$min_font: 48px;
+	$max_font: 60px;
+	@include fluid-type($min_width, $max_width, $min_font, $max_font);
+
+	@include media ('>sm') {
 		font-size: 60px;
 
 		.home-header__title {
@@ -33,16 +39,15 @@ h1 {
 }
 
 h2 {
-	font-size: 120px;
 	font-weight: 500;
 	color: $light-grey;
-
 	position: absolute;
 	z-index: -1;
-
-	@include media ('<lg') {
-		font-size: 80px;
-	}
+	$min_width: $lg;
+	$max_width: $xl;
+	$min_font: 80px;
+	$max_font: 120px;
+	@include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
 
 h3 {
@@ -90,7 +95,7 @@ p {
 
 	@include media ('<sm') {
 		font-size: 18px;
-    line-height: 26px;
+		line-height: 26px;
 	}
 }
 

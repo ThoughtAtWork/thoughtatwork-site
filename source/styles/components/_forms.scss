@@ -1,6 +1,4 @@
-/* Icon */
-.form-section,
-.icon-section {
+.form-section {
 	position: relative;
 }
 
@@ -9,56 +7,15 @@
 	right: auto;
 }
 
-.icon-row-heading,
 .form-row-heading {
-	position: absolute;
+	position: relative;
 	right: 3%;
 	top: -4%;
 	z-index: -1;
 }
 
-.icon-row-heading,
-{
-	position: relative;
-}
-
 .form-row {
-	padding-top: 6.1vw;
-}
-
-.icon {
-	text-align: center;
-	margin: 0;
-
-	&-row {
-		max-width: 960px;
-		width: 96vw;
-		padding: 82px 0;
-		margin: 0 auto;
-	}
-
-	&-label {
-		font-size: 16px;
-		font-weight: bold;
-		padding-top: vw(30px);
-		@include media('>lg') {
-			padding-top: 30px;
-		}
-	}
-
-	&-image {
-		border-radius: 50%;
-		/*max-width: 134px;
-		max-height: 134px;*/
-		width: vw(134px);
-		height: vw(134px);
-		min-width: 72px;
-		min-height: 72px;
-		background-color: white;
-		@include card--drop-shadow;
-		/*margin: 2vw 3.67vw;*/
-		/* top/bottom not specified */
-	}
+	padding-top: 9%;
 }
 
 /* Form */
@@ -66,7 +23,10 @@
 	background-color: white;
 	width: 67.06vw;
 	max-width: $lg;
-	padding: 5.58vw 6.02vw;
+	padding: 5vw 5.5vw;
+	@include media('>xl') {
+		padding: 92px 99px;
+	}
 	margin: 0 auto;
 	@include card--drop-shadow;
 
@@ -80,8 +40,12 @@
 	box-sizing: border-box;
 	width: 100%;
 	background-color: #F9F9F9;
-	padding: 0 vw(20px);
-	margin: 1.5vw auto;
+	// padding: 0 vw(20px);
+	padding: 0 20%;
+	margin: 2vw auto;
+	@include media('>xl') {
+		margin: 25px auto;
+	}
 	border: none;
 	outline: none;
 	font-family: 'Elliot', sans-serif;
@@ -116,12 +80,6 @@
 
 /* Checkbox */
 .checkbox {
-	// margin: 0;
-	// width: 2.35vw;
-	// height: 2.35vw;
-	// position: absolute;
-	// top: 3vw;
-	// left: 0;
 	display: inline;
 	margin-right: 15px;
 	width: 32px;
@@ -150,14 +108,8 @@
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
-		/*width: 26.56vw;
-	display: inline-block;
-	position: relative;*/
 
 		&-label {
-			// position: absolute;
-			// top: 3.5vw;
-			// left: 4vw;
 			display: inline-block;
 			transform: translateY(-30%);
 		}
@@ -182,7 +134,7 @@
 	}
 }
 
-@include media('<smedium') {
+@include media('<sm') {
 	.form-row {
 		padding-top: 2.5vw;
 	}
@@ -203,7 +155,7 @@
 		width: 100%;
 		padding: 5.58vw 6.02vw;
 		margin: 3vw 0;
-    margin-top: 4vw;
+		margin-top: 4vw;
 		@include card--drop-shadow;
 
 		.form-message {

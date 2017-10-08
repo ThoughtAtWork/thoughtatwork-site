@@ -42,7 +42,7 @@
     }
 }
 
-@include media('<sm') {
+@include media('<xs') {
     .action{
         &--link--button, &--button{
             padding: vw(44px) 20px;

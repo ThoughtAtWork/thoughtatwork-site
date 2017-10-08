@@ -46,7 +46,7 @@
         margin: 0 0 12px;
         font-size: 50px;
         font-weight: 500;
-        $min_width: $sm;
+        $min_width: $xs;
         $max_width: $xl;
         $min_font: 28px;
         $max_font: 50px;
@@ -59,7 +59,7 @@
         letter-spacing: 1.4px;
         text-align: center;
         text-transform: uppercase;
-        $min_width: $sm;
+        $min_width: $xs;
         $max_width: $xl;
         $min_font: 18px;
         $max_font: 28px;
@@ -132,7 +132,7 @@
             display: inline-block;
             width: auto;
             margin-top: 4.5vh;
-            @include media('<sm') {
+            @include media('<xs') {
                 margin: 2.5vh 0;
             }
 
@@ -148,7 +148,7 @@
                 max-width: 244px;
                 margin-right: 44px;
                 padding: 8px 12px;
-                @include media ('<=sm') {
+                @include media ('<=xs') {
                     width: 100vw;
                     margin-right: 0;
                     margin-bottom: 20px;
