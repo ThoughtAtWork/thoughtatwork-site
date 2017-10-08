@@ -120,6 +120,7 @@
 		@media (min-width:1600px){
 			font-size: 110px;
 		}
+
 	}
 }
 .icon-row{
@@ -136,5 +137,11 @@
 	@media (min-width:1600px){
 		font-size: 110px;
 		top: 1vw;
+	}
+	@media (min-width:2000px){
+		top: 2.5vw;
+	}
+	@media (min-width:2300px){
+		top: 2.85vw;
 	}
 }

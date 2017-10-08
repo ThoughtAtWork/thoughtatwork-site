@@ -1,5 +1,7 @@
 // General Info Section
-
+body{
+	overflow-x: hidden;
+}
 .contact-form-section,
 .gen-info-section {
 	position: relative;
@@ -7,8 +9,10 @@
 
 .gen-info-heading {
 	position: absolute;
-	right: 3vw;
-	top: 2.9vw;
+	width: 100vw;
+	margin-left: -8vw;
+	padding-left: 1vw;
+	top: -38.5px;
 	z-index: -1;
 }
 
@@ -25,8 +29,12 @@
 		margin-right: 10vw;
 
 		.icon-image {
-			height: 18.4vw;
-			width: 18.4vw;
+			padding: 4.5vw;
+			background-size: 10vw;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-image: url('../assets/graphics/icons/mail.svg');
+			margin: 0px;
 		}
 	}
 
@@ -38,8 +46,9 @@
 .contact-form-heading {
 	position: absolute;
 	left: 3vw;
-	top: 0;
+	top: -18px;
 	z-index: -1;
+	width: 100vw;
 }
 
 
@@ -62,7 +71,7 @@
 			margin: 0;
 
 			.icon-image {
-				width: 48vw;
+
 				height: auto;
 			}
 		}
@@ -72,5 +81,45 @@
 		width: 100%;
 		min-height: 120px;
 		padding: vw(44px) vw(32px);
+	}
+}
+.gen-info-title{
+	font-size: 10vw;
+}
+.form-title{
+	font-size: 10vw;
+}
+
+.gen-info-title{
+	@media (min-width:1300px){
+		font-size: 125px;
+
+	}
+	@include media ('<md'){
+		display: none;
+
+	}
+}
+.gen-info-heading{
+	@media (min-width:2000px){
+		top: 0;
+
+	}
+}
+.contact-form-heading{
+	@media (min-width:2000px){
+		top: 1.85vw;
+
+	}
+	@include media ('<md'){
+		display: none;
+
+	}
+
+}
+.form-title{
+	@media (min-width:1300px){
+		font-size: 125px;
+
 	}
 }
