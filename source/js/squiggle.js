@@ -11,14 +11,14 @@ window.addEventListener('scroll', function(e) {
  document.querySelectorAll('.up')
    .forEach(function(el){
      if (scrl < 250 ) {
-       el.style.top = scrl/30*xRand +'px';
+       el.style.top = scrl/10*xRand +'px';
      }
  });
 
  document.querySelectorAll('.down')
    .forEach(function(el){
      if (scrl < 250) {
-       el.style.top = - scrl/30*yRand +'px';
+       el.style.top = - scrl/10*yRand +'px';
      }
  });
 });
