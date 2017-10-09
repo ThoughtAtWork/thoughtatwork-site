@@ -46,6 +46,8 @@
     }
 }
 
+/*=------------------------Home header above----------------------------*/
+
 .home-intro__text{
   margin-left: 178px;
   .text--normal{
@@ -66,6 +68,9 @@
     margin-left: 94;
   }
 }
+
+
+/*=------------------------Intro text above----------------------------*/
 
 .home-every{
   text-align: center;
@@ -103,6 +108,8 @@
   }
 }
 
+
+/*=------------------------Every backdrop above----------------------------*/
 
 .home-text{
   &__what{
@@ -147,23 +154,32 @@
   }
 }
 
-.home-video{
+/*=------------------------What Who Why above----------------------------*/
+
+.video-section{
    margin-top: 228px;
   .video-backdrop{
     line-height: 0;
     margin-left: 50px;
     z-index: -1;
   }
+}
+
+.video-container{
+  margin-top: 20px;
+  margin: 0 auto;
+  height: 730px;
+  width: 945px;
   &__recap{
     height: 530px;
     width: 945px;
-    margin-top: 20px;
-    margin: 0 auto;
+    //margin: 0 auto;
     display: block;
   }
 }
+
 @media only screen and (max-width: 963px) {
-  .home-video{
+  .video-section{
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 30px;
@@ -172,12 +188,19 @@
       margin-left: 95px;
       margin-bottom: 30px;
     }
+  }
+
+  .video-container{
     &__recap{
       width: 386px;
       height: 218px;
     }
   }
 }
+
+
+
+/*=------------------------Video above----------------------------*/
 
 .text-card {
     margin-top: 10px;
