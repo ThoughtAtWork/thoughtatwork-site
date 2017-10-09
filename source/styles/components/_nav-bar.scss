@@ -97,7 +97,6 @@
 
         &--container {
             padding: 0;
-            box-shadow: 0 0 10px 0 rgba(70, 204, 207, 0.74);
             background-color: white;
             position: fixed;
             width: 100%;
@@ -105,6 +104,8 @@
             top: 0;
             background-color: white;
             z-index: 10;
+
+            @include card--drop-shadow;
         }
 
         &--active {
@@ -163,12 +164,13 @@
         /// MOBILE NAV TICKET ICON
         &--register {
             display: block;
-            background-color: rgb(70,204,207);
-            box-shadow: 0 0 10px 0 rgba(70, 204, 207, 0.74);
+            background-color: $teal;
             float: right;
             margin-top: 10px;
             margin-right: 15px;
             display: inline-block;
+
+            @include register--drop-shadow;
         }
 
         // Prevents Desktop Nav From Appearing on Mobile
@@ -198,7 +200,7 @@
             z-index: 4 !important;
             top: 0;
             left: 0;
-            background-color: rgb(70,204,207);
+            background-color: $teal;
             background-color: rgba(70,204,207, 0.9);
             overflow: hidden;
 
