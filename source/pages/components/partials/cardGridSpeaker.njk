@@ -12,6 +12,16 @@
 				<img src="{{speaker.backingImg}}">
 			</div>
 		</div>
+
+		<script type="text/javascript">
+			var fieldString = "{{speaker.fields}}";
+			var fields = fieldString.split(" | ");
+			for(var i = 0; i < fields.length; i++){
+				fields[i] = fields[i].replace(/\s/g, '');
+				fields[i] = fields[i].toLowerCase();
+				$(".speakers-card--grid:last").addClass(fields[i]);
+			}
+		</script>
 	</div><!--
 -->{% endfor %}
 </div>
