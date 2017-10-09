@@ -47,7 +47,7 @@
     max-height: 265px;
   }
   &-row {
-  	margin-top: 164px;
+  	// margin-top: 164px;
   	@include media ('<md') {
   		margin-top: -50px;
   	}
