@@ -1,283 +1,305 @@
 .home-header {
-	margin-top: 94px;
-	text-align: center;
-	position: relative;
-	&__title {
-		text-transform: capitalize;
-		letter-spacing: 42px;
-		@include text--drop-shadow;
-	}
+    margin-top: 94px;
+    text-align: center;
+    position: relative;
+    &__title {
+        text-transform: capitalize;
+        letter-spacing: 42px;
+        @include text--drop-shadow;
+    }
 
-	&__image {
-		//padding-top: calc( 27vw/ 55vw * 100%);
-		margin: 0 auto;
-		z-index: -1;
-		width: 80.7vw;
-		height: 39.47vw;
-		@include card--drop-shadow;
-	}
-	&__date {
-		position: relative;
-		text-align: right;
-		bottom: 36px;
-		@include text--drop-shadow;
-		.date-month {
-			margin-right: 280px;
-			line-height: 55px;
-		}
-		.date-days {
-			margin-right: 200px;
-		}
-		.date-link {
-			margin-right: 200px;
-		}
-	}
+    &__image {
+        //padding-top: calc( 27vw/ 55vw * 100%);
+        margin: 0 auto;
+        z-index: -1;
+        width: 80.7vw;
+        height: 39.47vw;
+        @include card--drop-shadow;
+    }
+    &__date {
+        position: relative;
+        text-align: right;
+        bottom: 36px;
+        @include text--drop-shadow;
+        .date-month{
+          margin-right: 280px;
+          line-height: 55px;
+        }
+        .date-days{
+          margin-right: 200px;
+        }
+        .date-link{
+          margin-right: 200px;
+        }
+    }
 
-	@media only screen and (max-width: 1365px) {
-		//For the image and title
-		&__date {
-			text-align: center;
-			margin-right: auto;
-			margin-left: 165px;
-			.date-link {
-				line-height: 64px;
-			}
-		}
-	}
+    @media only screen and (max-width: 1365px) {
+        //For the image and title
+        &__date{
+          text-align: center;
+          margin-right: auto;
+          margin-left: 165px;
+          .date-link{
+            line-height: 64px;
+          }
+        }
+    }
 }
 
-.home-intro__text {
-	margin-left: 178px;
-	.text--normal {
-		text-decoration: none;
-		font-size: 32px;
-		font-weight: normal;
-	}
+/*=------------------------Home header above----------------------------*/
+
+.home-intro__text{
+  margin-left: 178px;
+  .text--normal{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: normal;
+  }
 }
 @media only screen and (max-width: 650px) {
-	.home-intro__text {
-		margin-left: 124px;
-	}
+    .home-intro__text{
+      margin-left: 124px;
+    }
 }
 
 @media only screen and (min-width: 963px) {
-	.home-intro__text {
-		text-align: left;
-		margin-left: 94;
-	}
-}
-
-.home-every {
-	text-align: center;
-	margin-top: 204px;
-	&__backdrop {
-		position: relative;
-		z-index: -1;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	&__text {
-		position: relative;
-		bottom: 40px;
-		width: 30.06vw;
-		margin: auto;
-		text-align: left;
-	}
-}
-
-@media only screen and (max-width: 963px) {
-	.home-every {
-		margin-top: 96px;
-		margin-left: 30px;
-		margin-right: 30px;
-		&__text {
-			margin-left: 72px;
-			margin-right: 72px;
-		}
-	}
+  .home-intro__text{
+    text-align: left;
+    margin-left: 94;
+  }
 }
 
 
-.home-text {
-	&__what {
-		display: inline-block;
-		vertical-align: middle;
-		width: 30.06vw;
-		margin-top: 78px;
-		margin-left: 184px;
-	}
-	&__who {
-		margin-left: 82px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-top: 165px;
-		width: 30.06vw;
-	}
-	.title--gap {
-		line-height: 8.94vh;
-	}
+/*=------------------------Intro text above----------------------------*/
+
+.home-every{
+  text-align: center;
+  margin-top: 204px;
+  position: relative;
+  //z-index: -1;
+  //margin-left: auto;
+  //margin-right: auto;
+  &__backdrop{
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: -140px;
+    margin: 0 auto;
+    //margin bottom: 80px;
+  }
+  &__text{
+    position: relative;
+    bottom: 40px;
+    width: 30.06vw;
+    margin: auto;
+    text-align: left;
+  }
 }
 
 @media only screen and (max-width: 963px) {
-	.home-text {
-		&__what {
-			display: block;
-			margin-top: 58px;
-			margin-left: 102px;
-		}
-		&__who {
-			margin-top: 46px;
-			display: block;
-			margin-left: 160px;
-		}
-		.title--gap {
-			line-height: normal;
-		}
-	}
+  .home-every{
+    margin-top: 96px;
+    margin-left: 30px;
+    margin-right: 30px;
+    &__text{
+      margin-left: 72px;
+      margin-right: 72px;
+    }
+  }
 }
 
-.home-video {
-	margin-top: 228px;
-	.video-backdrop {
-		line-height: 0;
-		margin-left: 50px;
-		z-index: -1;
-	}
-	&__recap {
-		height: 530px;
-		width: 945px;
-		margin-top: 20px;
-		margin: 0 auto;
-		display: block;
-	}
+
+/*=------------------------Every backdrop above----------------------------*/
+
+.home-text{
+  &__what{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30.06vw;
+    margin-top: 78px;
+    margin-left: 184px;
+  }
+  &__who{
+    margin-left: 82px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 165px;
+    width: 30.06vw;
+  }
+  &__why{
+    display: block;
+    margin-top: 10px;
+    width: 22.06vw;
+  }
+  .title--gap{
+    line-height: 8.94vh;
+  }
 }
+
 @media only screen and (max-width: 963px) {
-	.home-video {
-		margin-top: 100px;
-		margin-left: 30px;
-		margin-right: 30px;
-		.video-backdrop {
-			z-index: -1;
-			margin-left: 95px;
-			margin-bottom: 30px;
-		}
-		&__recap {
-			width: 386px;
-			height: 218px;
-		}
-	}
+  .home-text{
+    &__what{
+      display: block;
+      margin-top: 58px;
+      margin-left: 102px;
+    }
+    &__who{
+      margin-top: 46px;
+      display: block;
+      margin-left: 160px;
+    }
+    .title--gap{
+      line-height: normal;
+    }
+  }
 }
+
+/*=------------------------What Who Why above----------------------------*/
+
+.video-section{
+   margin-top: 228px;
+  .video-backdrop{
+    line-height: 0;
+    margin-left: 50px;
+    z-index: -1;
+  }
+}
+
+.video-container{
+  margin-top: 20px;
+  margin: 0 auto;
+  height: 730px;
+  width: 945px;
+  &__recap{
+    height: 530px;
+    width: 945px;
+    //margin: 0 auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 963px) {
+  .video-section{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    .video-backdrop{
+      z-index: -1;
+      margin-left: 95px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .video-container{
+    &__recap{
+      width: 386px;
+      height: 218px;
+    }
+  }
+}
+
+
+
+/*=------------------------Video above----------------------------*/
 
 .text-card {
-	margin-top: 10px;
-	background-color: white;
-	width: 432px;
-	height: 138px;
-	padding: 30px 33px;
-	float: right;
-	margin-right: 106px;
-	@include card--drop-shadow;
-
-	&-default {
-		padding: 30px;
-		background-color: white;
-		margin: 0 150px;
-		width: auto;
-		height: auto;
-		box-shadow: 0 0 20px 0 rgba(79, 170, 177, .15);
-	}
-	@include media ('<md') {
-		&-default {
-			margin: 0 0px;
-		}
-	}
-
-	&__title {
-		padding-bottom: 3%;
-		text-transform: uppercase;
-		color: $normal-grey;
-	}
+    margin-top: 10px;
+    //background-color: white;
+    width: 432px;
+    height: 138px;
+    padding: 30px 33px;
+    margin-left: 50px;
+    margin-right: 106px;
+    //@include card--drop-shadow
+    &__title {
+        padding-bottom: 3%;
+        text-transform: uppercase;
+        color: $normal-grey;
+    }
 }
+
 @media only screen and (max-width: 963px) {
-	.text-card {
-		text-align: left;
-		margin-left: 72px;
-		margin-right: 72px;
-		width: auto;
-		&__title {
-		}
-	}
+  .text-card{
+    text-align: left;
+    margin-left: 72px;
+    margin-right: 72px;
+    width: auto;
+    &__title{
+    }
+  }
 }
 
 
-.home-cards {
-	margin-top: 264px;
-	margin-left: 285px;
-	.home-card__speaker2 {
-		margin-top: 72px()important;;
-	}
+.home-cards{
+   margin-top: 264px;
+   margin-left: 285px;
+  .home-card__speaker2{
+    margin-top: 72px(!important);
+  }
 }
 
-.speaker-link {
-	.lineup {
-		margin-top: 60px;
-		position: absolute;
-		right: 350px;
-		text-transform: capitalize;
-	}
+.speaker-link{
+  .lineup{
+    margin-top: 60px;
+    position: absolute;
+    right: 350px;
+    text-transform: capitalize;
+  }
 }
 
 .header {
-	position: relative;
-	margin-bottom: 100px;
+    position: relative;
+    margin-bottom: 100px;
 
-	&__img {
-		position: absolute;
-		height: 6.6vw;
-		width: 75.06vw;
-		@include card--drop-shadow;
-		z-index: -1;
-		top: 30px;
-		right: 0;
-		&-register {
-			height: 6.6vw;
-			width: 75.06vw;
-			background-image: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
-			background-position-x: center;
-			background-position-y: center;
-			background-repeat-x: no-repeat;
-			background-repeat-y: no-repeat;
-			background-size: cover;
-		}
-	}
+    &__img {
+      position: absolute;
+      height: 6.6vw;
+      width: 75.06vw;
+      @include card--drop-shadow;
+      z-index: -1;
+      top: 30px;
+      right: 0;
+      &-register {
+        height: 6.6vw;
+        width: 75.06vw;
+        background-image: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        background-size: cover;
+      }
+    }
 
-	@include media ('<md') {
-		margin-top: 20px;
-		//margin-bottom: 100px;
+    @include media ('<md') {
 
-		&__img {
-			height: 100px;
-			top: 40px;
-		}
-	}
+      margin-top: 20px;
+      //margin-bottom: 100px;
+
+        &__img {
+          height: 100px;
+          top: 40px;
+        }
+
+    }
 }
 
 //Squiggle
-.squiggle {
-	text-transform: capitalize;
-	letter-spacing: 15px;
-	position: relative;
-	@include text--drop-shadow;
+.squiggle{
+  text-transform: capitalize;
+  letter-spacing: 15px;
+  position: relative;
+  @include text--drop-shadow;
 }
 
-.up {
-	position: relative;
+.up{
+  position: relative;
 }
 
-.down {
-	position: relative;
+.down{
+  position: relative;
 }
 
-.span--space {
-	white-space: pre;
+.span--space{
+  white-space: pre;
 }
