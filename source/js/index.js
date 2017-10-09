@@ -11,17 +11,16 @@
 
 console.log('js compiled');
 
+// const contactScript = require('./contactScript.js');
 const navigation = require('./navigation.js');
 const scrollUp = require('./scrollUp.js');
 const register = require('./register.js');
-const contactScript = require('./contactScript.js');
 const squiggle = require('./squiggle.js');
 
-
 window.onload = function() {
-    console.log("navigation included", navigation);
-    console.log("register included", register);
-    console.log("contactScript included", contactScript);
-    console.log("squiggle included", squiggle);
-    console.log("scrollUp include", scrollUp);
+  // console.log("contactScript included", contactScript);
+  console.log("navigation included", navigation);
+  console.log("register included", register);
+  console.log("squiggle included", squiggle);
+  console.log("scrollUp include", scrollUp);
 }

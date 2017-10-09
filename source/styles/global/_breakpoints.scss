@@ -1,15 +1,13 @@
 $breakpoints: (
-    'xs': 0,
-    'sm': 445px,
-    'smedium': 650px,
+    'xs': 445px,
+    'sm': 650px,
     'md': 768px,
     'lg': 1024px,
     'xl': 1280px
 )   !default;
 
-$xs: 0;
-$sm: 445px;
-$smedium: 650px;
+$xs: 445px;
+$sm: 650px;
 $md: 768px;
 $lg: 1024px;
 $xl: 1280px;

@@ -102,8 +102,8 @@ gulp.task('copy', () => {
   gulp.src('source/register-files/*')
     .pipe(gulp.dest('build'));
 
-  gulp.src('source/php')
-    .pipe(gulp.dest('build'));
+  gulp.src('source/php/*.php')
+    .pipe(gulp.dest('build/php'));
 
   return gulp.src('source/assets/**/*.*')
     .pipe(gulp.dest('build/assets'))

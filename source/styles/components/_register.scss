@@ -1,20 +1,18 @@
-.register{
-	&-h2{
+.register {
+	&-h2 {
 		position: absolute;
 		top: .5vw;
-		font-size: 8vw;
 	}
 }
 .form-row-heading {
-    position: absolute;
-    right: 71px;
-    top: -4px;
-    z-index: -1;
-
+	position: absolute;
+	top: -4px;
+	z-index: -1;
 }
 .form-row-title {
-	font-size: 8vw;
-	left: -16vw;
+	top: 10px;
+	left: 0;
+	position: absolute;
 }
 .coupon-container {
 	height: 34px;
@@ -89,16 +87,10 @@
 	margin-top: 65px;
 	margin-bottom: 65px;
 }
-.icon-row{
-	margin-top: 164px;
-}
-.form-row{
-	margin-top: 100px;
-}
-.footer-top{
+.footer-top {
 	height: 0;
 }
-.form-row-heading{
+.form-row-heading {
 	@include media ('<md') {
 		display: none;
 	}
@@ -117,24 +109,19 @@
 		}@include media ('>xl') {
 			top: .5vw;
 		}
-		@media (min-width:1600px){
+		@media (min-width:1600px) {
 			font-size: 110px;
 		}
 	}
 }
-.icon-row{
-	@include media ('<md') {
-		margin-top: -50px;
-	}
-}
-.form-row{
+.form-row {
 	@include media ('<md') {
 		margin-top: 0;
 	}
 }
-.form-row-title{
-	@media (min-width:1600px){
-		font-size: 110px;
-		top: 1vw;
+.form-row-title {
+	@include media ('>xl') {
+		top: 5px;
+		left: -40px;
 	}
 }
