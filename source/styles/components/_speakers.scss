@@ -21,11 +21,37 @@
 .speakers__keynote__header{
 	top: vw(-20px);
 	right: vw(48px);
+	z-index: -1;
+	@media (min-width: 1400px) {
+		top: -2.5vw;
+	    font-size: 8vw;
+    	right: -0.2vw;
+	}
+	@media (min-width: 1900px) {
+		top: -4.8vw;
+	    right: -7.2vw;
+	}
+	@media (min-width: 2500px) {
+    	right: -13.2vw;
+	}
+	@media (max-width: 700px) {
+		display: none;
+	}
 }
 
 .speakers__grid__header{
 	top: vw(-64px);
 	left: vw(116px);
+	@media (min-width: 1900px) {
+		top: -4.4vw;
+    	left: 11.6vw;
+	}
+	@media (min-width: 2500px) {
+		top: -3.4vw;
+	}
+	@media (max-width: 700px) {
+		display: none;
+	}
 }
 
 .filters {

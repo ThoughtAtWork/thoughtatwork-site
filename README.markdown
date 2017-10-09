@@ -34,6 +34,7 @@ Thought At Work Conference Website by students and for students
 - Patrick Ly
 - Shihab Uddin
 - Sara Artese
+- Andrew Hurley
 
 ## <a name="requirements"></a>Requirements
 #### Development
