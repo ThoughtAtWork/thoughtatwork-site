@@ -2,7 +2,7 @@
     <header class="nav--header">
         <nav class="nav--container">
             <ul class="nav--list">
-                <li class="nav--list-item">
+                {# <li class="nav--list-item">
                     <a href="speakers.html" class="{%if activePage == 'speakers' %} nav--active {% endif %}">Speakers</a>
                 </li>
                 <li class="nav--list-item">
@@ -10,15 +10,15 @@
                 </li>
                 <li class="nav--list-item">
                     <a href="info.html" class="{%if activePage == 'info' %} nav--active {% endif %}">info</a>
-                </li>
+                </li> #}
                 <li class="nav--list-item">
                     <a href="contact.html" class="{%if activePage == 'contact' %} nav--active {% endif %}">Contact</a>
                 </li>
-                <li class="nav--list-item">
+                {# <li class="nav--list-item">
                     <a href="about.html" class="{%if activePage == 'about' %} nav--active {% endif %}">About</a>
-                </li>
+                </li> #}
                 <li class="nav--list-item">
-                    <a href="register.html" class=" register {%if activePage == 'register' %} nav--active {% endif %}">Register</a>
+                    <a href="register.php" class=" register {%if activePage == 'register' %} nav--active {% endif %}">Register</a>
                 </li>
             </ul>
 
@@ -29,12 +29,14 @@
                 </div>
 
                 <div class="nav--logo">
-                    <a href="index.html">
-                    <img class="nav--brand" src="assets/graphics/brand.svg"/></a>
+                    {# PUT BACK IN WHEN HOME IS READY #}
+                    {# <a href="index.html"> #}
+                    <img class="nav--brand" src="assets/graphics/brand.svg"/>
+                    {# </a> #}
                 </div>
 
                 <div class="nav--register">
-                <a href="register.html">
+                <a href="register.php">
                     <img class="nav--ticket" src="assets/graphics/icons/ticket.svg"/></a>
                 </div>
 
@@ -46,12 +48,14 @@
 
               <div class="nav--overlay-content">
 
-                <a href="index.html" class="{%if activePage == 'home' %} nav--active {% endif %} nav--overlay-content-link">HOME</a>
+                {# Put back in for other pages #}
+                {# <a href="index.html" class="{%if activePage == 'home' %} nav--active {% endif %} nav--overlay-content-link">HOME</a>
                 <a href="speakers.html" class="{%if activePage == 'speakers' %} nav--active {% endif %} nav--overlay-content-link">SPEAKERS</a>
                 <a href="schedule.html" class="{%if activePage == 'schedule' %} nav--active {% endif %} nav--overlay-content-link">SCHEDULE</a>
                 <a href="info.html" class="{%if activePage == 'info' %} nav--active {% endif %} nav--overlay-content-link">INFO</a>
-                <a href="about.html" class="{%if activePage == 'about' %} nav--active {% endif %} nav--overlay-content-link">ABOUT</a>
-                <a href="register.html" class="{%if activePage == 'register' %} nav--active {% endif %} nav--overlay-content-link">REGISTER</a>
+                <a href="about.html" class="{%if activePage == 'about' %} nav--active {% endif %} nav--overlay-content-link">ABOUT</a> #}
+                <a href="contact.html" class="{%if activePage == 'about' %} nav--active {% endif %} nav--overlay-content-link">CONTACT</a>
+                <a href="register.php" class="{%if activePage == 'register' %} nav--active {% endif %} nav--overlay-content-link">REGISTER</a>
 
                 <div class="nav--social">
                     <a class="nav--social-link" href="https://facebook.com/ThoughtAtWork">
