@@ -1,3 +1,79 @@
+/******************************* Day Selector *********************************/
+
+
+@media screen and (min-width: $sm) {
+  .day_selector_cont {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;;
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .day_selector_cont {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (min-width: $lg) {
+  .day_option {
+    padding: 15px 40px;
+    background-color: #E6E6E6;
+    font-size: 2.5rem;
+    font-weight: 200;
+    transition: background-color 0.3s, color 0.3s;
+  }
+}
+
+@media screen and (max-width: 840px) and (min-width: 550px) {
+  .day_option {
+    padding: 10px 30px;
+    background-color: #E6E6E6;
+    font-size: 2rem;
+    font-weight: 200;
+    transition: background-color 0.3s, color 0.3s;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .day_option {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    background-color: #E6E6E6;
+    font-size: 2rem;
+    font-weight: 200;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+  }
+}
+
+.day_option:hover {
+  background-color: $teal;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.active {
+  background-color: $teal;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.active:hover {
+  background-color: $teal;
+  color: white;
+  cursor: default;
+}
+
+
 // @import 'variables';
 // @import 'fonts';
 
@@ -6,15 +82,37 @@ body{
 	font-weight: 500;
 }
 
-.filter{
-	text-align: center;
-	display: inline-block;
+.card {
+	position: relative;
+	background-color: #FFF;
+	@include card--drop-shadow;
+
+	.card__header{
+		color: $dark-grey;
+	}
+	.card__subhead{
+		color: $teal;
+	}
+	.card__subhead2{
+		color: $normal-grey;
+	}
 }
 
-.schedFilter {
-	/*width: 16.432vw;*/
+.filters {
+	margin: 3vw auto;
+	display: table;
+}
+
+//schedfilter
+.day_option {
+	width: 16.432vw;
 	//height: 5.168vw;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
 	margin: 0vw 2vw;
+
+	transition: .5s;
 
 	@extend .card;
 
@@ -48,6 +146,8 @@ body{
 	width: 20.54vw;
 	height: 6.46vw;
 
+	transition: .5s;
+
 	.content {
 		height: 6.46vw;
 	}
@@ -58,30 +158,41 @@ body{
 }
 
 .speakFilter {
-	margin: 0 2vw;
-	margin-bottom: 1.8vw;
-	padding: vw(16px) vw(24px);
+	width: 16.432vw;
+	height: 3.52vw;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0vw 2vw;
+
+	transition: .5s;
+
+	@extend .card;
+
+	.content {
+    display: table;
+    height: inherit;
+    width: inherit;
+    position: relative;
+	}
 
 	.filter__header {
 		font-weight: 500;
-		// font-size: vw(20px);
-
-		$min_width: $xs;
-		$max_width: $xl;
-		$min_font: 22px;
-		$max_font: 28px;
-		@include fluid-type($min_width, $max_width, $min_font, $max_font);
-
+		font-size: 20pt;
+		display: table-cell;
+		vertical-align: middle;
 		opacity: 0.6;
+		@extend .card__header;
 	}
-
-	transition: transform 0.2s ease-in-out;
 }
 
-.speakFilter:hover, .speakFilter--selected {
-	transform: scale(1.1);
-}
+.speakFilter--selected {
+	padding: 0px 16px;
+	height: 4.4vw;
 
-.speakFilter--selected .filter__header {
+	transition: .5s;
+
+	.filter__header {
 		opacity: 1.0;
+	}
 }
