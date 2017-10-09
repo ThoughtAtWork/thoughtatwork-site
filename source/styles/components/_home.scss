@@ -98,7 +98,7 @@
 
 @media only screen and (max-width: 963px) {
   .home-every{
-    margin-top: 96px;
+    margin-top: 196px;
     margin-left: 30px;
     margin-right: 30px;
     &__text{
@@ -167,13 +167,13 @@
 
 .video-container{
   margin-top: 20px;
-  margin: 0 auto;
-  height: 730px;
-  width: 945px;
+  //margin: 0 auto;
+  //height: 730px;
+  //width: 945px;
   &__recap{
     height: 530px;
     width: 945px;
-    //margin: 0 auto;
+    margin: 0 auto;
     display: block;
   }
 }
@@ -291,6 +291,18 @@
   position: relative;
   @include text--drop-shadow;
 }
+
+@media only screen and (max-width: 580px) {
+    .squiggle{
+      letter-spacing: 4px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .squiggle{
+      letter-spacing: 8px;
+    }
+}
+
 
 .up{
   position: relative;
