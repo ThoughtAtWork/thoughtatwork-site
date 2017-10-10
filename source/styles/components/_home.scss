@@ -33,7 +33,7 @@
         }
     }
 
-    @media only screen and (max-width: 1365px) {
+    @include media('<xl') {
         //For the image and title
         &__date{
           text-align: center;
@@ -49,23 +49,25 @@
 /*=------------------------Home header above----------------------------*/
 
 .home-intro__text{
-  margin-left: 178px;
+   margin-left: 178px;
   .text--normal{
     text-decoration: none;
     font-size: 32px;
     font-weight: normal;
+    margin: 0 auto;
   }
 }
 @media only screen and (max-width: 650px) {
     .home-intro__text{
-      margin-left: 124px;
+      margin-left: 82px;
     }
 }
 
 @media only screen and (min-width: 963px) {
   .home-intro__text{
-    text-align: left;
+    //text-align: left;
     margin-left: 94;
+    //margin: 0 auto;
   }
 }
 
@@ -91,7 +93,7 @@
     position: relative;
     bottom: 40px;
     width: 30.06vw;
-    margin: auto;
+    margin: 0 auto;
     text-align: left;
   }
 }
@@ -104,6 +106,8 @@
     &__text{
       margin-left: 72px;
       margin-right: 72px;
+      width: 300px;
+      margin: 0 auto;
     }
   }
 }
@@ -139,14 +143,16 @@
 @media only screen and (max-width: 963px) {
   .home-text{
     &__what{
-      display: block;
+      display: inline-block;
       margin-top: 58px;
       margin-left: 102px;
+      width: 302px;
     }
     &__who{
       margin-top: 46px;
-      display: block;
+      display: inline-block;
       margin-left: 160px;
+      width: 302px;
     }
     .title--gap{
       line-height: normal;
@@ -158,23 +164,35 @@
 
 .video-section{
    margin-top: 228px;
-  .video-backdrop{
-    line-height: 0;
-    margin-left: 50px;
-    z-index: -1;
-  }
 }
 
 .video-container{
+  position: relative;
   margin-top: 20px;
-  //margin: 0 auto;
-  //height: 730px;
-  //width: 945px;
+
+  .video-backdrop{
+    line-height: 0;
+    margin-left: 58px;
+    top: -20px;
+    z-index: -1;
+  }
+
   &__recap{
-    height: 530px;
-    width: 945px;
+    width: 71.7vw;
+    height: 39.47vw;
     margin: 0 auto;
     display: block;
+  }
+
+  .why-text{
+    text-align: left;
+    display: block;
+    margin-top: 25px;
+    width: 22.06vw;
+    margin: 0 auto;
+    .title--gap{
+      line-height: 8.94vh;
+    }
   }
 }
 
@@ -185,21 +203,17 @@
     margin-right: 30px;
     .video-backdrop{
       z-index: -1;
+      top: -25px;
       margin-left: 95px;
       margin-bottom: 30px;
     }
   }
 
   .video-container{
-    &__recap{
-      width: 386px;
-      height: 218px;
+    .why-text{
+      width: 302px;
+      height: 112px;
     }
-  }
-
-  .home-text__why{
-    width: 302px;
-    height: 112px;
   }
 }
 
