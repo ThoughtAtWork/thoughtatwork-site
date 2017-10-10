@@ -63,13 +63,22 @@
 
 @include media('<md') {
   .home-intro__text{
+    margin-top: 44px;
     margin-left: 94;
   }
 }
 
 @include media('<sm') {
     .home-intro__text{
+      margin-top: 64px;
       margin-left: 140px;
+    }
+}
+
+@include media('<xs') {
+    .home-intro__text{
+      margin-top: 64px;
+      margin-left: 55px;
     }
 }
 
@@ -101,14 +110,52 @@
 
 @include media('<lg') {
   .home-every{
-    margin-top: 196px;
+    margin-top: 180px;
     margin-left: 30px;
     margin-right: 30px;
+    &__backdrop{
+      top: -110px;
+    }
+  }
+}
+
+@include media('<md') {
+  .home-every{
+    margin-top: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
+    &__backdrop{
+      top: -110px;
+    }
     &__text{
-      margin-left: 72px;
-      margin-right: 72px;
       width: 300px;
-      margin: 0 auto;
+    }
+  }
+}
+
+
+@include media('<sm') {
+  .home-every{
+    margin-top: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
+    &__backdrop{
+      top: -110px;
+    }
+    &__text{
+      width: 300px;
+    }
+  }
+}
+
+@include media('<sm') {
+  .home-every{
+    margin-top: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
+    &__backdrop{
+      top: -120px;
+      letter-spacing: -5px;
     }
   }
 }
