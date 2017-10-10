@@ -1,46 +1,48 @@
 .home-header {
-    margin-top: 94px;
     text-align: center;
     position: relative;
-    &__title {
-        text-transform: capitalize;
-        letter-spacing: 42px;
-        @include text--drop-shadow;
+    @include media ('<md') {
+      margin-top: 8vw;
     }
 
     &__image {
-        //padding-top: calc( 27vw/ 55vw * 100%);
         margin: 0 auto;
         z-index: -1;
         width: 80.7vw;
         height: 39.47vw;
+        max-height: 505px;
+        max-width: 1033px;
         @include card--drop-shadow;
     }
     &__date {
         position: relative;
         text-align: right;
         bottom: 36px;
+        margin: auto 17vw;
         @include text--drop-shadow;
         .date-month{
-          margin-right: 280px;
+          margin-right: 60px;
           line-height: 55px;
         }
-        .date-days{
-          margin-right: 200px;
-        }
-        .date-link{
-          margin-right: 200px;
-        }
+    }
+    &__title {
+      letter-spacing: 5px;
+      margin-bottom: -25px;
+      @include media ('<md') {
+        letter-spacing: 0px;
+      }
     }
 
+<<<<<<< HEAD
     @include media('<xl') {
         //For the image and title
+=======
+    @include media ('<lg') {
+>>>>>>> a4a4e0c252ade8d76783e2b6e940c9c19117e8bb
         &__date{
           text-align: center;
-          margin-right: auto;
-          margin-left: 165px;
-          .date-link{
-            line-height: 64px;
+          .date-days{
+              margin-bottom: 30px;
           }
         }
     }
@@ -229,12 +231,6 @@
     padding: 30px 33px;
     margin-left: 50px;
     margin-right: 106px;
-    //@include card--drop-shadow
-    &__title {
-        padding-bottom: 3%;
-        text-transform: uppercase;
-        color: $normal-grey;
-    }
 }
 
 @media only screen and (max-width: 963px) {
@@ -243,8 +239,6 @@
     margin-left: 72px;
     margin-right: 72px;
     width: auto;
-    &__title{
-    }
   }
 }
 
@@ -302,26 +296,6 @@
 
     }
 }
-
-//Squiggle
-.squiggle{
-  text-transform: capitalize;
-  letter-spacing: 15px;
-  position: relative;
-  @include text--drop-shadow;
-}
-
-@media only screen and (max-width: 580px) {
-    .squiggle{
-      letter-spacing: 4px;
-    }
-}
-@media only screen and (max-width: 800px) {
-    .squiggle{
-      letter-spacing: 8px;
-    }
-}
-
 
 .up{
   position: relative;
