@@ -45,3 +45,12 @@
 		@include card--drop-shadow;
 	}
 }
+
+@include media('<sm'){
+	.speakers-card--keynote{
+		min-width: 112px;
+		min-height: 155px;
+
+		margin: 0 29px;
+	}
+}
