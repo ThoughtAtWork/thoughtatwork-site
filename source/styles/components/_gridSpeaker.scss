@@ -55,3 +55,9 @@
 		@include card--drop-shadow;
 	}
 }
+
+@include media('<sm'){
+	.speakers-card--grid{
+		
+	}
+}

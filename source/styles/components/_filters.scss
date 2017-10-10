@@ -85,3 +85,9 @@ body{
 .speakFilter--selected .filter__header {
 		opacity: 1.0;
 }
+
+@include media('<sm'){
+	.speakFilter{
+		display: none;
+	}
+}
