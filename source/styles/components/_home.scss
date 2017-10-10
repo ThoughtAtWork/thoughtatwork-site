@@ -58,21 +58,22 @@
 
 @include media('<lg') {
   .home-intro__text{
-    margin-left: 120;
+    margin-left: 120px;
   }
 }
 
 @include media('<md') {
   .home-intro__text{
     margin-top: 44px;
-    margin-left: 94;
+    margin-left: 209.5px;
   }
 }
 
 @include media('<sm') {
     .home-intro__text{
       margin-top: 64px;
-      margin-left: 140px;
+      margin-left: 130px;
+      margin-right: 50px;
     }
 }
 
@@ -80,6 +81,7 @@
     .home-intro__text{
       margin-top: 64px;
       margin-left: 55px;
+      margin-right: 55px;
     }
 }
 
@@ -196,15 +198,15 @@
 @include media('<lg') {
   .home-text{
     &__what{
-      display: inline-block;
+      display: block;
       margin-top: 58px;
       margin-left: 102px;
       width: 302px;
     }
     &__who{
       margin-top: 46px;
-      display: inline-block;
-      margin-left: 100px;
+      display: block;
+      margin-left: 450px;
       width: 302px;
     }
     .title--gap{
@@ -281,6 +283,7 @@
 
   //The header h2
   .video-backdrop{
+    //I know you dont like line height but...
     line-height: 0;
     margin-left: 58px;
     top: -20px;
