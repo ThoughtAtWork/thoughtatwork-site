@@ -1,212 +1,184 @@
 /******************************* Day Selector *********************************/
-
-
-@media screen and (min-width: $sm) {
-  .day_selector_cont {
-    margin-bottom: 20px;
-    width: 100%;
-    display: -webkit-box;
-    //display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;;
-  }
-}
-
-@media screen and (max-width: $sm) {
-  .day_selector_cont {
-    margin-bottom: 20px;
-    width: 100%;
-    //display: flex;
-    display: -webkit-box;
-    flex-direction: column;
-  }
-
-  .day_option {
-    width: 50vw;
-
-    padding: 10px 30px;
-    margin: 2vw;
-    background-color: #E6E6E6;
-    font-size: 2rem;
-    font-weight: 200;
-    transition: background-color 0.3s, color 0.3s;
+//schedfilter
+.day_option {
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 5vw;
     text-align: center;
-  }
-}
-
-
-@media screen and (min-width: $md) {
-  .day_option {
-    width: 16.432vw;
-    padding: 15px 40px;
-    background-color: #E6E6E6;
-    font-size: 2.5rem;
-    font-weight: 200;
+    vertical-align: middle;
+    display: inline-block;
     transition: background-color 0.3s, color 0.3s;
-    	margin: 0vw 2vw;
-  }
+    transition: 0.5s;
+    opacity: 0.8;
+    @extend .card;
 
-  .day_selector_cont {
-      width: 16.432vw;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      -webkit-box-align: center;
-      align-items: center;
-  }
-}
+    &:hover {
+        background-color: $teal;
+        color: white;
+        transition: background-color 1.3s, color 1.3s;
+        cursor: pointer;
+    }
 
-@media screen and (max-width: $md) and (min-width: $sm) {
-  .day_option {
-    padding: 10px 30px;
-    background-color: #E6E6E6;
-    font-size: 2rem;
-    font-weight: 200;
-    transition: background-color 0.3s, color 0.3s;
-  }
-}
-
-.day_option:hover {
-  background-color: $teal;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
+    &:hover p {
+        color: white;
+        transition: background-color 1.3s, color 1.3s;
+        cursor: pointer;
+    }
 }
 
 .active {
-  background-color: $teal;
-  color: white;
-  transition: background-color 0.3s, color 0.3s;
+    height: 6vw;
+    background-color: $teal;
+    transition: background-color 0.3s, color 0.3s;
+    opacity: 1.0;
 }
 
-.active:hover {
-  background-color: $teal;
-  color: white;
-  cursor: default;
+@media screen and (max-width: $sm) {
+    .day_selector_cont {
+        margin-bottom: 20px;
+        width: 100%;
+        //display: flex;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        flex-direction: column;
+    }
+
+    .day_option {
+        width: 75vw;
+        height: 8vw;
+        padding: 10px 30px;
+        margin: 2vw;
+        text-align: center;
+    }
+
+    .active {
+        background-color: $teal;
+    }
+}
+@media screen and (min-width: $sm) {
+    .day_selector_cont {
+        margin-bottom: 20px;
+        width: 100%;
+        display: -webkit-box;
+        //display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: $md) {
+    .day_option {
+        width: 16.432vw;
+        padding: 15px 40px;
+        margin: 0 2vw;
+    }
+
+    .day_selector_cont {
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: $md) and (min-width: $sm) {
+    .day_option {
+        padding: 10px 30px;
+    }
 }
 
 
 // @import 'variables';
 // @import 'fonts';
 
-body{
-	font-family: 'Elliot';
-	font-weight: 500;
+body {
+    //font-family: 'Elliot';
+    //font-weight: 500;
 }
 
 .card {
-	position: relative;
-	background-color: #FFF;
-	@include card--drop-shadow;
+    position: relative;
+    background-color: #FFF;
+    @include card--drop-shadow;
 
-	.card__header{
-		color: $dark-grey;
-	}
-	.card__subhead{
-		color: $teal;
-	}
-	.card__subhead2{
-		color: $normal-grey;
-	}
+    .card__header {
+        color: $dark-grey;
+    }
+
+    .card__subhead {
+        color: $teal;
+    }
+
+    .card__subhead2 {
+        color: $normal-grey;
+    }
 }
 
 .filters {
-	margin: 3vw auto;
-	display: table;
+    margin: 3vw auto;
+    display: table;
 }
-
 //schedfilter
 .day_option {
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  align-items: center;
+    .content {
+        display: table-cell;
+        height: 5.168vw;
+        width: inherit;
+        vertical-align: middle;
+    }
 
-	height: 5vw;
-	text-align: center;
-	vertical-align: middle;
-	display: inline-block;
+    p {
+        text-transform: uppercase;
+        opacity: 0.6;
+        font-weight: 500;
+    }
 
-	transition: .5s;
+    .filter__header {
+        padding-bottom: 5px;
+        font-size: 24pt;
+        @extend .card__header;
+    }
 
-	@extend .card;
-
-	.content {
-    display: table-cell;
-    height: 5.168vw;
-    width: inherit;
-	vertical-align: middle;
-	}
-
-	p {
-		text-transform: uppercase;
-		opacity: 0.6;
-		font-weight: 500;
-	}
-
-	.filter__header {
-		padding-bottom: 5px;
-		font-size: 24pt;
-		@extend .card__header;
-	}
-
-	.filter__subhead {
-		font-size: 16pt;
-		@extend .card__subhead;
-	}
-
-}
-
-.active {
-	height: 6.46vw;
-
-	transition: .5s;
-
-	.content {
-		height: 6.46vw;
-	}
-
-	.filter__subhead , .filter__header {
-		opacity: 1;
-	}
+    .filter__subhead {
+        font-size: 16pt;
+        @extend .card__subhead;
+    }
 }
 
 .speakFilter {
-	width: 16.432vw;
-	height: 3.52vw;
-	text-align: center;
-	vertical-align: middle;
-	display: inline-block;
-	margin: 0vw 2vw;
+    width: 16.432vw;
+    height: 3.52vw;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 2vw;
+    transition: 0.5s;
+    @extend .card;
 
-	transition: .5s;
+    .content {
+        display: table;
+        height: inherit;
+        width: inherit;
+        position: relative;
+    }
 
-	@extend .card;
-
-	.content {
-    display: table;
-    height: inherit;
-    width: inherit;
-    position: relative;
-	}
-
-	.filter__header {
-		font-weight: 500;
-		font-size: 20pt;
-		display: table-cell;
-		vertical-align: middle;
-		opacity: 0.6;
-		@extend .card__header;
-	}
+    .filter__header {
+        font-weight: 500;
+        font-size: 20pt;
+        display: table-cell;
+        vertical-align: middle;
+        opacity: 0.6;
+        @extend .card__header;
+    }
 }
 
 .speakFilter--selected {
-	padding: 0px 16px;
-	height: 4.4vw;
+    padding: 0 16px;
+    height: 4.4vw;
+    transition: 0.5s;
 
-	transition: .5s;
-
-	.filter__header {
-		opacity: 1.0;
-	}
+    .filter__header {
+        opacity: 1.0;
+    }
 }
