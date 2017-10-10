@@ -45,6 +45,7 @@
 
 /*=------------------------Home header above----------------------------*/
 
+//The text after the hero section
 .home-intro__text{
    margin-left: 178px;
   .text--normal{
@@ -84,21 +85,20 @@
 
 /*=------------------------Intro text above----------------------------*/
 
+//The every backdrop
 .home-every{
   text-align: center;
   margin-top: 204px;
   position: relative;
-  //z-index: -1;
-  //margin-left: auto;
-  //margin-right: auto;
+  //The h2 itself
   &__backdrop{
     z-index: -1;
     left: 0;
     right: 0;
     top: -140px;
     margin: 0 auto;
-    //margin bottom: 80px;
   }
+  //The text it overlaps
   &__text{
     position: relative;
     bottom: 40px;
@@ -148,7 +148,7 @@
   }
 }
 
-@include media('<sm') {
+@include media('<xs') {
   .home-every{
     margin-top: 180px;
     margin-left: 30px;
@@ -164,6 +164,7 @@
 /*=------------------------Every backdrop above----------------------------*/
 
 .home-text{
+  //The what text
   &__what{
     display: inline-block;
     vertical-align: middle;
@@ -172,6 +173,7 @@
     margin-left: 184px;
     max-width: 430px;
   }
+  //The who text
   &__who{
     margin-left: 82px;
     display: inline-block;
@@ -180,6 +182,7 @@
     width: 30.06vw;
     max-width: 430px;
   }
+  //The extra just in case why text (unused)
   &__why{
     display: block;
     margin-top: 10px;
@@ -276,6 +279,7 @@
   position: relative;
   margin-top: 20px;
 
+  //The header h2
   .video-backdrop{
     line-height: 0;
     margin-left: 58px;
@@ -283,6 +287,7 @@
     z-index: -1;
   }
 
+  //The video
   &__recap{
     width: 71.7vw;
     height: 39.47vw;
@@ -292,8 +297,8 @@
     max-height: 530px;
   }
 
+  //The text box along with it
   .why-text{
-    text-align: left;
     display: block;
     margin-top: 50px;
     width: 22.06vw;
