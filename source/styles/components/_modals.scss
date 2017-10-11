@@ -1,0 +1,66 @@
+.modal{
+	position: relative;
+
+	&__close{
+		position: absolute;
+		top: 32px;
+		right: 32px;
+	}
+
+	&__content{
+		overflow-y: auto;
+	}
+}
+
+.speakers-modal{
+	width: vw(914px);
+	height: vw(576px);
+
+	.modal__content{
+		padding: vw(56px) vw(36px) vw(40px) vw(488px);
+	}
+
+	&__name{
+		margin-bottom: vw(16px);
+	}
+
+	&__position{
+		margin-bottom: vw(28px);
+	}
+
+	&__headshot{
+		height: 100%;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		transform: scale(1.05);
+	}
+
+	&__social{
+		margin-bottom: vw(28px);
+	}
+
+	&__event{
+		margin-top: vw(24px);
+	}
+}
+
+.modal__accord-title{
+	font-weight: 700;
+	cursor: pointer;
+
+	&::before{
+		content: '+ ';
+		color: $teal;
+	}
+}
+
+.modal__accord-item{
+	height: 0;
+
+	&-open{
+		height: auto;
+	}
+}
