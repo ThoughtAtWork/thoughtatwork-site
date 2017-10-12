@@ -1,89 +1,186 @@
+/******************************* Day Selector *********************************/
+//schedfilter
+.day_option {
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 5vw;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    transition: 0.5s;
+    opacity: 0.8;
+    @extend .card;
+
+    &:hover {
+        background-color: $teal;
+        color: white;
+        transition: background-color 1.3s, color 1.3s;
+        cursor: pointer;
+    }
+
+    &:hover p {
+        color: white;
+        transition: background-color 1.3s, color 1.3s;
+        cursor: pointer;
+    }
+}
+
+.active {
+    height: 6vw;
+    background-color: $teal;
+    transition: background-color 0.3s, color 0.3s;
+    opacity: 1.0;
+}
+
+@media screen and (max-width: $sm) {
+    .day_selector_cont {
+        margin-bottom: 20px;
+        width: 100%;
+        //display: flex;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        flex-direction: column;
+    }
+
+    .day_option {
+        width: 75vw;
+        height: 8vw;
+        padding: 10px 30px;
+        margin: 2vw;
+        text-align: center;
+    }
+
+    .active {
+        background-color: $teal;
+    }
+}
+@media screen and (min-width: $sm) {
+    .day_selector_cont {
+        margin-bottom: 20px;
+        width: 100%;
+        display: -webkit-box;
+        //display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: $md) {
+    .day_option {
+        width: 16.432vw;
+        padding: 15px 40px;
+        margin: 0 2vw;
+    }
+
+    .day_selector_cont {
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: $md) and (min-width: $sm) {
+    .day_option {
+        padding: 10px 30px;
+    }
+}
+
+
 // @import 'variables';
 // @import 'fonts';
 
-body{
-	font-family: 'Elliot';
-	font-weight: 500;
+body {
+    //font-family: 'Elliot';
+    //font-weight: 500;
 }
 
-.filter{
-	text-align: center;
-	display: inline-block;
+.card {
+    position: relative;
+    background-color: #FFF;
+    @include card--drop-shadow;
+
+    .card__header {
+        color: $dark-grey;
+    }
+
+    .card__subhead {
+        color: $teal;
+    }
+
+    .card__subhead2 {
+        color: $normal-grey;
+    }
 }
 
-.schedFilter {
-	/*width: 16.432vw;*/
-	//height: 5.168vw;
-	margin: 0vw 2vw;
-
-	@extend .card;
-
-	.content {
-    display: table-cell;
-    height: 5.168vw;
-    width: inherit;
-	vertical-align: middle;
-	}
-
-	p {
-		text-transform: uppercase;
-		opacity: 0.6;
-		font-weight: 500;
-	}
-
-	.filter__header {
-		padding-bottom: 5px;
-		font-size: 24pt;
-		@extend .card__header;
-	}
-
-	.filter__subhead {
-		font-size: 16pt;
-		@extend .card__subhead;
-	}
-
+.filters {
+    margin: 3vw auto;
+    display: table;
 }
+//schedfilter
+.day_option {
+    .content {
+        display: table-cell;
+        height: 5.168vw;
+        width: inherit;
+        vertical-align: middle;
+    }
 
-.schedFilter--selected {
-	width: 20.54vw;
-	height: 6.46vw;
+    p {
+        text-transform: uppercase;
+        opacity: 0.6;
+        font-weight: 500;
+    }
 
-	.content {
-		height: 6.46vw;
-	}
+    .filter__header {
+        padding-bottom: 5px;
+        font-size: 24pt;
+        @extend .card__header;
+    }
 
-	.filter__subhead , .filter__header {
-		opacity: 1;
-	}
+    .filter__subhead {
+        font-size: 16pt;
+        @extend .card__subhead;
+    }
 }
 
 .speakFilter {
-	margin: 0 2vw;
-	margin-bottom: 1.8vw;
-	padding: vw(16px) vw(24px);
+    width: 16.432vw;
+    height: 3.52vw;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 2vw;
+    transition: 0.5s;
+    @extend .card;
 
-	.filter__header {
-		font-weight: 500;
-		// font-size: vw(20px);
+    .content {
+        display: table;
+        height: inherit;
+        width: inherit;
+        position: relative;
+    }
 
-		$min_width: $xs;
-		$max_width: $xl;
-		$min_font: 22px;
-		$max_font: 28px;
-		@include fluid-type($min_width, $max_width, $min_font, $max_font);
-
-		opacity: 0.6;
-	}
-
-	transition: transform 0.2s ease-in-out;
+    .filter__header {
+        font-weight: 500;
+        font-size: 20pt;
+        display: table-cell;
+        vertical-align: middle;
+        opacity: 0.6;
+        @extend .card__header;
+    }
 }
 
-.speakFilter:hover, .speakFilter--selected {
-	transform: scale(1.1);
-}
+.speakFilter--selected {
+    padding: 0 16px;
+    height: 4.4vw;
+    transition: 0.5s;
 
-.speakFilter--selected .filter__header {
-		opacity: 1.0;
+    .filter__header {
+        opacity: 1.0;
+    }
 }
 
 @include media('<sm'){
