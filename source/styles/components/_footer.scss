@@ -57,6 +57,9 @@ footer {
         background-color: white;
         & a {
           text-decoration: none;
+          @include media('<sm') {
+              font-size: 14px;
+          }
         }
     }
 

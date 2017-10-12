@@ -7,7 +7,7 @@
 
 	&__image {
 		margin: 0 auto;
-		z-index: 1;
+		z-index: -1;
 		width: 80.7vw;
 		height: 39.47vw;
 		max-height: 505px;
@@ -94,10 +94,10 @@
 	position: relative;
 	//The h2 itself
 	&__backdrop {
-		z-index: 1;
+		z-index: -1;
 		left: 0;
 		right: 0;
-		top: 140px;
+		top: -140px;
 		margin: 0 auto;
 	}
 	//The text it overlaps
@@ -116,7 +116,7 @@
 		margin-left: 30px;
 		margin-right: 30px;
 		&__backdrop {
-			top: 110px;
+			top: -110px;
 		}
 	}
 }
@@ -127,7 +127,7 @@
 		margin-left: 30px;
 		margin-right: 30px;
 		&__backdrop {
-			top: 110px;
+			top: -110px;
 		}
 		&__text {
 			width: 300px;
@@ -142,7 +142,7 @@
 		margin-left: 30px;
 		margin-right: 30px;
 		&__backdrop {
-			top: 110px;
+			top: -110px;
 		}
 		&__text {
 			width: 300px;
@@ -191,7 +191,7 @@
 		width: 22.06vw;
 	}
 	.title--gap {
-		line-height: 8.94vh;
+		line-height: 90px;
 	}
 }
 
@@ -210,7 +210,7 @@
 			width: 302px;
 		}
 		.title--gap {
-			line-height: 6.94vh;
+			line-height: 70px;
 		}
 	}
 }
@@ -227,7 +227,7 @@
 			margin-left: 300px;
 		}
 		.title--gap {
-			line-height: 6.94vh;
+			line-height: 70px;
 		}
 	}
 }
@@ -247,7 +247,7 @@
 			margin-left: 130px;
 		}
 		.title--gap {
-			line-height: 6.94vh;
+			line-height: 70px;
 		}
 	}
 }
@@ -266,7 +266,7 @@
 			margin-left: 72px;
 		}
 		.title--gap {
-			line-height: 6.94vh;
+			line-height: 70px;
 		}
 	}
 }
@@ -286,8 +286,8 @@
 		//I know you dont like line height but...
 		line-height: 0;
 		margin-left: 58px;
-		top: 20px;
-		z-index: 1;
+		top: -20px;
+		z-index: -1;
 	}
 
 	//The video
@@ -307,7 +307,7 @@
 		width: 22.06vw;
 		margin: 0 auto;
 		.title--gap {
-			line-height: 6.94vh;
+			line-height: 70px;
 		}
 	}
 }
@@ -318,8 +318,8 @@
 		margin-left: 30px;
 		margin-right: 30px;
 		.video-backdrop {
-			z-index: 1;
-			top: 25px;
+			z-index: -1;
+			top: -25px;
 			margin-left: 100px;
 			margin-bottom: 30px;
 		}
@@ -338,8 +338,8 @@
 		margin-left: 30px;
 		margin-right: 30px;
 		.video-backdrop {
-			z-index: 1;
-			top: 25px;
+			z-index: -1;
+			top: -25px;
 			margin-left: 70px;
 			margin-bottom: 30px;
 		}
@@ -358,8 +358,8 @@
 		margin-left: 30px;
 		margin-right: 30px;
 		.video-backdrop {
-			z-index: 1;
-			top: 25px;
+			z-index: -1;
+			top: -25px;
 			margin-left: 55px;
 			margin-bottom: 30px;
 		}
@@ -379,8 +379,8 @@
 		margin-left: 30px;
 		margin-right: 30px;
 		.video-backdrop {
-			z-index: 1;
-			top: 25px;
+			z-index: -1;
+			top: -25px;
 			margin-left: 20px;
 			margin-bottom: 30px;
 		}
@@ -460,7 +460,7 @@
 		height: 6.6vw;
 		width: 75.06vw;
 		@include card--drop-shadow;
-		z-index: 1;
+		z-index: -1;
 		top: 30px;
 		right: 0;
 		&-register {
