@@ -1,15 +1,55 @@
 .modal{
-	position: relative;
+	margin: 0 auto;
 
-	&__close{
+	position: relative;
+    pointer-events: auto;
+
+	&__x{
+		width: vw(13px);
+		height: vw(13px); 
+
 		position: absolute;
-		top: 32px;
-		right: 32px;
+		top: 22px;
+		right: 22px;
+		padding: 10px;
+
+		cursor: pointer;
 	}
 
 	&__content{
 		overflow-y: auto;
 	}
+}
+
+.modal-holder{
+    content: ' ';
+    width: calc(100% + 50px);
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 50px;
+    z-index: 2000;
+    pointer-events: none;
+    transition: .3s ease-in-out;
+}
+
+.modal-closer{
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    /*transition: 0.2s ease-in-out;*/
+}
+
+.modal--hidden{
+    top: 0vh !important;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.98);
 }
 
 .speakers-modal{
@@ -51,16 +91,16 @@
 	font-weight: 700;
 	cursor: pointer;
 
-	&::before{
-		content: '+ ';
+	& span{
 		color: $teal;
 	}
 }
 
 .modal__accord-item{
 	height: 0;
+	overflow: hidden;
 
-	&-open{
+	&.open{
 		height: auto;
 	}
 }
