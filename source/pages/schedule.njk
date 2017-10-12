@@ -8,6 +8,10 @@
     {% import 'macros/nav-macro.njk' as nav %}
     <!-- Creating the navigation with activePage = 'index' -->
     {{nav.active('schedule')}}
+
+    {% import 'macros/header-macro.njk' as header %}
+    {{header.pageNames( 'Schedule' )}}
+
     {% include "partials/schedule.njk" %}
     {% include "partials/footer.njk" %}
 {%  endblock %}
