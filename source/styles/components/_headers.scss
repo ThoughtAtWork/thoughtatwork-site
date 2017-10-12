@@ -1,3 +1,22 @@
+//Squiggle header
+.squiggle{
+  text-transform: capitalize;
+  letter-spacing: 15px;
+  position: relative;
+  @include text--drop-shadow;
+}
+
+@media only screen and (max-width: 580px) {
+    .squiggle{
+      letter-spacing: 4px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .squiggle{
+      letter-spacing: 8px;
+    }
+}
+
 .header {
 	position: relative;
 	margin-bottom: 100px;

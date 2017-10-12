@@ -6,7 +6,7 @@
 </script> #}
 <div class="filters">
     <h2 class="speakers__grid__header">speakers</h2>
-    <div class="card filter speakFilter">
+    <div data-filter="*" class="card filter speakFilter">
         <p class="card__header filter__header">
             All
         </p>
@@ -17,7 +17,16 @@
                 {{field}}
             </p>
         </div>
+
+        <!-- Add Data Filter Attr to Filters -->
+        <script type="text/javascript">
+            var fieldFilter = "{{field}}";
+            fieldFilter = "." + fieldFilter.replace(/\s/g, '').toLowerCase();
+            $(".speakFilter:last").attr("data-filter", fieldFilter);
+        </script>
+
     {% endfor %}
 </div>
 
 {# <div class="filters"> <div class="speakFilter"> <p class="filter__header"> Speaker </p> </div> <div class="speakFilter"> <p class="filter__header"> Speaker </p> </div> <div class="speakFilter"> <p class="filter__header"> Speaker </p> </div> </div> #}
+
