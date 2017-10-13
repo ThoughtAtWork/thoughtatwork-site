@@ -28,11 +28,13 @@
     }
 }
 
-.active {
+.filter-active {
     height: 6vw;
-    background-color: $teal;
     transition: background-color 0.3s, color 0.3s;
     opacity: 1.0;
+    & p {
+      color: $teal;
+    }
 }
 
 @media screen and (max-width: $sm) {
@@ -134,7 +136,7 @@ body {
     display: inline-block;
     margin: 0 2vw;
     transition: 0.1s;
-  
+
     @extend .card;
 
     .content {
