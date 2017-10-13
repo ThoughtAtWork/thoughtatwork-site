@@ -151,7 +151,8 @@ body {
     height: 3.52vw;
     text-align: center;
     vertical-align: middle;
-    display: inline-block;
+    //was block
+    display: inline-table;
     margin: 0 2vw;
     //Temp solution to the space between filter
     margin-bottom: 1%;
