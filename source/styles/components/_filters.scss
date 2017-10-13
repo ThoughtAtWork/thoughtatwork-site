@@ -153,6 +153,8 @@ body {
     vertical-align: middle;
     display: inline-block;
     margin: 0 2vw;
+    //Temp solution to the space between filter
+    margin-bottom: 1%;
     transition: 0.5s;
     @extend .card;
 

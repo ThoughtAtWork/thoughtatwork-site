@@ -196,25 +196,6 @@
 }
 
 @include media('<lg') {
-<<<<<<< HEAD
-  .home-text{
-    &__what{
-      display: block;
-      margin-top: 58px;
-      margin-left: 102px;
-      width: 302px;
-    }
-    &__who{
-      margin-top: 46px;
-      display: block;
-      margin-left: 430px;
-      width: 302px;
-    }
-    .title--gap{
-      line-height: 6.94vh;
-    }
-  }
-=======
 	.home-text {
 		&__what {
 			display: block;
@@ -232,7 +213,6 @@
 			line-height: 70px;
 		}
 	}
->>>>>>> 4fcd8bb9684dafca41519d38fd3f943553ca6e76
 }
 
 @include media('<md') {
