@@ -25,6 +25,7 @@ Thought At Work Conference Website by students and for students
 - Hasque May
 - Apriet Kenig
 - Jacob Frank
+- Liam Madigan
 - Jialing Chen
 
 #### Development Team
@@ -33,7 +34,7 @@ Thought At Work Conference Website by students and for students
 - Lucas Kern
 - Patrick Ly
 - Shihab Uddin
-- Sara Artese
+- Andrew Hurley
 
 ## <a name="requirements"></a>Requirements
 #### Development

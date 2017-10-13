@@ -16,6 +16,7 @@ const navigation = require('./navigation.js');
 const scrollUp = require('./scrollUp.js');
 const register = require('./register.js');
 const squiggle = require('./squiggle.js');
+const schedule = require('./schedule.js');
 
 window.onload = function() {
   // console.log("contactScript included", contactScript);

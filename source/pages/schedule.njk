@@ -1,44 +1,17 @@
-<!-- app/pages/schedule.njk-->
+<!-- index.njk -->
 {% extends "layout.njk" %}
 
 {% block title %}
-    Schedule
+    Home
 {% endblock %}
 {% block content %}
     {% import 'macros/nav-macro.njk' as nav %}
-    <!-- Creating the navigation with activePage = 'schedule' -->
+    <!-- Creating the navigation with activePage = 'index' -->
     {{nav.active('schedule')}}
 
-	{% import 'macros/header-macro.njk' as header %}
-	{{header.pageNames( 'Schedule' )}}
-	
-    <div class="container">
+    {% import 'macros/header-macro.njk' as header %}
+    {{header.pageNames( 'Schedule' )}}
 
-        <div id="schedule">
-            {% for i in range(9, 18) %}
-                <div class="timeLine">
-                    <p>
-                        {% if i == 0 %}
-                            12 am
-                        {% elif i < 12 %}
-                            {{i}}
-                            am
-                        {% elif i == 12 %}
-                            12 pm
-                        {% else %}
-                            {{i - 12}}
-                            pm
-                        {% endif %}
-                    </p>
-                    <hr>
-                </div>
-            {% endfor %}
-
-            <script></script>
-            {% from "partials/eventCardHeights.njk" import eventCard %}
-            <div class="eventRow">
-                {{ eventCard("300px") }}
-            </div>
-        </div>
-    </div>
-{% endblock %}
+    {% include "partials/schedule.njk" %}
+    {% include "partials/footer.njk" %}
+{%  endblock %}
