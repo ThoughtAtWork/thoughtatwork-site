@@ -2,16 +2,18 @@
 {% extends "layout.njk" %}
 
 {% block title %}
-    Home
+    Schedule
 {% endblock %}
 {% block content %}
-    {% import 'macros/nav-macro.njk' as nav %}
-    <!-- Creating the navigation with activePage = 'index' -->
-    {{nav.active('schedule')}}
+
+{% import 'macros/nav-macro.njk' as nav %}
+{{nav.active('schedule')}}
 
     {% import 'macros/header-macro.njk' as header %}
     {{header.pageNames( 'Schedule' )}}
 
+    <div class="container">
     {% include "partials/schedule.njk" %}
     {% include "partials/footer.njk" %}
-{%  endblock %}
+    </div>
+{% endblock %}
