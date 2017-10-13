@@ -1,29 +1,29 @@
-/******************************* Day Selector *********************************/
-//schedfilter
 .day_option {
     -ms-flex-align: center;
     -webkit-align-items: center;
     -webkit-box-align: center;
     align-items: center;
     height: 5vw;
+    min-height: 80px;
+    max-height: 120px;
     text-align: center;
-    vertical-align: middle;
-    display: inline-block;
     transition: background-color 0.3s, color 0.3s;
-    transition: 0.5s;
+    transition: 0.1s;
     opacity: 0.8;
     @extend .card;
+    width: 27%;
+    margin: 0 3% 0 3%;
 
     &:hover {
         background-color: $teal;
         color: white;
-        transition: background-color 1.3s, color 1.3s;
+        transition: background-color 0.3s, color 0.3s;
         cursor: pointer;
     }
 
     &:hover p {
         color: white;
-        transition: background-color 1.3s, color 1.3s;
+        transition: background-color 0.3s, color 0.3s;
         cursor: pointer;
     }
 }
@@ -39,18 +39,14 @@
     .day_selector_cont {
         margin-bottom: 20px;
         width: 100%;
-        //display: flex;
         display: -webkit-box;
         -webkit-box-align: center;
         flex-direction: column;
     }
 
     .day_option {
-        width: 75vw;
-        height: 8vw;
-        padding: 10px 30px;
-        margin: 2vw;
-        text-align: center;
+        width: 88%;
+        margin: 4%;
     }
 
     .active {
@@ -62,19 +58,13 @@
         margin-bottom: 20px;
         width: 100%;
         display: -webkit-box;
-        //display: flex;
+        // display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 }
 @media screen and (min-width: $md) {
-    .day_option {
-        width: 16.432vw;
-        padding: 15px 40px;
-        margin: 0 2vw;
-    }
-
     .day_selector_cont {
         -ms-flex-align: center;
         -webkit-align-items: center;
@@ -82,15 +72,6 @@
         align-items: center;
     }
 }
-@media screen and (max-width: $md) and (min-width: $sm) {
-    .day_option {
-        padding: 10px 30px;
-    }
-}
-
-
-// @import 'variables';
-// @import 'fonts';
 
 body {
     //font-family: 'Elliot';
@@ -125,7 +106,7 @@ body {
         display: table-cell;
         height: 5.168vw;
         width: inherit;
-        vertical-align: middle;
+
     }
 
     p {
@@ -150,13 +131,10 @@ body {
     width: 16.432vw;
     height: 3.52vw;
     text-align: center;
-    vertical-align: middle;
-    //was block
-    display: inline-table;
+    display: inline-block;
     margin: 0 2vw;
-    //Temp solution to the space between filter
-    margin-bottom: 1%;
-    transition: 0.5s;
+    transition: 0.1s;
+  
     @extend .card;
 
     .content {
@@ -170,7 +148,7 @@ body {
         font-weight: 500;
         font-size: 20pt;
         display: table-cell;
-        vertical-align: middle;
+
         opacity: 0.6;
         @extend .card__header;
     }
@@ -179,7 +157,7 @@ body {
 .speakFilter--selected {
     padding: 0 16px;
     height: 4.4vw;
-    transition: 0.5s;
+    transition: 0.1s;
 
     .filter__header {
         opacity: 1.0;

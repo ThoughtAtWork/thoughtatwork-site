@@ -358,7 +358,7 @@ var schedule = {
 
 function collapse_event(click) {
   var node = click.target;
-  while (node.className != "event_cont flex_column") {
+  while (node.className != "event_cont flex flex-column") {
     node = node.parentNode;
   }
   node.removeEventListener('click',collapse_event);
@@ -372,7 +372,7 @@ function collapse_event(click) {
 function expand_event(click) {
   var node = click.target;
 
-  while (node.className != "event_cont flex_column") {
+  while (node.className != "event_cont flex flex-column") {
     console.log(node.className);
     node = node.parentNode;
   }
@@ -387,16 +387,17 @@ function expand_event(click) {
 function make_event_cont(event) {
   var event_cont = document.createElement('div');
   if (event.disc && event.disc != "") {
-    event_cont.className = 'event_cont flex_column';
+    event_cont.className = 'event_cont flex flex-column';
   }
   else {
-    event_cont.className = 'event_cont_no_disc flex_column';
+    event_cont.className = 'event_cont_no_disc flex flex-column';
   }
 
 
   var title_text = document.createElement('p');
   if (event.disc && event.disc != "") {
     title_text.className = 'title_text';
+    // title_text.innerHTML = event.title + '<i class="fa fa-plus desc-plus" aria-hidden="true">&nbsp;</i>'; For linked ones
   }
   else {
     title_text.className = 'title_text_no_disc';
@@ -432,17 +433,17 @@ function make_event_cont(event) {
 function make_time_cont(event_list,border) {
   var time_cont = document.createElement('div');
   if (border) {
-    time_cont.className = 'time_cont flex_row';
+    time_cont.className = 'time_cont flex flex-row';
   }
   else {
-    time_cont.className = 'time_cont_no_border flex_row';
+    time_cont.className = 'time_cont_no_border flex flex-row';
   }
   var time_text = document.createElement('p');
   time_text.className = 'time_text';
   time_text.innerHTML = event_list[0].start + " - " + event_list[0].end;
   time_cont.appendChild(time_text);
   var events_cont = document.createElement('div');
-  events_cont.className = "events_cont flex_column";
+  events_cont.className = "events_cont flex flex-column";
   for (var i = 0; i < event_list.length; i++) {
     events_cont.appendChild(make_event_cont(event_list[i]));
   }
