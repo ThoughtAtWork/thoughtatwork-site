@@ -14,9 +14,9 @@ var schedule = {
         disc: ""
       },
       {
-        title: "Opening Address",
-        person: "University Gallery",
-        loc: "Vignelli",
+        title: "Welcoming Address",
+        person: "",
+        loc: "University Gallery",
         start: "10:30AM",
         end: "11:30AM",
         disc: ""
@@ -35,7 +35,7 @@ var schedule = {
         loc: "Booth 3330",
         start: "12:45PM",
         end: "1:45PM",
-        disc: "Whether student or professional, every artist eventually faces the question: how do I keep growing? Jasmin will talk about why it's important for artists to constantly evaluate what is effective – or when it's time to abandon things that aren't panning out. She’ll show you the journey that her own work has taken, and why it's important not to \"work\" for a living, but rather make money doing what we love."
+        disc: "Whether student or professional, every artist eventually faces the question: how do I keep growing? Jasmin will talk about why it's important for artists to constantly evaluate what is effective – or when it's time to abandon things that aren't panning out. She'll show you the journey that her own work has taken, and why it's important not to \"work\" for a living, but rather make money doing what we love."
       },
       {
         title: "LOLWTF",
@@ -54,12 +54,12 @@ var schedule = {
         disc: "Tim Scanlon is a global leader in experience design. He integrates design and research methods to help businesses differentiate themselves. Technology is emerging and offering new solutions – but so are you. How do you plan a career in an seemingly unpredictable landscape?"
       },
       {
-        title: "Friday Keynote Presentation – Design: A User Experience",
+        title: "Friday Keynote Presentation – Design: A User Experience",
         person: "Patricia Moore",
         loc: "Webb Auditorium",
         start: "2:00PM",
         end: "3:30PM",
-        disc: "How Design, with a capitol \"D\" defines the quality of our Lifespan. RIT Alum Pattie Moore, named One of the 40 Most Socially Rsponsible Designers in the World, One of the 100 Most Important Women in America and One of the 50 People Defining this Century, discusses how Designers determine the dreams of our lives."
+        disc: "How Design, with a capital \"D\" defines the quality of our Lifespan. RIT Alum Pattie Moore, named One of the 40 Most Socially Responsible Designers in the World, One of the 100 Most Important Women in America and One of the 50 People Defining this Century, discusses how Designers determine the dreams of our lives."
       },
       {
         title: "Truth Or Dare",
@@ -67,7 +67,7 @@ var schedule = {
         loc: "Webb Auditorium",
         start: "3:45PM",
         end: "4:45PM",
-        disc: "Navigating a creative life isn’t easy. Kim’s done a plethora of embarrassing things, taken a variety of risks and some how gotten to where she is with only a few (visible) battle scars. This follow up talk to Why Would You Can’t explores more of the deep stories about honesty and risk, pushing through the endless mud of reality, and setting an intention even when you’re thrashing about like a tadpole in a frying pan with the struggles of each day. Her stories along with tips and tools will entertain, and help you carve your own practice to stay the course and achieve the life you want. Moments arise where inspiration is elusive, life is painful, and you just need to ask yourself, \'Truth or Dare?\'"
+        disc: "Navigating a creative life isn't easy. Kim's done a plethora of embarrassing things, taken a variety of risks and some how gotten to where she is with only a few (visible) battle scars. This follow up talk to Why Would You Can't explores more of the deep stories about honesty and risk, pushing through the endless mud of reality, and setting an intention even when you're thrashing about like a tadpole in a frying pan with the struggles of each day. Her stories along with tips and tools will entertain, and help you carve your own practice to stay the course and achieve the life you want. Moments arise where inspiration is elusive, life is painful, and you just need to ask yourself, \'Truth or Dare?\'"
       },
       {
         title: "The 3D Printed Jewelry of Maria Eife",
@@ -83,7 +83,7 @@ var schedule = {
         loc: "Booth 3310",
         start: "3:45PM",
         end: "4:45PM",
-        disc: "Owen Davey wasn’t always an award-winning illustrator. This talk is all about Owen’s path from student to where he is now. He’ll talk a bit about his process and some of the stuff he’s learned along the way."
+        disc: "Owen Davey wasn't always an award-winning illustrator. This talk is all about Owen's path from student to where he is now. He'll talk a bit about his process and some of the stuff he's learned along the way."
       },
       {
         title: "Adding Cage-ism to Your Creative Workflow",
@@ -91,7 +91,7 @@ var schedule = {
         loc: "Booth 3550",
         start: "3:45PM",
         end: "4:45PM",
-        disc: "It could happen to you. One minute you’re moonstruck with a kick-ass idea. Next, it’s gone in 60 seconds as if stolen like a national treasure. The kiss of death. Do you have the trust to be wild at heart? Bushra Mahmood left behind the frozen ground, and she calls it adaptation. That’s high praise."
+        disc: "It could happen to you. One minute you're moonstruck with a kick-ass idea. Next, it's gone in 60 seconds as if stolen like a national treasure. The kiss of death. Do you have the trust to be wild at heart? Bushra Mahmood left behind the frozen ground, and she calls it adaptation. That's high praise."
       },
       {
         title: "What the Hell is an i-Doc?",
@@ -99,7 +99,7 @@ var schedule = {
         loc: "Booth 1400",
         start: "5:00PM",
         end: "6:00PM",
-        disc: "Alternate title: \'Interactive Documentary: Storytelling with Multiple Mediums and Makers\' Documentary film and journalism have long been ingrained in traditional media—film/video, written text, spoken word. With the incorporation of diverse web technologies, we’re continuing to redefine storytelling in these spaces. The single author, or auteur, approach has changed dramatically with subject/user participation, blurring the lines between storyteller, subject, and audience. Jeff will explore how we can create meaningful stories and experiences that affect real people with today’s tools."
+        disc: "Alternate title: \'Interactive Documentary: Storytelling with Multiple Mediums and Makers\' Documentary film and journalism have long been ingrained in traditional media—film/video, written text, spoken word. With the incorporation of diverse web technologies, we're continuing to redefine storytelling in these spaces. The single author, or auteur, approach has changed dramatically with subject/user participation, blurring the lines between storyteller, subject, and audience. Jeff will explore how we can create meaningful stories and experiences that affect real people with today's tools."
       },
       {
         title: "Top 10 Things I Wish I Knew When I Graduated",
@@ -115,7 +115,7 @@ var schedule = {
         loc: "Booth 1480",
         start: "5:00PM",
         end: "6:30PM",
-        disc: "As a digital artist, Jasmin specializes in more of a graphic design style than the painterly, sci-fi style that you often see in the industry. In this digital painting workshop, Jasmin will show you how she creates a piece from start to finish, while explaining how her technique might vary when she’s working for different projects such as Steven Universe."
+        disc: "As a digital artist, Jasmin specializes in more of a graphic design style than the painterly, sci-fi style that you often see in the industry. In this digital painting workshop, Jasmin will show you how she creates a piece from start to finish, while explaining how her technique might vary when she's working for different projects such as Steven Universe."
       },
       {
         title: "Intro to KeyShot",
@@ -131,7 +131,7 @@ var schedule = {
         loc: "Booth 3310, 3330, 3340",
         start: "7:00PM",
         end: "8:15PM",
-        disc: "It’s back. Load up your plate and prepare to witness the most intense hour of sketching you’ve ever seen. Friday night, the specially drafted group of creative contenders will flex their artistic muscles as they compete for the coveted Sketchoff prize."
+        disc: "It's back. Load up your plate and prepare to witness the most intense hour of sketching you've ever seen. Friday night, the specially drafted group of creative contenders will flex their artistic muscles as they compete for the coveted Sketchoff prize."
       },
       {
         title: "After Party",
@@ -139,7 +139,7 @@ var schedule = {
         loc: "Lovin Cup",
         start: "9:00PM",
         end: "12:00AM",
-        disc: "Kick back Friday night at this nearby bar and restaurant. We hear there’s going to be a live band and your cover charge is on us (just flash your badge). Here's the address: 300 Park Point Dr, Rochester, NY 14623."
+        disc: "Kick back Friday night at this nearby bar and restaurant. We hear there's going to be a live band and your cover charge is on us (just flash your badge). Here's the address: 300 Park Point Dr, Rochester, NY 14623."
       }
     ],
   },
@@ -167,7 +167,7 @@ var schedule = {
         loc: "University Gallery",
         start: "9:30AM",
         end: "11:00AM",
-        disc: "You’ve got a portfolio, we’ve got feedback. By filling a room with portfolio wizards (working professionals), we provide a venue to discuss and be taught how to craft a portfolio that’ll knock the socks off anyone who sees it. Bring your work!"
+        disc: "You've got a portfolio, we've got feedback. By filling a room with portfolio wizards (working professionals), we provide a venue to discuss and be taught how to craft a portfolio that'll knock the socks off anyone who sees it. Bring your work!"
       },
       {
         title: "Real World Scenario #1",
@@ -175,7 +175,7 @@ var schedule = {
         loc: "Booth 3310",
         start: "9:30AM",
         end: "11:00AM",
-        disc: "Yeah, sometimes clients know what they want. But what happens when a client doesn’t give you much to go on at all, and you don’t have a lot of time to figure it out? In Owen’s workshop, you’ll struggle through the conception of a draft illustration that you’d present to a client before moving onto a final version. This kind of thing tests your technical skills, your lateral thinking, and your patience – but you might as well get used to that now."
+        disc: "Yeah, sometimes clients know what they want. But what happens when a client doesn't give you much to go on at all, and you don't have a lot of time to figure it out? In Owen's workshop, you'll struggle through the conception of a draft illustration that you'd present to a client before moving onto a final version. This kind of thing tests your technical skills, your lateral thinking, and your patience – but you might as well get used to that now."
       },
       {
         title: "KeyShot: Advanced Features",
@@ -183,7 +183,7 @@ var schedule = {
         loc: "Gannett 1217",
         start: "9:30AM",
         end: "11:00AM",
-        disc: "This is the next level. Will Gibbons will show you how to use KeyShot’s advanced features – come to this workshop if you want to seriously step up your rendering and animation game."
+        disc: "This is the next level. Will Gibbons will show you how to use KeyShot's advanced features – come to this workshop if you want to seriously step up your rendering and animation game."
       },
       {
         title: "Pitch, please!",
@@ -207,7 +207,7 @@ var schedule = {
         loc: "Booth 1540",
         start: "11:15AM",
         end: "12:15PM",
-        disc: "Coding your own website doesn’t have to be difficult. In this workshop, Matt will explain HTML & CSS in a way that will get you excited by revealing its underlying simplicity. When you can bring your designs to life through code, you’ll have a competitive advantage and a rare superpower that enables you to create almost anything for the web."
+        disc: "Coding your own website doesn't have to be difficult. In this workshop, Matt will explain HTML & CSS in a way that will get you excited by revealing its underlying simplicity. When you can bring your designs to life through code, you'll have a competitive advantage and a rare superpower that enables you to create almost anything for the web."
       },
       {
         title: "Firewatch: Rethinking Story-Driven Games",
@@ -223,7 +223,7 @@ var schedule = {
         loc: "Booth 3340",
         start: "11:15AM",
         end: "12:15PM",
-        disc: "If you think that a job title like ‘Social Interaction Strategist’ sounds completely made up, that’s okay – it was. In fact, it was made up for Helen Androlia. In the quickly evolving digital landscape everything is rewritten on a daily basis, and job roles are no different. Some futurists predict that in as little as under two decades over 2 billion jobs will become extinct, and while that sounds like a terrifying statistic, it also opens up opportunities that haven’t even been created yet – especially if you’re ready to build your own. Helen examines how you too can create your own job title with case studies from working professionals who also built their roles from scratch, and develops a potential framework for how transitioning professionals and students entering the workforce might just be able to build their own dream digital and social job."
+        disc: "If you think that a job title like 'Social Interaction Strategist' sounds completely made up, that's okay – it was. In fact, it was made up for Helen Androlia. In the quickly evolving digital landscape everything is rewritten on a daily basis, and job roles are no different. Some futurists predict that in as little as under two decades over 2 billion jobs will become extinct, and while that sounds like a terrifying statistic, it also opens up opportunities that haven't even been created yet – especially if you're ready to build your own. Helen examines how you too can create your own job title with case studies from working professionals who also built their roles from scratch, and develops a potential framework for how transitioning professionals and students entering the workforce might just be able to build their own dream digital and social job."
       },
       {
         title: "Lunch",
@@ -231,15 +231,15 @@ var schedule = {
         loc: "Booth 3310",
         start: "12:30PM",
         end: "1:30PM",
-        disc: "It’s lunch! You know, food."
+        disc: "It's lunch! You know, food."
       },
       {
-        title: "Saturday Keynote Opener – Killing The Cat",
+        title: "Saturday Keynote Opener – Killing The Cat",
         person: "Allan Chochinov + Core77",
         loc: "Ingle Auditorium",
         start: "1:45PM",
         end: "2:30PM",
-        disc: "Should design ever hold back? As our keynote opener, Allan Chochinov (Partner at Core77) will explore the role and limits of design in areas that often make people uncomfortable – but maybe that’s exactly where design is needed the most."
+        disc: "Should design ever hold back? As our keynote opener, Allan Chochinov (Partner at Core77) will explore the role and limits of design in areas that often make people uncomfortable – but maybe that's exactly where design is needed the most."
       },
       {
         title: "Saturday Keynote Presentation – Stuff I Did",
@@ -247,7 +247,7 @@ var schedule = {
         loc: "Ingle Auditorium",
         start: "2:30PM",
         end: "4:00PM",
-        disc: "Jake is going to start off his keynote presentation with about ten minutes of back story… then he’ll open it up and let the audience direct the rest. In ask-me-anything fashion, Jake will tell you whatever you want to know about building ideas into influential brands. Have your questions ready!"
+        disc: "Jake is going to start off his keynote presentation with about ten minutes of back story… then he'll open it up and let the audience direct the rest. In ask-me-anything fashion, Jake will tell you whatever you want to know about building ideas into influential brands. Have your questions ready!"
       },
       {
         title: "Design Whiteboarding",
@@ -255,7 +255,7 @@ var schedule = {
         loc: "Booth 1480",
         start: "4:15PM",
         end: "5:15PM",
-        disc: "You’ve been called in for a job interview with the agency of your dreams. You arrive early, but not too early. You have multiple copies of your resume in a folder and a list of questions in your head with their corresponding answers. You stride into the room and get ready to knock some socks off. Only this interview is different. Instead of talking about your experience, they want you to draw your ideas – on a whiteboard – and you have a limited amount of time. You crumble into a sweaty, weeping ball of misplaced preparation. Don’t let this be you. Go to Miguel’s workshop."
+        disc: "You've been called in for a job interview with the agency of your dreams. You arrive early, but not too early. You have multiple copies of your resume in a folder and a list of questions in your head with their corresponding answers. You stride into the room and get ready to knock some socks off. Only this interview is different. Instead of talking about your experience, they want you to draw your ideas – on a whiteboard – and you have a limited amount of time. You crumble into a sweaty, weeping ball of misplaced preparation. Don't let this be you. Go to Miguel's workshop."
       },
       {
         title: "Fusion 360 Hands-on Workshop",
@@ -287,7 +287,7 @@ var schedule = {
         loc: "Bowl-A-Roll",
         start: "9:00PM",
         end: "12:00PM",
-        disc: "We’re trying something new this year – bowling! Come hang out, play a few games, and connect with other designers. Huge thanks to Core77 for making this event possible. Address: 1560 Jefferson Rd, Rochester, NY 14623."
+        disc: "We're trying something new this year – bowling! Come hang out, play a few games, and connect with other designers. Huge thanks to Core77 for making this event possible. Address: 1560 Jefferson Rd, Rochester, NY 14623."
       }
     ]
   },
@@ -307,7 +307,7 @@ var schedule = {
         loc: "Booth 1540",
         start: "11:30AM",
         end: "12:30PM",
-        disc: "When you’re just starting out, freelancing can seem overwhelming. Where do you find clients? How much do you charge? How can you guarantee payment? What if you don’t get consistent work? In this workshop, Matt will teach you how to become a rockstar freelancer in a saturated and competitive market. You’ll learn how to attract your ideal clients, write winning proposals, charge for value, and kickstart a successful freelancing business."
+        disc: "When you're just starting out, freelancing can seem overwhelming. Where do you find clients? How much do you charge? How can you guarantee payment? What if you don't get consistent work? In this workshop, Matt will teach you how to become a rockstar freelancer in a saturated and competitive market. You'll learn how to attract your ideal clients, write winning proposals, charge for value, and kickstart a successful freelancing business."
       },
       {
         title: "Self Care For Artists",
@@ -315,7 +315,7 @@ var schedule = {
         loc: "Booth 3540",
         start: "11:30AM",
         end: "1:00PM",
-        disc: "Design conferences usually focus on software tools, production techniques, and which lines of code to write. But life as a designer gets hectic, even overwhelming…so how do we handle the demands of our work while still making time to nurture ourselves and our creativity? In this experiential and discussion-based session, Susanna Rose will focus on topics like mindfulness, self-compassion, non-judgment, and play. This workshop was born out Susanna’s own experiences as an artist and her training as a Mental Health Counselor at St. John Fisher College."
+        disc: "Design conferences usually focus on software tools, production techniques, and which lines of code to write. But life as a designer gets hectic, even overwhelming…so how do we handle the demands of our work while still making time to nurture ourselves and our creativity? In this experiential and discussion-based session, Susanna Rose will focus on topics like mindfulness, self-compassion, non-judgment, and play. This workshop was born out Susanna's own experiences as an artist and her training as a Mental Health Counselor at St. John Fisher College."
       },
       {
         title: "Roll Up Your Sleeves",
@@ -344,6 +344,9 @@ var schedule = {
     ]
   }
 }
+
+
+
 
 function collapse_event(click) {
   var node = click.target;
