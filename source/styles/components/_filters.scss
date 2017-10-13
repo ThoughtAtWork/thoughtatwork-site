@@ -131,10 +131,10 @@ body {
     width: 16.432vw;
     height: 3.52vw;
     text-align: center;
-
     display: inline-block;
     margin: 0 2vw;
     transition: 0.1s;
+  
     @extend .card;
 
     .content {
