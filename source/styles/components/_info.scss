@@ -1,15 +1,68 @@
+
+
 .wheretostay {
-	visibility: hidden;
+	display: none;
 }
 
 .gethere {
-	visibility: hidden;
+	display: none;
 }
 
 .welcome {
-	visibility: hidden;
+	display: none;
 }
 
 .essentials {
-	
+	display: inherit;
+}
+//page chooser styles
+
+//the essentials styles
+.checklist_container{
+	margin: 0 auto;
+
+	max-width: 55vw;
+	padding: 76px;
+	padding-left: 142px;
+	padding-right: 142px;
+	background-color: #ffffff;
+	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+
+	//add the shadow
+	//add text align left in as a class item is should be a predefined item
+}
+
+.checklist_item{
+
+}
+.info_checkbox{
+	position: relative;
+	left: -61px;
+    top: 24px;
+	display:inline-block
+}
+// .info_header{
+// 	position: absolute;
+// 	top: 323px;
+// 	width: 770px;
+// 	left: 2vw;
+// 	z-index: -1;
+// }
+.checklist_title{
+	position: relative;
+	left:-30px;
+	font-size: 16px;
+	margin-bottom: 62px;
+	color: #4D4D4D;
+}
+.checklist_headline{
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #4D4D4D;
+}
+.checklist_byline{
+	font-style: italic;
+	font-size: 16px;
+	color: #B2B2B2;
+	margin-bottom: 40px;
 }
