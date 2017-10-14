@@ -162,7 +162,7 @@ $(document).ready(function(){
 		});
 		
 
-		$('.modal__accord').html("");
+		$('.modal__accord').html('<h5 class="card__header">Presentations</h5>');
 		speakers[i].presentations.forEach(function(pres){
 			$('.modal__accord').append('<p class="modal__accord-title speakers-modal__event"><span>+</span> '+pres.title+'</p><div class="modal__accord-item"><p>'+pres.description+'</p></div>');
 		});
