@@ -6,20 +6,20 @@ var schedule = {
   "fri": {
     events: [
       {
-        title: "Check-In",
+        title: "Registration & Check-In",
         person: "",
-        loc: "Booth 2nd Floor Lobby",
+        loc: "Bevier Gallery",
         start: "9:00AM",
-        end: "6:00PM",
+        end: "5:00PM",
         disc: ""
       },
       {
-        title: "Product Timecapsule: Round Table Discussion",
-        person: "Wendell Castle",
+        title: "Opening Address",
+        person: "University Gallery",
         loc: "Vignelli",
-        start: "10:00AM",
-        end: "11:00AM",
-        disc: "Educated in industrial design and sculpture, Wendell Castle emerged from this thaw in the craft world, boldly challenging the tradition and expectations of material reverence, daring to ask: why can’t furniture be art—and is credited with leading the American Studio Furniture movement through the sixties and seventies. Taking interest in making his designs more available to a wider audience, Castle began working with production furniture and plastic in the early 1970s. His Molar Chair referenced earlier forms sculpted from stack-laminated wood and became the crown of this new line of molded plastic furniture, quickly deemed a modern classic and exhibited in galleries and museums while simultaneously being sold to the general public. In conjunction with Thought At Work, please join us for a dialogue with Wendell as he discusses his entry to the Product Timecapsule archives. This talk will take place in the Hamlyn Room, on the fourth level of the Vignelli Center for Design Studies. Use the University Gallery Entrance."
+        start: "10:30AM",
+        end: "11:30AM",
+        disc: ""
       },
       {
         title: "Opening Address",
@@ -45,17 +45,6 @@ var schedule = {
         end: "1:45PM",
         disc: "Where do ideas come from? In this candid talk, designer and RIT professor Mitch Goldstein takes us on a journey through the past 44 years of his life and examines the art he saw, the movies he watched, the music he listened to, and the books he read — and how these things (might) have influenced his work."
       },
-      /*
-      //Jordan backed out due to family stuff
-      {
-        title: "The Entrepreneurial Spirit of Design",
-        person: "Jordan Nollman",
-        loc: "Booth 3550",
-        start: "12:45PM",
-        end: "1:45PM",
-        disc: "Jordan Nollman is an award-winning designer who is inspired by the entrepreneurial spirit of design. As CEO of Sprout Studios, he knows what he’s talking about. Jordan will be showcasing some of Sprout's new and old ventures, as well sharing the pros and cons of these projects."
-      },
-      */
       {
         title: "The Future of Making / Making Your Future",
         person: "Tim Scanlon",
@@ -358,7 +347,7 @@ var schedule = {
 
 function collapse_event(click) {
   var node = click.target;
-  while (node.className != "event_cont flex_column") {
+  while (node.className != "event_cont flex flex-column") {
     node = node.parentNode;
   }
   node.removeEventListener('click',collapse_event);
@@ -372,7 +361,7 @@ function collapse_event(click) {
 function expand_event(click) {
   var node = click.target;
 
-  while (node.className != "event_cont flex_column") {
+  while (node.className != "event_cont flex flex-column") {
     console.log(node.className);
     node = node.parentNode;
   }
@@ -387,16 +376,17 @@ function expand_event(click) {
 function make_event_cont(event) {
   var event_cont = document.createElement('div');
   if (event.disc && event.disc != "") {
-    event_cont.className = 'event_cont flex_column';
+    event_cont.className = 'event_cont flex flex-column';
   }
   else {
-    event_cont.className = 'event_cont_no_disc flex_column';
+    event_cont.className = 'event_cont_no_disc flex flex-column';
   }
 
 
   var title_text = document.createElement('p');
   if (event.disc && event.disc != "") {
     title_text.className = 'title_text';
+    // title_text.innerHTML = event.title + '<i class="fa fa-plus desc-plus" aria-hidden="true">&nbsp;</i>'; For linked ones
   }
   else {
     title_text.className = 'title_text_no_disc';
@@ -432,17 +422,17 @@ function make_event_cont(event) {
 function make_time_cont(event_list,border) {
   var time_cont = document.createElement('div');
   if (border) {
-    time_cont.className = 'time_cont flex_row';
+    time_cont.className = 'time_cont flex flex-row';
   }
   else {
-    time_cont.className = 'time_cont_no_border flex_row';
+    time_cont.className = 'time_cont_no_border flex flex-row';
   }
   var time_text = document.createElement('p');
   time_text.className = 'time_text';
   time_text.innerHTML = event_list[0].start + " - " + event_list[0].end;
   time_cont.appendChild(time_text);
   var events_cont = document.createElement('div');
-  events_cont.className = "events_cont flex_column";
+  events_cont.className = "events_cont flex flex-column";
   for (var i = 0; i < event_list.length; i++) {
     events_cont.appendChild(make_event_cont(event_list[i]));
   }
@@ -488,7 +478,7 @@ function rem_listeners(node) {
 function change_day(day) {
   cur_day = day;
   // Show that the element is selected
-  document.getElementById(day + '_text').className += ' active';
+  document.getElementById(day + '_text').className += ' filter-active';
   // remove the event listener on the newly selected object
   rem_listeners(document.getElementById(day + '_text'));
   for (var i = 0; i < days.length; i++) {
@@ -496,7 +486,7 @@ function change_day(day) {
       (function () {
         rem_listeners(document.getElementById(days[i] + '_text'));
         var pre_class = document.getElementById(days[i] + '_text').className;
-        document.getElementById(days[i] + '_text').className = pre_class.replace('active','');
+        document.getElementById(days[i] + '_text').className = pre_class.replace('filter-active','');
         var day = days[i];
         document.getElementById(day + '_text').addEventListener('click', function () {
           change_day(day);
