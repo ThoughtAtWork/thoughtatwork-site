@@ -156,6 +156,11 @@ $(document).ready(function(){
 		$('.speakers-modal__name').html(speakers[i].firstName + " " + speakers[i].lastName);
 		$('.speakers-modal__position').html(speakers[i].position + " at " + speakers[i].company);
 		$('.speakers-modal__headshot').attr('src', speakers[i].headshot);
+		$('.speakers-modal__social').html("");
+		speakers[i].social.forEach(function(social){
+			$('.speakers-modal__social').append('<a href="'+social.url+'"><img src="../assets/graphics/'+social.type+'_teal.svg" class="speakers-modal__social__img"></a>');
+		});
+		
 
 		$('.modal__accord').html("");
 		speakers[i].presentations.forEach(function(pres){

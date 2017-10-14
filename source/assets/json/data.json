@@ -6,6 +6,7 @@
       "lastName": "Cardona",
       "position": "Lead Designer",
       "company": "Imgix",
+      "social": [{"type": "facebook", "url": "http://facebook.com"}],
       "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": [
         {"title": "Whiteboard Interviews",
@@ -20,6 +21,7 @@
       "lastName": "Moore",
       "position": "President Officer",
       "company": "Moore Design Associates",
+      "social": [{"type": "facebook", "url": "http://facebook.com"}, {"type": "instagram", "url": "http://instagram.com"}],
       "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": [
         {"title": "Whiteboard Interviews",
@@ -34,6 +36,7 @@
       "lastName": "Zhuo",
       "position": "VP of Design",
       "company": "Facebook",
+      "social": [{"type": "facebook", "url": "http://facebook.com"}],
       "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": [
         {"title": "Whiteboard Interviews",
@@ -48,7 +51,8 @@
 	"lastName": "Casale",
 	"position": "Design Operations",
 	"company": "Converse & Nike",
-	"backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+	"social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": [
     {"title": "Whiteboard Interviews",
       "description": "a talk about whiteboards"},
@@ -62,6 +66,7 @@
    "lastName": "Nugent",
    "position": "Owner-Founder",
    "company": "ID Sketching",
+   "social": [{"type": "facebook", "url": "http://facebook.com"}],
    "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
    "presentations": []
 },
@@ -72,6 +77,7 @@
   "lastName": "Reid",
   "position": "Creative Director",
   "company": "MiddleBoop",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -82,6 +88,7 @@
   "lastName": "Smith",
   "position": "Education Program Manager",
   "company": "Autodesk",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -92,6 +99,7 @@
   "lastName": "Baltz",
   "position": "Food Technologist",
   "company": "New Lab",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -102,6 +110,7 @@
   "lastName": "Cox",
   "position": "Creative Director",
   "company": "Imaginary Forces",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -112,6 +121,7 @@
   "lastName": "Wood",
   "position": "Professor",
   "company": "RIT",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -122,6 +132,7 @@
   "lastName": "Gibbons",
   "position": "Global Training Specialist",
   "company": "Luxion",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -132,6 +143,7 @@
   "lastName": "Rose",
   "position": "Mental Health Counselor",
   "company": "Non-profit agency",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -142,6 +154,7 @@
   "lastName": "Shaw",
   "position": "Professor",
   "company": "SCAD",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -152,6 +165,7 @@
   "lastName": "Goldstein",
   "position": "Professor",
   "company": "RIT",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -162,6 +176,7 @@
   "lastName": "Witmer",
   "position": "Senior Designer",
   "company": "Sarofsky",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 },
@@ -172,6 +187,7 @@
   "lastName": "Herzog",
   "position": "Designer",
   "company": "HAWRAF",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
   "presentations": []
 }

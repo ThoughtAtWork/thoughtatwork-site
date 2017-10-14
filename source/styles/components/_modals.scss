@@ -80,7 +80,12 @@
 	}
 
 	&__social{
-		margin-bottom: vw(28px);
+		margin: vw(24px) 0;
+		&__img{
+			fill: $teal;
+			width: vw(20px);
+			margin-right: vw(24px);
+		}
 	}
 
 	&__event{
@@ -135,10 +140,24 @@
 			padding: vw(120px) vw(48px);
 		}
 
+		&__position{
+			margin-bottom: (40px);
+		}
+
 		&__headshot{
-			width: vw(260px);
+			width: vw(320px);
 			height: auto;
+
 			float: left;
+			position: static;
+
+			margin-right: vw(80px);
+			margin-bottom: vw(64px);
+		}
+
+		&__social__img{
+			width: vw(70px);
+			margin-right: vw(70px);
 		}
 	}
 }
