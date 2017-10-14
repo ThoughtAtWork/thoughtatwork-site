@@ -129,7 +129,7 @@ body {
     }
 }
 
-.speakFilter {
+.scheduleFilter {
     width: 16.432vw;
     height: 3.52vw;
     text-align: center;
@@ -151,6 +151,34 @@ body {
         font-size: 20pt;
         display: table-cell;
 
+        opacity: 0.6;
+        @extend .card__header;
+    }
+}
+
+.speakFilter {
+    width: 16.432vw;
+    height: 3.52vw;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-table;
+    margin: 0 2vw;
+    margin-bottom: 1%;
+    transition: 0.5s;
+    @extend .card;
+
+    .content {
+        display: table;
+        height: inherit;
+        width: inherit;
+        position: relative;
+    }
+
+    .filter__header {
+        font-weight: 500;
+        font-size: 20pt;
+        display: table-cell;
+        vertical-align: middle;
         opacity: 0.6;
         @extend .card__header;
     }
