@@ -238,10 +238,10 @@ var schedule = {
       }, {
         title: "IDSA Bowling Night",
         person: "",
-        loc: "Bowl-A-Roll",
-        start: "8:30PM",
-        end: "1:00AM",
-        disc: "It’s Back! Come hang out, Bowl a few games, and connect with some speakers other designers. A huge thanks to IDSA for supporting us every year. Address: Check back soon."
+        loc: "Sunset Bowling Lanes",
+        start: "9:00PM",
+        end: "12:00AM",
+        disc: "It’s Back! Come hang out, Bowl a few games, and connect with some speakers other designers. A huge thanks to IDSA for supporting us every year. Address: 1317 Chili Ave, Rochester, NY 14624. Parking will be behind the building."
       }
     ]
   },
