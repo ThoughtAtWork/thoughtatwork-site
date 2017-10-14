@@ -75,6 +75,7 @@
 		top: 0;
 		left: 0;
 
+		box-shadow: 0 0 14px rgba(79,170,177,0.5);
 		transform: scale(1.05);
 	}
 
@@ -102,5 +103,42 @@
 
 	&.open{
 		height: auto;
+	}
+}
+
+@include media('<sm'){
+	.modal{
+		width: 100%;
+		height: auto;
+		min-height: 100%;
+		overflow-x: hidden;
+		margin: 0;
+
+		&-holder{
+			width: 100%;
+		}
+
+		&__x{
+			width: vw(40px);
+			height: vw(40px);
+
+			top: vw(48px);
+			right: vw(48px);
+		}
+	}
+
+	
+
+	.speakers-modal{
+
+		.modal__content{
+			padding: vw(120px) vw(48px);
+		}
+
+		&__headshot{
+			width: vw(260px);
+			height: auto;
+			float: left;
+		}
 	}
 }
