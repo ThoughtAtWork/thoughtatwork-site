@@ -16,11 +16,29 @@
 	display: inherit;
 }
 //page chooser styles
+.category_bar__info{
+	height: 72px;
+	width: auto;
+}
+.category_item__info{
+	margin: 0 auto;
+	font-size: 19px;
+	line-height: 76px;
+	font-weight: bold;
+	// margin-right: 65px;
 
+	height: 72px;
+	width: 225px;
+	color: #4D4D4D;
+	background-color: #ffffff;
+	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+}
+.category_item__info:last-child{
+	margin-right: 0;
+}
 //the essentials styles
 .checklist_container{
 	margin: 0 auto;
-
 	max-width: 55vw;
 	padding: 76px;
 	padding-left: 142px;
@@ -38,7 +56,7 @@
 .info_checkbox{
 	position: relative;
 	left: -61px;
-    top: 24px;
+	top: 35px;
 	display:inline-block
 }
 // .info_header{
@@ -52,7 +70,7 @@
 	position: relative;
 	left:-30px;
 	font-size: 16px;
-	margin-bottom: 62px;
+	margin-bottom: 36px;
 	color: #4D4D4D;
 }
 .checklist_headline{
