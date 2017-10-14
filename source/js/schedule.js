@@ -478,7 +478,7 @@ function rem_listeners(node) {
 function change_day(day) {
   cur_day = day;
   // Show that the element is selected
-  document.getElementById(day + '_text').className += ' filter-active';
+  document.getElementById(day + '_text').className += ' schedule-filter-active';
   // remove the event listener on the newly selected object
   rem_listeners(document.getElementById(day + '_text'));
   for (var i = 0; i < days.length; i++) {
@@ -486,7 +486,7 @@ function change_day(day) {
       (function () {
         rem_listeners(document.getElementById(days[i] + '_text'));
         var pre_class = document.getElementById(days[i] + '_text').className;
-        document.getElementById(days[i] + '_text').className = pre_class.replace('filter-active','');
+        document.getElementById(days[i] + '_text').className = pre_class.replace('schedule-filter-active','');
         var day = days[i];
         document.getElementById(day + '_text').addEventListener('click', function () {
           change_day(day);
