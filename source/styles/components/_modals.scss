@@ -6,7 +6,7 @@
 
 	&__x{
 		width: 20px;
-		height: 20px; 
+		height: 20px;
 
 		position: absolute;
 		top: 22px;
@@ -47,15 +47,12 @@
 
 .modal-holder{
     content: ' ';
-    width: calc(100% + 50px);
+    width: 100%;
     height: 100vh;
     overflow-y: scroll;
-
     position: fixed;
     top: 0;
     left: 0;
-
-    padding-right: 50px;
     z-index: 2000;
     pointer-events: none;
 }
@@ -84,8 +81,9 @@
 	height: vw(576px);
 
 	.modal__content{
-		padding: vw(56px) vw(36px) vw(40px) vw(488px);
+		padding: vw(56px) vw(56px) vw(40px) vw(488px);
 		height: calc(100% - 96px);
+		margin-left: 2%;
 	}
 
 	&__name{
@@ -100,7 +98,7 @@
 		left: 0;
 
 		box-shadow: 0 0 14px rgba(79,170,177,0.5);
-		transform: scale(1.05);
+		transform: scale(1.05) translateX(2%);
 	}
 
 	&__social{
@@ -164,7 +162,7 @@
 		}
 	}
 
-	
+
 
 	.speakers-modal{
 
