@@ -6,7 +6,13 @@
       "lastName": "Cardona",
       "position": "Lead Designer",
       "company": "Imgix",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+      "social": [{"type": "facebook", "url": "http://facebook.com"}],
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "presentations": [
+        {"title": "Whiteboard Interviews",
+          "description": "a talk about whiteboards"},
+        {"title": "Talk 2",
+          "description": ";alsdkjfl;afj"}]
     },
     {
       "fields": "Industrial Design | UX | Geriatrics",
@@ -15,7 +21,13 @@
       "lastName": "Moore",
       "position": "President Officer",
       "company": "Moore Design Associates",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+      "social": [{"type": "facebook", "url": "http://facebook.com"}, {"type": "instagram", "url": "http://instagram.com"}],
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "presentations": [
+        {"title": "Whiteboard Interviews",
+          "description": "a talk about whiteboards"},
+        {"title": "Talk 2",
+          "description": ";alsdkjfl;afj"}]
     },
     {
       "fields": "UI/UX | Marketing",
@@ -24,125 +36,161 @@
       "lastName": "Zhuo",
       "position": "VP of Design",
       "company": "Facebook",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Industrial Design | Illustration",
-      "headshot": "assets/graphics/speakers/anita_casale.png",
-      "firstName": "Anita",
-      "lastName": "Casale",
-      "position": "Design Operations",
-      "company": "Converse & Nike",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Industrial Design | Illustration",
-      "headshot": "assets/graphics/speakers/spencer_nugent.png",
-      "firstName": "Spencer",
-      "lastName": "Nugent",
-      "position": "Owner-Founder",
-      "company": "ID Sketching",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Motion Graphics",
-      "headshot": "assets/graphics/speakers/gordon_reid.png",
-      "firstName": "Gordon",
-      "lastName": "Reid",
-      "position": "Creative Director",
-      "company": "MiddleBoop",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Industrial Design",
-      "headshot": "assets/graphics/speakers/jeff_smith.png",
-      "firstName": "Jeff",
-      "lastName": "Smith",
-      "position": "Education Program Manager",
-      "company": "Autodesk",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Industrial Design",
-      "headshot": "assets/graphics/speakers/emilie_baltz.png",
-      "firstName": "Emilie",
-      "lastName": "Baltz",
-      "position": "Food Technologist",
-      "company": "New Lab",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Motion Graphics",
-      "headshot": "assets/graphics/speakers/jeremy_cox.png",
-      "firstName": "Jeremy",
-      "lastName": "Cox",
-      "position": "Creative Director",
-      "company": "Imaginary Forces",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Industrial Design | UX Design",
-      "headshot": "assets/graphics/speakers/tim_wood.png",
-      "firstName": "Tim",
-      "lastName": "Wood",
-      "position": "Professor",
-      "company": "RIT",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Industrial Design",
-      "headshot": "assets/graphics/speakers/will_gibbons.png",
-      "firstName": "Will",
-      "lastName": "Gibbons",
-      "position": "Global Training Specialist",
-      "company": "Luxion",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Health Care",
-      "headshot": "assets/graphics/speakers/susanna_rose.png",
-      "firstName": "Susanna",
-      "lastName": "Rose",
-      "position": "Mental Health Counselor",
-      "company": "Non-profit agency",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Motion Graphics | Graphic Design",
-      "headshot": "assets/graphics/speakers/austin_shaw.png",
-      "firstName": "Austin",
-      "lastName": "Shaw",
-      "position": "Professor",
-      "company": "SCAD",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Graphic Design",
-      "headshot": "assets/graphics/speakers/mitch_goldstein.png",
-      "firstName": "Mitch",
-      "lastName": "Goldstein",
-      "position": "Professor",
-      "company": "RIT",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Motion Graphics",
-      "headshot": "assets/graphics/speakers/tnaya_witmer.png",
-      "firstName": "Tnaya",
-      "lastName": "Witmer",
-      "position": "Senior Designer",
-      "company": "Sarofsky",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    },
-    {
-      "fields": "Graphic Design | UX Design",
-      "headshot": "assets/graphics/speakers/andrew_herzog.png",
-      "firstName": "Andrew",
-      "lastName": "Herzog",
-      "position": "Designer",
-      "company": "HAWRAF",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
-    }
+      "social": [{"type": "facebook", "url": "http://facebook.com"}],
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "presentations": [
+        {"title": "Whiteboard Interviews",
+          "description": "a talk about whiteboards"},
+        {"title": "Talk 2",
+          "description": ";alsdkjfl;afj"}]
+  },
+  {
+	"fields": "Industrial Design | Illustration",
+	"headshot": "assets/graphics/speakers/anita_casale.png",
+	"firstName": "Anita",
+	"lastName": "Casale",
+	"position": "Design Operations",
+	"company": "Converse & Nike",
+	"social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": [
+    {"title": "Whiteboard Interviews",
+      "description": "a talk about whiteboards"},
+    {"title": "Talk 2",
+      "description": ";alsdkjfl;afj"}]
+ },
+ {
+   "fields": "Industrial Design | Illustration",
+   "headshot": "assets/graphics/speakers/spencer_nugent.png",
+   "firstName": "Spencer",
+   "lastName": "Nugent",
+   "position": "Owner-Founder",
+   "company": "ID Sketching",
+   "social": [{"type": "facebook", "url": "http://facebook.com"}],
+   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+   "presentations": []
+},
+{
+  "fields": "Motion Graphics",
+  "headshot": "assets/graphics/speakers/gordon_reid.png",
+  "firstName": "Gordon",
+  "lastName": "Reid",
+  "position": "Creative Director",
+  "company": "MiddleBoop",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Industrial Design",
+  "headshot": "assets/graphics/speakers/jeff_smith.png",
+  "firstName": "Jeff",
+  "lastName": "Smith",
+  "position": "Education Program Manager",
+  "company": "Autodesk",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Industrial Design",
+  "headshot": "assets/graphics/speakers/emilie_baltz.png",
+  "firstName": "Emilie",
+  "lastName": "Baltz",
+  "position": "Food Technologist",
+  "company": "New Lab",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Motion Graphics",
+  "headshot": "assets/graphics/speakers/jeremy_cox.png",
+  "firstName": "Jeremy",
+  "lastName": "Cox",
+  "position": "Creative Director",
+  "company": "Imaginary Forces",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Industrial Design | UX Design",
+  "headshot": "assets/graphics/speakers/tim_wood.png",
+  "firstName": "Tim",
+  "lastName": "Wood",
+  "position": "Professor",
+  "company": "RIT",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Industrial Design",
+  "headshot": "assets/graphics/speakers/will_gibbons.png",
+  "firstName": "Will",
+  "lastName": "Gibbons",
+  "position": "Global Training Specialist",
+  "company": "Luxion",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Health Care",
+  "headshot": "assets/graphics/speakers/susanna_rose.png",
+  "firstName": "Susanna",
+  "lastName": "Rose",
+  "position": "Mental Health Counselor",
+  "company": "Non-profit agency",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Motion Graphics | Graphic Design",
+  "headshot": "assets/graphics/speakers/austin_shaw.png",
+  "firstName": "Austin",
+  "lastName": "Shaw",
+  "position": "Professor",
+  "company": "SCAD",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Graphic Design",
+  "headshot": "assets/graphics/speakers/mitch_goldstein.png",
+  "firstName": "Mitch",
+  "lastName": "Goldstein",
+  "position": "Professor",
+  "company": "RIT",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Motion Graphics",
+  "headshot": "assets/graphics/speakers/tnaya_witmer.png",
+  "firstName": "Tnaya",
+  "lastName": "Witmer",
+  "position": "Senior Designer",
+  "company": "Sarofsky",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+},
+{
+  "fields": "Graphic Design | UX Design",
+  "headshot": "assets/graphics/speakers/andrew_herzog.png",
+  "firstName": "Andrew",
+  "lastName": "Herzog",
+  "position": "Designer",
+  "company": "HAWRAF",
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
+}
   ],
 
   "speakersFilters": [
