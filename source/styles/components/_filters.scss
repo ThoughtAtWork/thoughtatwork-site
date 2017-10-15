@@ -194,6 +194,17 @@ body {
     }
 }
 
+.speakFilter:hover, .speakFilter--selected {
+	transform: scale(1.1);
+  cursor: pointer;
+}
+
+.speakFilter--selected .filter__header {
+		opacity: 1.0;
+}
+
+
+
 @include media('<sm'){
 	.speakFilter{
 		display: none;
