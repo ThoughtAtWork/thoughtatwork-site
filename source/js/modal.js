@@ -16,11 +16,7 @@ $(document).ready(function(){
 		console.log("Need to be on server to access external speakers file. Here is some test content.");
 		offline();
 	});
-
-	//console.log(info);
-		//sortData(data);
-		//initSecond();
-	
+		
 
 	function offline(){
 		var info = "Bushra\|\|Senior Director\|Nicholas Cage\'presentations\'stuff\|aldksflkj description\|Adding Cage\-ism\|Friday October 21, 7:00\-8:00PM\|loremipsum.com\|http://loremipsum.com\|link.com\|socialMedia.com\\Person\|\|Junior Something\|eqwr\'sdf\'jobs\'stuffs\|dfjljjjf desc\|Bloops\|Sunday, 5\-2AM\|bleepbloop.com\|http://website.com\|otherlink.com\|http://url.com\\Kiddo\|\|Manager of Someplace\|laskdfj\'ekcv\'lafkj\|bnc,mznvew descr\|Meeps\|Monday, 4\-0PM\|meepmeep.com\|http://website.com\|otherotherlink.com\|http://url.com\\Fourtho\|\|Manager of Someotherplace\|cxzxcv\'qweg\'lfdhshh\|erasdgardff descr\|Mops\|Monday, 4\-6PM\|meepmop.com\|http://website.com\|otherslink.com\|http://url.com";
@@ -28,41 +24,7 @@ $(document).ready(function(){
 		initSecond();
 	}
 
-	/*function sortData(data){
-		info = data.replace(/\n/g, '').split('\\');
-		for(var i = 0; i < info.length; i++){
-			info[i] = info[i].split('\|');
-			var speaker = {
-				name: info[i][0],
-				image: info[i][1],
-				position: info[i][2],
-				fields: info[i][3].split('\''),
-				description: info[i][4],
-				presentations: info[i][5].split('_'),
-				website: info[i][6],
-				websiteURL: info[i][7],
-				socialMedia: info[i][8],
-				socialMediaURL: info[i][9]
-			};
-			speakers.push(speaker);
-		}
-	}*/
-
 	function initSecond(){
-
-		/*for(var i = 0; i < speakers.length; i++){
-			var fields = "";
-			for(var j = 0; j < speakers[i].fields.length; j++){
-				fields += (speakers[i].fields[j].toString());
-				if(j < speakers[i].fields.length-1)
-					fields += ", ";
-			}
-			$('.container-speakers').append(
-				'<div class="speaker">\n<img src=\"' + speakers[i].image + '\" class=\"speaker-image\">\n' + 
-				'<div class="speaker-content"><h2 class="speaker-name">' + speakers[i].name + '</h2>\n' +
-				'<p class="speaker-fields">' + fields + '</p>\n<button type=\"button\" class=\"speaker-expand btn contact-btn btn-effect\" onclick=\"return false;\">View More</button>\n</div>\n</div>'
-			);
-		}*/
 		$('.speaker-image').each(function(){
 			$(this).after('<div class=\"speaker-image-hover\"></div>');
 		});
@@ -97,7 +59,7 @@ $(document).ready(function(){
 		//}
 	}
 
-	$(window).resize(function(){ // also changes clicking on speaker to clicking on view more
+	/*$(window).resize(function(){ // also changes clicking on speaker to clicking on view more
 		$('.speaker').off();
 		$('.speaker-expand').off();
 		$('.speaker-image').off();
@@ -120,7 +82,7 @@ $(document).ready(function(){
 			$('.container-fluid').removeClass('blur');
 		if(!mobileQuery.matches && modalShown)
 			$('.container-fluid').addClass('blur');
-	});
+	});*/
 
 	function showModal(speaker){
 		modalShown = true;
@@ -145,14 +107,6 @@ $(document).ready(function(){
 	}
 
 	function fillModal(i){
-		/*var presentations = "";
-		for(var k = 0; k < speakers[i].presentations.length; k++){
-			if((k%2) == 0)
-				presentations += '<p class=\"speakers-modal-presentation\">' + speakers[i].presentations[k] + '<\/p>';
-			else
-				presentations += '<p class=\"speakers-modal-dateTime\">' + speakers[i].presentations[k] + '<\/p>';
-		}*/
-
 		$('.speakers-modal__name').html(speakers[i].firstName + " " + speakers[i].lastName);
 		$('.speakers-modal__position').html(speakers[i].position + " at " + speakers[i].company);
 		$('.speakers-modal__headshot').attr('src', speakers[i].headshot);
@@ -175,24 +129,10 @@ $(document).ready(function(){
 			
 			$(this).next().toggleClass('open');
 		});
-		//$('.speakers-modal__desc').html(speakers[i].description);
-		/*$('.speakers-modal').append(
-			'<div class=\"modal__content\">\n<img src=\"' + speakers[i].image + '\" class=\"speakers-modal__headshot\">\n' + 
-			'<div class=\"speakers-modal-info\">\n' + 
-			'<h2 class=\"speakers-modal-name\">' + speakers[i].name + '<\/h2>\n' +
-			'<p class="speakers-modal-position">' + speakers[i].position + '<\/p>\n' +
-			'<div class=\"modal-space-holder\"></div>' + 
-			'<p class="speakers-modal-description">' + speakers[i].description + '<\/p>\n' +
-			'<div class=\"speakers-modal-links\"><a href=\"' + speakers[i].websiteURL + '\" class=\"speakers-modal-website link-effect\" target=\"_blank\">' + speakers[i].website + '<\/a>\n<br>' +
-			'<a href=\"' + speakers[i].socialMediaURL + '\" class="speakers-modal-socialMedia link-effect" target=\"_blank\">' + speakers[i].socialMedia + '<\/a><\/div>' + 
-			'<h3 class="speakers-modal-label">Presentations<\/h3>\n' +
-			presentations + '\n' +
-			'<a href=\"..\/schedule.html\" class="link-effect">View Schedule<\/a><br>\n' +
-			'<\/div><\/div>'
-		);*/
-		if($('.speakers-modal__headshot').attr('src') == 'https://taw.imgix.net/speakers/jeff_smith.jpg?w=.779&h=1&crop=focalpoint&fit=crop&fp-x=0.2&fp-y=0.3')
+
+		/*if($('.speakers-modal__headshot').attr('src') == 'https://taw.imgix.net/speakers/jeff_smith.jpg?w=.779&h=1&crop=focalpoint&fit=crop&fp-x=0.2&fp-y=0.3')
 			$('.speakers-modal__headshot').attr('title', 'Jeff didn\'t give us a good picture.');
 		else
-			$('.speakers-modal__headshot').removeAttr('title');
+			$('.speakers-modal__headshot').removeAttr('title');*/
 	}
 });
