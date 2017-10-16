@@ -11,6 +11,10 @@
 
 console.log('js compiled');
 
+
+// const schedule = require('./schedule.js');
+
+
 // const contactScript = require('./contactScript.js');
 const navigation = require('./navigation.js');
 const scrollUp = require('./scrollUp.js');
@@ -19,6 +23,11 @@ const squiggle = require('./squiggle.js');
 const modal = require('./modal.js');
 
 window.onload = function() {
+
+
+  // console.log("schedule included", schedule);
+
+
   // console.log("contactScript included", contactScript);
   console.log("navigation included", navigation);
   console.log("register included", register);

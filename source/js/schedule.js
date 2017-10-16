@@ -25,77 +25,77 @@ var schedule = {
         loc: "Booth 3350",
         start: "11:45AM",
         end: "12:45PM",
-        disc: "Anita has had a long a storied career in product and corporate design and design strategy, moving from RIT up to New Balance, Adidas, and eventually leading to being the head of Design Operations at Converse. Follow Anita as she makes her way through her career path as a designer and creative,  and learn through her and her experiences in the professional world how someone like  you yourself can learn to empower oneself as a person and as a designer."
+        disc: "With 25 years of experience, Anita has a storied career in product, corporate design and design strategy to share. Starting as a student at RIT to now Head of Design Operations at Converse, follow Anita through her career path and experiences in the professional world as a designer and creative and learn how you can empower yourself as a person and as a designer."
       }, {
         title: "Dear Design Student",
         person: "Mitch Goldstein",
         loc: "Booth 3310",
         start: "11:45AM",
         end: "12:45PM",
-        disc: "You learn a ton of stuff at design school. This talk is about all of the other stuff you should know, too—things like how to get the most out of the experience, why it’s not really about the grades, what your teachers (and future employers) are really looking for, why design is not the only thing you should be paying attention to, and a bunch of other stuff that’s not on the syllabus. Bring your questions with you, as this session will have lots of time for Q&A."
+        disc: "You learn a ton of stuff at school. This talk is about all of the other stuff you should know too, like how to get the most out of the experience, what your teachers (and future employers) are really looking for, why design is not the only thing you should be paying attention to, and a bunch of other stuff that’s not on the syllabus. Bring your questions with you, as this session will have lots of time for Q&A."
       }, {
-        title: "Portfolio Tips, Tricks, and Hacks You've Always Wondered About But Were Afraid to Ask",
+        title: "Portfolio Tips, Tricks and Hacks",
         person: "Bryan Shackelford",
         loc: "Booth 3330",
         start: "11:45AM",
         end: "12:45PM",
-        disc: "As a young creative in today’s world, you and your career live and die on the strength of your portfolio. How to get started with working on  your own portfolio, the best ways for you to spruce it up, make it stand out in a crowd, or how to direct it toward what you want to be your first big job. Some things happen to be common for all portfolios and hiring managers out there, and we will more than make sure to cover those."
+        disc: "Learn with Bryan, how to get started with working on your own portfolio, the best ways for you to spruce it up, make it stand out in a crowd, and or how to direct it toward what you want to be on your first big job. Some things happen to be common for all portfolios and hiring managers out there, and we will more than make sure to cover those."
       }, {
         title: "Lunch",
         person: "",
         loc: "Booth 3310",
         start: "1:00PM",
         end: "2:00PM",
-        disc: "It's lunch! You know, food."
+        disc: "It's lunch! Check on and off campus dining options!"
       }, {
-        title: "Pre-Keynote",
+        title: "Pre-Keynote: Wood is Good",
         person: "Seth Eshelman",
         loc: "Webb Auditorium",
         start: "2:15PM",
         end: "3:00PM",
-        disc: ""
+        disc: "Learn from Seth in his experience as an entrepreneur running an environmentally conscious furniture and interior architecture design business, Staach."
       }, {
         title: "Keynote: Ideas Have to Start Somewhere",
         person: "Andrew Herzog",
         loc: "Webb Auditorium",
         start: "3:00PM",
         end: "4:15PM",
-        disc: "Student work and personal projects present some really special opportunities for you to start experimenting and defining your ideas and what methodologies matter to you. Andrew Herzog will go through and talk about the long term importance of his student work and personal projects and what that means about your own work. He'll show how projects and ideas that were formed in his college studies and personal practice have found their way into the work he did at Google's Creative Lab and in the work he continues to do with HAWRAF, the studio he co-founded in 2016."
+        disc: "You might be eager to graduate and start getting paid for your design work but in this talk Andrew will show you that student work and independent projects can be just as rewarding. Learn about how Andrew’s college work and personal projects have found their way into his work at Google Creative Lab and HAWRAF and what that means for you."
       }, {
         title: "Design Yourself",
         person: "Hector Silva",
         loc: "Booth 3350",
         start: "4:30PM",
         end: "5:30PM",
-        disc: "In our modern creative world, various online platforms such as Instagram and other social media networks  have become an extremely important and usually very necessary method to making new connections and putting yourself out there in the wider world for opportunities to present themselves. Hector is by far no slouch in this department, just check his own Instagram, and will help teach you how to effectively use these social media platforms to promote yourself, collaborate with brands and fellow creatives, network, and build relationships with the wider world."
+        disc: "There’s more to design success than doing the work. Hector Silva is a leader in the design sketching Instagram community, in this talk he will teach you how to effectively use social media platforms to promote yourself, collaborate with brands and build relationships."
       }, {
         title: "Stand Out!",
         person: "Tnaya Witmer",
         loc: "Booth 3330",
         start: "4:30PM",
         end: "5:30PM",
-        disc: "The creative world is one of the fastest growing fields in the world right now. Because of this, the design world can feel pretty crowded out there sometimes, but that doesn’t mean that this has to be a problem for you. Tnaya will use her years of experience as a motion graphic designer and creative director for Sarofksy and creating a fair chunk of Marvel’s opening titles, to help teach you, the student and burgeoning design pro, to best distinguish yourself and your work from your crowd of peers."
+        disc: "Feeling cramped in the design world? Learn how to distinguish yourself and your work from your peers with Tnaya’s tips, tricks and insights gained as a motion graphic designer and creative director for Sarofsky."
       }, {
         title: "Emerging Interface Concepts for Digital and Physical Products",
         person: "Tim Wood",
         loc: "Booth 3310",
         start: "4:30PM",
         end: "6:00PM",
-        disc: "Tim is here to identify many of the new, critical, and emerging user interface concepts and discuss how the ideas that can be found in these concepts can be best applied to the design of digital and/or physical products in today’s modern world. This workshop has been specifically created and designed to provide you with many brand new ideas that will supercharge your upcoming projects and jumpstart your creativity as a designer, and all of it just in time for midterms!"
+        disc: "Tim is here to identify many of the new, critical, and emerging user interface concepts and how they can be best applied to digital and/or physical products. This workshop has been specifically created and designed to provide you with many brand new ideas that will supercharge your upcoming projects and jumpstart your creativity as a designer, and all of it just in time for midterms!"
       }, {
-        title: "Fusion Workshop",
+        title: "Design Faster with 3D Modeling: Fusion 360 Workshop",
         person: "Jeff Smith",
         loc: "Booth 1540",
         start: "4:30PM",
         end: "6:00PM",
-        disc: "There's a wide selection of 3d modeling programs out there to choose from as a creative in the world today, and that crowd is only continuing to grow. One of the most prominent, and best to create with, there is out in the world is Autodesk’s Fusion 360 platform. Jeff Smith will explore Fusion as a program and how can be applied to creating high quality manufacturing design with ease.  If you have interests in architecture, interior, industrial, or product design, then this talk has something for you."
+        disc: "Looking for a skill booster in your 3D modelling skills? Come to this fast paced workshop session to learn about the next generation of CAD software with design educator Jeff Smith. Learn how to use Autodesk Fusion 360 and bring your product design ideas to life from ideation into execution."
       }, {
         title: "Dinner",
         person: "",
         loc: "Booth 3340",
         start: "6:15PM",
         end: "7:00PM",
-        disc: "."
+        disc: "Grab a plate and get ready for the show!"
       }, {
         title: "Sketch-Off",
         person: "",
@@ -108,8 +108,8 @@ var schedule = {
         person: "",
         loc: "RITz Sports Zone",
         start: "8:00PM",
-        end: "12:00AM",
-        disc: "Kick back Friday night at RIT’s own sports bar and hang out. Relax, play games and shoot some pool. Then head over to the local restaurant on campus, Lovin’ Cup to continue the fun. Here's the address: 300 Park Point Dr, Rochester, NY 14623."
+        end: "10:00PM",
+        disc: "Kick back Friday night at RIT’s own sports bar and hang out. Relax, play games and shoot some pool. Then after ten you can keep the party going by heading over to the local restaurant on campus, Lovin’ Cup to continue the fun. Here's the address: 300 Park Point Dr, Rochester, NY 14623."
       }
     ]
   },
@@ -140,108 +140,108 @@ var schedule = {
       }, {
         title: "What is Motion Design?",
         person: "Austin Shaw",
-        loc: "TBD",
+        loc: "Booth 1440",
         start: "9:30AM",
         end: "11:00AM",
-        disc: "Austin will be going into the history of the field of motion graphics, their design, and what makes an excellent motion graphic.Think of this as an excellent primer in the rapidly growing field of motion graphics. Be prepared to see some excellent examples of where animation meets design."
+        disc: "Prime into the art of motion graphics with Austin Shaw, professor and accomplished motion designer. With examples of where animation meets design, Austin will go into the history of motion graphics, their design, and what makes an excellent piece of motion design. Students will use the fundamentals of pen and paper to sketch out proper and quality conceptual work for their future motion graphic creations."
       }, {
-        title: "Intro Sketch Demo",
+        title: "Sketching 101: Lose the Pencil",
         person: "Hector Silva / Jeff Smith",
-        loc: "Booth 1480 (tentative)",
+        loc: "Booth 1480",
         start: "9:30AM",
         end: "11:00AM",
-        disc: "Hector and Jeff have spent a large portion of their professional lives creating new and impressive products and designs out of thin air using only pen and paper and maybe some markers. In 2016 they helped start Advanced Design Sketching, a service specifically for bringing students like yourself together and teaching him the best ways to getting their many ideas together on paper. Luckily, they’re bringing a bit of this service to all of us here at Thought At Work. They’ll help teach you how create a sketch that completely embodies and communicates the products and ideas you have inside your head."
+        disc: "What do you get when you put two amazing analog sketchers in the same room – two unique sketching styles, over 30 years of combined experience, and one amazing sketch demo. This workshop, no matter your experience level, will help you sketch confidently and communicate the ideas you have inside your head through pen and paper."
       }, {
-        title: "Kek and Chase Design Presentation (tentative)",
+        title: "IDSA Talks: Life in a Consultancy",
         person: "Greg Smiley",
         loc: "Booth 3310",
         start: "11:15AM",
         end: "12:15PM",
-        disc: "Kek and Chase Design have been leading the world in industrial, packaging, and environmental design for half a century now, and luckily they both happen to be here in Central New York, so they’d like to share all of those many decades of experience with you. So luckily for us, they will be going through a few of their case studies from both of these studios and highlighting their various capabilities as consultancies and how that applies to the art of good design."
+        disc: "The Central New York IDSA chapter will be hosting this Q&A session with two prominent design consultancies, KEK and Chase Design. Learn what it is like to work in multiple disciplines, including industrial, environmental, and branding design through case studies. Come meet some local designers, see how they make their work, and ask the tough questions."
       }, {
         title: "Animated GIFs: Creation, Optimization & Alternatives",
         person: "Miguel Cardona",
         loc: "Booth 1480",
         start: "11:15AM",
         end: "12:15PM",
-        disc: "You’ve seen them; brief snippets of video or animation meant to get a laugh or express how you really feel. They’re in every digital conversation you have and all over the web. They’re part of the new online language. They’re gifs. Miguel will give a brief history on the art and design of Animated GIFs, how to make them, how to fully optimize them, and when it’s best to use alternatives. Miguel will demonstrate various tools and methods for getting short form motion animations and video to the web, and how best to use them."
+        disc: "You’ve seen them; brief snippets of video or animation meant to get a laugh or express how you really feel. They're gifs. Miguel will give a brief history on the art and design of Animated GIFs, how to make them, how to fully optimize them, and when it’s best to use alternatives. Miguel will demonstrate various tools and methods for creating and getting short form motion animations and video onto the web, and how best to use them."
       }, {
         title: "Self-Care for Artists",
         person: "Susanna Rose",
         loc: "Booth 1440",
         start: "11:15AM",
         end: "12:15PM",
-        disc: "On top of being an acclaimed songwriter, Susanna Rose is also a professional mental health counselor, and she is here to bring her experience to you, the creative. This workshop will be an interactive discussion based session in which participants can explore ways to care for themselves as artists and as people. Being a creative comes with unique challenges, making self-care all the more important to people like you. Engaging in some fun creative activity increases your resilience, and having improved self-care can benefit our work as artists."
+        disc: "This workshop will be an interactive discussion based session in which participants can explore ways to care for themselves as artists and as people. Being a creative comes with unique challenges, making self-care all the more important to people like you. Engaging in some fun creative activity increases your resilience, and having improved self-care can benefit our work as artists"
       }, {
-        title: "",
+        title: "Enterprise Wearables and Augmented Reality (No Pokémon, please)",
         person: "Bryan Shackelford",
         loc: "Booth 3330",
         start: "11:15AM",
         end: "12:15PM",
-        disc: ""
+        disc: "How are some people using augmented reality to do more than play games? What can we learn from the debacle that was Google glasses to design smarter? Bryan will review the newest models in wearable design and case studies on augmented reality in industrial settings and their respective UX and UI. Finally, he’ll go in what it takes to prototype for appearance and for function in both the hardware and software."
       }, {
         title: "Lunch",
         person: "",
         loc: "Booth 3310",
         start: "12:30PM",
         end: "1:30PM",
-        disc: "Food Trucks! They’re outside in F lot! Go look!"
+        disc: "Food Trucks and On and off campus dining."
       }, {
         title: "Pre-Keynote: Research that Resonates: Laying the Groundwork for Forward-Thinking",
         person: "Mark Capper",
-        loc: "",
+        loc: "Ingle Auditorium",
         start: "1:45PM",
         end: "2:30PM",
-        disc: "When it comes to design, the most successful experiences share one commonality: a user-centered approach based on customer need, emotion, and motivation. In this presentation, Mark Capper details the powerful combination of research and customer co-creation together. Learn to obtain meaningful cultural and psychological insights prior to ideation and throughout development – so that you can create inspired, strategic concepts for future offerings that won’t launch for 5 years or more. Packed with innovative examples and tips for practical application, this is a crash course in how to ensure a meaningful return on R&D and a fantastic primer for the Generative Workshop to follow."
+        disc: "When it comes to design, the most successful experiences share one commonality: a user-centered approach based on customer need, emotion, and motivation. Mark Capper will detais the powerful combination of research and customer co-creation. Learn to obtain meaningful cultural and psychological insights prior to ideation and throughout development – so that you can create inspired, strategic concepts for the future."
       }, {
         title: "Keynote: Blag, Borrow, and Steal Your Career",
         person: "Gordon Reid",
         loc: "Ingle Auditorium",
         start: "2:30PM",
         end: "3:45PM",
-        disc: "Gordon Reid has stories. About making illustrations for pioneering magazine Computer Arts on ancient  PCs, and how he talked his way into becoming lead designer and art director for all of the Visa’s Rio Olympics advertising. Gordon examines how perceiving yourself in the right way can an  asset in your career, and how to find hidden opportunities in failure. Gordon looks into how hard work, perseverance, and saying yes more than no can get you where you want to be. Gordon is here to laugh, entertain, and hopefully inspire. Heckling is encouraged."
+        disc: "Through amusing anecdotes like making illustrations and tutorials on ancient PCs to how Gordon Reid talked his way into becoming lead designer and art director for all of the Visa’s Rio Olympics advertising, Gordon examines how perceiving yourself in the right way can be an asset in your career, and how to find hidden opportunities in failure. Gordon will talk about how hard work, perseverance, and saying yes more than no can get you where you want to be. Heckling is encouraged."
       }, {
         title: "Design in Motion: Lessons from the Trenches",
         person: "Jeremy Cox",
         loc: "Booth 1400",
         start: "4:00PM",
         end: "5:00PM",
-        disc: "Motion Graphics in one of the newest, fastest growing, and most exciting fields in design today. With that being true it’s important to examine the art of designing a good title sequence itself. What goes into designing a title sequence? Where does that elusive spark of inspiration come from? And how do you bring your idea to life in a unique way? Jeremy will dive into the process behind his recent work, sharing insights and lessons learned in over a decade as a Designer, Animator, and Director at Imaginary Forces."
+        disc: "What is a good title sequence? What goes into designing a title sequence? Where does that elusive spark of inspiration come from? How do you bring your idea to life in a unique way? Using Motion Graphics, one of the newest, fastest growing, and most exciting fields today, Jeremy will dive into the process behind his recent work, sharing insights and lessons learned in over a decade as a Designer, Animator, and Director at Imaginary Forces."
       }, {
         title: "Architecture is More",
         person: "Christian Perry",
         loc: "Booth 3330",
         start: "4:00PM",
         end: "5:00PM",
-        disc: "Renowned architect, industrial, and healthcare designer Christian Perry will use his very own experience in the various fields of architecture and design to further explore our own responsibilities to the wider, non-creative, world and all of our fellow human beings as designers and creatives, and how best to make use of our specialized skillsets to make the wider world and the future of it better, just a little bit at a time."
+        disc: "Christian Perry is a passionate Healthcare Designer, Planner, and Architectural Leader working for the Architecture firm Clark Patterson Lee (CPL), located in Rochester, NY.  Previously, Christian worked for the healthcare design firm Ewing Cole in New York City and Philadelphia. He has specialized in healthcare design for the past 4 years. Prior to employment in the United States, Christian lived in Honduras pursuing his passion with Little Angels of Honduras (a charity hoping to reduce infant mortality in the country), healthcare design, social change, and service."
       }, {
         title: "Make Your Better Future",
         person: "Mark Capper & The Xerox Team",
         loc: "Booth 3310",
         start: "4:00PM",
         end: "5:30PM",
-        disc: "They say that the best way to predict the future is to create it - in this workshop, you'll learn to do just that. More importantly, you'll learn to be smart about it. Put your ingenuity to the test as you utilize creative thought and predictive reasoning to solve a real-world future-proof design challenge. The guided team activity gives you hands-on experience using the new methods for customer co-creation introduced in Mark's talk, to ensure your future work will be inspired by feasible, forward-thinking concepts - right from the start."
+        disc: "They say that the best way to predict the future is to create it. In this workshop, you'll learn to put your ingenuity to the test as you utilize creative thought and predictive reasoning to solve a real-world future-proof design challenge. The guided team activity will give you hands-on experience using the new methods for customer co-creation introduced in Mark's talk, to ensure your future work will be inspired by feasible, forward-thinking concepts - right from the start.."
       }, {
         title: "Word Play",
         person: "Andrew Herzog",
         loc: "Booth 1480",
         start: "4:00PM",
         end: "5:30PM",
-        disc: "As a studio HAWRAF did a 26 hour design challenge called the A-Z Project last fall. Each hour was spent designing around a word randomly selected for the dictionary. They spent one hour per letter of the alphabet - hence the 26 hours. Led by HAWRAF partner Andrew Herzog, this is an abbreviated version of the A-Z project. Students will work with three words randomly selected from the dictionary. They'll have 30 minutes per word to concept and create a visual response of their own. This is an exercise in collaboration, conceptualizing, and making to learn."
+        disc: "Led by HAWRAF partner Andrew Herzog, collaborate, conceptualize and learn in this abbreviated version of the A-Z project, a HAWRAF 26 hour design challenge in 2016. Students will work with three words randomly selected from the dictionary. They'll have 30 minutes per word to conceptualize and create a visual response of their own."
       }, {
-        title: "Xerox Voting",
+        title: "STICKY NOTE VOTE!",
         person: "",
         loc: "Booth 3310",
         start: "5:30PM",
         end: "6:00PM",
-        disc: "Attendees are encouraged to stop by and put sticky votes on their favorite presenter!"
+        disc: "You are encouraged to stop by the Make Your Future Better workshop by Mark and the Xerox team to place sticky votes on your favorite presenters’ brainstorming board, the group with the most sticky notes win!"
       }, {
         title: "IDSA Bowling Night",
         person: "",
-        loc: "Sunset Bowling Lanes",
-        start: "9:00PM",
-        end: "12:00AM",
-        disc: "It’s Back! Come hang out, Bowl a few games, and connect with some speakers other designers. A huge thanks to IDSA for supporting us every year. Address: 1317 Chili Ave, Rochester, NY 14624. Parking will be behind the building."
+        loc: "Bowl-A-Roll",
+        start: "8:30PM",
+        end: "1:00AM",
+        disc: "It’s Back! Come hang out, Bowl a few games at Sunset Lanes, and connect with some speakers other designers. A huge thanks to IDSA for supporting us every year. Address: 1317 Chili Ave. Rocherster, NY."
       }
     ]
   },
@@ -254,56 +254,56 @@ var schedule = {
         loc: "Bevier Lobby, 2nd Floor Booth Hall",
         start: "9:30AM",
         end: "11:30AM",
-        disc: "Your coffee fix provided by JAVA’S"
+        disc: "Your daily coffee fix provided by JAVA’S"
       }, {
-        title: "Product Timecapsule",
+        title: "Product Timecapsule Archive Study Collection",
         person: "",
         loc: "",
         start: "9:30AM",
         end: "10:30AM",
-        disc: ""
+        disc: "This session will introduce attendees to the artifacts of process associated with this special collection that is being developed at RIT. Participants will hear from Professor and Chair of Industrial Design at RIT, Josh Owen, ID Grad Student David Villarreal and ID Junior Kaitlyn Gilmor about how this collection is used by students, faculty, researchers in the field."
       }, {
         title: "Materials and Manufacturing",
         person: "Jeff Smith",
         loc: "Booth 3310",
         start: "11:00AM",
         end: "12:00PM",
-        disc: "In the past 20 years and change, CAD, or computer aided design and drafting, or the process of using computer programs like those created by Autodesk for the purpose of design and design communication, have overtaken the process of using pencil and paper to manually draft your own creations. Join Jeff Smith as he covers this process and what it means for today’s designer.  If you are interested in architecture, interior, industrial, or product design, then this is a talk for you."
+        disc: "Learn about new processes and materials for your future design projects. Jeff Smith will touch upon generative, subtractive, additive manufacturing processes and more!"
       }, {
         title: "Unforeseen Structures: Chaos, Materials, and Emergent Process",
         person: "Mitch Goldstein",
         loc: "Booth 3330",
         start: "11:00AM",
         end: "12:00PM",
-        disc: "Mitch Goldstein’s work as an artist focuses on the form and methods of using darkroom photo techniques, specifically the photogram. Photograms use no camera or lenses, but instead object are placed on or near exposed photographic paper and exposed to light. The process is great at making abstract black and white competitions that emerge unpredictably from the process. This is creation without control. Using this process and selections from his other design work, Mitch will explore how one can work with chaos, the synthesis of material and method, and the exploration of emergent process."
+        disc: "Mitch Goldstein’s work as an artist focuses on the form and methods of using darkroom photo techniques, specifically the photogram. Photograms use no camera or lenses, instead objects are placed on or near unexposed photographic paper and exposed to light. This process makes abstract black and white compositions that emerge unpredictably from the process — creation without control. Using this work, and selections from his design practice, Mitch will explore how one can work with chaos, synthesize materials and methods, and explore emergent process."
       }, {
-        title: "Advanced Sketch Workshop",
+        title: "Sketching 201: Let’s Add Marker",
         person: "Jeff Smith",
         loc: "Booth 3330",
         start: "12:15PM",
         end: "1:45PM",
-        disc: "For much of his career as a creative, Jeff Smith has usually had a pen and some paper in hand. As part of the organization Advanced Design Sketching, he has helped educate creatives and other people around the country about the skill and art of design sketching, or making high quality product and other designs through the basic drawing and sketching skills. Jeff will walk you through the basics of creating an amazing sketch out of the air using only paper, pen, and marker."
+        disc: "Advance your design sketching skills with our TAW veteran Jeff Smith. Fly through the basics of design sketching and the process of rendering analog sketches with markers. Prepare yourself to create amazing sketches out of air using only paper, pen and marker. "
       }, {
-        title: "",
+        title: "GIF or GIF: Create your Own",
         person: "Miguel Cardona",
         loc: "Booth 1540",
         start: "12:15PM",
         end: "1:45PM",
-        disc: ""
+        disc: "There is no way to go around the online world today without seeing a GIF or two or a hundred. As design curves toward the digital, it is becoming an art form that more creatives are playing with. Miguel will walk you through the process of creating the ideal GIF, how to go from idea to fruition and become master of the image loop to dominate the web."
       }, {
-        title: "Java’s Coffee Hour (tentative)",
-        person: "",
+        title: "Caffeinate Your Creativity: Java’s Logo Design",
+        person: "TBD",
         loc: "Booth 3310",
         start: "12:15PM",
         end: "1:45PM",
-        disc: "Want a shot at logo design? Want a chance for your idea to be on JAVA’S t-shirts and cups? Come to this session for some fun brainstorming activities for are real logo design opportunity. "
+        disc: "Learn about the ideation behind the logo and branding of the beloved local Rochester coffee shop, Javas’ and put your skills to the test with their logo design challenge. Get creative and get caffeinated with a cup of coffee!"
       }, {
-        title: "Lazy Sunday: A Panel Discussion",
+        title: "Lazy Sunday: A Panel Discussion - Critical & Creative Thinking",
         person: "TBA",
         loc: "Booth 3310",
         start: "2:15PM",
         end: "3:15PM",
-        disc: "Design is meant to be talked about. Our very own Colton Woytas will moderate this digestible yet introspective conversation among guests."
+        disc: "Design is meant to be talked about. Our very own Chris Lock will moderate this digestible yet introspective conversation among guests."
       }, {
         title: "Closing Address",
         person: "",
