@@ -6,7 +6,13 @@
       "lastName": "Cardona",
       "position": "Lead Designer",
       "company": "Imgix",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+      "social": [{"type": "facebook", "url": "http://facebook.com"}],
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "presentations": [
+        {"title": "Whiteboard Interviews",
+          "description": "a talk about whiteboards"},
+        {"title": "Talk 2",
+          "description": ";alsdkjfl;afj"}]
     },
     {
       "fields": "Industrial Design | UX | Geriatrics",
@@ -15,7 +21,13 @@
       "lastName": "Moore",
       "position": "President Officer",
       "company": "Moore Design Associates",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+      "social": [{"type": "facebook", "url": "http://facebook.com"}, {"type": "instagram", "url": "http://instagram.com"}],
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "presentations": [
+        {"title": "Whiteboard Interviews",
+          "description": "a talk about whiteboards"},
+        {"title": "Talk 2",
+          "description": ";alsdkjfl;afj"}]
     },
     {
       "fields": "UI/UX | Marketing",
@@ -24,7 +36,13 @@
       "lastName": "Zhuo",
       "position": "VP of Design",
       "company": "Facebook",
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+      "social": [{"type": "facebook", "url": "http://facebook.com"}],
+      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "presentations": [
+        {"title": "Whiteboard Interviews",
+          "description": "a talk about whiteboards"},
+        {"title": "Talk 2",
+          "description": ";alsdkjfl;afj"}]
   },
   {
 	"fields": "Industrial Design | Illustration",
@@ -33,7 +51,13 @@
 	"lastName": "Casale",
 	"position": "Design Operations",
 	"company": "Converse & Nike",
-	"backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+	"social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": [
+    {"title": "Whiteboard Interviews",
+      "description": "a talk about whiteboards"},
+    {"title": "Talk 2",
+      "description": ";alsdkjfl;afj"}]
  },
  {
    "fields": "Industrial Design | Illustration",
@@ -42,7 +66,9 @@
    "lastName": "Nugent",
    "position": "Owner-Founder",
    "company": "ID Sketching",
-   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+   "social": [{"type": "facebook", "url": "http://facebook.com"}],
+   "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+   "presentations": []
 },
 {
   "fields": "Motion Graphics",
@@ -51,7 +77,9 @@
   "lastName": "Reid",
   "position": "Creative Director",
   "company": "MiddleBoop",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Industrial Design",
@@ -60,7 +88,9 @@
   "lastName": "Smith",
   "position": "Education Program Manager",
   "company": "Autodesk",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Industrial Design",
@@ -69,7 +99,9 @@
   "lastName": "Baltz",
   "position": "Food Technologist",
   "company": "New Lab",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Motion Graphics",
@@ -78,7 +110,9 @@
   "lastName": "Cox",
   "position": "Creative Director",
   "company": "Imaginary Forces",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Industrial Design | UX Design",
@@ -87,7 +121,9 @@
   "lastName": "Wood",
   "position": "Professor",
   "company": "RIT",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Industrial Design",
@@ -96,7 +132,9 @@
   "lastName": "Gibbons",
   "position": "Global Training Specialist",
   "company": "Luxion",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Health Care",
@@ -105,7 +143,9 @@
   "lastName": "Rose",
   "position": "Mental Health Counselor",
   "company": "Non-profit agency",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Motion Graphics | Graphic Design",
@@ -114,7 +154,9 @@
   "lastName": "Shaw",
   "position": "Professor",
   "company": "SCAD",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Graphic Design",
@@ -123,7 +165,9 @@
   "lastName": "Goldstein",
   "position": "Professor",
   "company": "RIT",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Motion Graphics",
@@ -132,7 +176,9 @@
   "lastName": "Witmer",
   "position": "Senior Designer",
   "company": "Sarofsky",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 },
 {
   "fields": "Graphic Design | UX Design",
@@ -141,11 +187,13 @@
   "lastName": "Herzog",
   "position": "Designer",
   "company": "HAWRAF",
-  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg"
+  "social": [{"type": "facebook", "url": "http://facebook.com"}],
+  "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+  "presentations": []
 }
   ],
 
-  "speakersFilters":[
+  "speakersFilters": [
     "Graphic Design",
     "Illustration",
     "UX Design",

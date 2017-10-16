@@ -1,0 +1,72 @@
+.contact-info-message {
+  display: block;
+  margin: 0;
+
+  .icon-image {
+    width: 48vw;
+    height: auto;
+  }
+}
+
+.icon-section {
+	position: relative;
+}
+
+.icon {
+	text-align: center;
+	margin: 0;
+
+	&-row {
+		max-width: 960px;
+		width: 96vw;
+		padding: 82px 0;
+		margin: 0 auto;
+	}
+
+	&-label {
+		font-size: 16px;
+		font-weight: bold;
+		padding-top: vw(30px);
+		@include media('>lg') {
+			padding-top: 30px;
+		}
+	}
+	&-image {
+		border-radius: 50%;
+    max-width: 134px;
+		max-height: 134px;
+		width: vw(134px);
+		height: vw(134px);
+		min-width: 72px;
+		min-height: 72px;
+		background-color: white;
+		@include card--drop-shadow;
+	}
+  &-contact {
+    max-width: 265px;
+    max-height: 265px;
+  }
+  &-row {
+  	// margin-top: 164px;
+  	@include media ('<md') {
+  		margin-top: -50px;
+  	}
+    &-heading {
+    	right: 3%;
+    	z-index: -1;
+      // top: .5vw;
+    }
+  }
+}
+
+@include media('<sm') {
+.icon {
+		margin: 0;
+		padding: 0;
+
+		&-row {
+			padding: 42px 0;
+			width: 100%;
+		}
+	}
+}

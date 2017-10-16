@@ -1,3 +1,22 @@
+//Squiggle header
+.squiggle{
+  text-transform: capitalize;
+  letter-spacing: 15px;
+  position: relative;
+  @include text--drop-shadow;
+}
+
+@media only screen and (max-width: 580px) {
+    .squiggle{
+      letter-spacing: 4px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .squiggle{
+      letter-spacing: 8px;
+    }
+}
+
 .header {
 	position: relative;
 	margin-bottom: 100px;
@@ -18,6 +37,7 @@
 		height: 80px;
 		width: 75.06vw;
 		max-width: 1800px;
+    max-height: 140px;
 		@include card--drop-shadow;
 		z-index: -1;
 		top: 30px;
@@ -31,7 +51,7 @@
 				background-size: cover;
 			}
 			&-info {
-				background: url("../assets/graphics/taw-vis-inverted-1.jpg");
+				background: url("../assets/graphics/taw-6-inverted-left.jpg");
 				background-position: left top;
 				background-size: cover;
 			}
@@ -41,12 +61,12 @@
 				background-size: cover;
 			}
 			&-schedule {
-				background: url("../assets/graphics/taw-vis-inverted-1.jpg");
+				background: url("../assets/graphics/taw-6-inverted-right.jpg");
 				background-position: left top;
 				background-size: cover;
 			}
 			&-contact {
-				background: url("../assets/graphics/taw-vis-inverted-1-middle.jpeg");
+				background: url("../assets/graphics/taw-vis-inverted-5-left.jpeg");
 				background-position: left top;
 				background-size: cover;
 			}
@@ -61,7 +81,7 @@
 				background-size: cover;
 			}
 			&-success {
-				background: url("../assets/graphics/taw-vis-inverted-8-middle.jpg");
+				background: url("../assets/graphics/taw-vis-inverted-5.jpg");
 				background-position: left bottom;
 				background-size: cover;
 			}

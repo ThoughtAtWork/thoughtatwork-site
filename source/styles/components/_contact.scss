@@ -1,25 +1,43 @@
-// General Info Section
+// contacteral Info Section
 
 .contact-form-section,
-.gen-info-section {
+.contact-info-section {
 	position: relative;
+	@include media('>xl') {
+		margin-top: 18%;
+	}
 }
 
-.gen-info-heading {
+.contact-info-heading {
 	position: absolute;
-	right: 3vw;
-	top: 2.9vw;
+	right: 0%;
+	top: -45%;
 	z-index: -1;
+	width: 100%;
+	@include media('>xl') {
+		right: 5%;
+		top: -35%;
+	}
+	@include media('<md') {
+		display: none;
+	}
 }
 
-.gen-info-row {
-	width: 69.06vw;
-	margin: 0 auto;
+.contact-info-row {
+	width: 69vw;
+	margin: 10vw auto 4vw auto;
+	padding: 0 0;
+	@include media('<md') {
+    margin-top: auto;
+	}
+	@include media('>xl') {
+		margin-top: 170px;
+		margin-bottom: 96px;
+	}
 	display: flex;
 	align-items: center;
-	padding-top: 4vw;
 
-	.gen-info-icon {
+	.contact-info-icon {
 		display: inline-block;
 		margin: 0;
 		margin-right: 10vw;
@@ -30,34 +48,33 @@
 		}
 	}
 
-	.gen-info-message {
+	.contact-info-message {
 		display: inline-block;
 	}
 }
-// Contact Form Section
-.contact-form-heading {
-	position: absolute;
-	left: 3vw;
-	top: 0;
-	z-index: -1;
-}
-
 
 .contact-message {
-	height: 8.8vw;
 	padding: vw(20px) vw(20px);
 	box-sizing: border-box;
 	resize: vertical;
 }
 
-@include media('<sm') {
-	.gen-info-row {
+@include media('<md') {
+	.contact-info-row .contact-info-icon .icon-image {
+		width: 28vw;
+		height: auto;
+	}
+}
+
+@include media('<md') {
+	.contact-info-row {
 		box-sizing: border-box;
 		width: 100%;
 		display: block;
 		padding: 4vw vw(100px);
 
-		.gen-info-icon, .gen-info-message {
+		.contact-info-icon,
+		.contact-info-message {
 			display: block;
 			margin: 0;
 
@@ -66,9 +83,13 @@
 				height: auto;
 			}
 		}
+
+		.contact-info-message {
+			margin-top: 7vw;
+		}
 	}
 
-	.contact-message{
+	.contact-message {
 		width: 100%;
 		min-height: 120px;
 		padding: vw(44px) vw(32px);

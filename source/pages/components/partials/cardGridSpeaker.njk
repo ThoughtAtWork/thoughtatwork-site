@@ -1,17 +1,27 @@
 <div class="speakers__grid flex flex-justify-center flex-wrap">
 {% for speaker in speakers %}<!--
-	--><div class="speakers-card--grid">
+	--><div class="speaker speakers-card--grid">
 		<div class="speakers-card__fields">{{speaker.fields}}</div>
 		<img src="{{speaker.headshot}}" class="speakers-card__headshot">
 
 		<div class="card">
 			<span class="card__header speakers-card__name">{{speaker.firstName}}
-				{{lastName}}</span>
+				{{speaker.lastName}}</span>
 			<span class="card__subhead speakers-card__position">{{speaker.position}} at {{speaker.company}}</span>
 			<div class="speakers-card__backing-img">
 				<img src="{{speaker.backingImg}}">
 			</div>
 		</div>
+
+		<script type="text/javascript">
+			var fieldString = "{{speaker.fields}}";
+			var fields = fieldString.split(" | ");
+			for(var i = 0; i < fields.length; i++){
+				fields[i] = fields[i].replace(/\s/g, '');
+				fields[i] = fields[i].toLowerCase();
+				$(".speakers-card--grid:last").addClass(fields[i]);
+			}
+		</script>
 	</div><!--
 -->{% endfor %}
 </div>

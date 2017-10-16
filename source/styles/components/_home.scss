@@ -1,183 +1,414 @@
 .home-header {
-	margin-top: 94px;
 	text-align: center;
 	position: relative;
-	&__title {
-		text-transform: capitalize;
-		letter-spacing: 42px;
-		@include text--drop-shadow;
+	@include media ('<md') {
+		margin-top: 8vw;
 	}
 
 	&__image {
-		//padding-top: calc( 27vw/ 55vw * 100%);
 		margin: 0 auto;
 		z-index: -1;
 		width: 80.7vw;
 		height: 39.47vw;
+		max-height: 505px;
+		max-width: 1033px;
 		@include card--drop-shadow;
 	}
 	&__date {
 		position: relative;
 		text-align: right;
 		bottom: 36px;
+		margin: auto 17vw;
 		@include text--drop-shadow;
 		.date-month {
-			margin-right: 280px;
+			margin-right: 60px;
 			line-height: 55px;
 		}
-		.date-days {
-			margin-right: 200px;
-		}
-		.date-link {
-			margin-right: 200px;
+	}
+	&__title {
+		letter-spacing: 5px;
+		margin-bottom: 25px;
+		@include media ('<md') {
+			letter-spacing: 0px;
 		}
 	}
 
-	@media only screen and (max-width: 1365px) {
-		//For the image and title
+	@include media ('<lg') {
 		&__date {
 			text-align: center;
-			margin-right: auto;
-			margin-left: 165px;
-			.date-link {
-				line-height: 64px;
+			.date-days {
+				margin-bottom: 30px;
 			}
 		}
 	}
 }
 
+/*=------------------------Home header above----------------------------*/
+
+//The text after the hero section
 .home-intro__text {
 	margin-left: 178px;
 	.text--normal {
 		text-decoration: none;
 		font-size: 32px;
 		font-weight: normal;
-	}
-}
-@media only screen and (max-width: 650px) {
-	.home-intro__text {
-		margin-left: 124px;
+		//margin: 0 auto;
 	}
 }
 
-@media only screen and (min-width: 963px) {
+@include media('<lg') {
 	.home-intro__text {
-		text-align: left;
-		margin-left: 94;
+		margin-left: 120px;
 	}
 }
 
+@include media('<md') {
+	.home-intro__text {
+		margin-top: 44px;
+		margin-left: 209.5px;
+	}
+}
+
+@include media('<sm') {
+	.home-intro__text {
+		margin-top: 64px;
+		margin-left: 130px;
+		margin-right: 50px;
+	}
+}
+
+@include media('<xs') {
+	.home-intro__text {
+		margin-top: 64px;
+		margin-left: 55px;
+		margin-right: 55px;
+	}
+}
+
+/*=------------------------Intro text above----------------------------*/
+
+//The every backdrop
 .home-every {
 	text-align: center;
 	margin-top: 204px;
+	position: relative;
+	//The h2 itself
 	&__backdrop {
-		position: relative;
 		z-index: -1;
-		margin-left: auto;
-		margin-right: auto;
+		left: 0;
+		right: 0;
+		top: -140px;
+		margin: 0 auto;
 	}
+	//The text it overlaps
 	&__text {
 		position: relative;
 		bottom: 40px;
 		width: 30.06vw;
-		margin: auto;
+		margin: 0 auto;
 		text-align: left;
 	}
 }
 
-@media only screen and (max-width: 963px) {
+@include media('<lg') {
 	.home-every {
-		margin-top: 96px;
+		margin-top: 180px;
 		margin-left: 30px;
 		margin-right: 30px;
+		&__backdrop {
+			top: -110px;
+		}
+	}
+}
+
+@include media('<md') {
+	.home-every {
+		margin-top: 180px;
+		margin-left: 30px;
+		margin-right: 30px;
+		&__backdrop {
+			top: -110px;
+		}
 		&__text {
-			margin-left: 72px;
-			margin-right: 72px;
+			width: 300px;
 		}
 	}
 }
 
 
+@include media('<sm') {
+	.home-every {
+		margin-top: 180px;
+		margin-left: 30px;
+		margin-right: 30px;
+		&__backdrop {
+			top: -110px;
+		}
+		&__text {
+			width: 300px;
+		}
+	}
+}
+
+@include media('<xs') {
+	.home-every {
+		margin-top: 180px;
+		margin-left: 30px;
+		margin-right: 30px;
+		&__backdrop {
+			top: 120px;
+			letter-spacing: 5px;
+		}
+	}
+}
+
+
+/*=------------------------Every backdrop above----------------------------*/
+
 .home-text {
+	//The what text
 	&__what {
 		display: inline-block;
 		vertical-align: middle;
 		width: 30.06vw;
 		margin-top: 78px;
 		margin-left: 184px;
+		max-width: 430px;
 	}
+	//The who text
 	&__who {
 		margin-left: 82px;
 		display: inline-block;
 		vertical-align: middle;
 		margin-top: 165px;
 		width: 30.06vw;
+		max-width: 430px;
+	}
+	//The extra just in case why text (unused)
+	&__why {
+		display: block;
+		margin-top: 10px;
+		width: 22.06vw;
 	}
 	.title--gap {
-		line-height: 8.94vh;
+		line-height: 90px;
 	}
 }
 
-@media only screen and (max-width: 963px) {
+@include media('<lg') {
 	.home-text {
 		&__what {
 			display: block;
 			margin-top: 58px;
 			margin-left: 102px;
+			width: 302px;
 		}
 		&__who {
 			margin-top: 46px;
 			display: block;
-			margin-left: 160px;
+			margin-left: 450px;
+			width: 302px;
 		}
 		.title--gap {
-			line-height: normal;
+			line-height: 70px;
 		}
 	}
 }
 
-.home-video {
-	margin-top: 228px;
-	.video-backdrop {
-		line-height: 0;
-		margin-left: 50px;
-		z-index: -1;
-	}
-	&__recap {
-		height: 530px;
-		width: 945px;
-		margin-top: 20px;
-		margin: 0 auto;
-		display: block;
+@include media('<md') {
+	.home-text {
+		&__what {
+			display: block;
+			width: 290px;
+		}
+		&__who {
+			display: block;
+			width: 290px;
+			margin-left: 300px;
+		}
+		.title--gap {
+			line-height: 70px;
+		}
 	}
 }
-@media only screen and (max-width: 963px) {
-	.home-video {
-		margin-top: 100px;
+
+
+@include media('<sm') {
+	.home-text {
+		&__what {
+			display: block;
+			width: 345px;
+			margin-left: 72px;
+		}
+		&__who {
+			margin-top: 46px;
+			display: block;
+			width: 345px;
+			margin-left: 130px;
+		}
+		.title--gap {
+			line-height: 70px;
+		}
+	}
+}
+
+@include media('<xs') {
+	.home-text {
+		&__what {
+			display: block;
+			width: 245px;
+			margin-left: 72px;
+		}
+		&__who {
+			margin-top: 46px;
+			display: block;
+			width: 245px;
+			margin-left: 72px;
+		}
+		.title--gap {
+			line-height: 70px;
+		}
+	}
+}
+
+/*=------------------------What Who Why above----------------------------*/
+
+.video-section {
+	margin-top: 228px;
+}
+
+.video-container {
+	position: relative;
+	margin-top: 20px;
+
+	//The header h2
+	.video-backdrop {
+		//I know you dont like line height but...
+		line-height: 0;
+		margin-left: 58px;
+		top: -20px;
+		z-index: -1;
+	}
+
+	//The video
+	&__recap {
+		width: 71.7vw;
+		height: 39.47vw;
+		margin: 0 auto;
+		display: block;
+		max-width: 945px;
+		max-height: 530px;
+	}
+
+	//The text box along with it
+	.why-text {
+		display: block;
+		margin-top: 50px;
+		width: 22.06vw;
+		margin: 0 auto;
+		.title--gap {
+			line-height: 70px;
+		}
+	}
+}
+
+@include media('<lg') {
+	.video-section {
+		margin-top: 150px;
 		margin-left: 30px;
 		margin-right: 30px;
 		.video-backdrop {
 			z-index: -1;
-			margin-left: 95px;
+			top: -25px;
+			margin-left: 100px;
 			margin-bottom: 30px;
 		}
-		&__recap {
-			width: 386px;
-			height: 218px;
+	}
+	.video-container {
+		.why-text {
+			width: 302px;
+			height: 112px;
 		}
 	}
 }
 
+@include media('<md') {
+	.video-section {
+		margin-top: 130px;
+		margin-left: 30px;
+		margin-right: 30px;
+		.video-backdrop {
+			z-index: -1;
+			top: -25px;
+			margin-left: 70px;
+			margin-bottom: 30px;
+		}
+	}
+	.video-container {
+		.why-text {
+			width: 302px;
+			height: 112px;
+		}
+	}
+}
+
+@include media('<sm') {
+	.video-section {
+		margin-top: 120px;
+		margin-left: 30px;
+		margin-right: 30px;
+		.video-backdrop {
+			z-index: -1;
+			top: -25px;
+			margin-left: 55px;
+			margin-bottom: 30px;
+		}
+	}
+	.video-container {
+		.why-text {
+			width: 302px;
+			height: 112px;
+		}
+	}
+}
+
+
+@include media('<xs') {
+	.video-section {
+		margin-top: 120px;
+		margin-left: 30px;
+		margin-right: 30px;
+		.video-backdrop {
+			z-index: -1;
+			top: -25px;
+			margin-left: 20px;
+			margin-bottom: 30px;
+		}
+	}
+	.video-container {
+		.why-text {
+			width: 302px;
+			height: 112px;
+			margin: 0 auto;
+			margin-left: 30px;
+		}
+	}
+}
+
+
+
+/*=------------------------Video above----------------------------*/
+
 .text-card {
 	margin-top: 10px;
-	background-color: white;
+	//background-color: white;
 	width: 432px;
 	height: 138px;
 	padding: 30px 33px;
-	float: right;
+	margin-left: 50px;
 	margin-right: 106px;
-	@include card--drop-shadow;
 
+  // text-card-default used for success and register pages
 	&-default {
 		padding: 30px;
 		background-color: white;
@@ -191,21 +422,14 @@
 			margin: 0 0px;
 		}
 	}
-
-	&__title {
-		padding-bottom: 3%;
-		text-transform: uppercase;
-		color: $normal-grey;
-	}
 }
-@media only screen and (max-width: 963px) {
+
+@include media('<lg') {
 	.text-card {
 		text-align: left;
 		margin-left: 72px;
 		margin-right: 72px;
 		width: auto;
-		&__title {
-		}
 	}
 }
 
@@ -262,14 +486,8 @@
 	}
 }
 
-//Squiggle
-.squiggle {
-	text-transform: capitalize;
-	letter-spacing: 15px;
-	position: relative;
-	@include text--drop-shadow;
-}
 
+/*----------------------------For the Squiggles--------------------------*/
 .up {
 	position: relative;
 }

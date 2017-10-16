@@ -1,11 +1,12 @@
 /*Grid Speaker Card*/
 .speakers-card--grid{
 	display: inline-block;
-	width: 17.31vw;
+	//was 17.31
+	width: 15.9vw;
 	position: relative;
 	letter-spacing: 0.01em !important;
 
-	margin: vw(37px) 4.15vw;
+	margin: vw(37px) 3.15vw;
 
 	.speakers-card__headshot{
 		width: 100%;
@@ -16,7 +17,7 @@
 		width: 14.82vw;
 		min-height: 5.58vw;
 		padding: 10px 14px 0 14px;
-		
+
 		position: absolute;
 		top: calc(19.08vw + 30px);
 		left: 4.84vw;
@@ -53,5 +54,11 @@
 		z-index: -1;
 
 		@include card--drop-shadow;
+	}
+}
+
+@include media('<sm'){
+	.speakers-card--grid{
+
 	}
 }

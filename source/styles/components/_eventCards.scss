@@ -2,7 +2,7 @@
 // @import 'fonts';
 
 body{
-	font-family: 'Elliot';
+
 	font-weight: 500;
 }
 
@@ -22,16 +22,18 @@ body{
 	}
 }
 
+.hidden {
+	display: none;
+}
+
 #schedule {
-	margin: 0 auto 2vw auto;
-	width: 80.7vw;
+	margin: 0;
 
 	.timeLine {
 		clear: both;
 		margin: 1vw 0vw;
 		p {
 			font-size: 16pt;
-			font-weight: 500;
 			padding-bottom: 10px;
 			@extend .card__header;
 		}
@@ -54,6 +56,13 @@ body{
 
 		img {
 			height: 12px;
+		}
+
+		.keynoteImg {
+			height: 13vw;
+			position: absolute;
+			bottom: 0vw;
+			left: 35vw;
 		}
 
 	.event {
@@ -115,4 +124,131 @@ body{
 	content: '';
 	height:20px;
 	width:100%;   background:url('../assets/graphics/TAW-Vis-Dev-6-Edit.jpg');
+}
+
+/******************************* Schedule *************************************/
+
+.time_cont {
+  border-bottom: 1px solid #E6E6E6;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.time_cont_no_border {
+  margin-top: 40px;
+  padding-bottom: -40px;
+}
+
+
+.time_text {
+  height: 100%;
+  width: 20%;
+  min-width: 70px;
+  margin-right: 10% !important;
+}
+
+.events_cont {
+  width: 70%;
+}
+
+.event_cont_no_disc {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.event_cont {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.event_cont:hover {
+  cursor: pointer;
+}
+
+.event_cont:hover  .title_text {
+  color: $teal;
+  transition: color 0.3s;
+}
+
+.title_text_no_disc {
+  width: 100%;
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  color: $dark-grey;
+  transition: color 0.3s;
+}
+
+.title_text {
+  width: 100%;
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  color: $dark-grey;
+  transition: color 0.3s;
+}
+
+.title_text_expanded {
+  width: 100%;
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  color: $teal;
+  transition: color 0.3s;
+}
+
+.person_text {
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  width: 100%;
+  color: $normal-grey;
+}
+
+.loc_text {
+  width: 100%;
+  color: $normal-grey;
+}
+
+.disc_text {
+  width: 100%;
+  margin-top: 15px !important;
+  max-height: 0;
+	opacity: 0;
+  overflow: hidden;
+  font-size: 16px;
+	transition: max-height 0.4s cubic-bezier(0, 0, 0.2, 1), opacity 0.6s cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+
+.disc_text_expanded {
+  width: 100%;
+  margin-top: 15px !important;
+  max-height: 1000px;
+	opacity: 1.0;
+  overflow: hidden;
+  font-size: 16px;
+	transition: max-height 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53), opacity 0.2s cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+
+.schedule_main {
+	padding-top: 100px;
+  margin: 0 10%;
+	@include media ('<md'){
+  padding-top: 30px;
+  margin: 0 5%;
+	}
+}
+
+.schedule_main * {
+  flex-shrink: 0;
+}
+
+.schedule_main p {
+  margin: 0;
+  padding: 0;
+}
+
+.desc-plus {
+	font-size: 18px !important; //Ovveride font-awesome
+	color: $teal;
 }

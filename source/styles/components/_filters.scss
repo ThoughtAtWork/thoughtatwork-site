@@ -1,87 +1,212 @@
-// @import 'variables';
-// @import 'fonts';
+.day_option {
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 5vw;
+    min-height: 80px;
+    max-height: 120px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    transition: 0.1s;
+    opacity: 0.8;
+    @extend .card;
+    width: 27%;
+    margin: 0 3% 0 3%;
 
-body{
-	font-family: 'Elliot';
-	font-weight: 500;
+    &:hover {
+        background-color: $teal;
+        color: white;
+        transition: background-color 0.3s, color 0.3s;
+        cursor: pointer;
+    }
+
+    &:hover p {
+        color: white;
+        transition: background-color 0.3s, color 0.3s;
+        cursor: pointer;
+    }
 }
 
-.filter{
-	text-align: center;
-	display: inline-block;
+.schedule-filter-active {
+    height: 6vw;
+    transition: background-color 0.3s, color 0.3s;
+    opacity: 1.0;
+    & p {
+      color: $teal;
+    }
 }
 
-.schedFilter {
-	/*width: 16.432vw;*/
-	//height: 5.168vw;
-	margin: 0vw 2vw;
+@media screen and (max-width: $sm) {
+    .day_selector_cont {
+        margin-bottom: 20px;
+        width: 100%;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        flex-direction: column;
+    }
 
-	@extend .card;
+    .day_option {
+        width: 88%;
+        margin: 4%;
+    }
 
-	.content {
-    display: table-cell;
-    height: 5.168vw;
-    width: inherit;
-	vertical-align: middle;
-	}
-
-	p {
-		text-transform: uppercase;
-		opacity: 0.6;
-		font-weight: 500;
-	}
-
-	.filter__header {
-		padding-bottom: 5px;
-		font-size: 24pt;
-		@extend .card__header;
-	}
-
-	.filter__subhead {
-		font-size: 16pt;
-		@extend .card__subhead;
-	}
-
+    .active {
+        background-color: $teal;
+    }
+}
+@media screen and (min-width: $sm) {
+    .day_selector_cont {
+        margin-bottom: 20px;
+        width: 100%;
+        display: -webkit-box;
+        // display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: $md) {
+    .day_selector_cont {
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
 }
 
-.schedFilter--selected {
-	width: 20.54vw;
-	height: 6.46vw;
+body {
+    //font-family: 'Elliot';
+    //font-weight: 500;
+}
 
-	.content {
-		height: 6.46vw;
-	}
+.card {
+    position: relative;
+    background-color: #FFF;
+    @include card--drop-shadow;
 
-	.filter__subhead , .filter__header {
-		opacity: 1;
-	}
+    .card__header {
+        color: $dark-grey;
+    }
+
+    .card__subhead {
+        color: $teal;
+    }
+
+    .card__subhead2 {
+        color: $normal-grey;
+    }
+}
+
+.filters {
+    margin: 3vw auto;
+    display: table;
+}
+//schedfilter
+.day_option {
+    .content {
+        display: table-cell;
+        height: 5.168vw;
+        width: inherit;
+
+    }
+
+    p {
+        text-transform: uppercase;
+        opacity: 0.6;
+        font-weight: 500;
+    }
+
+    .filter__header {
+        padding-bottom: 5px;
+        font-size: 24pt;
+        @extend .card__header;
+    }
+
+    .filter__subhead {
+        font-size: 16pt;
+        @extend .card__subhead;
+    }
+}
+
+.scheduleFilter {
+    width: 16.432vw;
+    height: 3.52vw;
+    text-align: center;
+    display: inline-block;
+    margin: 0 2vw;
+    transition: 0.1s;
+
+    @extend .card;
+
+    .content {
+        display: table;
+        height: inherit;
+        width: inherit;
+        position: relative;
+    }
+
+    .filter__header {
+        font-weight: 500;
+        font-size: 20pt;
+        display: table-cell;
+
+        opacity: 0.6;
+        @extend .card__header;
+    }
 }
 
 .speakFilter {
-	margin: 0 2vw;
-	margin-bottom: 1.8vw;
-	padding: vw(16px) vw(24px);
+    width: 16.432vw;
+    height: 3.52vw;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-table;
+    margin: 0 2vw;
+    margin-bottom: 1%;
+    transition: 0.5s;
+    @extend .card;
 
-	.filter__header {
-		font-weight: 500;
-		// font-size: vw(20px);
+    .content {
+        display: table;
+        height: inherit;
+        width: inherit;
+        position: relative;
+    }
 
-		$min_width: $sm;
-		$max_width: $xl;
-		$min_font: 22px;
-		$max_font: 28px;
-		@include fluid-type($min_width, $max_width, $min_font, $max_font);
+    .filter__header {
+        font-weight: 500;
+        font-size: 20pt;
+        display: table-cell;
+        vertical-align: middle;
+        opacity: 0.6;
+        @extend .card__header;
+    }
+}
 
-		opacity: 0.6;
-	}
+.speakFilter--selected {
+    padding: 0 16px;
+    height: 4.4vw;
+    transition: 0.1s;
 
-	transition: padding 0.2s ease-in-out;
+    .filter__header {
+        opacity: 1.0;
+    }
 }
 
 .speakFilter:hover, .speakFilter--selected {
-	padding: vw(20px) vw(24px);
+	transform: scale(1.1);
+  cursor: pointer;
 }
 
 .speakFilter--selected .filter__header {
 		opacity: 1.0;
+}
+
+
+
+@include media('<sm'){
+	.speakFilter{
+		display: none;
+	}
 }
