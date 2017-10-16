@@ -1,7 +1,6 @@
 .register {
 	&-h2 {
 		position: absolute;
-		top: .5vw;
 	}
 }
 .form-row-heading {
@@ -101,10 +100,10 @@
 			display: none;
 		}
 		@include media ('<md') {
-			top: 5vw;
+			top: 3vw;
 		}
 		@include media ('<xl') {
-			top: 3vw;
+			top: 1.5vw;
 			right: 11vw;
 		}@include media ('>xl') {
 			top: .5vw;
