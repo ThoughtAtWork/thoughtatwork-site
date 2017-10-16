@@ -1,20 +1,20 @@
 
 
-.wheretostay {
-	display: inherit;
-}
-
-.gethere {
-	display: none !important;
-}
-
-.welcome {
-	display: none !important;
-}
-
-.essentials {
-	display: none !important;
-}
+// .wheretostay {
+// 	display: inherit;
+// }
+//
+// .gethere {
+// 	display: none !important;
+// }
+//
+// .welcome {
+// 	display: none !important;
+// }
+//
+// .essentials {
+// 	display: none !important;
+// }
 .info_header{
 	top: 39px;
 	position: relative;
@@ -26,6 +26,7 @@
 	margin-top: 50px;
 	margin-bottom: 100px;
 	width: auto;
+	justify-content: space-between;
 }
 .category_item__info{
 	margin: 0 auto;
@@ -36,8 +37,18 @@
 	height: 72px;
 	width: 225px;
 	color: #4D4D4D;
+	text-decoration: none !important;
 	background-color: #ffffff;
 	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+}
+a.category_item__info{
+	text-decoration: none !important;
+	border: none;
+}
+.category_item__info--active{
+	background-color: #FF4931;
+	box-shadow: 0 0 20px 0 rgba(255,73,49, 0.25);
+
 }
 .category_item__info:hover{
 	transform: scale(1.2);
@@ -50,6 +61,11 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	vertical-align: middle;
+}
+@include media('<sm') {
+	.wheretostay_locations_container{
+		display: grid;
+	}
 }
 .wheretostay_title{
 	margin-left: 20px;
