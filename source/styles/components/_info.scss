@@ -64,8 +64,14 @@ a.category_item__info{
 }
 @include media('<sm') {
 	.wheretostay_locations_container{
-		display: grid;
+		margin:0 auto !important;
 	}
+	.wheretostay_locations{
+		width: 50%;
+	}
+}
+.wheretostay_locations_container{
+	margin-left: 64px;
 }
 .wheretostay_title{
 	margin-left: 20px;
@@ -73,7 +79,8 @@ a.category_item__info{
 }
 .wheretostay_locations{
 	display: inline-block;
-	min-width: 30%;
+	min-width: 29%;
+	max-width: 34%;
 	margin-right: 20px;
 	margin-left: 20px;
 	margin-bottom: 64px;
