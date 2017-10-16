@@ -99,6 +99,7 @@ a.category_item__info{
 	.info_welcome_container{
 		display: inline-grid;
 		margin: 0 auto;
+		padding: 20px;
 	}
 }
 
@@ -120,10 +121,13 @@ a.category_item__info{
 	height: 313px;
 	display: inline-block;
 	background: white;
-	margin: 0 auto;
+
 	margin-right: 75px;
 	margin-bottom: 75px;
 	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+	background-image: url("../assets/graphics/info_here_photo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .info_welcome_row{
 	margin:0 auto;
@@ -137,10 +141,16 @@ a.category_item__info{
 	margin-left: 50px;
 	margin-right: 50px;
 }
+.couch_surfing{
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
 .gethere_text__container{
 	display: inline-block;
 	width: 574px;
 	vertical-align: middle;
+	margin-bottom: 38px;
+	margin-top: 30px;
 
 }
 .gethere_text{
@@ -170,15 +180,12 @@ a.category_item__info{
 	margin: 0 auto;
 	max-width: 55vw;
 	padding: 76px;
-	padding-left: 142px;
-	padding-right: 142px;
+	padding-left: 100px;
+	padding-right: 100px;
 	background-color: #ffffff;
 	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
 }
 
-.checklist_item{
-
-}
 .info_checkbox{
 	position: relative;
 	left: -61px;
