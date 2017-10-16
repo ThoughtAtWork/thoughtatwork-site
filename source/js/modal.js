@@ -25,10 +25,6 @@ $(document).ready(function(){
 	}
 
 	function initSecond(){
-		$('.speaker-image').each(function(){
-			$(this).after('<div class=\"speaker-image-hover\"></div>');
-		});
-
 		$('.modal-closer').click(function(){
 			closeModal();
 		});
@@ -55,6 +51,7 @@ $(document).ready(function(){
 		//else{
 			$('.speaker').click(function(){
 				showModal(this);
+				console.log('cleeck');
 			});
 		//}
 	}

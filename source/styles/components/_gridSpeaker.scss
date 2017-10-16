@@ -1,64 +1,113 @@
 /*Grid Speaker Card*/
 .speakers-card--grid{
 	display: inline-block;
-	//was 17.31
-	width: 15.9vw;
+	vertical-align: bottom;
 	position: relative;
 	letter-spacing: 0.01em !important;
 
-	margin: vw(37px) 3.15vw;
-
-	.speakers-card__headshot{
-		width: 100%;
-		@include card--drop-shadow;
-	}
+	padding-left: 9vw;
+	padding-right: 0;
+	margin-bottom: vw(90px);
 
 	.card{
-		width: 14.82vw;
+		width: 200px;
 		min-height: 5.58vw;
 		padding: 10px 14px 0 14px;
 
 		position: absolute;
-		top: calc(19.08vw + 30px);
-		left: 4.84vw;
+		bottom: 16%;
+		right: -18px;
+
+		transform: translateY(100%);
 	}
 
-	.speakers-card__name{
-		font-size: 18px;
-		letter-spacing: -0.01em;
-	}
-	.speakers-card__position{
-		display: flex;
-		height: 40px;
-		align-items: center;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 18px;
-	}
-	.speakers-card__fields{
-		display: block;
-		width: 19.66vw;
-		color: #CCC;
-		font-weight: 400;
-		line-height: 30px;
-	}
+	.speakers-card{
+		&__headshot{
+			width: 100%;
+			height: 23vw;
+			overflow: hidden;
+			@include card--drop-shadow;
 
-	.speakers-card__backing-img{
-		width: 100%;
-		height: 100%;
+			img{
+				margin-left: 50%;
+				width: 116%;
+				transform: translateX(-50%);
+			}
+		}
 
-		position: absolute;
-		top: 0.59vw;
-		left: 0.59vw;
-		overflow: hidden;
-		z-index: -1;
+		&__name{
+			font-size: 18px;
+			letter-spacing: -0.01em;
+		}
+		&__position{
+			display: flex;
+			min-height: 40px;
+			align-items: center;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 18px;
+		}
+		&__fields{
+			display: block;
+			width: 100%;
+			color: #CCC;
+			font-weight: 400;
+			line-height: 20px;
+			margin-bottom: 10px;
+		}
 
-		@include card--drop-shadow;
+		&__backing-img{
+			width: 100%;
+			height: 8px;
+
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+			overflow: hidden;
+			z-index: -1;
+
+			@include card--drop-shadow;
+		}
+	}
+}
+
+@include media('<md'){
+	.speakers-card--grid{
+		padding-left: 14vw;
+		margin-bottom: 12vw;
+
+		.card{
+			min-height: 10.8vw;
+
+			bottom: 12%;
+		}
+
+		.speakers-card{
+			&__headshot{
+				height: 42vw;
+			}
+		}
 	}
 }
 
 @include media('<sm'){
 	.speakers-card--grid{
+		margin-bottom: 18.4vw;
 
+		.card{
+			width: 48vw;
+			min-height: 14.8vw;
+
+			bottom: 10%;
+			right: -10%;
+
+			padding: 12px 16px 0 16px;
+		}
+
+		.speakers-card{
+			&__headshot{
+				height: 66vw;
+			}
+		}
 	}
 }
