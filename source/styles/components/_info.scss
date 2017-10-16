@@ -46,14 +46,15 @@ a.category_item__info{
 	border: none;
 }
 .category_item__info--active{
-	background-color: #FF4931;
-	box-shadow: 0 0 20px 0 rgba(255,73,49, 0.25);
-
+	background-color: #46CCCF;
+	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
 }
 .category_item__info:hover{
-	transform: scale(1.2);
+	background-color: #46CCCF;
+	color: white;
+	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+	transition: background-color 0.3s, color 0.3s;
 	cursor: pointer;
-	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
 }
 // where to stay styles
 .wheretostay_locations_container{
