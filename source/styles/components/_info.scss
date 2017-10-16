@@ -1,11 +1,11 @@
 
 
 .wheretostay {
-	display: none !important;
+	display: inherit;
 }
 
 .gethere {
-	display: inherit;
+	display: none !important;
 }
 
 .welcome {
@@ -14,6 +14,11 @@
 
 .essentials {
 	display: none !important;
+}
+.info_header{
+	top: 39px;
+	position: relative;
+	z-index: -1;
 }
 //page chooser styles
 .category_bar__info{
@@ -27,7 +32,6 @@
 	font-size: 19px;
 	line-height: 76px;
 	font-weight: bold;
-	// margin-right: 65px;
 	margin-bottom: 25px;
 	height: 72px;
 	width: 225px;
@@ -35,15 +39,84 @@
 	background-color: #ffffff;
 	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
 }
+.category_item__info:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+}
+// where to stay styles
+.wheretostay_locations_container{
+	margin: 0 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	vertical-align: middle;
+}
+.wheretostay_title{
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.wheretostay_locations{
+	display: inline-block;
+	min-width: 30%;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 64px;
+}
+
+// welcome styles
+.info_catering{
+	display: inline-block;
+	margin-top: 34px;
+	width: 400px;
+}
+.info_welcome_container{
+	margin:0 auto;
+}
+@include media('<lg') {
+	.info_welcome_container{
+		display: inline-grid;
+		margin: 0 auto;
+	}
+}
+
+.info_checkin{
+	display: inline-block;
+	width: 400px;
+}
+.info_checkin_title{
+	margin-bottom: 20px;
+}
+.info_catering_meals{
+
+	margin-top: 30px;
+}
+
+.info_welcome_image{
+	vertical-align: middle;
+	width:558px;
+	height: 313px;
+	display: inline-block;
+	background: white;
+	margin: 0 auto;
+	margin-right: 75px;
+	margin-bottom: 75px;
+	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+}
+.info_welcome_row{
+	margin:0 auto;
+}
 //get here styles
 .gethere_container{
 	display: inline-block;
 	margin: 0 auto;
 }
+.gethere{
+	margin-left: 50px;
+	margin-right: 50px;
+}
 .gethere_text__container{
 	display: inline-block;
-	width: 50%;
-	margin-right: 50px;
+	width: 574px;
 	vertical-align: middle;
 
 }
@@ -51,6 +124,7 @@
 	display: inline-block;
 	width: 370px;
 }
+
 .gethere_link{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -60,9 +134,13 @@
 .gethere_map{
 	display: inline-block;
 	height: 450px;
-	width: 40%;
+	width: 586px;
 	vertical-align: middle;
-	background-color: red;
+	background-color: #ffffff;
+}
+.info_arrow{
+	left: 20px;
+	position: relative;
 }
 //the essentials styles
 .checklist_container{

@@ -1,8 +1,6 @@
-{# <div class="header__botmargin">
-<div class="header__img header__img-background-info" alt="header graphic">
-<h1 class="header__title">Info</h1>
-</div>
-</div> #}
+
+
+
 <div class="category_bar__info flex text-align-center flex-wrap">
 	<div class="category_item__info">
 		GETTING HERE
@@ -20,17 +18,17 @@
 <div class="flex gethere">
 
 	<div class="gethere_container">
-		<h2>send me on my way</h2>
+		<h2 class="info_header">send me on my way</h2>
 		<div class="gethere_text__container">
 
 			<p class="gethere_text">Rochester Institute of Technology (RIT) is located at 1 Lomb Memorial Drive, Rochester, NY 14623. Approximately 20 minutes from Greater Rochester International Airport and the Amtrak and Bus stations, there are multiple ways to travel to Rochester and TAW. For information on transportation, use these links:</p>
 
 			<div class="gethere_link">
 				<p class="gethere_text">
-					<a href="">VISITROCHESTER.COM &rarr;</a>
+					<a href="">VISITROCHESTER.COM <span class="info_arrow">&rarr;</span></a>
 				</p>
 				<p class="gethere_text">
-					<a href="">RIT.EDU &rarr;</a>
+					<a href="">RIT.EDU <span class="info_arrow">&rarr;</span></a>
 				</p>
 			</div>
 
@@ -40,24 +38,42 @@
 		<div class="gethere_map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.929500808641!2d-77.67488454840615!3d43.08497747904256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d14c603a147e55%3A0xbe7eb31ed5e22c03!2sRochester+Institute+of+Technology!5e0!3m2!1sen!2sus!4v1508013381397"
 			width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div>
+
+			</div>
 		</div>
 	</div>
 </div>
 
 <div class="flex welcome">
 	<h2>welcome to TAW 2017</h2>
+	<div class="info_welcome_container">
 
-	<h4>Check-in</h4>
-	<p>Check-in begins at 9am on Friday morning. The opening reception begins at 11:45am. At check-in, you'll get a lanyard and name tag, which you'll need for entry to any Thought at Work event.</p>
-	<p>You'll also pick up a program brochure for a detailed view of the conference and schedule.</p>
 
-	<h4>Catering</h4>
-	<p>Not only do we bring you some of the world's best creatives, we also provide something equally enticing - free food. These meals are on us:</p>
-	<p>Friday's Dinner</p>
-	<p>Saturday's Breakfast and Lunch</p>
-	<p>Sunday's Breakfast</p>
+		<div class="info_welcome_image">
 
+		</div>
+		<div class="info_checkin">
+			<h4 class="info_checkin_title">Check-in</h4>
+			<p>Check-in begins at 9am on Friday morning. The opening reception begins at 11:45am. At check-in, you'll get a lanyard and name tag, which you'll need for entry to any Thought at Work event.</p>
+			<p>You'll also pick up a program brochure for a detailed view of the conference and schedule.</p>
+		</div>
+
+
+
+		<div class="info_catering">
+
+			<h4 class="info_checkin_title">Catering</h4>
+			<p>Not only do we bring you some of the world's best creatives, we also provide something equally enticing - free food. These meals are on us:</p>
+			<div class="info_catering_meals">
+				<p>Friday's Dinner</p>
+				<p>Saturday's Breakfast and Lunch</p>
+				<p>Sunday's Breakfast</p>
+			</div>
+		</div>
+	</div>
 </div>
+
 
 <div class="flex essentials">
 
@@ -95,5 +111,63 @@
 </div>
 
 <div class="flex wheretostay">
-	<h2>come stay awhile</h2>
+	{# <h2>come stay awhile</h2> #}
+
+	<div class="wheretostay_locations_container">
+		<p class="wheretostay_title"><strong>Hotels</strong></p>
+		<div class="wheretostay_locations">
+			<p><strong>Holiday Inn</strong></p>
+			<p><strong>800 Jefferson Rd</strong></p>
+			<p>10 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>Radisson Hotel</strong></p>
+			<p><strong>175 Jefferson Rd</strong></p>
+			<p>4 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>Microtel</strong></p>
+			<p><strong>900 Lehigh Station Rd</strong></p>
+			<p>10 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>Days Inn</strong></p>
+			<p><strong>4853 W. Henrietta Rd</strong></p>
+			<p>11 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>RIT Inn and Conference Center</strong></p>
+			<p><strong>5257 W. Henrietta Rd</strong></p>
+			<p>12 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>DoubleTree Hilton</strong></p>
+			<p><strong>1111 Jefferson Rd</strong></p>
+			<p>8 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>Homewood Suites</strong></p>
+			<p><strong>2095 Hylan Drive</strong></p>
+			<p>8 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>Hampton Inn</strong></p>
+			<p><strong>280 Clay Rd</strong></p>
+			<p>7 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+		<div class="wheretostay_locations">
+			<p><strong>Best Western</strong></p>
+			<p><strong>940 Jefferson Rd</strong></p>
+			<p>7 min drive away from RIT</p>
+			<a href="">WEBSITE &rarr;</a>
+		</div>
+	</div>
 </div>
