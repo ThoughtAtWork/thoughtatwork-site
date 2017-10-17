@@ -90,13 +90,13 @@ $(document).ready(function(){
     $('.speakers-modal__position').html(speakers[i].position + " at " + speakers[i].company);
     $('.speakers-modal__headshot').attr('src', speakers[i].headshot);
     $('.speakers-modal__social').html("");
-    speakers[i].social.forEach(function(social) {
+    speakers[i].socialMedia.forEach(function(social) {
       $('.speakers-modal__social').append('<a href="' + social.url + '"><img src="../assets/graphics/' + social.type + '_teal.svg" class="speakers-modal__social__img"></a>');
     });
 
     $('.modal__accord').html('<h5 class="card__header">Presentations</h5>');
     speakers[i].presentations.forEach(function(pres) {
-      $('.modal__accord').append('<p class="modal__accord-title speakers-modal__event"><span>+</span> ' + pres.title + '</p><div class="modal__accord-item"><p>' + pres.description + '</p></div>');
+      $('.modal__accord').append('<p class="modal__accord-title speakers-modal__event"><span>+</span> ' + pres.title + '</p><div class="modal__accord-item"><p>' + pres.desc + '</p></div>');
     });
 
     $('.modal__accord-title').click(function() {
