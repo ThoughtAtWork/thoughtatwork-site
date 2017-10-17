@@ -34,12 +34,12 @@ var schedule = {
         end: "12:45PM",
         disc: "You learn a ton of stuff at school. This talk is about all of the other stuff you should know too, like how to get the most out of the experience, what your teachers (and future employers) are really looking for, why design is not the only thing you should be paying attention to, and a bunch of other stuff that’s not on the syllabus. Bring your questions with you, as this session will have lots of time for Q&A."
       }, {
-        title: "Portfolio Tips, Tricks and Hacks",
+        title: "Enterprise Wearables and Augmented Reality (No Pokémon, please)",
         person: "Bryan Shackelford",
         loc: "Booth 3330",
         start: "11:45AM",
         end: "12:45PM",
-        disc: "Learn with Bryan, how to get started with working on your own portfolio, the best ways for you to spruce it up, make it stand out in a crowd, and or how to direct it toward what you want to be on your first big job. Some things happen to be common for all portfolios and hiring managers out there, and we will more than make sure to cover those."
+        disc: "How are some people using augmented reality to do more than play games? What can we learn from the debacle that was Google glasses to design smarter? Bryan will review the newest models in wearable design and case studies on augmented reality in industrial settings and their respective UX and UI. Finally, he’ll go in what it takes to prototype for appearance and for function in both the hardware and software."
       }, {
         title: "Lunch",
         person: "",
@@ -173,12 +173,12 @@ var schedule = {
         end: "12:15PM",
         disc: "This workshop will be an interactive discussion based session in which participants can explore ways to care for themselves as artists and as people. Being a creative comes with unique challenges, making self-care all the more important to people like you. Engaging in some fun creative activity increases your resilience, and having improved self-care can benefit our work as artists"
       }, {
-        title: "Enterprise Wearables and Augmented Reality (No Pokémon, please)",
+        title: "Portfolio Tips, Tricks and Hacks",
         person: "Bryan Shackelford",
         loc: "Booth 3330",
         start: "11:15AM",
         end: "12:15PM",
-        disc: "How are some people using augmented reality to do more than play games? What can we learn from the debacle that was Google glasses to design smarter? Bryan will review the newest models in wearable design and case studies on augmented reality in industrial settings and their respective UX and UI. Finally, he’ll go in what it takes to prototype for appearance and for function in both the hardware and software."
+        disc: "Learn with Bryan, how to get started with working on your own portfolio, the best ways for you to spruce it up, make it stand out in a crowd, and or how to direct it toward what you want to be on your first big job. Some things happen to be common for all portfolios and hiring managers out there, and we will more than make sure to cover those."
       }, {
         title: "Lunch",
         person: "",
