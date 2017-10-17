@@ -16,7 +16,7 @@ $(document).ready(function(){
 		console.log("Need to be on server to access external speakers file. Here is some test content.");
 		offline();
 	});
-		
+
 
 	function offline(){
 		var info = "Bushra\|\|Senior Director\|Nicholas Cage\'presentations\'stuff\|aldksflkj description\|Adding Cage\-ism\|Friday October 21, 7:00\-8:00PM\|loremipsum.com\|http://loremipsum.com\|link.com\|socialMedia.com\\Person\|\|Junior Something\|eqwr\'sdf\'jobs\'stuffs\|dfjljjjf desc\|Bloops\|Sunday, 5\-2AM\|bleepbloop.com\|http://website.com\|otherlink.com\|http://url.com\\Kiddo\|\|Manager of Someplace\|laskdfj\'ekcv\'lafkj\|bnc,mznvew descr\|Meeps\|Monday, 4\-0PM\|meepmeep.com\|http://website.com\|otherotherlink.com\|http://url.com\\Fourtho\|\|Manager of Someotherplace\|cxzxcv\'qweg\'lfdhshh\|erasdgardff descr\|Mops\|Monday, 4\-6PM\|meepmop.com\|http://website.com\|otherslink.com\|http://url.com";
@@ -28,11 +28,11 @@ $(document).ready(function(){
 		$('.modal-closer').click(function(){
 			closeModal();
 		});
-		
+
 		$('.modal__x').click(function(){
 			closeModal();
 		});
-    
+
     $('.speaker').click(function(){
       showModal(this);
     });
@@ -69,6 +69,7 @@ $(document).ready(function(){
     fillModal($(speaker).index());
     $('.speakers-modal').toggleClass('modal--hidden');
     $('.modal-closer').toggleClass('modal--hidden');
+		$(document.body).addClass('noScroll');
 
     /*if(!mobileQuery.matches)
 			$('.container-fluid').addClass('blur');
@@ -79,6 +80,7 @@ $(document).ready(function(){
     modalShown = false;
     $('.speakers-modal').toggleClass('modal--hidden');
     $('.modal-closer').toggleClass('modal--hidden');
+		$(document.body).removeClass('noScroll');
 
     /*if(!mobileQuery.matches)
 			$('.container-fluid').removeClass('blur');
