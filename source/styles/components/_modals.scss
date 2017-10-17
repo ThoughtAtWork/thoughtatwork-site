@@ -1,5 +1,5 @@
 .modal{
-	margin: 0 auto;
+	margin: auto;
 
 	position: relative;
     pointer-events: auto;
@@ -80,6 +80,8 @@
 .speakers-modal{
 	width: vw(914px);
 	height: vw(576px);
+	max-width: 1170px;
+	max-height: 740px;
 
 	.modal__content{
 		padding: vw(56px) vw(56px) vw(40px) vw(488px);
@@ -117,6 +119,33 @@
 
 	&__event{
 		margin-top: vw(12px);
+	}
+}
+
+@include media('>xl'){
+	.speakers-modal {
+		& .modal__content {
+			padding: 71.68px 71.68px 51.2px 624.64px;
+		}
+		&__name {
+			margin-bottom: 10.24px;
+		}
+		&__accord {
+			margin-top: 30.72px;
+			&-item {
+				margin-top: 10.24px;
+			}
+		}
+		&__event {
+			margin-top: 15.36px;
+		}
+		&__social {
+			margin-bottom: 35.84px;
+			margin-top: 20.48px;
+			&__img {
+				margin-right: 30.72px;
+			}
+		}
 	}
 }
 
