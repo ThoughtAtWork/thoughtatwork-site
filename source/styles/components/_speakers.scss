@@ -7,7 +7,12 @@
 }
 
 .speakers__grid{
-	margin: 0 auto;
+	margin-left: -9vw;
+
+	&-wrap{
+		width: 80%;
+		margin: 0 auto;
+	}
 }
 
 .speakers__keynote{
@@ -36,4 +41,18 @@
 	margin: 0 auto;
 	display: inline-block;
 	text-align: center;
+}
+
+@include media('<md'){
+	.speakers__grid{
+		margin-left: -14vw;
+	}
+}
+
+@include media('<sm'){
+	.speakers__grid{
+		&-wrap{
+			width: 56%;
+		}
+	}
 }

@@ -1,65 +1,42 @@
-$(document).ready(function() {
-  $.ajaxSetup({cache: false});
-  var speakers;
+$(document).ready(function(){
+	$.ajaxSetup({cache: false});
+	var speakers;
 
-  $.getJSON("../assets/json/data.json", function(data) {
-    console.dir(data);
-    speakers = data.speakers;
-    initSecond();
-  });
-  jQuery(document).ajaxError(function(event, request, settings) {
-    alert("Error");
-  });
-  //var speakers = [];
-  var mobileQuery = window.matchMedia('(max-width : 767px)');
-  var modalShown = false;
+	$.getJSON( "../assets/json/data.json", function(data) {
+		console.dir(data);
+		speakers = data.speakers;
+		initSecond();
+	});
+	//var speakers = [];
+	var mobileQuery = window.matchMedia('(max-width : 767px)');
+	var modalShown = false;
 
-  $(document).ajaxError(function() {
-    $('.top-buffer').prepend("Need to be on server to access external speakers file. Here is some test content.");
-    console.log("Need to be on server to access external speakers file. Here is some test content.");
-    offline();
-  });
+	$( document ).ajaxError(function() {
+		$('.top-buffer').prepend("Need to be on server to access external speakers file. Here is some test content.");
+		console.log("Need to be on server to access external speakers file. Here is some test content.");
+		offline();
+	});
+		
 
-  function offline() {
-    var info = "Bushra\|\|Senior Director\|Nicholas Cage\'presentations\'stuff\|aldksflkj description\|Adding Cage\-ism\|Friday October 21, 7:00\-8:00PM\|loremipsum.com\|http://loremipsum.com\|link.com\|socialMedia.com\\Person\|\|Junior Something\|eqwr\'sdf\'jobs\'stuffs\|dfjljjjf desc\|Bloops\|Sunday, 5\-2AM\|bleepbloop.com\|http://website.com\|otherlink.com\|http://url.com\\Kiddo\|\|Manager of Someplace\|laskdfj\'ekcv\'lafkj\|bnc,mznvew descr\|Meeps\|Monday, 4\-0PM\|meepmeep.com\|http://website.com\|otherotherlink.com\|http://url.com\\Fourtho\|\|Manager of Someotherplace\|cxzxcv\'qweg\'lfdhshh\|erasdgardff descr\|Mops\|Monday, 4\-6PM\|meepmop.com\|http://website.com\|otherslink.com\|http://url.com";
-    //sortData(info);
-    initSecond();
-  }
+	function offline(){
+		var info = "Bushra\|\|Senior Director\|Nicholas Cage\'presentations\'stuff\|aldksflkj description\|Adding Cage\-ism\|Friday October 21, 7:00\-8:00PM\|loremipsum.com\|http://loremipsum.com\|link.com\|socialMedia.com\\Person\|\|Junior Something\|eqwr\'sdf\'jobs\'stuffs\|dfjljjjf desc\|Bloops\|Sunday, 5\-2AM\|bleepbloop.com\|http://website.com\|otherlink.com\|http://url.com\\Kiddo\|\|Manager of Someplace\|laskdfj\'ekcv\'lafkj\|bnc,mznvew descr\|Meeps\|Monday, 4\-0PM\|meepmeep.com\|http://website.com\|otherotherlink.com\|http://url.com\\Fourtho\|\|Manager of Someotherplace\|cxzxcv\'qweg\'lfdhshh\|erasdgardff descr\|Mops\|Monday, 4\-6PM\|meepmop.com\|http://website.com\|otherslink.com\|http://url.com";
+		//sortData(info);
+		initSecond();
+	}
 
-  function initSecond() {
-    $('.speaker-image').each(function() {
-      $(this).after('<div class=\"speaker-image-hover\"></div>');
-    });
-
-    $('.modal-closer').click(function() {
-      closeModal();
-    });
-
-    $('.modal__x').click(function() {
-      closeModal();
-      console.log('closing');
-    });
-
-    //change clicking on speaker to clicking on view more depending on size
-    if ($('.speaker-expand').css('display') == 'none')
-      var mobile = false;
-    else
-      var mobile = true;
-
-    /*if(mobile){
-			$('.speaker-expand').click(function(){
-				showModal($(this).parents('.speaker'));
-			});
-			$('.speaker-image').click(function(){
-				showModal($(this).parent());
-			});
-		}*/
-    //else{
-    $('.speaker').click(function() {
+	function initSecond(){
+		$('.modal-closer').click(function(){
+			closeModal();
+		});
+		
+		$('.modal__x').click(function(){
+			closeModal();
+		});
+    
+    $('.speaker').click(function(){
       showModal(this);
     });
-    //}
-  }
+	}
 
   /*$(window).resize(function(){ // also changes clicking on speaker to clicking on view more
 		$('.speaker').off();
