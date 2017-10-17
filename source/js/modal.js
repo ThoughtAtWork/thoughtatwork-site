@@ -88,6 +88,7 @@ $(document).ready(function(){
   function fillModal(i) {
     $('.speakers-modal__name').html(speakers[i].firstName + " " + speakers[i].lastName);
     $('.speakers-modal__position').html(speakers[i].position + " at " + speakers[i].company);
+    $('.speakers-modal__desc').html(speakers[i].bio);
     $('.speakers-modal__headshot').attr('src', speakers[i].headshot);
     $('.speakers-modal__social').html("");
     speakers[i].socialMedia.forEach(function(social) {
