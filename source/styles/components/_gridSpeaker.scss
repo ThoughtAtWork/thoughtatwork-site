@@ -66,6 +66,10 @@
 			overflow: hidden;
 			z-index: -1;
 
+			img{
+				position: absolute;
+			}
+
 			@include card--drop-shadow;
 		}
 	}

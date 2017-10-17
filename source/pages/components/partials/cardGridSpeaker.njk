@@ -8,7 +8,10 @@
 		<div class="card">
 			<span class="card__header speakers-card__name">{{speaker.firstName}}
 				{{speaker.lastName}}</span>
-			<span class="card__subhead speakers-card__position">{{speaker.position}} at {{speaker.company}}</span>
+			<span class="card__subhead speakers-card__position">{{speaker.position}} 
+				{% if speaker.company != '' %}
+					at {{speaker.company}}
+				{% endif %}</span>
 			<div class="speakers-card__backing-img">
 				<img src="../assets/graphics/TAW-Vis-Dev-6-Edit.jpg">
 			</div>

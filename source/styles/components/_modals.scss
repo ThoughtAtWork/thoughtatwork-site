@@ -92,14 +92,22 @@
 	}
 
 	&__headshot{
+		width: 49%;
 		height: 100%;
 
 		position: absolute;
 		top: 0;
 		left: 0;
+		overflow: hidden;
 
 		box-shadow: 0 0 14px rgba(79,170,177,0.5);
 		transform: scale(1.05) translateX(2%);
+
+		img{
+			height: 100%;
+			padding-left: 25%;
+			transform: translateX(-25%);
+		}
 	}
 
 	&__social{
