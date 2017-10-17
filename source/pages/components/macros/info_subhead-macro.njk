@@ -1,0 +1,28 @@
+{% macro active(activeInfo = 'home')%}
+<div class="category_bar__info flex text-align-center flex-wrap">
+	<a href="info-gethere.html">
+		<div class="category_item__info {%if activeInfo == 'gethere' %} category_item__info--active {% endif %}">
+			GETTING HERE
+		</div>
+	</a>
+	<a href="info-welcome.html">
+		<div class="category_item__info {%if activeInfo == 'whenhere' %} category_item__info--active {% endif %}">
+			WHEN YOU'RE HERE
+		</div>
+	</a>
+	<a href="info-essentials.html">
+		<div class="category_item__info {%if activeInfo == 'whatbring' %} category_item__info--active {% endif %}">
+			WHAT TO BRING
+		</div>
+	</a>
+	<a href="info-wherestay.html">
+		<div class="category_item__info {%if activeInfo == 'wherestay' %} category_item__info--active {% endif %}">
+			WHERE TO STAY
+		</div>
+	</a>
+</div>
+{% endmacro %}
+{#
+<li class="nav--list-item">
+<a href="speakers.html" class="{%if activePage == 'speakers' %} nav--active {% endif %}">Speakers</a>
+</li> #}
