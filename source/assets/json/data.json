@@ -283,7 +283,7 @@
         },
         {
           "title": "Word Play",
-          "desc": "Led by HAWRAF partner Andrew Herzog, collaborate, conceptualize and learn in this abbreviated version of the A-Z project, a HAWRAF 26 hour design challenge in 2016. Students will work with three words randomly selected from the dictionary. They'll have 30 minutes per word to conceptualize and create a visual response of their own."
+          "desc": "Led by HAWRAF partner Andrew Herzog, collaborate, conceptualize and learn in this abbreviated version of the A-Z project, a HAWRAF 26 hour design challenge in 2016. Students will work with three words randomly selected from the dictionary. They'll have 30 minutes per word to conceptualize and create a visual response of their own. Bring your favorite design tools (laptops, markers, pencils, cameras,etc) and get collaborative!"
         }
       ]
 
@@ -307,6 +307,25 @@
       }]
 
     },
+    {
+      "fields": "Industrial Design | Education",
+      "headshot": "../assets/graphics/speakers/",
+      "firstName": "Josh",
+      "lastName": "Owen",
+      "position": "Professor and Chair of Industrial Design",
+      "company": "RIT",
+      "bio": "Josh Owen is a designer, professor and the chair of Industrial Design at Rochester Institute of Technology in Rochester, New York. His work has been featured at the Venice Biennale and is in the permanent design collections of the Centre Georges Pompidou, Corning Museum of Glass, Chicago Athenaeum, Musée des Beaux-Arts de Montreal, National Museum of American Jewish History, Philadelphia Museum of Art, and the Taiwan Design Museum, among others. Significant manufacturers in the U.S. and Europe produce his home/design, furniture, and office products, which are regularly featured in design books, periodicals and in critical design discourse. Owen’s “Build” and “Meta” design academic projects have successfully pioneered integrated practice pedagogy for the field of Industrial Design. He is author of two books - Big Ideas/Small Packages published in 2005 by Woodsphere Press and Lenses for Design published in 2016 by RIT Press.",
+      "socialMedia": [{
+        "media": "",
+        "url": ""
+      }],
+      "presentations": [{
+        "title": "Product Timecapsule Archive Study Collection",
+        "desc": "This session will introduce attendees to the artifacts of process associated with this special collection that is being developed at RIT. Participants will hear from Professor and Chair of Industrial Design at RIT, Josh Owen, ID Grad Student David Villarreal and ID Junior Kaitlyn Gilmor about how this collection is used by students, faculty, researchers in the field."
+      }]
+
+    },
+
     {
       "fields": "Industrial Design | Illustration",
       "headshot": "../assets/graphics/speakers/",
@@ -382,7 +401,7 @@
         "url": "www.austinshaw.com"
       }],
       "presentations": [{
-        "title": "What is Motion Design?",
+        "title": "Design for Motion: Concept Development Exercises",
         "desc": "Prime into the art of motion graphics with Austin Shaw, professor and accomplished motion designer. With examples of where animation meets design, Austin will go into the history of motion graphics, their design, and what makes an excellent piece of motion design. Students will use the fundamentals of pen and paper to sketch out proper and quality conceptual work for their future motion graphic creations."
       }]
 
@@ -472,7 +491,7 @@
         },
         {
           "title": "Sketching 201: Let’s Add Marker",
-          "desc": "Advance your design sketching skills with our TAW veteran Jeff Smith. Fly through the basics of design sketching and the process of rendering analog sketches with markers. Prepare yourself to create amazing sketches out of air using only paper, pen and marker."
+          "desc": "What do you get when you put two amazing analog sketchers in the same room – two unique sketching styles, over 30 years of combined experience, and one amazing sketch demo. This workshop, no matter your experience level, will help you sketch confidently and communicate the ideas you have inside your head through pen and paper."
         }
       ]
 

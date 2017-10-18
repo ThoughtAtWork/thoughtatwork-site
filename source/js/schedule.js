@@ -138,7 +138,7 @@ var schedule = {
         end: "11:00AM",
         disc: "You've got a portfolio, we've got feedback. By filling a room with portfolio wizards (working professionals), we provide a venue to discuss and be taught how to craft a portfolio that'll knock the socks off anyone who sees it. Bring your work!"
       }, {
-        title: "What is Motion Design?",
+        title: "Design for Motion: Concept Development Exercises",
         person: "Austin Shaw",
         loc: "Booth 1440",
         start: "9:30AM",
@@ -227,7 +227,7 @@ var schedule = {
         loc: "Booth 1480",
         start: "4:00PM",
         end: "5:30PM",
-        disc: "Led by HAWRAF partner Andrew Herzog, collaborate, conceptualize and learn in this abbreviated version of the A-Z project, a HAWRAF 26 hour design challenge in 2016. Students will work with three words randomly selected from the dictionary. They'll have 30 minutes per word to conceptualize and create a visual response of their own."
+        disc: "Led by HAWRAF partner Andrew Herzog, collaborate, conceptualize and learn in this abbreviated version of the A-Z project, a HAWRAF 26 hour design challenge in 2016. Students will work with three words randomly selected from the dictionary. They'll have 30 minutes per word to conceptualize and create a visual response of their own. Bring your favorite design tools (laptops, markers, pencils, cameras,etc) and get collaborative!"
       }, {
         title: "STICKY NOTE VOTE!",
         person: "",
@@ -257,7 +257,7 @@ var schedule = {
         disc: "Your daily coffee fix provided by JAVA’S"
       }, {
         title: "Product Timecapsule Archive Study Collection",
-        person: "Chair of Industrial Design at RIT, Josh Owen, David Villarreal, Kaitlyn Gilmor",
+        person: "RIT ID students Kaitlyn Gilmore, David Villarreal with RIT Chair of Industrial Design, Josh Owen",
         loc: "3310",
         start: "9:30AM",
         end: "10:30AM",
@@ -282,7 +282,7 @@ var schedule = {
         loc: "Booth 3330",
         start: "12:15PM",
         end: "1:45PM",
-        disc: "Advance your design sketching skills with our TAW veteran Jeff Smith. Fly through the basics of design sketching and the process of rendering analog sketches with markers. Prepare yourself to create amazing sketches out of air using only paper, pen and marker. "
+        disc: "What do you get when you put two amazing analog sketchers in the same room – two unique sketching styles, over 30 years of combined experience, and one amazing sketch demo. This workshop, no matter your experience level, will help you sketch confidently and communicate the ideas you have inside your head through pen and paper."
       }, {
         title: "GIF or GIF: Create your Own",
         person: "Miguel Cardona",
