@@ -66,6 +66,10 @@
 			overflow: hidden;
 			z-index: -1;
 
+			img{
+				position: absolute;
+			}
+
 			@include card--drop-shadow;
 		}
 	}
@@ -92,7 +96,7 @@
 
 @include media('<sm'){
 	.speakers-card--grid{
-		margin-bottom: 18.4vw;
+		margin-bottom: 108px;
 
 		.card{
 			width: 48vw;

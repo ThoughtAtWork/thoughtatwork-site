@@ -1,7 +1,7 @@
 {
   "speakers2": [{
       "fields": "UI/UX | Marketing",
-      "headshot": "assets/graphics/speakers/miguel_cardona.png",
+      "headshot": "../assets/graphics/speakers/miguel_cardona.png",
       "firstName": "Miguel",
       "lastName": "Cardona",
       "position": "Lead Designer",
@@ -10,7 +10,7 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": [{
           "title": "Whiteboard Interviews",
           "description": "a talk about whiteboards"
@@ -23,7 +23,7 @@
     },
     {
       "fields": "Industrial Design | UX | Geriatrics",
-      "headshot": "assets/graphics/speakers/pattie_moore.jpg",
+      "headshot": "../assets/graphics/speakers/pattie_moore.jpg",
       "firstName": "Patricia",
       "lastName": "Moore",
       "position": "President Officer",
@@ -35,7 +35,7 @@
         "type": "instagram",
         "url": "http://instagram.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": [{
           "title": "Whiteboard Interviews",
           "description": "a talk about whiteboards"
@@ -48,7 +48,7 @@
     },
     {
       "fields": "UI/UX | Marketing",
-      "headshot": "assets/graphics/speakers/julie.png",
+      "headshot": "../assets/graphics/speakers/julie.png",
       "firstName": "Julie",
       "lastName": "Zhuo",
       "position": "VP of Design",
@@ -57,7 +57,7 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": [{
           "title": "Whiteboard Interviews",
           "description": "a talk about whiteboards"
@@ -70,7 +70,7 @@
     },
     {
       "fields": "Industrial Design | Illustration",
-      "headshot": "assets/graphics/speakers/anita_casale.png",
+      "headshot": "../assets/graphics/speakers/anita_casale.png",
       "firstName": "Anita",
       "lastName": "Casale",
       "position": "Design Operations",
@@ -79,7 +79,7 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": [{
           "title": "Whiteboard Interviews",
           "description": "a talk about whiteboards"
@@ -92,7 +92,7 @@
     },
     {
       "fields": "Industrial Design | Illustration",
-      "headshot": "assets/graphics/speakers/spencer_nugent.png",
+      "headshot": "../assets/graphics/speakers/spencer_nugent.png",
       "firstName": "Spencer",
       "lastName": "Nugent",
       "position": "Owner-Founder",
@@ -101,12 +101,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Motion Graphics",
-      "headshot": "assets/graphics/speakers/gordon_reid.png",
+      "headshot": "../assets/graphics/speakers/gordon_reid.png",
       "firstName": "Gordon",
       "lastName": "Reid",
       "position": "Creative Director",
@@ -115,12 +115,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Industrial Design",
-      "headshot": "assets/graphics/speakers/jeff_smith.png",
+      "headshot": "../assets/graphics/speakers/jeff_smith.png",
       "firstName": "Jeff",
       "lastName": "Smith",
       "position": "Education Program Manager",
@@ -129,12 +129,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Industrial Design",
-      "headshot": "assets/graphics/speakers/emilie_baltz.png",
+      "headshot": "../assets/graphics/speakers/emilie_baltz.png",
       "firstName": "Emilie",
       "lastName": "Baltz",
       "position": "Food Technologist",
@@ -143,12 +143,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Motion Graphics",
-      "headshot": "assets/graphics/speakers/jeremy_cox.png",
+      "headshot": "../assets/graphics/speakers/jeremy_cox.png",
       "firstName": "Jeremy",
       "lastName": "Cox",
       "position": "Creative Director",
@@ -157,12 +157,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Industrial Design | UX Design",
-      "headshot": "assets/graphics/speakers/tim_wood.png",
+      "headshot": "../assets/graphics/speakers/tim_wood.png",
       "firstName": "Tim",
       "lastName": "Wood",
       "position": "Professor",
@@ -171,12 +171,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Industrial Design",
-      "headshot": "assets/graphics/speakers/will_gibbons.png",
+      "headshot": "../assets/graphics/speakers/will_gibbons.png",
       "firstName": "Will",
       "lastName": "Gibbons",
       "position": "Global Training Specialist",
@@ -185,12 +185,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Health Care",
-      "headshot": "assets/graphics/speakers/susanna_rose.png",
+      "headshot": "../assets/graphics/speakers/susanna_rose.png",
       "firstName": "Susanna",
       "lastName": "Rose",
       "position": "Mental Health Counselor",
@@ -199,12 +199,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Motion Graphics | Graphic Design",
-      "headshot": "assets/graphics/speakers/austin_shaw.png",
+      "headshot": "../assets/graphics/speakers/austin_shaw.png",
       "firstName": "Austin",
       "lastName": "Shaw",
       "position": "Professor",
@@ -213,12 +213,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Graphic Design",
-      "headshot": "assets/graphics/speakers/mitch_goldstein.png",
+      "headshot": "../assets/graphics/speakers/mitch_goldstein.png",
       "firstName": "Mitch",
       "lastName": "Goldstein",
       "position": "Professor",
@@ -227,12 +227,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Motion Graphics",
-      "headshot": "assets/graphics/speakers/tnaya_witmer.png",
+      "headshot": "../assets/graphics/speakers/tnaya_witmer.png",
       "firstName": "Tnaya",
       "lastName": "Witmer",
       "position": "Senior Designer",
@@ -241,12 +241,12 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     },
     {
       "fields": "Graphic Design | UX Design",
-      "headshot": "assets/graphics/speakers/andrew_herzog.png",
+      "headshot": "../assets/graphics/speakers/andrew_herzog.png",
       "firstName": "Andrew",
       "lastName": "Herzog",
       "position": "Designer",
@@ -255,7 +255,7 @@
         "type": "facebook",
         "url": "http://facebook.com"
       }],
-      "backingImg": "assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
+      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
       "presentations": []
     }
   ],
@@ -281,7 +281,7 @@
 
     {
       "fields": "Motion Graphics",
-      "headshot": "../assets/graphics/speakers/",
+      "headshot": "../assets/graphics/speakers/jeremy_cox.png",
       "firstName": "Jeremy",
       "lastName": "Cox",
       "position": "Creative Director",
@@ -343,7 +343,7 @@
 
     {
       "fields": "Motion Graphics | Graphic Design",
-      "headshot": "../assets/graphics/speakers/",
+      "headshot": "../assets/graphics/speakers/austin_shaw.png",
       "firstName": "Austin",
       "lastName": "Shaw",
       "position": "Motion Design Consultant & Professor",
