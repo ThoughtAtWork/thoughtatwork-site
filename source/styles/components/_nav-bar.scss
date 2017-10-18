@@ -245,15 +245,3 @@
 
     }
 }
-
-// Applies to all pages to allow for fixed navbar
-.container {
-    padding-top: 80px;
-    // z-index: -1;
-    position: relative;
-}
-
-// Locks page from scrolling when overlay is present
-.noScroll {
-    overflow: hidden;
-}

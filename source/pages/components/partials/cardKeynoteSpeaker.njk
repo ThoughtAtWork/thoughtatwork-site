@@ -1,20 +1,13 @@
 <div class="speakers__keynote">
 	<h2 class="speakers__keynote__header">keynote</h2>
+	{% for speaker in keynoteSpeakers %}
 	<div class="card speaker speakers-card--keynote">
-		<img src="{{speakers[2].headshot}}" class="speakers-card__headshot">
-		<span class="card__header speakers-card__name">{{speakers[2].firstName}}<br>{{speakers[2].lastName}}</span>
-		<span class="card__subhead speakers-card__position">{{speakers[2].position}}<br>at {{speakers[2].company}}</span>
+		<img src="{{speaker.headshot}}" class="speakers-card__headshot">
+		<span class="card__header speakers-card__name">{{speaker.firstName}}<br>{{speaker.lastName}}</span>
+		<span class="card__subhead speakers-card__position">{{speaker.position}}<br>at {{speaker.company}}</span>
 		<div class="speakers-card__backing-img">
 			<img src="../assets/graphics/TAW-Vis-Dev-6-Edit.jpg">
 		</div>
 	</div>
-
-	<div class="card speaker speakers-card--keynote">
-		<img src="{{speakers[9].headshot}}" class="speakers-card__headshot">
-		<span class="card__header speakers-card__name">{{speakers[9].firstName}}<br>{{speakers[9].lastName}}</span>
-		<span class="card__subhead speakers-card__position">{{speakers[9].position}}<br>at {{speakers[9].company}}</span>
-		<div class="speakers-card__backing-img">
-			<img src="../assets/graphics/TAW-Vis-Dev-6-Edit.jpg">
-		</div>
-	</div>
+	{% endfor %}
 </div>

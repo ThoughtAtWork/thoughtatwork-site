@@ -1,13 +1,15 @@
 $(document).ready(function(){
 	$.ajaxSetup({cache: false});
 	var speakers;
+	var keynotes;
 
 	$.getJSON( "../assets/json/data.json", function(data) {
 		console.dir(data);
 		speakers = data.speakers;
+		keynotes = data.keynoteSpeakers;
 		initSecond();
 	});
-	//var speakers = [];
+
 	var mobileQuery = window.matchMedia('(max-width : 767px)');
 	var modalShown = false;
 
@@ -49,8 +51,12 @@ $(document).ready(function(){
 			closeModal();
 		});
     
-	    $('.speaker').click(function(){
-	      showModal(this);
+	    $('.speakers-card--grid').click(function(){
+	      showModal(speakers, this);
+	    });
+    
+	    $('.speakers-card--keynote').click(function(){
+	      showModal(keynotes, this);
 	    });
 	}
 
@@ -93,10 +99,10 @@ $(document).ready(function(){
 			return path;
 
 	}
-  function showModal(speaker) {
+  function showModal(speakArray, speaker) {
     modalShown = true;
     //$('.modal__content').detach();
-    fillModal($(speaker).index()-1);
+    fillModal(speakArray, $(speaker).index()-1);
     $('.speakers-modal').toggleClass('modal--hidden');
     $('.modal-closer').toggleClass('modal--hidden');
 		$(document.body).addClass('noScroll');
@@ -114,29 +120,32 @@ $(document).ready(function(){
 		$(document.body).removeClass('noScroll');
 		$('.modal-holder').addClass('noScroll');
 
+	$('.speakers-modal').scrollTop(0);
+	$('.modal-holder').scrollTop(0);
+
     /*if(!mobileQuery.matches)
 			$('.container-fluid').removeClass('blur');
 		$('.speakers-splash-words').removeAttr('id');*/
   }
 
-  function fillModal(i) {
-    $('.speakers-modal__name').html(speakers[i].firstName + " " + speakers[i].lastName);
-    $('.speakers-modal__position').html(speakers[i].position + " at " + speakers[i].company);
-    $('.speakers-modal__desc').html(speakers[i].bio);
+  function fillModal(speakArray, i) {
+    $('.speakers-modal__name').html(speakArray[i].firstName + " " + speakArray[i].lastName);
+    $('.speakers-modal__position').html(speakArray[i].position + " at " + speakArray[i].company);
+    $('.speakers-modal__desc').html(speakArray[i].bio);
 
  
-	var headshotSrc = "../assets/graphics/speakers/"+speakers[i].firstName+"_"+speakers[i].lastName+".png";
+	var headshotSrc = "../assets/graphics/speakers/"+speakArray[i].firstName+"_"+speakArray[i].lastName+".png";
     headshotSrc = headshotSrc.toLowerCase();
-    headshotSrc = checkMiguel(speakers[i].firstName, headshotSrc);
+    headshotSrc = checkMiguel(speakArray[i].firstName, headshotSrc);
 
     $('.speakers-modal__headshot').children('img').attr('src', headshotSrc);
     $('.speakers-modal__social').html("");
-    speakers[i].socialMedia.forEach(function(social) {
+    speakArray[i].socialMedia.forEach(function(social) {
       $('.speakers-modal__social').append('<a href="' + social.url + '"><img src="../assets/graphics/' + social.type + '_teal.svg" class="speakers-modal__social__img"></a>');
     });
 
     $('.modal__accord').html('<h5 class="card__header">Presentations</h5>');
-    speakers[i].presentations.forEach(function(pres) {
+    speakArray[i].presentations.forEach(function(pres) {
       $('.modal__accord').append('<p class="modal__accord-title speakers-modal__event"><span>+</span> ' + pres.title + '</p><div class="modal__accord-item"><p>' + pres.desc + '</p></div>');
     });
 
