@@ -12,7 +12,7 @@
     width: 100%;
     margin-bottom: 148px;
     #about-backdrop {
-      position: absolute;
+      position: relative;
       right: 0%;
       top: -45%;
       z-index: -1;
@@ -64,8 +64,8 @@
         height: 28.76vw;
         max-width: 406px;
         position: relative;
-        bottom: 140px;
-        left: 75px;
+        bottom: 12vw;
+        left: 9vw;
       }
     }
   }
@@ -73,18 +73,44 @@
 
 @include media('<lg') {
   #about-main {
+    
+    margin: 0px auto 150px auto;
+    
     #about-info {
+      
+      margin-bottom: 50px;
+      
+      .form-row-title {
+        display: none;
+      }
+      
       #about-video {
         width: 100%;
-        .recap-video {}
+        padding: 0px 10vw 0px 10vw;
+        .recap-video {
+          
+        }
       }
       #about-text {
         width: 100%;
         padding: 15px 25px;
       }
+      
+      
     }
     #about-brand { 
       width: 206px;
+      display: none;
     }
+    
+    #about-contact {
+        margin: 0px 5vw;
+      }
+    
+    #about-lg-img {
+    img {
+      width: 80vw;
+    }
+  }
   }
 }
