@@ -5,6 +5,7 @@
     Speakers
 {% endblock %}
 {% block content %}
+
     {% import 'macros/nav-macro.njk' as nav %}
 
     {{nav.active('speakers')}}
@@ -20,14 +21,14 @@
 
         {% include "partials/speakersModal.njk" %}
         {% include "partials/cardKeynoteSpeaker.njk" %}
-        {# {% include "partials/speakersFilters.njk" %} #}
+        {% include "partials/speakersFilters.njk" %}
         {% include "partials/cardGridSpeaker.njk" %}
         {# {% include "partials/speakerCards-example.njk" %} #}
 
         {% include "partials/footer.njk" %}
     </div>
 
-    {# <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
     <script type="text/javascript">
         // init isotope
@@ -43,5 +44,5 @@
                 // use filterFn if matches value
                 $speakerGrid.isotope({ filter: filterValue });
             });
-    </script> #}
+    </script>
 {% endblock %}

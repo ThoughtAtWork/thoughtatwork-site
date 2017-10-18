@@ -31,6 +31,13 @@
 		top: -65px;
 		left: -120px;
 		margin: 30px;
+    @include media ('<sm') {
+      left: -34%;
+      top: -60%;
+      .up, .down {
+        font-size: 65%;
+      }
+    }
 	}
 	&__img {
 		position: absolute;
