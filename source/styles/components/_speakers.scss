@@ -18,7 +18,7 @@
 .speakers__keynote{
 	// margin: vw(154px) auto;
 	margin-right: auto;
-	margin-bottom: vw(154px);
+	margin-bottom: vw(164px);
 	margin-left: auto;
 	text-align: center;
 }
@@ -33,8 +33,8 @@
 }
 
 .speakers__grid__header{
-	top: vw(-64px);
-	left: vw(116px);
+	top: vw(-112px);
+	left: 9vw;
 }
 
 .filters {
@@ -44,15 +44,44 @@
 }
 
 @include media('<md'){
+	.speakers-card--keynote:last-child{
+		margin-top: vw(80px);
+	}
+
+	.speakers__keynote__header{
+		top: vw(-6px);
+	}
+
 	.speakers__grid{
 		margin-left: -14vw;
 	}
 }
 
+@include media('<md'){
+	.speakers__grid__header{
+		top: -14vw;
+	}
+}
+
 @include media('<sm'){
+	.speakers__keynote{
+		margin-top: 6vw;
+
+		&__header{
+			top: -58px;
+		}
+	}
+
 	.speakers__grid{
+		margin-top: 27vw;
+
 		&-wrap{
 			width: 56%;
+		}
+
+		&__header{
+			top: -102px;
+			left: 0;
 		}
 	}
 }

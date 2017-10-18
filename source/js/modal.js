@@ -25,6 +25,22 @@ $(document).ready(function(){
 	}
 
 	function initSecond(){
+		$('.speakers-card--grid').each(function(i){
+			var headshotSrc = "../assets/graphics/speakers/"+speakers[i].firstName+"_"+speakers[i].lastName+".png";
+		    headshotSrc = headshotSrc.toLowerCase();
+
+		    headshotSrc = checkMiguel(speakers[i].firstName, headshotSrc);
+
+		    $(this).children('.speakers-card__headshot').children('img').attr('src', headshotSrc);
+
+		    placeBG($(this), 210, 20);
+		});
+
+		$('.speakers-card--keynote').each(function(i){
+			placeBG($(this), 350, 500);
+		});
+
+
 		$('.modal-closer').click(function(){
 			closeModal();
 		});
@@ -32,10 +48,10 @@ $(document).ready(function(){
 		$('.modal__x').click(function(){
 			closeModal();
 		});
-
-    $('.speaker').click(function(){
-      showModal(this);
-    });
+    
+	    $('.speaker').click(function(){
+	      showModal(this);
+	    });
 	}
 
   /*$(window).resize(function(){ // also changes clicking on speaker to clicking on view more
@@ -63,6 +79,20 @@ $(document).ready(function(){
 			$('.container-fluid').addClass('blur');
 	});*/
 
+	function placeBG(speaker, w, h){
+	    var backingImg = $(speaker).find('.speakers-card__backing-img').children('img');
+
+	    $(backingImg).css('left', Math.random()*(-1)*(parseInt(backingImg.css('width'))-w));
+	    $(backingImg).css('top', Math.random()*(-1)*(parseInt(backingImg.css('height'))-h));
+	}
+
+	function checkMiguel(name, path){
+		if(name == "Miguel A.")
+			return "../assets/graphics/speakers/miguel_cardona.png";
+		else
+			return path;
+
+	}
   function showModal(speaker) {
     modalShown = true;
     //$('.modal__content').detach();
@@ -90,7 +120,14 @@ $(document).ready(function(){
   function fillModal(i) {
     $('.speakers-modal__name').html(speakers[i].firstName + " " + speakers[i].lastName);
     $('.speakers-modal__position').html(speakers[i].position + " at " + speakers[i].company);
-    $('.speakers-modal__headshot').attr('src', speakers[i].headshot);
+    $('.speakers-modal__desc').html(speakers[i].bio);
+
+ 
+	var headshotSrc = "../assets/graphics/speakers/"+speakers[i].firstName+"_"+speakers[i].lastName+".png";
+    headshotSrc = headshotSrc.toLowerCase();
+    headshotSrc = checkMiguel(speakers[i].firstName, headshotSrc);
+
+    $('.speakers-modal__headshot').children('img').attr('src', headshotSrc);
     $('.speakers-modal__social').html("");
     speakers[i].socialMedia.forEach(function(social) {
       $('.speakers-modal__social').append('<a href="' + social.url + '"><img src="../assets/graphics/' + social.type + '_teal.svg" class="speakers-modal__social__img"></a>');
