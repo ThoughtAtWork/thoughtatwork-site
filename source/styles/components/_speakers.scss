@@ -57,12 +57,31 @@
 	}
 }
 
+@include media('<md'){
+	.speakers__grid__header{
+		top: -14vw;
+	}
+}
+
 @include media('<sm'){
+	.speakers__keynote{
+		margin-top: 6vw;
+
+		&__header{
+			top: -58px;
+		}
+	}
+
 	.speakers__grid{
+		margin-top: 27vw;
+
 		&-wrap{
 			width: 56%;
 		}
 
-		margin-top: vw(196px);
+		&__header{
+			top: -102px;
+			left: 0;
+		}
 	}
 }
