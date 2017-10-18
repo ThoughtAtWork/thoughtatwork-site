@@ -1,13 +1,90 @@
-.recap-video {
-    width: 47.69vw;
-    height: 24.5vw;
-    @include card--drop-shadow;
-    // Needed to shift not push controls outside of video width
-    width: auto;
+.logo {
+  width: 28.76vw;
+  height: 28.76vw;
+  // Drop shadow won't work here since it's an svg
 }
 
-.logo {
-    width: 28.76vw;
-    height: 28.76vw;
-    // Drop shadow won't work here since it's an svg
+#about-main {
+  margin: 148px auto 0px auto;
+  max-width: $xl;
+  #about-info {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 148px;
+    #about-backdrop {
+      position: absolute;
+      right: 0%;
+      top: -45%;
+      z-index: -1;
+      width: 100%;
+      @include media('>xl') {
+        right: 5%;
+        top: -35%;
+      }
+      @include media('<md') {
+        display: none;
+      }
+    }
+    .form-row-title  {
+      top: 150px;
+      left: -40px;
+    }
+    #about-video {
+      width: 50%;
+      float: left;
+      .recap-video {
+        width: 100%;
+        //height: 335px;
+        @include card--drop-shadow;
+        // Needed to shift not push controls outside of video width
+      }
+    }
+    #about-text {
+      width: 50%;
+      float: left;
+      padding-left: 76px;
+      box-sizing: border-box;
+    }
+  }
+  #about-lg-img {
+    text-align: center;
+    img {
+      width: 58vw;
+     
+      @include card--drop-shadow;
+    }
+    margin-bottom: 85px;
+  }
+  #about-contact {
+    margin-left: 94px;
+    margin-bottom: -100px;
+    #about-brand {
+      img {
+        width: 28.76vw;
+        height: 28.76vw;
+        max-width: 406px;
+        position: relative;
+        bottom: 140px;
+        left: 75px;
+      }
+    }
+  }
+}
+
+@include media('<lg') {
+  #about-main {
+    #about-info {
+      #about-video {
+        width: 100%;
+        .recap-video {}
+      }
+      #about-text {
+        width: 100%;
+        padding: 15px 25px;
+      }
+    }
+    #about-brand { 
+      width: 206px;
+    }
+  }
 }
