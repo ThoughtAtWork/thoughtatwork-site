@@ -257,8 +257,8 @@ var schedule = {
         disc: "Your daily coffee fix provided by JAVA’S"
       }, {
         title: "Product Timecapsule Archive Study Collection",
-        person: "",
-        loc: "",
+        person: "Chair of Industrial Design at RIT, Josh Owen, David Villarreal, Kaitlyn Gilmor",
+        loc: "3310",
         start: "9:30AM",
         end: "10:30AM",
         disc: "This session will introduce attendees to the artifacts of process associated with this special collection that is being developed at RIT. Participants will hear from Professor and Chair of Industrial Design at RIT, Josh Owen, ID Grad Student David Villarreal and ID Junior Kaitlyn Gilmor about how this collection is used by students, faculty, researchers in the field."
