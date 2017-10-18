@@ -300,7 +300,7 @@
 
     {
       "fields": "Motion Graphics",
-      "headshot": "../assets/graphics/speakers/",
+      "headshot": "../assets/graphics/speakers/gordon_reid.png",
       "firstName": "Gordon",
       "lastName": "Reid",
       "position": "Founder & Creative Director",
@@ -452,7 +452,7 @@
 
     {
       "fields": "Graphic Design | UX Design",
-      "headshot": "../assets/graphics/speakers/",
+      "headshot": "../assets/graphics/speakers/andrew_herzog.png",
       "firstName": "Andrew",
       "lastName": "Herzog",
       "position": "Partner",

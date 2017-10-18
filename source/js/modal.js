@@ -96,10 +96,11 @@ $(document).ready(function(){
   function showModal(speaker) {
     modalShown = true;
     //$('.modal__content').detach();
-    fillModal($(speaker).index());
+    fillModal($(speaker).index()-1);
     $('.speakers-modal').toggleClass('modal--hidden');
     $('.modal-closer').toggleClass('modal--hidden');
 		$(document.body).addClass('noScroll');
+		$('.modal-holder').removeClass('noScroll');
 
     /*if(!mobileQuery.matches)
 			$('.container-fluid').addClass('blur');
@@ -111,6 +112,7 @@ $(document).ready(function(){
     $('.speakers-modal').toggleClass('modal--hidden');
     $('.modal-closer').toggleClass('modal--hidden');
 		$(document.body).removeClass('noScroll');
+		$('.modal-holder').addClass('noScroll');
 
     /*if(!mobileQuery.matches)
 			$('.container-fluid').removeClass('blur');
