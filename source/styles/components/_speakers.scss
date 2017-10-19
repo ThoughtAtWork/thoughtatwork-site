@@ -8,6 +8,9 @@
 
 .speakers__grid{
 	margin-left: -9vw;
+	@include media ('>xl') {
+		 margin-left: -130px;
+	}
 
 	&-wrap{
 		width: 80%;
@@ -16,25 +19,38 @@
 }
 
 .speakers__keynote{
-	// margin: vw(154px) auto;
 	margin-right: auto;
 	margin-bottom: 21vw;
+	@include media ('>xl') {
+		 margin-bottom: 270px;
+	}
 	margin-left: auto;
 	text-align: center;
 }
 
 .speakers-card--keynote:last-child{
 	margin-top: vw(40px);
+	@include media ('>xl') {
+		 margin-top: 51px;
+	}
 }
 
 .speakers__keynote__header{
-	top: vw(-20px);
+	top: vw(-40px);
 	right: vw(48px);
+	@include media ('>xl') {
+		 top: -51px;
+		 right: 61px;
+	}
 }
 
 .speakers__grid__header{
 	top: vw(-112px);
 	left: 9vw;
+	@include media ('>xl') {
+		 top: -143.36px;
+		 left: 115.2px;
+	}
 }
 
 .filters {
@@ -72,7 +88,7 @@
 		margin-top: 6vw;
 
 		&__header{
-			top: -58px;
+			top: -70px;
 		}
 	}
 

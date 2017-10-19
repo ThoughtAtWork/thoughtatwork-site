@@ -7,7 +7,13 @@
 
 	padding-left: 9vw;
 	padding-right: 0;
-	margin-bottom: vw(90px);
+	margin-bottom: 9vw;
+
+	@include media ('>xl') {
+		padding-left: 156.06px;
+		margin-bottom: 156.06px;
+	}
+
 
 	.card{
 		width: 200px;
