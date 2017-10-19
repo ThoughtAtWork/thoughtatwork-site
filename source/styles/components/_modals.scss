@@ -84,8 +84,9 @@
 	max-height: 740px;
 
 	.modal__content{
+		box-sizing: border-box;
 		padding: vw(56px) vw(56px) vw(40px) vw(488px);
-		height: calc(100% - 96px);
+		height: 100%;
 		margin-left: 2%;
 	}
 
