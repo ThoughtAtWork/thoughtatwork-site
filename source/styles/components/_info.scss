@@ -63,21 +63,63 @@ a.category_item__info{
 	flex-wrap: wrap;
 	vertical-align: middle;
 }
-@include media('<sm') {
-	.wheretostay_locations_container{
-		margin:0 auto !important;
-	}
-	.wheretostay_locations{
-		width: 50%;
+
+.wheretostay_locations{
+	vertical-align: top;
+
+	.location{
+		&__info{
+			font-weight: 700;
+		}
+
+		&__travel-time{
+			color: $normal-grey;
+			font-style: italic;
+
+			margin-bottom: 12px;
+		}
 	}
 }
+
+@include media('<md') {
+	.wheretostay_locations_container{
+
+		.wheretostay_title{
+			margin-left: 0;
+		}
+
+		.wheretostay_locations{
+			min-width: 0;
+			max-width: 100%;
+			width: 38%;
+			margin-left: 0;
+			margin-right: 6%;
+		}
+	}
+}
+
+@include media('<sm') {
+	.wheretostay_locations_container{
+		width: 70%;
+		margin:0 auto !important;
+
+		.wheretostay_locations{
+			width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+}
+
 .wheretostay_locations_container{
 	margin-left: 64px;
 }
+
 .wheretostay_title{
 	margin-left: 20px;
 	margin-bottom: 30px;
 }
+
 .wheretostay_locations{
 	display: inline-block;
 	min-width: 29%;
@@ -96,6 +138,7 @@ a.category_item__info{
 .info_welcome_container{
 	margin:0 auto;
 }
+
 @include media('<lg') {
 	.info_welcome_container{
 		display: inline-grid;
