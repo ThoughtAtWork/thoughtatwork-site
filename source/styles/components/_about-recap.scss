@@ -1,13 +1,159 @@
-.recap-video {
-    width: 47.69vw;
-    height: 24.5vw;
-    @include card--drop-shadow;
-    // Needed to shift not push controls outside of video width
-    width: auto;
+.about-for {
+
+	&--heading {
+		
+	}
+
+	&--content {
+		border: 1px solid blue;
+		margin-left: 40px;
+		margin-right: 40px;
+		padding-top: 78px;
+
+		display: flex;
+	}
+
+	&--image {
+		
+	}
+
+	// image inside of image div
+	&--graphic {
+		width: 42.5vw;//650px;
+		height: 22vw;//335px;
+	}
+
+	&--text {
+		margin-left: 76px;
+		border: 1px solid green;
+	}
+
 }
 
-.logo {
-    width: 28.76vw;
-    height: 28.76vw;
-    // Drop shadow won't work here since it's an svg
+.about-by {
+	
+	&--heading {
+		
+	}
+
+	&--content {
+		border: 1px solid blue;
+		margin-top: 148px;
+		//display: none;
+	}
+
+	&--image {
+		text-align: center;
+		margin-top: 88px;	
+	}
+
+	// image inside of image div
+	&--graphic {
+		width: 945px;
+		height: 500px;
+	}
+
+	&--text {
+		margin-left: 148px;
+		margin-top: 86px;
+		width: 35%;
+		border: 1px solid purple;
+	}
+
+	&--link {
+
+	}
+
+	&--brand {
+		border: 1px solid orange;
+		position: relative;
+		top: -50px;
+		margin-left: 160px;
+	}
+
+	// image inside of brand div
+	&--logo {
+		width: 406px;
+		height: 406px;
+	}
+
+	&--yo {
+		display: flex;
+	}
+
 }
+
+@include media ('<md') {
+	
+	.about-for {
+
+		&--heading {
+			display: none;
+		}
+
+		&--image {
+			display: none;
+		}
+
+		&--content {
+			margin-left: 40px;
+			margin-right: 40px;
+			padding-top: 0;
+		}
+
+		&--text {
+			margin-left: 0;
+		}
+
+	}
+
+	.about-by {
+	
+		&--heading {
+			text-align: right;
+			margin-left: 20px;
+		}
+
+		&--image {
+			//padding-top: 60px;
+			text-align: center;
+			margin-top: 68px;
+		}
+
+		&--graphic {
+			width: 100%;
+			height: 400px;
+		}
+
+		&--brand {
+			text-align: right;
+			//margin-right: 26px;
+			margin-left: 0;
+
+			top: -140px;
+			left: 20px;
+			z-index: 2;
+
+		}		
+
+		&--logo {
+			width: 276px;
+			height: 276px;
+		}
+
+		&--content {
+			margin-left: 40px;
+			margin-right: 40px;
+			padding-top: 0;
+		}
+
+		&--text {
+			margin: 0;
+			width: 100%;
+		}
+
+	}
+
+
+}
+
