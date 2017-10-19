@@ -179,10 +179,12 @@
 		height: auto;
 		min-height: 100%;
 		overflow-x: hidden;
+		overflow-y: hidden;
 		margin: 0;
 
 		&-holder{
 			width: 100%;
+			overflow-y: visible;
 		}
 
 		&__x{
@@ -200,8 +202,6 @@
 		}
 	}
 
-
-
 	.speakers-modal{
 
 		.modal__content{
@@ -214,13 +214,13 @@
 
 		&__headshot{
 			width: vw(320px);
-			height: auto;
+			height: vw(420px);
 
 			float: left;
 			position: static;
 
 			margin-right: vw(80px);
-			margin-bottom: vw(64px);
+			margin-bottom: 3vw;
 
 		}
 
