@@ -1,11 +1,8 @@
+// About Page: Desktop Styling
 .about-for {
 
-	&--heading {
-		
-	}
-
 	&--content {
-		border: 1px solid blue;
+		
 		margin-left: 40px;
 		margin-right: 40px;
 		padding-top: 78px;
@@ -13,34 +10,26 @@
 		display: flex;
 	}
 
-	&--image {
-		
-	}
-
 	// image inside of image div
-	&--graphic {
-		width: 42.5vw;//650px;
-		height: 22vw;//335px;
+	&--desktopgraphic {
+		width: 42.5vw;
+		height: 22vw;
 	}
 
 	&--text {
 		margin-left: 76px;
-		border: 1px solid green;
+		
+	}
+
+	&--mobilecontent {
+		display: none;
 	}
 
 }
 
 .about-by {
-	
-	&--heading {
-		
-	}
 
-	&--content {
-		border: 1px solid blue;
-		margin-top: 148px;
-		//display: none;
-	}
+	margin-top: 100px;
 
 	&--image {
 		text-align: center;
@@ -57,15 +46,11 @@
 		margin-left: 148px;
 		margin-top: 86px;
 		width: 35%;
-		border: 1px solid purple;
-	}
-
-	&--link {
-
+		
 	}
 
 	&--brand {
-		border: 1px solid orange;
+		
 		position: relative;
 		top: -50px;
 		margin-left: 160px;
@@ -77,21 +62,22 @@
 		height: 406px;
 	}
 
-	&--yo {
+	&--subcontent {
 		display: flex;
 	}
 
 }
 
+// About Page Mobile Styling
 @include media ('<md') {
 	
 	.about-for {
 
-		&--heading {
+		&--desktopheading {
 			display: none;
 		}
 
-		&--image {
+		&--desktopimage {
 			display: none;
 		}
 
@@ -105,17 +91,35 @@
 			margin-left: 0;
 		}
 
+		&--mobileheading {
+			margin-top: 100px;
+			margin-left: 20px;
+		}
+
+		&--mobilecontent {
+			display: initial;
+		}
+
+		&--mobileimage {
+			padding-top: 60px;
+			margin-left: 40px;
+			margin-right: 40px;
+			text-align: center;
+		}
+
+		&--mobilegraphic {
+			width: 100%;
+		}
+
 	}
 
 	.about-by {
 	
 		&--heading {
-			text-align: right;
-			margin-left: 20px;
+			margin-right: 20px;
 		}
 
 		&--image {
-			//padding-top: 60px;
 			text-align: center;
 			margin-top: 68px;
 		}
@@ -126,19 +130,14 @@
 		}
 
 		&--brand {
-			text-align: right;
-			//margin-right: 26px;
-			margin-left: 0;
-
-			top: -140px;
-			left: 20px;
-			z-index: 2;
-
+			position: absolute;
+			top: -50vw;
+			left: 15vw;
 		}		
 
 		&--logo {
-			width: 276px;
-			height: 276px;
+			width: 45vw;
+			height: 45vw;
 		}
 
 		&--content {
@@ -148,8 +147,14 @@
 		}
 
 		&--text {
-			margin: 0;
-			width: 100%;
+			margin-left: 45px;
+			margin-top: 130px;
+			width: 80%;
+		}
+
+		&--subcontent {
+			display: block;
+			position: relative;
 		}
 
 	}
