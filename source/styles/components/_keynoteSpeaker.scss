@@ -14,10 +14,18 @@
 		bottom: 0;
 	}
 
-	.speakers-card__name, .speakers-card__position{
+	.speakers-card__name{
 		position: relative;
 		left: -28px;
 		z-index: 2;
+	}
+
+	.speakers-card__position{
+		text-align: right;
+		top: 32.4vw;
+		position: absolute;
+		right: -16px;
+		bottom: -5.6vw;
 	}
 
 	.speakers-card__name{
@@ -57,10 +65,18 @@
 
 		margin: 0 6.4vw;
 
-		.speakers-card__backing-img{
-			top: 12px;
-			left: 12px;
+		.speakers-card{
+			&__position{
+				top: 45.6vw;
+			}
+
+			&__backing-img{
+				top: 12px;
+				left: 12px;
+			}
 		}
+
+		
 	}
 }
 
@@ -70,7 +86,7 @@
 		min-height: 74vw;
 
 		margin: 0;
-		margin-bottom: 48px;
+		margin-bottom: 18vw;
 
 		&:first-of-type{
 			margin-right: 16vw;
@@ -80,9 +96,15 @@
 			margin-left: 12vw;
 		}
 
-		.speakers-card__backing-img{
-			top: 16px;
-			left: 16px;
+		.speakers-card{
+			&__position{
+				top: 81vw;
+			}
+
+			&__backing-img{
+				top: 16px;
+				left: 16px;
+			}
 		}
 	}
 }
