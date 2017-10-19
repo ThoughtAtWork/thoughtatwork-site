@@ -4,7 +4,6 @@ $(document).ready(function(){
 	var keynotes;
 
 	$.getJSON( "../assets/json/data.json", function(data) {
-		console.dir(data);
 		speakers = data.speakers;
 		keynotes = data.keynoteSpeakers;
 		initSecond();
@@ -141,7 +140,10 @@ $(document).ready(function(){
     $('.speakers-modal__headshot').children('img').attr('src', headshotSrc);
     $('.speakers-modal__social').html("");
     speakArray[i].socialMedia.forEach(function(social) {
-      $('.speakers-modal__social').append('<a href="' + social.url + '"><img src="../assets/graphics/' + social.type + '_teal.svg" class="speakers-modal__social__img"></a>');
+    	if(social.type)
+      		$('.speakers-modal__social').append('<a href="' + social.url + '"><img src="../assets/graphics/' + social.type + '_teal.svg" class="speakers-modal__social__img"></a>');
+      	else
+      		$('.speakers-modal__social').append('<a href="' + social.url + '"><img src="../assets/graphics/website_teal.svg" class="speakers-modal__social__img"></a>');
     });
 
     $('.modal__accord').html('<h5 class="card__header">Presentations</h5>');
