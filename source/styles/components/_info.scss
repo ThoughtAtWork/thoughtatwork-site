@@ -18,7 +18,7 @@
 
 .info-container{
 	width: 80%;
-	margin: 0 auto !important;
+	margin: 0 auto;
 	position: relative;
 }
 //page chooser styles
@@ -85,9 +85,8 @@
 	margin-left: 64px;
 }
 
-.wheretostay_title{
-	margin-left: 20px;
-	margin-bottom: 30px;
+.wheretostay_header{
+	top: -11vw;
 }
 
 .wheretostay_locations{
@@ -97,6 +96,11 @@
 	margin-right: 20px;
 	margin-left: 20px;
 	margin-bottom: 64px;
+}
+
+.couch_surfing_block{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 // welcome styles
@@ -171,7 +175,7 @@
 }
 
 .gethere_header{
-	top: -6vw;
+	top: -11vw;
 	@include media ('>xl') {
 		top: -76.5px;
 	}
@@ -267,10 +271,14 @@
 		width: 90%;
 	}
 
+	.gethere_container{
+		margin-top: 5vw;
+	}
+
 	.gethere__info-block{
 		width: 100%;
 		margin: 0;
-		margin-bottom: 18vw;
+		margin-bottom: 8vw;
 
 		.gethere_link{
 			margin: 48px 0;
@@ -282,10 +290,9 @@
 	}
 
 	.info_welcome_container{
-		margin-top: 21vw !important;
 
 		.welcome__header{
-			top: -6vw;
+			top: -42px;
 		}
 
 		.welcome__info-block, .info_welcome_image, .catering__img{
@@ -299,13 +306,13 @@
 		}
 
 		.info__catering{
-			margin-top: 18vw;
+			margin-top: 13vw;
 		}
 	}
 
 	.info-container{
 		width: 90%;
-		margin: 0 auto !important;
+		margin: 0 auto;
 	}
 
 	.essentials .info-container{
@@ -350,18 +357,45 @@
 	}
 }
 
+@include media('<md'){
+	.gethere_container{
+		margin-top: 15vw !important;
+	}
+
+	.gethere_header{
+		top: -26vw;
+	}
+}
+
 @include media('<sm') {
+	.gethere_container{
+		margin-top: 20vw;
+	}
+
+	.gethere__info-block{
+		margin-bottom: 21vw;
+	}
+
+	.gethere_header{
+		top: -36vw;
+	}
+
 	.info_welcome_container{
 		.welcome__header{
-			top: -26vw;
+			top: -23vw;
 		}
+	}
+
+	.info__catering{
+		margin-top: 18vw;
 	}
 
 	.wheretostay_locations_container{
 		width: 90%;
 		margin: 0 auto !important;
+	}
 
-		.wheretostay_locations{
-		}
+	.wheretostay_header{
+		top: -19vw;
 	}
 }
