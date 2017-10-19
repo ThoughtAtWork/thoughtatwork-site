@@ -69,7 +69,7 @@
       ]
     },
     {
-      "fields": "Industrial Design | Illustration",
+      "fields": "Industrial Design",
       "headshot": "../assets/graphics/speakers/anita_casale.png",
       "firstName": "Anita",
       "lastName": "Casale",
@@ -281,7 +281,7 @@
     },
 
     {
-      "fields": "Industrial Design | Illustration",
+      "fields": "Industrial Design",
       "headshot": "../assets/graphics/speakers/",
       "firstName": "Anita",
       "lastName": "Casale",
@@ -573,10 +573,7 @@
         "media": "",
         "url": "http://www.idsa.org/members/greg-smiley"
       }],
-      "presentations": [{
-          "title": "Caffeinate Your Creativity: Java’s Logo Design",
-          "desc": "Learn about the ideation behind the logo and branding of the beloved local Rochester coffee shop, Javas’ and put your skills to the test with their logo design challenge. Get creative and get caffeinated with a cup of coffee!"
-        },
+      "presentations": [
         {
           "title": "IDSA Talks: Life in a Consultancy",
           "desc": "The Central New York IDSA chapter will be hosting this Q&A session with two prominent design consultancies, KEK and Chase Design. Learn what it is like to work in multiple disciplines, including industrial, environmental, and branding design through case studies. Come meet some local designers, see how they make their work, and ask the tough questions."
