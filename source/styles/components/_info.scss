@@ -106,11 +106,17 @@
 // welcome styles
 .info__catering{
 	margin-top: 13vw;
+	@include media('>xl') {
+		margin-top: 166.4px;
+	}
 }
 
 .catering__img{
 	float: right;
 	margin-left: 9vw;
+	@include media('>xl') {
+		margin-left: 115px;
+	}
 }
 
 .info_welcome_container{
@@ -122,6 +128,9 @@
 
 .welcome__header{
 	top: -7vw;
+	@include media ('>xl') {
+		top: -89.6px;
+	}
 	right: 0;
 }
 
@@ -153,14 +162,18 @@
 .info_welcome_image, .catering__img{
 	width: 37vw;
 	height: 21vw;
+	max-height: 268.797px;
+	max-width: 473.6px;
 	display: inline-block;
 	background: white;
-
 	@include card--drop-shadow;
 }
 
 .info_welcome_image{
 	margin-right: 9vw;
+	@include media ('>xl') {
+		margin-right: 115.2px;
+	}
 	background-image: url("../assets/graphics/info_here_photo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -193,6 +206,9 @@
 	margin-left: 2%;
 	margin-right: 8%;
 	margin-top: 5vw;
+	@include media ('>xl') {
+		margin-top: 64px;
+	}
 }
 
 .gethere_link{
@@ -223,6 +239,7 @@
 .checklist_container{
 	margin: 0 auto;
 	width: 55vw;
+	max-width: 704px;
 	padding: 76px;
 	padding-left: 100px;
 	padding-right: 100px;
@@ -232,10 +249,16 @@
 
 .checklist_header{
 	top: -7vw;
+	@include media ('>xl') {
+		top: -89.6px;
+	}
 }
 
 .info_essential{
 	margin-bottom: 3vw;
+	@include media ('>xl') {
+		margin-bottom: 38.4px;
+	}
 
 	.checkbox{
 		display: inline-block;
@@ -279,7 +302,6 @@
 		width: 100%;
 		margin: 0;
 		margin-bottom: 8vw;
-
 		.gethere_link{
 			margin: 48px 0;
 		}
