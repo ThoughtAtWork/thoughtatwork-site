@@ -49,11 +49,11 @@ $(document).ready(function(){
 		$('.modal__x').click(function(){
 			closeModal();
 		});
-    
+
 	    $('.speakers-card--grid').click(function(){
 	      showModal(speakers, this);
 	    });
-    
+
 	    $('.speakers-card--keynote').click(function(){
 	      showModal(keynotes, this);
 	    });
@@ -104,7 +104,10 @@ $(document).ready(function(){
     fillModal(speakArray, $(speaker).index()-1);
     $('.speakers-modal').toggleClass('modal--hidden');
     $('.modal-closer').toggleClass('modal--hidden');
-		$(document.body).addClass('noScroll');
+
+		if (window.location.href.indexOf("speakers") > -1) {
+				$(document.body).addClass('noScroll');
+		}
 		$('.modal-holder').removeClass('noScroll');
 
     /*if(!mobileQuery.matches)
@@ -116,7 +119,10 @@ $(document).ready(function(){
     modalShown = false;
     $('.speakers-modal').toggleClass('modal--hidden');
     $('.modal-closer').toggleClass('modal--hidden');
-		$(document.body).removeClass('noScroll');
+
+		if (window.location.href.indexOf("speakers") > -1) {
+				$(document.body).removeClass('noScroll');
+		}
 		$('.modal-holder').addClass('noScroll');
 
 	$('.speakers-modal').scrollTop(0);
@@ -132,7 +138,7 @@ $(document).ready(function(){
     $('.speakers-modal__position').html(speakArray[i].position + " at " + speakArray[i].company);
     $('.speakers-modal__desc').html(speakArray[i].bio);
 
- 
+
 	var headshotSrc = "../assets/graphics/speakers/"+speakArray[i].firstName+"_"+speakArray[i].lastName+".png";
     headshotSrc = headshotSrc.toLowerCase();
     headshotSrc = checkMiguel(speakArray[i].firstName, headshotSrc);
