@@ -83,30 +83,29 @@ a.category_item__info{
 
 @include media('<md') {
 	.wheretostay_locations_container{
+		width: 90%;
+		margin: 0 auto !important;
 
 		.wheretostay_title{
-			margin-left: 0;
+			margin-left: 5%;
 		}
 
 		.wheretostay_locations{
 			min-width: 0;
 			max-width: 100%;
-			width: 38%;
-			margin-left: 0;
-			margin-right: 6%;
+			width: 40%;
+			margin-left: 5%;
+			margin-right: 5%;
 		}
 	}
 }
 
 @include media('<sm') {
 	.wheretostay_locations_container{
-		width: 70%;
-		margin:0 auto !important;
+		width: 90%;
+		margin: 0 auto !important;
 
 		.wheretostay_locations{
-			width: 100%;
-			margin-left: 0;
-			margin-right: 0;
 		}
 	}
 }
