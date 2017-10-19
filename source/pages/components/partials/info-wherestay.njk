@@ -3,60 +3,13 @@
 
 	<div class="wheretostay_locations_container">
 		<p class="wheretostay_title"><strong>Hotels</strong></p>
-		<div class="wheretostay_locations">
-			<p><strong>Holiday Inn</strong></p>
-			<p><strong>800 Jefferson Rd</strong></p>
-			<p>10 min drive away from RIT</p>
-			<a href="https://www.ihg.com/holidayinn/hotels/us/en/rochester/rocjr/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-US-_-ROCJR">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>Radisson Hotel</strong></p>
-			<p><strong>175 Jefferson Rd</strong></p>
-			<p>4 min drive away from RIT</p>
-			<a href="https://www.radisson.com/rochester-hotel-ny-14623/nyrochrd">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>Microtel</strong></p>
-			<p><strong>900 Lehigh Station Rd</strong></p>
-			<p>10 min drive away from RIT</p>
-			<a href="https://www.wyndhamhotels.com/microtel/henrietta-new-york/microtel-inn-rochester-henrietta/overview?CID=LC:MT::GGL:RIO:National:27713&iata=00065402">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>Days Inn</strong></p>
-			<p><strong>4853 W. Henrietta Rd</strong></p>
-			<p>11 min drive away from RIT</p>
-			<a href="https://www.wyndhamhotels.com/days-inn/rochester-new-york/days-inn-rochester-thruway-henrietta/overview?CID=LC:DI::GGL:RIO:National:05121&iata=00065402">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>RIT Inn and Conference Center</strong></p>
-			<p><strong>5257 W. Henrietta Rd</strong></p>
-			<p>12 min drive away from RIT</p>
-			<a href="http://www.rit.edu/ritinn/">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>DoubleTree Hilton</strong></p>
-			<p><strong>1111 Jefferson Rd</strong></p>
-			<p>8 min drive away from RIT</p>
-			<a href="http://doubletree3.hilton.com/en/hotels/new-york/doubletree-by-hilton-hotel-rochester-ROCDTDT/index.html">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>Homewood Suites</strong></p>
-			<p><strong>2095 Hylan Drive</strong></p>
-			<p>8 min drive away from RIT</p>
-			<a href="http://homewoodsuites3.hilton.com/en/hotels/new-york/homewood-suites-by-hilton-rochester-henrietta-ROCHWHW/index.html">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>Hampton Inn</strong></p>
-			<p><strong>280 Clay Rd</strong></p>
-			<p>7 min drive away from RIT</p>
-			<a href="http://hamptoninn3.hilton.com/en/hotels/new-york/hampton-inn-and-suites-rochester-henrietta-ROCHEHX/index.html">WEBSITE &rarr;</a>
-		</div>
-		<div class="wheretostay_locations">
-			<p><strong>Best Western</strong></p>
-			<p><strong>940 Jefferson Rd</strong></p>
-			<p>7 min drive away from RIT</p>
-			<a href="https://www.bestwestern.com/en_US/book/hotels-in-rochester/best-western-rochester-marketplace-inn/propertyCode.33132.html">WEBSITE &rarr;</a>
-		</div>
+		{% for location in stayLocations %}<!--
+		--><div class="wheretostay_locations">
+			<p class="location__info">{{location.name}}<br />{{location.address}}</p>
+			<p class="location__travel-time">{{location.travelTime}} min drive away from RIT</p>
+			<a href="{{location.website}}" class="location__website">WEBSITE &rarr;</a>
+		</div><!--
+		-->{% endfor %}
 		<p class="couch_surfing"><strong>Couch Surfing</strong></p>
 		<p><strong>If you’re on a budget, many of our volunteers are happy to offer their places for temporary stay. To apply, message us through the site or email us at <a href"Hello@thoughatwork.com">Hello@thoughatwork.com</a>. Do so soon! Space is limited.
 		</strong></p>
