@@ -264,7 +264,7 @@
 
     {
       "fields": "Graphic Design | UX Design",
-      "headshot": "../assets/graphics/speakers/andrew_herzog.png",
+      "headshot": "../assets/graphics/speakers/andrew_herzogNoBG.png",
       "firstName": "Andrew",
       "lastName": "Herzog",
       "position": "Partner",
@@ -660,7 +660,7 @@
   "keynoteSpeakers": [
     {
       "fields": "Graphic Design | UX Design",
-      "headshot": "../assets/graphics/speakers/andrew_herzog.png",
+      "headshot": "../assets/graphics/speakers/andrew_herzogNoBG.png",
       "firstName": "Andrew",
       "lastName": "Herzog",
       "position": "Partner",
@@ -687,7 +687,7 @@
 
     {
       "fields": "Motion Graphics",
-      "headshot": "../assets/graphics/speakers/gordon_reid.png",
+      "headshot": "../assets/graphics/speakers/gordon_reidNoBG.png",
       "firstName": "Gordon",
       "lastName": "Reid",
       "position": "Founder & Creative Director",
