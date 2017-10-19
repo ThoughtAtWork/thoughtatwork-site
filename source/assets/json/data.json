@@ -189,20 +189,6 @@
       "presentations": []
     },
     {
-      "fields": "Health Care",
-      "headshot": "../assets/graphics/speakers/susanna_rose.png",
-      "firstName": "Susanna",
-      "lastName": "Rose",
-      "position": "Mental Health Counselor",
-      "company": "Non-profit agency",
-      "social": [{
-        "type": "facebook",
-        "url": "http://facebook.com"
-      }],
-      "backingImg": "../assets/graphics/speakers/TAW-Vis-Dev-5-Edit.jpg",
-      "presentations": []
-    },
-    {
       "fields": "Motion Graphics | Graphic Design",
       "headshot": "../assets/graphics/speakers/austin_shaw.png",
       "firstName": "Austin",
@@ -400,25 +386,6 @@
       "presentations": [{
         "title": "Emerging Interface Concepts for Digital and Physical Products",
         "desc": "Tim is here to identify many of the new, critical, and emerging user interface concepts and discuss how the ideas that can be found in these concepts can be best applied to the design of digital and/or physical products in today’s modern world. This workshop has been specifically created and designed to provide you with many brand new ideas that will supercharge your  upcoming projects and jumpstart your creativity as a designer, and all of it just in time for midterms!"
-      }]
-
-    },
-
-    {
-      "fields": "Health Care",
-      "headshot": "../assets/graphics/speakers/",
-      "firstName": "Susanna",
-      "lastName": "Guarino",
-      "position": "Singer-Songwriter & Mental Health Counselor",
-      "company": "",
-      "bio": "Susanna Rose is a singer-songwriter from Rochester who has been called Rochester's \"Siren of Loneliness\" (Jeff Spevak, Democrat and Chronicle). She released her second album, Snowbound, in November of 2015 to great reviews. Snowbound is \"Drenched in an understated beauty\" (Frank Deblase, City Newspaper); \"Dreamy and haunting melodies from a natural storyteller\" (Andrew Higgins, Americana UK). Susanna's album received radio airplay on college stations throughout the US and on BBC stations in the UK. Iain Anderson of BBC Scotland called it \"Excellent.\" Susanna plays guitar, piano and violin. She has toured throughout the northeast. Susanna is also a mental health counselor who offers workshops to the community on mindfulness, self-care, songwriting and other topics.",
-      "socialMedia": [{
-        "media": "",
-        "url": "www.susannarose.com"
-      }],
-      "presentations": [{
-        "title": "Self-Care for Artists",
-        "desc": "This workshop will be an interactive discussion based session in which participants can explore ways to care for themselves as artists and as people. Being a creative comes with unique challenges, making self-care all the more important to people like you. Engaging in some fun creative activity increases your resilience, and having improved self-care can benefit our work as artists."
       }]
 
     },

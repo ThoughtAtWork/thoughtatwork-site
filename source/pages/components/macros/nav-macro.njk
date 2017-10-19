@@ -2,9 +2,6 @@
     <header class="nav--header">
         <nav class="nav--container">
             <ul class="nav--list">
-                {#<li class="nav--list-item">
-                    <a href="info.html" class="{%if activePage == 'info' %} nav--active {% endif %}">info</a>
-                </li> #}
                 <li class="nav--list-item">
                     <a href="index.html" class="{%if activePage == 'home' %} nav--active {% endif %}">Home</a>
                 </li>
@@ -14,9 +11,9 @@
                 <li class="nav--list-item">
                     <a href="schedule.html" class="{%if activePage == 'schedule' %} nav--active {% endif %}">schedule</a>
                 </li>
-                <li class="nav--list-item">
+                {# <li class="nav--list-item">
                     <a href="info-gethere.html" class="{%if activePage == 'info-gethere' %} nav--active {% endif %}">info</a>
-                </li>
+                </li> #}
                 <li class="nav--list-item">
                     <a href="contact.html" class="{%if activePage == 'contact' %} nav--active {% endif %}">Contact</a>
                 </li>
@@ -57,7 +54,7 @@
                 {# Put back in for other pages #}
                 <a href="index.html" class="{%if activePage == 'home' %} nav--active {% endif %} nav--overlay-content-link">HOME</a>
                 <a href="speakers.html" class="{%if activePage == 'speakers' %} nav--active {% endif %} nav--overlay-content-link">SPEAKERS</a>
-                <a href="info-gethere.html" class="{%if activePage == 'info' %} nav--active {% endif %} nav--overlay-content-link">INFO</a>
+                {# <a href="info-gethere.html" class="{%if activePage == 'info' %} nav--active {% endif %} nav--overlay-content-link">INFO</a> #}
                 {# <a href="about.html" class="{%if activePage == 'about' %} nav--active {% endif %} nav--overlay-content-link">ABOUT</a> #}
                 <a href="schedule.html" class="{%if activePage == 'schedule' %} nav--active {% endif %} nav--overlay-content-link">SCHEDULE</a>
                 <a href="contact.html" class="{%if activePage == 'about' %} nav--active {% endif %} nav--overlay-content-link">CONTACT</a>
