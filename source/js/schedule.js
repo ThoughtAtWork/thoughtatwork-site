@@ -166,13 +166,6 @@ var schedule = {
         end: "12:15PM",
         disc: "You’ve seen them; brief snippets of video or animation meant to get a laugh or express how you really feel. They're gifs. Miguel will give a brief history on the art and design of Animated GIFs, how to make them, how to fully optimize them, and when it’s best to use alternatives. Miguel will demonstrate various tools and methods for creating and getting short form motion animations and video onto the web, and how best to use them."
       }, {
-        title: "Self-Care for Artists",
-        person: "Susanna Rose",
-        loc: "Booth 1440",
-        start: "11:15AM",
-        end: "12:15PM",
-        disc: "This workshop will be an interactive discussion based session in which participants can explore ways to care for themselves as artists and as people. Being a creative comes with unique challenges, making self-care all the more important to people like you. Engaging in some fun creative activity increases your resilience, and having improved self-care can benefit our work as artists"
-      }, {
         title: "Portfolio Tips, Tricks and Hacks",
         person: "Bryan Shackelford",
         loc: "Booth 3330",
