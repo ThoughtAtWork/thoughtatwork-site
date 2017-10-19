@@ -13,19 +13,6 @@
     @extend .card;
     width: 27%;
     margin: 0 3% 0 3%;
-
-    &:hover {
-        background-color: $teal;
-        color: white;
-        transition: background-color 0.3s, color 0.3s;
-        cursor: pointer;
-    }
-
-    &:hover p {
-        color: white;
-        transition: background-color 0.3s, color 0.3s;
-        cursor: pointer;
-    }
 }
 
 .schedule-filter-active {
@@ -34,6 +21,7 @@
     opacity: 1.0;
     & p {
       color: $teal;
+      opacity: 1 !important;
     }
 }
 
@@ -47,8 +35,8 @@
     }
 
     .day_option {
-        width: 88%;
-        margin: 4%;
+        width: 88% !important;
+        margin: 4% !important;
     }
 
     .active {
@@ -112,6 +100,7 @@ body {
     }
 
     p {
+        width: 88%;
         text-transform: uppercase;
         opacity: 0.6;
         font-weight: 500;
@@ -126,6 +115,22 @@ body {
     .filter__subhead {
         font-size: 16pt;
         @extend .card__subhead;
+    }
+
+    &:hover {
+        background-color: $teal;
+        color: white;
+        transition: background-color 0.26s, color 0.26s, opacity 0.26s;
+        cursor: pointer;
+        text-decoration: none;
+        opacity: 1;
+    }
+
+    &:hover p {
+        color: white;
+        transition: background-color 0.26s, color 0.26s, opacity 0.26s;
+        cursor: pointer;
+        opacity: 1;
     }
 }
 
