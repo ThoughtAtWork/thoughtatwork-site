@@ -86,17 +86,24 @@ a.category_item__info{
 		width: 90%;
 		margin: 0 auto !important;
 
-		.wheretostay_title{
-			margin-left: 5%;
+		.wheretostay{
+			&_title{
+				margin-left: 5%;
+			}
+
+			&_locations{
+				min-width: 0;
+				max-width: 100%;
+				width: 40%;
+				margin-left: 5%;
+				margin-right: 5%;
+
+				.location__travel-time{
+					font-size: 18px;
+				}
+			}
 		}
 
-		.wheretostay_locations{
-			min-width: 0;
-			max-width: 100%;
-			width: 40%;
-			margin-left: 5%;
-			margin-right: 5%;
-		}
 	}
 }
 
@@ -131,11 +138,21 @@ a.category_item__info{
 // welcome styles
 .info_catering{
 	display: inline-block;
-	margin-top: 34px;
+	margin-top: 21vw;
 	width: 400px;
 }
+
+.catering__img{
+	margin-left: 9vw;
+}
+
 .info_welcome_container{
 	margin:0 auto;
+	width: 80%;
+}
+
+.welcome__header{
+	
 }
 
 @include media('<lg') {
@@ -153,21 +170,23 @@ a.category_item__info{
 .info_checkin_title{
 	margin-bottom: 20px;
 }
+
 .info_catering_meals{
 
 	margin-top: 30px;
 }
 
-.info_welcome_image{
-	vertical-align: middle;
-	width:558px;
-	height: 313px;
+.info_welcome_image, .catering__img{
+	width: 44vw;
+	height: 25vw;
 	display: inline-block;
 	background: white;
 
-	margin-right: 75px;
-	margin-bottom: 75px;
-	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
+	@include card--drop-shadow;
+}
+
+.info_welcome_image{
+	margin-right: 9vw;
 	background-image: url("../assets/graphics/info_here_photo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
