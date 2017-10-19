@@ -15,10 +15,11 @@
 // .essentials {
 // 	display: none !important;
 // }
-.info_header{
-	top: 39px;
+
+.info-container{
+	width: 80%;
+	margin: 0 auto !important;
 	position: relative;
-	z-index: -1;
 }
 //page chooser styles
 .category_bar__info{
@@ -81,69 +82,6 @@ a.category_item__info{
 	}
 }
 
-@include media('<md') {
-
-	.info_welcome_container{
-		margin-top: 21vw !important;
-
-		.welcome__header{
-			top: -18vw;
-		}
-
-		.welcome__info-block, .info_welcome_image, .catering__img{
-			width: 100%;
-		}
-
-		.info_welcome_image, .catering__img{
-			height: 44vw;
-			margin: 0;
-			margin-bottom: 8vw;
-		}
-
-		.info__catering{
-			margin-top: 18vw;
-		}
-	}
-
-	.wheretostay_locations_container{
-		width: 90%;
-		margin: 0 auto !important;
-
-		.wheretostay{
-			&_title{
-				margin-left: 5%;
-			}
-
-			&_locations{
-				min-width: 0;
-				max-width: 100%;
-				width: 40%;
-				margin-left: 5%;
-				margin-right: 5%;
-
-				.location__travel-time{
-					font-size: 18px;
-				}
-			}
-		}
-
-	}
-}
-
-@include media('<sm') {
-	.info_welcome_container{
-		.welcome__header{
-			top: -26vw;
-		}
-	}
-	.wheretostay_locations_container{
-		width: 90%;
-		margin: 0 auto !important;
-
-		.wheretostay_locations{
-		}
-	}
-}
 
 .wheretostay_locations_container{
 	margin-left: 64px;
@@ -229,25 +167,23 @@ a.category_item__info{
 	display: inline-block;
 	margin: 0 auto;
 }
-.gethere{
-	margin-left: 50px;
-	margin-right: 50px;
+
+.gethere_header{
+	top: -6vw;
+	line-height: 90px;
 }
+
 .couch_surfing{
 	margin-bottom: 15px;
 	margin-top: 30px;
 }
-.gethere_text__container{
+.gethere__info-block{
 	display: inline-block;
-	width: 574px;
-	vertical-align: middle;
-	margin-bottom: 38px;
-	margin-top: 30px;
-
-}
-.gethere_text{
-	display: inline-block;
-	width: 370px;
+	width: 34%;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-right: 8%;
+	margin-top: 5vw;
 }
 
 .gethere_link{
@@ -258,10 +194,7 @@ a.category_item__info{
 }
 .gethere_map{
 	display: inline-block;
-	height: 450px;
-	width: 586px;
-	vertical-align: middle;
-	background-color: #ffffff;
+	width: 40%;
 }
 .info_arrow{
 	left: 20px;
@@ -270,7 +203,7 @@ a.category_item__info{
 //the essentials styles
 .checklist_container{
 	margin: 0 auto;
-	max-width: 55vw;
+	width: 55vw;
 	padding: 76px;
 	padding-left: 100px;
 	padding-right: 100px;
@@ -278,27 +211,141 @@ a.category_item__info{
 	box-shadow: 0 0 20px 0 rgba(79, 170, 177, 0.15);
 }
 
-.info_checkbox{
-	position: relative;
-	left: -61px;
-	top: 35px;
-	display:inline-block
+.checklist_header{
+	top: -7vw;
 }
-.checklist_title{
+
+.info_essential{
+	margin-bottom: 3vw;
+
+	.checkbox{
+		display: inline-block;
+	}
+}
+
+.essential__info-block{
+	max-width: 80%;
 	position: relative;
-	left:-30px;
-	font-size: 16px;
+	left: 5%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.checklist_title{
 	margin-bottom: 36px;
-	color: #4D4D4D;
 }
 .checklist_headline{
-	font-size: 16px;
 	margin-bottom: 10px;
-	color: #4D4D4D;
 }
 .checklist_byline{
 	font-style: italic;
-	font-size: 16px;
-	color: #B2B2B2;
-	margin-bottom: 40px;
+	color: $normal-grey;
+}
+
+@include media('<md') {
+	.info-container{
+		width: 90%;
+	}
+
+	.gethere__info-block{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 18vw;
+
+		.gethere_link{
+			margin: 48px 0;
+		}
+	}
+
+	.gethere_header{
+		line-height: 72px;
+	}
+
+	.gethere_map{
+		width: 100%;
+	}
+
+	.info_welcome_container{
+		margin-top: 21vw !important;
+
+		.welcome__header{
+			top: -6vw;
+		}
+
+		.welcome__info-block, .info_welcome_image, .catering__img{
+			width: 100%;
+		}
+
+		.info_welcome_image, .catering__img{
+			height: 44vw;
+			margin: 0;
+			margin-bottom: 8vw;
+		}
+
+		.info__catering{
+			margin-top: 18vw;
+		}
+	}
+
+	.info-container{
+		width: 90%;
+		margin: 0 auto !important;
+	}
+
+	.essentials .info-container{
+		width: 100%;
+		margin: 0;
+	}
+
+	.checklist_container{
+		width: 100%;
+		padding: 7vw 5%;
+		box-sizing: border-box;
+	}
+
+	.checklist_header{
+		top: -62px;
+	}
+
+	.info_essential{
+		margin-bottom: 6vw;
+	}
+
+	.wheretostay_locations_container{
+
+		.wheretostay{
+			&_title{
+				margin-left: 5%;
+			}
+
+			&_locations{
+				min-width: 0;
+				max-width: 100%;
+				width: 40%;
+				margin-left: 5%;
+				margin-right: 5%;
+
+				.location__travel-time{
+					font-size: 18px;
+				}
+			}
+		}
+
+	}
+}
+
+@include media('<sm') {
+	.info_welcome_container{
+		.welcome__header{
+			top: -26vw;
+		}
+	}
+
+	.wheretostay_locations_container{
+		width: 90%;
+		margin: 0 auto !important;
+
+		.wheretostay_locations{
+		}
+	}
 }
