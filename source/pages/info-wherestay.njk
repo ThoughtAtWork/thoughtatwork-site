@@ -9,15 +9,13 @@
     <!-- Creating the navigation with activePage = 'info' -->
     {{nav.active('info')}}
 
-
-	{% import 'macros/header-macro.njk' as header %}
-	{{header.pageNames( 'Info' )}}
-
+    {% import 'macros/header-macro.njk' as header %}
+    {{header.pageNames( 'Info' )}}
 
     <div class="container">
-		{% import 'macros/info_subhead-macro.njk' as div %}
-		{{div.active('wherestay')}}
-		{% include "partials/info-wherestay.njk" %}
+        {% import 'macros/info_subhead-macro.njk' as div %}
+        {{div.active('wherestay')}}
+        {% include "partials/info-wherestay.njk" %}
         {% include "partials/footer.njk" %}
     </div>
 {% endblock %}

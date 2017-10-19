@@ -499,3 +499,8 @@
 .span--space {
 	white-space: pre;
 }
+@include media ('<xs') {
+	.space-1 {
+		display: none;
+	}
+}

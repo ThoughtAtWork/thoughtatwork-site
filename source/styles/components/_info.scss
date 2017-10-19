@@ -61,6 +61,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	vertical-align: middle;
+	width: 90%;
 }
 
 .wheretostay_locations{
@@ -86,7 +87,10 @@
 }
 
 .wheretostay_header{
-	top: -11vw;
+	top: -7vw;
+	@include media('>xl') {
+		top: -86.13px;
+	}
 }
 
 .wheretostay_locations{
@@ -251,6 +255,9 @@
 	top: -7vw;
 	@include media ('>xl') {
 		top: -89.6px;
+	}
+	@include media ('<sm') {
+		display: none;
 	}
 }
 
@@ -418,6 +425,6 @@
 	}
 
 	.wheretostay_header{
-		top: -19vw;
+		top: -11vw;
 	}
 }
