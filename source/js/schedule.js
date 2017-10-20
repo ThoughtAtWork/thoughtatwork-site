@@ -43,7 +43,7 @@ var schedule = {
       }, {
         title: "Lunch",
         person: "",
-        loc: "Booth 3310",
+        loc: "On/Off campus dining",
         start: "1:00PM",
         end: "2:00PM",
         disc: "It's lunch! Check on and off campus dining options!"
@@ -175,10 +175,10 @@ var schedule = {
       }, {
         title: "Lunch",
         person: "",
-        loc: "Booth 3310",
+        loc: "Food Trucks / Off-campus dining",
         start: "12:30PM",
         end: "1:30PM",
-        disc: "Food Trucks and On and off campus dining."
+        disc: "Food Trucks in E lot and On and off campus dining."
       }, {
         title: "Pre-Keynote: Research that Resonates: Laying the Groundwork for Forward-Thinking",
         person: "Mark Capper",
