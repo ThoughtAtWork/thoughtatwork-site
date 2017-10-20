@@ -231,7 +231,7 @@ var schedule = {
       }, {
         title: "IDSA Bowling Night",
         person: "",
-        loc: "Bowl-A-Roll",
+        loc: "Sunset Lanes",
         start: "8:30PM",
         end: "1:00AM",
         disc: "It’s Back! Come hang out, Bowl a few games at Sunset Lanes, and connect with some speakers other designers. A huge thanks to IDSA for supporting us every year. Address: 1317 Chili Ave. Rocherster, NY."
