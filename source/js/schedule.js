@@ -262,6 +262,13 @@ var schedule = {
         start: "11:00AM",
         end: "12:00PM",
         disc: "Learn about new processes and materials for your future design projects. Jeff Smith will touch upon generative, subtractive, additive manufacturing processes and more!"
+      },  {
+        title: "Shoot the Shit w/ Middleboop",
+        person: "Gordon Reid",
+        loc: "Booth 3350",
+        start: "11:00AM",
+        end: "12:00PM",
+        disc: "Tweet at Middleboop @middleboop with the hashtag #middlebooptaw with questions and come to this lecture to hear them answered personally!"
       }, {
         title: "Unforeseen Structures: Chaos, Materials, and Emergent Process",
         person: "Mitch Goldstein",
@@ -296,7 +303,7 @@ var schedule = {
         loc: "Booth 3310",
         start: "2:15PM",
         end: "3:15PM",
-        disc: "Design is meant to be talked about. Our very own Chris Lock will moderate this digestible yet introspective conversation among guests."
+        disc: "Design is meant to be talked about. Our very own Chris Locke will moderate this digestible yet introspective conversation among guests."
       }, {
         title: "Closing Address",
         person: "",
