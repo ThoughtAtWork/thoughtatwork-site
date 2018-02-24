@@ -117,12 +117,6 @@
 	}
 }
 
-
-// EXTRA STUFF
-.action--link--button {
-	padding: 8px 10px;
-	@include card--drop-shadow;
-}
 .submit {
 	&-link {
 		margin-right: 30px;
@@ -199,9 +193,6 @@
 		padding: 0;
 	}
 
-	.action--link--button {
-		text-align: center;
-	}
 	.submit-link {
 		width: 100%;
 	}

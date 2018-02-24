@@ -39,8 +39,14 @@
         &:hover {
             text-decoration-line: none;
         }
+        &--button {
+            text-align: center;
+            padding: 8px 10px;
+            @include card--drop-shadow;
+        }
     }
 }
+
 
 @include media('<xs') {
     .action{
