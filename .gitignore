@@ -10,3 +10,4 @@ build/styles
 build/styles/*
 build/js
 build/assets/graphics/*
+.code-workspace
