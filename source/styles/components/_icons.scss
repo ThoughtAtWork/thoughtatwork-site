@@ -47,14 +47,12 @@
     max-height: 265px;
   }
   &-row {
-  	// margin-top: 164px;
   	@include media ('<md') {
   		margin-top: -50px;
   	}
     &-heading {
     	right: 3%;
     	z-index: -1;
-      // top: .5vw;
     }
   }
 }
