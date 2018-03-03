@@ -1,0 +1,612 @@
+
+<!--source /templates/layout-review.njk -->
+
+<?php
+
+  //print '<pre>';print_r($_POST); print '</pre>';
+
+  // header('Location: register.php');
+  use RIT\Prod\Nelnet as Nelnet;
+
+  require_once('admin/config.php');
+  require_once("nelnet-library/src/autoload.php");
+
+  $proceed = false;
+  $speaker = false;
+
+  //print '<pre>';print_r($_POST); print '</pre>';
+
+  if( isset($_POST['submit']) && !empty($_POST['orderNumber']) ){
+
+    $orderID = $_POST['orderNumber'];
+    $sql = "SELECT email, amount FROM $db_table WHERE trans_num = $orderID";
+
+    $result = $mysqli->query($sql);
+    print $sql;
+    print_r($result);
+    if ($result->num_rows == 1) {
+
+      $row = $result->fetch_assoc();
+      $orderAmount = $row['amount'];
+      $orderEmail = $row['email'];
+      if($orderAmount > 0){$proceed = true;}
+
+    }
+
+
+
+    if($proceed){
+
+      $nelnet = new Nelnet\Nelnet();
+      $nelnet->orderType = $paymentType;
+      $nelnet->sharedSecret = $hashCode;
+      $nelnet->redirectUrl = $redirectURL;
+      $nelnet->setNelnetEnvironment('production');
+
+      $params = array(
+          "id" => $orderID,
+          "amount" => ($orderAmount * 100),
+          "email" => $orderEmail,
+      );
+
+      $request = $nelnet->buildRequest();
+      $request->send($params);
+    }else{
+
+
+
+    }
+
+  }
+
+
+  $insertedID = '';
+
+  function strip_tags_deep($value)
+  {
+    return is_array($value) ?
+      array_map('strip_tags_deep', $value) :
+      strip_tags($value);
+  }
+  $_POST = strip_tags_deep($_POST);
+
+  function xss_clean($data)
+  {
+  	// Fix &entity\n;
+  	$data = str_replace(array('&amp;','&lt;','&gt;'), array('&amp;amp;','&amp;lt;','&amp;gt;'), $data);
+  	$data = preg_replace('/(&#*\w+)[\x00-\x20]+;/u', '$1;', $data);
+  	$data = preg_replace('/(&#x*[0-9A-F]+);*/iu', '$1;', $data);
+  	$data = html_entity_decode($data, ENT_COMPAT, 'UTF-8');
+
+  	// Remove any attribute starting with "on" or xmlns
+  	$data = preg_replace('#(<[^>]+?[\x00-\x20"\'])(?:on|xmlns)[^>]*+>#iu', '$1>', $data);
+
+  	// Remove javascript: and vbscript: protocols
+  	$data = preg_replace('#([a-z]*)[\x00-\x20]*=[\x00-\x20]*([`\'"]*)[\x00-\x20]*j[\x00-\x20]*a[\x00-\x20]*v[\x00-\x20]*a[\x00-\x20]*s[\x00-\x20]*c[\x00-\x20]*r[\x00-\x20]*i[\x00-\x20]*p[\x00-\x20]*t[\x00-\x20]*:#iu', '$1=$2nojavascript...', $data);
+  	$data = preg_replace('#([a-z]*)[\x00-\x20]*=([\'"]*)[\x00-\x20]*v[\x00-\x20]*b[\x00-\x20]*s[\x00-\x20]*c[\x00-\x20]*r[\x00-\x20]*i[\x00-\x20]*p[\x00-\x20]*t[\x00-\x20]*:#iu', '$1=$2novbscript...', $data);
+  	$data = preg_replace('#([a-z]*)[\x00-\x20]*=([\'"]*)[\x00-\x20]*-moz-binding[\x00-\x20]*:#u', '$1=$2nomozbinding...', $data);
+
+  	// Only works in IE: <span style="width: expression(alert('Ping!'));"></span>
+  	$data = preg_replace('#(<[^>]+?)style[\x00-\x20]*=[\x00-\x20]*[`\'"]*.*?expression[\x00-\x20]*\([^>]*+>#i', '$1>', $data);
+  	$data = preg_replace('#(<[^>]+?)style[\x00-\x20]*=[\x00-\x20]*[`\'"]*.*?behaviour[\x00-\x20]*\([^>]*+>#i', '$1>', $data);
+  	$data = preg_replace('#(<[^>]+?)style[\x00-\x20]*=[\x00-\x20]*[`\'"]*.*?s[\x00-\x20]*c[\x00-\x20]*r[\x00-\x20]*i[\x00-\x20]*p[\x00-\x20]*t[\x00-\x20]*:*[^>]*+>#iu', '$1>', $data);
+
+  	// Remove namespaced elements (we do not need them)
+  	$data = preg_replace('#</*\w+:\w[^>]*+>#i', '', $data);
+
+  	do
+  	{
+  			// Remove really unwanted tags
+  			$old_data = $data;
+  			$data = preg_replace('#</*(?:applet|b(?:ase|gsound|link)|embed|frame(?:set)?|i(?:frame|layer)|l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>#i', '', $data);
+  	}
+  	while ($old_data !== $data);
+
+  	// we are done...
+  	return $data;
+  }
+
+  #CHANGE THIS TO MAKE MORE REQUIREMENTS
+  function verifyFormData()
+  {
+    global $amount, $firstname,  $lastname,  $address, $city,  $state, $zip, $email, $phone, $university;
+
+    if( $amount == '' || $firstname == '' ||  $lastname == '' ||  $email == '' || !filter_var($email, FILTER_VALIDATE_EMAIL))
+    {
+      return 0;
+      }
+    else
+    {
+          return 1;
+      }
+  }
+
+  function writeToDB()
+  {
+  	global $mysqli, $db_table, $content;
+
+  	global $adjustedAmount, $referenceId, $firstname, $lastname, $address, $city, $state, $zip, $email, $phone, $university, $title, $dietary, $interpreter, $insertedID;
+
+  	$insertStatement = "INSERT INTO $db_table (first, last, address, city, state, zipcode, email, phone, university, title, dietary, interpreterNeeded, amount) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+
+  	//echo $insertStatement;
+  	$stmt = $mysqli->prepare($insertStatement);
+
+  	if (! $stmt) {
+        echo "Error: ".$mysqli->error;
+        exit;
+    }
+
+  	$stmt->bind_param('sssssssssssss', $firstname, $lastname, $address, $city, $state, $zip, $email, $phone, $university, $title, $dietary, $interpreter, $adjustedAmount);
+  	$stmt->execute();
+
+
+  	$numRows = $stmt->affected_rows;
+  	//echo $stmt->error;
+  	if($numRows < 0){
+      $content .=   "there was an error inserting your data";
+    }else{
+
+      $insertedID = $mysqli->insert_id;
+      //print $insertedID;
+    }
+  	$stmt->close();
+  }
+
+  function sendError($vError)
+  {
+  	global $content;
+  	$content .=  '<br />
+  	<div style=\"text-align:left\">
+  		<div style="padding: 20px;">';
+  	$content .=   $vError;
+  	$content .=   '
+  		</div>
+  	</div>';
+  }
+
+
+
+
+  $adjustedAmount = '40';
+
+
+
+  $amount = number_format($adjustedAmount,2);
+  $firstname = isset($_POST['first-name']) ? $_POST['first-name'] : "";
+  $lastname = isset($_POST['last-name']) ? $_POST['last-name'] : "";
+  $address = isset($_POST['address']) ? $_POST['address'] : "";
+  $city = isset($_POST['city']) ? $_POST['city'] : "";
+  $state = isset($_POST['state']) ? $_POST['state'] : "";
+  $zip = isset($_POST['zip']) ? $_POST['zip'] : "";
+  $email = isset($_POST['email']) ? $_POST['email'] : "";
+  $phone = isset($_POST['phone']) ? $_POST['phone'] : "";
+  $university = isset($_POST['employer']) ? $_POST['employer'] : "";
+  $title = isset($_POST['title']) ? $_POST['title'] : "";
+  $dietary = isset($_POST['dietary']) ? $_POST['dietary'] : "";
+  $interpreter = isset($_POST['interpret']) ? $_POST['interpret'] : "No";
+  $coupon = isset($_POST['coupon']) ? $_POST['coupon'] : "";
+
+  $query = "SELECT `refID` FROM `registrations` WHERE `refID` != ''";
+	$numOrders = mysqli_num_rows($mysqli->query( $query ));
+
+
+
+  if(strtolower($coupon) == strtolower('Free0TAW17') ){
+
+    $adjustedAmount = '0';
+
+  }else if(strtolower($coupon) == strtolower('30ISBETTERTHAN40')){
+
+    $adjustedAmount = '30';
+
+  }else if($numOrders < 100 && strtotime("1 October 2017") > strtotime('now')){
+
+    $adjustedAmount = '35';
+
+  }
+
+
+
+  if(verifyFormData()){
+
+
+  	writeToDB();
+
+
+
+    $transNum = $insertedID;
+
+    if($adjustedAmount === '0'){
+
+      header("Status: 301 Moved Permanently");
+      header("Location:./success.php?freeSuccess=". $transNum);
+
+
+    }
+  	//processMail( "Credit Card");
+
+  	//$redirectURL = "https://".$_SERVER['HTTP_HOST']."/success.php";
+  	$formData = "<form action=\"\" name=\"form\" method=\"POST\" id=\"payment\"  style = \"vertical-align:middle;margin:0;margin-bottom:2em;font-size: 1.2em;
+      line-height: 1.5em;\">";
+
+
+  	$formData .= "<input type=\"hidden\" name=\"orderType\" value=\"ThoughtAtWork\">";
+
+
+  	$formData .= "<input type=\"hidden\" name=\"orderNumber\" value=\"$transNum\">
+  	<input type=\"hidden\" name=\"amount\" value=\"".str_replace(array(".",","),"",$adjustedAmount)."\">
+  	<input type=\"hidden\" name=\"redirectUrl\" value=\"$redirectURL\">
+  	<input type=\"hidden\" name=\"email\" value=\"$email\">
+  	<input type=\"hidden\" name=\"redirectUrlParameters\" value=\"transactionStatus,transactionType,transactionId,originalTransactionId,orderNumber,transactionTotalAmount\">
+
+  	<span class=\"elliot\"><strong></strong>Payment amount: \$$adjustedAmount</strong></span> <br /><br /><input type=\"submit\" name=\"submit\" value=\"Proceed to Payment\" id=\"submit\" class=\"btn contact-btn btn-effect elliot\" \>
+  	</form>
+  	";
+
+
+  	$content .= $formData;
+
+  }else{
+
+    $errorMsg = '<b>The following fields are required and were not filled:</b><br />';
+    $emailInvalid = '';
+    if( $amount == '' ){ $errorMsg.="Amount<br />"; }
+    if( $firstname == '' ){ $errorMsg.="First Name<br />"; }
+    if( $lastname == '' ) { $errorMsg .= "Last Name<br />"; }
+    if( $address == '' ){ $errorMsg.="Address<br />"; }
+    if( $city == '' ){ $errorMsg.="City<br />"; }
+    if( $state == '' ){ $errorMsg.="State<br />"; }
+    if( $zip == '' ){ $errorMsg.="Zipcode<br />"; }
+    if( $email == ''){ $errorMsg.="Email<br />"; }
+    else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){$emailInvalid = '<p>The email you entered is invalid.</p>';}
+    $errorMsg.= $emailInvalid.'<br /><a href="javascript:history.go(-1)">Go Back and Retry</a>';
+
+    sendError($errorMsg);
+
+  }
+
+?>
+
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="x-ua-compatible"
+				content="ie=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="content-type"
+				content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport"
+				content="user-scalable=0, initial-scale=1.0, width=device-width, maximum-scale=1, minimum-scale=1" />
+	<meta name="format-detection"
+				content="telephone=no">
+	<meta name="apple-mobile-web-app-capable"
+				content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style"
+				content="black">
+
+
+	<!-- Open Graph data -->
+	<meta property="og:url"                content="http://thoughtatwork.cias.rit.edu" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="Thought At Work, a student-run design conference" />
+	<meta property="og:description"        content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology." />
+	<meta property="og:image"              content="http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2017.jpg" />
+	<meta property="fb:app_id" 						 content="486507185043060"/>
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="product">
+	<meta name="twitter:site" content="@TAW_RIT">
+	<meta name="twitter:title" content="Thought At Work, a student-run design conference">
+	<meta name="twitter:description" content="Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.">
+	<meta name="twitter:creator" content="@TAW_RIT">
+	<meta name="twitter:image" content="http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2017.jpg">
+	<meta name="description" content="Student-Run Design Conference">
+	<meta name="title" content="Thought at Work">
+	<link rel="icon" type="image/ico" href="assets/graphics/favicon.png">
+	<base href="/">
+	<title>
+    Review
+  </title>
+	<link rel="stylesheet"
+	      type="text/css"
+	      href="styles/main.css">
+	<script type="text/javascript"
+	        src="vendors/jquery.min.js"></script>
+	<script type="text/javascript"
+	        src="js/app.js"></script>
+</head>
+
+<body class="">
+	
+
+    
+    
+    <header class="nav--header">
+        <nav class="nav--container">
+            <ul class="nav--list">
+                <li class="nav--list-item">
+                    <a href="index.html" class="">Home</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="speakers.html" class="">Speakers</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="schedule.html" class="">schedule</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="info-gethere.html" class="">info</a>
+                </li>
+                <li class="nav--list-item">
+                    <a href="contact.html" class="">Contact</a>
+                </li>
+                
+                <li class="nav--list-item">
+                    <a href="register.php" class=" register  nav--active ">Register</a>
+                </li>
+            </ul>
+
+            <div class="nav--mobile-icons">
+
+                <div class="nav--icon">
+                    <span class="nav--toggle">☰</span>
+                </div>
+
+                <div class="nav--logo">
+                    
+                    <a href="index.html">
+                    <img class="nav--brand" src="assets/graphics/brand.svg"/>
+                    </a>
+                </div>
+
+                <div class="nav--register">
+                <a href="register.php">
+                    <img class="nav--ticket" src="assets/graphics/icons/ticket.svg"/></a>
+                </div>
+
+            </div>
+
+            <div id="nav--mobile" class="nav--overlay">
+
+              <a href="javascript:void(0)" class="nav--overlay-closebtn">&times;</a>
+
+              <div class="nav--overlay-content">
+
+                
+                <a href="index.html" class=" nav--overlay-content-link">HOME</a>
+                <a href="speakers.html" class=" nav--overlay-content-link">SPEAKERS</a>
+                <a href="info-gethere.html" class=" nav--overlay-content-link">INFO</a>
+                
+                <a href="schedule.html" class=" nav--overlay-content-link">SCHEDULE</a>
+                <a href="contact.html" class=" nav--overlay-content-link">CONTACT</a>
+                <a href="register.php" class=" nav--active  nav--overlay-content-link">REGISTER</a>
+
+                <div class="nav--social">
+                    <a class="nav--social-link" href="https://facebook.com/ThoughtAtWork">
+                        <img class="nav--social-image" src="assets/graphics/facebook.svg">
+                    </a>
+                    <a class="nav--social-link" href="https://twitter.com/taw_rit">
+                        <img class="nav--social-image" src="assets/graphics/twitter.svg">
+                    </a>
+                    <a class="nav--social-link" href="https://instagram.com/taw_rit">
+                        <img class="nav--social-image" src="assets/graphics/instagram.svg">
+                    </a>
+                </div>
+
+                <p class="nav--overlay-text"><em>Special Thanks</em> to Lorraine Justice,
+                Josh Owen, Bruce Leonard, Adam Smith</p>
+                <br>
+                <p class="nav--overlay-text">&copy;2017 Thought At Work. All rights reserved.</p>
+              </div>
+
+            </div>
+
+        </nav>
+    </header>
+ 
+
+    
+
+    
+	<div class="header__botmargin">
+		<div
+			class="header__img
+
+	
+
+		header__img-background-review
+
+		
+
+
+
+	"
+			alt="header graphic">
+			<h1 class="header__title">
+				
+				
+
+					<span class="up">R</span>
+					<span class="down">e</span>
+					<span class="up">v</span>
+					<span class="down">i</span>
+					<span class="up">e</span>
+					<span class="down">w</span>
+
+				
+			</h1>
+		</div>
+	</div>
+
+
+    <div class="container">
+        <script src="js/register.js"></script>
+
+<a href="register">
+    <div id="flag"></div>
+</a>
+
+<div id="register" class="text-card-default">
+    <h4>Registration</h4>
+    <br><br>
+    <p class="">Thank you for completing the first step in your registration. To make your secure credit card payment, click the button below.</p>
+    <br>
+    <p>Immediately after the payment transaction is processed, you will receive an email verifying the information you provided.</p>
+    <br><br>
+    <?php
+
+
+    //print '<pre>';print_r($_POST);print '</pre>';
+    echo $content;
+
+      ?>
+
+</div>
+
+        
+
+<!-- Sponsors section -->
+<footer>
+    <!--Top section-->
+    <div class="footer-top"></div>
+
+    <div href="javascript:" id="return-to-top" class="toTop">
+    <hr class="toTop-hr" />
+    <a class="toTop-link">
+        <i class="fa fa-long-arrow-up fa-lg toTop-link-icon" aria-hidden="true"></i>
+        <br/>
+        TOP
+    </a>
+    <hr class="toTop-hr" />
+</div>
+
+
+    <div class="footer-sponsors">
+        <div class="logo-card">
+            <a href="https://www.stickermule.com/" target="_blank">
+                <img src="assets/graphics/sponsor_stickermule.svg" alt="Stickermule Logo">
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="https://www.raymondcorp.com/" target="_blank">
+                <img src="assets/graphics/sponsor_raymond.svg" alt="Raymond Logo">
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://www.wacom.com/" target="_blank">
+                <img src="assets/graphics/sponsor_wacom.svg" alt="Wacom Logo">
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="https://www.invisionapp.com/" target="_blank">
+                <img src="assets/graphics/sponsor_invision.svg" alt="Invision Logo">
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/" target="_blank">
+                <img src="assets/graphics/sponsor_idsa.svg" alt="IDSA Logo" style="height: 53%">
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="https://www.keyshot.com/" target="_blank">
+                <img src="assets/graphics/sponsor_keyshot.svg" alt="Keyshot Logo">
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://www.autodesk.com" target="_blank">
+                <img src="assets/graphics/sponsor_autodesk.svg" alt="Autodesk Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="https://sg.rit.edu/" target="_blank">
+                <img src="assets/graphics/sponsor_sg.svg" alt="RIT Student Government Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="https://www.xerox.com" target="_blank">
+                <img src="assets/graphics/sponsor_xerox.svg" alt="Xerox Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://www.eastman.com/Pages/Home.aspx" target="_blank">
+                <img src="assets/graphics/sponsor_eastman.svg" alt="Eastman Chemical Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://rit.bncollege.com" target="_blank">
+                <img src="assets/graphics/sponsor_bn.svg" alt="Barnes and Nobel at RIT Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://www.core77.com/" target="_blank">
+                <img src="assets/graphics/sponsor_core77.svg" alt="Core 77 Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="https://www.rit.edu/fa/hub/" target="_blank">
+                <img src="assets/graphics/sponsor_hub.svg" alt="RIT HUB Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://www.tinyfishprinting.com/" target="_blank">
+                <img src="assets/graphics/sponsor_tinyfish.svg" alt="Tiny Fish Printing Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="https://www.rit.edu/academicaffairs/applied-critical-thinking/overview" target="_blank">
+                <img src="assets/graphics/sponsor_act.svg" alt="RIT Applied Critical Thinking Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://cias.rit.edu/" target="_blank">
+                <img src="assets/graphics/sponsor_cias.svg" alt="RIT CIAS Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <a href="http://www.javascafe.com/" target="_blank">
+                <img src="assets/graphics/sponsor_javas.svg" alt="Javas Cafe Logo"/>
+            </a>
+        </div>
+        <div class="logo-card">
+            <p class="sponsor">
+                <a href="mailto:hello@thoughtatwork.org?subject=Interested%20in%20sponsoring">BE A SPONSOR?</a>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </p>
+        </div>
+
+    </div>
+    <!-- Bottom section-->
+    <div class="footer-bottom">
+        <div class="footer-text">
+            <p class="footer-p">
+                Special thanks to Josh Owen, Bruce Leonard, Adam Smith, and Carol Rouhana
+            </p>
+            <p class="copyright">
+                © 2017 Thought At Work. All rights reserved
+            </p>
+        </div>
+        <div class="social-media">
+            <div class="icon">
+                <a href="https://www.facebook.com/ThoughtAtWork/">
+                    <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.instagram.com/taw_rit/">
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://twitter.com/taw_rit?lang=en">
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+
+	<!-- Load scripts. -->
+</body>
+</html>
