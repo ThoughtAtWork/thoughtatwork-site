@@ -1,0 +1,272 @@
+* {
+    font: menu;
+    margin: 0;
+}
+@font-face {
+  font-family: 'Elliot';
+  src: url("../fonts/Elliot.otf"); }
+@font-face {
+  font-family: 'Elliot-Bold';
+  src: url("../fonts/Elliot-Bold.otf"); }
+@font-face {
+  font-family: 'Bodoni';
+  src: url("../fonts/MBodoni.otf"); }
+body {
+    /* Location of the image */
+    background-image: url(../images/background.jpg);
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: left bottom;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: #464646;
+}
+/*border around page*/
+#top, #bottom, #left, #right {
+   background: white;
+   position: fixed;
+}
+#left, #right {
+    top: 0; 
+    bottom: 0;
+    width: calc(6px + 1.2vw);
+}
+#left { 
+    left: 0; 
+}
+#right { 
+    right: 0; 
+}
+#top, #bottom {
+    left: 0; 
+    right: 0;
+    height: 20px;
+}
+#top {
+    top: 0; 
+}
+#bottom {
+    bottom: 0; 
+}
+/*border around page*/
+
+.checkBack {
+    text-align: center;
+    margin-top: 50px;
+}
+.checkBack p {
+    color: white;
+    font-size: calc(.6vw + 6px);
+    font-family: "Elliot";
+}
+.info {
+    margin-top: 29vh;
+    text-align: center;
+}
+.info p {
+    padding-top: 25px;
+    color: white;
+    font-family: "Elliot";
+    font-size: calc(8px + 1.7vw);
+}
+.container {
+    
+/*    display: flex;*/
+/*    margin-left: calc(6px + 1.2vw);*/
+    margin: auto;
+/*    /width: 50vw;*/
+/*    padding: 0px 40%;*/
+    align-content: center;
+    width: 32%;
+}
+.midIcons {
+    padding-top: 11px;
+    position: absolute;
+/*    margin: 30px;*/
+    z-index: 9;
+}
+.midIcons a {
+    -webkit-transition: ease-out .1s; /* Safari */
+    transition: .1s ease-out;
+}
+.midIcons a:hover {
+    opacity: .7;
+    z-index: 9;
+    -webkit-transition: ease-in .1s; /* Safari */
+    transition: .1s ease-in;
+}
+.social {
+    width: calc(9px + .8vw);
+/*    padding-right: 7.7vw;*/
+     line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 3vw;
+}
+a {
+    text-decoration: none;
+}
+.viewRecap {
+    text-align: center;
+    padding-top: 40vh;
+    position: absolute;
+    margin-top: 0vh; 
+/*    margin-bottom: 50vh;*/
+    bottom: 8%;
+margin-right: auto;
+left: 0;
+right: 0;    
+}
+.viewRecap p a{
+    color: white;
+    font-size: calc(.25vw + 12px);
+    font-family: "Elliot";
+}
+.vrLineL {
+    width: .2vw;
+    min-width: 2px;
+    background-color:#ffffff;
+    position: absolute;
+    top: 42vh;
+    height: 30px;
+    bottom: 10px;
+    left: calc(50% + 12.5px);
+    border-radius: 100px;
+    ms-transform: rotate(240deg); /* IE 9 */
+    -webkit-transform: rotate(240deg); /* Safari */
+    transform: rotate(240deg);
+}
+.vrLineR {
+    width: .2vw;
+    min-width: 2px;
+    background-color:#ffffff;
+    position: absolute;
+    top: 42vh;
+    height: 30px;
+    bottom: 10px;
+    left: calc(50% - 12.5px);
+    border-radius: 100px;
+    ms-transform: rotate(120deg); /* IE 9 */
+    -webkit-transform: rotate(120deg); /* Safari */
+    transform: rotate(120deg);
+}
+.bigDot {
+    color: white;
+    font-family: "Elliot";
+    font-size: calc(24px + .5vh);
+}
+.name {
+    margin-top: 2vh;
+    text-align: center;
+}
+.name p {
+    color: white;
+    font-size: calc(20px + 3vw);
+    font-family: "Elliot-Bold";
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+.video {
+    padding-top: 40vh;
+    padding-left: 25%;
+}
+iframe {
+    padding-top: 28vh;
+    padding-bottom: 32vh;
+/*    padding-left: calc(5vw + 30px);*/
+    min-width: 310px;
+    min-height: 140px;
+    width: 50vw;
+    height: 28vw;
+}
+.header {
+    font-family: "Elliot-Bold";
+    font-size: calc(4px + 1.1vw);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    letter-spacing: .5px;
+    padding-left: 11px;
+}
+.header {
+    background-color: #e6e6e6;
+    color: #333;
+}
+.underline {
+font-family: "Elliot-Bold";
+    font-size: calc(4px + 1.1vw); 
+    border-bottom: solid 4px #333;
+    margin: 2px;
+    display: inline;
+    padding-bottom: 3px;
+}
+.aboutW {
+    font-family: "Elliot";
+    font-size: calc(4px + 1.1vw); 
+    background-color: #e6e6e6;
+    color: #333333;
+    padding-left: 2px;
+    letter-spacing: .5px;
+    max-height: 640px;
+    min-height: 22.2vw;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.part2 {
+    height: 20vw;
+}
+@media only screen and (max-width: 620px){
+	#top, #bottom, #left, #right { 
+        display: none; 
+    }
+    body {
+        /* Location of the image */
+        background-image: url(../images/background_Small.jpg);
+    }
+    .vrLineL, .vrLineR {
+        top: 94vh;
+    }
+    .viewRecap {
+        padding-top: 34vh;
+    }
+    iframe {
+        max-width: 1000px;
+        max-height: 1000px;
+        padding-left: 0;
+        padding-top: 0px;
+        width: 100vw;
+        height: 56vw;
+        padding-bottom: 0vh;
+    }   
+    .video {
+        align-content: center;
+        padding-bottom: 100px;
+        padding-left: 0vw;
+         min-width: 310px;
+    min-height: 140px;
+        padding-top: 10vh;
+    }
+    .viewRecap {
+        position: inherit;
+    }
+    .header, .underline, .aboutW {
+        font-size: calc(8px + 3vw);
+        background-color: #e6e6e6;
+    }
+    .aboutW {
+        padding-right: 50px;
+    }
+    
+}  

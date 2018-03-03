@@ -1,0 +1,17 @@
+<div class="flex essentials">
+	<div class="info-container">
+		<h2 class="checklist_header">the essentials</h2>
+		<div class="checklist_container text-align-left">
+			<p class="checklist_title">We've assembled a checklist for your planning needs&mdash;</p>
+			{% for item in essentials %}
+				<div class="info_essential">
+					<input class="checkbox" type="checkbox">
+					<div class="essential__info-block">
+						<p class="checklist_headline">{{item.name}}</p>
+						<p class="checklist_byline">{{item.desc}}</p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

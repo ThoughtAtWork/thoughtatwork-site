@@ -1,0 +1,59 @@
+.action {
+    text-decoration: none;
+
+    &--link--button, &--button {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fafafa;
+        letter-spacing: 0.8px;
+        background-color: $teal;
+        padding: 16px 20px;
+        transition: 0.2s ease-in;
+        box-shadow: 0 0 0 0 $teal;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            transition: 0.2s ease-out;
+            box-shadow: 0 2px 15px 0 $teal;
+        }
+
+        &:active {
+            -webkit-transition: 0.2s ease-in;
+            transition: 0.2s ease-in;
+            box-shadow: 0 2px 35px 0 $teal;
+        }
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    &--link {
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: -0.1px;
+        color: $teal;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration-line: none;
+        }
+        &--button {
+            text-align: center;
+            padding: 8px 10px;
+            @include card--drop-shadow;
+        }
+    }
+}
+
+
+@include media('<xs') {
+    .action{
+        &--link--button, &--button{
+            padding: vw(44px) 20px;
+        }
+    }
+}
+// A link...
+// <a href="" class="action--link">Link  <i class="fa fa-long-arrow-right"></i> </a>

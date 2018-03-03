@@ -1,0 +1,199 @@
+.form-section {
+	position: relative;
+}
+
+.form-row-heading {
+	left: 3%;
+	right: auto;
+}
+
+.form-row-heading {
+	position: relative;
+	right: 3%;
+	top: -4%;
+	z-index: -1;
+}
+
+.form-row {
+	padding-top: 9%;
+}
+
+/* Form */
+.input-form {
+	background-color: white;
+	width: 67.06vw;
+	max-width: $lg;
+	padding: 5vw 5.5vw;
+	@include media('>xl') {
+		padding: 92px 99px;
+	}
+	margin: 0 auto;
+	@include card--drop-shadow;
+
+	.form-message {
+		margin-bottom: 2vw; // not specified
+	}
+}
+
+/* Input */
+.form__input {
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #F9F9F9;
+	// padding: 0 vw(20px);
+	padding: 0 20%;
+	margin: 2vw auto;
+	@include media('>xl') {
+		margin: 25px auto;
+	}
+	border: none;
+	outline: none;
+	font-family: 'Elliot', sans-serif;
+}
+.input-text {
+	font-style: italic; // good (based on comp)
+	min-height: 55px;
+	height: 4.6vw;
+	max-height: 65px;
+}
+
+.first-half {
+	margin-right: .99vw;
+}
+
+.second-half {
+	margin-left: .99vw;
+}
+
+.form-full-size {
+	width: calc(100% + 16px);
+	/*margin: 1.5vw auto;*/
+}
+
+.input-field {
+	position: relative;
+	display: inline-block;
+	min-height: 100px;
+	max-height: 200px;
+	padding-right: 30px;
+}
+
+/* Checkbox */
+.checkbox {
+	content:' ';
+	display: inline;
+	margin-right: 15px;
+	width: 32px;
+	height: 32px;
+	-webkit-appearance: none;
+	background-color: #F9F9F9;
+	border: none;
+	outline: none;
+	padding: 2px;
+	position: relative;
+	&:checked:after {
+		content: ' ';
+		position: absolute;
+		top: 8px;
+		left: 8px;
+		width: 16px;
+		height: 16px;
+		background-color: $dark-grey;
+	}
+	&-group {
+		height: 15vw;
+		max-height: 150px;
+		min-height: 80px;
+	}
+	&-container {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+
+		&-label {
+			display: inline-block;
+			transform: translateY(-30%);
+		}
+	}
+}
+
+.submit {
+	&-link {
+		margin-right: 30px;
+		font-family: 'Elliot', sans-serif;
+		// font-weight: 800;
+		padding: 8px 10px;
+	}
+	&-icon {
+		padding-top: 9px;
+	}
+}
+
+@include media('<sm') {
+	.form-row {
+		padding-top: 2.5vw;
+	}
+
+	.icon {
+		margin: 0;
+		padding: 0;
+
+		&-row {
+			padding: 42px 0;
+			width: 100%;
+		}
+	}
+
+	/* Form */
+	.input-form {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 5.58vw 6.02vw;
+		margin: 3vw 0;
+		margin-top: 4vw;
+		@include card--drop-shadow;
+
+		.form-message {
+			margin: vw(68px) vw(32px);
+		}
+	}
+	/* Input */
+
+	.form__input {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0 vw(32px);
+		margin: vw(32px) auto;
+	}
+
+	.first-half {
+		margin-right: 0;
+	}
+
+	.second-half {
+		margin-left: 0;
+	}
+
+	.form-full-size {
+		width: 100%;
+		margin: 1.5vw auto;
+	}
+
+	.input-text {
+		height: 14.2vw;
+	}
+
+	/* Checkbox */
+	.checkbox {
+		margin-right: 15px;
+	}
+	// EXTRA STUFF
+	.input-field {
+		display: block;
+		padding: 0;
+	}
+
+	.submit-link {
+		width: 100%;
+	}
+}

@@ -1,0 +1,6 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /home/thoughtatwork/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user
+Options +Indexes

@@ -1,0 +1,164 @@
+// About Page: Desktop Styling
+.about-for {
+
+	&--content {
+		
+		margin-left: 40px;
+		margin-right: 40px;
+		padding-top: 78px;
+
+		display: flex;
+	}
+
+	// image inside of image div
+	&--desktopgraphic {
+		width: 42.5vw;
+		height: 22vw;
+	}
+
+	&--text {
+		margin-left: 76px;
+		
+	}
+
+	&--mobilecontent {
+		display: none;
+	}
+
+}
+
+.about-by {
+
+	margin-top: 100px;
+
+	&--image {
+		text-align: center;
+		margin-top: 88px;	
+	}
+
+	// image inside of image div
+	&--graphic {
+		width: 945px;
+		height: 500px;
+	}
+
+	&--text {
+		margin-left: 148px;
+		margin-top: 86px;
+		width: 35%;
+		
+	}
+
+	&--brand {
+		
+		position: relative;
+		top: -50px;
+		margin-left: 160px;
+	}
+
+	// image inside of brand div
+	&--logo {
+		width: 406px;
+		height: 406px;
+	}
+
+	&--subcontent {
+		display: flex;
+	}
+
+}
+
+// About Page Mobile Styling
+@include media ('<md') {
+	
+	.about-for {
+
+		&--desktopheading {
+			display: none;
+		}
+
+		&--desktopimage {
+			display: none;
+		}
+
+		&--content {
+			margin-left: 40px;
+			margin-right: 40px;
+			padding-top: 0;
+		}
+
+		&--text {
+			margin-left: 0;
+		}
+
+		&--mobileheading {
+			margin-top: 100px;
+			margin-left: 20px;
+		}
+
+		&--mobilecontent {
+			display: initial;
+		}
+
+		&--mobileimage {
+			padding-top: 60px;
+			margin-left: 40px;
+			margin-right: 40px;
+			text-align: center;
+		}
+
+		&--mobilegraphic {
+			width: 100%;
+		}
+
+	}
+
+	.about-by {
+	
+		&--heading {
+			margin-right: 20px;
+		}
+
+		&--image {
+			text-align: center;
+			margin-top: 68px;
+		}
+
+		&--graphic {
+			width: 100%;
+			height: 400px;
+		}
+
+		&--brand {
+			position: absolute;
+			top: -50vw;
+			left: 15vw;
+		}		
+
+		&--logo {
+			width: 45vw;
+			height: 45vw;
+		}
+
+		&--content {
+			margin-left: 40px;
+			margin-right: 40px;
+			padding-top: 0;
+		}
+
+		&--text {
+			margin-left: 45px;
+			margin-top: 130px;
+			width: 80%;
+		}
+
+		&--subcontent {
+			display: block;
+			position: relative;
+		}
+
+	}
+
+
+}
+

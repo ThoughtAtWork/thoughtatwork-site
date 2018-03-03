@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*---------------------
+TITLE SECTIONS
+-----------------------*/
+
+#work h2{
+	font-size:3.2em;
+	}
+	
+#work h3{
+	font-size:1em;
+	}
+	
+/*---------------------
+ABOUT
+-----------------------*/
+
+#caption h3{
+	font-size:1.2em;
+	}
+	
+#caption h3{
+	font-size:.9em;
+	}
+
+/*---------------------
+SPONSORS
+-----------------------*/
+	
+.sponsors{
+	width:50%;
+	}

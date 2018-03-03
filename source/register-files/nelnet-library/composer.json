@@ -1,0 +1,17 @@
+{
+    "name": "ritproduction/nelnet",
+    "description": "A user-friendly interface for the Nelnet System.",
+    "authors": [
+        {
+            "name": "Kirk Bater",
+            "email": "kxbtwc@rit.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "RIT\\Prod\\Nelnet": "src/"
+        }
+    }
+}
