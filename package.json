@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "thought-at-work-2018",
+  "description": "Thought At Work 2018",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Thought At Work, Jacob Frank",
   "dependencies": {
     "gatsby": "^1.9.218",
     "gatsby-link": "^1.6.37",
