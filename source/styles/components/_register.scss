@@ -13,19 +13,21 @@
 	left: 0;
 	position: absolute;
 }
-.coupon-container {
-	height: 34px;
-}
-.coupon-status {
-	display: none;
-	width: 49%;
-	margin-left: 49%;
-	line-height: 34px;
-	text-transform: uppercase;
-	-webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	transition: all 200ms ease-in-out;
+.coupon {
+	&-container {
+		height: 34px;
+	}
+	&-status {
+		display: none;
+		width: 49%;
+		margin-left: 49%;
+		line-height: 34px;
+		text-transform: uppercase;
+		-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+		-o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;
+	}
 }
 
 @media screen and (max-width:850px) {
