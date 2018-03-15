@@ -1,0 +1,29 @@
+<!-- app/pages/contact.njk -->
+{% extends "layout.njk" %}
+
+{% block title %}
+    Speakers
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+
+    {{nav.active('speakers')}}
+
+
+
+	{% import 'macros/header-macro.njk' as header %}
+
+	{{header.pageNames( 'Speakers' )}}
+
+	<div class="container">
+
+
+        {% include "partials/speakersModal.njk" %}
+        {% include "partials/cardKeynoteSpeaker.njk" %}
+        {# {% include "partials/speakersFilters.njk" %} #}
+        {% include "partials/cardGridSpeaker.njk" %}
+        {# {% include "partials/speakerCards-example.njk" %} #}
+
+        {% include "partials/footer.njk" %}
+    </div>
+{% endblock %}

@@ -1,0 +1,127 @@
+{% macro pageNames(pName) %}
+	<div class="header__botmargin">
+		<div
+			class="header__img
+
+	{%if pName == 'Info' %}
+
+		header__img-background-info
+
+		{%elif pName == 'Speakers' %}
+
+		header__img-background-speakers
+
+		{%elif pName == 'Contact' %}
+
+		header__img-background-contact
+
+		{%elif pName == 'Schedule' %}
+
+		header__img-background-schedule
+
+		{%elif pName == 'About' %}
+
+		header__img-background-about
+
+		{%elif pName == 'Register' %}
+
+		header__img-background-register
+
+		{%elif pName == 'Review' %}
+
+		header__img-background-review
+
+		{%elif pName == 'Success' %}
+
+		header__img-background-success
+
+		{% endif %}
+
+
+
+	"
+			alt="header graphic">
+			<h1 class="header__title">
+				{# {{ pName }} #}
+				{%if pName == 'Info' %}
+
+					<span class="up">I</span>
+					<span class="down">n</span>
+					<span class="up">f</span>
+					<span class="down">o</span>
+
+				{%elif pName == 'Speakers' %}
+
+					<span class="up">S</span>
+					<span class="down">p</span>
+					<span class="up">e</span>
+					<span class="down">a</span>
+					<span class="up">k</span>
+					<span class="down">e</span>
+					<span class="up">r</span>
+					<span class="down">s</span>
+
+				{%elif pName == 'Contact' %}
+
+					<span class="up">C</span>
+					<span class="down">o</span>
+					<span class="up">n</span>
+					<span class="down">t</span>
+					<span class="up">a</span>
+					<span class="down">c</span>
+					<span class="up">t</span>
+
+				{%elif pName == 'Schedule' %}
+
+					<span class="up">S</span>
+					<span class="down">c</span>
+					<span class="up">h</span>
+					<span class="down">e</span>
+					<span class="up">d</span>
+					<span class="down">u</span>
+					<span class="up">l</span>
+					<span class="down">e</span>
+
+				{%elif pName == 'About' %}
+
+					<span class="up">A</span>
+					<span class="down">b</span>
+					<span class="up">o</span>
+					<span class="down">u</span>
+					<span class="up">t</span>
+
+				{%elif pName == 'Register' %}
+
+					<span class="up">R</span>
+					<span class="down">e</span>
+					<span class="up">g</span>
+					<span class="down">i</span>
+					<span class="up">s</span>
+					<span class="down">t</span>
+					<span class="up">e</span>
+					<span class="down">r</span>
+
+				{%elif pName == 'Review' %}
+
+					<span class="up">R</span>
+					<span class="down">e</span>
+					<span class="up">v</span>
+					<span class="down">i</span>
+					<span class="up">e</span>
+					<span class="down">w</span>
+
+				{%elif pName == 'Success' %}
+
+					<span class="up">S</span>
+					<span class="down">u</span>
+					<span class="up">c</span>
+					<span class="down">c</span>
+					<span class="up">e</span>
+					<span class="down">s</span>
+					<span class="up">s</span>
+
+				{% endif %}
+			</h1>
+		</div>
+	</div>
+{% endmacro %}

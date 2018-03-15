@@ -1,0 +1,254 @@
+// @import 'variables';
+// @import 'fonts';
+
+body{
+
+	font-weight: 500;
+}
+
+.card {
+	position: relative;
+	background-color: #FFF;
+	@include card--drop-shadow;
+
+	.card__header{
+		color: $dark-grey;
+	}
+	.card__subhead{
+		color: $teal;
+	}
+	.card__subhead2{
+		color: $normal-grey;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+#schedule {
+	margin: 0;
+
+	.timeLine {
+		clear: both;
+		margin: 1vw 0vw;
+		p {
+			font-size: 16pt;
+			padding-bottom: 10px;
+			@extend .card__header;
+		}
+
+		hr {
+			width: 80.7vw;
+			@extend .card__subhead2;
+		}
+	}
+}
+
+.eventRow {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+
+	.eventWrap {
+
+		display: inline;
+
+		img {
+			height: 12px;
+		}
+
+		.keynoteImg {
+			height: 13vw;
+			position: absolute;
+			bottom: 0vw;
+			left: 35vw;
+		}
+
+	.event {
+		@extend .card;
+
+		min-height:8.5vw;
+		padding: 1vw;
+		margin: 0vw 3.3vw;
+		display: inline-block;
+		text-align: left;
+
+		border-style: solid;
+		border-width: 0px 0px 11px;
+		-moz-border-image: url('/assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+		-webkit-border-image: url('/assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+		-o-border-image: url('/assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+		border-image: url('/assets/graphics/TAW-Vis-Dev-6-Edit.jpg') 0 0 3072 stretch;
+
+		&--4 {
+			width: 10vw;
+		}
+
+		&--3 {
+			width: 15vw;
+		}
+
+		&--2 {
+			width: 25vw;
+		}
+
+		&--1 {
+			width: 60vw;
+		}
+
+		.title {
+			@extend .card__header;
+			font-size: 18pt;
+			margin-bottom: 1vw;
+		}
+
+		.name {
+			@extend .card__subhead2;
+			font-size: 14pt;
+			text-transform: uppercase;
+			margin-bottom: 0.5vw;
+		}
+
+		.location {
+			@extend .card__subhead;
+			font-size: 14pt;
+			text-transform: uppercase;
+			margin-bottom: 3vw;
+		}
+	}
+}
+}
+
+.event::after {
+	content: '';
+	height:20px;
+	width:100%;   background:url('/assets/graphics/TAW-Vis-Dev-6-Edit.jpg');
+}
+
+/******************************* Schedule *************************************/
+
+.time_cont {
+  border-bottom: 1px solid #E6E6E6;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.time_cont_no_border {
+  margin-top: 40px;
+  padding-bottom: -40px;
+}
+
+
+.time_text {
+  height: 100%;
+  width: 20%;
+  min-width: 70px;
+  margin-right: 10% !important;
+}
+
+.events_cont {
+  width: 70%;
+}
+
+.event_cont_no_disc {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.event_cont {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.event_cont:hover {
+  cursor: pointer;
+}
+
+.event_cont:hover  .title_text {
+  color: $teal;
+  transition: color 0.3s;
+}
+
+.title_text_no_disc {
+  width: 100%;
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  color: $dark-grey;
+  transition: color 0.3s;
+}
+
+.title_text {
+  width: 100%;
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  color: $dark-grey;
+  transition: color 0.3s;
+}
+
+.title_text_expanded {
+  width: 100%;
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  color: $teal;
+  transition: color 0.3s;
+}
+
+.person_text {
+  font-size: 22px;
+	letter-spacing: normal;
+  line-height: normal;
+  width: 100%;
+  color: $normal-grey;
+}
+
+.loc_text {
+  width: 100%;
+  color: $normal-grey;
+}
+
+.disc_text {
+  width: 100%;
+  margin-top: 15px !important;
+  max-height: 0;
+	opacity: 0;
+  overflow: hidden;
+  font-size: 16px;
+	transition: max-height 0.4s cubic-bezier(0, 0, 0.2, 1), opacity 0.6s cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+
+.disc_text_expanded {
+  width: 100%;
+  margin-top: 15px !important;
+  max-height: 1000px;
+	opacity: 1.0;
+  overflow: hidden;
+  font-size: 16px;
+	transition: max-height 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53), opacity 0.2s cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+
+.schedule_main {
+	padding-top: 100px;
+  margin: 0 10%;
+	@include media ('<md'){
+  padding-top: 30px;
+  margin: 0 5%;
+	}
+}
+
+.schedule_main * {
+  flex-shrink: 0;
+}
+
+.schedule_main p {
+  margin: 0;
+  padding: 0;
+}
+
+.desc-plus {
+	font-size: 18px !important; //Ovveride font-awesome
+	color: $teal;
+}

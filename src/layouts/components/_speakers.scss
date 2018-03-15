@@ -1,0 +1,107 @@
+.speakers__keynote, .speakers__grid, .filters{
+	position: relative;
+}
+
+.speaker{
+	cursor: pointer;
+}
+
+.speakers__grid{
+	margin-left: -9vw;
+	@include media ('>xl') {
+		 margin-left: -130px;
+	}
+
+	&-wrap{
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+.speakers__keynote{
+	margin-right: auto;
+	margin-bottom: 21vw;
+	@include media ('>xl') {
+		 margin-bottom: 270px;
+	}
+	margin-left: auto;
+	text-align: center;
+}
+
+.speakers-card--keynote:last-child{
+	margin-top: vw(40px);
+	@include media ('>xl') {
+		 margin-top: 51px;
+	}
+}
+
+.speakers__keynote__header{
+	top: vw(-40px);
+	right: vw(48px);
+	@include media ('>xl') {
+		 top: -51px;
+		 right: 61px;
+	}
+}
+
+.speakers__grid__header{
+	top: vw(-112px);
+	left: 9vw;
+	@include media ('>xl') {
+		 top: -143.36px;
+		 left: 115.2px;
+	}
+}
+
+.filters {
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+
+@include media('<md'){
+	.speakers-card--keynote:last-child{
+		margin-top: vw(80px);
+	}
+
+	.speakers__keynote{
+		margin-bottom: 29vw;
+
+		&__header{
+			top: vw(-6px);
+		}
+	}
+
+	.speakers__grid{
+		margin-left: -14vw;
+	}
+}
+
+@include media('<md'){
+	.speakers__grid__header{
+		top: -14vw;
+	}
+}
+
+@include media('<sm'){
+	.speakers__keynote{
+		margin-top: 6vw;
+
+		&__header{
+			top: -70px;
+		}
+	}
+
+	.speakers__grid{
+		margin-top: 27vw;
+
+		&-wrap{
+			width: 56%;
+		}
+
+		&__header{
+			top: -102px;
+			left: 0;
+		}
+	}
+}

@@ -1,0 +1,128 @@
+.register {
+	&-h2 {
+		position: absolute;
+	}
+}
+.form-row-heading {
+	position: absolute;
+	top: -4px;
+	z-index: -1;
+}
+.form-row-title {
+	top: 10px;
+	left: 0;
+	position: absolute;
+}
+.coupon {
+	&-container {
+		height: 34px;
+	}
+	&-status {
+		display: none;
+		width: 49%;
+		margin-left: 49%;
+		line-height: 34px;
+		text-transform: uppercase;
+		-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+		-o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;
+	}
+}
+
+@media screen and (max-width:850px) {
+	.about-mobile-top {
+		margin-top: 25px;
+	}
+
+	#registerForm .form-group label,
+	#registerForm .form-group input[type=text],
+	#registerForm .form-group input[type=email],
+	#registerForm .form-group input[type=tel],
+	#registerForm .form-group .checkbox-group,
+	#registerForm .form-group hr,
+	.coupon-status {
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
+.coupon-success {
+	color: #79E779;
+	position: relative;
+}
+
+.coupon-success::before,
+.yesbox-container input[type=checkbox]:checked + label::after {
+	content: "";
+	height: 21px;
+	width: 21px;
+	position: relative;
+	background-image: url(/assets/icons/reg-success.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.coupon-fail {
+	color: #FF1838;
+	position: relative;
+}
+
+.coupon-fail::before,
+.nobox-container > input[type=checkbox]:checked + label::after {
+	content: "";
+	height: 21px;
+	width: 21px;
+	position: relative;
+	background-image: url(/assets/icons/reg-fail.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.checkmark {
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+.footer-top {
+	height: 0;
+}
+.form-row-heading {
+	@include media ('<md') {
+		display: none;
+	}
+}
+.register {
+	&-h2 {
+		@include media ('<md') {
+			display: none;
+		}
+		@include media ('<md') {
+			top: 3vw;
+		}
+		@include media ('<xl') {
+			top: 1.5vw;
+			right: 11vw;
+		}@include media ('>xl') {
+			top: .5vw;
+		}
+		@media (min-width:1600px) {
+			font-size: 110px;
+		}
+	}
+}
+.form-row {
+	@include media ('<md') {
+		margin-top: 0;
+	}
+}
+.form-row-title {
+	@include media ('>xl') {
+		top: 5px;
+		left: -40px;
+	}
+}

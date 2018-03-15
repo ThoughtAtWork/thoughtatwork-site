@@ -1,0 +1,15 @@
+<!-- index.njk -->
+{% extends "layout.njk" %}
+
+{% block title %}
+    Home
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    {{nav.active('home')}}
+    <div class="container">
+        {% include "partials/home.njk" %}
+        {% include "partials/cardKeynoteSpeaker.njk" %}
+        {% include "partials/footer.njk" %}
+    </div>
+{% endblock %}

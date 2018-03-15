@@ -6,7 +6,13 @@
   "dependencies": {
     "gatsby": "^1.9.218",
     "gatsby-link": "^1.6.37",
+    "gatsby-plugin-catch-links": "^1.0.19",
+    "gatsby-plugin-google-analytics": "^1.0.22",
     "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-sass": "^1.0.21",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.36",
+    "normalize-scss": "^7.0.1",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
