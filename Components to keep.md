@@ -10,7 +10,7 @@
 - nav-macro
 - contact
 - register
-- layout
+- change meta tag information using react helmet
 - footer
 - scrollup
 - different info pages (essentials, gethere, welcome, wherestay)
