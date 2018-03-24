@@ -1,0 +1,19 @@
+<!-- index.njk -->
+{% extends "layout.njk" %}
+
+{% block title %}
+    About
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'index' -->
+    {{nav.active('about')}}
+
+	{% import 'macros/header-macro.njk' as header %}
+	{{header.pageNames( 'About' )}}
+
+    <div class="container">
+		{% include "partials/about.njk" %}
+        {% include "partials/footer.njk" %}
+    </div>
+{% endblock %}

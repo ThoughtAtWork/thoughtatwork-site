@@ -8,13 +8,13 @@
 ## Components to redo in react
 #### They're all in the folder src/components/stuff to redo
 - nav-macro
-- contact
+- [  ] contact
 - register
 - change meta tag information using react helmet
-- footer
+- [ x ] footer
 - scrollup
 - different info pages (essentials, gethere, welcome, wherestay)
-- info_subhead-macro
+- info_subheoad-macro
 - schedule
 - speakersModal
 - cardKeynoteSpeaker

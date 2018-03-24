@@ -1,0 +1,13 @@
+<!-- app/pages/jacob.njk-->
+{% extends "layout.njk" %}
+
+{% block title %}
+    About
+{% endblock %}
+{% block content %}
+    {% import 'macros/nav-macro.njk' as nav %}
+    <!-- Creating the navigation with activePage = 'contact' -->
+    {{nav.active('about')}}
+    <br><br>
+    
+{% endblock %}

@@ -11,8 +11,6 @@ footer {
         padding: 5px;
         text-align: center;
         vertical-align: middle;
-        width: 11vw;
-        height: 1px;
         display: inline;
     }
 }
@@ -34,10 +32,6 @@ footer {
         padding: {
             top: 20px;
             bottom: 20px;
-        }
-
-        img {
-            //box-shadow: 0px 0px 25px rgba(70,204,207,0.25);
         }
     }
 
@@ -61,6 +55,9 @@ footer {
               font-size: 14px;
           }
         }
+        &-image {
+            max-height: 140px;
+        }
     }
 
     .be-sponsor {
@@ -74,6 +71,7 @@ footer {
     font-size: 12px;
     margin: 0 auto;
     max-width: 1024px;
+    margin-bottom: 50px;
 
     .footer-text {
         width: 65%;
@@ -93,9 +91,7 @@ footer {
     }
 
     .social-media {
-        width: 35%;
         display: inline;
-        float: right;
         text-align: right;
 
         .icon {
@@ -119,8 +115,6 @@ footer {
         .sponsor {
           margin-left: 20px;
         }
-
-        .be-sponsor {}
     }
 
     .footer-bottom {
@@ -130,11 +124,6 @@ footer {
             width: 100%;
             margin-bottom: 50px;
         }
-
-        .footer-p {}
-
-        .copyright {}
-
         .social-media {
             width: 100%;
             text-align: center;
@@ -150,6 +139,4 @@ footer {
   .footer-bottom {
     margin: 0px 30px;
   }
-
-
 }
