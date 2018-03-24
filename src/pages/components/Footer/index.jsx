@@ -27,9 +27,9 @@ class Footer extends React.Component {
                     {this.createSponsors(data.sponsor)}
                     <BeSponsor />
                 </div>
-            </div>
+                <FooterBottom />
+            </div>    
         );
-    <FooterBottom />
     }
 }
 
