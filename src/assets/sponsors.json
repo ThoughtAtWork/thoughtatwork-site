@@ -1,0 +1,88 @@
+{
+"sponsor": [{
+      "site": "https://www.stickermule.com/",
+      "name": "Stickermule",
+      "image": "stickermule.svg"
+    },
+    {
+      "site": "https://www.raymondcorp.com/",
+      "name": "Raymond",
+      "image": "raymond.svg"
+    },
+    {
+      "site": "http://www.wacom.com/",
+      "name": "Wacom",
+      "image": "wacom.svg"
+    },
+    {
+      "site": "https://www.invisionapp.com/",
+      "name": "Invision",
+      "image": "invision.svg"
+    },
+    {
+      "site": "http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/",
+      "name": "IDSA",
+      "image": "idsa.svg"
+    },
+    {
+      "site": "https://www.keyshot.com/",
+      "name": "Keyshot",
+      "image": "keyshot.svg"
+    },
+    {
+      "site": "http://www.autodesk.com",
+      "name": "Autodesk",
+      "image": "autodesk.svg"
+    },
+    {
+      "site": "https://sg.rit.edu/",
+      "name": "RIT Student Government",
+      "image": "sg.svg"
+    },
+    {
+      "site": "https://www.xerox.com",
+      "name": "Xerox",
+      "image": "xerox.svg"
+    },
+    {
+      "site": "http://www.eastman.com/Pages/Home.aspx",
+      "name": "Eastman Chemical",
+      "image": "eastman.svg"
+    },
+    {
+      "site": "http://rit.bncollege.com",
+      "name": "Barnes and Nobel at RIT",
+      "image": "bn.svg"
+    },
+    {
+      "site": "http://www.core77.com/",
+      "name": "Core 77",
+      "image": "core77.svg"
+    },
+    {
+      "site": "https://www.rit.edu/fa/hub/",
+      "name": "RIT HUB",
+      "image": "hub.svg"
+    },
+    {
+      "site": "http://www.tinyfishprinting.com/",
+      "name": "Tiny Fish Printing",
+      "image": "tinyfish.svg"
+    },
+    {
+      "site": "https://www.rit.edu/academicaffairs/applied-critical-thinking/overview",
+      "name": "RIT Applied Critical Thinking",
+      "image": "act.svg"
+    },
+    {
+      "site": "http://cias.rit.edu/",
+      "name": "RIT CIAS",
+      "image": "cias.svg"
+    },
+    {
+      "site": "http://www.javascafe.com/",
+      "name": "Javas Cafe",
+      "image": "javas.svg"
+    }
+  ]
+}
