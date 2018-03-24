@@ -2,7 +2,7 @@ import React from "react";
 import Sponsor from "./Sponsor.jsx";
 import FooterBottom from "./FooterBottom.jsx";
 import BeSponsor from "./BeSponsor.jsx";
-import data from "../../../assets/sponsors.json";
+import data from "../../assets/sponsors.json";
 
 class Footer extends React.Component {
     createSponsor = sponsor => {
