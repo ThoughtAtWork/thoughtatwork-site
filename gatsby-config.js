@@ -5,6 +5,15 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    {
+      // initializing a plugin
+      resolve: 'gatsby-source-filesystem',
+      // giving it a path and name as to where the files will be
+      options: {
+        path: `${__dirname}/src/`,
+        name: 'pages',
+      }
+    },
     'gatsby-plugin-catch-links', {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,6 +28,15 @@ module.exports = {
         anonymize: false
       }
     },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`, // you can use multiple source-filesystem instances
+        path: `${__dirname}/data/`,
+      },
+    },
   ]
 }
