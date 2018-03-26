@@ -10,14 +10,14 @@ let Speaker = function statelessFunctionComponentClass(props) {
     let imageURL = "./assets/graphics/speakers/" + firstName.toLowerCase() + "_" + lastName.toLowerCase() + ".png"
 
     return (
-    	<div class="speaker speakers-card--grid grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--centered">    
-          <div class="speakers-card__fields">{fields}</div>
-          <div class="speakers-card__headshot"><img src={imageURL}></img></div>
-          <div class="card">
-            <span class="card__header speakers-card__name">
+    	<div className="speaker speakers-card--grid grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--centered">    
+          <div className="speakers-card__fields">{fields}</div>
+          <div className="speakers-card__headshot"><img src={imageURL}></img></div>
+          <div className="card">
+            <span className="card__header speakers-card__name">
             	{firstName} {lastName}
             </span>
-            <span class="card__subhead speakers-card__position">
+            <span className="card__subhead speakers-card__position">
             	{position} at {company}
             </span>
           </div>
