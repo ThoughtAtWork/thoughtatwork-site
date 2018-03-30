@@ -7,7 +7,7 @@ let Speaker = function statelessFunctionComponentClass(props) {
     let position = props.position
     let company = props.company
 
-    let imageURL = "./assets/graphics/speakers/" + firstName.toLowerCase() + "_" + lastName.toLowerCase() + ".png"
+    let imageURL = "../assets/graphics/speakers/" + firstName.toLowerCase() + "_" + lastName.toLowerCase() + ".png"
 
     return (
     	<div className="speaker speakers-card--grid grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--centered">    

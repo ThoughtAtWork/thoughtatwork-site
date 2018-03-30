@@ -1,7 +1,7 @@
 import React from "react";
 
 let Sponsor = function statelessFunctionComponentClass(props) {
-    let imageURL = "./assets/sponsor-logos/sponsor_" + props.imageURL;
+    let imageURL = "../assets/sponsor-logos/sponsor_" + props.imageURL;
     let imageName = props.imageName + " Logo";
     let imageSite = props.imageSite;
 
