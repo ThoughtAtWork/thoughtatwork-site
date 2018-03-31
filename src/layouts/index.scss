@@ -1,5 +1,6 @@
 // Vendor
 @import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import "../../node_modules/sass-rem/rem";
 
 // Functions, Mixins
 @import "lib/include-media";
