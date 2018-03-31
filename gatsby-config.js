@@ -31,12 +31,5 @@ module.exports = {
     'gatsby-transformer-remark',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`, // you can use multiple source-filesystem instances
-        path: `${__dirname}/data/`,
-      },
-    },
   ]
 }
