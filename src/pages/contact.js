@@ -7,7 +7,6 @@ const ContactPage = () => (
     <h1>Speakers Page</h1>
     <p>Currently under construction</p>
     <Link to="/">Go back to the homepage</Link>
-    <CardGridSpeaker />
   </div>
 )
 
