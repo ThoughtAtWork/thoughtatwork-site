@@ -1,44 +1,40 @@
 // Vendor
-// @import 'node_modules/normalize-scss/sass/normalize/import-now';
-// @import "../../node_modules/sass-rem/rem";
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import "../../node_modules/sass-rem/rem";
 
-// // Functions, Mixins
-// @import "lib/include-media";
-// @import "lib/fluid-type";
-// @import "lib/grid";
+// Functions, Mixins
+@import "lib/include-media";
+@import "lib/fluid-type";
+@import "lib/grid";
 
-// // Globals, Vars
-// @import 'global/variables';
-// @import 'global/fonts';
-// @import 'global/breakpoints';
-// @import 'global/typography';
+// Globals, Vars
+@import 'global/variables';
+@import 'global/fonts';
+@import 'global/breakpoints';
+@import 'global/typography';
 
-// // Components
-// @import 'components/buttons';
-// @import 'components/nav-bar';
-// @import 'components/headers';
-// @import 'components/filters';
-// @import 'components/eventCards';
-// @import 'components/forms';
-// @import 'components/home';
-// @import 'components/about-recap';
-// @import 'components/speakers';
-// @import 'components/keynoteSpeaker';
-// @import 'components/gridSpeaker';
-// @import 'components/cards';
-// @import 'components/modals';
-// @import 'components/footer';
-// @import 'components/contact';
-// @import 'components/scrollUp';
-// @import 'components/register';
-// @import 'components/info';
-// @import 'components/icons';
+// Components
+@import 'components/buttons';
+@import 'components/nav-bar';
+@import 'components/headers';
+@import 'components/filters';
+@import 'components/eventCards';
+@import 'components/forms';
+@import 'components/home';
+@import 'components/about-recap';
+@import 'components/speakers';
+@import 'components/keynoteSpeaker';
+@import 'components/gridSpeaker';
+@import 'components/cards';
+@import 'components/modals';
+@import 'components/footer';
+@import 'components/contact';
+@import 'components/scrollUp';
+@import 'components/register';
+@import 'components/info';
+@import 'components/icons';
 
-// // Utility Classes
-// @import 'utilities/layout';
-// @import 'utilities/typography';
-// @import 'font-awesome/font-awesome';
-
-*  {
-    background-color: blue;
-}
+// Utility Classes
+@import 'utilities/layout';
+@import 'utilities/typography';
+@import 'font-awesome/font-awesome';
