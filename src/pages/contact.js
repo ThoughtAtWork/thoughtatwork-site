@@ -9,11 +9,10 @@ const ContactPage = () => (
 
     <form
       name="contact"
-      netlify-honeypot="bot-field"
       method="POST"
-      netlify
+      data-netlify="true"
     >
-      <p class="hidden">
+      <p className="hidden">
         <label>
           Don’t fill this out if you're human: <input name="bot-field" />{" "}
         </label>
