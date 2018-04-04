@@ -7,30 +7,20 @@ const ContactPage = () => (
     <p>Currently under construction</p>
     <Link to="/">Go back to the homepage</Link>
 
-    <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-    >
-      <p className="hidden">
-        <label>
-          Don’t fill this out if you're human: <input name="bot-field" />{" "}
-        </label>
-      </p>
-      <p>
-        <label>
-          Email: <input type="text" name="name" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Message: <textarea name="message" />
-        </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+   <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name"></input></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email"></input></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
   </div>
 );
 
