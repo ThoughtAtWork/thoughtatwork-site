@@ -1,18 +1,14 @@
 import React from "react";
 import Link from "gatsby-link";
+import Form from "./Form.jsx";
+import Description from "./Description.jsx";
 
 class Contact extends React.Component {
     render() {
         return (
-            <div className="">
-            <form
-              name="contact"
-              method="post"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field">
-                    <input type="text" placeholder="Your Name" name="name" />
-                    <button>Send</button>
-                </form>
+            <div>
+                <Description />
+                <Form />
             </div>
         );
     }
