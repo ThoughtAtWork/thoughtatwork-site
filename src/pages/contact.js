@@ -6,14 +6,32 @@ const ContactPage = () => (
     <h1>Speakers Page</h1>
     <p>Currently under construction</p>
     <Link to="/">Go back to the homepage</Link>
+
     <form
       name="contact"
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
+      netlify-honeypot="bot-field"
+      method="POST"
+      action="thank-you"
+      netlify
     >
-      <input type="text" placeholder="Your Name" name="name" />
-      <button>Send</button>
+      <p class="hidden">
+        <label>
+          Don’t fill this out if you're human: <input name="bot-field" />{" "}
+        </label>
+      </p>
+      <p>
+        <label>
+          Email: <input type="text" name="name" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Message: <textarea name="message" />
+        </label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
     </form>
   </div>
 );
