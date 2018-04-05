@@ -5,7 +5,7 @@
   "author": "Thought At Work, Jacob Frank",
   "dependencies": {
     "gatsby": "^1.9.218",
-    "gatsby-image": "^1.0.42",
+    "gatsby-image": "^1.0.43",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-catch-links": "^1.0.19",
     "gatsby-plugin-google-analytics": "^1.0.22",

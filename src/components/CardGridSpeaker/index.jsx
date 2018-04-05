@@ -22,9 +22,9 @@ class CardGridSpeaker extends React.Component {
 
   render() {
     return(
-      <div class="speakers__grid-wrap">
-        <div class="speakers__grid grid">
-          <h2 class="speakers__grid__header">speakers</h2>
+      <div className="speakers__grid-wrap">
+        <div className="speakers__grid grid">
+          <h2 className="speakers__grid__header">speakers</h2>
           {this.createSpeakers(data.speakers)}
         </div>
       </div>
