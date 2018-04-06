@@ -1,6 +1,5 @@
 // Vendor
 @import 'node_modules/normalize-scss/sass/normalize/import-now';
-@import "../../node_modules/sass-rem/rem";
 
 // Functions, Mixins
 @import "lib/include-media";
@@ -28,11 +27,11 @@
 @import 'components/cards';
 @import 'components/modals';
 @import 'components/footer';
+@import 'components/icons';
 @import 'components/contact';
 @import 'components/scrollUp';
 @import 'components/register';
 @import 'components/info';
-@import 'components/icons';
 
 // Utility Classes
 @import 'utilities/layout';
