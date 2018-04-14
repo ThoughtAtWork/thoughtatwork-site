@@ -9,25 +9,25 @@ class Navigation extends React.Component {
 
 	render() {
 
-		  $('.nav--toggle').click(function() {
+		$('.nav--toggle').click(function() {
 			"use strict";
 			document.getElementById("nav--mobile").style.width = "100%";
 			$('body').addClass('noScroll');
-		  });
-
-		  $('.nav--overlay-content-link').click(function() {
-			  "use strict";
-	 		 document.getElementById("nav--mobile").style.width = "0%";
-	 		 $('body').removeClass('noScroll');
 		});
 
-		  $('.nav--overlay-closebtn').click(function() {
+		$('.nav--overlay-content-link').click(function() {
 			"use strict";
 			document.getElementById("nav--mobile").style.width = "0%";
 			$('body').removeClass('noScroll');
-		  });
+		});
 
+		$('.nav--overlay-closebtn').click(function() {
+			"use strict";
+			document.getElementById("nav--mobile").style.width = "0%";
+			$('body').removeClass('noScroll');
+		});
 
+		// console.log(this.props.location.pathname);
 
 
 		return(
@@ -38,47 +38,62 @@ class Navigation extends React.Component {
 					<nav className="nav--container">
 						<ul className="nav--list">
 							<li className="nav--list-item">
-								<Link to="/index" className="">Home</Link>
-							</li>
-							<li className="nav--list-item">
-								<Link to="/speakers" className="">Speakers</Link>
-							</li>
-							<li className="nav--list-item">
-								<Link to="/schedule" className="">Schedule</Link>
+								<Link to="/index" 	activeStyle={{
+										color: 'black'
+									}} className="">Home</Link>
 
-							</li>
-							<li className="nav--list-item">
-								<Link to="/info" className="">Info</Link>
-							</li>
-							<li className="nav--list-item">
-								<Link to="/contact" className="">Contact</Link>
+								</li>
+								<li className="nav--list-item">
+									<Link to="/speakers" 	activeStyle={{
+											color: 'black'
+										}}className="">Speakers</Link>
+								</li>
+								<li className="nav--list-item">
+									<Link to="/schedule" 	activeStyle={{
+											color: 'black'
+										}} className="">Schedule</Link>
 
-							</li>
-							<li className="nav--list-item">
-								<Link to="/about" className="">About</Link>
+								</li>
+								<li className="nav--list-item">
+									<Link to="/info" 	activeStyle={{
+											color: 'black'
+										}} className="">Info</Link>
+								</li>
+								<li className="nav--list-item">
+									<Link to="/contact" 	activeStyle={{
+											color: 'black'
+										}} className="">Contact</Link>
 
-							</li>
-							<li className="nav--list-item">
-								<Link to="/register" className="">Register</Link>
+								</li>
+								<li className="nav--list-item">
+									<Link to="/about" 	activeStyle={{
+											color: 'black'
+										}} className="">About</Link>
 
-							</li>
-						</ul>
+								</li>
+								<li className="nav--list-item">
+									<Link to="/register" 	activeStyle={{
+											color: 'black'
+										}} className="">Register</Link>
 
-						<div className="nav--mobile-icons">
+								</li>
+							</ul>
 
-							<div className="nav--menu">
-								<span className="nav--toggle">☰</span>
-							</div>
+							<div className="nav--mobile-icons">
 
-							<div className="nav--logo">
+								<div className="nav--menu">
+									<span className="nav--toggle">☰</span>
+								</div>
 
-								<Link to="/index">
-									<img className="nav--brand" src="assets/graphics/brand.svg"/>
-								</Link>
-							</div>
+								<div className="nav--logo">
 
-							<div className="nav--register">
-								<Link to="/register"></Link>
+									<Link to="/index">
+										<img className="nav--brand" src="assets/graphics/brand.svg"/>
+									</Link>
+								</div>
+
+								<div className="nav--register">
+									<Link to="/register"></Link>
 									<img className="nav--ticket" src="assets/graphics/icons/ticket.svg"/>
 								</div>
 
@@ -90,13 +105,27 @@ class Navigation extends React.Component {
 
 								<div className="nav--overlay-content">
 
-									<Link to="/index" className="nav--overlay-content-link">HOME</Link>
-									<Link to="/speakers" className="nav--overlay-content-link">SPEAKERS</Link>
-									<Link to="/info-gethere" className="nav--overlay-content-link">INFO</Link>
-									<Link to="/about" className="nav--overlay-content-link">ABOUT</Link>
-									<Link to="/schedule" className="nav--overlay-content-link">SCHEDULE</Link>
-									<Link to="/contact" className=" nav--overlay-content-link">CONTACT</Link>
-									<Link to="/register" className=" nav--overlay-content-link">REGISTER</Link>
+									<Link to="/index" 	activeStyle={{
+											color: 'black'
+										}} className="nav--overlay-content-link">HOME</Link>
+									<Link to="/speakers" 	activeStyle={{
+											color: 'black'
+										}} className="nav--overlay-content-link">SPEAKERS</Link>
+									<Link to="/info-gethere" 	activeStyle={{
+											color: 'black'
+										}} className="nav--overlay-content-link">INFO</Link>
+									<Link to="/about" 	activeStyle={{
+											color: 'black'
+										}} className="nav--overlay-content-link">ABOUT</Link>
+									<Link to="/schedule" 	activeStyle={{
+											color: 'black'
+										}} className="nav--overlay-content-link">SCHEDULE</Link>
+									<Link to="/contact" 	activeStyle={{
+											color: 'black'
+										}} className=" nav--overlay-content-link">CONTACT</Link>
+									<Link to="/register" 	activeStyle={{
+											color: 'black'
+										}} className=" nav--overlay-content-link">REGISTER</Link>
 
 									<div className="nav--social">
 										<a className="nav--social-link" href="https://facebook.com/ThoughtAtWork">
