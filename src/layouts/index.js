@@ -9,7 +9,7 @@ import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-	  <Navigation></Navigation>
+	  <Navigation />
     <Helmet
       title="Thought At Work 2018"
       meta={[
