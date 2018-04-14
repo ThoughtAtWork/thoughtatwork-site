@@ -15,11 +15,19 @@ class Navigation extends React.Component {
 			$('body').addClass('noScroll');
 		  });
 
+		  $('.nav--overlay-content-link').click(function() {
+			  "use strict";
+	 		 document.getElementById("nav--mobile").style.width = "0%";
+	 		 $('body').removeClass('noScroll');
+		});
+
 		  $('.nav--overlay-closebtn').click(function() {
 			"use strict";
 			document.getElementById("nav--mobile").style.width = "0%";
 			$('body').removeClass('noScroll');
 		  });
+
+
 
 
 		return(
@@ -30,7 +38,7 @@ class Navigation extends React.Component {
 					<nav className="nav--container">
 						<ul className="nav--list">
 							<li className="nav--list-item">
-								<a href="index.html" className="">Home</a>
+								<Link to="/index" className="">Home</Link>
 							</li>
 							<li className="nav--list-item">
 								<Link to="/speakers" className="">Speakers</Link>
@@ -64,9 +72,9 @@ class Navigation extends React.Component {
 
 							<div className="nav--logo">
 
-								<a href="index.html">
+								<Link to="/index">
 									<img className="nav--brand" src="assets/graphics/brand.svg"/>
-								</a>
+								</Link>
 							</div>
 
 							<div className="nav--register">
@@ -78,7 +86,7 @@ class Navigation extends React.Component {
 
 							<div id="nav--mobile" className="nav--overlay">
 
-								<a href="javascript:void(0)" className="nav--overlay-closebtn">&times;</a>
+								<Link to="javascript:void(0)" className="nav--overlay-closebtn">&times;</Link>
 
 								<div className="nav--overlay-content">
 
