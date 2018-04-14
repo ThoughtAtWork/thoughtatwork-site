@@ -101,7 +101,7 @@ class Navigation extends React.Component {
 
 							<div id="nav--mobile" className="nav--overlay">
 
-								<Link to="javascript:void(0)" className="nav--overlay-closebtn">&times;</Link>
+								<Link to="" className="nav--overlay-closebtn">&times;</Link>
 
 								<div className="nav--overlay-content">
 
