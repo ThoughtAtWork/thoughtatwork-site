@@ -2,14 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+
 import Header from '../components/Header'
-import Navigation from '../components/nav-macro.jsx'
+import Navigation from '../components/Navigation.jsx'
 import Footer from '../components/Footer'
 import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-	  <Navigation></Navigation>
+	  <Navigation />
     <Helmet
       title="Thought At Work 2018"
       meta={[
