@@ -1,24 +1,26 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
+import '../../static/build/vendors/jquery.min.js'
+import $ from '../../static/build/vendors/jquery.min.js'
 
 class Navigation extends React.Component {
-	return(){
-		$(document).ready(function() {
-			$('.nav--toggle').click(function() {
-				"use strict";
-				document.getElementById("nav--mobile").style.width = "100%";
-				$('body').addClass('noScroll');
-			});
 
-			$('.nav--overlay-closebtn').click(function() {
-				"use strict";
-				document.getElementById("nav--mobile").style.width = "0%";
-				$('body').removeClass('noScroll');
-			});
-		});
-	}
+
+
 	render() {
+
+		  $('.nav--toggle').click(function() {
+			"use strict";
+			document.getElementById("nav--mobile").style.width = "100%";
+			$('body').addClass('noScroll');
+		  });
+
+		  $('.nav--overlay-closebtn').click(function() {
+			"use strict";
+			document.getElementById("nav--mobile").style.width = "0%";
+			$('body').removeClass('noScroll');
+		  });
+
 
 		return(
 
@@ -68,8 +70,8 @@ class Navigation extends React.Component {
 							</div>
 
 							<div className="nav--register">
-								<a href="register.php">
-									<img className="nav--ticket" src="assets/graphics/icons/ticket.svg"/></a>
+								<Link to="/register"></Link>
+									<img className="nav--ticket" src="assets/graphics/icons/ticket.svg"/>
 								</div>
 
 							</div>
