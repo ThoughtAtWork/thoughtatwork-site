@@ -1,16 +1,22 @@
 import React from 'react';
-
-/*{% for item in essentials %}
-	<div className="info_essential">
-		<input className="checkbox" type="checkbox">
-		<div className="essential__info-block">
-			<p className="checklist_headline">{{item.name}}</p>
-			<p className="checklist_byline">{{item.desc}}</p>
-		</div>
-	</div>
-{% endfor %}*/
+import CheckListItem from "./checklist_item.jsx"
+import data from '../../assets/essentials.json'
 
 class Essentials extends React.Component {
+	createEssential = essential => {
+		return(
+			<CheckListItem
+				name={essential.name}
+				desc={essential.desc}
+				key={essential.desc}
+			/>
+		);
+	}
+
+	createEssentials = essentials => {
+		return essentials.map(this.createEssential)
+	}
+
 	render() {
 		return(
 			<div className="flex essentials">
@@ -19,7 +25,7 @@ class Essentials extends React.Component {
 					<div className="checklist_container text-align-left">
 						<p className="checklist_title">We've assembled a checklist for your planning needs&mdash;</p>
 						
-						/* Checklist goes here */
+						{this.createEssentials(data.essentials)}
 					</div>
 				</div>
 			</div>
