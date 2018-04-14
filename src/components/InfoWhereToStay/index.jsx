@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
+import Link from "gatsby-link";
 import Location from "./location.jsx"
 import data from "../../assets/places_to_stay.json";
 
-class WhereToStay extends React.Component {
-
+class InfoWhereToStay extends React.Component {
     createLocation = location => {
     	return(
     		<Location
@@ -41,4 +41,4 @@ class WhereToStay extends React.Component {
 	}
 }
 
-export default WhereToStay;
+export default InfoWhereToStay;

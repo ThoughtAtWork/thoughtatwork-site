@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Link from "gatsby-link";
 import CheckListItem from "./checklist_item.jsx"
 import data from '../../assets/essentials.json'
 
-class Essentials extends React.Component {
-	createEssential = essential => {
+class InfoEssentials extends React.Component {
+    createEssential = essential => {
 		return(
 			<CheckListItem
 				name={essential.name}
@@ -33,4 +34,4 @@ class Essentials extends React.Component {
 	}
 }
 
-export default Essentials;
+export default InfoEssentials;

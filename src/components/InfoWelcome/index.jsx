@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react";
+import Link from "gatsby-link";
 
-class Welcome extends React.Component {
-	render() {
+class InfoWelcome extends React.Component {
+    render() {
 		return(
 			<div className="flex welcome">
 				<div className="info_welcome_container info-container">
@@ -35,4 +36,4 @@ class Welcome extends React.Component {
 	}
 }
 
-export default Welcome;
+export default InfoWelcome;
