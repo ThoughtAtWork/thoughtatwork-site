@@ -1,17 +1,10 @@
 import React from "react";
 import Link from "gatsby-link";
+import RITMap from "./map.jsx"
 
 class InfoGetHere extends React.Component {
 	render() {
 		return(
-			/*
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.929500808641!2d-77.67488454840615!3d43.08497747904256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d14c603a147e55%3A0xbe7eb31ed5e22c03!2sRochester+Institute+of+Technology!5e0!3m2!1sen!2sus!4v1508013381397"
-				frameborder="0"
-				style="border:0"
-				allowfullscreen
-				className="gethere_map-iframe"></iframe>
-			*/
 			<div className="flex gethere">
 				<div className="gethere_container info-container">
 					<h2 className="gethere_header">send me on my way</h2>
@@ -36,7 +29,13 @@ class InfoGetHere extends React.Component {
 					</div>
 
 					<div className="gethere_map">
-						<p>Map goes here</p>
+						<RITMap 
+							isMarkerShown={false}
+							googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9dNBA2uR5suohNUMmTWz28aYV52lBCPE"
+							loadingElement={<div style={{ height: `100%` }} />}
+							containerElement={<div style={{ height: `100%` }} />}
+							mapElement={<div style={{ height: `42vw`, width: `50vw` }} />}
+						/>
 
 						<div>
 							<br/>

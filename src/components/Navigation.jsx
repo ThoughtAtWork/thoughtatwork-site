@@ -55,7 +55,7 @@ class Navigation extends React.Component {
 
 								</li>
 								<li className="nav--list-item">
-									<Link to="/info" 	activeStyle={{
+									<Link to="/info-gethere" 	activeStyle={{
 											color: 'black'
 										}} className="">Info</Link>
 								</li>
