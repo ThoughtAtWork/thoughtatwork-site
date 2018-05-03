@@ -3,27 +3,15 @@ import Speaker from "./speaker.jsx";
 import data from "../../assets/speakers.json";
 
 class CardGridSpeaker extends React.Component {
-    createSpeaker = speaker => {
-        return (
-            <Speaker
-                fields={speaker.fields}
-                firstName={speaker.firstName}
-                lastName={speaker.lastName}
-                position={speaker.position}
-                company={speaker.company}
-                key={speaker.lastName}
-            />
-        );
-    };
-
   createSpeaker = speaker => {
     return (
       <Speaker
-         fields = {speaker.fields}
+        fields = {speaker.fields}
         firstName = {speaker.firstName}
         lastName = {speaker.lastName}
         position = {speaker.position}
         company = {speaker.company}
+        key = {speaker.lastName}
       />
     );
   }
@@ -42,17 +30,6 @@ class CardGridSpeaker extends React.Component {
       </div>
     );
   }
-
-    render() {
-        return (
-            <div className="speakers__grid-wrap">
-                <div className="speakers__grid grid">
-                    <h2 className="speakers__grid__header">speakers</h2>
-                    {this.createSpeakers(data.speakers)}
-                </div>
-            </div>
-        );
-    }
 }
 
 export default CardGridSpeaker;
