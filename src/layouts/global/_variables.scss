@@ -3,7 +3,10 @@ $teal: #46CCCF;
 $normal-grey: #B0B0B0;
 $light-grey: #E4E4E4;
 $dark-grey: #4D4D4D;
-$color-background: #FAFAFA;
+$color-background: #FFF;
+
+$taw-black: #281E34;
+
 /* Drop Shadows*/
 @mixin text--drop-shadow {
 	text-shadow: 0 0 10px rgba(0, 0, 0, .15);
