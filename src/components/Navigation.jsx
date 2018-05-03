@@ -1,31 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../../static/build/vendors/jquery.min.js'
-import $ from '../../static/build/vendors/jquery.min.js'
 
 class Navigation extends React.Component {
 
-
-
 	render() {
-
-		$('.nav--toggle').click(function() {
-			"use strict";
-			document.getElementById("nav--mobile").style.width = "100%";
-			$('body').addClass('noScroll');
-		});
-
-		$('.nav--overlay-content-link').click(function() {
-			"use strict";
-			document.getElementById("nav--mobile").style.width = "0%";
-			$('body').removeClass('noScroll');
-		});
-
-		$('.nav--overlay-closebtn').click(function() {
-			"use strict";
-			document.getElementById("nav--mobile").style.width = "0%";
-			$('body').removeClass('noScroll');
-		});
 
 		// console.log(this.props.location.pathname);
 
@@ -55,7 +33,7 @@ class Navigation extends React.Component {
 
 								</li>
 								<li className="nav--list-item">
-									<Link to="/info-gethere" 	activeStyle={{
+									<Link to="/info" 	activeStyle={{
 											color: 'black'
 										}} className="">Info</Link>
 								</li>
