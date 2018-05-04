@@ -6,6 +6,7 @@ class InfoWelcome extends React.Component {
 		return(
 			<div className="flex welcome">
 				<div className="info_welcome_container info-container">
+				
 					<h2 className="welcome__header">welcome to TAW</h2>
 
 					<div className="info__check-in">
@@ -30,6 +31,7 @@ class InfoWelcome extends React.Component {
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		);

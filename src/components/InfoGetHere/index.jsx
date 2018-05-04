@@ -34,7 +34,7 @@ class InfoGetHere extends React.Component {
 							googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9dNBA2uR5suohNUMmTWz28aYV52lBCPE"
 							loadingElement={<div style={{ height: `100%` }} />}
 							containerElement={<div style={{ height: `100%` }} />}
-							mapElement={<div style={{ height: `42vw`, width: `50vw` }} />}
+							mapElement={<div className="gethere_map-map_element"/>}
 						/>
 
 						<div>

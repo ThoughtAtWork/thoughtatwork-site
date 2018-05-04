@@ -9,7 +9,7 @@ class InfoWhereToStay extends React.Component {
     		<Location
     			name={location.name}
     			address={location.address}
-    			travelTime={location.address}
+    			travelTime={location.travelTime}
     			website={location.website}
     			key={location.address}
     		/>
