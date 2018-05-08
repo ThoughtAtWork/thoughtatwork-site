@@ -1,0 +1,58 @@
+{
+  "stayLocations": [
+    {
+      "name": "Holiday Inn",
+      "address": "800 Jefferson Rd",
+      "travelTime": "10",
+      "website": "https://www.ihg.com/holidayinn/hotels/us/en/rochester/rocjr/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-US-_-ROCJR"
+    },
+    {
+      "name": "Radisson Hotel",
+      "address": "175 Jefferson Rd",
+      "travelTime": "4",
+      "website": "https://www.radisson.com/rochester-hotel-ny-14623/nyrochrd"
+    },
+    {
+      "name": "Microtel",
+      "address": "900 Lehigh Station Rd",
+      "travelTime": "10",
+      "website": "https://www.wyndhamhotels.com/microtel/henrietta-new-york/microtel-inn-rochester-henrietta/overview?CID=LC:MT::GGL:RIO:National:27713&iata=00065402"
+    },
+    {
+      "name": "Days Inn",
+      "address": "4853 W. Henrietta Rd",
+      "travelTime": "11",
+      "website": "https://www.wyndhamhotels.com/days-inn/rochester-new-york/days-inn-rochester-thruway-henrietta/overview?CID=LC:DI::GGL:RIO:National:05121&iata=00065402"
+    },
+    {
+      "name": "RIT Inn and Conference Center",
+      "address": "5257 W. Henrietta Rd",
+      "travelTime": "12",
+      "website": "http://www.rit.edu/ritinn/"
+    },
+    {
+      "name": "DoubleTree Hilton",
+      "address": "1111 Jefferson Rd",
+      "travelTime": "8",
+      "website": "http://doubletree3.hilton.com/en/hotels/new-york/doubletree-by-hilton-hotel-rochester-ROCDTDT/index.html"
+    },
+    {
+      "name": "Homewood Suites",
+      "address": "2095 Hylan Drive",
+      "travelTime": "8",
+      "website": "http://homewoodsuites3.hilton.com/en/hotels/new-york/homewood-suites-by-hilton-rochester-henrietta-ROCHWHW/index.html"
+    },
+    {
+      "name": "Hampton Inn",
+      "address": "280 Clay Rd",
+      "travelTime": "7",
+      "website": "http://hamptoninn3.hilton.com/en/hotels/new-york/hampton-inn-and-suites-rochester-henrietta-ROCHEHX/index.html"
+    },
+    {
+      "name": "Best Western",
+      "address": "940 Jefferson Rd",
+      "travelTime": "7",
+      "website": "https://www.bestwestern.com/en_US/book/hotels-in-rochester/best-western-rochester-marketplace-inn/propertyCode.33132.html"
+    }
+  ]
+}
