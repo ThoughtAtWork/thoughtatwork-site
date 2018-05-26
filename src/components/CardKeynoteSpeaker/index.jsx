@@ -1,12 +1,12 @@
 import React from "react";
-import Speaker from "./keynote_speaker.jsx";
+import KeynoteSpeaker from "./keynote_speaker.jsx";
 import data from "../../assets/speakers.json";
 
 class CardKeynoteSpeaker extends React.Component {
-  createSpeaker = speaker => {
+  createKeynoteSpeaker = speaker => {
     return (
-      <Speaker
-        fields = {speaker.fields}
+      <KeynoteSpeaker
+        headshot = {speaker.headshot}
         firstName = {speaker.firstName}
         lastName = {speaker.lastName}
         position = {speaker.position}
@@ -16,17 +16,15 @@ class CardKeynoteSpeaker extends React.Component {
     );
   }
 
-  createSpeakers = speakers => {
-    return speakers.map(this.createSpeaker);
+  createKeynoteSpeakers = speakers => {
+    return speakers.map(this.createKeynoteSpeaker);
   }
 
   render() {
     return(
-      <div className="speakers__grid-wrap">
-        <div className="speakers__grid grid">
-          <h2 className="speakers__grid__header">speakers</h2>
-          {this.createSpeakers(data.speakers)}
-        </div>
+      <div className="speakers__keynote">
+        <h2 className="speakers__keynote__header">keynote</h2>
+        /* for each speaker */
       </div>
     );
   }

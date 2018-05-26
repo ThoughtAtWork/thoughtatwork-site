@@ -1,34 +1,21 @@
 import React from "react";
 
 let KeynoteSpeaker = function statelessFunctionComponentClass(props) {
-    let fields = props.fields;
+    let headshot = props.headshot;
     let firstName = props.firstName;
     let lastName = props.lastName;
     let position = props.position;
     let company = props.company;
-    let key = props.lastName;
-
-    let imageURL =
-        "../assets/graphics/speakers/" +
-        firstName.toLowerCase().replace(/[\. ,:-]+/g, "") +
-        "_" +
-        lastName.toLowerCase().replace(/[\. ,:-]+/g, "") +
-        ".png";
+    let key = lastName;
 
     return (
-        <div className="speaker speakers-card--grid grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--centered">
-            <div className="speakers-card__fields">{fields}</div>
-            <div className="speakers-card__headshot">
-                <img src={imageURL} key={key} />
-            </div>
-            <div className="card">
-                <span className="card__header speakers-card__name">
-                    {firstName} {lastName}
-                </span>
-                <span className="card__subhead speakers-card__position">
-                    {position} at {company}
-                </span>
-            </div>
+        <div className="card speaker speakers-card--keynote">
+          <img src={headshot} key={key} className="speakers-card__headshot"></img>
+          <span className="card__header speakers-card__name">{firstName}<br></br>{lastName}</span>
+          <span className="card__subhead speakers-card__position">{position} at {company}</span>
+          <div className="speakers-card__backing-img">
+            <img src="../assets/graphics/TAW-Vis-Dev-6-Edit.jpg"></img>
+          </div>
         </div>
     );
 };
