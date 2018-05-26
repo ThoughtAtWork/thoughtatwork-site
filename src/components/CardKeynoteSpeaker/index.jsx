@@ -1,6 +1,6 @@
 import React from "react";
 import KeynoteSpeaker from "./keynote_speaker.jsx";
-import data from "../../assets/speakers.json";
+import data from "../../assets/keynote_speakers.json";
 
 class CardKeynoteSpeaker extends React.Component {
   createKeynoteSpeaker = speaker => {
@@ -24,7 +24,7 @@ class CardKeynoteSpeaker extends React.Component {
     return(
       <div className="speakers__keynote">
         <h2 className="speakers__keynote__header">keynote</h2>
-        /* for each speaker */
+        {this.createKeynoteSpeakers(data.keynoteSpeakers)}
       </div>
     );
   }
