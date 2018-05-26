@@ -4,7 +4,7 @@ import CardKeynoteSpeaker from '../components/CardKeynoteSpeaker'
 import CardGridSpeaker from '../components/CardGridSpeaker'
 
 const SpeakerPage = () => (
-  <div>
+  <div className="container">
     <CardKeynoteSpeaker />
     <CardGridSpeaker />
   </div>
