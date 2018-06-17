@@ -11,7 +11,9 @@
         height: 85px;
         background-color: $color-background;
         padding: 0 86px;
-        @include media ('<lg') { padding: 0 1vw; }
+        @include media ('<lg') {
+            padding: 0 1vw;
+        };
     }
 
     &--logo {
@@ -23,45 +25,46 @@
     &--list {
         float: right;
         margin: 0;
+    }
 
-        &-item {
-            float: left;
-            padding: 0 24px 0 20px;
-            font-size: 18px;
-            transition: all 0.7s ease-in-out;
-            text-decoration: none;
-            list-style: none;
-            margin-top: 49px;
+    &--list-item {
+        float: left;
+        padding: 0 24px 0 20px;
+        font-size: 18px;
+        transition: all 0.7s ease-in-out;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 49px;
 
-            a {
-                color: $normal-grey;
-                text-transform: uppercase;
-                transition: all 0.4s ease-in-out;
-            }
-
-            a:hover {
-                color: $teal;
-                text-decoration: none;
-                transition-duration: 0.4s;
-            }
-
-            &:last-child a{
-                padding: 49px 15px 10px 19px;
-                z-index: 100;
-                background-color: $teal;
-                margin-top: 0;
-                color: #FFF !important;
-                @include register--drop-shadow;
-            }
+        &:last-child a{
+            padding: 49px 15px 10px 19px;
+            z-index: 100;
+            background-color: $teal;
+            // width: 75px;
+            // height: 36px;
+            margin-top: 0;
+            color: #FFF !important;
+            @include register--drop-shadow;
         }
     }
 
     &--active {
         color: $teal !important;
-        @include media ('<md') { color: black !important; }
     }
 
-    &--menu {
+    &--list-item a {
+        color: $normal-grey;
+        text-transform: uppercase;
+        transition: all 0.4s ease-in-out;
+    }
+
+    &--list-item a:hover {
+        color: $teal;
+        text-decoration: none;
+        transition-duration: 0.4s;
+    }
+
+    &--icon {
         display: none;
     }
 
@@ -88,11 +91,10 @@
         width: 0%;
         display: none;
     }
-}
 
-@include media ('<md') {
+    // Mobile Nav Bar
+    @include media ('<md') {
 
-    .nav {
         &--container {
             padding: 0;
             background-color: white;
@@ -104,6 +106,10 @@
             z-index: 10;
 
             @include card--drop-shadow;
+        }
+
+        &--active {
+            color: black !important;
         }
 
         &--social {
@@ -129,7 +135,8 @@
             max-width: 100%;
         }
 
-        &--menu {
+        // MOBILE NAV TOGGLE
+        &--icon {
             width: auto;
             height: 80px;
             float: left;
@@ -144,6 +151,7 @@
             display: block;
         }
 
+        /// MOBILE NAV LOGO
         &--logo {
             float: none;
             margin-top: 20px;
@@ -153,6 +161,7 @@
             display: inline-block;
         }
 
+        /// MOBILE NAV TICKET ICON
         &--register {
             display: block;
             background-color: $teal;
@@ -164,6 +173,7 @@
             @include register--drop-shadow;
         }
 
+        // Prevents Desktop Nav From Appearing on Mobile
         &--list {
             width: 100%;
             margin: 0;
@@ -172,15 +182,16 @@
             top: -4px;
             background-color: #222;
             display: none;
-
-            &-item {
-                text-align: center;
-                display: block;
-                border-bottom: 1px solid #333;
-                float: none;
-            }
         }
 
+        &--list-item {
+            text-align: center;
+            display: block;
+            border-bottom: 1px solid #333;
+            float: none;
+        }
+
+        // Overlay Effect
         &--overlay {
             display: initial;
             height: 100%;
@@ -201,35 +212,36 @@
                 color: black;
             }
 
-            &-content {
-                position: relative;
-                top: 12%;
-                width: 70%;
-                text-align: left;
-                margin-top: 20px;
-                margin-left: 60px;
-
-                &-link {
-                    padding: 8px;
-                    text-decoration: none;
-                    font-size: 30px;
-                    color: white;
-                    display: block;
-                    transition: 0.3s;
-
-                    &:hover, &:focus {
-                        color: black;
-                        text-decoration: none;
-                    }
-                }
-
-            }
-
             &-text {
                 color: white;
                 font-size: 16px;
             }
         }
+
+        &--overlay-content {
+            position: relative;
+            top: 12%;
+            width: 70%;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 60px;
+
+            &-link {
+                padding: 8px;
+                text-decoration: none;
+                font-size: 30px;
+                color: white;
+                display: block;
+                transition: 0.3s;
+
+                &:hover, &:focus {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+
     }
-    
 }

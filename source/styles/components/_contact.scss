@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Contact Page
 .contact {
 
@@ -42,26 +43,70 @@
 			display: inline-block;
 			margin: 0;
 			margin-right: 10vw;
+=======
+// contacteral Info Section
 
-			.icon-image {
-				height: 18.4vw;
-				width: 18.4vw;
-			}
-		}
+.contact-form-section,
+.contact-info-section {
+	position: relative;
+	@include media('>xl') {
+		margin-top: 18%;
+	}
+}
 
+.contact-info-heading {
+	position: absolute;
+	right: 0%;
+	top: -45%;
+	z-index: -1;
+	width: 100%;
+	@include media('>xl') {
+		right: 5%;
+		top: -35%;
+	}
+	@include media('<md') {
+		display: none;
+	}
+}
+
+.contact-info-row {
+	width: 69vw;
+	margin: 10vw auto 4vw auto;
+	padding: 0 0;
+	@include media('<md') {
+    margin-top: auto;
+	}
+	@include media('>xl') {
+		margin-top: 170px;
+		margin-bottom: 96px;
+	}
+	display: flex;
+	align-items: center;
+>>>>>>> parent of 2e04b24... Merge pull request #97 from ThoughtAtWork/scss-refactoring
+
+	.contact-info-icon {
+		display: inline-block;
+		margin: 0;
+		margin-right: 10vw;
+
+<<<<<<< HEAD
 		.contact-info-message {
 			display: inline-block;
+=======
+		.icon-image {
+			height: 18.4vw;
+			width: 18.4vw;
+>>>>>>> parent of 2e04b24... Merge pull request #97 from ThoughtAtWork/scss-refactoring
 		}
 	}
 
-	&-message {
-		padding: vw(20px) vw(20px);
-		box-sizing: border-box;
-		resize: vertical;
+	.contact-info-message {
+		display: inline-block;
 	}
 
 }
 
+<<<<<<< HEAD
 @include media('<md') {
 
 	.contact {
@@ -88,6 +133,36 @@
 					width: 48vw;
 					height: auto;
 				}
+=======
+.contact-message {
+	padding: vw(20px) vw(20px);
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+@include media('<md') {
+	.contact-info-row .contact-info-icon .icon-image {
+		width: 28vw;
+		height: auto;
+	}
+}
+
+@include media('<md') {
+	.contact-info-row {
+		box-sizing: border-box;
+		width: 100%;
+		display: block;
+		padding: 4vw vw(100px);
+
+		.contact-info-icon,
+		.contact-info-message {
+			display: block;
+			margin: 0;
+
+			.icon-image {
+				width: 48vw;
+				height: auto;
+>>>>>>> parent of 2e04b24... Merge pull request #97 from ThoughtAtWork/scss-refactoring
 			}
 
 			.contact-info-message {
@@ -95,12 +170,15 @@
 			}
 		}
 
-		&-message {
-			width: 100%;
-			min-height: 120px;
-			padding: vw(44px) vw(32px);
+		.contact-info-message {
+			margin-top: 7vw;
 		}
 
 	}
 
+	.contact-message {
+		width: 100%;
+		min-height: 120px;
+		padding: vw(44px) vw(32px);
+	}
 }
