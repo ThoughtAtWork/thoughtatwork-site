@@ -80,13 +80,13 @@ h6 {
   background: hsla(0, 0%, 0%, 0.5);
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s linear 0.3s, opacity 0.3s;
+  //transition: visibility 0s linear 0.3s, opacity 0.3s;
 }
 
 .modal.is-visible .modal-overlay {
   opacity: 1;
   visibility: visible;
-  transition-delay: 0s;
+  //transition-delay: 0s;
 }
 
 .modal-wrapper {
@@ -95,7 +95,7 @@ h6 {
   top: 6em;
   left: 50%;
   min-width: 17em;
-  margin-left: -22em;
+  margin-left: -23em;
   background-color: #fff;
   box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.35);
   background: white;
@@ -118,20 +118,28 @@ h6 {
     margin-left: -17.5em;
   }
 
+  @include media ('<sm') {
+    width: 27em;
+    height: 47em;
+    margin-left: -13.5em;
+    
+  }
+
   @include media ('<xs') {
     width: 19em;
-    height: 34em;
+    height: 33em;
     margin-left: -9.5em;
-    
   }
 
 }
 
+/*
 .modal-transition {
   transition: all 0.3s 0.12s;
   transform: translateY(-10%);
   opacity: 0;
 }
+*/
 
 .modal.is-visible .modal-transition {
   transform: translateY(0);
@@ -175,6 +183,10 @@ h6 {
 
   @include media ('<md') {
     margin-left: 64px;
+  }
+
+  @include media ('<sm') {
+    margin-left: 10px; 
   }
 
   @include media ('<xs') {
