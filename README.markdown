@@ -15,8 +15,7 @@ Thought At Work Conference Website by students and for students
 
 ## <a name="team"></a>Team
 #### Producers & Contributors
-- **Web Team Lead:** Jacob Frank
-- **Graphics Team Lead:** Dasha Buduchina
+- **Lead:** Jacob Frank
 
 #### Design Team
 - Ethelia Lung
@@ -27,6 +26,8 @@ Thought At Work Conference Website by students and for students
 - Jacob Frank
 - Liam Madigan
 - Jialing Chen
+- Ben Mendelsohn
+- Dasha Budachina
 
 #### Development Team
 - Jacob Frank
