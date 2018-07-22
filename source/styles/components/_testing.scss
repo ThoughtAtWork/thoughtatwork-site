@@ -80,13 +80,14 @@ h6 {
   background: hsla(0, 0%, 0%, 0.5);
   visibility: hidden;
   opacity: 0;
-  //transition: visibility 0s linear 0.3s, opacity 0.3s;
+  transition: visibility 0s linear 0.5s, opacity 0.5s;
 }
 
 .modal.is-visible .modal-overlay {
   opacity: 1;
   visibility: visible;
-  //transition-delay: 0s;
+  // transition-delay: 0.01s;
+  // transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .modal-wrapper {
@@ -132,15 +133,6 @@ h6 {
   }
 
 }
-
-/*
-.modal-transition {
-  transition: all 0.3s 0.12s;
-  transform: translateY(-10%);
-  opacity: 0;
-}
-*/
-
 .modal.is-visible .modal-transition {
   //transform: translateY(0);
   opacity: 1;
@@ -299,17 +291,19 @@ h6 {
 .button{
   background-color: #EE3954;
   border: none;
+  transition: ease-in-out 0.1s;
   color: #ffffff;
-  padding: 15px 35px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   line-height: 16px;
-  margin-top: 2.3em;
+  margin-top: 1.4em;
   font-family: Elliot;
   font-weight: bold;
   float: left;
+  height: 40px;
+  width: 150px;
 
   @include media ('>xl') {
     font-size: 28px;
@@ -321,17 +315,37 @@ h6 {
   @include media ('<md') {
     font-size: 16px;
     line-height: 19px;
-    padding: 20px 35px;
-    margin-top: 2em;
   }
 
     
   @include media ('<xs') {
     font-size: 13px;
-    line-height: 15px;
-    padding: 15px 26px;
     margin-top: 2em;
+    height: 36px;
+    width: 134px;
+
   }
+  &:hover {
+    cursor: pointer;
+    background-color: #F59698;
+    color: #281E34;
+    transition: ease-in-out 0.1s;
+    // animation: colorchange2 2s infinite;
+  }
+      @keyframes colorchange2 {
+          0% {
+              background: #EE3954;
+          }
+          33% {
+              background: #F2C227;
+          }
+          66% {
+              background: #2071FF;
+          }
+          100% {
+              background: #EE3954;
+          }
+      }
 }
 
 /***********************************************/
