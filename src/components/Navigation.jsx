@@ -1,137 +1,133 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import styles from '../styles/nav.module.scss';
+import classnames from 'classnames';
 
 class Navigation extends React.Component {
 
-	render() {
+  render() {
+    return (
+      <div>
+        <header className={styles.header}>
+          <nav className={styles.container}>
+            <ul className={styles.list}>
+              <li className={classnames(styles.list, styles.item)}>
+                <Link to="/index" activeStyle={{
+                  color: 'black'
+                }}>Home</Link>
 
-		// console.log(this.props.location.pathname);
+              </li>
+              <li className={classnames(styles.list, styles.item)}>
+                <Link to="/speakers" activeStyle={{
+                  color: 'black'
+                }}>Speakers</Link>
+              </li>
+              <li className={classnames(styles.list, styles.item)}>
+                <Link to="/schedule" activeStyle={{
+                  color: 'black'
+                }}>Schedule</Link>
 
+              </li>
+              <li className={classnames(styles.list, styles.item)}>
+                <Link to="/info-gethere" activeStyle={{
+                  color: 'black'
+                }}>Info</Link>
+              </li>
+              <li className={classnames(styles.list, styles.item)}>
+                <Link to="/contact" activeStyle={{
+                  color: 'black'
+                }}>Contact</Link>
 
-		return(
+              </li>
+              <li className={classnames(styles.list, styles.item)}>
+                <Link to="/about" activeStyle={{
+                  color: 'black'
+                }}>About</Link>
 
-			<div>
+              </li>
+              <li className={classnames(styles.list, styles.item)}>
+                <Link to="/register" activeStyle={{
+                  color: 'black'
+                }}>Register</Link>
 
-				<header className="nav--header">
-					<nav className="nav--container">
-						<ul className="nav--list">
-							<li className="nav--list-item">
-								<Link to="/index" 	activeStyle={{
-										color: 'black'
-									}} className="">Home</Link>
+              </li>
+            </ul>
 
-								</li>
-								<li className="nav--list-item">
-									<Link to="/speakers" 	activeStyle={{
-											color: 'black'
-										}}className="">Speakers</Link>
-								</li>
-								<li className="nav--list-item">
-									<Link to="/schedule" 	activeStyle={{
-											color: 'black'
-										}} className="">Schedule</Link>
+            <div className={styles.mobile_icons}>
 
-								</li>
-								<li className="nav--list-item">
-									<Link to="/info-gethere" 	activeStyle={{
-											color: 'black'
-										}} className="">Info</Link>
-								</li>
-								<li className="nav--list-item">
-									<Link to="/contact" 	activeStyle={{
-											color: 'black'
-										}} className="">Contact</Link>
+              <div className={styles.menu}>
+                <span className={styles.toggle}>☰</span>
+              </div>
 
-								</li>
-								<li className="nav--list-item">
-									<Link to="/about" 	activeStyle={{
-											color: 'black'
-										}} className="">About</Link>
+              <div className={styles.logo}>
 
-								</li>
-								<li className="nav--list-item">
-									<Link to="/register" 	activeStyle={{
-											color: 'black'
-										}} className="">Register</Link>
+                <Link to="/index">
+                  <img className={styles.brand} src="assets/graphics/brand.svg" />
+                </Link>
+              </div>
 
-								</li>
-							</ul>
+              <div className={styles.register}>
+                <Link to="/register"></Link>
+                <img className={styles.ticket} src="assets/graphics/icons/ticket.svg" />
+              </div>
 
-							<div className="nav--mobile-icons">
+            </div>
 
-								<div className="nav--menu">
-									<span className="nav--toggle">☰</span>
-								</div>
+            <div id="styles.mobile" className={styles.overlay}>
 
-								<div className="nav--logo">
+              <Link to="javascript:void(0)" className={styles.overlay_closebtn}>&times;</Link>
 
-									<Link to="/index">
-										<img className="nav--brand" src="assets/graphics/brand.svg"/>
-									</Link>
-								</div>
+              <div className={styles.overlay_content}>
 
-								<div className="nav--register">
-									<Link to="/register"></Link>
-									<img className="nav--ticket" src="assets/graphics/icons/ticket.svg"/>
-								</div>
+                <Link to="/index" activeStyle={{
+                  color: 'black'
+                }} className={styles.overlay_content_link}>HOME</Link>
+                <Link to="/speakers" activeStyle={{
+                  color: 'black'
+                }} className={styles.overlay_content_link}>SPEAKERS</Link>
+                <Link to="/info-gethere" activeStyle={{
+                  color: 'black'
+                }} className={styles.overlay_content_link}>INFO</Link>
+                <Link to="/about" activeStyle={{
+                  color: 'black'
+                }} className={styles.overlay_content_link}>ABOUT</Link>
+                <Link to="/schedule" activeStyle={{
+                  color: 'black'
+                }} className={styles.overlay_content_link}>SCHEDULE</Link>
+                <Link to="/contact" activeStyle={{
+                  color: 'black'
+                }} className={styles.overlay_content_link}>CONTACT</Link>
+                <Link to="/register" activeStyle={{
+                  color: 'black'
+                }} className={styles.overlay_content_link}>REGISTER</Link>
 
-							</div>
+                <div className={styles.social}>
+                  <a className={styles.social_link} href="https://facebook.com/ThoughtAtWork">
+                    <img className={styles.social_image} src="assets/graphics/facebook.svg" />
+                  </a>
+                  <a className={styles.social_link} href="https://twitter.com/taw_rit">
+                    <img className={styles.social_image} src="assets/graphics/twitter.svg" />
+                  </a>
+                  <a className={styles.social_link} href="https://instagram.com/taw_rit">
+                    <img className={styles.social_image} src="assets/graphics/instagram.svg" />
+                  </a>
+                </div>
 
-							<div id="nav--mobile" className="nav--overlay">
-
-								<Link to="javascript:void(0)" className="nav--overlay-closebtn">&times;</Link>
-
-								<div className="nav--overlay-content">
-
-									<Link to="/index" 	activeStyle={{
-											color: 'black'
-										}} className="nav--overlay-content-link">HOME</Link>
-									<Link to="/speakers" 	activeStyle={{
-											color: 'black'
-										}} className="nav--overlay-content-link">SPEAKERS</Link>
-									<Link to="/info-gethere" 	activeStyle={{
-											color: 'black'
-										}} className="nav--overlay-content-link">INFO</Link>
-									<Link to="/about" 	activeStyle={{
-											color: 'black'
-										}} className="nav--overlay-content-link">ABOUT</Link>
-									<Link to="/schedule" 	activeStyle={{
-											color: 'black'
-										}} className="nav--overlay-content-link">SCHEDULE</Link>
-									<Link to="/contact" 	activeStyle={{
-											color: 'black'
-										}} className=" nav--overlay-content-link">CONTACT</Link>
-									<Link to="/register" 	activeStyle={{
-											color: 'black'
-										}} className=" nav--overlay-content-link">REGISTER</Link>
-
-									<div className="nav--social">
-										<a className="nav--social-link" href="https://facebook.com/ThoughtAtWork">
-											<img className="nav--social-image" src="assets/graphics/facebook.svg"/>
-										</a>
-										<a className="nav--social-link" href="https://twitter.com/taw_rit">
-											<img className="nav--social-image" src="assets/graphics/twitter.svg"/>
-										</a>
-										<a className="nav--social-link" href="https://instagram.com/taw_rit">
-											<img className="nav--social-image" src="assets/graphics/instagram.svg"/>
-										</a>
-									</div>
-
-									<p className="nav--overlay-text"><em>Special Thanks</em> to Lorraine Justice,
+                <p className={styles.overlay_text}><em>Special Thanks</em> to Lorraine Justice,
 										Josh Owen, Bruce Leonard, Adam Smith</p>
-									<br/>
-									<p className="nav--overlay-text">&copy;2017 Thought At Work. All rights reserved.</p>
-								</div>
+                <br />
+                <p className={styles.overlay_text}>&copy;2017 Thought At Work. All rights reserved.</p>
+              </div>
 
-							</div>
+            </div>
 
-						</nav>
-					</header>
-				</div>
+          </nav>
+        </header>
+      </div>
 
-			);
-		}
+    );
+  }
 
-	}
+}
 
-	export default Navigation
+export default Navigation;

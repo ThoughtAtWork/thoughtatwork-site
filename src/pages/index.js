@@ -1,6 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Img from "gatsby-image";
+import React from 'react';
+import Link from 'gatsby-link';
 
 const IndexPage = () => (
   <div>
@@ -12,6 +11,6 @@ const IndexPage = () => (
     <Link to="/info-gethere/">info page</Link>
     <Link to="/contact/">contact page</Link>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

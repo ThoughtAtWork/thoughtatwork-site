@@ -1,0 +1,49 @@
+@font-face {
+    font: {
+        family: 'Elliot';
+        weight: 200;
+    }
+    src: url("/assets/fonts/Elliot-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font: {
+        family: 'Elliot';
+        weight: 300;
+    }
+    src: url("/assets/fonts/Elliot-Light.otf") format("opentype");
+}
+
+@font-face {
+    font: {
+        family: 'Elliot';
+        weight: 300;
+        style: italic;
+    }
+    src: url("/assets/fonts/Elliot-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font: {
+        family: 'Elliot';
+        weight: 400;
+    }
+    src: url("/assets/fonts/Elliot.otf") format("opentype");
+}
+
+@font-face {
+    font: {
+        family: 'Elliot';
+        weight: 400;
+        style: italic;
+    }
+    src: url("/assets/fonts/Elliot-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font: {
+        family: 'Elliot';
+        weight: 500;
+    }
+    src: url("/assets/fonts/Elliot-Bold.otf") format("opentype");
+}

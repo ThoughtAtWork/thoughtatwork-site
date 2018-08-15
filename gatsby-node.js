@@ -1,7 +1,17 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+plugins: [{
+  resolve: 'gatsby-plugin-react-css-modules',
+  options: {
+    // *.css files are included by default.
+    // To support another syntax (e.g. SCSS),
+    // add 'postcss-scss' to your project's devDependencies
+    // and add the following option here:
+    filetypes: {
+      '.scss': {
+        syntax: 'postcss-scss'
+      },
+    },
 
- // You can delete this file if you're not using it
+    // Exclude global styles from the plugin using a RegExp:
+    exclude: '\/global\/',
+  },
+}, ];
