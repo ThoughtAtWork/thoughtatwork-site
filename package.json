@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Thought At Work, Jacob Frank",
   "dependencies": {
+    "classnames": "^2.2.6",
     "eslint-plugin-react": "^7.10.0",
     "gatsby": "^1.9.243",
     "gatsby-image": "^1.0.43",
