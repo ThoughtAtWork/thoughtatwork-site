@@ -1,12 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import CardKeynoteSpeaker from '../components/CardKeynoteSpeaker'
 import CardGridSpeaker from '../components/CardGridSpeaker'
 
 const SpeakerPage = () => (
-  <div>
-    <h1>Speakers Page</h1>
-    <p>Currently under construction</p>
-    <Link to="/">Go back to the homepage</Link>
+  <div className="container">
+    <CardKeynoteSpeaker />
     <CardGridSpeaker />
   </div>
 )

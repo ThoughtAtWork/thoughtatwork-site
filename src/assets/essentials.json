@@ -1,0 +1,20 @@
+{
+  "essentials": [
+    {
+      "name": "Clothing",
+      "desc": "Check the weather forecast in advance. Rochester's weather can be unpredictable. The conference is two days, so bring at least two pairs of underwear."
+    },
+    {
+      "name": "Materials",
+      "desc": "We recommend that you bring a sketchbook with a writing utensil, along with your smartphone."
+    },
+    {
+      "name": "Cameras",
+      "desc": "Cameras are welcome at most events."
+    },
+    {
+      "name": "Your work",
+      "desc": "There are scheduled portfolio reviews and networking events. We suggest that you bring work samples and business cards."
+    }
+  ]
+}

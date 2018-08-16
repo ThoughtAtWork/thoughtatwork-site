@@ -175,10 +175,12 @@
 	display: inline-block;
 	width: 370px;
 }
+
 .gethere_map {
 	display: inline-block;
 	width: 40%;
-	&-iframe {
+	
+	&-map_element {
 		width: 50vw;
 		max-width: 600px;
 		height: 42vw;
@@ -189,6 +191,7 @@
 		}
 	}
 }
+
 .info_arrow{
 	left: 20px;
 	position: relative;

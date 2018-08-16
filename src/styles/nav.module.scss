@@ -1,0 +1,210 @@
+@import "main";
+
+:local(.container) {
+    height: 85px;
+    background-color: $color-background;
+    padding: 0 86px;
+    @include media ('<lg') {
+        padding: 0 1vw;
+    }
+}
+
+:local(.logo) {
+    float: left;
+    margin-top: 33px;
+    margin-left: 7px;
+}
+
+:local(.list) {
+    float: right;
+    margin: 0;
+    & .item {
+        float: left;
+        padding: 0 24px 0 20px;
+        font-size: 18px;
+        transition: all 0.7s ease-in-out;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 49px;
+        a {
+            color: $normal-grey;
+            text-transform: uppercase;
+            transition: all 0.4s ease-in-out;
+        }
+        a:hover {
+            color: $teal;
+            text-decoration: none;
+            transition-duration: 0.4s;
+        }
+        &:last-child a {
+            padding: 49px 15px 10px 19px;
+            z-index: 100;
+            background-color: $teal;
+            margin-top: 0;
+            color: #FFF !important;
+        }
+    }
+}
+
+:local(.active) {
+    color: $teal !important;
+    @include media ('<md') {
+        color: black !important;
+    }
+}
+
+:local(.menu) {
+    display: none;
+}
+
+:local(.toggle) {
+    float: right;
+    margin: 20px;
+    color: #EEE;
+    font-size: 30px;
+    padding: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+:local(.register) {
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    display: none;
+    background-color: none;
+}
+
+:local(.overlay) {
+    width: 0%;
+    display: none;
+}
+
+:local(.brand) {
+    width: 45px;
+    background: red;
+}
+
+:local(.header) {
+    background-color: $color-background;
+}
+
+@include media ('<md') {
+    :local(.container) {
+        padding: 0;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        top: 0;
+        background-color: white;
+        z-index: 10;
+    }
+    :local(.social) {
+        margin-top: 30px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+        &_image {
+            width: 35px;
+            height: 35px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 50px;
+        }
+        &_link {
+            display: inline-block;
+        }
+    }
+    :local(.mobile-icons) {
+        max-width: 100%;
+    }
+    :local(.menu) {
+        width: auto;
+        height: 80px;
+        float: left;
+        display: inline-block;
+    }
+    :local(.toggle) {
+        border: none;
+        color: #111;
+        font-size: 35px;
+        display: block;
+    }
+    :local(.logo) {
+        float: none;
+        margin-top: 20px;
+        margin-left: 0;
+        position: absolute;
+        left: 44vw;
+        display: inline-block;
+    }
+    :local(.register) {
+        display: block;
+        background-color: $teal;
+        float: right;
+        margin-top: 10px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+    :local(.list) {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -4px;
+        background-color: #222;
+        display: none;
+        &_item {
+            text-align: center;
+            display: block;
+            border-bottom: 1px solid #333;
+            float: none;
+        }
+    }
+    :local(.overlay) {
+        display: initial;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 4 !important;
+        top: 0;
+        left: 0;
+        background-color: $teal;
+        background-color: rgba(70, 204, 207, 0.9);
+        overflow: hidden;
+        &_closebtn {
+            position: absolute;
+            top: 7px;
+            left: 27px;
+            font-size: 50px;
+            color: black;
+        }
+        &_content {
+            position: relative;
+            top: 12%;
+            width: 70%;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 60px;
+            &_link {
+                padding: 8px;
+                text-decoration: none;
+                font-size: 30px;
+                color: white;
+                display: block;
+                transition: 0.3s;
+                &:hover,
+                &:focus {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_text {
+            color: white;
+            font-size: 16px;
+        }
+    }
+}
