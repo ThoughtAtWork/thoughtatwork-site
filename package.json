@@ -25,6 +25,8 @@
     "npm": "^6.3.0",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
+    "react-lottie": "^1.1.0",
+    "react-player": "^1.5.0",
     "sass-rem": "^2.0.1",
     "scss-tokenizer": "^0.2.3",
     "webpack-configurator": "^0.3.1"
