@@ -2,86 +2,130 @@
 // to call
 // vw(h5) or vw(40px)
 @function vw($target) {
-	$vw-context: (1000*.01) * 1px;
-	@return ($target/$vw-context) * 1vw;
+    $vw-context: (1000*.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
 }
 
 html {
-	font-size: 100%;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    font-size: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-	font-family: "Elliot", sans-serif;
+    font-family: "Elliot", sans-serif !important;
 }
 
 h1 {
-	font-size: 60px;
-	color: black;
-	text-transform: uppercase;
-	@include text--drop-shadow;
-	$min_width: $sm;
-	$max_width: $xl;
-	$min_font: 48px;
-	$max_font: 60px;
-	@include fluid-type($min_width, $max_width, $min_font, $max_font);
-
-	@include media ('>sm') {
-		font-size: 60px;
-
-		.home-header__title {
-			font-size: 48px;
-		}
-	}
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    text-transform: lowercase;
+    color: $purpleblack;
+    $min_width: $sm;
+    $max_width: $lg;
+    $min_font: 36px;
+    $max_font: 60px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+    @include media ('>xs') {
+        font-size: 36px;
+    }
+    @include media ('>sm') {
+        font-size: 48px;
+    }
+    @include media ('>md') {
+        font-size: 48px;
+    }
+    @include media ('>lg') {
+        font-size: 60px;
+    }
 }
 
 h2 {
-	font-weight: 500;
-	color: $light-grey;
-	position: absolute;
-	z-index: -1;
-	$min_width: $lg;
-	$max_width: $xl;
-	$min_font: 80px;
-	$max_font: 120px;
-	@include fluid-type($min_width, $max_width, $min_font, $max_font);
+    line-height: 32px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: $purpleblack;
+    $min_width: $sm;
+    $max_width: $lg;
+    $min_font: 24px;
+    $max_font: 36px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+    @include media ('>xs') {
+        line-height: 32px;
+        font-size: 24px;
+    }
+    @include media ('>sm') {
+        line-height: 38px;
+        font-size: 28px;
+    }
+    @include media ('>lg') {
+        line-height: 49px;
+        font-size: 36px;
+    }
 }
 
 h3 {
-	@include text--drop-shadow;
-	color: $dark-grey;
-	$min_width: $xs;
-	$max_width: $xl;
-	$min_font: 52px;
-	$max_font: 80px;
-	@include fluid-type($min_width, $max_width, $min_font, $max_font);
+    line-height: 24px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: $purpleblack;
+    $min_width: $sm;
+    $max_width: $lg;
+    $min_font: 18px;
+    $max_font: 24px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+    @include media ('>xs') {
+        line-height: 24px;
+        font-size: 18px;
+    }
+    @include media ('>sm') {
+        line-height: 32px;
+        font-size: 24px;
+    }
 }
 
-h4 {
-	font-weight: 500;
-	color: $dark-grey;
-	$min_width: $xs;
-	$max_width: $xl;
-	$min_font: 28px;
-	$max_font: 32px;
-	@include fluid-type($min_width, $max_width, $min_font, $max_font);
+p {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 14px;
+    color: $purpleblack;
+    $min_width: $sm;
+    $max_width: $lg;
+    $min_font: 14px;
+    $max_font: 24px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+    @include media ('>xs') {
+        line-height: 19px;
+        font-size: 14px;
+    }
+    @include media ('>sm') {
+        line-height: 24px;
+        font-size: 18px;
+    }
 }
 
-h5 {
-	font-weight: 500;
-	// color: $grey;
-	$min_width: $xs;
-	$max_width: $xl;
-	$min_font: 24px;
-	$max_font: 20px;
-	@include fluid-type($min_width, $max_width, $min_font, $max_font);
+Link {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: $purpleblack;
 }
 
 b,
 strong {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 h1,
@@ -91,34 +135,16 @@ h4,
 h5,
 h6,
 p {
-	margin: 0;
-}
-
-p {
-	font-weight: 400;
-	font-size: 16px;
-	letter-spacing: .4px;
-	line-height: 22.4px;
-	color: $dark-grey;
-
-	@include media ('<md') {
-		font-size: 20px;
-		line-height: 27px;
-	}
-
+    margin: 0;
 }
 
 a {
-	font-size: 14px;
-	font-weight: 500;
-	color: $teal;
-	text-decoration: none;
-
-	@include media ('<sm') {
-		font-size: 20px;
-	}
-
-	&:hover {
-		text-decoration: underline;
-	}
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: $purpleblack;
 }

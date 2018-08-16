@@ -1,18 +1,44 @@
 @import "main";
 
-:local(.container) {
-    height: 85px;
-    background-color: $color-background;
-    padding: 0 86px;
-    @include media ('<lg') {
-        padding: 0 1vw;
-    }
+:local(.navContainer) {
+    height: 90px;
+    width: 100vw;
+    position: fixed;
+    background: #FFFFFF;
 }
 
 :local(.logo) {
-    float: left;
-    margin-top: 33px;
-    margin-left: 7px;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 40px;
+    top: 25px;
+}
+
+:local(.link) {
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
+  color: $purpleblack;
+  text-decoration: none;
+}
+
+:local(.registerButton) {
+  width: 143px;
+  height: 40px;
+  background: $purpleblack;
+  border-radius: 32px;
+} 
+:local(.registerButtonText) {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 32px;
+    text-decoration: none;
 }
 
 :local(.list) {
@@ -22,14 +48,13 @@
         float: left;
         padding: 0 24px 0 20px;
         font-size: 18px;
-        transition: all 0.7s ease-in-out;
         text-decoration: none;
         list-style: none;
         margin-top: 49px;
         a {
             color: $normal-grey;
             text-transform: uppercase;
-            transition: all 0.4s ease-in-out;
+            transition: 0.4s ease-in-out;
         }
         a:hover {
             color: $teal;
@@ -85,11 +110,6 @@
     width: 45px;
     background: red;
 }
-
-:local(.header) {
-    background-color: $color-background;
-}
-
 
 @include media ('<md') {
     :local(.container) {
@@ -195,7 +215,6 @@
                 font-size: 30px;
                 color: white;
                 display: block;
-                transition: 0.3s;
                 &:hover,
                 &:focus {
                     color: black;

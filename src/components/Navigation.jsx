@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import styles from '../styles/nav.module.scss';
 import classnames from 'classnames';
 
-class Navigation extends React.Component {
+export class Navigation extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+  }
+
+
+  openMenu = () => {
+
+  }
 
   render() {
     return (
@@ -55,7 +67,10 @@ class Navigation extends React.Component {
 
             <div className={styles.mobile_icons}>
 
-              <div className={styles.menu}>
+              <div
+                className={styles.menu}
+                onClick={this.openMenu()}
+              >
                 <span className={styles.toggle}>☰</span>
               </div>
 
@@ -101,17 +116,6 @@ class Navigation extends React.Component {
                   color: 'black'
                 }} className={styles.overlay_content_link}>REGISTER</Link>
 
-                <div className={styles.social}>
-                  <a className={styles.social_link} href="https://facebook.com/ThoughtAtWork">
-                    <img className={styles.social_image} src="assets/graphics/facebook.svg" />
-                  </a>
-                  <a className={styles.social_link} href="https://twitter.com/taw_rit">
-                    <img className={styles.social_image} src="assets/graphics/twitter.svg" />
-                  </a>
-                  <a className={styles.social_link} href="https://instagram.com/taw_rit">
-                    <img className={styles.social_image} src="assets/graphics/instagram.svg" />
-                  </a>
-                </div>
 
                 <p className={styles.overlay_text}><em>Special Thanks</em> to Lorraine Justice,
 										Josh Owen, Bruce Leonard, Adam Smith</p>
@@ -124,10 +128,8 @@ class Navigation extends React.Component {
           </nav>
         </header>
       </div>
-
     );
   }
-
 }
 
 export default Navigation;
