@@ -1,6 +1,7 @@
 // Vendor
 @import 'lib/normalize';
-
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import 'node_modules/hamburgers/_sass/hamburgers/hamburgers';
 // Functions, Mixins
 @import "lib/include-media";
 @import "lib/fluid-type";
