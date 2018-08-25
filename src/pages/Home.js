@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import HomeSpeakers from '../components/Home/HomeSpeakers';
 
-export class index extends Component {
+export class home extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -10,10 +11,10 @@ export class index extends Component {
   render() {
     return (
       <div>
-        <p>Hello</p>
+        <HomeSpeakers/>
       </div>
     );
   }
 }
 
-export default index;
+export default home;

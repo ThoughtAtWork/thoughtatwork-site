@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import Link from 'gatsby-link';
 import navLogo from '../../assets/images/navLogo.svg';
 import MediaQuery from 'react-responsive';
-import styles from '../../styles/nav2.module.scss';
+import styles from '../../styles/nav.module.scss';
 
 export class DesktopNavigation extends Component {
   render() {
@@ -13,7 +13,7 @@ export class DesktopNavigation extends Component {
           <nav className={classnames(styles.navContainer)}>
             <div className={classnames(styles.navElements)}>
               <Link
-                to="/index"
+                to="/Home"
                 className={classnames(styles.logo)}
               >
                 <img
@@ -23,7 +23,7 @@ export class DesktopNavigation extends Component {
               </Link>
               <div className={classnames(styles.pages)}>
                 <Link
-                  to="/index"
+                  to="/Home"
                   className={classnames(styles.link, styles.navElement)}
                   activeStyle={{
                     color: '#FF2350'

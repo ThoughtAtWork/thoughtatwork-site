@@ -15,3 +15,24 @@ plugins: [{
     exclude: '\/global\/',
   },
 }, ];
+
+exports.createPages = ({
+  boundActionCreators
+}) => {
+  const {
+    createRedirect
+  } = boundActionCreators;
+
+  createRedirect({
+    fromPath: '',
+    isPermanent: true,
+    redirectInBrowser: true,
+    toPath: '/Home',
+  });
+  createRedirect({
+    fromPath: '/',
+    isPermanent: true,
+    redirectInBrowser: true,
+    toPath: '/Home',
+  });
+};

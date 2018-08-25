@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
-
-export class index extends Component {
+export default class HomeSpeakers extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
+
     };
   }
 
   render() {
     return (
       <div>
-        <p>Hello</p>
+        <h1>our lineup</h1>
       </div>
     );
   }
 }
-
-export default index;

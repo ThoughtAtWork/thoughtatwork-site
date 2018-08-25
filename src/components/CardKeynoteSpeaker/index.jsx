@@ -1,17 +1,17 @@
-import React from "react";
-import KeynoteSpeaker from "./keynote_speaker.jsx";
-import data from "../../assets/keynote_speakers.json";
+import React from 'react';
+import KeynoteSpeaker from './keynote_speaker.jsx';
+import data from '../../assets/keynote_speakers.json';
 
 class CardKeynoteSpeaker extends React.Component {
   createKeynoteSpeaker = speaker => {
     return (
       <KeynoteSpeaker
-        headshot = {speaker.headshot}
-        firstName = {speaker.firstName}
-        lastName = {speaker.lastName}
-        position = {speaker.position}
-        company = {speaker.company}
-        key = {speaker.lastName}
+        headshot={speaker.headshot}
+        firstName={speaker.firstName}
+        lastName={speaker.lastName}
+        position={speaker.position}
+        company={speaker.company}
+        key={speaker.lastName}
       />
     );
   }
@@ -21,9 +21,9 @@ class CardKeynoteSpeaker extends React.Component {
   }
 
   render() {
-    return(
-      <div className="speakers__keynote">
-        <h2 className="speakers__keynote__header">keynote</h2>
+    return (
+      <div className='speakers__keynote'>
+        <h2 className='speakers__keynote__header'>keynote</h2>
         {this.createKeynoteSpeakers(data.keynoteSpeakers)}
       </div>
     );

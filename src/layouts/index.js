@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Navigation from '../components/Navigation2.jsx';
+import Navigation from '../components/Navigation.jsx';
 import Footer from '../components/Footer';
 import './2017/styles-2017.scss';
 import '../styles/main.scss';
@@ -78,8 +78,8 @@ const TemplateWrapper = ({children}) => (
         },
       ]}
     />
-    {children}
-    <Footer />
+    {children()}
+    <Footer/>
   </div>
 );
 
