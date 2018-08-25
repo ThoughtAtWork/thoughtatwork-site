@@ -1,4 +1,5 @@
-# Thought At Work Conference Website
+# Thought At Work Conference Website 2017
+# Read me not updated for 2018 site
 
 
 ## Table of Contents
