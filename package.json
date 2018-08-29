@@ -5,8 +5,9 @@
   "author": "Thought At Work, Jacob Frank",
   "dependencies": {
     "classnames": "^2.2.6",
+    "css-gridish": "^2.0.0",
     "eslint-plugin-react": "^7.10.0",
-    "gatsby": "^1.9.243",
+    "gatsby": "^1.9.277",
     "gatsby-image": "^1.0.43",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-catch-links": "^1.0.19",
