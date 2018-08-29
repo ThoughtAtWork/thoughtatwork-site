@@ -48,11 +48,6 @@
         background-position: 0 0, 15.5px 15.5px;
         width: 46em;
         height: 26em;
-        @include media ('>xl') {
-            width: 92em;
-            height: 45em;
-            margin-left: -45em;
-        }
         @include media ('<md') {
             width: 35em;
             height: 46em;
@@ -99,9 +94,6 @@
     &-content {
         margin-left: 64px;
         margin-top: 10px;
-        @include media ('>xl') {
-            margin-top: 30px;
-        }
         @include media ('<md') {
             margin-left: 64px;
         }
@@ -125,12 +117,6 @@
         font-family: Elliot;
         text-rendering: optimizeLegibility;
         position: initial;
-        @include media ('>xl') {
-            width: 520px;
-            height: 160px;
-            font-size: 56px;
-            line-height: 66px;
-        }
         @include media ('<md') {
             width: 285px;
             height: 91.25px;
@@ -154,12 +140,7 @@
         color: #281E34;
         font-size: 14px;
         font-family: Elliot;
-        @include media ('>xl') {
-            width: 494px;
-            height: 210px;
-            font-size: 28px;
-            line-height: 44px;
-        }
+     
         @include media ('<md') {
             width: 378.84px;
             height: 115.5px;
@@ -180,11 +161,7 @@
         margin-right: 15px;
         float: right;
         margin-top: 42px !important;
-        @include media ('>xl') {
-            width: 50.250em;
-            height: 25.983em;
-            margin-top: 82px !important;
-        }
+       
         @include media ('<md') {
             display: block;
             float: none;
@@ -227,12 +204,6 @@
   height: 40px;
   width: 150px;
 
-  @include media ('>xl') {
-    font-size: 28px;
-    line-height: 33px;
-    padding: 30px 75px;
-    margin-top: 3.2em;
-  }
   
   @include media ('<md') {
     font-size: 16px;
