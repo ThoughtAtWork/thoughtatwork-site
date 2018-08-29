@@ -192,11 +192,11 @@ body {
 
 .gridish-grid {
   grid-auto-rows: minmax(0.5rem, min-content);
-  grid-template-columns: repeat(auto-fill, calc((100vw - 3rem) * 0.25)); }
+  grid-template-columns: repeat(auto-fill, calc((100vw - 1.5rem) * 0.25)); }
   .gridish-grid.gridish-grid--fixed-columns {
     grid-template-columns: repeat(auto-fill, 5.875rem); }
   .gridish-grid.gridish-grid--fluid-rows {
-    grid-auto-rows: calc((100vw - 3rem) * 0.25); }
+    grid-auto-rows: calc((100vw - 1.5rem) * 0.25); }
   .gridish-grid > * {
     grid-column: span 4; }
 
@@ -239,8 +239,8 @@ body {
 .gridish-container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem; }
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; }
 
 .gridish-container--left {
   margin-left: 0; }
@@ -252,31 +252,31 @@ body {
 .gridish-container__bleed--xsmall--left,
 .gridish-container__break--xsmall,
 .gridish-container__break--xsmall--left {
-  margin-left: -1.5rem; }
+  margin-left: -0.75rem; }
 
 .gridish-container__bleed--xsmall,
 .gridish-container__bleed--xsmall--right,
 .gridish-container__break--xsmall,
 .gridish-container__break--xsmall--right {
-  margin-right: -1.5rem; }
+  margin-right: -0.75rem; }
 
 .gridish-container__bleed--xsmall,
 .gridish-container__bleed--xsmall--left {
-  padding-left: 1.5rem; }
+  padding-left: 0.75rem; }
   .gridish-container__bleed--xsmall.gridish-padding, .gridish-container__bleed--xsmall.gridish-padding--horizontal, .gridish-container__bleed--xsmall.gridish-padding--left,
   .gridish-container__bleed--xsmall--left.gridish-padding,
   .gridish-container__bleed--xsmall--left.gridish-padding--horizontal,
   .gridish-container__bleed--xsmall--left.gridish-padding--left {
-    padding-left: calc(1.5rem + 0.75rem); }
+    padding-left: calc(0.75rem + 0.75rem); }
 
 .gridish-container__bleed--xsmall,
 .gridish-container__bleed--xsmall--right {
-  padding-right: 1.5rem; }
+  padding-right: 0.75rem; }
   .gridish-container__bleed--xsmall.gridish-padding, .gridish-container__bleed--xsmall.gridish-padding--horizontal, .gridish-container__bleed--xsmall.gridish-padding--right,
   .gridish-container__bleed--xsmall--right.gridish-padding,
   .gridish-container__bleed--xsmall--right.gridish-padding--horizontal,
   .gridish-container__bleed--xsmall--right.gridish-padding--right {
-    padding-right: calc(1.5rem + 0.75rem); }
+    padding-right: calc(0.75rem + 0.75rem); }
 
 @media screen and (min-width: 48rem) {
   .gridish-grid__height--small--0 {
@@ -364,11 +364,11 @@ body {
     padding-bottom: 0.75rem;
     padding-top: 0.75rem; }
   .gridish-grid {
-    grid-template-columns: repeat(auto-fill, calc((100vw - 5rem) * 0.125)); }
+    grid-template-columns: repeat(auto-fill, calc((100vw - 3.5rem) * 0.125)); }
     .gridish-grid.gridish-grid--fixed-columns {
       grid-template-columns: repeat(auto-fill, 6rem); }
     .gridish-grid.gridish-grid--fluid-rows {
-      grid-auto-rows: calc((100vw - 5rem) * 0.125); }
+      grid-auto-rows: calc((100vw - 3.5rem) * 0.125); }
     .gridish-grid > * {
       grid-column: span 8; }
   .gridish-grid__col--xsmall--1 {
@@ -468,8 +468,8 @@ body {
   .gridish-container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem; }
+    padding-left: 1.75rem;
+    padding-right: 1.75rem; }
   .gridish-container--left {
     margin-left: 0; }
   .gridish-container--right {
@@ -478,28 +478,28 @@ body {
   .gridish-container__bleed--small--left,
   .gridish-container__break--small,
   .gridish-container__break--small--left {
-    margin-left: -2.5rem; }
+    margin-left: -1.75rem; }
   .gridish-container__bleed--small,
   .gridish-container__bleed--small--right,
   .gridish-container__break--small,
   .gridish-container__break--small--right {
-    margin-right: -2.5rem; }
+    margin-right: -1.75rem; }
   .gridish-container__bleed--small,
   .gridish-container__bleed--small--left {
-    padding-left: 2.5rem; }
+    padding-left: 1.75rem; }
     .gridish-container__bleed--small.gridish-padding, .gridish-container__bleed--small.gridish-padding--horizontal, .gridish-container__bleed--small.gridish-padding--left,
     .gridish-container__bleed--small--left.gridish-padding,
     .gridish-container__bleed--small--left.gridish-padding--horizontal,
     .gridish-container__bleed--small--left.gridish-padding--left {
-      padding-left: calc(2.5rem + 0.75rem); }
+      padding-left: calc(1.75rem + 0.75rem); }
   .gridish-container__bleed--small,
   .gridish-container__bleed--small--right {
-    padding-right: 2.5rem; }
+    padding-right: 1.75rem; }
     .gridish-container__bleed--small.gridish-padding, .gridish-container__bleed--small.gridish-padding--horizontal, .gridish-container__bleed--small.gridish-padding--right,
     .gridish-container__bleed--small--right.gridish-padding,
     .gridish-container__bleed--small--right.gridish-padding--horizontal,
     .gridish-container__bleed--small--right.gridish-padding--right {
-      padding-right: calc(2.5rem + 0.75rem); } }
+      padding-right: calc(1.75rem + 0.75rem); } }
 
 @media screen and (min-width: 64rem) {
   .gridish-grid__height--medium--0 {
@@ -589,11 +589,11 @@ body {
     padding-bottom: 0.75rem;
     padding-top: 0.75rem; }
   .gridish-grid {
-    grid-template-columns: repeat(auto-fill, calc((100vw - 5rem) * 0.0833)); }
+    grid-template-columns: repeat(auto-fill, calc((100vw - 3.5rem) * 0.0833)); }
     .gridish-grid.gridish-grid--fixed-columns {
       grid-template-columns: repeat(auto-fill, 5.33333rem); }
     .gridish-grid.gridish-grid--fluid-rows {
-      grid-auto-rows: calc((100vw - 5rem) * 0.0833); }
+      grid-auto-rows: calc((100vw - 3.5rem) * 0.0833); }
     .gridish-grid > * {
       grid-column: span 12; }
   .gridish-grid__col--xsmall--1 {
@@ -777,8 +777,8 @@ body {
   .gridish-container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem; }
+    padding-left: 1.75rem;
+    padding-right: 1.75rem; }
   .gridish-container--left {
     margin-left: 0; }
   .gridish-container--right {
@@ -787,28 +787,28 @@ body {
   .gridish-container__bleed--medium--left,
   .gridish-container__break--medium,
   .gridish-container__break--medium--left {
-    margin-left: -2.5rem; }
+    margin-left: -1.75rem; }
   .gridish-container__bleed--medium,
   .gridish-container__bleed--medium--right,
   .gridish-container__break--medium,
   .gridish-container__break--medium--right {
-    margin-right: -2.5rem; }
+    margin-right: -1.75rem; }
   .gridish-container__bleed--medium,
   .gridish-container__bleed--medium--left {
-    padding-left: 2.5rem; }
+    padding-left: 1.75rem; }
     .gridish-container__bleed--medium.gridish-padding, .gridish-container__bleed--medium.gridish-padding--horizontal, .gridish-container__bleed--medium.gridish-padding--left,
     .gridish-container__bleed--medium--left.gridish-padding,
     .gridish-container__bleed--medium--left.gridish-padding--horizontal,
     .gridish-container__bleed--medium--left.gridish-padding--left {
-      padding-left: calc(2.5rem + 0.75rem); }
+      padding-left: calc(1.75rem + 0.75rem); }
   .gridish-container__bleed--medium,
   .gridish-container__bleed--medium--right {
-    padding-right: 2.5rem; }
+    padding-right: 1.75rem; }
     .gridish-container__bleed--medium.gridish-padding, .gridish-container__bleed--medium.gridish-padding--horizontal, .gridish-container__bleed--medium.gridish-padding--right,
     .gridish-container__bleed--medium--right.gridish-padding,
     .gridish-container__bleed--medium--right.gridish-padding--horizontal,
     .gridish-container__bleed--medium--right.gridish-padding--right {
-      padding-right: calc(2.5rem + 0.75rem); } }
+      padding-right: calc(1.75rem + 0.75rem); } }
 
 @media screen and (min-width: 90rem) {
   .gridish-grid__col--xsmall--0--only {
@@ -839,16 +839,16 @@ body {
     padding-bottom: 0.75rem;
     padding-top: 0.75rem; }
   .gridish-grid {
-    grid-template-columns: repeat(auto-fill, calc((90rem - 5rem) * 0.0833)); }
+    grid-template-columns: repeat(auto-fill, calc((90rem - 3.5rem) * 0.0833)); }
     .gridish-grid.gridish-grid--fixed-columns {
       grid-template-columns: repeat(auto-fill, 7.5rem); }
     .gridish-grid.gridish-grid--fluid-rows {
-      grid-auto-rows: calc((90rem - 5rem) * 0.0833); }
+      grid-auto-rows: calc((90rem - 3.5rem) * 0.0833); }
   .gridish-container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem; }
+    padding-left: 1.75rem;
+    padding-right: 1.75rem; }
   .gridish-container--left {
     margin-left: 0; }
   .gridish-container--right {
@@ -857,25 +857,25 @@ body {
   .gridish-container__bleed--medium--left,
   .gridish-container__break--medium,
   .gridish-container__break--medium--left {
-    margin-left: -2.5rem; }
+    margin-left: -1.75rem; }
   .gridish-container__bleed--medium,
   .gridish-container__bleed--medium--right,
   .gridish-container__break--medium,
   .gridish-container__break--medium--right {
-    margin-right: -2.5rem; }
+    margin-right: -1.75rem; }
   .gridish-container__bleed--medium,
   .gridish-container__bleed--medium--left {
-    padding-left: 2.5rem; }
+    padding-left: 1.75rem; }
     .gridish-container__bleed--medium.gridish-padding, .gridish-container__bleed--medium.gridish-padding--horizontal, .gridish-container__bleed--medium.gridish-padding--left,
     .gridish-container__bleed--medium--left.gridish-padding,
     .gridish-container__bleed--medium--left.gridish-padding--horizontal,
     .gridish-container__bleed--medium--left.gridish-padding--left {
-      padding-left: calc(2.5rem + 0.75rem); }
+      padding-left: calc(1.75rem + 0.75rem); }
   .gridish-container__bleed--medium,
   .gridish-container__bleed--medium--right {
-    padding-right: 2.5rem; }
+    padding-right: 1.75rem; }
     .gridish-container__bleed--medium.gridish-padding, .gridish-container__bleed--medium.gridish-padding--horizontal, .gridish-container__bleed--medium.gridish-padding--right,
     .gridish-container__bleed--medium--right.gridish-padding,
     .gridish-container__bleed--medium--right.gridish-padding--horizontal,
     .gridish-container__bleed--medium--right.gridish-padding--right {
-      padding-right: calc(2.5rem + 0.75rem); } }
+      padding-right: calc(1.75rem + 0.75rem); } }
