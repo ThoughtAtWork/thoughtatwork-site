@@ -31,83 +31,81 @@ export class MobileNavigation extends Component {
 
     return (
       <div>
-        <div className={classnames(scroll)}>
-          <nav className={classnames(styles.navContainer)}>
-            <div className={classnames(styles.navElements, 'flex-justify-between')}>
-              <Link
-                to="/Home"
-              >
-                <img
-                  className={classnames(styles.logo, styles.navElement)}
-                  src={navLogo}
-                />
-              </Link>
-              <button className={classnames(styles.mobileRegisterButton)}>
-                <Link
-                  to="/register"
-                  className={classnames(styles.registerButtonText)}
-                >
-                  get tickets
-                </Link>
-              </button>
-
-              <button
-                className={classnames(
-                  styles.menu,
-                  styles.navElement,
-                  'hamburger hamburger--elastic',
-                  menuActive,
-                )}
-                type='button'
-                aria-label='Menu'
-                aria-controls='navigation'
-                onClick={this.openMenu.bind(this)}
-              >
-                <span className='hamburger-box'>
-                  <span className='hamburger-inner'></span>
-                </span>
-              </button>
-            </div>
-          </nav>
-          <div className={classnames(mobileNav)}>
+        <nav className={classnames(styles.navContainer)}>
+          <div className={classnames(styles.navElements, 'flex-justify-between')}>
             <Link
               to="/Home"
-              className={classnames(styles.link, styles.navElement)}
-              activeStyle={{
-                color: '#FF2350'
-              }}
             >
-              Home
+              <img
+                className={classnames(styles.logo, styles.navElement)}
+                src={navLogo}
+              />
             </Link>
-            <Link
-              to="/speakers"
-              className={classnames(styles.link, styles.navElement)}
-              activeStyle={{
-                color: '#FF2350'
-              }}
-            >
-              Speakers
-            </Link>
-            <Link
-              to="/schedule"
-              className={classnames(styles.link, styles.navElement)}
-              activeStyle={{
-                color: '#FF2350'
-              }}
-            >
-              Schedule
-            </Link>
+            <button className={classnames(styles.mobileRegisterButton)}>
+              <Link
+                to="/register"
+                className={classnames(styles.registerButtonText)}
+              >
+                get tickets
+              </Link>
+            </button>
 
-            <Link
-              to="/info-gethere"
-              className={classnames(styles.link, styles.navElement)}
-              activeStyle={{
-                color: '#FF2350'
-              }}
+            <button
+              className={classnames(
+                styles.menu,
+                styles.navElement,
+                'hamburger hamburger--elastic',
+                menuActive,
+              )}
+              type='button'
+              aria-label='Menu'
+              aria-controls='navigation'
+              onClick={this.openMenu.bind(this)}
             >
-              Info
-            </Link>
+              <span className='hamburger-box'>
+                <span className='hamburger-inner'></span>
+              </span>
+            </button>
           </div>
+        </nav>
+        <div className={classnames(mobileNav)}>
+          <Link
+            to="/Home"
+            className={classnames(styles.link, styles.navElement)}
+            activeStyle={{
+              color: '#FF2350'
+            }}
+          >
+            Home
+          </Link>
+          <Link
+            to="/speakers"
+            className={classnames(styles.link, styles.navElement)}
+            activeStyle={{
+              color: '#FF2350'
+            }}
+          >
+            Speakers
+          </Link>
+          <Link
+            to="/schedule"
+            className={classnames(styles.link, styles.navElement)}
+            activeStyle={{
+              color: '#FF2350'
+            }}
+          >
+            Schedule
+          </Link>
+
+          <Link
+            to="/info-gethere"
+            className={classnames(styles.link, styles.navElement)}
+            activeStyle={{
+              color: '#FF2350'
+            }}
+          >
+            Info
+          </Link>
         </div>
       </div>);
   }

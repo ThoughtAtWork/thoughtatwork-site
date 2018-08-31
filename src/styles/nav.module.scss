@@ -9,42 +9,49 @@
     overflow: hidden;
     margin: 0 auto;
     top: 0;
+    z-index: 1;
+}
+
+:local(.navContainer_bottomMargin) {
+    margin-bottom: 11px;
 }
 
 :local(.logo) {
-  margin-right: auto;
-  margin-left: 40px;
+    margin-right: auto;
+    margin-left: 40px;
 }
 
 :local(.navElement) {
-  display: inline-block;
+    display: inline-block;
 }
 
 :local(.link) {
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 18px;
-  color: $purpleblack;
-  text-decoration: none;
-  margin-left: 48px;
-  @include media ('<880') {
-    margin-left: 0px;
-    font-size: 24px;
-    margin-bottom: 45px;
-  }
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    color: $purpleblack;
+    text-decoration: none;
+    margin-left: 48px;
+
+    @include media ('<880') {
+        margin-left: 0px;
+        font-size: 24px;
+        margin-bottom: 45px;
+    }
 }
 
 :local(.desktopRegisterButton) {
-  width: 143px;
-  height: 40px;
-  background: $purpleblack;
-  border-radius: 32px;
-  margin-right: 40px;
-  margin-left: 56px;
-  border: none;
-  cursor: pointer;
-} 
+    width: 143px;
+    height: 40px;
+    background: $purpleblack;
+    border-radius: 32px;
+    margin-right: 40px;
+    margin-left: 56px;
+    border: none;
+    cursor: pointer;
+}
+
 :local(.mobileRegisterButton) {
     width: 162px;
     height: 40px;
@@ -52,50 +59,57 @@
     border-radius: 32px;
     border: none;
     cursor: pointer;
+
     @include media ('<sm') {
         width: 147px;
     }
 }
+
 :local(.mobileNav_Open) {
-  background: white;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
 :local(.mobileNav_Closed) {
     display: none;
 }
-:local(.registerButtonText) {
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 16px;
-  text-align: center;
-  color: #FFFFFF;
-  border-radius: 32px;
-  text-decoration: none;
-  $min_width: $xs;
-  $max_width: $sm;
-  $min_font: 18px;
-  $max_font: 16px;
-  @include fluid-type($min_width, $max_width, $min_font, $max_font);
-  @include media ('<sm') {
-      font-size: 18px;
-  }
 
-  @include media ('>sm') {
-      font-size: 16px;
-  }
+:local(.registerButtonText) {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 32px;
+    text-decoration: none;
+    $min_width: $xs;
+    $max_width: $sm;
+    $min_font: 18px;
+    $max_font: 16px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
+    @include media ('<sm') {
+        font-size: 18px;
+    }
+
+    @include media ('>sm') {
+        font-size: 16px;
+    }
 }
+
 :local(.navElements) {
-  max-width: 944px;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  height: inherit;
-  align-items: center;
+    max-width: 944px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    height: inherit;
+    align-items: center;
 }
+
 :local(.menu) {
     margin-right: 40px;
 }

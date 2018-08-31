@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Navigation from '../components/Navigation.jsx';
+import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import './2017/styles-2017.scss';
 import '../styles/main.scss';
@@ -10,7 +10,6 @@ import favicon from '../assets/images/faviconRed.png';
 
 const TemplateWrapper = ({children}) => (
   <div className = 'container'>
-    <Navigation />
     <Helmet
       title="Thought At Work 2018"
       link = {
@@ -78,6 +77,7 @@ const TemplateWrapper = ({children}) => (
         },
       ]}
     />
+    <Navigation/>
     {children()}
     <Footer/>
   </div>

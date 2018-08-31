@@ -3,6 +3,8 @@
 @import 'node_modules/normalize-scss/sass/normalize/import-now';
 @import 'node_modules/hamburgers/_sass/hamburgers/hamburgers';
 // Functions, Mixins
+@import 'gridish/gridish-grid-legacy';
+@import 'gridish/gridish-grid';
 @import "lib/include-media";
 @import "lib/fluid-type";
 @import "lib/grid";

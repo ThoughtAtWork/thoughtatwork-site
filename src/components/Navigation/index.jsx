@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import DesktopNavigation from './Navigation/DesktopNavigation';
-import MobileNavigation from './Navigation/MobileNavigation';
+import DesktopNavigation from './DesktopNavigation';
+import MobileNavigation from './MobileNavigation';
+import styles from '../../styles/nav.module.scss';
 
-
-export class Navigation extends Component {
+class Navigation extends Component {
   constructor(props) {
     super(props);
   }
   render() {
     return (
-      <div>
-
+      <div className={styles.navContainer_bottomMargin}>
         <MediaQuery maxWidth={880}>
           {(matches) => {
             if (matches) {
               return <MobileNavigation menuOpen={false} />;
             } else {
               return (
-                <div>
-                  <DesktopNavigation />
-                </div>
+                <DesktopNavigation />
               );
             }
           }}
