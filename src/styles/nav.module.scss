@@ -9,7 +9,7 @@
     overflow: hidden;
     margin: 0 auto;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 :local(.navContainer_bottomMargin) {
@@ -19,25 +19,29 @@
 :local(.logo) {
     margin-right: auto;
     margin-left: 40px;
+    @include media ('<880') {
+        margin-left: 00px;
+    }
 }
 
 :local(.navElement) {
-    display: inline-block;
+    display: block;
 }
 
 :local(.link) {
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 18px;
     color: $purpleblack;
     text-decoration: none;
-    margin-left: 48px;
+    text-transform: lowercase;
+    margin-left: 0px;
+    font-size: 24px;
+    margin-bottom: 45px;
 
-    @include media ('<880') {
-        margin-left: 0px;
-        font-size: 24px;
-        margin-bottom: 45px;
+    @include media-query('medium') {
+        font-size: 18px;
+        margin-left: 48px;
     }
 }
 
@@ -66,15 +70,26 @@
 }
 
 :local(.mobileNav_Open) {
-    background: white;
-    height: 100vh;
+    background: #fff;
+    height: 100%;
+    margin-top: -58px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    overflow: hidden;
+    padding-bottom: 11px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 :local(.mobileNav_Closed) {
     display: none;
+}
+
+:local(.mobileNav_Open_Container) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 :local(.registerButtonText) {
@@ -104,12 +119,11 @@
 :local(.navElements) {
     max-width: 944px;
     margin: 0 auto;
-    padding: 0;
     display: flex;
     height: inherit;
     align-items: center;
 }
 
 :local(.menu) {
-    margin-right: 40px;
+    padding: 0;
 }

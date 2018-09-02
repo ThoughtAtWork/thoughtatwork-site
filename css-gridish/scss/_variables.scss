@@ -5,21 +5,21 @@ $prefix: gridish !default;
   $prefix: map-get($grid-values, "prefix");
 }
 $extraBreakpoints: () !default;
-$breakpoints: add-padding(map-get($grid-values, "breakpoints"));
-$first: nth(nth($breakpoints, 1), 2);
-$last: nth(nth($breakpoints, -1), 2);
+$Gbreakpoints: add-padding(map-get($grid-values, "breakpoints"));
+$first: nth(nth($Gbreakpoints, 1), 2);
+$last: nth(nth($Gbreakpoints, -1), 2);
 $includeFlexFallback: false !default;
 $rowHeight: map-get($grid-values, "rowHeight");
 $rows: map-get($grid-values, "rows");
 $extraArtboards: map-get($grid-values, "extraArtboards");
 $allBreakpoints: all-breakpoints(
-  $breakpoints,
+  $Gbreakpoints,
   $extraBreakpoints,
   $first,
   $last
 );
 $breakpointsAndArtboards: all-breakpoints(
-  $breakpoints,
+  $Gbreakpoints,
   $extraArtboards,
   $first,
   $last

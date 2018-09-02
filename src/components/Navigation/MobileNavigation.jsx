@@ -32,7 +32,7 @@ export class MobileNavigation extends Component {
     return (
       <div>
         <nav className={classnames(styles.navContainer)}>
-          <div className={classnames(styles.navElements, 'flex-justify-between')}>
+          <div className={classnames(styles.navElements, 'flex-justify-between', 'gridish-container--complete')}>
             <Link
               to="/Home"
             >
@@ -69,43 +69,45 @@ export class MobileNavigation extends Component {
           </div>
         </nav>
         <div className={classnames(mobileNav)}>
-          <Link
-            to="/Home"
-            className={classnames(styles.link, styles.navElement)}
-            activeStyle={{
-              color: '#FF2350'
-            }}
-          >
-            Home
-          </Link>
-          <Link
-            to="/speakers"
-            className={classnames(styles.link, styles.navElement)}
-            activeStyle={{
-              color: '#FF2350'
-            }}
-          >
-            Speakers
-          </Link>
-          <Link
-            to="/schedule"
-            className={classnames(styles.link, styles.navElement)}
-            activeStyle={{
-              color: '#FF2350'
-            }}
-          >
-            Schedule
-          </Link>
+          <div className={classnames(styles.mobileNav_Open_Container)}>
+            <Link
+              to="/Home"
+              className={classnames(styles.link, styles.navElement)}
+              activeStyle={{
+                color: '#FF2350'
+              }}
+            >
+              Home
+            </Link>
+            <Link
+              to="/speakers"
+              className={classnames(styles.link, styles.navElement)}
+              activeStyle={{
+                color: '#FF2350'
+              }}
+            >
+              Speakers
+            </Link>
+            <Link
+              to="/schedule"
+              className={classnames(styles.link, styles.navElement)}
+              activeStyle={{
+                color: '#FF2350'
+              }}
+            >
+              Schedule
+            </Link>
 
-          <Link
-            to="/info-gethere"
-            className={classnames(styles.link, styles.navElement)}
-            activeStyle={{
-              color: '#FF2350'
-            }}
-          >
-            Info
-          </Link>
+            <Link
+              to="/info-gethere"
+              className={classnames(styles.link, styles.navElement)}
+              activeStyle={{
+                color: '#FF2350'
+              }}
+            >
+              Info
+            </Link>
+          </div>
         </div>
       </div>);
   }
