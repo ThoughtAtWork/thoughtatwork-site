@@ -17,10 +17,10 @@
 }
 
 :local(.logo) {
-    margin-right: auto;
-    margin-left: 40px;
+    margin-left: 0px;
     @include media ('<880') {
-        margin-left: 00px;
+        margin-right: auto;
+        margin-left: 40px;
     }
 }
 
@@ -126,4 +126,5 @@
 
 :local(.menu) {
     padding: 0;
+    margin-top: 4px;
 }
