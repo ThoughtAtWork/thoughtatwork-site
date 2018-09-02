@@ -1,9 +1,20 @@
-/* Color Variables */
-$teal: #46CCCF;
+// Old Colors
 $normal-grey: #B0B0B0;
 $light-grey: #E4E4E4;
 $dark-grey: #4D4D4D;
-$color-background: #FAFAFA;
+
+// New colors
+$teal: #46CCCF;
+$light-blue:#BCD4FF;
+$light-yellow:#F9F4D8;
+$light-red:#F59698;
+$purpleblack:#281E35;
+$black:#000000;
+$blue:#2071FF;
+$yellow:#F2C227;
+$red:#FF2350;
+$color-background: #FFF;
+
 /* Drop Shadows*/
 @mixin text--drop-shadow {
 	text-shadow: 0 0 10px rgba(0, 0, 0, .15);

@@ -1,17 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Header from '../components/Header';
-import Navigation from '../components/Navigation.jsx';
+import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import '../styles/main.scss';
 import './2017/styles-2017.scss';
-import favicon from '../assets/images/favicon.png';
+import '../styles/main.scss';
+import favicon from '../assets/images/faviconRed.png';
 
 
 const TemplateWrapper = ({children}) => (
-  <div>
-    <Navigation />
+  <div className = 'container'>
     <Helmet
       title="Thought At Work 2018"
       link = {
@@ -52,36 +50,36 @@ const TemplateWrapper = ({children}) => (
           property: 'fb:app_id',
           content: '486507185043060'
         },
-        	{
-        	  name: 'twitter:card',
-        	  content: 'product'
-        	}, {
-        	  name: 'twitter:site',
-        	  content: '@TAW_RIT'
-        	}, {
-        	  name: 'twitter:title',
-        	  content: 'Thought At Work, a student-run design conference'
-        	}, {
-        	  name: 'twitter:description',
-        	  content: 'Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.'
-        	}, {
-        	  name: 'twitter:creator',
-        	  content: '@TAW_RIT'
-        	}, {
-        	  name: 'twitter:image',
-        	  content: 'http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2017.jpg'
-        	}, {
-        	  name: 'description',
-        	  content: 'Student-Run Design Conference'
-        	}, {
-        	  name: 'title',
-        	  content: 'Thought at Work'
+        {
+          name: 'twitter:card',
+          content: 'product'
+        }, {
+          name: 'twitter:site',
+          content: '@TAW_RIT'
+        }, {
+          name: 'twitter:title',
+          content: 'Thought At Work, a student-run design conference'
+        }, {
+          name: 'twitter:description',
+          content: 'Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.'
+        }, {
+          name: 'twitter:creator',
+          content: '@TAW_RIT'
+        }, {
+          name: 'twitter:image',
+          content: 'http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2017.jpg'
+        }, {
+          name: 'description',
+          content: 'Student-Run Design Conference'
+        }, {
+          name: 'title',
+          content: 'Thought at Work'
         },
       ]}
     />
-    <Header />
+    <Navigation/>
     {children()}
-    <Footer />
+    <Footer/>
   </div>
 );
 

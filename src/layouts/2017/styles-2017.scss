@@ -1,5 +1,5 @@
 // Vendor
-@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import 'lib/normalize';
 // Functions, Mixins
 @import 'lib/include-media';
 @import 'lib/fluid-type';
@@ -8,7 +8,7 @@
 @import 'global/variables';
 @import 'global/fonts';
 @import 'global/breakpoints';
-@import 'global/typography';
+// @import 'global/typography';
 
 // Components
 @import 'components/buttons';
@@ -32,9 +32,3 @@
 @import 'components/info';
 @import 'components/video';
 @import 'components/comingSoon';
-
-
-// Utility Classes
-@import 'utilities/layout';
-@import 'utilities/typography';
-@import 'font-awesome/font-awesome';

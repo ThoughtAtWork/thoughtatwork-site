@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import Location from "./location.jsx"
 import data from "../../assets/places_to_stay.json";
 

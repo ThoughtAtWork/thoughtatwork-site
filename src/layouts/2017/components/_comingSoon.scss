@@ -1,0 +1,103 @@
+body {
+    background: white;
+    background-image: radial-gradient(#efefef 12.5%, transparent 0), radial-gradient(#efefef 12.5%, transparent 0);
+    background-size: 31px 31px;
+    background-position: 0 0, 15.5px 15.5px;
+}
+
+.cs {
+    color: $taw-black !important;
+    &-content {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    &-topLevelNav {
+        &-container {
+            background: white;
+            height: 96px;
+            width: 100vw;
+        }
+        &-text {
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+        }
+        &-logo-pushRight {
+            margin-right: 20px;
+        }
+    }
+    &-left-offset {
+        margin-left: 89px;
+    }
+    &-right-offset {
+        margin-right: 89px;
+    }
+    &-offset {
+        margin-left: 89px;
+        margin-right: 89px;
+    }
+    &-title {
+        padding-top: 67px;
+        &-when {
+            padding-top: 10px;
+        }
+    }
+    &-h1 {
+        font-size: 48px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    &-p {
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    &-animation {
+        padding-bottom: 88px;
+        padding-top: 88px;
+    }
+    &-video {
+        max-width: 590px;
+        width: 76.8%;
+        margin: 0 auto;
+    }
+    &-about {
+        margin-top: 76px;
+        width: 590px;
+        padding-right: 0;
+        &-title {
+            padding-bottom: 24px;
+        }
+        &-content {
+            line-height: 1.36;
+            &-p2 {
+                padding-top: 16px;
+            }
+        }
+        &-subscribe-button {
+            width: 328.6px;
+            height: 71px;
+            background-color: #ffffff;
+            border: solid 4px #281e34;
+            margin-top: 40px;
+            margin-bottom: 128px;
+            &-text {
+                font-size: 20px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+            }
+        }
+    }
+}

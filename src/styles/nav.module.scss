@@ -1,210 +1,129 @@
 @import "main";
 
-:local(.container) {
-    height: 85px;
-    background-color: $color-background;
-    padding: 0 86px;
-    @include media ('<lg') {
-        padding: 0 1vw;
-    }
+:local(.navContainer) {
+    height: 88px;
+    width: 100%;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0 3px $purpleblack;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 0;
+    z-index: 10;
+}
+
+:local(.navContainer_bottomMargin) {
+    margin-bottom: 11px;
 }
 
 :local(.logo) {
-    float: left;
-    margin-top: 33px;
-    margin-left: 7px;
+    margin-right: auto;
+    margin-left: 40px;
+    @include media ('<880') {
+        margin-left: 00px;
+    }
 }
 
-:local(.list) {
-    float: right;
-    margin: 0;
-    & .item {
-        float: left;
-        padding: 0 24px 0 20px;
+:local(.navElement) {
+    display: block;
+}
+
+:local(.link) {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    color: $purpleblack;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-left: 0px;
+    font-size: 24px;
+    margin-bottom: 45px;
+
+    @include media-query('medium') {
         font-size: 18px;
-        transition: all 0.7s ease-in-out;
-        text-decoration: none;
-        list-style: none;
-        margin-top: 49px;
-        a {
-            color: $normal-grey;
-            text-transform: uppercase;
-            transition: all 0.4s ease-in-out;
-        }
-        a:hover {
-            color: $teal;
-            text-decoration: none;
-            transition-duration: 0.4s;
-        }
-        &:last-child a {
-            padding: 49px 15px 10px 19px;
-            z-index: 100;
-            background-color: $teal;
-            margin-top: 0;
-            color: #FFF !important;
-        }
+        margin-left: 48px;
     }
 }
 
-:local(.active) {
-    color: $teal !important;
-    @include media ('<md') {
-        color: black !important;
+:local(.desktopRegisterButton) {
+    width: 143px;
+    height: 40px;
+    background: $purpleblack;
+    border-radius: 32px;
+    margin-right: 40px;
+    margin-left: 56px;
+    border: none;
+    cursor: pointer;
+}
+
+:local(.mobileRegisterButton) {
+    width: 162px;
+    height: 40px;
+    background: $purpleblack;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+
+    @include media ('<sm') {
+        width: 147px;
     }
+}
+
+:local(.mobileNav_Open) {
+    background: #fff;
+    height: 100%;
+    margin-top: -58px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    overflow: hidden;
+    padding-bottom: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+:local(.mobileNav_Closed) {
+    display: none;
+}
+
+:local(.mobileNav_Open_Container) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+:local(.registerButtonText) {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 32px;
+    text-decoration: none;
+    $min_width: $xs;
+    $max_width: $sm;
+    $min_font: 18px;
+    $max_font: 16px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
+    @include media ('<sm') {
+        font-size: 18px;
+    }
+
+    @include media ('>sm') {
+        font-size: 16px;
+    }
+}
+
+:local(.navElements) {
+    max-width: 944px;
+    margin: 0 auto;
+    display: flex;
+    height: inherit;
+    align-items: center;
 }
 
 :local(.menu) {
-    display: none;
-}
-
-:local(.toggle) {
-    float: right;
-    margin: 20px;
-    color: #EEE;
-    font-size: 30px;
-    padding: 0 5px;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
-}
-
-:local(.register) {
-    padding: 15px;
-    width: 30px;
-    height: 30px;
-    display: none;
-    background-color: none;
-}
-
-:local(.overlay) {
-    width: 0%;
-    display: none;
-}
-
-:local(.brand) {
-    width: 45px;
-    background: red;
-}
-
-:local(.header) {
-    background-color: $color-background;
-}
-
-@include media ('<md') {
-    :local(.container) {
-        padding: 0;
-        background-color: white;
-        position: fixed;
-        width: 100%;
-        height: 80px;
-        top: 0;
-        background-color: white;
-        z-index: 10;
-    }
-    :local(.social) {
-        margin-top: 30px;
-        margin-bottom: 80px;
-        display: flex;
-        flex-direction: row;
-        &_image {
-            width: 35px;
-            height: 35px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            margin-right: 50px;
-        }
-        &_link {
-            display: inline-block;
-        }
-    }
-    :local(.mobile-icons) {
-        max-width: 100%;
-    }
-    :local(.menu) {
-        width: auto;
-        height: 80px;
-        float: left;
-        display: inline-block;
-    }
-    :local(.toggle) {
-        border: none;
-        color: #111;
-        font-size: 35px;
-        display: block;
-    }
-    :local(.logo) {
-        float: none;
-        margin-top: 20px;
-        margin-left: 0;
-        position: absolute;
-        left: 44vw;
-        display: inline-block;
-    }
-    :local(.register) {
-        display: block;
-        background-color: $teal;
-        float: right;
-        margin-top: 10px;
-        margin-right: 15px;
-        display: inline-block;
-    }
-    :local(.list) {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        top: -4px;
-        background-color: #222;
-        display: none;
-        &_item {
-            text-align: center;
-            display: block;
-            border-bottom: 1px solid #333;
-            float: none;
-        }
-    }
-    :local(.overlay) {
-        display: initial;
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 4 !important;
-        top: 0;
-        left: 0;
-        background-color: $teal;
-        background-color: rgba(70, 204, 207, 0.9);
-        overflow: hidden;
-        &_closebtn {
-            position: absolute;
-            top: 7px;
-            left: 27px;
-            font-size: 50px;
-            color: black;
-        }
-        &_content {
-            position: relative;
-            top: 12%;
-            width: 70%;
-            text-align: left;
-            margin-top: 20px;
-            margin-left: 60px;
-            &_link {
-                padding: 8px;
-                text-decoration: none;
-                font-size: 30px;
-                color: white;
-                display: block;
-                transition: 0.3s;
-                &:hover,
-                &:focus {
-                    color: black;
-                    text-decoration: none;
-                }
-            }
-        }
-        &_text {
-            color: white;
-            font-size: 16px;
-        }
-    }
+    padding: 0;
 }
