@@ -1,33 +1,17 @@
 import React from "react";
+import styles from '../../styles/contact.module.scss';
+import { Link } from "react-router-dom";
+import classnames from "classnames";
 
 let Description = function statelessFunctionComponentClassName() {
     return (
-            <section className="contact-info-section">
-                <div className="contact-info-row">
-                    <div className="text-align-right contact-info-heading">
-                        <h2 className="text-align-right icon-row-heading register-icon-title">
-                            we're here for you
-                        </h2>
-                    </div>
+        <div className={classnames('gridish-container--complete', 'gridish-grid')}>
+            <Link className={styles.actionButtonLink} to="/contact/">
+                <div className={styles.actionButton}>
+                    <p className={styles.actionButtonText}>send message</p>
                 </div>
-                <figure className="contact-info-icon">
-                    <img
-                        className="icon-image icon-contact"
-                        src="../assets/graphics/icons/mail.svg"
-                        alt="contact-Info-Icon"
-                    />
-                </figure>
-                <div className="contact-info-message">
-                    <p>
-                        Any questions or concerns? Perhaps you're interested in
-                        speaking or sponsoring?
-                    </p>
-                    <p>Maybe we already have an answer to your question.</p>
-                    <a className="text-uppercase" href="register.php">
-                        Register Now &rarr;
-                    </a>
-                </div>
-            </section>
+            </Link>
+        </div>
     );
 };
 

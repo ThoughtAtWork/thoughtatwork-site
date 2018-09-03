@@ -1,0 +1,27 @@
+@import "main";
+
+:local(.actionButtonLink) {
+    text-decoration: none;
+    margin: auto;
+}
+
+:local(.actionButton) {
+    width: 624px;
+    height: 40px;
+    border-radius: 32px;
+    background-color: $red;
+    border-color: $red;
+}
+
+:local(.actionButton:hover) {
+    background-color: $light-red;
+    border-color: $light-red;
+}
+
+:local(.actionButtonText) {
+    color: white;
+    font-family: "FS Elliot", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
