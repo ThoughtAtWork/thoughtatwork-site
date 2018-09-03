@@ -1,8 +1,10 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import * as animationData from './data.json';
+import classnames from 'classnames';
+import styles from '../../styles/nav.module.scss';
 
-class Animation extends React.Component {
+class Clouds extends React.Component {
 
   constructor(props) {
     super(props);
@@ -23,12 +25,12 @@ class Animation extends React.Component {
       }
     };
 
-    return <div className="cs-animation">
+    return <div className={classnames(styles.clouds)}>
       <Lottie options={defaultOptions}
-        width={376}
+        
       />
     </div>;
   }
 }
 
-export default Animation;
+export default Clouds;

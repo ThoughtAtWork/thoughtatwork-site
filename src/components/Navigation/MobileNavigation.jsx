@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import styles from '../../styles/nav.module.scss';
 import classnames from 'classnames';
 import navLogo from '../../assets/images/navLogo.svg';
+import Clouds from './Clouds.jsx';
 
 
 export class MobileNavigation extends Component {
@@ -68,7 +69,8 @@ export class MobileNavigation extends Component {
             </button>
           </div>
         </nav>
-        <div className={classnames(mobileNav)}>
+        <div className={classnames(mobileNav, 'dotGrid-background')}>
+          <Clouds/>
           <div className={classnames(styles.mobileNav_Open_Container)}>
             <Link
               to="/Home"

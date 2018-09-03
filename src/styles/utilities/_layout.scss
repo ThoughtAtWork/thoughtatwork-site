@@ -1,13 +1,17 @@
 //
 // Floats
 //
-
 body {
-  background-color: $color-background;
+    background-color: $color-background;
 }
 
-.container {
-   max-width: 1280px;
+.dotGrid-background {
+    background-color: $color-background;
+    background-image: radial-gradient(#F4F4F4 12.5%, transparent 0),
+        radial-gradient(#F4F4F4 12.5%, transparent 0);
+    background-size: 31px 31px;
+    background-position: 0 0,
+        15.5px 15.5px;
 }
 
 .clearfix {
@@ -28,6 +32,7 @@ body {
     &-left {
         float: left;
     }
+
     &-right {
         float: right;
     }
@@ -36,7 +41,6 @@ body {
 //
 // Flex
 //
-
 .flex {
     display: flex;
 
@@ -157,6 +161,7 @@ body {
         &-grow {
             flex: 1;
         }
+
         &-shrink {
             flex: 0;
         }
@@ -177,7 +182,7 @@ body {
         speak: normal;
     }
 
-    &-inline{
+    &-inline {
         display: inline;
         speak: normal;
     }
@@ -191,7 +196,6 @@ body {
 //
 // Position
 //
-
 .position {
     &-fixed {
         position: fixed;
@@ -206,7 +210,6 @@ body {
     }
 }
 
-
 // Applies to all pages to allow for fixed navbar
 .container {
     padding-top: 80px;
@@ -218,4 +221,3 @@ body {
 .noScroll {
     overflow: hidden !important;
 }
-
