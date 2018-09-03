@@ -11,7 +11,7 @@ export class DesktopNavigation extends Component {
       <div>
         <MediaQuery minDeviceWidth={880}>
           <nav className={classnames(styles.navContainer)}>
-            <div className={classnames(styles.navElements)}>
+            <div className={classnames(styles.navElements, 'flex flex-justify gridish-container--complete')}>
               <Link
                 to="/Home"
                 className={classnames(styles.logo)}
@@ -21,7 +21,7 @@ export class DesktopNavigation extends Component {
                   src={navLogo}
                 />
               </Link>
-              <div className={classnames(styles.pages)}>
+              <div className={classnames('flex flex-align-center')}>
                 <Link
                   to="/Home"
                   className={classnames(styles.link, styles.navElement)}

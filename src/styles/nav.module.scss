@@ -17,15 +17,21 @@
 }
 
 :local(.logo) {
-    margin-left: 0px;
-    @include media ('<880') {
-        margin-right: auto;
-        margin-left: 40px;
+    margin-right: auto;
+    // margin-left: 40px;
+    @include media ('<880px') {
+        margin-left: 0px;
     }
 }
 
 :local(.navElement) {
     display: block;
+}
+
+:local(.clouds) {
+    position: fixed;
+    background: none;
+    margin-top: 7vh;
 }
 
 :local(.link) {
@@ -35,13 +41,13 @@
     color: $purpleblack;
     text-decoration: none;
     text-transform: lowercase;
-    margin-left: 0px;
-    font-size: 24px;
-    margin-bottom: 45px;
+    font-size: 18px;
+    margin-left: 48px;
 
-    @include media-query('medium') {
-        font-size: 18px;
-        margin-left: 48px;
+    @include media ('<880px') {
+        font-size: 24px;
+        margin-left: 0px;
+        margin-bottom: 45px;
     }
 }
 
@@ -50,7 +56,6 @@
     height: 40px;
     background: $purpleblack;
     border-radius: 32px;
-    margin-right: 40px;
     margin-left: 56px;
     border: none;
     cursor: pointer;
@@ -63,14 +68,12 @@
     border-radius: 32px;
     border: none;
     cursor: pointer;
-
     @include media ('<sm') {
         width: 147px;
     }
 }
 
 :local(.mobileNav_Open) {
-    background: #fff;
     height: 100%;
     margin-top: -58px;
     width: 100%;
@@ -102,7 +105,7 @@
     border-radius: 32px;
     text-decoration: none;
     $min_width: $xs;
-    $max_width: $sm;
+    $max_width: $md;
     $min_font: 18px;
     $max_font: 16px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
@@ -126,5 +129,5 @@
 
 :local(.menu) {
     padding: 0;
-    margin-top: 4px;
+    padding-top: 4px;
 }
