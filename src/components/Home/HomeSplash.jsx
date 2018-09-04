@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
-import Home from '../components/Home/index';
+import SplashAnimation from './SplashAnimation';
 
-export class home extends Component {
+export default class HomeSplash extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
+
     };
   }
 
   render() {
     return (
-      <div>
-        <Home/>
-      </div>
+      <SplashAnimation />
     );
   }
 }
-
-export default home;
