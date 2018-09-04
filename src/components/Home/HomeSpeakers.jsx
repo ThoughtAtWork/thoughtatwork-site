@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import classnames from 'classnames';
+import Speaker from './../Speaker/Speaker.jsx';
+
 export default class HomeSpeakers extends Component {
   constructor(props) {
     super(props);
@@ -10,8 +13,9 @@ export default class HomeSpeakers extends Component {
 
   render() {
     return (
-      <div>
-        <h1>our lineup</h1>
+      <div className={classnames('container gridish-padding--top')}>
+        <h1 className={classnames('flex gridish-container--complete')}>our lineup</h1>
+        <Speaker/>
       </div>
     );
   }
