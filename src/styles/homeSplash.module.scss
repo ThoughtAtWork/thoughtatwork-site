@@ -4,10 +4,12 @@
     max-width: 944px;
 }
 :local(.splashSpacing) {
-    padding-top: 32px;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     @include media ('<768px') {
         margin-bottom: 36px
     }
+}
+:local(.splashText__Padding) {
+  padding-top: 48px;
 }
