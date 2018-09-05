@@ -1,16 +1,20 @@
-// @import "../../main";
+@import "../../main";
 
 :local(.headshotContainer) {
-   width: 184px;
-   height: 240px;
+   min-width: 184px;
+   min-height: 240px;
+   height: 31.25vw;
+   width: 23.95vw;
    margin-right: 40px;
    border: 3px solid #000000;
    box-sizing: border-box;
    border-radius: 5px;
 
-    // @include media ('<881px') {
-    //     width: 147px;
-    // }
+    @include media ('>sm') {
+        max-width: 218px;
+        max-height: 285px;
+        margin-right: 48px;
+    }
 }
 :local(.speakerLineup__Scroll) {
   overflow-x: auto;

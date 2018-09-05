@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import SpeakerPhoto from './SpeakerPhoto';
+import SpeakerCarousel from './SpeakerCarousel';
 
 export default class Speaker extends Component {
   render() {
     return (
       <div>
-        <SpeakerPhoto/>
+        <SpeakerCarousel/>
       </div>
     );
   }
