@@ -1,6 +1,6 @@
 # Read me not updated for 2018 site
 ##### Currently 2017 site info below
-
+- use ```sudo``` and  ```--unsafe-perm```
 ---
 
 
