@@ -1,0 +1,79 @@
+// @import "../../main";
+
+:local(.headshotContainer) {
+   width: 184px;
+   height: 240px;
+   margin-right: 40px;
+   border: 3px solid #000000;
+   box-sizing: border-box;
+   border-radius: 5px;
+
+    // @include media ('<881px') {
+    //     width: 147px;
+    // }
+}
+:local(.speakerLineup__Scroll) {
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+      display: none;
+  }
+  -webkit-overflow-scrolling: touch;
+}
+
+
+// --- Animation, stop trying to do stuff you don't know is a good idea, it's a waste of time
+
+// // @import "../../main";
+// :local(.headshotContainer) {
+//     width: 184px;
+//     height: 240px;
+//     margin-right: 40px;
+//     border: 3px solid #000000;
+//     box-sizing: border-box;
+//     border-radius: 5px;
+//     // @include media ('<881px') {
+//     //     width: 147px;
+//     // }
+// }
+
+// :local(.speakerLineup__Scroll) {
+//     // overflow-x: auto;
+//     overflow: hidden;
+
+//     &::-webkit-scrollbar {
+//         display: none;
+//     }
+
+//     -webkit-overflow-scrolling: touch;
+// }
+
+// :local(.headshotContainer__marquee) {
+//     position: relative;
+//     // width: 800px;
+//     height: 240px;
+//     animation: speakers_container__scroll 5s ease-in 3;
+//     padding: 3px;
+//     right: 200px;
+
+//     &:hover {
+//         animation-play-state: paused;
+//     }
+// }
+
+// // .img1 {
+// //     width: 150px;
+// //     height: 150px;
+// //     background-color: #f6f6f6;
+// //     margin: 3px;
+// //     float: left;
+// // }
+// /* Make it move */
+// @keyframes speakers_container__scroll {
+//     0% {
+//         left: 800px;
+//     }
+
+//     100% {
+//         left: -800px;
+//     }
+// }

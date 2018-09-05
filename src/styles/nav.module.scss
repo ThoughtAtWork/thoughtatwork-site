@@ -14,7 +14,6 @@
 
 :local(.logo) {
     margin-right: auto;
-    // margin-left: 40px;
     @include media ('<881px') {
         margin-left: 0px;
     }
@@ -77,7 +76,6 @@
     z-index: 5;
     overflow: hidden;
     padding-bottom: 11px;
-    display: flex;
     justify-content: center;
 }
 
@@ -89,6 +87,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 100%
 }
 
 :local(.registerButtonText) {

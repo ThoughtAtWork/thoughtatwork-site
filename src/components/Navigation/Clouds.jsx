@@ -27,7 +27,7 @@ class Clouds extends React.Component {
 
     return <div className={classnames(styles.clouds)}>
       <Lottie options={defaultOptions}
-        
+        width={880}
       />
     </div>;
   }
