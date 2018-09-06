@@ -1,0 +1,24 @@
+@import "../../main";
+
+:local(.sponsorLogo) {
+    width: 14vw;
+    max-width: 185px;
+    max-height: 100px;
+    padding-bottom: 48px;
+// comments need to be in div above logos
+    @include media ('>1024px') {
+        // margin-bottom: 36px;
+        max-width: 185px;
+        width: 28vw;
+        margin-right: 3vw;
+        // container flex flex-align-center flex-justify-between gridish-container--complete gridish-grid
+    }
+    @include media ('<768px') {
+        max-width: 150px;
+        width: 14vw;
+        // container flex flex-align-center gridish-container--complete gridish-grid
+    }
+@include media ('<1024px') {
+    // container flex-align-center flex-justify-between gridish-container--complete gridish-grid
+}
+  }

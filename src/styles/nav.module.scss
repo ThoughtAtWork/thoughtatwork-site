@@ -12,14 +12,9 @@
     z-index: 10;
 }
 
-:local(.navContainer_bottomMargin) {
-    margin-bottom: 11px;
-}
-
 :local(.logo) {
     margin-right: auto;
-    // margin-left: 40px;
-    @include media ('<880px') {
+    @include media ('<881px') {
         margin-left: 0px;
     }
 }
@@ -32,6 +27,7 @@
     position: fixed;
     background: none;
     margin-top: 7vh;
+    pointer-events: none;
 }
 
 :local(.link) {
@@ -44,7 +40,7 @@
     font-size: 18px;
     margin-left: 48px;
 
-    @include media ('<880px') {
+    @include media ('<881px') {
         font-size: 24px;
         margin-left: 0px;
         margin-bottom: 45px;
@@ -68,7 +64,7 @@
     border-radius: 32px;
     border: none;
     cursor: pointer;
-    @include media ('<sm') {
+    @include media ('<881px') {
         width: 147px;
     }
 }
@@ -81,7 +77,6 @@
     z-index: 5;
     overflow: hidden;
     padding-bottom: 11px;
-    display: flex;
     justify-content: center;
 }
 
@@ -93,6 +88,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 100%
 }
 
 :local(.registerButtonText) {
@@ -110,12 +106,8 @@
     $max_font: 16px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 
-    @include media ('<sm') {
+    @include media ('<881px') {
         font-size: 18px;
-    }
-
-    @include media ('>sm') {
-        font-size: 16px;
     }
 }
 

@@ -9,7 +9,7 @@ import favicon from '../assets/images/faviconRed.png';
 
 
 const TemplateWrapper = ({children}) => (
-  <div className = 'dotGrid-background container'>
+  < div className = 'dotGrid-background body-container--padding-top' >
     <Helmet
       title="Thought At Work 2018"
       link = {

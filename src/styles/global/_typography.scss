@@ -71,7 +71,7 @@ h2 {
 }
 
 h3 {
-    line-height: 24px;
+    line-height: 115%;
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
@@ -80,9 +80,8 @@ h3 {
     $min_width: $xs;
     $max_width: $lg;
     $min_font: 18px;
-    $max_font: 24px;
+    $max_font: 28px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
-    
 }
 
 p {
