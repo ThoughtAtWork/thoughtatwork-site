@@ -9,17 +9,17 @@ let SpeakerPhoto = function statelessFunctionComponentClass(props) {
 
 
   return (
-    <div>
+    <div className={classnames(styles.speakerCard, styles.speaker_lineup__padding)}>
       <img className={classnames(styles.headshotContainer)}
-        src={__PATH_PREFIX__ + imageURL} 
+        src={__PATH_PREFIX__ + imageURL}
       />
       {/* <img className={classnames(styles.headshotContainer)}
         src={arno}
       /> */}
-      <div>
-        <h2>{props.firstName + ' ' + props.lastName}</h2>
-        <p>{props.position}</p>
-      </div>
+      <h2 className={classnames(styles.speakerCard_text__spacing)}>
+        {props.firstName + ' ' + props.lastName}
+      </h2>
+      <p>{props.position}</p>
     </div>
   );
 };

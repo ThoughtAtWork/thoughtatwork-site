@@ -13,8 +13,8 @@ export default class HomeSpeakers extends Component {
 
   render() {
     return (
-      <div className={classnames('container gridish-padding--top')}>
-        <h1 className={classnames('flex gridish-container--complete gridish-grid__height--small--10 gridish-grid__height--xsmall--9 gridish-grid__height--medium--13')}>our lineup</h1>
+      <div className={classnames('gridish-padding--top')}>
+        <h1 className={classnames('container flex gridish-container gridish-container--complete gridish-grid__height--medium--13 gridish-grid__height--small--10 gridish-grid__height--xsmall--9')}>our lineup</h1>
         <Speaker/>
       </div>
     );

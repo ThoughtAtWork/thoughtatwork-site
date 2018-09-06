@@ -16,7 +16,7 @@ class SpeakerCarousel extends React.Component {
 
   render() {
     return (
-      <div className={classnames(styles.speakerLineup__Scroll, 'flex gridish-container--complete')}>
+      <div className={classnames(styles.speaker_lineup__Carousel, 'flex gridish-container--complete')}>
         <div className={classnames(styles.headshotContainer__marquee, 'flex')}>
           {this.createPeople(data.speakers)}
           <SpeakerPhoto/>
