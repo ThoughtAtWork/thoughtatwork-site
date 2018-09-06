@@ -25,10 +25,9 @@ class Footer extends React.Component {
     return (
       <div className={classnames('footer')}>
         <div className={classnames(
-          // 'flex-align-center',
-          // 'gridish-container',
-          // 'gridish-grid',
-          'footer-sponsors',
+          'flex-align-center',
+          'gridish-container',
+          'gridish-grid',
         )}>
           {this.createSponsors(data.sponsor)}
           {/* <BeSponsor /> */}

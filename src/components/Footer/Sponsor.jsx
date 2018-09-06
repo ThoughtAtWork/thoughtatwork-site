@@ -8,16 +8,14 @@ let Sponsor = function statelessFunctionComponentClass(props) {
   let imageSite = props.imageSite;
 
   return (
-    // <div className={
-    //   classnames(
-    //     'gridish-grid__col--xsmall--2',
-    //     'gridish-grid__col--small--2',
-    //     'gridish-grid__col--medium--2',
-    //     'gridish-grid__height--xsmall--7',
-    //   )}>
-    //   <a href={imageSite} target='_blank'>
-    <div className="logo-card">
-      <a href={imageSite} target="_blank">
+    <div className={
+      classnames(
+        'gridish-grid__col--xsmall--2',
+        'gridish-grid__col--small--2',
+        'gridish-grid__col--medium--2',
+        'gridish-grid__height--xsmall--7',
+      )}>
+      <a href={imageSite} target='_blank'>
         <img className={classnames('sponsor-image', styles.sponsorLogo,)} src={__PATH_PREFIX__ + imageURL} alt={imageName} />
       </a>
     </div>
