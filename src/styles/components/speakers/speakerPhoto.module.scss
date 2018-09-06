@@ -34,15 +34,6 @@
     }
 }
 
-:local(.speaker_lineup__Carousel) {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}
-
 // --- Animation, stop trying to do stuff you don't know is a good idea, it's a waste of time
 // // @import "../../main";
 // :local(.headshotContainer) {
