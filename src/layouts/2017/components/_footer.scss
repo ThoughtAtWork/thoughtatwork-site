@@ -1,0 +1,153 @@
+
+footer {
+    margin-bottom: 50px;
+}
+
+.footer-top {
+    margin-top: 120px;
+    height: 120px;
+    text-align: center;
+
+    .footer-lines {
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+        display: inline;
+    }
+}
+
+.footer-sponsors {
+    max-width: $lg;
+    margin: calc(40px + 5vw) auto;
+    text-align: center;
+
+    @include media('>lg') {
+        margin: 100px auto;
+    }
+
+    .logo-card {
+        display: inline-block;
+        max-width: 300px;
+        width: 24%;
+        height: 140px;
+        line-height: 140px;
+        vertical-align: middle;
+
+        padding: {
+            top: 20px;
+            bottom: 20px;
+        }
+    }
+
+    .sponsor {
+        font-weight: bold;
+        color: $teal;
+
+        border: {
+            color: $teal;
+            width: 1px;
+            style: dashed;
+        }
+
+        height: 60px;
+        line-height: 60px;
+        margin-top: 18px;
+        margin-left: 35px;
+        margin-top: 8px;
+        background-color: white;
+
+        & a {
+            text-decoration: none;
+
+            @include media('<sm') {
+                font-size: 14px;
+            }
+        }
+
+        &-image {
+            max-height: 140px;
+        }
+    }
+
+    .be-sponsor {
+        font-size: 12px;
+        color: $teal;
+        font-weight: bold;
+    }
+}
+
+.footer-bottom {
+    font-size: 12px;
+    margin: 0 auto;
+    max-width: 1024px;
+    margin-bottom: 50px;
+
+    .footer-text {
+        width: 65%;
+        line-height: 16.8px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .footer-p {
+        color: $dark-grey;
+        margin-bottom: 16.9px;
+    }
+
+    .copyright {
+        color: $normal-grey;
+        display: inline-block;
+    }
+
+    .social-media {
+        display: inline;
+        text-align: right;
+
+        .icon {
+            display: inline-block;
+            text-align: right;
+            width: 2.2vw;
+            height: 2.2vw;
+            margin-left: 45px;
+            color: $teal;
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .footer-sponsors {
+        width: inherit;
+
+        .logo-card {
+            width: 45%;
+        }
+
+        .sponsor {
+            margin-left: 20px;
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+
+        .footer-text {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .social-media {
+            width: 100%;
+            text-align: center;
+
+            .icon {
+                margin: 0 3.5vw;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .footer-bottom {
+        margin: 0px 30px;
+    }
+}
