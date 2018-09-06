@@ -17,7 +17,7 @@ export default class HomeAbout extends Component {
       <div className={classnames('gridish-container--complete container gridish-grid')}>
         <h3 className={classnames('gridish-grid__col--medium--5 gridish-grid__col--small--4 gridish-grid__col--xsmall--3 gridish-grid__height--xsmall--10')}>a design conference made for students by students.</h3>
         <img className={classnames('gridish-grid__col--xsmall--4', styles.image)} src={Shapes}/>
-        <h3 className={classnames('gridish-grid__col--medium--5 gridish-grid__col--small--4 gridish-grid__col--xsmall--3 gridish-grid__height--xsmall--10')}>we provide countless talks, design workshops, nightly events and more.</h3>
+        <h3 className={classnames('gridish-grid__col--medium--5 gridish-grid__col--small--4 gridish-grid__col--xsmall--3 gridish-grid__height--xsmall--10 gridish-grid__height--small--18 gridish-grid__height--medium--20')}>we provide countless talks, design workshops, nightly events and more.</h3>
       </div>
     );
   }
