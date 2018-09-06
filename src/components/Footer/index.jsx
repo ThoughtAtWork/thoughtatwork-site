@@ -1,8 +1,7 @@
 import React from 'react';
 import Sponsor from './Sponsor';
-// import FooterBottom from './FooterBottom';
-// import BeSponsor from './BeSponsor';
-import classnames from 'classnames';
+import FooterBottom from './FooterBottom';
+import BeSponsor from './BeSponsor';
 import data from '../../assets/sponsors.json';
 
 class Footer extends React.Component {
@@ -23,16 +22,12 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className={classnames('footer')}>
-        <div className={classnames(
-          'flex-align-center',
-          'gridish-container',
-          'gridish-grid',
-        )}>
+      <div className='footer'>
+        <div className='footer-sponsors'>
           {this.createSponsors(data.sponsor)}
-          {/* <BeSponsor /> */}
+          <BeSponsor />
         </div>
-        {/* <FooterBottom /> */}
+        <FooterBottom />
       </div>
     );
   }

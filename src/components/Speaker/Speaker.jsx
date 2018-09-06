@@ -4,7 +4,9 @@ import SpeakerCarousel from './SpeakerCarousel';
 export default class Speaker extends Component {
   render() {
     return (
-      <SpeakerCarousel/>
+      <div>
+        <SpeakerCarousel/>
+      </div>
     );
   }
 }

@@ -5,7 +5,9 @@ import Speaker from './../Speaker/Speaker.jsx';
 export default class HomeSpeakers extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
+
     };
   }
 
