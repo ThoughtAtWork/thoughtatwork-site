@@ -75,7 +75,7 @@ export class MobileNavigation extends Component {
         </nav>
         <div className={classnames(mobileNav, 'dotGrid-background')}>
           <Clouds/>
-          <div className={classnames(styles.mobileNav_Open_Container)}>
+          <div className={classnames(styles.mobileNav_Open_Container, 'flex-align-center')}>
             <Link
               to="/Home"
               onClick={this.onClick.bind(this)}
