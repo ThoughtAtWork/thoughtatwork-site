@@ -14,17 +14,17 @@ $grid-values: (
       margin: 1.75rem
     ),
     medium: (
-      breakpoint: 64,
-      columns: 12,
+      breakpoint: 59,
+      columns: 8,
       gutter: 1.5rem,
       margin: 1.75rem
     ),
-    large: (
-      breakpoint: 90,
-      columns: 12,
-      gutter: 1.5rem,
-      margin: 1.75rem
-    )
+    // large: (
+    //   breakpoint: 90,
+    //   columns: 12,
+    //   gutter: 1.5rem,
+    //   margin: 1.75rem
+    // )
   ),
   extraArtboards: (
     

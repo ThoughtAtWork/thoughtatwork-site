@@ -17,6 +17,9 @@ export class MobileNavigation extends Component {
   openMenu = () => {
     this.setState({ menuOpen: !this.state.menuOpen });
   }
+  onClick = () => {
+    this.setState({ menuOpen: false });
+  }
 
   render() {
 
@@ -36,6 +39,7 @@ export class MobileNavigation extends Component {
           <div className={classnames(styles.navElements, 'flex-justify-between', 'gridish-container--complete')}>
             <Link
               to="/Home"
+              onClick={this.onClick.bind(this)}
             >
               <img
                 className={classnames(styles.logo, styles.navElement)}
@@ -45,12 +49,12 @@ export class MobileNavigation extends Component {
             <button className={classnames(styles.mobileRegisterButton)}>
               <Link
                 to="/register"
+                onClick={this.onClick.bind(this)}
                 className={classnames(styles.registerButtonText)}
               >
                 get tickets
               </Link>
             </button>
-
             <button
               className={classnames(
                 styles.menu,
@@ -74,6 +78,7 @@ export class MobileNavigation extends Component {
           <div className={classnames(styles.mobileNav_Open_Container)}>
             <Link
               to="/Home"
+              onClick={this.onClick.bind(this)}
               className={classnames(styles.link, styles.navElement)}
               activeStyle={{
                 color: '#FF2350'
@@ -83,6 +88,7 @@ export class MobileNavigation extends Component {
             </Link>
             <Link
               to="/speakers"
+              onClick={this.onClick.bind(this)}
               className={classnames(styles.link, styles.navElement)}
               activeStyle={{
                 color: '#FF2350'
@@ -92,6 +98,7 @@ export class MobileNavigation extends Component {
             </Link>
             <Link
               to="/schedule"
+              onClick={this.onClick.bind(this)}
               className={classnames(styles.link, styles.navElement)}
               activeStyle={{
                 color: '#FF2350'
@@ -102,6 +109,7 @@ export class MobileNavigation extends Component {
 
             <Link
               to="/info-gethere"
+              onClick={this.onClick.bind(this)}
               className={classnames(styles.link, styles.navElement)}
               activeStyle={{
                 color: '#FF2350'

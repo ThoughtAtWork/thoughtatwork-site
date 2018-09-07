@@ -1,0 +1,15 @@
+@import "../../main";
+
+:local(.splashSizing) {
+    max-width: 944px;
+}
+:local(.splashSpacing) {
+    margin: 0 auto;
+    margin-bottom: 68px;
+    @include media ('<768px') {
+        margin-bottom: 36px
+    }
+}
+:local(.splashText__Padding) {
+  padding-top: 48px;
+}
