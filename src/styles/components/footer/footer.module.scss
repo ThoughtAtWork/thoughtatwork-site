@@ -1,24 +1,35 @@
 @import "../../main";
 
 :local(.sponsorLogo) {
-    width: 14vw;
     max-width: 185px;
     max-height: 100px;
     padding-bottom: 48px;
-// comments need to be in div above logos
-    @include media ('>1024px') {
-        // margin-bottom: 36px;
+
+    // comments need to be in div above logos
+    @include media ('>md') {
         max-width: 185px;
-        width: 28vw;
-        margin-right: 3vw;
-        // container flex flex-align-center flex-justify-between gridish-container--complete gridish-grid
-    }
-    @include media ('<768px') {
-        max-width: 150px;
         width: 14vw;
-        // container flex flex-align-center gridish-container--complete gridish-grid
+        margin-right: 3vw;
+        display: flex;
+        justify-content: space-between;
     }
-@include media ('<1024px') {
-    // container flex-align-center flex-justify-between gridish-container--complete gridish-grid
+
+    @include media ('<sm') {
+        max-width: unset;
+        display: flex;
+        width: 82%;
+        max-width: 180px;
+    }
+
+    @include media ('>sm') {
+        width: 17vw;
+    }
+
+    @include media ('<md') {
+        justify-content: space-between;
+    }
 }
-  }
+
+:local(.sponsorContainer) {
+    padding-right: 0 !important;
+}

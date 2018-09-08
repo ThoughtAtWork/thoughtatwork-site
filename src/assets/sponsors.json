@@ -5,16 +5,6 @@
       "image": "stickermule.svg"
     },
     {
-      "site": "https://www.raymondcorp.com/",
-      "name": "Raymond",
-      "image": "raymond.svg"
-    },
-    {
-      "site": "http://www.wacom.com/",
-      "name": "Wacom",
-      "image": "wacom.svg"
-    },
-    {
       "site": "https://www.invisionapp.com/",
       "name": "Invision",
       "image": "invision.svg"
@@ -40,24 +30,9 @@
       "image": "sg.svg"
     },
     {
-      "site": "https://www.xerox.com",
-      "name": "Xerox",
-      "image": "xerox.svg"
-    },
-    {
-      "site": "http://www.eastman.com/Pages/Home.aspx",
-      "name": "Eastman Chemical",
-      "image": "eastman.svg"
-    },
-    {
       "site": "http://rit.bncollege.com",
       "name": "Barnes and Nobel at RIT",
       "image": "bn.svg"
-    },
-    {
-      "site": "http://www.core77.com/",
-      "name": "Core 77",
-      "image": "core77.svg"
     },
     {
       "site": "https://www.rit.edu/fa/hub/",
