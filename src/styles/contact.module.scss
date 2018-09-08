@@ -2,7 +2,6 @@
 
 :local(.actionButtonLink) {
     text-decoration: none;
-    margin: auto;
 }
 
 :local(.actionButton) {
@@ -11,6 +10,14 @@
     border-radius: 32px;
     background-color: $red;
     border-color: $red;
+    @include media("<768px") {
+        width: 559px;
+        height: 40px;
+    }
+    @include media("<376px") {
+        width: 332px;
+        height: 32px;
+    }
 }
 
 :local(.actionButton:hover) {
@@ -24,4 +31,50 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
+    text-align: center;
+}
+
+:local(.enterField) {
+    width: 332px;
+    height: 44px;
+    border: solid #BDBDBD;
+    border-radius: 100px;
+    font-family: "FS Elliot", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 12px;
+    margin: 44px auto;
+    
+    @include media("<376px") {
+        width: 328px;
+        height: 36px;
+    }
+}
+
+:local(.textArea) {
+    width: 623px;
+    height: 88px;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 16px;
+    border: solid #BDBDBD;
+    resize: none;
+    margin: 44px auto;
+    
+    @include media("<1024px") {
+        width: 623px;
+        height: 36px;
+    }
+
+    @include media("<768px") {
+        width: 560px;
+        height: 36px;
+    }
+
+    @include media("<376px") {
+        width: 328px;
+        height: 36px;
+    }
 }
