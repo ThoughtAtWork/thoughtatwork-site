@@ -29,15 +29,19 @@ h1 {
     $min_font: 36px;
     $max_font: 60px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
     @include media ('>xs') {
         font-size: 36px;
     }
+
     @include media ('>sm') {
         font-size: 48px;
     }
+
     @include media ('>md') {
         font-size: 48px;
     }
+
     @include media ('>lg') {
         font-size: 60px;
     }
@@ -55,14 +59,17 @@ h2 {
     $min_font: 24px;
     $max_font: 36px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
     @include media ('>xs') {
         line-height: 32px;
         font-size: 24px;
     }
+
     @include media ('>sm') {
         line-height: 38px;
         font-size: 28px;
     }
+
     @include media ('>lg') {
         line-height: 49px;
         font-size: 36px;
@@ -86,20 +93,21 @@ h3 {
 p {
     font-style: normal;
     font-weight: normal;
-    line-height: 19px;
-    font-size: 14px;
+    line-height: 22px;
+    font-size: 16px;
     color: $purpleblack;
-    $min_width: $sm;
-    $max_width: $lg;
-    $min_font: 14px;
-    $max_font: 24px;
+    $min_width: $xs;
+    $max_width: $sm;
+    $min_font: 16px;
+    $max_font: 18px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
     @include media ('>xs') {
-        line-height: 19px;
-        font-size: 14px;
+        line-height: 26px;
     }
+
     @include media ('>sm') {
-        line-height: 24px;
+        line-height: 26px;
         font-size: 18px;
     }
 }
@@ -108,10 +116,25 @@ Link {
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 14px;
     letter-spacing: 0.05em;
     text-decoration-line: underline;
+    line-height: 22px;
+    font-size: 16px;
     color: $purpleblack;
+    $min_width: $xs;
+    $max_width: $sm;
+    $min_font: 16px;
+    $max_font: 18px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
+    @include media ('>xs') {
+        line-height: 26px;
+    }
+
+    @include media ('>sm') {
+        line-height: 26px;
+        font-size: 18px;
+    }
 }
 
 b,
@@ -133,8 +156,23 @@ a {
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 14px;
     letter-spacing: 0.05em;
     text-decoration-line: underline;
+    line-height: 22px;
+    font-size: 16px;
     color: $purpleblack;
+    $min_width: $xs;
+    $max_width: $sm;
+    $min_font: 16px;
+    $max_font: 18px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
+    @include media ('>xs') {
+        line-height: 26px;
+    }
+
+    @include media ('>sm') {
+        line-height: 26px;
+        font-size: 18px;
+    }
 }
