@@ -6,7 +6,7 @@ import Link from 'gatsby-link';
 export default class AboutUs extends Component {
   render() {
     return (
-      <div className={classnames('gridish-container gridish-container--complete gridish-grid')}>
+      <div className={classnames('container gridish-container gridish-container--complete gridish-grid')}>
         <p className={classnames('gridish-grid__col--small--4 gridish-grid__col--xsmall--4 gridish-grid__height--small--28 gridish-grid__height--xsmall--22', styles.footer_text__maxWidth, styles.footer_text__bottomMargin)}> <strong>Thought At Work</strong> started as a small Industrial Design conference in 2002 but
          now caters to over 400 designers with speakers and attendees coming various fields in design. Organized exclusively
          by students at RIT, the conference strives to function as a tool for young designers to advance their careers

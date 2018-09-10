@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import styles from '../../styles/nav.module.scss';
+import styles from '../../styles/components/nav.module.scss';
 import classnames from 'classnames';
 import navLogo from '../../assets/images/navLogo.svg';
 import Clouds from './Clouds.jsx';
