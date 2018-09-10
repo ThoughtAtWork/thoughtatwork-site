@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import Link from 'gatsby-link';
 import navLogo from '../../assets/images/navLogo.svg';
 import MediaQuery from 'react-responsive';
-import styles from '../../styles/nav.module.scss';
+import styles from '../../styles/components/nav.module.scss';
 
 export class DesktopNavigation extends Component {
   render() {

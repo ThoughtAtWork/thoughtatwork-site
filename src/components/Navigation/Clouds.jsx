@@ -2,7 +2,7 @@ import React from 'react';
 import Lottie from 'react-lottie';
 import * as animationData from './data.json';
 import classnames from 'classnames';
-import styles from '../../styles/nav.module.scss';
+import styles from '../../styles/components/nav.module.scss';
 
 class Clouds extends React.Component {
 
