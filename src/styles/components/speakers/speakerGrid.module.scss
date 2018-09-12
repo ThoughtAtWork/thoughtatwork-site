@@ -19,20 +19,3 @@
         margin-top: 56px;
     }
 }
-
-:local(.speakerCard) {
-    min-width: 184px;
-    width: 23.95vw;
-
-    @include media ('>sm') {
-        max-width: 218px;
-    }
-}
-
-:local(.speaker_lineup__padding) {
-    margin-right: 40px;
-
-    @include media ('>sm') {
-        margin-right: 48px;
-    }
-}

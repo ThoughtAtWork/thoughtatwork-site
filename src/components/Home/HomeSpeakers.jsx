@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import Speaker from './../Speaker/Speaker.jsx';
+import SpeakerCarousel from './../Speaker/SpeakerCarousel.jsx';
+import Link from 'gatsby-link';
 
 export default class HomeSpeakers extends Component {
   constructor(props) {
@@ -11,9 +12,17 @@ export default class HomeSpeakers extends Component {
 
   render() {
     return (
-      <div className={classnames('gridish-padding--top')}>
-        <h1 className={classnames('content-Block--margin-top container flex gridish-container gridish-container--complete gridish-grid__height--small--14 gridish-grid__height--xsmall--13')}>our lineup</h1>
-        <Speaker/>
+      <div>
+        <div className={classnames('content-Block--margin-top flex flex-column container gridish-container gridish-container--complete')}>
+          <h1 className={classnames('gridish-grid__height--medium--12 gridish-grid__height--small--10 gridish-grid__height--xsmall--8')}>our lineup</h1>
+          <Link
+            className={classnames('gridish-grid__height--small--8 gridish-grid__height--xsmall--7')}
+            to="/Speakers"
+          >
+            View All Speakers
+          </Link>
+        </div>
+        <SpeakerCarousel />
       </div>
     );
   }
