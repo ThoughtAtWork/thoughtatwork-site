@@ -1,6 +1,6 @@
 @import "../../media";
 
-:local(.headshotContainer) {
+:local(.grid_cardContainer) {
     min-height: 240px;
     height: 31.25vw;
     border: 3px solid #000000;
@@ -13,6 +13,6 @@
 }
 
 :local(.speakerCard_text__spacing) {
-  padding-top: 16px;
-  padding-bottom: 8px;
+    padding-top: 16px;
+    padding-bottom: 8px;
 }

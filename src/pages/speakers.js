@@ -1,11 +1,9 @@
 import React from 'react';
-import CardKeynoteSpeaker from '../components/CardKeynoteSpeaker';
-import CardGridSpeaker from '../components/CardGridSpeaker';
+import SpeakerGrid from '../components/Speaker/SpeakerGrid';
 
 const SpeakerPage = () => (
   <div className="container">
-    <CardKeynoteSpeaker />
-    <CardGridSpeaker />
+    <SpeakerGrid/>
   </div>
 );
 

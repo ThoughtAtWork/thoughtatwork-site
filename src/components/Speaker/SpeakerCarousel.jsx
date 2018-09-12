@@ -7,7 +7,11 @@ import styles from '../../styles/components/speakers/speakerCarousel.module.scss
 class SpeakerCarousel extends React.Component {
 
   createPerson = (person) => {
-    return <SpeakerPhoto imageURL={person.image} key={person.lastName} firstName={person.firstName} lastName={person.lastName} position={person.position}/>;
+    return (
+      <div className={classnames(styles.speakerCard, styles.speaker_lineup__padding)}>
+        <SpeakerPhoto key={person.lastName} firstName={person.firstName} lastName={person.lastName} position={person.position} />
+      </div>
+    );
   };
 
   createPeople = (people) => {
@@ -16,10 +20,12 @@ class SpeakerCarousel extends React.Component {
 
   render() {
     return (
-      <div className={classnames(styles.speaker_lineup__Carousel, 'flex gridish-container--complete')}>
-        <div className={classnames('flex')}>
-          {this.createPeople(data.speakers)}
-          <SpeakerPhoto/>
+      <div>
+        <div className={classnames(styles.speaker_lineup__Carousel, 'flex gridish-container--complete')}>
+          <div className={classnames('flex')}>
+            {this.createPeople(data.speakers)}
+            <SpeakerPhoto />
+          </div>
         </div>
       </div>
     );

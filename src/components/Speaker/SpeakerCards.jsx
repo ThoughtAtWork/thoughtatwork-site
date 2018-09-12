@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import styles from '../../styles/components/speakers/speakerPhoto.module.scss';
+import styles from '../../styles/components/speakers/speakerCards.module.scss';
 
 let SpeakerPhoto = function statelessFunctionComponentClass(props) {
   // let imageURL = './assets/speaker-headshots/' + {props.firstName + '_' + props.lastName + '.jpg'};
@@ -8,8 +8,12 @@ let SpeakerPhoto = function statelessFunctionComponentClass(props) {
 
 
   return (
-    <div>
-      <img className={classnames(styles.headshotContainer)}
+    <div className={classnames(
+      'gridish-grid__col--xsmall--2',
+      'gridish-grid__col--small--2',
+      'gridish-padding--right')}
+    >
+      <img className={classnames(styles.grid_cardContainer)}
         src={__PATH_PREFIX__ + imageURL}
       />
       {/* <img className={classnames(styles.headshotContainer)}
@@ -20,6 +24,8 @@ let SpeakerPhoto = function statelessFunctionComponentClass(props) {
       </h2>
       <p>{props.position}</p>
     </div>
+
+
   );
 };
 
