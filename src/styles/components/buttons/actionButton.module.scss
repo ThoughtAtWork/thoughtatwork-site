@@ -1,0 +1,19 @@
+@import "../../media";
+
+:local(.actionButton) {
+    width: 200px;
+    height: 32px;
+    left: calc(50% - 200px/2);
+    top: calc(50% - 32px/2 - 13.5px);
+    box-sizing: border-box;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+:local(.actionButton__text) {
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+}

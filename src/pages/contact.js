@@ -1,11 +1,5 @@
-import React from "react";
-import Contact from "../components/Contact";
-
-function encode(data) {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-}
+import React from 'react';
+import Contact from '../components/Contact';
 
 export default class ContactPage extends React.Component {
   constructor(props) {
@@ -13,26 +7,14 @@ export default class ContactPage extends React.Component {
     this.state = {};
   }
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-
-  handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-
-    e.preventDefault();
-  };
-
   render() {
     return (
       <div>
         <Contact />
+<<<<<<< HEAD
+=======
+        
+>>>>>>> decd46c5e5ba58f29b5d41e9500d5eac73abc297
       </div>
     );
   }

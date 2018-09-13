@@ -20,7 +20,18 @@ body {
   @include media('<sm') {
     margin-top: 80px;
   }
+}
 
+.about-Block--margin-top {
+    margin-top: 80px;
+
+    @include media('<md') {
+        margin-top: 80px;
+    }
+
+    @include media('<sm') {
+        margin-top: 56px;
+    }
 }
 
 .container {
@@ -227,8 +238,7 @@ body {
 
 // Applies to all pages to allow for fixed navbar
 .body-container--padding-top {
-    padding-top: 80px;
-    // z-index: -1;
+    padding-top: 147px;
     position: relative;
 }
 

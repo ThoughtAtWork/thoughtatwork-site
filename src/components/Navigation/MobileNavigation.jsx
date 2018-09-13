@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import styles from '../../styles/nav.module.scss';
+import styles from '../../styles/components/nav.module.scss';
 import classnames from 'classnames';
 import navLogo from '../../assets/images/navLogo.svg';
 import Clouds from './Clouds.jsx';
@@ -75,7 +75,7 @@ export class MobileNavigation extends Component {
         </nav>
         <div className={classnames(mobileNav, 'dotGrid-background')}>
           <Clouds/>
-          <div className={classnames(styles.mobileNav_Open_Container)}>
+          <div className={classnames(styles.mobileNav_Open_Container, 'flex-align-center')}>
             <Link
               to="/Home"
               onClick={this.onClick.bind(this)}

@@ -2,16 +2,12 @@
 	"speakers": [
     {
       "fields": "Industrial Design | Education",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Josh",
       "lastName": "Owen",
       "position": "Professor and Chair of Industrial Design",
       "company": "RIT",
       "bio": "Josh Owen is a designer, professor and the chair of Industrial Design at Rochester Institute of Technology in Rochester, New York. His work has been featured at the Venice Biennale and is in the permanent design collections of the Centre Georges Pompidou, Corning Museum of Glass, Chicago Athenaeum, Musée des Beaux-Arts de Montreal, National Museum of American Jewish History, Philadelphia Museum of Art, and the Taiwan Design Museum, among others. Significant manufacturers in the U.S. and Europe produce his home/design, furniture, and office products, which are regularly featured in design books, periodicals and in critical design discourse. Owen’s “Build” and “Meta” design academic projects have successfully pioneered integrated practice pedagogy for the field of Industrial Design. He is author of two books - Big Ideas/Small Packages published in 2005 by Woodsphere Press and Lenses for Design published in 2016 by RIT Press.",
-      "socialMedia": [{
-        "media": "",
-        "url": ""
-      }],
+      "links": "",
       "presentations": [{
         "title": "Product Timecapsule Archive Study Collection",
         "desc": "This session will introduce attendees to the artifacts of process associated with this special collection that is being developed at RIT. Participants will hear from Professor and Chair of Industrial Design at RIT, Josh Owen, ID Grad Student David Villarreal and ID Junior Kaitlyn Gilmor about how this collection is used by students, faculty, researchers in the field."
@@ -21,16 +17,12 @@
 
     {
       "fields": "Industrial Design",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Anita",
       "lastName": "Casale",
       "position": "Director of Design Strategy and Operations",
       "company": "Nike / Converse",
       "bio": "With nearly 25 years of experience in the sportswear industry at companies like New Balance, Adidas, and Converse Nike, Anita has evolved her skills through product design, design operations and most recently design strategy. This has given her direct insight on what it takes to be a valuable part of an organization, starting all the way from entry level to being a design leader and strategic business partner among executives. She loves the energy that is generated when tackling new problems and making the complex simple. This enables Anita to create meaningful and lasting legacies in the brands she designs for.",
-      "socialMedia": [{
-        "media": "",
-        "url": "https://www.converse.com/us/en_us/c/converse"
-      }],
+      "links": "",
       "presentations": [{
         "title": "From My Career to Yours",
         "desc": "With 25 years of experience, Anita has a storied career in product, corporate design and design strategy to share. Starting as a student at RIT to now Head of Design Operations at Converse, follow Anita through her career path and experiences in the professional world as a designer and creative and learn how you can empower yourself as a person and as a designer."
@@ -46,10 +38,7 @@
       "position": "Creative Director",
       "company": "Imaginary Forces",
       "bio": "Jeremy is a designer and director for film and television. His curiosity and love of art and technology have pushed him to experiment and learn. He has spent the last 10 years at Imaginary Forces in New York City, wearing many hats in the process. /nHe’s worked on TV commercials, network branding, and game cinematics for clients such as HBO, ESPN, Google, Microsoft, and National Geographic. He has contributed to title sequences for Mad Men, Boardwalk Empire, Terminator: Salvation, Hell on Wheels, Rubicon, and most recently WGN’s Manhattan. Oh, and did we mention he’s won an Emmy Award?",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://Imaginaryforces.com"
-      }],
+      "links": "",
       "presentations": [{
         "title": "Design in Motion: Lessons from the Trenches",
         "desc": "What is a good title sequence? What goes into designing a title sequence? Where does that elusive spark of inspiration come from? How do you bring your idea to life in a unique way? Using Motion Graphics, one of the newest, fastest growing, and most exciting fields today, Jeremy will dive into the process behind his recent work, sharing insights and lessons learned in over a decade as a Designer, Animator, and Director at Imaginary Forces."
@@ -65,10 +54,7 @@
       "position": "Designer, Illustrator, and Professor",
       "company": "RIT",
       "bio": "Miguel is a designer, illustrator, and creative coder. After studying both new media design and industrial design at RIT, he now specializes in designing and developing interactive projects for companies like Kodak, Nick.com, Xerox and McNeil Nutritionals. He currently teaches in the New Media Design program at RIT. In the past, he's helped to build imgix.com as the Lead Designer and co-founded Dumbwaiter design, a Rochester based interactive agency.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://miggi.me"
-      }],
+      "links": "",
       "presentations": [{
           "title": "Animated GIFs: Creation, Optimization & Alternatives",
           "desc": "You’ve seen them; brief snippets of video or animation meant to get a laugh or express how you really feel. They're gifs. Miguel will give a brief history on the art and design of Animated GIFs, how to make them, how to fully optimize them, and when it’s best to use alternatives. Miguel will demonstrate various tools and methods for creating and getting short form motion animations and video onto the web, and how best to use them."
@@ -89,10 +75,7 @@
       "position": "Motion Design Consultant & Professor",
       "company": "Austin Shaw LLC and SCAD",
       "bio": "Austin Shaw is currently a Professor of Motion Media Design at the Savannah College of Art and Design. Before that he taught at the School of Visual Arts in New York City, and for the past 15 years, he’s worked as a motion designer. His portfolio includes brands such as Target, Ferrari, Fedex, McGraw Hill, Ralph Lauren, and VH1. He’s also worked as a creative director, designer, and animator for companies such as Superfad, Digital Kitchen, Brand New School, and Curious Pictures. On top of all that in Austin’s spare time, he wrote the book Design for Motion: Fundamentals and Techniques of Motion Design.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://austinshaw.com"
-      }],
+      "links": "",
       "presentations": [{
         "title": "Design for Motion: Concept Development Exercises",
         "desc": "Prime into the art of motion graphics with Austin Shaw, professor and accomplished motion designer. With examples of where animation meets design, Austin will go into the history of motion graphics, their design, and what makes an excellent piece of motion design. Students will use the fundamentals of pen and paper to sketch out proper and quality conceptual work for their future motion graphic creations."
@@ -102,16 +85,12 @@
 
     {
       "fields": "Graphic Design",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Mitch",
       "lastName": "Goldstein",
       "position": "Assistant Professor",
       "company": "RIT",
       "bio": "Mitch Goldstein is an artist and designer based out of upstate New York, where he teaches in the School of Design at Rochester Institute of Technology. His work mixes a variety of digital/analog materials and methods, such as wet darkroom photography, laser cutting, digital imaging, printmaking, sculpture, and 3D printing. Working in collaboration with his wife and partner, Anne Jordan, they have created many award-winning book cover designs, receiving awards from Print, Graphics, Design Observer, CommArts, HOW, Type Director's Club, the University & College Designers Association, the Association of American University Presses, among others. Goldstein has taught, lectured, and given workshops at institutions around the country including Rhode Island School of Design, Maryland Institute College of Art, Virginia Commonwealth University, Cranbrook Academy of Art, and many others.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://mitchgoldstein.com"
-      }],
+      "links": "",
       "presentations": [{
           "title": "Dear Design Student",
           "desc": "You learn a ton of stuff at school. This talk is about all of the other stuff you should know too, like how to get the most out of the experience, what your teachers (and future employers) are really looking for, why design is not the only thing you should be paying attention to, and a bunch of other stuff that’s not on the syllabus. Bring your questions with you, as this session will have lots of time for Q&A."
@@ -126,16 +105,12 @@
 
     {
       "fields": "Industrial Design | UX Design",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Tim",
       "lastName": "Wood",
       "position": "Assistant Professor",
       "company": "RIT",
       "bio": "Tim Wood is currently an Assistant Professor of Industrial and Interaction Design at RIT. Tim is most interested in emerging technologies, the frontiers of interaction design, and how these two areas are changing the nature of human experience and how we think about design itself. With extensive experience in design strategy, the architecture of interactive systems, and digital product design, he is keenly aware of the changing nature of design and the new roles designers must fill. At RIT, he is committed to ensuring that the next generation of product designers have the right skills to shape the world’s future.Tim holds an MFA in Computer Graphics from RIT, an Advanced Certificate in Interactive Media Development from RIT and a BFA in Design Arts from Memphis College of Art. Before RIT, he was VP of UX and Design at EffectiveUI and before that he was Creative Director for Design Innovation & Advanced Development at Eastman Kodak. Tim is an award-winning designer and an internationally recognized speaker and author on the topic of UX and UI design.",
-      "socialMedia": [{
-        "media": "",
-        "url": ""
-      }],
+      "links": "",
       "presentations": [{
         "title": "Emerging Interface Concepts for Digital and Physical Products",
         "desc": "Tim is here to identify many of the new, critical, and emerging user interface concepts and discuss how the ideas that can be found in these concepts can be best applied to the design of digital and/or physical products in today’s modern world. This workshop has been specifically created and designed to provide you with many brand new ideas that will supercharge your  upcoming projects and jumpstart your creativity as a designer, and all of it just in time for midterms!"
@@ -145,16 +120,12 @@
 
     {
       "fields": "Industrial Design",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Jeff",
       "lastName": "Smith",
       "position": "Education Manager",
       "company": "Autodesk",
       "bio": "Jeff Smith is a passionate industrial designer with nearly 20 years in the industry and a true TAW veteran, returning for the 4th time. He is currently the Education Program Manager at Autodesk. A diverse range of clients gives him the opportunity to work on a cross section of consumer products and markets. A strong supporter of design education, Smith was also an adjunct faculty member at the Art Institute of Ft. Lauderdale for eight years. Currently, he hosts workshops and events at ID programs around the US, such as Virginia Tech, RIT and Georgia Tech. He continues to be an inspiration and friend to the young design world.",
-      "socialMedia": [{
-        "media": "instagram",
-        "url": "https://www.instagram.com/blaster701/"
-      }],
+      "links": "",
       "presentations": [{
           "title": "Design Faster with 3D Modeling: Fusion 360 Workshop",
           "desc": "Looking for a skill booster in your 3D modelling skills? Come to this fast paced workshop session to learn about the next generation of CAD software with design educator Jeff Smith. Learn how to use Autodesk Fusion 360 and bring your product design ideas to life from ideation into execution."
@@ -173,16 +144,12 @@
 
     {
       "fields": "Fine Art | University Relations",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Bryan",
       "lastName": "Shackelford",
       "position": "Innovation Representative",
       "company": "Eastman Innovation Lab",
       "bio": "Bryan is a native of Kokomo, IN, and attended East Tennessee State University and North East Tennessee State Technical College, obtaining degrees in both Fine Arts and Chemistry. Bryan has conducted many university industrial design challenges, workshops, and lectures on the topics of art & science, material selection, sustainability in design, design thinking, and branding. He now serves in Eastman’s World Wide Engineering and Construction division where he is responsible for technology scouting and global communication.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://www.innovationlab.eastman.com/"
-      }],
+      "links": "",
       "presentations": [{
           "title": "Portfolio Tips, Tricks, and Hacks",
           "desc": "Learn with Bryan, how to get started with working on your own portfolio, the best ways for you to spruce it up, make it stand out in a crowd, and or how to direct it toward what you want to be on your first big job. Some things happen to be common for all portfolios and hiring managers out there, and we will more than make sure to cover those."
@@ -197,16 +164,12 @@
 
     {
       "fields": "Design Research/Strategy",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Mark",
       "lastName": "Capper",
       "position": "President",
       "company": "Kompas Strategy",
       "bio": "Mark was among the first “user centered” researchers focusing on customer experience for products, brands and experiential projects. He has over 20 years experience conducting user research and developing design and experience strategy, both as a consultant and within leading organizations. /nHe founded Kompas Strategy in 2009 to help organizations create compelling experiences by using user insight in a “design-thinking” process to optimize strategy for brands, products, and experiences. Some clients include Johnson and Johnson, Colgate-Palmolive, PepsiCo, Xerox, Siemens, BMW, Mercedes-Benz, Bentley, Maserati, Lamborghini, Hyundai. /nMark was also Senior Vice President at Added Value, Director of Strategy and Research for Herbst LaZar Bell, Manager and Director of Research at Hauser. Mark has also worked on the client side at Herman Miller, Baxter Healthcare and 3M Health Care. /nMark has lectured and taught at the University of  Southern California Marshall School of Business, Art Center College of Design, Northwestern University, UCLA Anderson School of Business, the UCLA Extension and Art Institute of Orange County.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://kompasstrategy.com"
-      }],
+      "links": "",
       "presentations": [{
           "title": "Research that Resonates: Laying the Groundwork for Forward-Thinking",
           "desc": "When it comes to design, the most successful experiences share one commonality: a user-centered approach based on customer need, emotion, and motivation. In this presentation, Mark Capper details the powerful combination of research and customer co-creation together. Learn to obtain meaningful cultural and psychological insights prior to ideation and throughout development – so that you can create inspired, strategic concepts for future offerings that won’t launch for 5 years or more. Packed with innovative examples and tips for practical application, this is a crash course in how to ensure a meaningful return on R&D and a fantastic primer for the Generative Workshop to follow."
@@ -221,16 +184,12 @@
 
     {
       "fields": "Motion Graphics",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Tnaya",
       "lastName": "Witmer",
       "position": "Senior Designer",
       "company": "Sarofsky",
       "bio": "Tnaya Witmer is a motion designer based out of Chicago. She is currently a Senior Designer at Sarofsky where she has worked on title sequences for Marvel’s Captain America: The Winter Soldier, Guardians of the Galaxy Vol 1. & Vol 2., Ant-Man, and Captain America: Civil War, as well as commercials for Verizon, Budweiser, Minute Maid and Jeep.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://tnayawitmer.com"
-      }],
+      "links": "",
       "presentations": [{
         "title": "Stand Out!",
         "desc": "Feeling cramped in the design world? Learn how to distinguish yourself and your work from your peers with Tnaya’s tips, tricks and insights gained as a motion graphic designer and creative director for Sarofsky."
@@ -240,16 +199,12 @@
 
     {
       "fields": "Health Care | Architecture",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Christian",
       "lastName": "Perry",
       "position": "Architectural Designer",
       "company": "Clark Patterson Lee / Little Angels of Honduras",
       "bio": "Christian Perry is a passionate Healthcare Designer, Planner, and Architectural Leader working for the Architecture firm Clark Patterson Lee (CPL), located in Rochester, NY.  Previously, Christian worked for the healthcare design firm Ewing Cole in New York City and Philadelphia. He has specialized in healthcare design for the past 4 years. Prior to employment in the United States, Christian lived in Honduras pursuing his passion with Little Angels of Honduras (a charity hoping to reduce infant mortality in the country), healthcare design, social change, and service.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://littleangelsofhonduras.org/"
-      }],
+      "links": "",
       "presentations": [{
         "title": "Architecture is More",
         "desc": "Renowned architect, industrial, and healthcare designer Christian Perry will use his very own experience in the various fields of architecture and design to talk about our responsibilities to the world as designers and creatives, and how best to make use of our specialized skillsets to make the world and the future of it better, just a little bit at a time."
@@ -259,16 +214,12 @@
 
     {
       "fields": "Industrial Design",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Hector",
       "lastName": "Silva",
       "position": "Research Associate Professor",
       "company": "University of Notre Dame",
       "bio": "Hector Silva is the head of the IDSA: Chicago chapter. He is also an Industrial Design consultant at H Design, and has worked with Crate/Barrel, DesignLab, Nickelodeon, Leapfrog, and Foster Gran, as well as with Garmin, MNML, Lunar, and TEAMS Design. In 2016 he received the Core77 Student Notable Consumer Product Award Design Award. Hector was recently named one of \"10 Analogue Sketch Pros You Need To Know\" through Core 77's Coroflot blog. During the summer of 2016, Hector founded the student-led Advanced Design Sketching (ADS) organization to encourage students to be productive during the summer months. ADS provides motivation to students by giving them access to the best designers around the world. From this grew the SQ1 conference, an industrial design and design sketching conference that was held earlier this October. In August 2017, the now associate professor at the University of Notre Dame earned the title of IDSA’s Young Educator of the Year.",
-      "socialMedia": [{
-        "media": "",
-        "url": "https://advdessketch.com/"
-      }],
+      "links": "",
       "presentations": [{
           "title": "Design Yourself",
           "desc": "There’s more to design success than doing the work. Hector Silva, a leader in the design sketching Instagram community, in this talk he will teach you how to effectively use social media platforms to promote yourself, collaborate with brands and build relationships."
@@ -283,16 +234,12 @@
 
     {
       "fields": "Industrial Design",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Greg",
       "lastName": "Smiley",
       "position": "Industrial Design Manager & Head of Design",
       "company": "Raymond Corporation / Toyota Material Handling North America",
       "bio": "Born and raised in New York’s Hudson Valley, Greg Smiley is the industrial design manager for The Raymond Corporation, a lift truck manufacturer in the Toyota Material Handling Group. As TMHG’s lead designer in North America, he coordinates global integration, oversight and advocacy for both the Toyota and Raymond branded products, and represents ID interests in global projects throughout the United States, Canada, Japan, Italy and Sweden. Before Raymond, he had many freelance, corporate, and consultant roles, primarily as a product designer. He also held roles ranging from brand management to user interface and exhibit design. He holds more than 20 material handling patents and two \"Glide Key\" patents for text input on mobile phones.",
-      "socialMedia": [{
-        "media": "",
-        "url": "http://www.idsa.org/members/greg-smiley"
-      }],
+      "links": "",
       "presentations": [
         {
           "title": "IDSA Talks: Life in a Consultancy",
@@ -304,21 +251,12 @@
 
     {
       "fields": "Furniture/Interior Design | Graphic Design",
-      "headshot": "../assets/graphics/speakers/",
       "firstName": "Seth",
       "lastName": "Esthelman",
       "position": "Principal & Founder",
       "company": "Staach",
       "bio": "From a young age, Seth was exposed to architecture, design and carpentry and has been strongly influenced by his schooling in both the United States and Scandinavia. This led him to become the owner and principal designer of Staach, a collaborative design & manufacturing group that adheres strongly to a manifesto of designing with sustainability in mind. Primarily creating furniture and architectural interiors, he has developed an experimental style of design and manufacturing concepts that exceeds the limitations of our contemporary methodologies, and garnered international recognition for this. This approach has lead Staach to the top of their field, allowing them the opportunity to influence others that share their pursuit of creating a sustainable, holistic way of life.",
-      "socialMedia": [{
-          "media": "",
-          "url": "http://staach.com/"
-        },
-        {
-          "media": "instagram",
-          "url": "https://www.instagram.com/staach_inc/?hl=en"
-        }
-      ],
+      "links": "",
       "presentations": [{
         "title": "Wood is Good ",
         "desc": "Learn from Seth in his experience as an entrepreneur running an environmentally conscious furniture and interior architecture design business, Staach."
