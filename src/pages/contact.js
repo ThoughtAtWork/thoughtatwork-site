@@ -11,10 +11,6 @@ export default class ContactPage extends React.Component {
     return (
       <div>
         <Contact />
-<<<<<<< HEAD
-=======
-        
->>>>>>> decd46c5e5ba58f29b5d41e9500d5eac73abc297
       </div>
     );
   }
