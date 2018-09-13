@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import SpeakerCards from './SpeakerCards.jsx';
 import data from '../../assets/speakers.json';
 import classnames from 'classnames';
-import styles from '../../styles/components/speakers/speakerCards.module.scss';
 
 export default class Speaker extends Component {
   createPerson = (person) => {

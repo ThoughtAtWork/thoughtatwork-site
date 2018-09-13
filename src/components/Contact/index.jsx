@@ -4,14 +4,14 @@ import Form from "./Form";
 import Description from "./Description";
 
 class Contact extends React.Component {
-    render() {
-        return (
-            <div>
-                <Description />
-                {/* <Form /> */}
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <Description />
+        <Form />
+      </div>
+    );
+  }
 }
 
 export default Contact;
