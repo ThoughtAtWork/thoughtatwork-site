@@ -36,11 +36,9 @@ class Footer extends React.Component {
           styles.sponsorContainer
         )}>
           {this.createSponsors(data.sponsor)}
-          {/* <BeSponsor /> */}
         </div>
         <h1 className={classnames('about-Block--margin-top container flex gridish-container gridish-container--complete gridish-grid__height--medium--13 gridish-grid__height--small--14 gridish-grid__height--xsmall--12')}>about us</h1>
         <AboutUs/>
-        {/* <FooterBottom /> */}
       </div>
     );
   }

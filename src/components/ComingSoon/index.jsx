@@ -2,7 +2,6 @@ import React from 'react';
 
 import VimeoPlayer from 'react-player';
 import Animation from './Animation.jsx';
-import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Title from './Title.jsx';
 import About from './About.jsx';
@@ -11,7 +10,6 @@ class ComingSoon extends React.Component {
   render() {
     return (
       <div className='cs'>
-        <Header />
         <div className='cs-content'>
           <Title />
           <Animation />

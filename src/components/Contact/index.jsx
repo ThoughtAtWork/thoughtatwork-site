@@ -1,12 +1,13 @@
-import React from "react";
-import Link from "gatsby-link";
-import Form from "./Form";
-import Description from "./Description";
+import React from 'react';
+import Form from './Form';
+import Header from '../Header/index';
+import Description from './Description';
 
 class Contact extends React.Component {
   render() {
     return (
       <div>
+        <Header pageName='contact'/>
         <Description />
         <Form />
       </div>

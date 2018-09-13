@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
 import './2017/styles-2017.scss';
 import '../styles/main.scss';
 import favicon from '../assets/images/faviconRed.png';
@@ -79,7 +78,6 @@ const TemplateWrapper = ({children}) => (
       ]}
     />
     <Navigation/>
-    <Header/>
     {children()}
     <Footer/>
   </div>
