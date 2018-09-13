@@ -16,7 +16,7 @@ export default class AboutUs extends Component {
           <Link
             to="/Contact"
           >
-            <strong>Contact</strong>
+            <strong>Contact Us</strong>
           </Link>
           <br></br>
           <br></br>
