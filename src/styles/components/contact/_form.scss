@@ -1,0 +1,59 @@
+.form {
+    &__margin-top {
+        margin-top: 32px;
+
+        @include media ('>sm') {
+            margin-top: 64px;
+        }
+    }
+
+    &-element {
+      &__label {
+          font-size: 14px;
+           &__red {
+              color: $red;
+          }
+      }
+      &__message__margin-top {
+          margin-top: 64px;
+      }
+    &__margin-top {
+        margin-top: 2px;
+    }
+    &__margin-bottom {
+        margin-bottom: 28px;
+    }
+}
+    &-text_input {
+        &__field {
+            background: white;
+            border: 1.5px solid $grey;
+            border-radius: 18px;
+        }
+        &__text {
+            border: 0;
+            padding: 0;
+            margin: 9px 0;
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+
+    &-padding__bottom {
+        padding-bottom: 80px
+    }
+    &-actionButton {
+      background: $red;
+      border: 3px solid $red;
+      box-sizing: border-box;
+      border-radius: 32px;
+      margin-top: 64px;
+      text-align: center;
+      &__text {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 6px 0;
+      }
+    }
+}

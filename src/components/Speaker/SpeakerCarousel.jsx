@@ -8,8 +8,9 @@ class SpeakerCarousel extends React.Component {
 
   createPerson = (person) => {
     return (
-      <div className={classnames(styles.speakerCard, styles.speaker_lineup__padding)}>
-        <SpeakerPhoto key={person.lastName} firstName={person.firstName} lastName={person.lastName} position={person.position} />
+      <div className={classnames(styles.speakerCard, styles.speaker_lineup__padding)}
+        key={person.lastName}>
+        <SpeakerPhoto firstName={person.firstName} lastName={person.lastName} position={person.position} />
       </div>
     );
   };

@@ -9,12 +9,12 @@ function encode(data) {
 export default class Form extends Component {
   constructor(props) {
     super(props);
-  
+
     this.state = {
-       
+
     };
   }
-  
+
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
@@ -34,84 +34,91 @@ export default class Form extends Component {
   render() {
     return (
       <div>
-        <div>
-          <section className="form-section">
-            <div className="contact-form-heading form-row-heading">
-              <h2 className="form-title form-row-title">get in touch</h2>
+        <form
+          id="contactForm"
+          className="gridish-container--complete form__margin-top"
+          name="contact"
+          method="post"
+          action="/thanks/"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={this.handleSubmit}
+        >
+          <p hidden>
+            <label>
+              Don’t fill this out: <input name="bot-field" />
+            </label>
+          </p>
+
+          <label>
+            <p className={'gridish-grid form-element__label'}>
+              <strong>
+                Full Name
+                <span className={'form-element__label__red'}> *</span>
+              </strong>
+            </p>
+            <div className={
+              'form-text_input__field gridish-container--complete form-element__margin-top form-element__margin-bottom'}>
+              <input
+                type="text"
+                name="name"
+                required
+                onChange={this.handleChange}
+                placeholder="Your Name"
+                className={'form-text_input__text'}
+              />
             </div>
+          </label>
 
-            <p className="text-align-left form-message">How can we help? -</p>
-
-            <div className="form-row">
-              <form
-                id="contactForm"
-                className="input-form grid"
-                name="contact"
-                method="post"
-                action="/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-              >
-                <p hidden>
-                  <label>
-                    Don’t fill this out: <input name="bot-field" />
-                  </label>
-                </p>
-
-                <label>
-                  <div className="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
-                    <input
-                      type="text"
-                      name="name"
-                      onChange={this.handleChange}
-                      className="form-control first-half form__input input-text"
-                      placeholder="Your Name"
-                    />
-                  </div>
-                </label>
-
-                <label>
-                  <div className="input-field grid__col grid__col--1-of-2 grid__col--m-1-of-2">
-                    <input
-                      type="email"
-                      name="email"
-                      onChange={this.handleChange}
-                      className="form-control first-half form__input input-text"
-                      placeholder="Your Email"
-                    />
-                  </div>
-                </label>
-
-                <label>
-                  <div className="input-field form-full-size grid__col grid__col--5-of-5">
-                    <textarea
-                      name="message"
-                      onChange={this.handleChange}
-                      className="form-control form__input contact-message"
-                      placeholder="Your Message"
-                    />
-                  </div>
-                </label>
-
-                <div className="text-align-right">
-                  <button
-                    type="submit"
-                    className="flex-inline flex-align-items-center flex-justify-center action--link--button submit-link"
-                    style={{ marginRight: 17 + "px" }}
-                  >
-                    <input
-                      type="submit"
-                      value="SUBMIT"
-                      className="action--link--button grid__col grid__col--m-1-of-5"
-                    />
-                    <i className="fa fa-long-arrow-right" aria-hidden="true" />
-                  </button>
-                </div>
-              </form>
+          <label>
+            <p className={'gridish-grid form-element__label'}>
+              <strong>
+                Email Address
+                <span className={'form-element__label__red'}> *</span>
+              </strong>
+            </p>
+            <div className={
+              'form-text_input__field gridish-container--complete form-element__margin-top form-element__margin-bottom'}>
+              <input
+                type="email"
+                name="email"
+                required
+                onChange={this.handleChange}
+                placeholder="Your Email"
+                className={'form-text_input__text'}
+              />
             </div>
-          </section>
-        </div>
+          </label>
+
+          <label>
+            <p className={'gridish-grid form-element__label'}>
+              <strong>
+                Message
+                <span className={'form-element__label__red form-element__message__margin-top'}> *</span>
+              </strong>
+            </p>
+            <div className={
+              'form-text_input__field gridish-container--complete form-element__margin-top form-element__margin-bottom'}>
+              <textarea
+                name="message"
+                required
+                onChange={this.handleChange}
+                placeholder="Give us a piece of your mind..."
+                className={'form-text_input__text'}
+                rows="4"
+              />
+            </div>
+          </label>
+
+          <div className="gridish-container--complete form-element__margin-top form-element__margin-bottom form-actionButton">
+            <button
+              type="submit"
+              className="form-actionButton__text"
+            >
+            send message
+            </button>
+          </div>
+        </form>
       </div>
     );
   }
