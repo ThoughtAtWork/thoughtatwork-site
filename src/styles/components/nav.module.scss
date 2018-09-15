@@ -14,8 +14,10 @@
 
 :local(.logo) {
     margin-right: auto;
+    width: 38px;
     @include media ('<881px') {
         margin-left: 0px;
+        width: 36px;
     }
 }
 
@@ -59,13 +61,14 @@
 
 :local(.mobileRegisterButton) {
     width: 162px;
-    height: 40px;
+    height: 38px;
     background: $purpleblack;
     border-radius: 32px;
     border: none;
     cursor: pointer;
     @include media ('<881px') {
         width: 147px;
+        height: 36px;
     }
 }
 
@@ -121,5 +124,4 @@
 
 :local(.menu) {
     padding: 0;
-    padding-top: 4px;
 }

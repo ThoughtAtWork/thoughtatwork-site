@@ -9,7 +9,7 @@ class Contact extends React.Component {
       <div className={classnames()}>
         <Header pageName='contact'/>
         <h3 className={classnames(
-          'gridish-container--complete')}
+          'container gridish-container gridish-container--complete')}
         >Get in touch with us!</h3>
         <Form />
       </div>

@@ -8,52 +8,163 @@
     }
 
     &-element {
-      &__label {
-          font-size: 14px;
-           &__red {
-              color: $red;
-          }
-      }
-      &__message__margin-top {
-          margin-top: 64px;
-      }
-    &__margin-top {
-        margin-top: 2px;
+        &__label {
+            font-size: 14px;
+
+            @include media ('>sm') {
+                font-size: 18px;
+            }
+
+            &__red {
+                color: $red;
+            }
+        }
+
+        &__message__padding-top {
+            padding-top: 32px;
+
+            @include media ('>sm') {
+                padding-top: 48px;
+            }
+        }
+
+        &__margin-bottom {
+            margin-bottom: 28px;
+        }
     }
-    &__margin-bottom {
-        margin-bottom: 28px;
-    }
-}
+
     &-text_input {
         &__field {
             background: white;
             border: 1.5px solid $grey;
             border-radius: 18px;
+            padding: 8px unset 8px unset;
         }
+
         &__text {
             border: 0;
             padding: 0;
-            margin: 9px 0;
             width: 100%;
             font-size: 14px;
+            width: 90%;
+            margin: 8px 8px 8px 16px;
+
+            @include media ('>sm') {
+                font-size: 18px;
+            }
         }
     }
 
     &-padding__bottom {
         padding-bottom: 80px
     }
+
     &-actionButton {
-      background: $red;
-      border: 3px solid $red;
-      box-sizing: border-box;
-      border-radius: 32px;
-      margin-top: 64px;
-      text-align: center;
-      &__text {
-        color: white;
-        font-size: 18px;
-        font-weight: 500;
-        margin: 6px 0;
-      }
+        background: $red;
+        border: 3px solid $red;
+        box-sizing: border-box;
+        border-radius: 32px;
+        margin-top: 48px;
+        height: 44px;
+        text-align: center;
+        transition: background 125ms ease-out, border-color 125ms ease-out, color 125ms ease-out;
+        @include media ('>sm') {
+            margin-top: 64px;
+        };
+        &:hover {
+          background-color: $light-red;
+          cursor: pointer;
+          border-color: $light-red;
+        }
+
+        &__text {
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            margin: 9px 0 0 0;
+            border: 0;
+            padding: 0;
+            background-color: transparent;
+        }
     }
+}
+
+/* Place Holder CSS */
+::-webkit-input-placeholder {
+    color: $purpleblack;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:-moz-placeholder {
+    color: $purpleblack;
+    opacity: 0.5;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+::-moz-placeholder {
+    color: $purpleblack;
+    opacity: 0.5;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:-ms-input-placeholder {
+    color: $purpleblack;
+    opacity: 0.5;
+    -ms-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:hover::-webkit-input-placeholder {
+    opacity: 0.75;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:hover:-moz-placeholder {
+    opacity: 0.75;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:hover::-moz-placeholder {
+    opacity: 0.75;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:hover:-ms-input-placeholder {
+    opacity: 0.75;
+    -ms-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:focus:-moz-placeholder {
+    opacity: 0;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:focus::-moz-placeholder {
+    opacity: 0;
+    -moz-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+:focus:-ms-input-placeholder {
+    opacity: 0;
+    -ms-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
 }

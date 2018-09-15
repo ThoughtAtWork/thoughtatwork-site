@@ -36,7 +36,7 @@ export default class Form extends Component {
       <div>
         <form
           id="contactForm"
-          className="gridish-container--complete form__margin-top"
+          className="container form__margin-top gridish-container--complete gridish-grid"
           name="contact"
           method="post"
           action="/thanks/"
@@ -50,15 +50,16 @@ export default class Form extends Component {
             </label>
           </p>
 
-          <label>
-            <p className={'gridish-grid form-element__label'}>
+          <label className={'flex-align-items-baseline flex-justify-between form-element__margin-bottom gridish-grid'}>
+            <p className={'form-element__label gridish-grid__col--small--2 gridish-grid__col--xsmall--4'}>
               <strong>
                 Full Name
                 <span className={'form-element__label__red'}> *</span>
               </strong>
             </p>
+
             <div className={
-              'form-text_input__field gridish-container--complete form-element__margin-top form-element__margin-bottom'}>
+              'form-element__margin-top form-text_input__field gridish-grid__col--small--5 gridish-grid__col--xsmall--4'}>
               <input
                 type="text"
                 name="name"
@@ -70,15 +71,15 @@ export default class Form extends Component {
             </div>
           </label>
 
-          <label>
-            <p className={'gridish-grid form-element__label'}>
+          <label className={'flex-align-items-baseline flex-justify-between form-element__margin-bottom gridish-grid'}>
+            <p className={'form-element__label gridish-grid__col--small--2 gridish-grid__col--xsmall--4'}>
               <strong>
                 Email Address
                 <span className={'form-element__label__red'}> *</span>
               </strong>
             </p>
             <div className={
-              'form-text_input__field gridish-container--complete form-element__margin-top form-element__margin-bottom'}>
+              'form-element__margin-top form-text_input__field gridish-grid__col--small--5 gridish-grid__col--xsmall--4'}>
               <input
                 type="email"
                 name="email"
@@ -90,15 +91,15 @@ export default class Form extends Component {
             </div>
           </label>
 
-          <label>
-            <p className={'gridish-grid form-element__label'}>
+          <label className={'form-element__message__padding-top flex-justify-between form-element__margin-bottom gridish-grid'}>
+            <p className={'form-element__label gridish-grid__col--small--2 gridish-grid__col--xsmall--4'}>
               <strong>
                 Message
-                <span className={'form-element__label__red form-element__message__margin-top'}> *</span>
+                <span className={'form-element__label__red'}> *</span>
               </strong>
             </p>
             <div className={
-              'form-text_input__field gridish-container--complete form-element__margin-top form-element__margin-bottom'}>
+              'form-element__margin-top form-text_input__field gridish-grid__col--small--5 gridish-grid__col--xsmall--4'}>
               <textarea
                 name="message"
                 required
@@ -110,12 +111,12 @@ export default class Form extends Component {
             </div>
           </label>
 
-          <div className="gridish-container--complete form-element__margin-top form-element__margin-bottom form-actionButton">
+          <div className="gridish-container--complete form-actionButton">
             <button
               type="submit"
               className="form-actionButton__text"
             >
-            send message
+              send message
             </button>
           </div>
         </form>
