@@ -11,7 +11,6 @@ export default class ContactPage extends React.Component {
     return (
       <div>
         <Contact />
-        
       </div>
     );
   }

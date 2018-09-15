@@ -19,7 +19,7 @@ export default class HomeSpeakers extends Component {
             className={classnames('gridish-grid__height--small--8 gridish-grid__height--xsmall--7')}
             to="/Speakers"
           >
-            View All Speakers
+            <strong>View All Speakers</strong>
           </Link>
         </div>
         <SpeakerCarousel />

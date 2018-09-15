@@ -1,14 +1,16 @@
 import React from 'react';
 import Form from './Form';
 import Header from '../Header/index';
-import Description from './Description';
+import classnames from 'classnames';
 
 class Contact extends React.Component {
   render() {
     return (
-      <div>
+      <div className={classnames()}>
         <Header pageName='contact'/>
-        <Description />
+        <h3 className={classnames(
+          'container gridish-container gridish-container--complete')}
+        >Get in touch with us!</h3>
         <Form />
       </div>
     );
