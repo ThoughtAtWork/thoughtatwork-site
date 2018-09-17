@@ -27,14 +27,11 @@ h1 {
     $min_width: $xs;
     $max_width: $lg;
     $min_font: 36px;
-    $max_font: 54px;
+    $max_font: 52px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 
 
     @include media ('>sm') {
-        font-size: 48px;
-    }
-    @include media ('>md') {
         font-size: 48px;
     }
 
