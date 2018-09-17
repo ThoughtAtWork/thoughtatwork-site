@@ -5,7 +5,7 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import './2017/styles-2017.scss';
 import '../styles/main.scss';
-import favicon from '../assets/images/faviconRed.png';
+import favicon from '../assets/images/faviconPurple.png';
 
 
 const TemplateWrapper = ({children}) => (
