@@ -31,7 +31,7 @@ export class DesktopNavigation extends Component {
                 >
                   Home
                 </Link>
-                <Link
+                {/* <Link
                   to="/speakers"
                   className={classnames(styles.link, styles.navElement)}
                   activeStyle={{
@@ -58,7 +58,8 @@ export class DesktopNavigation extends Component {
                   }}
                 >
                   Info
-                </Link>
+                </Link> */}
+                <p className={classnames(styles.link, styles.navElement)}>more info coming soon</p>
                 <button className={classnames(styles.desktopRegisterButton)}>
                   <Link
                     to="/register"

@@ -6,7 +6,7 @@ import styles from '../../styles/components/coc.module.scss';
 export class Text extends Component {
   render() {
     return (
-      <div className={classnames('gridish-grid container gridish-container--complete gri gridish-grid__col--small--4 gridish-grid__col--xsmall--4')}>
+      <div className={classnames('gridish-grid container gridish-container--complete gridish-grid__col--xsmall--4')}>
         <h1 className={styles.coc__maxWidth}>the thought at work code of conduct</h1>
         <p className={styles.paragraph__marginTop}>All delegates, speakers, sponsors and volunteers at any Thought At Work event are required to agree with the following code of conduct. Organizers will enforce this code throughout the event.</p>
         <h2 className='content-Block--margin-top'>short version</h2>
