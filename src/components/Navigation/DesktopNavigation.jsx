@@ -62,8 +62,9 @@ export class DesktopNavigation extends Component {
                 <p className={classnames(styles.link, styles.navElement)}>more info coming soon</p>
                 <button className={classnames(styles.desktopRegisterButton)}>
                   <a
-                    href="http://thoughtatwork.cias.rit.edu/register.php"
+                    href="https://thoughtatwork.cias.rit.edu/register.php"
                     className={classnames(styles.registerButtonText)}
+                    target="_blank"
                   >
                     get tickets
                   </a>

@@ -33,8 +33,6 @@ const TemplateWrapper = ({children}) => (
         { name: 'apple-mobile-web-app-status-bar-style',
           content: 'black' },
         {
-          property: 'og:url', content: 'http://thoughtatwork.cias.rit.edu'
-        }, {
           property: 'og:type',
           content: 'article'
         }, {
@@ -67,7 +65,7 @@ const TemplateWrapper = ({children}) => (
           content: '@TAW_RIT'
         }, {
           name: 'twitter:image',
-          content: 'http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2017.jpg'
+          content: 'http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2018.jpg'
         }, {
           name: 'description',
           content: 'Student-Run Design Conference'

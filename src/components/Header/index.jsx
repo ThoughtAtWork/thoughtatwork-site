@@ -12,7 +12,7 @@ export default class index extends Component {
   }
 
   render() {
-    let graphicsURLPrefix = './assets/header-graphics/';
+    let graphicsURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/sponsor-logos/header-graphics/';
     let graphicMobileAffix = '_mobile';
     return (
       <div className={classnames(

@@ -3,7 +3,9 @@
 :local(.speaker_lineup__Carousel) {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-
+    &:hover {
+      Cursor : ew-resize
+    }
     &::-webkit-scrollbar {
         display: none;
     }

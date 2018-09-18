@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
          now caters to over 400 designers with speakers and attendees coming various fields in design. Organized exclusively
          by students at RIT, the conference strives to function as a tool for young designers to advance their careers
          and thrive.</p>
-        <div className={classnames('gridish-grid__col--small--2 gridish-grid__height--small--24')}></div>
+        <div className={classnames('gridish-grid__col--small--2 gridish-grid__height--small--24 gridish-grid__height--xsmall--2')}></div>
         <div className={classnames('gridish-grid__col--small--2 gridish-grid__height--small--14 gridish-grid__height--xsmall--13')}>
           <Link
             to="/Contact"
