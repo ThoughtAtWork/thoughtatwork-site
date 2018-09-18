@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import styles from '../../styles/components/footer/footer.module.scss';
 
 let Sponsor = function statelessFunctionComponentClass(props) {
-  let imageURL = './assets/sponsor-logos/sponsor_' + props.imageURL;
+  let imageURL ='http://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/sponsor-logos/sponsor_' + props.imageURL;
   let imageName = props.imageName + ' Logo';
   let imageSite = props.imageSite;
 
@@ -16,7 +16,7 @@ let Sponsor = function statelessFunctionComponentClass(props) {
         'gridish-grid__height--xsmall--7',
       )}>
       <a href={imageSite} target='_blank'>
-        <img className={classnames('sponsor-image', styles.sponsorLogo,)} src={__PATH_PREFIX__ + imageURL} alt={imageName} />
+        <img className={classnames('sponsor-image', styles.sponsorLogo,)} src={imageURL} alt={imageName} />
       </a>
     </div>
   );
