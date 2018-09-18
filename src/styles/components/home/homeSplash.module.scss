@@ -5,7 +5,6 @@
 }
 :local(.splashSpacing) {
     margin: 0 auto;
-    margin-bottom: 68px;
     @include media ('<768px') {
         margin-bottom: 36px
     }

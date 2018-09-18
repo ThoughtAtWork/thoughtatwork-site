@@ -21,11 +21,11 @@
 }
 
 :local(.speakerCard) {
-    min-width: 184px;
-    width: 23.95vw;
+    min-width: 216px;
+    width: 21.5vw;
 
     @include media ('>sm') {
-        max-width: 218px;
+        max-width: 274px;
     }
 }
 

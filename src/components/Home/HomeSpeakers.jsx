@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 import SpeakerCarousel from './../Speaker/SpeakerCarousel.jsx';
-import Link from 'gatsby-link';
+// import Link from 'gatsby-link';
 
 export default class HomeSpeakers extends Component {
   constructor(props) {
@@ -24,7 +24,7 @@ export default class HomeSpeakers extends Component {
           <p
             className={classnames('gridish-grid__height--small--8 gridish-grid__height--xsmall--7')}
           >
-            <strong>Full Lineup Coming Soon</strong>
+            Full speaker information coming soon
           </p>
         </div>
         <SpeakerCarousel />

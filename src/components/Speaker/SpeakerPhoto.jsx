@@ -3,14 +3,15 @@ import classnames from 'classnames';
 import styles from '../../styles/components/speakers/speakerPhoto.module.scss';
 
 let SpeakerPhoto = function statelessFunctionComponentClass(props) {
-  // let imageURL = './assets/speaker-headshots/' + {props.firstName + '_' + props.lastName + '.jpg'};
   let imageURL = './assets/speaker-headshots/' + 'arnaud_tanielian.jpg';
-
+  let imageURLPrefix = './assets/speaker-headshots/';
+  let headShotURL = __PATH_PREFIX__ + imageURLPrefix + props.headshot
+    + '.jpg';
 
   return (
     <div>
       <img className={classnames(styles.headshotContainer)}
-        src={__PATH_PREFIX__ + imageURL}
+        src={headShotURL}
       />
       {/* <img className={classnames(styles.headshotContainer)}
         src={arno}
@@ -18,7 +19,7 @@ let SpeakerPhoto = function statelessFunctionComponentClass(props) {
       <h2 className={classnames(styles.speakerCard_text__spacing)}>
         {props.firstName + ' ' + props.lastName}
       </h2>
-      <p>{props.position}</p>
+      <p>{props.position + ' at ' + props.company}</p>
     </div>
   );
 };

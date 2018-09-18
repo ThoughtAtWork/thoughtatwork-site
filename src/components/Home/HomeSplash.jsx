@@ -17,7 +17,7 @@ export default class HomeSplash extends Component {
     return (
       <div className={classnames()}>
         <div className={classnames('container flex flex-column gridish-container--complete gridish-padding--bottom')}>
-          <h1 className="flex gridish-grid__height--medium--11 gridish-grid__height--small--9">thought at work</h1>
+          <h1 className="flex gridish-grid__height--medium--11 gridish-grid__height--small--9 gridish-grid__height--xsmall--8">thought at work</h1>
           <h2 className="flex gridish-grid__height--xsmall--10">october 19 - 21</h2>
         </div>
         <SplashAnimation />
