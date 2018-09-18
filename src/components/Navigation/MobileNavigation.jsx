@@ -48,9 +48,10 @@ export class MobileNavigation extends Component {
             </Link>
             <button className={classnames(styles.mobileRegisterButton)}>
               <a
-                href="http://thoughtatwork.cias.rit.edu/register.php"
+                href="https://thoughtatwork.cias.rit.edu/register.php"
                 onClick={this.onClick.bind(this)}
                 className={classnames(styles.registerButtonText)}
+                target="_blank"
               >
                 get tickets
               </a>
