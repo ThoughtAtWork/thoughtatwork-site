@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/              http://thoughtatwork.cias.rit.edu/
+/blog/my-post.php  /blog/my-post
+/news              /blog
+/google            https://www.google.com
