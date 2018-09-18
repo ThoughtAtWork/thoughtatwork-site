@@ -9,7 +9,7 @@ export class DesktopNavigation extends Component {
   render() {
     return (
       <div>
-        <MediaQuery minDeviceWidth={880}>
+        <MediaQuery minWidth={880}>
           <nav className={classnames(styles.navContainer)}>
             <div className={classnames(styles.navElements, 'flex flex-justify gridish-container--complete')}>
               <Link
