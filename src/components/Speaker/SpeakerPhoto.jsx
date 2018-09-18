@@ -5,7 +5,7 @@ import styles from '../../styles/components/speakers/speakerPhoto.module.scss';
 let SpeakerPhoto = function statelessFunctionComponentClass(props) {
   // let imageURL = './assets/speaker-headshots/' + 'arnaud_tanielian.jpg';
   // let imageURLPrefix = './assets/speaker-headshots/';
-  let imageURLPrefix ='http://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/speaker-headshots/';
+  let imageURLPrefix ='https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/speaker-headshots/';
 
   return (
     <div>

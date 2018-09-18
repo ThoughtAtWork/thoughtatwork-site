@@ -22,23 +22,28 @@ class Footer extends React.Component {
   };
 
   render() {
+    let fixGridAutoRowIssue = {
+      gridAutoRows: 'unset'
+    };
     return (
       <div className={classnames(styles.footer__spacing)}>
         <h1 className={classnames('content-Block--margin-top container flex gridish-container gridish-container--complete gridish-grid__height--medium--13 gridish-grid__height--small--14 gridish-grid__height--xsmall--12')}>our sponsors</h1>
-        <div className={classnames(
-          'flex-align-center',
-          'gridish-container',
-          'gridish-grid',
-          'gridish-container--complete',
-          'gridish-grid',
-          'flex-align-center',
-          'container',
-          styles.sponsorContainer
-        )}>
+        <div
+          style={fixGridAutoRowIssue}
+          className={classnames(
+            'flex-align-center',
+            'gridish-container',
+            'gridish-grid',
+            'gridish-container--complete',
+            'gridish-grid',
+            'flex-align-center',
+            'container',
+            styles.sponsorContainer
+          )}>
           {this.createSponsors(data.sponsor)}
         </div>
         <h1 className={classnames('about-Block--margin-top container flex gridish-container gridish-container--complete gridish-grid__height--medium--13 gridish-grid__height--small--14 gridish-grid__height--xsmall--12')}>about us</h1>
-        <AboutUs/>
+        <AboutUs />
       </div>
     );
   }

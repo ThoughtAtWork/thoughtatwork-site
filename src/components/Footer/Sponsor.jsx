@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import styles from '../../styles/components/footer/footer.module.scss';
 
 let Sponsor = function statelessFunctionComponentClass(props) {
-  let imageURL ='http://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/sponsor-logos/sponsor_' + props.imageURL;
+  let imageURL ='https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/sponsor-logos/sponsor_' + props.imageURL;
   let imageName = props.imageName + ' Logo';
   let imageSite = props.imageSite;
 
