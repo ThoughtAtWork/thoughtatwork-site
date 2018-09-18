@@ -28,6 +28,7 @@
     "npm": "^6.3.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-dragscroll": "^2.0.1",
     "react-dropdown": "^1.6.1",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
