@@ -33,8 +33,6 @@ const TemplateWrapper = ({children}) => (
         { name: 'apple-mobile-web-app-status-bar-style',
           content: 'black' },
         {
-          property: 'og:url', content: 'http://thoughtatwork.cias.rit.edu'
-        }, {
           property: 'og:type',
           content: 'article'
         }, {
