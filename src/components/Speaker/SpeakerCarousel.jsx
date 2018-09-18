@@ -11,7 +11,7 @@ class SpeakerCarousel extends React.Component {
     return (
       <div className={classnames(styles.speakerCard, styles.speaker_lineup__padding)}
         key={person.headshot}>
-        <SpeakerPhoto firstName={person.firstName} lastName={person.lastName} position={person.position} company={person.company} headshot={person.headshot} />
+        <SpeakerPhoto firstName={person.firstName} lastName={person.lastName} job={person.job} headshot={person.headshot} />
       </div>
     );
   };

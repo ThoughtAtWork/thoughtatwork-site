@@ -16,7 +16,7 @@ let SpeakerPhoto = function statelessFunctionComponentClass(props) {
       <h2 className={classnames(styles.speakerCard_text__spacing)}>
         {props.firstName + ' ' + props.lastName}
       </h2>
-      <p>{props.position + ' at ' + props.company}</p>
+      <p>{props.job}</p>
     </div>
   );
 };
