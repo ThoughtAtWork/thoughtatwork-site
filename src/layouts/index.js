@@ -65,7 +65,7 @@ const TemplateWrapper = ({children}) => (
           content: '@TAW_RIT'
         }, {
           name: 'twitter:image',
-          content: 'http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2017.jpg'
+          content: 'http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2018.jpg'
         }, {
           name: 'description',
           content: 'Student-Run Design Conference'
