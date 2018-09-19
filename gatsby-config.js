@@ -1,3 +1,4 @@
+require('regenerator-runtime/runtime');
 module.exports = {
   siteMetadata: {
     title: 'Thought At Work 2018'
