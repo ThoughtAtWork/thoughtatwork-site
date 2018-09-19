@@ -41,7 +41,9 @@ const TemplateWrapper = ({children}) => (
         }, {
           property: 'og:description',
           content: 'Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.'
-        }, {
+        },
+        {property: 'og:url', content: 'http://thoughtatwork.cias.rit.edu'},
+        {
           property: 'og:image',
           content: 'http://thoughtatwork.cias.rit.edu/assets/graphics/WebBanner_TAW2018.jpg'
         }, {
