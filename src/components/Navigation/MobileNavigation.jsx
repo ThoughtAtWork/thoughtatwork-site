@@ -87,7 +87,7 @@ export class MobileNavigation extends Component {
             >
               Home
             </Link>
-            {/* <Link
+            <Link
               to="/speakers"
               onClick={this.onClick.bind(this)}
               className={classnames(styles.link, styles.navElement)}
@@ -97,7 +97,7 @@ export class MobileNavigation extends Component {
             >
               Speakers
             </Link>
-            <Link
+            {/* <Link
               to="/schedule"
               onClick={this.onClick.bind(this)}
               className={classnames(styles.link, styles.navElement)}

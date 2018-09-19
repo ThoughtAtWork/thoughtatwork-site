@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-    line-height: 32px;
+    line-height: 150%;
     font-size: 24px;
     font-style: normal;
     font-weight: bold;
@@ -46,19 +46,9 @@ h2 {
     color: $purpleblack;
     $min_width: $xs;
     $max_width: $lg;
-    $min_font: 24px;
+    $min_font: 20px;
     $max_font: 32px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
-
-    @include media ('>xs') {
-        line-height: 32px;
-        font-size: 24px;
-    }
-
-    @include media ('>sm') {
-        line-height: 38px;
-        font-size: 28px;
-    }
 }
 
 h3 {
@@ -78,23 +68,14 @@ h3 {
 p {
     font-style: normal;
     font-weight: normal;
-    line-height: 22px;
+    line-height: 160%;
     font-size: 16px;
     color: $purpleblack;
     $min_width: $xs;
     $max_width: $sm;
-    $min_font: 16px;
+    $min_font: 13px;
     $max_font: 18px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
-
-    @include media ('>xs') {
-        line-height: 26px;
-    }
-
-    @include media ('>sm') {
-        line-height: 26px;
-        font-size: 18px;
-    }
 }
 
 Link {

@@ -1,21 +1,23 @@
 @import "../../media";
 
-:local(.speaker_lineup__Carousel) {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-
-    &::-webkit-scrollbar {
-        display: none;
+:local(.speakerSizing) {
+    @include media ('>sm') {
+        padding-right: 1%;
     }
 
-    @include media ('>944px') {
-        padding-left: calc((100vw - 864px)/2);
+    padding-right: 0;
+
+    @include media ('<761px') {
+        padding: 0% 2%;
     }
+
+    margin-bottom: 56px;
 }
 
-:local(.button_Spacing) {
-    margin-top: 44px;
-    @include media ('>944px') {
-        margin-top: 56px;
+:local(.flexibleGrid) {
+    @include media ('>sm') {
+        justify-content: space-between;
     }
+
+    justify-content: space-around;
 }
