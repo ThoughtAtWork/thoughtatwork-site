@@ -1,0 +1,45 @@
+@import "../../media";
+
+:local(.dropDown_div) {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+:local(.dropDown_button) {
+    width: 320px;
+    height: 48px;
+    
+    background-color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 16px;
+
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+:local(.dropDown_button):hover, :local(.dropDown_button):focus {
+    background-color: #000;
+    color: #FFF;
+}
+
+:local(.dropDown_content) {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+:local(.dropDown_link) {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+:local(.dropDown_link):hover {
+    background-color: #ddd;
+}

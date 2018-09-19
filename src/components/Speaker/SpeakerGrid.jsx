@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import SpeakerCards from './SpeakerCards.jsx';
+import SpeakerDropDown from './SpeakerDropDown.jsx'
 import data from '../../assets/speakers.json';
 import classnames from 'classnames';
+import Header from '../Header/index';
 
 export default class Speaker extends Component {
   createPerson = (person) => {
@@ -14,8 +16,12 @@ export default class Speaker extends Component {
 
   render() {
     return (
-      <div className={classnames('gridish-grid container')}>
-        {this.createPeople(data.speakers)}
+      <div>
+        <Header pageName='speakers'/>
+        <SpeakerDropDown />
+        <div className={classnames('gridish-grid container')}>
+          {this.createPeople(data.speakers)}
+        </div>
       </div>
     );
   }
