@@ -1,10 +1,6 @@
 @import "../../media";
 
 :local(.speakerSizing) {
-    @include media ('>sm') {
-        padding-right: 1%;
-    }
-
     padding-right: 0;
 
     @include media ('<761px') {
@@ -12,6 +8,14 @@
     }
 
     margin-bottom: 56px;
+
+    @include media ('>sm') {
+        padding-right: 1%;
+        margin-bottom: 72px;
+    }
+    @include media ('>md') {
+        margin-bottom: 96px;
+    }
 }
 
 :local(.flexibleGrid) {
