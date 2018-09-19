@@ -1,14 +1,33 @@
 @import "../../media";
 
-:local(.grid_cardContainer) {
-    min-height: 240px;
-    height: 31.25vw;
-    border: 3px solid #000000;
-    box-sizing: border-box;
-    border-radius: 5px;
+:local(.cardSize) {
+    min-width: 216px;
+    width: 16.5vw;
 
     @include media ('>sm') {
-        max-height: 285px;
+        max-width: 244px;
+    }
+
+    @include media ('<557px') {
+        min-width: unset;
+        width: 35.5vw;
+    }
+}
+
+:local(.headshotContainer) {
+    width: 100%;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+:local(.speakerCard_text) {
+    max-width: 216px;
+
+    // width: 16.5vw;
+    @include media ('<557') {
+        min-width: unset;
+        width: 35.5vw;
     }
 }
 

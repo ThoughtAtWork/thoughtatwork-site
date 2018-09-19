@@ -2,31 +2,25 @@ import React from 'react';
 import classnames from 'classnames';
 import styles from '../../styles/components/speakers/speakerCards.module.scss';
 
-let SpeakerPhoto = function statelessFunctionComponentClass(props) {
-  // let imageURL = './assets/speaker-headshots/' + {props.firstName + '_' + props.lastName + '.jpg'};
-  let imageURL = './assets/speaker-headshots/' + 'arnaud_tanielian.jpg';
-
+let SpeakerCard = function statelessFunctionComponentClass(props) {
+  // let imageURL = './assets/speaker-headshots/' + 'arnaud_tanielian.jpg';
+  // let imageURLPrefix = './assets/speaker-headshots/';
+  let imageURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/speaker-headshots/';
 
   return (
-    <div className={classnames(
-      'gridish-grid__col--xsmall--2',
-      'gridish-grid__col--small--2',
-      'gridish-padding--right')}
-    >
-      <img className={classnames(styles.grid_cardContainer)}
-        src={__PATH_PREFIX__ + imageURL}
+    <div className={classnames(styles.cardSize)}>
+      <img className={classnames(styles.headshotContainer)}
+        src={imageURLPrefix + props.headshot
+          + '.jpg'}
       />
-      {/* <img className={classnames(styles.headshotContainer)}
-        src={arno}
-      /> */}
-      <h2 className={classnames(styles.speakerCard_text__spacing)}>
-        {props.firstName + ' ' + props.lastName}
-      </h2>
-      <p>{props.position}</p>
+      <div className={classnames(styles.speakerCard_text)}>
+        <h2 className={classnames(styles.speakerCard_text__spacing)}>
+          {props.firstName + ' ' + props.lastName}
+        </h2>
+        <p>{props.job}</p>
+      </div>
     </div>
-
-
   );
 };
 
-export default SpeakerPhoto;
+export default SpeakerCard;
