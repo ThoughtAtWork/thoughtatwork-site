@@ -7,7 +7,7 @@ export class Text extends Component {
   render() {
     return (
       <div className={classnames('gridish-grid container gridish-container--complete gridish-grid__col--xsmall--4')}>
-        <h1 className={styles.coc__maxWidth}>the thought at work code of conduct</h1>
+        <h1 className={styles.coc__maxWidth}>thought at work code of conduct</h1>
         <p className={styles.paragraph__marginTop}>All delegates, speakers, sponsors and volunteers at any Thought At Work event are required to agree with the following code of conduct. Organizers will enforce this code throughout the event.</p>
         <h2 className='content-Block--margin-top'>short version</h2>
         <p className={styles.paragraph__marginTop}>Thought At Work is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Inappropriate sexual language and imagery is not condoned for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of Thought At Works's organizers.</p>

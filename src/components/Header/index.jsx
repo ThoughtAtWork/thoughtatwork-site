@@ -12,7 +12,7 @@ export default class index extends Component {
   }
 
   render() {
-    let graphicsURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/sponsor-logos/header-graphics/';
+    let graphicsURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/header-graphics/';
     let graphicMobileAffix = '_mobile';
     return (
       <div className={classnames(
@@ -26,11 +26,11 @@ export default class index extends Component {
         )}>
           {this.props.pageName}
         </h1>
-        <MediaQuery minDeviceWidth={449}>
+        <MediaQuery minWidth={449}>
           <img className={classnames(
             'gridish-grid__col--small--4 gridish-grid__col--xsmall--2', styles.graphic__height_small)} src={__PATH_PREFIX__ + graphicsURLPrefix + this.props.pageName + '.svg'}></img>
         </MediaQuery>
-        <MediaQuery maxDeviceWidth={448}>
+        <MediaQuery maxWidth={448}>
           <img className={classnames(
             'gridish-grid__col--xsmall--2', styles.graphic__height_xsmall)} src={__PATH_PREFIX__ + graphicsURLPrefix + this.props.pageName + graphicMobileAffix + '.svg'}></img>
         </MediaQuery>

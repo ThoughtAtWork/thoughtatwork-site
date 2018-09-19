@@ -2,62 +2,62 @@
 "sponsor": [{
       "site": "https://www.stickermule.com/",
       "name": "Stickermule",
-      "image": "stickermule.svg"
+      "image": "stickermule"
     },
     {
       "site": "https://www.invisionapp.com/",
       "name": "Invision",
-      "image": "invision.svg"
+      "image": "invision"
     },
     {
       "site": "http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/",
       "name": "IDSA",
-      "image": "idsa.svg"
+      "image": "idsa"
     },
     {
       "site": "https://www.keyshot.com/",
       "name": "Keyshot",
-      "image": "keyshot.svg"
+      "image": "keyshot"
     },
     {
       "site": "http://www.autodesk.com",
       "name": "Autodesk",
-      "image": "autodesk.svg"
+      "image": "autodesk"
     },
     {
       "site": "https://sg.rit.edu/",
       "name": "RIT Student Government",
-      "image": "sg.svg"
+      "image": "sg"
     },
     {
-      "site": "http://rit.bncollege.com",
-      "name": "Barnes and Nobel at RIT",
-      "image": "bn.svg"
+      "site": "https://www.steelcase.com/",
+      "name": "Steelcase",
+      "image": "steelcase"
     },
     {
       "site": "https://www.rit.edu/fa/hub/",
       "name": "RIT HUB",
-      "image": "hub.svg"
+      "image": "hub"
     },
     {
       "site": "http://www.tinyfishprinting.com/",
       "name": "Tiny Fish Printing",
-      "image": "tinyfish.svg"
+      "image": "tinyfish"
     },
     {
       "site": "https://www.rit.edu/academicaffairs/applied-critical-thinking/overview",
       "name": "RIT Applied Critical Thinking",
-      "image": "act.svg"
+      "image": "act"
     },
     {
-      "site": "http://cias.rit.edu/",
-      "name": "RIT CIAS",
-      "image": "cias.svg"
+      "site": "http://cad.rit.edu/",
+      "name": "RIT CAD",
+      "image": "cad"
     },
     {
       "site": "http://www.javascafe.com/",
       "name": "Javas Cafe",
-      "image": "javas.svg"
+      "image": "javas"
     }
   ]
 }
