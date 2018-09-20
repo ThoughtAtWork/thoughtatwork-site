@@ -2,19 +2,10 @@
 
 :local(.speakerSizing) {
     padding-right: 0;
+    margin-bottom: 56px;
 
     @include media ('<761px') {
         padding: 0% 2%;
-    }
-
-    margin-bottom: 56px;
-
-    @include media ('>sm') {
-        padding-right: 1%;
-        margin-bottom: 72px;
-    }
-    @include media ('>md') {
-        margin-bottom: 96px;
     }
 }
 
@@ -22,6 +13,8 @@
     @include media ('>sm') {
         justify-content: space-between;
     }
-
+    @include media ('<557px') {
+    justify-content: space-between;
+    }
     justify-content: space-around;
 }
