@@ -2,7 +2,11 @@
 
 :local(.cardSize) {
     min-width: 216px;
-    width: 16.5vw;
+    
+
+    @include media ('<880px') {
+        width: 16.5vw;
+    }
 
     @include media ('>sm') {
         max-width: 244px;
@@ -22,7 +26,7 @@
 }
 
 :local(.speakerCard_text) {
-    max-width: 216px;
+    // max-width: 216px;
 
     // width: 16.5vw;
     @include media ('<557') {
