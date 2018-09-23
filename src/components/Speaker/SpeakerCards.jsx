@@ -77,7 +77,7 @@ export default class SpeakerCard extends Component {
                   onClick={this.removeModalClick}
                   className={classnames(styles.modal__backgroundChange)}></div>
                 <div className={classnames(styles.modal_container__outer, 'dotGrid-background')}>
-                  <SpeakerModal name={name} job={props.job} headshot={headShot} />
+                  <SpeakerModal links={props.links} name={name} bio={props.bio} job={props.job} headshot={headShot} />
                 </div>
               </div>
             </div>
