@@ -10,6 +10,7 @@ export default class SpeakerModal extends Component {
     };
   }
   
+  render() {
     return (
       <div></div>
 
