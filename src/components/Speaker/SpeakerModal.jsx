@@ -9,13 +9,17 @@ export default class SpeakerModal extends Component {
     this.state = {
     };
   }
-  
+
   render() {
     return (
-      <div></div>
+      <div>
+        <div className={classnames(styles.navContainer)}>
 
-        
-      
+        </div>
+      </div>
+
+
+
     );
   }
 }

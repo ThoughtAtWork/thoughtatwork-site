@@ -1,3 +1,14 @@
 @import "../../media";
 
 
+:local(.navContainer) {
+    height: 88px;
+    width: 100%;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0 3px $purpleblack;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 0;
+    z-index: 10;
+}
