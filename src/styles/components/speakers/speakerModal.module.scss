@@ -1,0 +1,26 @@
+@import "../../media";
+
+:local(.container) {
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+:local(.modal_container) {
+    border: 3px solid $purpleblack;
+    box-sizing: border-box;
+    border-radius: 7px;
+    overflow-y: auto;
+    max-width: 642px;
+    max-height: 889px;
+    width: 80%;
+    height: 80%;
+    margin: 45.5px 0 0 0px;
+    padding: 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
