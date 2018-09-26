@@ -33,6 +33,9 @@
     &-capitalize {
         text-transform: capitalize !important;
     }
+    &-transform--unset {
+        text-transform: unset !important;
+    }
 
     &-align {
         &-left {

@@ -23,7 +23,7 @@ export default class SpeakerCard extends Component {
   }
 
   removeModalClick() {
-
+    console.log('removed');
     this.setState({
       popupVisible: false
     });
@@ -60,7 +60,7 @@ export default class SpeakerCard extends Component {
           src={headShot}
           onClick={this.addModalClick}
         />
-        <div 
+        <div
           onClick={this.addModalClick}
           className={classnames(styles.speakerCard_text)}>
           <h2 className={classnames(styles.speakerCard_text__spacing, styles.speakerCard_text__hover_color)}>
@@ -69,7 +69,7 @@ export default class SpeakerCard extends Component {
           <p className={classnames(styles.speakerCard_text__hover_color)}>{props.job}</p>
         </div>
 
-        <div ref={node => { this.node = node; }}>
+        <div>
           {this.state.popupVisible && (
             <div>
               <div className={classnames(styles.modal_container__inner, 'gridish-container')}>
@@ -77,6 +77,24 @@ export default class SpeakerCard extends Component {
                   onClick={this.removeModalClick}
                   className={classnames(styles.modal__backgroundChange)}></div>
                 <div className={classnames(styles.modal_container__outer, 'dotGrid-background')}>
+                  <div className={classnames(styles.navContainer)}>
+                    <div className={classnames(styles.navContainer_content, 'flex flex-align-center flex-justify-between flex-row flex-align-center')}>
+                      <h2 className={classnames(styles.speakerInfo_h2__alteration)}>speaker info</h2>
+                      <button
+                        className={classnames(
+                          'hamburger hamburger--elastic is-active',
+                        )}
+                        type='button'
+                        aria-label='Menu'
+                        aria-controls='navigation'
+                        onClick={this.removeModalClick}
+                      >
+                        <span className='hamburger-box'>
+                          <span className={classnames('hamburger-inner')}></span>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
                   <SpeakerModal links={props.links} name={name} bio={props.bio} job={props.job} headshot={headShot} />
                 </div>
               </div>

@@ -84,3 +84,25 @@
     left: 50%;
     transform: translate(-50%, -50%) !important;
 }
+:local(.navContainer) {
+    height: 87px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 3px $purpleblack;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 0;
+    z-index: 10;
+}
+:local(.navContainer_content) {
+  height: 100%;
+  @include media ('>sm') {
+      margin: 0px 6.3%;
+  }
+  margin: 0px 20px;
+}
+:local(.speakerInfo_h2__alteration) {
+  font-weight: 600;
+  line-height: 38px;
+  font-size: 28px;
+}
