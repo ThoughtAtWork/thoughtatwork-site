@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 import styles from '../../styles/components/speakers/speakerCards.module.scss';
 import SpeakerModal from './SpeakerModal';
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 
 export default class SpeakerCard extends Component {
   constructor(props) {
@@ -38,6 +39,23 @@ export default class SpeakerCard extends Component {
     this.handleClick();
   }
 
+  componentDidMount() {
+    // how this wokrs https://www.npmjs.com/package/body-scroll-lock
+    this.targetElement = document.querySelector('#body-noScroll');
+  }
+
+  showTargetElement = () => {
+    disableBodyScroll(this.targetElement);
+  };
+
+  hideTargetElement = () => {
+    enableBodyScroll(this.targetElement);
+  }
+
+  componentWillUnmount() {
+    clearAllBodyScrollLocks();
+  }
+
   render() {
     const props = this.props;
     let imageURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/speaker-headshots/';
@@ -46,9 +64,9 @@ export default class SpeakerCard extends Component {
 
 
     if (this.state.popupVisible) {
-      document.body.style.overflow = 'hidden';
+      this.showTargetElement();
     } else {
-      document.body.style.overflow = null;
+      this.hideTargetElement();
     }
 
 

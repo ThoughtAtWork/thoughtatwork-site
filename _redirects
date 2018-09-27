@@ -1,5 +1,13 @@
 # Redirects from what the browser requests to what we serve
-/              http://thoughtatwork.cias.rit.edu/
 /blog/my-post.php  /blog/my-post
 /news              /blog
 /google            https://www.google.com
+
+# redirect netlify sitename to your sitename for SEO purposes,
+# to avoid duplicate content.  Do this for http and https
+https://wizardly-panini-9163eb.netlify.com/* https://www.thoughtatwork.org/:splat 301!
+http://wizardly-panini-9163eb.netlify.com/* http://www.thoughtatwork.org/:splat 301!
+
+# also redirect http to https for your custom domain.
+# Note that netlify automatically redirects to your custom domain from the bare domain (or vice versa), so you only need one rule here.
+http://www.thoughtatwork.org/* https://www.thoughtatwork.org/:splat 301!
