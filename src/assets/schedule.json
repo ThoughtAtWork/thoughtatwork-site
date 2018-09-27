@@ -1,0 +1,32 @@
+{
+    "friday": [
+      {
+        "start": "9:00am",
+        "end": "6:00pm",
+        "title": "registration & check in 1",
+        "location": "Bevier Lobby, 3nd floor Booth Hall",
+        "type": "general",
+        "description": "Worshop information will be here"
+      }
+    ],
+    "saturday":[
+      {
+        "start": "9:00am",
+        "end": "6:00pm",
+        "title": "registration & check in 6",
+        "location": "Bevier Lobby, 5nd floor Booth Hall",
+        "type": "workshop",
+        "description": "Worshop information will be here"
+      }
+    ],
+    "sunday":[
+      {
+        "start": "9:00am",
+        "end": "6:00pm",
+        "title": "registration & check in 7",
+        "location": "Bevier Lobby, 5nd floor Booth Hall",
+        "type":"lecture",
+        "description": "Worshop information will be here"
+      }
+    ]
+  }
