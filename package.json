@@ -6,6 +6,7 @@
   "dependencies": {
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "body-scroll-lock": "^2.5.7",
     "classnames": "^2.2.6",
     "css-gridish": "^2.0.0",
     "eslint-plugin-react": "^7.10.0",
