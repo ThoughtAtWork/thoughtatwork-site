@@ -2,19 +2,50 @@
 
 :local(.container) {
     @include media ('>sm') {
-        margin: 32px 6.3%;
+        margin: 0px 6.3% 32px 6.3%;
     }
 
-    margin: 32px 16px;
+    margin: 0px 16px 32px 16px;
+}
+
+:local(.modalNav__spacer) {
+    margin-bottom: 35px;
+    position: sticky;
 }
 
 :local(.headshotContainer) {
-    // width: 100%;
-    border: 4px solid $purpleblack;
+    border: 4px solid #281e35;
     box-sizing: border-box;
-    width: 50%;
-    height: 260px;
+    width: 45%;
     border-radius: 5px;
-    max-height: 260px;
-    max-width: 260px;
+    height: inherit;
+    min-height: unset;
+    @include media ('>sm') {
+          width: 45%;
+          height: 14.5vw;
+          border-radius: 5px;
+          max-height: 257px;
+          min-height: 152px;
+    }
+}
+
+:local(.name) {
+  $min_width: $xs;
+  $max_width: $lg;
+  $min_font: 32px;
+  $max_font: 36px;
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  margin-bottom: 24px;
+}
+
+:local(.textColumn) {
+  width: 40%;
+}
+
+:local(.job) {
+  margin-bottom: 20px;
+}
+
+:local(.links) {
+
 }

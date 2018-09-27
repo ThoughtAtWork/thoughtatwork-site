@@ -53,22 +53,25 @@ export default class SpeakerCard extends Component {
 
 
     return (
-      <div
-        className={classnames(styles.cardSize)}
-      >
-        <img className={classnames(styles.headshotContainer)}
-          src={headShot}
-          onClick={this.addModalClick}
-        />
+      <div>
         <div
-          onClick={this.addModalClick}
-          className={classnames(styles.speakerCard_text)}>
-          <h2 className={classnames(styles.speakerCard_text__spacing, styles.speakerCard_text__hover_color)}>
-            {name}
-          </h2>
-          <p className={classnames(styles.speakerCard_text__hover_color)}>{props.job}</p>
-        </div>
+          className={classnames(styles.cardSize)}
+        >
+          <img className={classnames(styles.headshotContainer)}
+            src={headShot}
+            onClick={this.addModalClick}
+          />
+          <div
+            onClick={this.addModalClick}
+            className={classnames(styles.speakerCard_text)}>
+            <h2 className={classnames(styles.speakerCard_text__spacing, styles.speakerCard_text__hover_color)}>
+              {name}
+            </h2>
+            <p className={classnames(styles.speakerCard_text__hover_color)}>{props.job}</p>
+          </div>
 
+
+        </div>
         <div>
           {this.state.popupVisible && (
             <div>
