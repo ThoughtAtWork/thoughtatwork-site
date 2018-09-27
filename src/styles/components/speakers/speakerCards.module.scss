@@ -76,6 +76,9 @@
     max-width: 642px;
     max-height: 889px;
     width: 80%;
+    @include media ('<sm') {
+        width: 85.5%;
+    }
     height: 80%;
     margin: 45.5px 0 0 0px;
     padding: 0px;
@@ -93,6 +96,7 @@
     margin: 0 auto;
     top: 0;
     z-index: 10;
+    position: sticky;
 }
 :local(.navContainer_content) {
   height: 100%;

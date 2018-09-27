@@ -10,42 +10,77 @@
 
 :local(.modalNav__spacer) {
     margin-bottom: 35px;
-    position: sticky;
 }
 
 :local(.headshotContainer) {
     border: 4px solid #281e35;
     box-sizing: border-box;
-    width: 45%;
     border-radius: 5px;
-    height: inherit;
-    min-height: unset;
+    width: 33vw;
+    height: 33vw;
+    min-width: 152px;
+    min-height: 152px;
+
     @include media ('>sm') {
-          width: 45%;
-          height: 14.5vw;
-          border-radius: 5px;
-          max-height: 257px;
-          min-height: 152px;
+        width: 256px;
+        height: 256px;
+        border-radius: 5px;
+        max-height: 257px;
+        min-height: 152px;
+    }
+
+    @include media ('<480px') {
+        margin-bottom: 24px;
     }
 }
 
 :local(.name) {
-  $min_width: $xs;
-  $max_width: $lg;
-  $min_font: 32px;
-  $max_font: 36px;
-  @include fluid-type($min_width, $max_width, $min_font, $max_font);
-  margin-bottom: 24px;
+    $min_width: $xs;
+    $max_width: $lg;
+    $min_font: 32px;
+    $max_font: 36px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+    margin-bottom: 24px;
+
+    @include media ('<480px') {
+        margin-bottom: 12px;
+    }
 }
 
 :local(.textColumn) {
-  width: 40%;
+    @include media ('>480px') {
+        width: 45%;
+    }
+
+    width: 90%;
 }
 
 :local(.job) {
-  margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
-:local(.links) {
+:local(.outsideLinkLogo) {
+    margin-right: 6px;
+}
 
+:local(.bio) {
+    margin-top: 40px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    margin-right: 8px;
+
+    @include media ('>sm') {
+        line-height: 31px;
+    }
+
+    $min_width: $xs;
+    $max_width: $sm;
+    $min_font: 14px;
+    $max_font: 18px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+}
+
+
+:local(.links:hover) {
+    cursor: pointer;
 }
