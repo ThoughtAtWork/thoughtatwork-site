@@ -1,7 +1,7 @@
 @import "../../media";
 
 :local(.cardSize) {
-    min-width: 216px;
+    min-width: 208px;
 
 
     @include media ('<880px') {

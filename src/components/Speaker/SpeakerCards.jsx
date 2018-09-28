@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 import styles from '../../styles/components/speakers/speakerCards.module.scss';
 import SpeakerModal from './SpeakerModal';
-import ScrollLock from 'react-scrolllock';
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 
 export default class SpeakerCard extends Component {
   constructor(props) {
@@ -14,7 +14,6 @@ export default class SpeakerCard extends Component {
 
     this.state = {
       popupVisible: false,
-      isLocked: false
     };
   }
 
@@ -22,6 +21,7 @@ export default class SpeakerCard extends Component {
     this.setState({
       popupVisible: true
     });
+    this.showTargetElement();
   }
 
   removeModalClick() {
@@ -29,6 +29,7 @@ export default class SpeakerCard extends Component {
     this.setState({
       popupVisible: false
     });
+    this.hideTargetElement();
   }
 
   handleOutsideClick(e) {
@@ -40,21 +41,28 @@ export default class SpeakerCard extends Component {
     this.handleClick();
   }
 
+  componentDidMount() {
+    // how this wokrs https://www.npmjs.com/package/body-scroll-lock
+    this.targetElement = document.querySelector('#scroll-lock');
+  }
 
+  showTargetElement = () => {
+    disableBodyScroll(this.targetElement);
+  };
+
+  hideTargetElement = () => {
+    enableBodyScroll(this.targetElement);
+  }
+
+  componentWillUnmount() {
+    clearAllBodyScrollLocks();
+  }
 
   render() {
     const props = this.props;
     let imageURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/speaker-headshots/';
     let headShot = imageURLPrefix + props.headshot + '.jpg';
     let name = props.firstName + ' ' + props.lastName;
-
-
-    if (this.state.popupVisible) {
-
-    } else {
-
-    }
-
 
     return (
       <div>
@@ -76,17 +84,16 @@ export default class SpeakerCard extends Component {
 
 
         </div>
-        <div>
+        <div
+          id='scroll-lock'
+        >
           {this.state.popupVisible && (
-            
             <div>
-              
               <div className={classnames(styles.modal_container__inner, 'gridish-container')}>
                 <div
                   onClick={this.removeModalClick}
                   className={classnames(styles.modal__backgroundChange)}></div>
                 <div className={classnames(styles.modal_container__outer, 'dotGrid-background')}>
-
                   <div className={classnames(styles.navContainer)}>
                     <div className={classnames(styles.navContainer_content, 'flex flex-align-center flex-justify-between flex-row flex-align-center')}>
                       <h2 className={classnames(styles.speakerInfo_h2__alteration)}>speaker info</h2>
@@ -105,7 +112,6 @@ export default class SpeakerCard extends Component {
                       </button>
                     </div>
                   </div>
-
                   <SpeakerModal links={props.links} name={name} bio={props.bio} job={props.job} headshot={headShot} />
                 </div>
               </div>
