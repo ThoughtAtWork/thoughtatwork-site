@@ -4,7 +4,7 @@ import styles from '../../styles/components/nav.module.scss';
 import classnames from 'classnames';
 import navLogo from '../../assets/images/navLogo.svg';
 import Clouds from './Clouds.jsx';
-
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 
 
 export class MobileNavigation extends Component {
@@ -22,6 +22,22 @@ export class MobileNavigation extends Component {
     this.setState({ menuOpen: false });
   }
 
+  componentDidMount() {
+    // how this wokrs https://www.npmjs.com/package/body-scroll-lock
+    this.targetElement = document.querySelector('#nav-noScroll');
+  }
+
+  showTargetElement = () => {
+    disableBodyScroll(this.targetElement);
+  };
+
+  hideTargetElement = () => {
+    enableBodyScroll(this.targetElement);
+  }
+
+  componentWillUnmount() {
+    clearAllBodyScrollLocks();
+  }
 
   render() {
 
@@ -29,15 +45,17 @@ export class MobileNavigation extends Component {
     let mobileNav = this.state.menuOpen ? styles.mobileNav_Open : styles.mobileNav_Closed;
     if (this.state.menuOpen) {
       menuActive = 'is-active';
-     
+      this.showTargetElement();
     } else {
       menuActive = '';
       
-  
+      this.hideTargetElement();
     }
 
     return (
-      <div>
+      <div
+        id='nav-noScroll'
+      >
         <nav className={classnames(styles.navContainer)}>
           <div className={classnames(styles.navElements, 'flex-justify-between', 'gridish-container--complete')}>
             <Link
