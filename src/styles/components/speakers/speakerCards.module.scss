@@ -1,7 +1,7 @@
 @import "../../media";
 
 :local(.cardSize) {
-    min-width: 216px;
+    min-width: 208px;
 
 
     @include media ('<880px') {
@@ -54,10 +54,10 @@
 }
 :local(.modal__backgroundChange) {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   left: 0;
   top: 0px;
-  height: 100vh;
+  height: 100%;
   background: rgba(40, 30, 53, 0.50);
 }
 :local(.modal_container__inner) {
@@ -97,6 +97,7 @@
     top: 0;
     z-index: 10;
     position: sticky;
+    position: -webkit-sticky;
 }
 :local(.navContainer_content) {
   height: 100%;
@@ -110,3 +111,19 @@
   line-height: 38px;
   font-size: 28px;
 }
+
+
+// // palced outside of modal rendered
+// :local(.possiblefixedmodal) {
+//       height: 75px;
+//       background: #fff;
+//       box-shadow: 0 3px #281e35;
+//       overflow: hidden;
+//       margin: 0 auto;
+//       top: 119px;
+//       z-index: 10;
+//       position: fixed;
+//       width: 83.7%;
+//       /* bottom: 10px; */
+//       margin: 0px 19px;
+// }

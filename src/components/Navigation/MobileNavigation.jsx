@@ -4,8 +4,6 @@ import styles from '../../styles/components/nav.module.scss';
 import classnames from 'classnames';
 import navLogo from '../../assets/images/navLogo.svg';
 import Clouds from './Clouds.jsx';
-import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
-
 
 export class MobileNavigation extends Component {
   constructor(props) {
@@ -22,34 +20,22 @@ export class MobileNavigation extends Component {
     this.setState({ menuOpen: false });
   }
 
-  componentDidMount() {
-    // how this wokrs https://www.npmjs.com/package/body-scroll-lock
-    this.targetElement = document.querySelector('#body-noScroll');
-  }
-
-  showTargetElement = () => {
-    disableBodyScroll(this.targetElement);
-  };
-
-  hideTargetElement = () => {
-    enableBodyScroll(this.targetElement);
-  }
-
-  componentWillUnmount() {
-    clearAllBodyScrollLocks();
-  }
-
   render() {
 
     let menuActive;
     let mobileNav = this.state.menuOpen ? styles.mobileNav_Open : styles.mobileNav_Closed;
     if (this.state.menuOpen) {
       menuActive = 'is-active';
-      this.showTargetElement();
+      document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
+      document.body.style.height = '100%';
     } else {
       menuActive = '';
-      
-      this.hideTargetElement();
+      document.body.style.overflow = 'unset';
+      document.body.style.position = 'static';
+      document.body.style.width = 'auto';
+      document.body.style.height = 'auto';
     }
 
     return (
@@ -94,7 +80,7 @@ export class MobileNavigation extends Component {
           </div>
         </nav>
         <div className={classnames(mobileNav, 'dotGrid-background')}>
-          <Clouds/>
+          <Clouds />
           <div className={classnames(styles.mobileNav_Open_Container, 'flex-align-center')}>
             <Link
               to="/Home"

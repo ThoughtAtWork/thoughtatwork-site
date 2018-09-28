@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 import styles from '../../styles/components/speakers/speakerCards.module.scss';
 import SpeakerModal from './SpeakerModal';
-import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+
 
 export default class SpeakerCard extends Component {
   constructor(props) {
@@ -21,6 +21,10 @@ export default class SpeakerCard extends Component {
     this.setState({
       popupVisible: true
     });
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
+    document.body.style.height = '100%';
   }
 
   removeModalClick() {
@@ -28,6 +32,10 @@ export default class SpeakerCard extends Component {
     this.setState({
       popupVisible: false
     });
+    document.body.style.overflow = 'unset';
+    document.body.style.position = 'static';
+    document.body.style.width = 'auto';
+    document.body.style.height = 'auto';
   }
 
   handleOutsideClick(e) {
@@ -35,40 +43,16 @@ export default class SpeakerCard extends Component {
     if (this.node.contains(e.target)) {
       return;
     }
-
     this.handleClick();
   }
 
-  componentDidMount() {
-    // how this wokrs https://www.npmjs.com/package/body-scroll-lock
-    this.targetElement = document.querySelector('#body-noScroll');
-  }
-
-  showTargetElement = () => {
-    disableBodyScroll(this.targetElement);
-  };
-
-  hideTargetElement = () => {
-    enableBodyScroll(this.targetElement);
-  }
-
-  componentWillUnmount() {
-    clearAllBodyScrollLocks();
-  }
+  
 
   render() {
     const props = this.props;
     let imageURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/speaker-headshots/';
     let headShot = imageURLPrefix + props.headshot + '.jpg';
     let name = props.firstName + ' ' + props.lastName;
-
-
-    if (this.state.popupVisible) {
-      this.showTargetElement();
-    } else {
-      this.hideTargetElement();
-    }
-
 
     return (
       <div>
@@ -87,8 +71,6 @@ export default class SpeakerCard extends Component {
             </h2>
             <p className={classnames(styles.speakerCard_text__hover_color)}>{props.job}</p>
           </div>
-
-
         </div>
         <div>
           {this.state.popupVisible && (
