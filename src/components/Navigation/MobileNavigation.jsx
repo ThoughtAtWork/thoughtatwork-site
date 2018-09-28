@@ -27,9 +27,11 @@ export class MobileNavigation extends Component {
     if (this.state.menuOpen) {
       menuActive = 'is-active';
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'relative';
     } else {
       menuActive = '';
       document.body.style.overflow = 'unset';
+      document.body.style.position = 'static';
     }
 
     return (
@@ -74,7 +76,7 @@ export class MobileNavigation extends Component {
           </div>
         </nav>
         <div className={classnames(mobileNav, 'dotGrid-background')}>
-          <Clouds/>
+          <Clouds />
           <div className={classnames(styles.mobileNav_Open_Container, 'flex-align-center')}>
             <Link
               to="/Home"

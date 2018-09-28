@@ -22,6 +22,7 @@ export default class SpeakerCard extends Component {
       popupVisible: true
     });
     document.body.style.overflow = 'hidden';
+    document.body.style.position = 'relative';
   }
 
   removeModalClick() {
@@ -30,6 +31,7 @@ export default class SpeakerCard extends Component {
       popupVisible: false
     });
     document.body.style.overflow = 'unset';
+    document.body.style.position = 'static';
   }
 
   handleOutsideClick(e) {
