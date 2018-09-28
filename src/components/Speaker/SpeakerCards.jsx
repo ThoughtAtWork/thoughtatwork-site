@@ -80,7 +80,7 @@ export default class SpeakerCard extends Component {
           {this.state.popupVisible && (
             
             <div>
-              <ScrollLock/>
+              
               <div className={classnames(styles.modal_container__inner, 'gridish-container')}>
                 <div
                   onClick={this.removeModalClick}
