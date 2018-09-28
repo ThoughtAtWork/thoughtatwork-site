@@ -21,6 +21,7 @@ export default class SpeakerCard extends Component {
     this.setState({
       popupVisible: true
     });
+    document.body.style.overflow = 'hidden';
   }
 
   removeModalClick() {
@@ -28,6 +29,7 @@ export default class SpeakerCard extends Component {
     this.setState({
       popupVisible: false
     });
+    document.body.style.overflow = 'unset';
   }
 
   handleOutsideClick(e) {
@@ -63,8 +65,6 @@ export default class SpeakerCard extends Component {
             </h2>
             <p className={classnames(styles.speakerCard_text__hover_color)}>{props.job}</p>
           </div>
-
-
         </div>
         <div>
           {this.state.popupVisible && (
