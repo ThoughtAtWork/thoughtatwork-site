@@ -4,7 +4,7 @@ import styles from '../../styles/components/nav.module.scss';
 import classnames from 'classnames';
 import navLogo from '../../assets/images/navLogo.svg';
 import Clouds from './Clouds.jsx';
-import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+
 
 
 export class MobileNavigation extends Component {
@@ -22,22 +22,6 @@ export class MobileNavigation extends Component {
     this.setState({ menuOpen: false });
   }
 
-  componentDidMount() {
-    // how this wokrs https://www.npmjs.com/package/body-scroll-lock
-    this.targetElement = document.querySelector('#body-noScroll');
-  }
-
-  showTargetElement = () => {
-    disableBodyScroll(this.targetElement);
-  };
-
-  hideTargetElement = () => {
-    enableBodyScroll(this.targetElement);
-  }
-
-  componentWillUnmount() {
-    clearAllBodyScrollLocks();
-  }
 
   render() {
 
