@@ -41,22 +41,7 @@ export default class SpeakerCard extends Component {
     this.handleClick();
   }
 
-  componentDidMount() {
-    // how this wokrs https://www.npmjs.com/package/body-scroll-lock
-    this.targetElement = document.querySelector('#scroll-lock');
-  }
-
-  showTargetElement = () => {
-    disableBodyScroll(this.targetElement);
-  };
-
-  hideTargetElement = () => {
-    enableBodyScroll(this.targetElement);
-  }
-
-  componentWillUnmount() {
-    clearAllBodyScrollLocks();
-  }
+  
 
   render() {
     const props = this.props;
