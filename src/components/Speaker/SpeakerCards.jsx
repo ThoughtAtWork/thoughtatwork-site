@@ -49,9 +49,9 @@ export default class SpeakerCard extends Component {
 
 
     if (this.state.popupVisible) {
-      
+
     } else {
-      
+
     }
 
 
@@ -83,6 +83,7 @@ export default class SpeakerCard extends Component {
                   onClick={this.removeModalClick}
                   className={classnames(styles.modal__backgroundChange)}></div>
                 <div className={classnames(styles.modal_container__outer, 'dotGrid-background')}>
+
                   <div className={classnames(styles.navContainer)}>
                     <div className={classnames(styles.navContainer_content, 'flex flex-align-center flex-justify-between flex-row flex-align-center')}>
                       <h2 className={classnames(styles.speakerInfo_h2__alteration)}>speaker info</h2>
@@ -101,6 +102,7 @@ export default class SpeakerCard extends Component {
                       </button>
                     </div>
                   </div>
+
                   <SpeakerModal links={props.links} name={name} bio={props.bio} job={props.job} headshot={headShot} />
                 </div>
               </div>
