@@ -29,11 +29,11 @@ export class MobileNavigation extends Component {
     let mobileNav = this.state.menuOpen ? styles.mobileNav_Open : styles.mobileNav_Closed;
     if (this.state.menuOpen) {
       menuActive = 'is-active';
-      this.showTargetElement();
+     
     } else {
       menuActive = '';
       
-      this.hideTargetElement();
+  
     }
 
     return (
