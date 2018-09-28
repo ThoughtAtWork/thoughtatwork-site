@@ -35,11 +35,6 @@
 }
 
 :local(.name) {
-    $min_width: $xs;
-    $max_width: $lg;
-    $min_font: 32px;
-    $max_font: 36px;
-    @include fluid-type($min_width, $max_width, $min_font, $max_font);
     margin-bottom: 24px;
 
     @include media ('<480px') {
