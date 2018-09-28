@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 import styles from '../../styles/components/speakers/speakerCards.module.scss';
 import SpeakerModal from './SpeakerModal';
-
+import ScrollLock from 'react-scrolllock';
 
 export default class SpeakerCard extends Component {
   constructor(props) {
@@ -14,6 +14,7 @@ export default class SpeakerCard extends Component {
 
     this.state = {
       popupVisible: false,
+      isLocked: false
     };
   }
 
@@ -77,7 +78,9 @@ export default class SpeakerCard extends Component {
         </div>
         <div>
           {this.state.popupVisible && (
+            
             <div>
+              <ScrollLock/>
               <div className={classnames(styles.modal_container__inner, 'gridish-container')}>
                 <div
                   onClick={this.removeModalClick}
