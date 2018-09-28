@@ -54,10 +54,10 @@
 }
 :local(.modal__backgroundChange) {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   left: 0;
   top: 0px;
-  height: 100vh;
+  height: 100%;
   background: rgba(40, 30, 53, 0.50);
 }
 :local(.modal_container__inner) {
