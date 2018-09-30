@@ -1,37 +1,32 @@
 import React from 'react';
+import styles from "../../styles/components/info/infoEverythingElse.module.scss";
+import infoHereImage from '../../assets/images/info_here_photo.png';
+import cateringImage from "../../assets/images/catering.png";
+import classnames from "classnames";
 
 class InfoWelcome extends React.Component {
   render() {
     return (
-      <div className="flex welcome">
-        <div className="info_welcome_container info-container">
-
-          <h2 className="welcome__header">welcome to TAW</h2>
-
-          <div className="info__check-in">
-            <div className="info_welcome_image">
-            </div>
-            <div className="info_checkin welcome__info-block">
-              <h4 className="info_checkin_title">Check-in</h4>
-              <p>Check-in begins at 9am on Friday morning. The opening reception begins at 10:30am. At check-in you’ll get a lanyard and name tag, which you’ll need for entry into any Thought at Work event.</p><br />
-              <p>You’ll also pick up a program brochure for a detailed view of the conference and schedule.</p>
-            </div>
+      <div className={classnames("gridish-container--complete container gridish-grid")}>
+          <div className={classnames('gridish-grid__col--small--4 gridish-grid__col--xsmall--3')}>
+            <p>Check-in begins at 9am on Friday morning. The opening reception begins at 10:30am. 
+              At check-in you’ll get a lanyard and name tag, which you’ll need for entry into any Thought at Work event.</p>
+            <p className={styles.infoText}>You’ll also pick up a program brochure for a detailed view of the conference and schedule.</p>
           </div>
 
-          <div className="info__catering">
-            <img src="../assets/graphics/catering.png" className="catering__img"></img>
-            <div className="welcome__info-block">
-              <h4 className="info_checkin_title">Catering</h4>
-              <p>Not only do we bring you some of the world's best creatives, we also provide something equally enticing&mdash; free food. These meals are on us:</p>
-              <div className="info_catering_meals">
-                <p>Friday's Dinner</p>
-                <p>Saturday's Breakfast</p>
-                <p>Sunday's Breakfast</p>
-              </div>
-            </div>
-          </div>
+          <img className={styles.infoPicture} src={infoHereImage}></img>
 
-        </div>
+          <div className={classnames('gridish-grid__col--small--4 gridish-grid__col--xsmall--3', styles.cateringText)}>
+            <p>Not only do we bring you some of the world's best creatives, we also provide something equally enticing&mdash; 
+              free food. These meals are on us:</p>
+          </div>
+          <div className={classnames('gridish-grid__col--small--5 gridish-grid__col--xsmall--2', styles.cateringMeals)}>
+              <p className={styles.cateringMeal}>Friday's Dinner</p>
+              <p className={styles.cateringMeal}>Saturday's Breakfast</p>
+              <p className={styles.cateringMeal}>Sunday's Breakfast</p>
+            </div>
+
+          <img className={styles.infoPicture} src={cateringImage}></img>
       </div>
     );
   }

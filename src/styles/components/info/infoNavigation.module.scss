@@ -1,0 +1,54 @@
+@import "../../media";
+
+:local(.infoNavigation) {
+    margin-bottom: 112px;
+    padding-left: 139px;
+    padding-right: 139px;
+    display: flex;
+    justify-content: space-between;
+
+    @include media ('<768px') {
+        margin-bottom: 96px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+:local(.infoDiv), :local(.infoBigDiv) {
+    width: 32%;
+}
+:local(.infoDiv) {
+    @include media ('<376px') {
+        width: 50%;
+    }
+}
+:local(.infoBigDiv) {
+    @include media('<376px') {
+        width: 100%;
+    }
+}
+
+:local(.infoButton) {
+    background-color: white;
+    
+    border: 3px solid black;
+    border-radius: 32px;
+    height: 36px;
+    width: 186.76px;
+    
+    font-weight: 500;
+}
+
+:local(.infoButton):hover {
+    background-color: black;
+    color: white;
+}
+
+:local(.test) {
+    display: block;
+}
+
+:local(.active) {
+    background-color: black;
+    color: white;
+}

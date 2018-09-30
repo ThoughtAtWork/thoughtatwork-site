@@ -1,4 +1,6 @@
 import React from "react";
+import styles from "../../styles/components/info/infoHotels.module.scss";
+import classnames from "classnames";
 
 let Location = function statelessFunctionComponentClass(props) {
     let name = props.name;
@@ -7,10 +9,13 @@ let Location = function statelessFunctionComponentClass(props) {
     let website = props.website;
 
     return (
-        <div className="wheretostay_locations">
-            <p className="location__info">{name}<br />{address}</p>
-            <p className="location__travel-time">{travelTime} min drive away from RIT</p>
-            <a href={website} className="location__website">WEBSITE &rarr;</a>
+        <div className={classnames('gridish-grid__col--xsmall--2',
+        'gridish-grid__col--small--2',
+        'gridish-grid__col--medium--2',
+        'gridish-grid__height--xsmall--7', styles.hotelDiv)}>
+            <p className={styles.hotelName}>{name}<br />{address}</p>
+            <p>{travelTime} min away</p>
+            <a className={styles.hotelLink} href={website}>website</a>
         </div>
     );
 };

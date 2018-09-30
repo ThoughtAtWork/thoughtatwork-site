@@ -1,0 +1,18 @@
+@import "../../media";
+
+:local(.hotelDiv) {
+    margin-bottom: 48px;
+
+    @include media ('<376px') {
+        margin-bottom: 32px
+    }
+}
+
+:local(.hotelName) {
+    font-weight: 500;
+}
+
+:local(.hotelLink) {
+    font-weight: 500;
+    color: #466EB5;
+}
