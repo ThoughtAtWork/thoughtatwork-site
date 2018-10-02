@@ -8,7 +8,7 @@ export default class Speaker extends Component {
   createPerson = (person) => {
     return (
       <div className={classnames(styles.speakerSizing)} key={person.headshot}>
-        <SpeakerCards firstName={person.firstName} lastName={person.lastName} job={person.job} headshot={person.headshot} />
+        <SpeakerCards firstName={person.firstName} lastName={person.lastName} job={person.job} bio={person.bio} links={person.links} headshot={person.headshot} />
       </div>
     );
   };

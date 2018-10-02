@@ -5,7 +5,6 @@ import classnames from 'classnames';
 import navLogo from '../../assets/images/navLogo.svg';
 import Clouds from './Clouds.jsx';
 
-
 export class MobileNavigation extends Component {
   constructor(props) {
     super(props);
@@ -28,9 +27,15 @@ export class MobileNavigation extends Component {
     if (this.state.menuOpen) {
       menuActive = 'is-active';
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
+      document.body.style.height = '100%';
     } else {
       menuActive = '';
-      document.body.style.overflow = null;
+      document.body.style.overflow = 'unset';
+      document.body.style.position = 'static';
+      document.body.style.width = 'auto';
+      document.body.style.height = 'auto';
     }
 
     return (
@@ -75,7 +80,7 @@ export class MobileNavigation extends Component {
           </div>
         </nav>
         <div className={classnames(mobileNav, 'dotGrid-background')}>
-          <Clouds/>
+          <Clouds />
           <div className={classnames(styles.mobileNav_Open_Container, 'flex-align-center')}>
             <Link
               to="/Home"
