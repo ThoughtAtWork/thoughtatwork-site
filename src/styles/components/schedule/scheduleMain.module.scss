@@ -3,7 +3,7 @@
 /************************/
 /*The main schedule page*/
 /************************/
-:local(.schedule_title){
+:local(.schedule_title) {
     font-size: 60px;
     line-height: 70px;
     margin-top: 46px;
@@ -14,34 +14,38 @@
         font-size: 42px;
     }
 
-    @include media ('<sm'){
+    @include media ('<sm') {
         margin-left: 40px;
         font-size: 42px;
     }
-    @include media ('<xs'){
+
+    @include media ('<xs') {
         margin-left: 20px;
         font-size: 36px;
     }
 
 }
 
-:local(.schedule_wrapper){
+:local(.schedule_wrapper) {
     text-align: center;
+
     //margin: auto;
     //width: 50%;
-    @include media ('<xs'){
+    @include media ('<xs') {
         text-align: -webkit-center;
     }
 
 }
-:local(.container_center){
+
+:local(.container_center) {
     margin-top: 82px;
     display: inline-block;
 
-    @include media ('<sm'){
+    @include media ('<sm') {
         margin-top: 80px;
     }
-    @include media ('<xs'){
+
+    @include media ('<xs') {
         margin-top: 43px;
     }
 
@@ -52,20 +56,21 @@
 /*********************/
 
 
-:local(.floating_buttons){
+:local(.floating_buttons) {
     display: inline-flex;
 
-    @include media ('<xs'){
+    @include media ('<xs') {
         display: flex;
     }
 
 }
 
-:local(.button_schedule){
+:local(.button_schedule) {
     border-radius: 32px;
-    text-decoration: none;       
+    text-decoration: none;
     display: block;
-    width: 186.76px;
+    width: 33%;
+    max-width: 186.76px;
     height: 30px;
     background: #FFFFFF;
     text-align: center;
@@ -75,35 +80,41 @@
     font-size: 18px;
     border-style: solid;
     border-color: #281E35;
-
-    @include media ('<xs'){
-        width: 97px;
-        height: 36px;
-        line-height: 35px;
-        margin-left: 10px;
-    }
+    border: 3px solid #281E35;
+    position: border-box;
 }
 
-:local(.button_schedule:hover){
+:local(.button_schedule:hover) {
     background-color: #281E35;
     color: #FFFFFF;
 }
 
-:local(#sticky){
+
+:local(.button_schedule__leftSpacing) {
+  margin-left: 5%;
+}
+
+:local(.boundaryElement_positioning) {
+  height: 1px;
+  top: -120px;
+  position: relative;
+}
+
+:local(#sticky) {
     display: none;
 }
 
-:local(#sticky.fixed){
+:local(#sticky.fixed) {
     display: block;
     position: fixed;
     top: 90px;
 }
 
 
-:local(.button_schedule_slide){
+:local(.button_schedule_slide) {
     margin-left: 28px;
-    
-    @include media ('<xs'){
+
+    @include media ('<xs') {
         margin-left: 18px;
     }
 
@@ -112,13 +123,13 @@
 /*********************************/
 /*Formatting the Json information*/
 /*********************************/
-:local(.date_header){
+:local(.date_header) {
     text-align: initial;
     margin-top: 64px;
     font-size: 28px;
     line-height: 36px;
 
-    @include media('<xs'){
+    @include media('<xs') {
         font-size: 24px;
         line-height: 31px;
         margin-left: 15px;
@@ -126,7 +137,7 @@
 }
 
 
-:local(.schedule_box){
+:local(.schedule_box) {
     margin-top: 24px;
     width: 620px;
     height: 144px;
@@ -135,17 +146,17 @@
     border-color: #E5E5E5;
     background-color: #FFFFFF;
 
-    @include media ('<xs'){
+    @include media ('<xs') {
         width: 328px;
         height: 128px;
     }
 }
 
-:local(.event_info_duration){
+:local(.event_info_duration) {
     background-color: rgba(200, 199, 199, 0.2);
 }
 
-:local(.duration){
+:local(.duration) {
     text-align: initial;
     margin-left: 20px;
     height: 40px;
@@ -156,11 +167,11 @@
     line-height: 35px;
 }
 
-:local(.event_info_location){
+:local(.event_info_location) {
     background-color: #ffffff;
 }
 
-:local(.event_title){
+:local(.event_title) {
     margin-left: 20px;
     margin-top: 16px;
     font-weight: bold;
@@ -168,13 +179,13 @@
     line-height: 31px;
     text-align: initial;
 
-    @include media ('<xs'){
+    @include media ('<xs') {
         font-size: 18px;
         line-height: 23px;
     }
 }
 
-:local(.event_location){
+:local(.event_location) {
     margin-left: 20px;
     margin-top: 7px;
     font-size: 18px;
@@ -182,28 +193,28 @@
     letter-spacing: 5%;
     text-align: initial;
 
-    @include media ('<xs'){
+    @include media ('<xs') {
         font-size: 14px;
         line-height: 18px;
     }
 }
 
-:local(.event_type){
+:local(.event_type) {
     background-color: #ffffff;
     text-align: initial;
     margin-left: 20px;
     margin-top: 31px;
 }
 
-:local(.event_type-general){
+:local(.event_type-general) {
     background-color: blue;
     font-size: 100px;
 }
 
-:local(.event_type-lecture){
-    background-color:red;
+:local(.event_type-lecture) {
+    background-color: red;
 }
 
-:local(.event_type-workshop){
+:local(.event_type-workshop) {
     background-color: yellow;
 }
