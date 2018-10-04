@@ -1,5 +1,6 @@
 {
-  "speakers": [{
+  "speakers": [
+    {
       "firstName": "Chelsea ",
       "lastName": "Klukas",
       "job": "Product Design Manager at Facebook",
@@ -14,7 +15,9 @@
         "\"The Future of Design Careers\""
       ],
       "headshot": "chelsea_klukas",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "Krys",
@@ -30,10 +33,12 @@
         "\"Dreaming of Mars: How User Experience Factors Into NASA Missions\""
       ],
       "headshot": "krys_blackwood",
-      "presentationTitleDesc": [{
-        "title": "Dreaming of Mars: How User Experience Factors Into NASA Missions",
-        "desc": "NASA’s rovers on Mars brought us the first proof of water on our neighboring planet. Voyager, Juno and Cassini spacecraft have captured stunning images and with them, the hearts and imaginations of the world.  Learn the soup to nuts of how missions like these become a reality, and how NASA’s Jet Propulsion Laboratory is using design thinking to improve its mission design practices.  You’ll hear firsthand stories of how user experience design fits into an 80 year old process, and how it’s changing the ways that NASA approaches unmanned exploration of the solar system and beyond."
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "Dreaming of Mars: How User Experience Factors Into NASA Missions",
+          "desc": "NASA’s rovers on Mars brought us the first proof of water on our neighboring planet. Voyager, Juno and Cassini spacecraft have captured stunning images and with them, the hearts and imaginations of the world.  Learn the soup to nuts of how missions like these become a reality, and how NASA’s Jet Propulsion Laboratory is using design thinking to improve its mission design practices.  You’ll hear firsthand stories of how user experience design fits into an 80 year old process, and how it’s changing the ways that NASA approaches unmanned exploration of the solar system and beyond."
+        }
+      ]
     },
     {
       "firstName": "Nicholas",
@@ -50,10 +55,12 @@
         "\"Product Timecapsule Archive Study Collection\""
       ],
       "headshot": "nick_baker",
-      "presentationTitleDesc": [{
-        "title": "Product Timecapsule Archive Study Collection",
-        "desc": "This session will introduce attendees to the artifacts of process associated with this special collection that is being developed at RIT. Participants will hear from Professor and Chair of Industrial Design at RIT, Josh Owen, ID Grad Student David Villarreal and ID Junior Kaitlyn Gilmor about how this collection is used by students, faculty, researchers in the field."
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "Product Timecapsule Archive Study Collection",
+          "desc": "This session will introduce attendees to the artifacts of process associated with this special collection that is being developed at RIT. Participants will hear from Professor and Chair of Industrial Design at RIT, Josh Owen, ID Grad Student David Villarreal and ID Junior Kaitlyn Gilmor about how this collection is used by students, faculty, researchers in the field."
+        }
+      ]
     },
     {
       "firstName": "Liz",
@@ -70,10 +77,12 @@
         "Getting Uncomfortable"
       ],
       "headshot": "liz_wells",
-      "presentationTitleDesc": [{
-        "title": "asddf",
-        "desc": "asdf"
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "asddf",
+          "desc": "asdf"
+        }
+      ]
     },
     {
       "firstName": "Jonathan ",
@@ -90,10 +99,12 @@
         "\"Digital Design for the Physical Space\""
       ],
       "headshot": "jonathan_kim",
-      "presentationTitleDesc": [{
-        "title": "Digital Design for the Physical Space",
-        "desc": "Design as a discipline has been on an amazing journey, beginning with objects, growing to include graphics and print, and more recently moving into motion and interaction. However as the industry has matured and the tools have become more homogeneous, designers are growing restless, looking for what's next. Thankfully, there's a growing appetite for designers' skills in industries previously unable to benefit from their abilities. Tools like Cinder and Processing are paving the way for partnerships between designers and technologists that will fundamentally change not just the content of our screens but also physical environments like museums and retail."
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "Digital Design for the Physical Space",
+          "desc": "Design as a discipline has been on an amazing journey, beginning with objects, growing to include graphics and print, and more recently moving into motion and interaction. However as the industry has matured and the tools have become more homogeneous, designers are growing restless, looking for what's next. Thankfully, there's a growing appetite for designers' skills in industries previously unable to benefit from their abilities. Tools like Cinder and Processing are paving the way for partnerships between designers and technologists that will fundamentally change not just the content of our screens but also physical environments like museums and retail."
+        }
+      ]
     },
     {
       "firstName": "Elvira (Elle)",
@@ -109,7 +120,9 @@
         "\"The Creative Leadership Inquiry\""
       ],
       "headshot": "elvira_barriga",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "John",
@@ -125,10 +138,12 @@
         "\"Heavy duty vehicle design for any realities.\""
       ],
       "headshot": "john_frye",
-      "presentationTitleDesc": [{
-        "title": "Heavy duty vehicle design for any realities.",
-        "desc": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "Heavy duty vehicle design for any realities.",
+          "desc": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
+        }
+      ]
     },
     {
       "firstName": "Jessie",
@@ -145,10 +160,12 @@
         "\"Recharge your Creative Battery\""
       ],
       "headshot": "jessie_smith",
-      "presentationTitleDesc": [{
-        "title": "Recharge your Creative Battery",
-        "desc": "Jessie will share about her experience working at Adobe, and how she balances her full-time job with her passion projects. She'll also dive into her design process, and share some tips for hand lettering."
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "Recharge your Creative Battery",
+          "desc": "Jessie will share about her experience working at Adobe, and how she balances her full-time job with her passion projects. She'll also dive into her design process, and share some tips for hand lettering."
+        }
+      ]
     },
     {
       "firstName": "Lauren",
@@ -165,10 +182,12 @@
         "\"Making Your Dream Job a Reality\""
       ],
       "headshot": "lauren_o_neil",
-      "presentationTitleDesc": [{
-        "title": "Making Your Dream Job a Reality",
-        "desc": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "Making Your Dream Job a Reality",
+          "desc": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
+        }
+      ]
     },
     {
       "firstName": "Arnaud",
@@ -184,7 +203,9 @@
         "\"You’re a designer. I’m a developer. Don’t be afraid.\""
       ],
       "headshot": "arnaud_tanielian",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "Emily",
@@ -200,10 +221,12 @@
         "\"People + Processes: Designing Intangible Thing\""
       ],
       "headshot": "emily_herrick",
-      "presentationTitleDesc": [{
-        "title": "People + Processes: Designing Intangible Thing",
-        "desc": "Design school is a great place to learn about how to design tangible things: logos, posters, digital products, app interfaces, videos, and service concepts. But what about designing the intangible? Grasping the intangible often requires embracing an attitude that enables you to navigate through the fog of messy systems and politics so that you can design clear and meaningful solutions. In this talk, I will share my experience applying design to social problems and unpack how I have used the methods I learned in design school to create processes that drive collaboration, creative problem-solving, and organizational learning within large institutions. We’ll look at things like how design-informed approaches can help individuals experiencing homelessness access services, improve the quality of care within the child welfare system, and rethink how we support people in the criminal justice system."
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "People + Processes: Designing Intangible Thing",
+          "desc": "Design school is a great place to learn about how to design tangible things: logos, posters, digital products, app interfaces, videos, and service concepts. But what about designing the intangible? Grasping the intangible often requires embracing an attitude that enables you to navigate through the fog of messy systems and politics so that you can design clear and meaningful solutions. In this talk, I will share my experience applying design to social problems and unpack how I have used the methods I learned in design school to create processes that drive collaboration, creative problem-solving, and organizational learning within large institutions. We’ll look at things like how design-informed approaches can help individuals experiencing homelessness access services, improve the quality of care within the child welfare system, and rethink how we support people in the criminal justice system."
+        }
+      ]
     },
     {
       "firstName": "Meg",
@@ -220,16 +243,18 @@
         "\"On My Own\""
       ],
       "headshot": "meg_lewis",
-      "presentationTitleDesc": [{
-        "title": "On My Own",
-        "desc": "As students and adults we’re taught to rely on others for opportunities, promotions, and career success but what if there was a way to have everything we want all on our own? Join me, designer, educator, and entrepreneur Meg Lewis as I discuss how I created a totally self-sustainable, successful career by myself and how you can too!"
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "On My Own",
+          "desc": "As students and adults we’re taught to rely on others for opportunities, promotions, and career success but what if there was a way to have everything we want all on our own? Join me, designer, educator, and entrepreneur Meg Lewis as I discuss how I created a totally self-sustainable, successful career by myself and how you can too!"
+        }
+      ]
     },
     {
       "firstName": "Timmy",
       "lastName": "Chau",
       "job": "Experience Design Lead at New Deal Design",
-      "bio": "Sub-par designer that draws boxes for a living.",
+      "bio": "TLDR: Sub-par designer that’s worked on a lot of different things. RIT New Media Design 14' Alum. Eats a lot and enjoys drawing, 3D, and motion design.\n\nTimmy Chau is a multidisciplinary designer and creative based in San Francisco. He’s had experiences working with a variety of technologies like wearables, IOT, robotics, medicine, wellness, consumer toys, web, app, e-commerce, editorial media, and much more.\n\nHis work has been featured in Fast Company, Wall Street Journal, USA Today, Gizmodo and received awards from Adobe, Webbys, IDSA, and CES.\n\nHe graduated from RIT’s New Media Design program in 2014 and was previously an experience designer at a Fantasy.\n\nTimmy currently helps lead the Experience Design team at New Deal Design where they create human-centric experiences for physical and digital products. He’s worked with the team to create products like Play Impossible, a reinvention of the ball, and Dragonfly, an intelligent home system that replaces your lights.\n\nWhen he’s not working or eating, he enjoys illustration and experimenting in 3D and animation.",
       "fields": [
         ""
       ],
@@ -239,7 +264,9 @@
         "\"\""
       ],
       "headshot": "timmy_chau",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "Ben",
@@ -273,7 +300,9 @@
         "\"Industrial Design in Entertainment\""
       ],
       "headshot": "guillermo_fok",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "Jen",
@@ -289,7 +318,9 @@
         "\"The Post Grad Talk - Where to go after college\""
       ],
       "headshot": "jen_byyny",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "Sean",
@@ -306,7 +337,10 @@
       ],
       "headshot": "sean_wolcott",
       "presentationTitleDesc": [
-        ""
+        {
+          "title": "Basics for better design",
+          "desc": "This talk will focus on the process and benefits of how to use constraints to be more creative, clever, and clear as designers in practical ways you can apply daily."
+        }
       ]
     },
     {
@@ -324,7 +358,9 @@
         "\"Design for the Senses\""
       ],
       "headshot": "meghan_preiss",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "Jeff ",
@@ -340,7 +376,9 @@
         "\"\""
       ],
       "headshot": "jeff_smith",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {}
+      ]
     },
     {
       "firstName": "Miguel A",
@@ -358,10 +396,12 @@
         "\"Once you start mimicking, you stop looking\""
       ],
       "headshot": "miguel_cardona",
-      "presentationTitleDesc": [{
-        "title": "Once you start mimicking, you stop looking",
-        "desc": "Massimo Vignelli learned early in his career that a designer should be able to design everything, coining the term ‘Design is One.’ This presentation will focus on the bridges that exist between graphic, industrial, web, and user experience design with a focus on producing artifacts and communication when developing and disseminating work across different platforms and media."
-      }]
+      "presentationTitleDesc": [
+        {
+          "title": "Once you start mimicking, you stop looking",
+          "desc": "Massimo Vignelli learned early in his career that a designer should be able to design everything, coining the term ‘Design is One.’ This presentation will focus on the bridges that exist between graphic, industrial, web, and user experience design with a focus on producing artifacts and communication when developing and disseminating work across different platforms and media."
+        }
+      ]
     },
     {
       "firstName": "Amelia",
@@ -377,26 +417,12 @@
         "\"Your Typographic Librarian\""
       ],
       "headshot": "amelia_fontanel",
-      "presentationTitleDesc": [{
-        "title": "Your Typographic Librarian",
-        "desc": "Archives and libraries contain infinite resources for twenty-first century typographic inspiration. Obscure matrices, colonial papers, scrawling personal letters, and rare films from the RIT Cary Graphic Arts Collection have all recently stimulated creative endeavors by our most enthusiastic patrons—type designers, educators, and designers like you! Join me, “your typographic librarian,” as I describe some great projects where history, technology, and design intersect—perhaps encouraging you to get to know your campus rare book library scientist."
-      }]
-    },
-    {
-      "firstName": "Tim",
-      "lastName": "Wood",
-      "job": "Professor of Industrial Design & Interaction Design at RIT",
-      "bio": "Tim Wood is currently an Assistant Professor of Industrial and Interaction Design at RIT. Tim is most interested in emerging technologies, the frontiers of interaction design, and how these two areas are changing the nature of human experience and how we think about design itself. With extensive experience in design strategy, the architecture of interactive systems, and digital product design, he is keenly aware of the changing nature of design and the new roles designers must fill. At RIT, he is committed to ensuring that the next generation of product designers have the right skills to shape the world’s future.Tim holds an MFA in Computer Graphics from RIT, an Advanced Certificate in Interactive Media Development from RIT and a BFA in Design Arts from Memphis College of Art. Before RIT, he was VP of UX and Design at EffectiveUI and before that he was Creative Director for Design Innovation & Advanced Development at Eastman Kodak. Tim is an award-winning designer and an internationally recognized speaker and author on the topic of UX and UI design.",
-      "fields": [
-        ""
-      ],
-      "Industry": "User Experience Design",
-      "links": "",
-      "presentationTitles": [
-        "\"\""
-      ],
-      "headshot": "tim_wood",
-      "presentationTitleDesc": [{}]
+      "presentationTitleDesc": [
+        {
+          "title": "Your Typographic Librarian",
+          "desc": "Archives and libraries contain infinite resources for twenty-first century typographic inspiration. Obscure matrices, colonial papers, scrawling personal letters, and rare films from the RIT Cary Graphic Arts Collection have all recently stimulated creative endeavors by our most enthusiastic patrons—type designers, educators, and designers like you! Join me, “your typographic librarian,” as I describe some great projects where history, technology, and design intersect—perhaps encouraging you to get to know your campus rare book library scientist."
+        }
+      ]
     }
   ]
 }

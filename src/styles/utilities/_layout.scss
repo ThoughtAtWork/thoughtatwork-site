@@ -12,6 +12,11 @@ body {
         15.5px 15.5px;
 }
 
+.button_schedule__active {
+    background-color: #281E35 !important;
+    color: #FFFFFF !important;
+}
+
 .content-Block--margin-top {
   margin-top: 112px;
   @include media('<md') {
