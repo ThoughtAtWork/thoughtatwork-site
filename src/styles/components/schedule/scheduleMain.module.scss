@@ -7,7 +7,12 @@
     @include media ('<xs') {
         margin-bottom: 24px;
     }
+
     margin-bottom: 32px;
+}
+
+:local(.schedule_block:hover) {
+    cursor: pointer;
 }
 
 :local(.schedule_block__content) {
@@ -19,25 +24,29 @@
 }
 
 :local(.event_spacing) {
-  margin-right: 28px;
-  @include media ('<xs') {
-      margin-left: 20px;
-  }
+    margin-right: 28px;
 
-  @include media ('<sm') {
-      margin-left: 24px;
-      margin-right: 24px;
-  }
-  @include media ('<480') {
-      margin-right: 12.4px;
-  }
-  margin-left: 27px;
+    @include media ('<xs') {
+        margin-left: 20px;
+    }
 
-  @include media ('<xs') {
-      padding-bottom: 24px;
-  }
-  padding-top: 24px;
-  padding-bottom: 32px;
+    @include media ('<sm') {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    @include media ('<480') {
+        margin-right: 12.4px;
+    }
+
+    margin-left: 27px;
+
+    @include media ('<xs') {
+        padding-bottom: 24px;
+    }
+
+    padding-top: 24px;
+    padding-bottom: 32px;
 }
 
 :local(.duration) {
@@ -45,6 +54,7 @@
     font-size: 14px;
     letter-spacing: 0.05em;
     font-weight: 600;
+
     @include media ('<xs') {
         margin-left: 20px;
     }
@@ -55,22 +65,25 @@
 
     margin-left: 27px;
 }
+
 :local(.schedule_block__duration) {
-  height: 40px;
-  background: $light-grey;
-  border-right: 1.5px solid #E5E5E5;
-  border-left: 1.5px solid #E5E5E5;
-  border-top: 1.5px solid #E5E5E5;
-  border-radius: 8px 8px 0px 0px;
-  box-sizing: border-box;
+    height: 40px;
+    background: $light-grey;
+    border-right: 1.5px solid #E5E5E5;
+    border-left: 1.5px solid #E5E5E5;
+    border-top: 1.5px solid #E5E5E5;
+    border-radius: 8px 8px 0px 0px;
+    box-sizing: border-box;
 }
+
 :local(.presenterLocation) {
-  padding-top: 8px;
+    padding-top: 8px;
 }
 
 :local(.event_description) {
-  margin-top: 32px;
+    margin-top: 32px;
 }
+
 :local(.event_description__color) {
-  color: #979797;
+    color: #979797;
 }
