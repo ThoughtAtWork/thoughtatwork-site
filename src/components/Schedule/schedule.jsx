@@ -38,7 +38,7 @@ class Schedule extends React.Component {
     let presenterLocation = this.props.presenterLocation;
     let type = this.props.type;
     let description = this.props.description;
-    let day = this.props.day;
+    // let day = this.props.day;
 
     let eventOpen = this.state.eventOpen ? 'block' : 'none';
     let chevron = this.state.eventOpen ? scheduleChevronClosed : scheduleChevron;
@@ -49,7 +49,7 @@ class Schedule extends React.Component {
         onClick={this.onClick}
       >
         <div className={classnames(styles.schedule_block__duration, 'flex flex-align-center')}>
-          <p className={styles.duration}>{start} to {end}, &nbsp;{day}</p>
+          <p className={styles.duration}>{start} to {end}</p>
         </div>
         <div
           className={classnames(styles.schedule_block__content)}
