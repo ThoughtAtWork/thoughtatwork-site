@@ -1,82 +1,46 @@
 @import "../../main";
 
-/************************/
-/*The main schedule page*/
-/************************/
-:local(.button_schedule) {
-    border-radius: 32px;
-    text-decoration: none;
-    display: block;
-    width: 33%;
-    max-width: 186.76px;
-    height: 30px;
-    background: #FFFFFF;
-    text-align: center;
-    line-height: 28px;
-    color: #281E35;
-    font-weight: bold;
-    font-size: 18px;
-    border-style: solid;
-    border-color: #281E35;
-    border: 3px solid #281E35;
-}
-
-:local(.button_schedule:hover) {
-    background-color: #281E35;
-    color: #FFFFFF;
-}
-
-
-:local(.button_schedule__leftSpacing) {
-    margin-left: 5%;
-}
-
-:local(.boundaryElement_positioning) {
-    height: 1px;
-    top: -120px;
-    position: relative;
-}
-
-
-:local(.date_header) {
-    margin-bottom: 38px;
-
-    @include media ('<sm') {
-        margin-bottom: 32px;
-    }
-
-    @include media ('<xs') {
-        margin-bottom: 24px;
-    }
-}
-
 :local(.schedule_block) {
     background: #FFFFFF;
-    border: 1.5px solid #E5E5E5;
     box-sizing: border-box;
-    border-radius: 8px;
 
     @include media ('<xs') {
         margin-bottom: 24px;
     }
-
     margin-bottom: 32px;
 }
 
-:local(.schedule_block__border) {
+:local(.schedule_block__content) {
     border-left: 3px solid;
-    @include media ('<xs') {
-        padding-bottom: 24px;
-    }
-    padding-bottom: 32px;
+    border-bottom: 1.5px solid #E5E5E5;
+    border-right: 1.5px solid #E5E5E5;
+    border-radius: 0px 0px 8px 0px;
+    box-sizing: border-box;
 }
 
-:local(.event_margin__bottom) {}
+:local(.event_spacing) {
+  margin-right: 64px;
+  @include media ('<xs') {
+      margin-left: 20px;
+  }
+
+  @include media ('<sm') {
+      margin-left: 24px;
+  }
+  margin-left: 27px;
+
+  @include media ('<xs') {
+      padding-bottom: 24px;
+  }
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
 
 :local(.duration) {
     line-height: 20px;
     font-size: 14px;
     letter-spacing: 0.05em;
+    font-weight: 600;
     @include media ('<xs') {
         margin-left: 20px;
     }
@@ -90,4 +54,19 @@
 :local(.schedule_block__duration) {
   height: 40px;
   background: $light-grey;
+  border-right: 1.5px solid #E5E5E5;
+  border-left: 1.5px solid #E5E5E5;
+  border-top: 1.5px solid #E5E5E5;
+  border-radius: 8px 8px 0px 0px;
+  box-sizing: border-box;
+}
+:local(.presenterLocation) {
+  padding-top: 8px;
+}
+
+:local(.event_description) {
+  margin-top: 32px;
+}
+:local(.event_description__color) {
+  color: #979797;
 }
