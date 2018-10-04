@@ -39,14 +39,13 @@ h1 {
 
 h2 {
     line-height: 150%;
-    font-size: 24px;
     font-style: normal;
     font-weight: bold;
     text-transform: lowercase;
     color: $purpleblack;
     $min_width: $xs;
     $max_width: $lg;
-    $min_font: 20px;
+    $min_font: 24px;
     $max_font: 32px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }

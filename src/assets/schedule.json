@@ -1,32 +1,320 @@
 {
-    "friday": [
-      {
-        "start": "9:00am",
-        "end": "6:00pm",
-        "title": "registration & check in 1",
-        "location": "Bevier Lobby, 3nd floor Booth Hall",
-        "type": "general",
-        "description": "Worshop information will be here"
-      }
-    ],
-    "saturday":[
-      {
-        "start": "9:00am",
-        "end": "6:00pm",
-        "title": "registration & check in 6",
-        "location": "Bevier Lobby, 5nd floor Booth Hall",
-        "type": "workshop",
-        "description": "Worshop information will be here"
-      }
-    ],
-    "sunday":[
-      {
-        "start": "9:00am",
-        "end": "6:00pm",
-        "title": "registration & check in 7",
-        "location": "Bevier Lobby, 5nd floor Booth Hall",
-        "type":"lecture",
-        "description": "Worshop information will be here"
-      }
-    ]
-  }
+  "friday": [
+    {
+      "start": "1:30PM",
+      "end": "3:00PM",
+      "title": "registration & check in",
+      "presenter - location": "Bevier Lobby - 2nd floor Booth Hall",
+      "type": "Registration",
+      "description": ""
+    },
+    {
+      "start": "2:00PM",
+      "end": "2:15PM",
+      "title": "START. Small intro and motion graphic",
+      "presenter - location": "TAW team - Webb Auditorium, 1350",
+      "type": "lecture",
+      "description": ""
+    },
+    {
+      "start": "2:15PM",
+      "end": "3:00PM",
+      "title": "Dreaming of Mars: How User Experience Factors Into NASA Missions",
+      "presenter - location": "Krys Blackwood - Webb Auditorium - 1350",
+      "type": "Keynote",
+      "description": ""
+    },
+    {
+      "start": "3:15PM",
+      "end": "4:00PM",
+      "title": "Making Your Dream Job a Reality",
+      "presenter - location": "Lauren O'Neill- Booth room 3330",
+      "type": "leture",
+      "description": ""
+    },
+    {
+      "start": "3:15PM",
+      "end": "4:00PM",
+      "title": "On My Own",
+      "presenter - location": "Meg Lewis- Booth room 3310",
+      "type": "lecture",
+      "description": ""
+    },
+    {
+      "start": "3:15PM",
+      "end": "4:00PM",
+      "title": "The Post Grad Talk - Where to go after college",
+      "presenter - location": "Jen Bygny- Booth Room 1400",
+      "type": "lecture",
+      "description": ""
+    },
+    {
+      "start": "4:15PM",
+      "end": "5:00PM",
+      "title": "Keynote-The Creative Leadership Inquiry ",
+      "presenter - location": "Elvira-Webb Auditorium- 1350",
+      "type": "lecture",
+      "description": ""
+    },
+    {
+      "start": "5:15PM",
+      "end": "7:00PM",
+      "title": "Design Autopsy",
+      "presenter - location": "University Gallery - 1st floor",
+      "type": "general",
+      "description": ""
+    }
+  ],
+  "saturday": [
+    {
+      "start": "9:00AM",
+      "end": "10:00AM",
+      "title": "Breakfast",
+      "presenter_location": "TAW Lounge",
+      "type": "general",
+      "description": "Join us for bagels and coffee!"
+    },
+    {
+      "start": "9:15AM",
+      "end": "11:00AM",
+      "title": "Registration Open",
+      "presenter_location": "2nd Floor Lobby - Across Bevier Gallery",
+      "type": "general",
+      "description": ""
+    },
+    {
+      "start": "9:30AM",
+      "end": "10:30AM",
+      "title": "Design Autopsy Panel",
+      "presenter_location": "Bevier Gallery - 2nd Floor",
+      "type": "general",
+      "description": ""
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "People + Processes: Designing Intangible Things",
+      "presenter_location": "Emily Herrick - 3330",
+      "type": "Lecture",
+      "description": "Design school is a great place to learn about how to design tangible things: logos, posters, digital products, app interfaces, videos, and service concepts. But what about designing the intangible? Grasping the intangible often requires embracing an attitude that enables you to navigate through the fog of messy systems and politics so that you can design clear and meaningful solutions. In this talk, I will share my experience applying design to social problems and unpack how I have used the methods I learned in design school to create processes that drive collaboration, creative problem-solving, and organizational learning within large institutions. We’ll look at things like how design-informed approaches can help individuals experiencing homelessness access services, improve the quality of care within the child welfare system, and rethink how we support people in the criminal justice system."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Getting Uncomfortable",
+      "presenter_location": "Liz Wells - 3310",
+      "type": "Lecture",
+      "description": "Presentation: Good work comes from being uncomfortable, and discomfort can mean different things to different people. Recently, I learned that I create average work when I am comfortable and not being pushed or challenged. But once I create discomfort, I become challenged to do more than the average, and that’s when I create work that is truly creative. \n\nThis talk will cover what I do to continually be challenged, including work at Stink Studios that invoked discomfort, what it looks like to run an independent newsletter, and finding ways you can challenge yourself in your daily life."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "",
+      "presenter_location": "Ben Sorenson - 1400",
+      "type": "Lecture",
+      "description": "TBD"
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:15AM",
+      "title": "Intro and Motion Graphic",
+      "presenter_location": "Webb Auditorium - 1350",
+      "type": "",
+      "description": ""
+    },
+    {
+      "start": "11:15AM",
+      "end": "12:00PM",
+      "title": "Digital Design For The Physical Space",
+      "presenter_location": "Johnathan Kim - Webb Auditorium - 1350",
+      "type": "Keynote",
+      "description": "Design as a discipline has been on an amazing journey, beginning with objects, growing to include graphics and print, and more recently moving into motion and interaction. However as the industry has matured and the tools have become more homogeneous, designers are growing restless, looking for what's next. Thankfully, there's a growing appetite for designers' skills in industries previously unable to benefit from their abilities. Tools like Cinder and Processing are paving the way for partnerships between designers and technologists that will fundamentally change not just the content of our screens but also physical environments like museums and retail."
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Registration Open",
+      "presenter_location": "2nd Floor Lobby",
+      "type": "general",
+      "description": ""
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Sketching in Virtual Reality",
+      "presenter_location": "Nick Baker - Magic Center Lobby",
+      "type": "Lecture",
+      "description": "Through tools like Oculus and programs like Gravity Sketch, sketching in VR is quickly becoming a much more accessible process for designers. In this workshop, Industrial Designer Nicholas Baker will demonstrate the ways in which sketching in VR can improve workflow, quicken the ideation process and yield designs outside of the traditional sketching realm."
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Heavy Duty Vehicle Design for any Realities",
+      "presenter_location": "John Frye - 3310",
+      "type": "workshop",
+      "description": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Making Your Dream Job a Reality",
+      "presenter_location": "Lauren O'Neil - 3330",
+      "type": "lecture",
+      "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
+    },
+    {
+      "start": "1:00PM",
+      "end": "2:00PM",
+      "title": "Lunch Break",
+      "presenter_location": "",
+      "type": "general",
+      "description": ""
+    },
+    {
+      "start": "2:15PM",
+      "end": "3:00PM",
+      "title": "Heavy Duty Vehicle Design for any Realities",
+      "presenter_location": "John Frye - 1400",
+      "type": "lecture",
+      "description": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
+    },
+    {
+      "start": "2:15PM",
+      "end": "3:00PM",
+      "title": "You’re a Designer. I’m a Developer. Don’t be Afraid.",
+      "presenter_location": "Arnaud - 1420",
+      "type": "lecture",
+      "description": "Developers don’t bite! We’ll see from different perspectives (UX, Visual and Motion) how to work with us, from what we do to what we need. But more importantly, how to work as a creative team player and deliver the best work possible!"
+    },
+    {
+      "start": "2:15PM",
+      "end": "4:00PM",
+      "title": "Portfolio Review + Product Timecapsule",
+      "presenter_location": "University Gallery - 2nd Floor",
+      "type": "general",
+      "description": ""
+    },
+    {
+      "start": "4:15PM",
+      "end": "4:45PM",
+      "title": "Sketch Off",
+      "presenter_location": "Webb Auditorium - 1350",
+      "type": "general",
+      "description": ""
+    },
+    {
+      "start": "5:00PM",
+      "end": "5:45PM",
+      "title": "The Future of Design Careers",
+      "presenter_location": "Chelsea Klukas - Webb Auditorium - 1350",
+      "type": "Keynote",
+      "description": "Over the past few decades, the definition of a designer has rapidly evolved alongside technology. From print, to web, to mobile, the roles of professional designers have shifted, as have the tools, skills, and challenges they face every day. As interfaces continue to expand beyond handheld devices, what will the role of designers be in 5 or 10 years from now? This presentation will explore design specializations \"beyond screens\" that are already emerging and will become increasingly relevant in the future including voice, biometric design, and machine learning design. It will highlight the challenges these designers face, the tools and skills that are needed, and what you can do now to get up to speed with these developing fields."
+    },
+    {
+      "start": "5:45PM",
+      "end": "6:00PM",
+      "title": "Ending Remarks",
+      "presenter_location": "TAW Team - Webb Auditorium - 1350",
+      "type": "general",
+      "description": ""
+    },
+    {
+      "start": "7:30PM",
+      "end": "10:00PM",
+      "title": "After Party",
+      "presenter_location": "King Billiards - 400 Jefferson Rd #5, Rochester, NY 14623",
+      "type": "general",
+      "description": ""
+    }
+  ],
+  "sunday": [
+    {
+      "start": "9:00AM",
+      "end": "10:00AM",
+      "title": "breakfast",
+      "presenter_location": "2nd Floor Lobby",
+      "type": "general",
+      "description": "-"
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Your Typographic Librarian",
+      "presenter_location": "Amelia - 1420",
+      "type": "lecture",
+      "description": "Archives and libraries contain infinite resources for twenty-first century typographic inspiration. Obscure matrices, colonial papers, scrawling personal letters, and rare films from the RIT Cary Graphic Arts Collection have all recently stimulated creative endeavors by our most enthusiastic patrons—type designers, educators, and designers like you! Join me, “your typographic librarian,” as I describe some great projects where history, technology, and design intersect—perhaps encouraging you to get to know your campus rare book library scientist."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "",
+      "presenter_location": "Timmy - 3310",
+      "type": "workshop",
+      "description": ""
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Industrial design in entertainment ",
+      "presenter_location": "Guillermo - 1400",
+      "type": "lecuture",
+      "description": "The role of product design in the live entertainment industry. A discussion of the key differences between themed and live entertainment and an anecdotal conversation about my experience working on several touring shows."
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:45AM",
+      "title": "Wireframe Sketching Workshop",
+      "presenter_location": "Liz Wells - 1540",
+      "type": "workshop",
+      "description": "Workshop: This workshop will teach students from all backgrounds and experience levels, how to take a step back from the screen and sketch digital experiences. I’ll teach students the process I go through from user flows, experience maps and wireframes. Students will be able to use the tools I use on a daily basis and help them grow their user experience thinking and skill set!   "
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:45AM",
+      "title": "Designing for Humans: Leveraging the Lean UX Canvas to Build Successful Products",
+      "presenter_location": "M&T Bank - 1420",
+      "type": "workshop",
+      "description": "Knowing what problem to solve next is a complicated task. It is even more difficult when designing products or services for humans. It is imperative for designers to understand how to practice effective discovery methods in order to solve real problems for customers as well as simultaneously feeding delivery efforts.\n \nThe Lean UX Canvas is a tool that we use that helps us effectively frame our work, establish outcomes, know who we are designing for, and test our assumptions. This helps us create a collaborative, customer-centric environment that brings together product design, user experience, engineering, and product management, that focuses on building the right product and building the product right."
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:45AM",
+      "title": "",
+      "presenter_location": "Jeff Smith - 3330",
+      "type": "workshop",
+      "description": ""
+    },
+    {
+      "start": "12:00PM",
+      "end": "12:45PM",
+      "title": "Once you start mimicking, you stop looking",
+      "presenter_location": "Miguel - 1540",
+      "type": "lecture",
+      "description": ""
+    },
+    {
+      "start": "12:00PM",
+      "end": "12:45PM",
+      "title": "",
+      "presenter_location": "Sean Wolcott  - 1420",
+      "type": "lecture",
+      "description": ""
+    },
+    {
+      "start": "1:00PM",
+      "end": "1:45PM",
+      "title": "Lazy Sunday Panel",
+      "presenter_location": "Surprise Speakers - 3310 Booth",
+      "type": "Panel",
+      "description": ""
+    },
+    {
+      "start": "2:00PM",
+      "end": "2:15PM",
+      "title": "Closing",
+      "presenter_location": "TAW Team - Webb Auditorium - 1350",
+      "type": "general",
+      "description": "A final review of the 2018 conference."
+    }
+  ]
+}

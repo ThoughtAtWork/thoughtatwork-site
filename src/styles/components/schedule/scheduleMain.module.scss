@@ -3,68 +3,6 @@
 /************************/
 /*The main schedule page*/
 /************************/
-:local(.schedule_title) {
-    font-size: 60px;
-    line-height: 70px;
-    margin-top: 46px;
-    margin-left: 155px;
-
-    @include media ('<md') {
-        margin-left: 90px;
-        font-size: 42px;
-    }
-
-    @include media ('<sm') {
-        margin-left: 40px;
-        font-size: 42px;
-    }
-
-    @include media ('<xs') {
-        margin-left: 20px;
-        font-size: 36px;
-    }
-
-}
-
-:local(.schedule_wrapper) {
-    text-align: center;
-
-    //margin: auto;
-    //width: 50%;
-    @include media ('<xs') {
-        text-align: -webkit-center;
-    }
-
-}
-
-:local(.container_center) {
-    margin-top: 82px;
-    display: inline-block;
-
-    @include media ('<sm') {
-        margin-top: 80px;
-    }
-
-    @include media ('<xs') {
-        margin-top: 43px;
-    }
-
-}
-
-/*********************/
-/*  Schedule Buttons */
-/*********************/
-
-
-:local(.floating_buttons) {
-    display: inline-flex;
-
-    @include media ('<xs') {
-        display: flex;
-    }
-
-}
-
 :local(.button_schedule) {
     border-radius: 32px;
     text-decoration: none;
@@ -81,7 +19,6 @@
     border-style: solid;
     border-color: #281E35;
     border: 3px solid #281E35;
-    position: border-box;
 }
 
 :local(.button_schedule:hover) {
@@ -91,130 +28,66 @@
 
 
 :local(.button_schedule__leftSpacing) {
-  margin-left: 5%;
+    margin-left: 5%;
 }
 
 :local(.boundaryElement_positioning) {
-  height: 1px;
-  top: -120px;
-  position: relative;
-}
-
-:local(#sticky) {
-    display: none;
-}
-
-:local(#sticky.fixed) {
-    display: block;
-    position: fixed;
-    top: 90px;
+    height: 1px;
+    top: -120px;
+    position: relative;
 }
 
 
-:local(.button_schedule_slide) {
-    margin-left: 28px;
-
-    @include media ('<xs') {
-        margin-left: 18px;
-    }
-
-}
-
-/*********************************/
-/*Formatting the Json information*/
-/*********************************/
 :local(.date_header) {
-    text-align: initial;
-    margin-top: 64px;
-    font-size: 28px;
-    line-height: 36px;
+    margin-bottom: 38px;
 
-    @include media('<xs') {
-        font-size: 24px;
-        line-height: 31px;
-        margin-left: 15px;
+    @include media ('<sm') {
+        margin-bottom: 32px;
     }
-}
-
-
-:local(.schedule_box) {
-    margin-top: 24px;
-    width: 620px;
-    height: 144px;
-    border-radius: 8px;
-    border-style: solid;
-    border-color: #E5E5E5;
-    background-color: #FFFFFF;
 
     @include media ('<xs') {
-        width: 328px;
-        height: 128px;
+        margin-bottom: 24px;
     }
 }
 
-:local(.event_info_duration) {
-    background-color: rgba(200, 199, 199, 0.2);
+:local(.schedule_block) {
+    background: #FFFFFF;
+    border: 1.5px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    @include media ('<xs') {
+        margin-bottom: 24px;
+    }
+
+    margin-bottom: 32px;
 }
+
+:local(.schedule_block__border) {
+    border-left: 3px solid;
+    @include media ('<xs') {
+        padding-bottom: 24px;
+    }
+    padding-bottom: 32px;
+}
+
+:local(.event_margin__bottom) {}
 
 :local(.duration) {
-    text-align: initial;
-    margin-left: 20px;
-    height: 40px;
-    color: #000000;
-    font-weight: bold;
+    line-height: 20px;
     font-size: 14px;
-    letter-spacing: 5%;
-    line-height: 35px;
-}
-
-:local(.event_info_location) {
-    background-color: #ffffff;
-}
-
-:local(.event_title) {
-    margin-left: 20px;
-    margin-top: 16px;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 31px;
-    text-align: initial;
-
+    letter-spacing: 0.05em;
     @include media ('<xs') {
-        font-size: 18px;
-        line-height: 23px;
+        margin-left: 20px;
     }
-}
 
-:local(.event_location) {
-    margin-left: 20px;
-    margin-top: 7px;
-    font-size: 18px;
-    line-height: 23px;
-    letter-spacing: 5%;
-    text-align: initial;
-
-    @include media ('<xs') {
-        font-size: 14px;
-        line-height: 18px;
+    @include media ('<sm') {
+        margin-left: 24px;
     }
-}
 
-:local(.event_type) {
-    background-color: #ffffff;
-    text-align: initial;
-    margin-left: 20px;
-    margin-top: 31px;
+    margin-left: 27px;
 }
-
-:local(.event_type-general) {
-    background-color: blue;
-    font-size: 100px;
-}
-
-:local(.event_type-lecture) {
-    background-color: red;
-}
-
-:local(.event_type-workshop) {
-    background-color: yellow;
+:local(.schedule_block__duration) {
+  height: 40px;
+  background: $light-grey;
 }

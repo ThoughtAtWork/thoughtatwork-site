@@ -38,6 +38,7 @@
     "react-lottie": "^1.2.3",
     "react-player": "^1.6.4",
     "react-responsive": "^5.0.0",
+    "react-scrollable-anchor": "^0.6.1",
     "react-scrolllock": "^3.0.2",
     "react-sticky-el": "^1.0.20",
     "react-visibility-sensor": "^4.1.3",
