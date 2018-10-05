@@ -1,5 +1,5 @@
 {
-"sponsor": [{
+  "sponsor": [{
       "site": "https://www.stickermule.com/",
       "name": "Stickermule",
       "image": "stickermule"
@@ -10,11 +10,6 @@
       "image": "invision"
     },
     {
-      "site": "http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/",
-      "name": "IDSA",
-      "image": "idsa"
-    },
-    {
       "site": "https://www.keyshot.com/",
       "name": "Keyshot",
       "image": "keyshot"
@@ -23,11 +18,6 @@
       "site": "http://www.autodesk.com",
       "name": "Autodesk",
       "image": "autodesk"
-    },
-    {
-      "site": "https://www.rit.edu/academicaffairs/sois/",
-      "name": "RIT School of Individualized Studies",
-      "image": "sois"
     },
     {
       "site": "https://www.steelcase.com/",
@@ -58,6 +48,14 @@
       "site": "http://www.javascafe.com/",
       "name": "Javas Cafe",
       "image": "javas"
+    }, {
+      "site": "https://www.rit.edu/academicaffairs/sois/",
+      "name": "RIT School of Individualized Studies",
+      "image": "sois"
+    }, {
+      "site": "http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/",
+      "name": "IDSA",
+      "image": "idsa"
     }
   ]
 }

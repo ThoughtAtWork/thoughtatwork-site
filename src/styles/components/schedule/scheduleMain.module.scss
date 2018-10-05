@@ -57,13 +57,14 @@
     margin-right: 24px;
 }
 
+:local(.event_header__type) {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
 :local(.duration) {
-    line-height: 20px;
-    font-size: 14px;
-    letter-spacing: 0.05em;
-    font-weight: 600;
-
-
     @include media ('<sm') {
         margin-left: 14px;
     }

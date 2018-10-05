@@ -8,9 +8,6 @@ import MediaQuery from 'react-responsive';
 import Sticky from 'react-sticky-el';
 import VisibilitySensor from 'react-visibility-sensor';
 import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
-import red from '../../assets/images/scheduleDots/red.svg';
-import yellow from '../../assets/images/scheduleDots/yellow.svg';
-import blue from '../../assets/images/scheduleDots/blue.svg';
 
 
 class Schedule extends React.Component {
@@ -72,9 +69,6 @@ class Schedule extends React.Component {
       if (this.state.saturday) {
         this.setState({ saturday: true });
         this.setState({ day: 'Saturday' });
-      } else {
-        this.setState({ sunday: true });
-        this.setState({ day: 'Sunday' });
       }
     }
   }

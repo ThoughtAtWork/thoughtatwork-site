@@ -51,11 +51,10 @@ class Schedule extends React.Component {
         onClick={this.onClick}
       >
         <div className={classnames(styles.schedule_block__duration, 'flex flex-align-center flex-row flex-justify-between')}>
-          <p className={classnames(styles.duration)}>{start} to {end}</p>
-          <p className={classnames(styles.event_type)}><span
-            style={{ color: this.eventTypeClassName(type) }}
-          >{type}</span></p>
-
+          <p className={classnames(styles.duration, styles.event_header__type)}>{start} to {end}</p>
+          <p style={{ color: this.eventTypeClassName(type) }} className={classnames(styles.event_header__type , styles.event_type)}>
+            {type}
+          </p>
         </div>
         <div
           className={classnames(styles.schedule_block__content)}
