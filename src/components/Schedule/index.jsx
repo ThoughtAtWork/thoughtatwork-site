@@ -36,9 +36,8 @@ class Schedule extends React.Component {
   }
 
 
-  initializeSchedule = (events, day) => {
-    console.log(day);
 
+  initializeSchedule = (events, day) => {
     return (
       <div>
         {events.map((event) => {
