@@ -210,7 +210,7 @@ class Schedule extends React.Component {
                     <div className={classnames('flex flex-row flex-align-center')}>
                       <div className={classnames('flex flex-row')}>
                         <img src={blue} />
-                        <p className={classnames('', styles.key_dot)} >general</p>
+                        <p className={classnames('', styles.key_dot)} >keynote</p>
                       </div>
 
                       <div className={classnames('flex flex-row', styles.key_block)}>

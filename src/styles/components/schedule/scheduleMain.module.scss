@@ -49,21 +49,26 @@
     padding-bottom: 32px;
 }
 
+:local(.event_type) {
+    @include media ('<sm') {
+        margin-right: 16px;
+    }
+
+    margin-right: 24px;
+}
+
 :local(.duration) {
     line-height: 20px;
     font-size: 14px;
     letter-spacing: 0.05em;
     font-weight: 600;
 
-    @include media ('<xs') {
-        margin-left: 20px;
-    }
 
     @include media ('<sm') {
-        margin-left: 24px;
+        margin-left: 14px;
     }
 
-    margin-left: 27px;
+    margin-left: 24px;
 }
 
 :local(.schedule_block__duration) {

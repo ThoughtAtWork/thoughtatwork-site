@@ -21,14 +21,14 @@
       "end": "3:00PM",
       "title": "Dreaming of Mars: How User Experience Factors Into NASA Missions",
       "presenter_location": "Krys Blackwood - Webb Auditorium - 1350",
-      "type": "General Event",
+      "type": "Keynote",
       "description": "NASA’s rovers on Mars brought us the first proof of water on our neighboring planet. Voyager, Juno and Cassini spacecraft have captured stunning images and with them, the hearts and imaginations of the world. Learn the soup to nuts of how missions like these become a reality, and how NASA’s Jet Propulsion Laboratory is using design thinking to improve its mission design practices. You’ll hear firsthand stories of how user experience design fits into an 80 year old process, and how it’s changing the ways that NASA approaches unmanned exploration of the solar system and beyond."
     },
     {
       "start": "3:15PM",
       "end": "4:00PM",
       "title": "Making Your Dream Job a Reality",
-      "presenter_location": "Lauren O'Neill - Booth room 3330",
+      "presenter_location": "Lauren O'Neill - room 3330",
       "type": "Lecture",
       "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
     },
@@ -36,7 +36,7 @@
       "start": "3:15PM",
       "end": "4:00PM",
       "title": "On My Own",
-      "presenter_location": "Meg Lewis - Booth room 3310",
+      "presenter_location": "Meg Lewis - room 3310",
       "type": "Lecture",
       "description": "As students and adults we’re taught to rely on others for opportunities, promotions, and career success but what if there was a way to have everything we want all on our own? Join me, designer, educator, and entrepreneur Meg Lewis as I discuss how I created a totally self-sustainable, successful career by myself and how you can too!"
     },
@@ -44,7 +44,7 @@
       "start": "3:15PM",
       "end": "4:00PM",
       "title": "The Post Grad Talk - Where to go after college",
-      "presenter_location": "Jen Byyny - Booth Room 1400",
+      "presenter_location": "Jen Byyny - Room 1400",
       "type": "Lecture",
       "description": "As you finish your final projects and your time in your studies draws to a close, what will you do next? Start-up? Agency/Consultancy? Work for yourself? Join a product company, and if so what size? 150, 400, 12,000 people? Work on-site? Or work from home?"
     },
@@ -53,7 +53,7 @@
       "end": "5:00PM",
       "title": "Keynote - The Creative Leadership Inquiry ",
       "presenter_location": "Elvira Barriga - Webb Auditorium- 1350",
-      "type": "Lecture",
+      "type": "Keynote",
       "description": "Many creative leaders have stepped into their leadership role simply because they were great designers. Very few get training or focused mentorship to hone their leadership skills. Most of us learned and learn through trial and error. In this personal talk Elle will share insights from her own learning process and her ongoing inquiry into the skills it takes to spearhead design projects across media, architecture, storytelling and technology. How to build great teams? How to generate ideas that generate ideas in others? How to inspire and nurture teams as well as clients? How to deal with inevitable frustrations? How to push projects beyond mediocrity and people out of their comfort zone without pushing them over the edge? She will also present her project for the ARoS Art Museum in Denmark as an in-depth case study. This will provide attendees with a behind-the-scenes look at Local Project’s process and “Prototype First” approach. She will show how they broke all the rules to make art social, and deliver towards the mandate of a “Mental Fitness Center."
     },
     {
@@ -126,7 +126,7 @@
       "start": "11:15AM",
       "end": "12:00PM",
       "title": "Digital Design For The Physical Space",
-      "presenter_location": "Johnathan Kim - Webb Auditorium - 1350",
+      "presenter_location": "Jonathan Kim - Webb Auditorium - 1350",
       "type": "General Event",
       "description": "Design as a discipline has been on an amazing journey, beginning with objects, growing to include graphics and print, and more recently moving into motion and interaction. However as the industry has matured and the tools have become more homogeneous, designers are growing restless, looking for what's next. Thankfully, there's a growing appetite for designers' skills in industries previously unable to benefit from their abilities. Tools like Cinder and Processing are paving the way for partnerships between designers and technologists that will fundamentally change not just the content of our screens but also physical environments like museums and retail."
     },
@@ -143,7 +143,7 @@
       "end": "1:00PM",
       "title": "Sketching in Virtual Reality",
       "presenter_location": "Nick Baker - Magic Center Lobby",
-      "type": "Lecture",
+      "type": "Workshop",
       "description": "Through tools like Oculus and programs like Gravity Sketch, sketching in VR is quickly becoming a much more accessible process for designers. In this workshop, Industrial Designer Nicholas Baker will demonstrate the ways in which sketching in VR can improve workflow, quicken the ideation process and yield designs outside of the traditional sketching realm."
     },
     {
@@ -159,7 +159,7 @@
       "end": "1:00PM",
       "title": "Making Your Dream Job a Reality",
       "presenter_location": "Lauren O'Neil - 3330",
-      "type": "Lecture",
+      "type": "Workshop",
       "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
     },
     {

@@ -21,11 +21,13 @@ class Schedule extends React.Component {
     // const prefix = 'event_type-';
     switch (type) {
       case 'General Event':
-        return '#2071FF';
+        return '#281E35';
       case 'Lecture':
         return '#FF2350';
       case 'Workshop':
         return '#F2C227';
+      case 'Keynote':
+        return '#2071FF';
       default:
         return null;
     }
@@ -48,8 +50,12 @@ class Schedule extends React.Component {
       <div className={styles.schedule_block}
         onClick={this.onClick}
       >
-        <div className={classnames(styles.schedule_block__duration, 'flex flex-align-center')}>
-          <p className={styles.duration}>{start} to {end}</p>
+        <div className={classnames(styles.schedule_block__duration, 'flex flex-align-center flex-row flex-justify-between')}>
+          <p className={classnames(styles.duration)}>{start} to {end}</p>
+          <p className={classnames(styles.event_type)}><span
+            style={{ color: this.eventTypeClassName(type) }}
+          >{type}</span></p>
+
         </div>
         <div
           className={classnames(styles.schedule_block__content)}
