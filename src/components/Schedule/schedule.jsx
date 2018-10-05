@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import styles from '../../styles/components/schedule/scheduleMain.module.scss';
+import styles from '../../styles/components/schedule/events.module.scss';
 import scheduleChevron from '../../assets/images/scheduleChevron.svg';
 import scheduleChevronClosed from '../../assets/images/scheduleChevronClosed.svg';
 
@@ -21,17 +21,21 @@ class Schedule extends React.Component {
     // const prefix = 'event_type-';
     switch (type) {
       case 'General Event':
-        return '#281E35';
+        return { baseColor: '#f4f4f4', foreColor: '#281E35', borderColor: '#e5e5e5' };
       case 'Lecture':
-        return '#FF2350';
-      case 'Workshop':
-        return '#F2C227';
+        return { baseColor: '#FF2350', foreColor: '#fff' };
       case 'Keynote':
-        return '#2071FF';
+        return { baseColor: '#F2C227', foreColor: '#281E35' };
+      case 'Workshop':
+        return { baseColor: '#2071FF', foreColor: '#fff' };
       default:
         return null;
     }
   }
+  /* TODO: 
+  Add in switch statement for full header bar change with an object of two strings or colors returning
+
+  */
 
   render() {
     let start = this.props.start.toLowerCase();
@@ -50,15 +54,17 @@ class Schedule extends React.Component {
       <div className={styles.schedule_block}
         onClick={this.onClick}
       >
-        <div className={classnames(styles.schedule_block__duration, 'flex flex-align-center flex-row flex-justify-between')}>
-          <p className={classnames(styles.duration, styles.event_header__type)}>{start} to {end}</p>
-          <p style={{ color: this.eventTypeClassName(type) }} className={classnames(styles.event_header__type , styles.event_type)}>
+        <div
+          style={{ backgroundColor: this.eventTypeClassName(type).baseColor, borderColor: this.eventTypeClassName(type).borderColor  }}
+          className={classnames(styles.schedule_block__duration, 'flex flex-align-center flex-row flex-justify-between')}>
+          <p style={{ color: this.eventTypeClassName(type).foreColor }} className={classnames(styles.duration, styles.event_header__type)}>{start} to {end}</p>
+          <p style={{ color: this.eventTypeClassName(type).foreColor }} className={classnames(styles.event_header__type, styles.event_type)}>
             {type}
           </p>
         </div>
         <div
           className={classnames(styles.schedule_block__content)}
-          style={{ color: this.eventTypeClassName(type) }}
+
         >
           <div className={classnames(styles.event_spacing)}>
             <div className={classnames('flex flex-justify-between')}
@@ -72,7 +78,7 @@ class Schedule extends React.Component {
             <div className={classnames(styles.event_description)} style={{ display: eventOpen }}>
               <p className={classnames(styles.event_description__color)}>
                 <span
-                  style={{ color: this.eventTypeClassName(type) }}
+                  style={{ color: this.eventTypeClassName(type).baseColor, fontWeight: 'bold' }}
                 >{type}</span>: {description}</p>
             </div>
           </div>

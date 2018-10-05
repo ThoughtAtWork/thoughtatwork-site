@@ -60,6 +60,7 @@ class Schedule extends React.Component {
   }
 
   isFriday = (isVisible) => {
+    console.log('isFriday');
     if (isVisible) {
       this.setState({ friday: true });
       this.setState({ day: 'Friday' });
@@ -74,22 +75,24 @@ class Schedule extends React.Component {
 
 
   isSaturday = (isVisible) => {
+    console.log('isSaturday');
     if (isVisible) {
       this.setState({ saturday: true });
       this.setState({ day: 'Saturday' });
     } else {
       this.setState({ saturday: false });
       if (this.state.friday) {
-        this.setState({ friday: true });
         this.setState({ day: 'Friday' });
       } else {
-        this.setState({ sunday: true });
-        this.setState({ day: 'Sunday' });
+        if (this.state.sunday) {
+          this.setState({ day: 'Sunday' });
+        }
       }
     }
   }
 
   isSunday = (isVisible) => {
+    console.log('isSunday');
     if (isVisible) {
       this.setState({ sunday: true });
       this.setState({ day: 'Sunday' });
@@ -98,9 +101,6 @@ class Schedule extends React.Component {
       if (this.state.saturday) {
         this.setState({ saturday: true });
         this.setState({ day: 'Saturday' });
-      } else {
-        this.setState({ sunday: true });
-        this.setState({ day: 'Sunday' });
       }
     }
   }
