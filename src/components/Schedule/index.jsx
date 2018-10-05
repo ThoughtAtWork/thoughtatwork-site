@@ -207,22 +207,6 @@ class Schedule extends React.Component {
                 <ScrollableAnchor id={'friday'}>
                   <div className={classnames('flex flex-row flex-justify-between flex-align-center', styles.date_header)}>
                     <h2 className={styles.day}>friday</h2>
-                    <div className={classnames('flex flex-row flex-align-center')}>
-                      <div className={classnames('flex flex-row')}>
-                        <img src={blue} />
-                        <p className={classnames('', styles.key_dot)} >keynote</p>
-                      </div>
-
-                      <div className={classnames('flex flex-row', styles.key_block)}>
-                        <img src={red} />
-                        <p className={classnames('', styles.key_dot)} >lecture</p>
-                      </div>
-
-                      <div className={classnames('flex flex-row', styles.key_block)}>
-                        <img src={yellow} />
-                        <p className={classnames('', styles.key_dot)} >workshop</p>
-                      </div>
-                    </div>
                   </div>
                 </ScrollableAnchor>
                 {this.initializeSchedule(data.friday, 'friday')}
@@ -239,22 +223,6 @@ class Schedule extends React.Component {
                 <ScrollableAnchor id={'saturday'}>
                   <div className={classnames('flex flex-row flex-justify-between flex-align-center', styles.date_header)}>
                     <h2 className={styles.day}>saturday</h2>
-                    <div className={classnames('flex flex-row flex-align-center')}>
-                      <div className={classnames('flex flex-row')}>
-                        <img src={blue} />
-                        <p className={classnames('', styles.key_dot)} >general</p>
-                      </div>
-
-                      <div className={classnames('flex flex-row', styles.key_block)}>
-                        <img src={red} />
-                        <p className={classnames('', styles.key_dot)} >lecture</p>
-                      </div>
-
-                      <div className={classnames('flex flex-row', styles.key_block)}>
-                        <img src={yellow} />
-                        <p className={classnames('', styles.key_dot)} >workshop</p>
-                      </div>
-                    </div>
                   </div>
                 </ScrollableAnchor>
                 {this.initializeSchedule(data.saturday, 'saturday')}
@@ -271,22 +239,6 @@ class Schedule extends React.Component {
                 <ScrollableAnchor id={'sunday'}>
                   <div className={classnames('flex', styles.date_header)}>
                     <h2 className={styles.day}>sunday</h2>
-                    <div className={classnames('flex flex-row flex-align-center')}>
-                      <div className={classnames('flex flex-row')}>
-                        <img src={blue} />
-                        <p className={classnames('', styles.key_dot)} >general</p>
-                      </div>
-
-                      <div className={classnames('flex flex-row', styles.key_block)}>
-                        <img src={red} />
-                        <p className={classnames('', styles.key_dot)} >lecture</p>
-                      </div>
-
-                      <div className={classnames('flex flex-row', styles.key_block)}>
-                        <img src={yellow} />
-                        <p className={classnames('', styles.key_dot)} >workshop</p>
-                      </div>
-                    </div>
                   </div>
                 </ScrollableAnchor>
                 {this.initializeSchedule(data.sunday, 'sunday')}
