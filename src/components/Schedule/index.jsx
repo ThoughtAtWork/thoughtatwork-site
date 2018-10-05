@@ -14,10 +14,10 @@ class Schedule extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      day: this.props.day,
-      friday: this.props.friday,
-      saturday: this.props.friday,
-      sunday: this.props.friday
+      day: 'friday',
+      friday: true,
+      saturday: false,
+      sunday: false
     };
   }
 
