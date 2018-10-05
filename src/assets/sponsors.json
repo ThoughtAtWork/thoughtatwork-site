@@ -49,13 +49,13 @@
       "name": "Javas Cafe",
       "image": "javas"
     }, {
-      "site": "https://www.rit.edu/academicaffairs/sois/",
-      "name": "RIT School of Individualized Studies",
-      "image": "sois"
-    }, {
       "site": "http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/",
       "name": "IDSA",
       "image": "idsa"
+    }, {
+      "site": "https://www.rit.edu/academicaffairs/sois/",
+      "name": "RIT School of Individualized Studies",
+      "image": "sois"
     }
   ]
 }
