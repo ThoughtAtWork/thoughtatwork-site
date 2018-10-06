@@ -79,8 +79,8 @@
       "headshot": "liz_wells",
       "presentationTitleDesc": [
         {
-          "title": "asddf",
-          "desc": "asdf"
+          "title": "Wireframe Sketching Workshop",
+          "desc": "This workshop will teach students from all backgrounds and experience levels, how to take a step back from the screen and sketch digital experiences. I’ll teach students the process I go through from user flows, experience maps and wireframes. Students will be able to use the tools I use on a daily basis and help them grow their user experience thinking and skill set!   "
         }
       ]
     },
@@ -283,7 +283,10 @@
       ],
       "headshot": "ben_sorensen",
       "presentationTitleDesc": [
-        ""
+        {
+          "title": "Ben Here, Done That.",
+          "desc": "What should you know about working in the real world? What's the difference between product design at an agency and product design at a startup?How do you get an apartment in San Francisco? What's work life balance? Join me to hear about my journey from new media design to agency life, and now to product design. I'll break some of the misconceptions and personal lessons learned to hopefully reduce the anxiety of transitioning to the real world."
+        }
       ]
     },
     {
