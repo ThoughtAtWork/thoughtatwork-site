@@ -1,0 +1,360 @@
+{
+  "friday": [
+    {
+      "start": "1:30PM",
+      "end": "3:00PM",
+      "title": "registration & check in",
+      "presenter_location": "Bevier Gallery - 2nd Floor of Booth",
+      "type": "General Event",
+      "description": "TBD"
+    },
+    {
+      "start": "2:00PM",
+      "end": "2:15PM",
+      "title": "START. Small intro and motion graphic",
+      "presenter_location": "TAW team - Webb Auditorium, Booth 1350",
+      "type": "General Event",
+      "description": "TBD"
+    },
+    {
+      "start": "2:15PM",
+      "end": "3:00PM",
+      "title": "Dreaming of Mars: How User Experience Factors Into NASA Missions",
+      "presenter_location": "Krys Blackwood - Webb Auditorium, Booth 1350",
+      "type": "Keynote",
+      "description": "NASA’s rovers on Mars brought us the first proof of water on our neighboring planet. Voyager, Juno and Cassini spacecraft have captured stunning images and with them, the hearts and imaginations of the world. Learn the soup to nuts of how missions like these become a reality, and how NASA’s Jet Propulsion Laboratory is using design thinking to improve its mission design practices. You’ll hear firsthand stories of how user experience design fits into an 80 year old process, and how it’s changing the ways that NASA approaches unmanned exploration of the solar system and beyond."
+    },
+    {
+      "start": "3:15PM",
+      "end": "4:00PM",
+      "title": "Making Your Dream Job a Reality",
+      "presenter_location": "Lauren O'Neill - Booth 3330",
+      "type": "Lecture",
+      "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
+    },
+    {
+      "start": "3:15PM",
+      "end": "4:00PM",
+      "title": "On My Own",
+      "presenter_location": "Meg Lewis - Booth 3310",
+      "type": "Lecture",
+      "description": "As students and adults we’re taught to rely on others for opportunities, promotions, and career success but what if there was a way to have everything we want all on our own? Join me, designer, educator, and entrepreneur Meg Lewis as I discuss how I created a totally self-sustainable, successful career by myself and how you can too!"
+    },
+    {
+      "start": "3:15PM",
+      "end": "4:00PM",
+      "title": "The Post Grad Talk - Where to go after college",
+      "presenter_location": "Jen Byyny - Booth 1400",
+      "type": "Lecture",
+      "description": "As you finish your final projects and your time in your studies draws to a close, what will you do next? Start-up? Agency/Consultancy? Work for yourself? Join a product company, and if so what size? 150, 400, 12,000 people? Work on-site? Or work from home?"
+    },
+    {
+      "start": "4:15PM",
+      "end": "5:00PM",
+      "title": "The Creative Leadership Inquiry ",
+      "presenter_location": "Elvira Barriga - Webb Auditorium, Booth 1350",
+      "type": "Keynote",
+      "description": "Many creative leaders have stepped into their leadership role simply because they were great designers. Very few get training or focused mentorship to hone their leadership skills. Most of us learned and learn through trial and error. In this personal talk Elle will share insights from her own learning process and her ongoing inquiry into the skills it takes to spearhead design projects across media, architecture, storytelling and technology. How to build great teams? How to generate ideas that generate ideas in others? How to inspire and nurture teams as well as clients? How to deal with inevitable frustrations? How to push projects beyond mediocrity and people out of their comfort zone without pushing them over the edge? She will also present her project for the ARoS Art Museum in Denmark as an in-depth case study. This will provide attendees with a behind-the-scenes look at Local Project’s process and “Prototype First” approach. She will show how they broke all the rules to make art social, and deliver towards the mandate of a “Mental Fitness Center."
+    },
+    {
+      "start": "5:15PM",
+      "end": "7:00PM",
+      "title": "Design Autopsy",
+      "presenter_location": "University Gallery - 2nd Floor Booth",
+      "type": "General Event",
+      "description": "Design Autopsy is the seventh annual exhibition of Alumni"
+    },
+    {
+      "start": "",
+      "end": "",
+      "title": "",
+      "presenter_location": "",
+      "type": "",
+      "description": "work from the RIT Industrial Design department. This exhibit"
+    },
+    {
+      "start": "",
+      "end": "",
+      "title": "",
+      "presenter_location": "",
+      "type": "",
+      "description": "is meant to help reveal the diversity and process behind"
+    },
+    {
+      "start": "",
+      "end": "",
+      "title": "",
+      "presenter_location": "",
+      "type": "",
+      "description": "the profession of industrial design. The samples presented"
+    },
+    {
+      "start": "",
+      "end": "",
+      "title": "",
+      "presenter_location": "",
+      "type": "",
+      "description": "demonstrate a variety of areas that have been explored by"
+    },
+    {
+      "start": "",
+      "end": "",
+      "title": "",
+      "presenter_location": "",
+      "type": "",
+      "description": "Alumni, and is not limited to final products."
+    }
+  ],
+  "saturday": [
+    {
+      "start": "9:00AM",
+      "end": "10:00AM",
+      "title": "Breakfast",
+      "presenter_location": "Thought At Work Lounge",
+      "type": "General Event",
+      "description": "Join us for bagels and coffee!"
+    },
+    {
+      "start": "9:15AM",
+      "end": "11:00AM",
+      "title": "Registration Open",
+      "presenter_location": "2nd Floor Lobby - Across from Bevier Gallery Booth",
+      "type": "General Event",
+      "description": "TBD"
+    },
+    {
+      "start": "9:30AM",
+      "end": "10:30AM",
+      "title": "Design Autopsy Panel",
+      "presenter_location": "Bevier Gallery - 2nd Floor of Booth",
+      "type": "General Event",
+      "description": "RIT ID alums will talk about their experience post graduation and their impact in the design community."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "People + Processes: Designing Intangible Things",
+      "presenter_location": "Emily Herrick - Booth 3330",
+      "type": "Lecture",
+      "description": "Design school is a great place to learn about how to design tangible things: logos, posters, digital products, app interfaces, videos, and service concepts. But what about designing the intangible? Grasping the intangible often requires embracing an attitude that enables you to navigate through the fog of messy systems and politics so that you can design clear and meaningful solutions. In this talk, I will share my experience applying design to social problems and unpack how I have used the methods I learned in design school to create processes that drive collaboration, creative problem-solving, and organizational learning within large institutions. We’ll look at things like how design-informed approaches can help individuals experiencing homelessness access services, improve the quality of care within the child welfare system, and rethink how we support people in the criminal justice system."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Getting Uncomfortable",
+      "presenter_location": "Liz Wells - 3310",
+      "type": "Lecture",
+      "description": "Presentation: Good work comes from being uncomfortable, and discomfort can mean different things to different people. Recently, I learned that I create average work when I am comfortable and not being pushed or challenged. But once I create discomfort, I become challenged to do more than the average, and that’s when I create work that is truly creative. \n\nThis talk will cover what I do to continually be challenged, including work at Stink Studios that invoked discomfort, what it looks like to run an independent newsletter, and finding ways you can challenge yourself in your daily life."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Ben Here, Done That.",
+      "presenter_location": "Ben Sorensen - 1400",
+      "type": "Lecture",
+      "description": "liz"
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:15AM",
+      "title": "Intro and Motion Graphic",
+      "presenter_location": "Webb Auditorium - 1350",
+      "type": "General Event",
+      "description": "TBD"
+    },
+    {
+      "start": "11:15AM",
+      "end": "12:00PM",
+      "title": "Digital Design For The Physical Space",
+      "presenter_location": "Jonathan Kim - Webb Auditorium, Booth 1350",
+      "type": "Keynote",
+      "description": "Design as a discipline has been on an amazing journey, beginning with objects, growing to include graphics and print, and more recently moving into motion and interaction. However as the industry has matured and the tools have become more homogeneous, designers are growing restless, looking for what's next. Thankfully, there's a growing appetite for designers' skills in industries previously unable to benefit from their abilities. Tools like Cinder and Processing are paving the way for partnerships between designers and technologists that will fundamentally change not just the content of our screens but also physical environments like museums and retail."
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Registration Open",
+      "presenter_location": "2nd Floor Lobby of Booth",
+      "type": "General Event",
+      "description": "TBD"
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Sketching in Virtual Reality",
+      "presenter_location": "Nick Baker - Magic Center Lobby",
+      "type": "Workshop",
+      "description": "Through tools like Oculus and programs like Gravity Sketch, sketching in VR is quickly becoming a much more accessible process for designers. In this workshop, Industrial Designer Nicholas Baker will demonstrate the ways in which sketching in VR can improve workflow, quicken the ideation process and yield designs outside of the traditional sketching realm."
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Heavy Duty Vehicle Design for any Realities",
+      "presenter_location": "John Frye - Booth 1420",
+      "type": "Workshop",
+      "description": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
+    },
+    {
+      "start": "12:15PM",
+      "end": "1:00PM",
+      "title": "Making Your Dream Job a Reality",
+      "presenter_location": "Lauren O'Neil - Booth 3330",
+      "type": "Workshop",
+      "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
+    },
+    {
+      "start": "1:00PM",
+      "end": "2:00PM",
+      "title": "Lunch Break",
+      "presenter_location": "Booth 3310",
+      "type": "General Event",
+      "description": ""
+    },
+    {
+      "start": "2:15PM",
+      "end": "3:00PM",
+      "title": "Heavy Duty Vehicle Design for any Realities",
+      "presenter_location": "John Frye - Booth 1400",
+      "type": "Lecture",
+      "description": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
+    },
+    {
+      "start": "2:15PM",
+      "end": "3:00PM",
+      "title": "You’re a Designer. I’m a Developer. Don’t be Afraid.",
+      "presenter_location": "Arnaud Tanielian - Booth 1420",
+      "type": "Lecture",
+      "description": "Developers don’t bite! We’ll see from different perspectives (UX, Visual and Motion) how to work with us, from what we do to what we need. But more importantly, how to work as a creative team player and deliver the best work possible!"
+    },
+    {
+      "start": "2:15PM",
+      "end": "4:00PM",
+      "title": "Portfolio Review + Product Timecapsule",
+      "presenter_location": "University Gallery - 2nd Floor Booth",
+      "type": "General Event",
+      "description": "Have your portfolio reviewed by industry professionals and RIT professors."
+    },
+    {
+      "start": "3:00PM",
+      "end": "3:45PM",
+      "title": "Sketch Off",
+      "presenter_location": "Webb Auditorium, Booth 1350",
+      "type": "General Event",
+      "description": "This year, 2 surprise sketchers will face-off in a vehicle sketch battle."
+    },
+    {
+      "start": "4:00PM",
+      "end": "4:45PM",
+      "title": "The Future of Design Careers",
+      "presenter_location": "Chelsea Klukas - Webb Auditorium, Booth 1350",
+      "type": "Keynote",
+      "description": "Over the past few decades, the definition of a designer has rapidly evolved alongside technology. From print, to web, to mobile, the roles of professional designers have shifted, as have the tools, skills, and challenges they face every day. As interfaces continue to expand beyond handheld devices, what will the role of designers be in 5 or 10 years from now? This presentation will explore design specializations \"beyond screens\" that are already emerging and will become increasingly relevant in the future including voice, biometric design, and machine learning design. It will highlight the challenges these designers face, the tools and skills that are needed, and what you can do now to get up to speed with these developing fields."
+    },
+    {
+      "start": "4:45PM",
+      "end": "5:00PM",
+      "title": "Ending Remarks",
+      "presenter_location": "TAW Team - Webb Auditorium, Booth 1350",
+      "type": "General Event",
+      "description": "Stay tuned for a recap of the day."
+    },
+    {
+      "start": "7:30PM",
+      "end": "10:00PM",
+      "title": "After Party",
+      "presenter_location": "King Billiards - 400 Jefferson Rd #5, Rochester, NY 14623",
+      "type": "General Event",
+      "description": "Come hang with fellow attendees at a billards bar. Bubble tea provided!"
+    }
+  ],
+  "sunday": [
+    {
+      "start": "9:00AM",
+      "end": "10:00AM",
+      "title": "breakfast",
+      "presenter_location": "2nd Floor Lobby of Booth",
+      "type": "General Event",
+      "description": "Coffee, tea, bagels, some nice grub to start your morning."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Your Typographic Librarian",
+      "presenter_location": "Amelia Fontanel - Booth 1420",
+      "type": "Lecture",
+      "description": "Archives and libraries contain infinite resources for twenty-first century typographic inspiration. Obscure matrices, colonial papers, scrawling personal letters, and rare films from the RIT Cary Graphic Arts Collection have all recently stimulated creative endeavors by our most enthusiastic patrons—type designers, educators, and designers like you! Join me, “your typographic librarian,” as I describe some great projects where history, technology, and design intersect—perhaps encouraging you to get to know your campus rare book library scientist."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Technology Should Follow Our Manual",
+      "presenter_location": "Timmy Chau - Booth 3310",
+      "type": "Workshop",
+      "description": "Over time we've been taught to follow the preset instruction manuals of our machines and devices, but with the constant evolution of technology the tides are turning.\n\nIn this workshop we'll learn to brainstorm and doodle to come-up with creative solutions for how everyday technology can be redesigned to address our needs, be more playful, and ultimately understand our intent.\n\nYou'll be collaborating with others using techniques that could help you come imagine weirder and wilder ideas."
+    },
+    {
+      "start": "10:00AM",
+      "end": "10:45AM",
+      "title": "Industrial design in entertainment ",
+      "presenter_location": "Guillermo Fok - Booth 1400",
+      "type": "Lecture",
+      "description": "The role of product design in the live entertainment industry. A discussion of the key differences between themed and live entertainment and an anecdotal conversation about my experience working on several touring shows."
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:45AM",
+      "title": "Wireframe Sketching Workshop",
+      "presenter_location": "Liz Wells - Booth 1540",
+      "type": "Workshop",
+      "description": "This workshop will teach students from all backgrounds and experience levels, how to take a step back from the screen and sketch digital experiences. I’ll teach students the process I go through from user flows, experience maps and wireframes. Students will be able to use the tools I use on a daily basis and help them grow their user experience thinking and skill set!   "
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:45AM",
+      "title": "Designing for Humans: Leveraging the Lean UX Canvas to Build Successful Products",
+      "presenter_location": "M&T Bank - Booth 3330",
+      "type": "Workshop",
+      "description": "Knowing what problem to solve next is a complicated task. It is even more difficult when designing products or services for humans. It is imperative for designers to understand how to practice effective discovery methods in order to solve real problems for customers as well as simultaneously feeding delivery efforts.\n \nThe Lean UX Canvas is a tool that we use that helps us effectively frame our work, establish outcomes, know who we are designing for, and test our assumptions. This helps us create a collaborative, customer-centric environment that brings together product design, user experience, engineering, and product management, that focuses on building the right product and building the product right."
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:45AM",
+      "title": "Fusion 360 Hands-on Workshop",
+      "presenter_location": "Jeff Smith - Gannet 1217",
+      "type": "Workshop",
+      "description": "Dive into this next generation software with design educator Jeff Smith. Learn how to use Fusion 360 from ideation through execution and enhance your product design skillset."
+    },
+    {
+      "start": "12:00PM",
+      "end": "12:45PM",
+      "title": "Once you start mimicking, you stop looking",
+      "presenter_location": "Miguel Cardona - Booth 1540",
+      "type": "Lecture",
+      "description": "Massimo Vignelli learned early in his career that a designer should be able to design everything, coining the term ‘Design is One.’ This presentation will focus on the bridges that exist between graphic, industrial, web, and user experience design with a focus on producing artifacts and communication when developing and disseminating work across different platforms and media."
+    },
+    {
+      "start": "12:00PM",
+      "end": "12:45PM",
+      "title": "Basics for better design",
+      "presenter_location": "Sean Wolcott  - Booth 1420",
+      "type": "Lecture",
+      "description": "This talk will focus on the process and benefits of how to use constraints to be more creative, clever, and clear as designers in practical ways you can apply daily."
+    },
+    {
+      "start": "1:00PM",
+      "end": "1:45PM",
+      "title": "Lazy Sunday Panel",
+      "presenter_location": "Surprise Speaker Linup - Booth 3310",
+      "type": "General Event",
+      "description": "TBD"
+    },
+    {
+      "start": "2:00PM",
+      "end": "2:15PM",
+      "title": "Closing",
+      "presenter_location": "TAW Team - Webb Auditorium - 1350",
+      "type": "General Event",
+      "description": "A final review of the 2018 conference."
+    }
+  ]
+}

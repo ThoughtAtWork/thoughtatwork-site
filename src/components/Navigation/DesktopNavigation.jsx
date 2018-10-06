@@ -40,7 +40,7 @@ export class DesktopNavigation extends Component {
                 >
                   Speakers
                 </Link>
-                {/* <Link
+                <Link
                   to="/schedule"
                   className={classnames(styles.link, styles.navElement)}
                   activeStyle={{
@@ -50,7 +50,7 @@ export class DesktopNavigation extends Component {
                   Schedule
                 </Link>
 
-                <Link
+                {/* <Link
                   to="/info-gethere"
                   className={classnames(styles.link, styles.navElement)}
                   activeStyle={{

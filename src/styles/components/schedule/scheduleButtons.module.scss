@@ -1,0 +1,84 @@
+@import "../../main";
+
+:local(.button_schedule) {
+    border-radius: 32px;
+    text-decoration: none;
+    display: block;
+    width: 33%;
+    max-width: 186.76px;
+    height: 30px;
+    background: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+    color: #281E35;
+    font-weight: bold;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #281E35;
+    border: 3px solid #281E35;
+}
+
+:local(.button_schedule:hover) {
+    background-color: #281E35;
+    color: #FFFFFF;
+}
+
+:local(.button_schedule__leftSpacing) {
+    margin-left: 5%;
+}
+
+:local(.boundaryElement_positioning) {
+    height: 1px;
+    top: -120px;
+    position: relative;
+}
+
+:local(.date_header) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 72px;
+
+    @include media ('<480px') {
+        flex-direction: column;
+        align-items: start;
+        margin-top: 64px;
+    }
+}
+
+:local(.day) {
+  @include media ('<480px') {
+      margin-bottom: 20px;
+  }
+  margin-bottom: 18px;
+}
+
+:local(.event_key) {
+    margin: 64px 0px 64px 0px;
+    justify-content: center;
+
+    @include media ('<480px') {
+        justify-content: space-evenly;
+    }
+
+}
+
+:local(.key_dot) {
+    margin-left: 8px;
+}
+
+:local(.key_block) {
+    margin-left: 38px;
+}
+
+.content-Block--margin-top {
+    margin-top: 112px;
+
+    @include media('<md') {
+        margin-top: 96px;
+    }
+
+    @include media('<sm') {
+        margin-top: 80px;
+    }
+}
