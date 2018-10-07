@@ -6,6 +6,16 @@ import InfoWhereToStay from '../InfoWhereToStay';
 import InfoWelcome from '../InfoWelcome';
 
 class Info extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      directionInfo: true,
+      hotelInfo: false,
+      otherInfo: false,
+    };
+    
+  }
+
   render() {
     return (
       <div>
