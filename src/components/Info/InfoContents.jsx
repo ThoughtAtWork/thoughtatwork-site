@@ -1,6 +1,6 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import styles from '../../styles/components/info/InfoNavigation.module.scss';
+import styles from '../../styles/components/info/InfoMain.module.scss';
 import classnames from 'classnames';
 import Header from '../Header';
 import InfoGetHere from '../InfoGetHere';
