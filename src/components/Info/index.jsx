@@ -1,18 +1,22 @@
 import React from 'react';
-import InfoContents from './InfoContents';
+import Header from '../Header';
+
+import InfoGetHere from '../InfoGetHere';
+import InfoWhereToStay from '../InfoWhereToStay';
+import InfoWelcome from '../InfoWelcome';
 
 class Info extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-
   render() {
     return (
       <div>
-        <InfoContents/>
+        <Header pageName='info' />
+        <div className={'flex flex-justify-around gridish-container'}>
+        </div>
+        <div className={'content-Block--margin-top'}></div>
+        {this.state.directionInfo && <InfoGetHere />}
+        {this.state.hotelInfo && <InfoWhereToStay />}
+        {this.state.otherInfo && <InfoWelcome />}
       </div>
-
     );
   }
 }
