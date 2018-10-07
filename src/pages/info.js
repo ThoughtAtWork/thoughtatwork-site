@@ -1,10 +1,17 @@
 import React from 'react';
 import Info from '../components/Info';
 
-const InfoPage = () => (
-  <div className="container">
-    <Info/>
-  </div>
-);
+export default class InfoPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-export default InfoPage;
+  render() {
+    return (
+      <div>
+        <Info/>>
+      </div>
+    );
+  }
+}
