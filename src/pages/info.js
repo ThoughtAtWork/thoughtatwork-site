@@ -1,10 +1,10 @@
 import React from 'react';
-import InfoNavigation from '../components/InfoNavigation';
+import Info from '../components/Info';
 
 const InfoPage = () => (
-    <div className="container">
-        <InfoNavigation />
-    </div>
+  <div className="container">
+    <Info/>
+  </div>
 );
 
 export default InfoPage;

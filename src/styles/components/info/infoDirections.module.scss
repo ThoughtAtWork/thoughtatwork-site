@@ -4,27 +4,31 @@
     font-weight: 500;
 }
 
-:local(.directionLink), :local(.directionText) {
+:local(.directionLink),
+:local(.directionText) {
     margin-top: 48px;
 
-    @include media ('<376px') {
+    @include media ('<sm') {
+        margin-top: 7vw;
+    }
+
+    @include media ('<480px') {
         margin-top: 32px;
     }
 }
 
 :local(.map) {
     height: 761px;
-    margin-top: 112px;
-    
+
     @include media ('<1024px') {
         height: 527px;
     }
+
     @include media ('<768px') {
         height: 474px;
-        margin-top: 96px;
     }
+
     @include media ('<376px') {
         height: 279px;
-        margin-top: 80px;
     }
 }

@@ -178,7 +178,7 @@ class Schedule extends React.Component {
                     sat
                   </a>
                   <a
-                    className={classnames(sundayVisible, styles.button_schedule, styles.button_schedule__leftSpacing)}
+                    className={classnames(sundayVisible, styles.button_schedule)}
                     href="#sunday"
                   >
                     sun

@@ -1,54 +1,48 @@
 @import "../../media";
 
-:local(.infoNavigation) {
-    margin-bottom: 112px;
-    padding-left: 139px;
-    padding-right: 139px;
-    display: flex;
-    justify-content: space-between;
-
-    @include media ('<768px') {
-        margin-bottom: 96px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-:local(.infoDiv), :local(.infoBigDiv) {
-    width: 32%;
-}
-:local(.infoDiv) {
-    @include media ('<376px') {
-        width: 50%;
-    }
-}
-:local(.infoBigDiv) {
-    @include media('<376px') {
-        width: 100%;
-    }
-}
 
 :local(.infoButton) {
-    background-color: white;
-    
-    border: 3px solid black;
     border-radius: 32px;
-    height: 36px;
-    width: 186.76px;
-    
-    font-weight: 500;
-}
-
-:local(.infoButton):hover {
-    background-color: black;
-    color: white;
-}
-
-:local(.test) {
+    text-decoration: none;
     display: block;
+    width: 33%;
+    max-width: 186.76px;
+    height: 30px;
+    background: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+    color: $purpleblack;
+    font-weight: bold;
+    font-size: 18px;
+    border-style: solid;
+    border-color: $purpleblack;
+    border: 3px solid $purpleblack;
+    @include media('<640px') {
+      max-width: none;
+    }
 }
 
+:local(.infoButton:hover) {
+    background-color: $purpleblack;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+:local(.infoButton__leftSpacing) {
+    margin-left: 5%;
+}
 :local(.active) {
-    background-color: black;
+    background-color: $purpleblack;
     color: white;
+}
+
+:local(.fullWidth) {
+    width: 100%;
+}
+:local(.infoButtons__halfWidth) {
+    width: 50%;
+}
+:local(.infoButtons__fullWidth) {
+  margin-top: 32px;  
+  width: 100%;
 }

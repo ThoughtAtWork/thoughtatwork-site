@@ -1,11 +1,17 @@
 @import "../../media";
 
 :local(.hotelDiv) {
-    margin-bottom: 48px;
+    width: 27%;
+    margin-bottom: 72px;
+    display: inline-block !important;
+    margin-right: 6%;
 
-    @include media ('<376px') {
-        margin-bottom: 32px
+    
+    @include media ('<sm') {
+        width: 44%;
+        margin-right: 6%;
     }
+    
 }
 
 :local(.hotelName) {

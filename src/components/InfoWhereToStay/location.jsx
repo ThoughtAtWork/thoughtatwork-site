@@ -1,23 +1,21 @@
-import React from "react";
-import styles from "../../styles/components/info/infoHotels.module.scss";
-import classnames from "classnames";
+import React from 'react';
+import styles from '../../styles/components/info/infoHotels.module.scss';
+import classnames from 'classnames';
 
 let Location = function statelessFunctionComponentClass(props) {
-    let name = props.name;
-    let address = props.address;
-    let travelTime = props.travelTime;
-    let website = props.website;
+  let name = props.name;
+  let address = props.address;
+  let travelTime = props.travelTime;
+  let website = props.website;
 
-    return (
-        <div className={classnames('gridish-grid__col--xsmall--2',
-        'gridish-grid__col--small--2',
-        'gridish-grid__col--medium--2',
-        'gridish-grid__height--xsmall--7', styles.hotelDiv)}>
-            <p className={styles.hotelName}>{name}<br />{address}</p>
-            <p>{travelTime} min away</p>
-            <a className={styles.hotelLink} href={website}>website</a>
-        </div>
-    );
+  return (
+    <div className={classnames('gridish-grid__col--xsmall--1', 'gridish-grid__col--small--2',
+      styles.hotelDiv)}>
+      <p className={styles.hotelName}>{name}<br />{address}</p>
+      <p>{travelTime} min away</p>
+      <a className={styles.hotelLink} href={website}>website</a>
+    </div>
+  );
 };
 
 export default Location;

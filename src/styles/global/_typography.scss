@@ -68,11 +68,10 @@ p {
     font-style: normal;
     font-weight: normal;
     line-height: 160%;
-    font-size: 16px;
     color: $purpleblack;
     $min_width: $xs;
     $max_width: $sm;
-    $min_font: 13px;
+    $min_font: 15px;
     $max_font: 18px;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
