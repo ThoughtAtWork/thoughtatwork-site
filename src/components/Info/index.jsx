@@ -1,6 +1,5 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import Sticky from 'react-sticky-el';
 import styles from '../../styles/components/info/InfoNavigation.module.scss';
 import classnames from 'classnames';
 import Header from '../Header';
