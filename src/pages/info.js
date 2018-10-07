@@ -10,7 +10,7 @@ export default class InfoPage extends React.Component {
   render() {
     return (
       <div>
-        <Info/>>
+        <Info/>
       </div>
     );
   }
