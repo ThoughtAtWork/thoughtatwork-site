@@ -50,16 +50,15 @@ export class DesktopNavigation extends Component {
                   Schedule
                 </Link>
 
-                {/* <Link
-                  to="/info-gethere"
+                <Link
+                  to="/info"
                   className={classnames(styles.link, styles.navElement)}
                   activeStyle={{
                     color: '#FF2350'
                   }}
                 >
                   Info
-                </Link> */}
-                <p className={classnames(styles.link, styles.navElement)}>more info coming soon</p>
+                </Link>
                 <button className={classnames(styles.desktopRegisterButton)}>
                   <a
                     href="https://thoughtatwork.cias.rit.edu/register.php"

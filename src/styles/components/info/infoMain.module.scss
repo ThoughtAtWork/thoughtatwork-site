@@ -1,0 +1,47 @@
+@import "../../media";
+
+:local(.infoButton) {
+    border-radius: 32px;
+    text-decoration: none;
+    display: block;
+    width: 33%;
+    max-width: 186.76px;
+    height: 30px;
+    background: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+    color: $purpleblack;
+    font-weight: bold;
+    font-size: 18px;
+    border-style: solid;
+    border-color: $purpleblack;
+    border: 3px solid $purpleblack;
+    @include media('<640px') {
+      max-width: none;
+    }
+}
+
+:local(.infoButton:hover) {
+    background-color: $purpleblack;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+:local(.infoButton__leftSpacing) {
+    margin-left: 5%;
+}
+:local(.active) {
+    background-color: $purpleblack;
+    color: white;
+}
+
+:local(.fullWidth) {
+    width: 100%;
+}
+:local(.infoButtons__halfWidth) {
+    width: 50%;
+}
+:local(.infoButtons__fullWidth) {
+  margin-top: 32px;  
+  width: 100%;
+}

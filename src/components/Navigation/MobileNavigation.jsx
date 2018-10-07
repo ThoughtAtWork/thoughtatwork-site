@@ -113,8 +113,8 @@ export class MobileNavigation extends Component {
               Schedule
             </Link>
 
-            {/* <Link
-              to="/info-gethere"
+            <Link
+              to="/info"
               onClick={this.onClick.bind(this)}
               className={classnames(styles.link, styles.navElement)}
               activeStyle={{
@@ -122,8 +122,7 @@ export class MobileNavigation extends Component {
               }}
             >
               Info
-            </Link> */}
-            <p className={classnames(styles.link, styles.navElement)}>more info coming soon</p>
+            </Link>
           </div>
         </div>
       </div>);
