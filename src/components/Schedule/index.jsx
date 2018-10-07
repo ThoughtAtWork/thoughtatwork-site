@@ -141,7 +141,7 @@ class Schedule extends React.Component {
               boundaryElement=".boundary-element"
               bottomOffset={0}
               topOffset={-120}
-              stickyStyle={{ transform: 'translateY(120px)', zIndex: '10' }}
+              stickyStyle={{ transform: 'translateY(120px)', zIndex: '10', overflow: 'none' }}
             >
               <div className={'flex gridish-container--complete flex-justify-center '}>
                 <MediaQuery minWidth={481}>
