@@ -7,7 +7,7 @@ import InfoGetHere from '../InfoGetHere';
 import InfoWhereToStay from '../InfoWhereToStay';
 import InfoWelcome from '../InfoWelcome';
 
-class Info extends React.Component {
+class index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -99,4 +99,4 @@ class Info extends React.Component {
   }
 }
 
-export default Info;
+export default index;
