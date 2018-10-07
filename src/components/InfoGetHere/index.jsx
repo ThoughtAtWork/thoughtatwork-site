@@ -6,7 +6,7 @@ import styles from '../../styles/components/info/infoDirections.module.scss';
 class InfoGetHere extends React.Component {
   render() {
     return (
-      <div className={classnames('gridish-container--complete gridish-container gridish-grid')}>
+      <div className={classnames('gridish-container--complete gridish-grid')}>
         <div className={classnames('gridish-grid__col--small--5 gridish-grid__col--xsmall--3')}>
           <p>Rochester Institute of Technology (RIT) is located at 1 Lomb Memorial Drive, Rochester, NY 14623. Approximately 20 minutes from Greater Rochester International Airport and the Amtrak and Bus stations, there are multiple ways
 							to travel to Rochester and TAW. For information on transportation use these links:</p>
