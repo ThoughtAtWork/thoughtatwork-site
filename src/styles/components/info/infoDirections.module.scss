@@ -1,5 +1,9 @@
 @import "../../media";
 
+:local(.overflowYHidden) {
+  overflow-y: hidden;
+}
+
 :local(.directionLink) {
     font-weight: 500;
 }
