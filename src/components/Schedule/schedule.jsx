@@ -21,13 +21,13 @@ class Schedule extends React.Component {
     // const prefix = 'event_type-';
     switch (type) {
       case 'General Event':
-        return { baseColor: '#f4f4f4', foreColor: '#281E35', borderColor: '#e5e5e5' };
+        return { baseColor: '#f4f4f4', foreColor: '#281E35', borderColor: '#e5e5e5', typeAboutColor: '#281E35'};
       case 'Lecture':
-        return { baseColor: '#FF2350', foreColor: '#fff' };
+        return { baseColor: '#FF2350', foreColor: '#fff', typeAboutColor: '#FF2350'};
       case 'Keynote':
-        return { baseColor: '#F2C227', foreColor: '#281E35' };
+        return { baseColor: '#F2C227', foreColor: '#281E35', typeAboutColor: '#F2C227'};
       case 'Workshop':
-        return { baseColor: '#2071FF', foreColor: '#fff' };
+        return { baseColor: '#2071FF', foreColor: '#fff', typeAboutColor: '#2071FF'};
       default:
         return null;
     }
@@ -78,8 +78,8 @@ class Schedule extends React.Component {
             <div className={classnames(styles.event_description)} style={{ display: eventOpen }}>
               <p className={classnames(styles.event_description__color)}>
                 <span
-                  style={{ color: this.eventTypeClassName(type).baseColor, fontWeight: 'bold' }}
-                >{type}</span>: {description}</p>
+                  style={{ color: this.eventTypeClassName(type).typeAboutColor, fontWeight: 'bold' }}
+                >{type}:</span> {description}</p>
             </div>
           </div>
         </div>
