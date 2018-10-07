@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-
+import styles from '../../styles/components/info/InfoMain.module.scss';
 import InfoGetHere from '../InfoGetHere';
 import InfoWhereToStay from '../InfoWhereToStay';
 import InfoWelcome from '../InfoWelcome';
