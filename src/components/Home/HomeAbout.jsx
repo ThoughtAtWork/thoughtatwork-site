@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Shapes from '../../assets/images/home-about-shapes.svg';
 import classnames from 'classnames';
+import HomeAboutAnimation from './HomeAboutAnimation';
 import styles from '../../styles/components/home/homeAbout.module.scss';
 
 export default class HomeAbout extends Component {
@@ -19,7 +20,8 @@ export default class HomeAbout extends Component {
     return (
       <div className={classnames('gridish-container--complete container gridish-grid content-Block--margin-top')}>
         <h3 className={classnames('gridish-grid__col--medium--5 gridish-grid__col--small--4 gridish-grid__col--xsmall--3 gridish-grid__height--xsmall--10 text-transform--unset')}>A design conference made for students by students.</h3>
-        <img className={classnames(styles.image)} src={Shapes}/>
+        {/* <img className={classnames(styles.image)} src={Shapes}/> */}
+        <HomeAboutAnimation/>
         <h3 className={classnames('gridish-grid__col--medium--5 gridish-grid__col--small--5 gridish-grid__col--xsmall-4 text-transform--unset')} style={aboutMaxWidthStyle}>We provide a variety of talks, design workshops, after parties and more. Held at RIT in Rochester, NY.</h3>
       </div>
     );
