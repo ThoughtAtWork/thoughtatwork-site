@@ -25,14 +25,9 @@
       "image": "steelcase"
     },
     {
-      "site": "https://www.rit.edu/fa/hub/",
-      "name": "RIT HUB",
-      "image": "hub"
-    },
-    {
-      "site": "http://www.tinyfishprinting.com/",
-      "name": "Tiny Fish Printing",
-      "image": "tinyfish"
+      "site": "https://www.mtb.com/home-page",
+      "name": "M&T Bank",
+      "image": "m&t"
     },
     {
       "site": "https://www.rit.edu/academicaffairs/applied-critical-thinking/overview",
@@ -48,6 +43,11 @@
       "site": "http://www.javascafe.com/",
       "name": "Javas Cafe",
       "image": "javas"
+    },
+    {
+      "site": "http://www.tinyfishprinting.com/",
+      "name": "Tiny Fish Printing",
+      "image": "tinyfish"
     }, {
       "site": "http://industrialdesign.cias.rit.edu/community/idsa-student-chapter/",
       "name": "IDSA",
@@ -57,5 +57,6 @@
       "name": "RIT School of Individualized Studies",
       "image": "sois"
     }
+
   ]
 }
