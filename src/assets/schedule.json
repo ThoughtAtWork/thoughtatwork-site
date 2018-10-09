@@ -168,10 +168,18 @@
       "title": "Lunch Break",
       "presenter_location": "Booth 3310",
       "type": "General Event",
-      "description": "Head over to 3310 for subs and snacks! Cookies provided!"
+      "description": "Head over to 3310 for subs and snacks! Cookies included!"
     },
     {
-      "start": "2:00PM",
+      "start": "2:15PM",
+      "end": "4:00PM",
+      "title": "Portfolio Review + Product Timecapsule",
+      "presenter_location": "University Gallery - 2nd Floor Booth",
+      "type": "General Event",
+      "description": "Have your portfolio reviewed by industry professionals and RIT professors."
+    },
+    {
+      "start": "2:15PM",
       "end": "3:00PM",
       "title": "Destroying the intimidation of a blank page",
       "presenter_location": "John Frye - Booth 1400",
@@ -187,16 +195,8 @@
       "description": "Developers don’t bite! We’ll see from different perspectives (UX, Visual and Motion) how to work with us, from what we do to what we need. But more importantly, how to work as a creative team player and deliver the best work possible!"
     },
     {
-      "start": "2:15PM",
-      "end": "4:00PM",
-      "title": "Portfolio Review + Product Timecapsule",
-      "presenter_location": "University Gallery - 2nd Floor Booth",
-      "type": "General Event",
-      "description": "Have your portfolio reviewed by industry professionals and RIT professors."
-    },
-    {
-      "start": "3:00PM",
-      "end": "3:45PM",
+      "start": "3:15PM",
+      "end": "4:00 PM",
       "title": "Recharge your creative battery",
       "presenter_location": "Jessie Smith - Booth 1420",
       "type": "Lecture",
@@ -204,23 +204,23 @@
     },
     {
       "start": "3:00PM",
-      "end": "3:45PM",
+      "end": "4:00 PM",
       "title": "Designing for the Senses",
       "presenter_location": "Meg Preiss - Booth 1400",
       "type": "Lecture",
       "description": "Human senses are how we experience the world. Whether it is products, services, graphics, or user interfaces, we are constantly surrounded by designs that stimuli our senses. To design around the senses is to give the power of a memorable experience. Not only do visuals revive our memory, but studies have shown that sounds, smells, and tastes do as well. How do we as designers design solutions to heighten people’s memory and experience? But, can senses be used to confuse us? Can they be used against the user to benefit the business?\n\nIn a world where technology is consuming us how do we continue to design for the senses? Many people are worried that our generation (millennial, gen z, and future generations) are losing our ability to have face to face conversations, to sit still and focus for more than 2 minutes, and so many other concerns. It is up to us as designers to heighten the power of senses because we are the ones who are in charge of what our future looks, feels, smells, tastes, and sounds like. \n"
     },
     {
-      "start": "4:00PM",
-      "end": "4:45PM",
+      "start": "4:15PM",
+      "end": "5:00PM",
       "title": "The Future of Design Careers",
       "presenter_location": "Chelsea Klukas - Webb Auditorium, Booth 1350",
       "type": "Keynote",
       "description": "Over the past few decades, the definition of a designer has rapidly evolved alongside technology. From print, to web, to mobile, the roles of professional designers have shifted, as have the tools, skills, and challenges they face every day. As interfaces continue to expand beyond handheld devices, what will the role of designers be in 5 or 10 years from now? This presentation will explore design specializations \"beyond screens\" that are already emerging and will become increasingly relevant in the future including voice, biometric design, and machine learning design. It will highlight the challenges these designers face, the tools and skills that are needed, and what you can do now to get up to speed with these developing fields."
     },
     {
-      "start": "4:45PM",
-      "end": "5:00PM",
+      "start": "5:00PM",
+      "end": "5:15 PM",
       "title": "Ending Remarks",
       "presenter_location": "TAW Team - Webb Auditorium, Booth 1350",
       "type": "General Event",
