@@ -4,7 +4,7 @@
       "start": "1:30PM",
       "end": "3:00PM",
       "title": "registration & check in",
-      "presenter_location": "Bevier Gallery - 2nd Floor of Booth",
+      "presenter_location": "Bevier Gallery Lobby - 2nd Floor of Booth",
       "type": "General Event",
       "description": "Check in and receive your conference badge!"
     },
@@ -78,7 +78,7 @@
       "start": "9:15AM",
       "end": "11:00AM",
       "title": "Registration Open",
-      "presenter_location": "2nd Floor Lobby - Across from Bevier Gallery Booth",
+      "presenter_location": "Bevier Gallery Lobby - 2nd Floor of Booth",
       "type": "General Event",
       "description": "Check in and receive your conference swag!"
     },
@@ -134,7 +134,7 @@
       "start": "12:15PM",
       "end": "1:00PM",
       "title": "Registration Open",
-      "presenter_location": "2nd Floor Lobby of Booth",
+      "presenter_location": "Bevier Gallery Lobby - 2nd Floor of Booth",
       "type": "General Event",
       "description": "Check in and receive your conference swag!"
     },
