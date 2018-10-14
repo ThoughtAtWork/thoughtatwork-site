@@ -44,7 +44,7 @@
       "start": "3:15PM",
       "end": "4:00PM",
       "title": "The Post Grad Talk - Where to go after college",
-      "presenter_location": "Jen Byyny - Booth 3350",
+      "presenter_location": "Jen Byyny - Booth 3550",
       "type": "Lecture",
       "description": "As you finish your final projects and your time in your studies draws to a close, what will you do next? Start-up? Agency/Consultancy? Work for yourself? Join a product company, and if so what size? 150, 400, 12,000 people? Work on-site? Or work from home?"
     },
@@ -63,6 +63,14 @@
       "presenter_location": "University Gallery - 2nd Floor Booth",
       "type": "General Event",
       "description": "Design Autopsy is the seventh annual exhibition of Alumni work from the RIT Industrial Design department. This exhibit is meant to help reveal the diversity and process behind the profession of industrial design. The samples presented demonstrate a variety of areas that have been explored by Alumni, and is not limited to final products."
+    },
+    {
+      "start": "1899-12-31T00:00:00.000Z",
+      "end": "1899-12-31T03:00:00.000Z",
+      "title": "After-Party",
+      "presenter_location": "Radio Social - 20 Carlson Rd, Rochester, NY 14610",
+      "type": "General Event",
+      "description": "Grab a drink, bowl a little, play some Jenga, and hang out with other speakers and students at Radio Social downtown."
     }
   ],
   "saturday": [
@@ -150,7 +158,7 @@
       "start": "12:15PM",
       "end": "1:00PM",
       "title": "Heavy Duty Vehicle Design for any Realities",
-      "presenter_location": "John Frye - Booth 1420",
+      "presenter_location": "John Frye - Booth 3310",
       "type": "Workshop",
       "description": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
     },
@@ -203,7 +211,7 @@
       "description": "Jessie will share about her experience working at Adobe, and how she balances her full-time job with her passion projects. She'll also dive into her design process, and share some tips for hand lettering."
     },
     {
-      "start": "3:00PM",
+      "start": "3:15PM",
       "end": "4:00 PM",
       "title": "Designing for the Senses",
       "presenter_location": "Meg Preiss - Booth 1400",
