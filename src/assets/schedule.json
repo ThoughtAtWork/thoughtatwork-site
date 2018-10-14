@@ -11,10 +11,10 @@
     {
       "start": "2:00PM",
       "end": "2:15PM",
-      "title": "START. Small intro and motion graphic",
+      "title": "Event Opening and Title",
       "presenter_location": "TAW team - Webb Auditorium, Booth 1350",
       "type": "General Event",
-      "description": "Get the inside scoop of what to expect for the weekend!"
+      "description": "Get the inside scoop of what to expect for the weekend and see the Title Sequence for this year's event."
     },
     {
       "start": "2:15PM",
@@ -28,7 +28,7 @@
       "start": "3:15PM",
       "end": "4:00PM",
       "title": "Making Your Dream Job a Reality",
-      "presenter_location": "Lauren O'Neill - Booth 3330",
+      "presenter_location": "Lauren O'Neill - Booth 3310",
       "type": "Lecture",
       "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
     },
@@ -36,7 +36,7 @@
       "start": "3:15PM",
       "end": "4:00PM",
       "title": "On My Own",
-      "presenter_location": "Meg Lewis - Booth 3310",
+      "presenter_location": "Meg Lewis - Booth 3330",
       "type": "Lecture",
       "description": "As students and adults we’re taught to rely on others for opportunities, promotions, and career success but what if there was a way to have everything we want all on our own? Join me, designer, educator, and entrepreneur Meg Lewis as I discuss how I created a totally self-sustainable, successful career by myself and how you can too!"
     },
@@ -44,7 +44,7 @@
       "start": "3:15PM",
       "end": "4:00PM",
       "title": "The Post Grad Talk - Where to go after college",
-      "presenter_location": "Jen Byyny - Booth 3550",
+      "presenter_location": "Jen Byyny - Booth 1400",
       "type": "Lecture",
       "description": "As you finish your final projects and your time in your studies draws to a close, what will you do next? Start-up? Agency/Consultancy? Work for yourself? Join a product company, and if so what size? 150, 400, 12,000 people? Work on-site? Or work from home?"
     },
@@ -60,13 +60,13 @@
       "start": "5:15PM",
       "end": "7:00PM",
       "title": "Design Autopsy",
-      "presenter_location": "University Gallery - 2nd Floor Booth",
+      "presenter_location": "TBD - Check the Website",
       "type": "General Event",
       "description": "Design Autopsy is the seventh annual exhibition of Alumni work from the RIT Industrial Design department. This exhibit is meant to help reveal the diversity and process behind the profession of industrial design. The samples presented demonstrate a variety of areas that have been explored by Alumni, and is not limited to final products."
     },
     {
-      "start": "1899-12-31T00:00:00.000Z",
-      "end": "1899-12-31T03:00:00.000Z",
+      "start": "7:00PM",
+      "end": "10:00PM",
       "title": "After-Party",
       "presenter_location": "Radio Social - 20 Carlson Rd, Rochester, NY 14610",
       "type": "General Event",
@@ -78,13 +78,13 @@
       "start": "9:00AM",
       "end": "10:00AM",
       "title": "Breakfast",
-      "presenter_location": "Thought At Work Lounge",
+      "presenter_location": "University Gallery hallway - 2nd Floor of Booth",
       "type": "General Event",
       "description": "Join us for bagels and coffee!"
     },
     {
       "start": "9:15AM",
-      "end": "11:00AM",
+      "end": "12:30AM",
       "title": "Registration Open",
       "presenter_location": "Bevier Gallery Lobby - 2nd Floor of Booth",
       "type": "General Event",
@@ -104,7 +104,7 @@
       "title": "People + Processes: Designing Intangible Things",
       "presenter_location": "Emily Herrick - Booth 3330",
       "type": "Lecture",
-      "description": "Design school is a great place to learn about how to design tangible things: logos, posters, digital products, app interfaces, videos, and service concepts. But what about designing the intangible? Grasping the intangible often requires embracing an attitude that enables you to navigate through the fog of messy systems and politics so that you can design clear and meaningful solutions. In this talk, I will share my experience applying design to social problems and unpack how I have used the methods I learned in design school to create processes that drive collaboration, creative problem-solving, and organizational learning within large institutions. We’ll look at things like how design-informed approaches can help individuals experiencing homelessness access services, improve the quality of care within the child welfare system, and rethink how we support people in the criminal justice system."
+      "description": "Design school is a great place to learn about how to design tangible things: logos, posters, digital products, app interfaces, videos, and service concepts. But what about designing the intangible? Grasping the intangible often requires embracing an attitude that enables you to navigate through the fog of messy systems and politics so that you can design clear and meaningful solutions. \n\nI will share my experience applying design to social problems and unpack how I have used the methods I learned in design school to create processes that drive collaboration, creative problem-solving, and organizational learning within large institutions. We’ll look at things like how design-informed approaches can help individuals experiencing homelessness access services, improve the quality of care within the child welfare system, and rethink how we support people in the criminal justice system."
     },
     {
       "start": "10:00AM",
@@ -112,7 +112,7 @@
       "title": "Getting Uncomfortable",
       "presenter_location": "Liz Wells - 3310",
       "type": "Lecture",
-      "description": "Presentation: Good work comes from being uncomfortable, and discomfort can mean different things to different people. Recently, I learned that I create average work when I am comfortable and not being pushed or challenged. But once I create discomfort, I become challenged to do more than the average, and that’s when I create work that is truly creative. \n\nThis talk will cover what I do to continually be challenged, including work at Stink Studios that invoked discomfort, what it looks like to run an independent newsletter, and finding ways you can challenge yourself in your daily life."
+      "description": "Good work comes from being uncomfortable, and discomfort can mean different things to different people. Recently, I learned that I create average work when I am comfortable and not being pushed or challenged. But once I create discomfort, I become challenged to do more than the average, and that’s when I create work that is truly creative. \n\nThis talk will cover what I do to continually be challenged, including work at Stink Studios that invoked discomfort, what it looks like to run an independent newsletter, and finding ways you can challenge yourself in your daily life."
     },
     {
       "start": "10:00AM",
@@ -120,12 +120,12 @@
       "title": "Ben Here, Done That.",
       "presenter_location": "Ben Sorensen - 1400",
       "type": "Lecture",
-      "description": "liz"
+      "description": "What should you know about working in the real world? What's the difference between product design at an agency and product design at a startup?How do you get an apartment in San Francisco? What's work life balance? Join me to hear about my journey from new media design to agency life, and now to product design. I'll break some of the misconceptions and personal lessons learned to hopefully reduce the anxiety of transitioning to the real world."
     },
     {
       "start": "11:00AM",
       "end": "11:15AM",
-      "title": "Intro and Motion Graphic",
+      "title": "Saturday Intro and Titles",
       "presenter_location": "Webb Auditorium - 1350",
       "type": "General Event",
       "description": "Get the inside scoop of what to expect for the weekend!"
@@ -141,14 +141,6 @@
     {
       "start": "12:15PM",
       "end": "1:00PM",
-      "title": "Registration Open",
-      "presenter_location": "Bevier Gallery Lobby - 2nd Floor of Booth",
-      "type": "General Event",
-      "description": "Check in and receive your conference swag!"
-    },
-    {
-      "start": "12:15PM",
-      "end": "1:00PM",
       "title": "Sketching in Virtual Reality",
       "presenter_location": "Nick Baker - Magic Center Lobby",
       "type": "Workshop",
@@ -158,17 +150,17 @@
       "start": "12:15PM",
       "end": "1:00PM",
       "title": "Heavy Duty Vehicle Design for any Realities",
-      "presenter_location": "John Frye - Booth 3310",
+      "presenter_location": "John Frye - Booth 1480",
       "type": "Workshop",
       "description": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
     },
     {
       "start": "12:15PM",
       "end": "1:00PM",
-      "title": "Making Your Dream Job a Reality",
+      "title": "Direction in Art",
       "presenter_location": "Lauren O'Neil - Booth 3330",
       "type": "Workshop",
-      "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
+      "description": "With profound experience in the industry working for companies like Kate Spade and Martha Stuart, Lauren will provide some insights and strategies to approach art direction. She will also talk about how she applies her creative skills to multiple projects and clients."
     },
     {
       "start": "1:00PM",
@@ -190,7 +182,7 @@
       "start": "2:15PM",
       "end": "3:00PM",
       "title": "Destroying the intimidation of a blank page",
-      "presenter_location": "John Frye - Booth 1400",
+      "presenter_location": "John Frye - Booth 1480",
       "type": "Lecture",
       "description": "John Frye shows you his career path from childhood to a 20 year career in concept vehicle and industrial design for companies such as Boeing, Honda, and Hasbro. John then will take you through several design stories that illustrate how identifying the needs, wants, problems, and customers are the essential foundation to propel you quickly and efficiently toward the ultimately satisfying design solutions."
     },
@@ -206,7 +198,7 @@
       "start": "3:15PM",
       "end": "4:00 PM",
       "title": "Recharge your creative battery",
-      "presenter_location": "Jessie Smith - Booth 1420",
+      "presenter_location": "Jessie Smith - Booth 1480",
       "type": "Lecture",
       "description": "Jessie will share about her experience working at Adobe, and how she balances her full-time job with her passion projects. She'll also dive into her design process, and share some tips for hand lettering."
     },
@@ -248,7 +240,7 @@
       "start": "9:00AM",
       "end": "10:00AM",
       "title": "breakfast",
-      "presenter_location": "2nd Floor Lobby of Booth",
+      "presenter_location": "TAW Lounge",
       "type": "General Event",
       "description": "Coffee, tea, bagels, some nice grub to start your morning."
     },
@@ -280,7 +272,7 @@
       "start": "11:00AM",
       "end": "11:45AM",
       "title": "Wireframe Sketching Workshop",
-      "presenter_location": "Liz Wells - Booth 1540",
+      "presenter_location": "Liz Wells - Booth 1400",
       "type": "Workshop",
       "description": "This workshop will teach students from all backgrounds and experience levels, how to take a step back from the screen and sketch digital experiences. I’ll teach students the process I go through from user flows, experience maps and wireframes. Students will be able to use the tools I use on a daily basis and help them grow their user experience thinking and skill set!   "
     },
@@ -304,7 +296,7 @@
       "start": "12:00PM",
       "end": "12:45PM",
       "title": "Once you start mimicking, you stop looking",
-      "presenter_location": "Miguel Cardona - Booth 1540",
+      "presenter_location": "Miguel Cardona - Booth 1400",
       "type": "Lecture",
       "description": "Massimo Vignelli learned early in his career that a designer should be able to design everything, coining the term ‘Design is One.’ This presentation will focus on the bridges that exist between graphic, industrial, web, and user experience design with a focus on producing artifacts and communication when developing and disseminating work across different platforms and media."
     },
@@ -325,10 +317,10 @@
       "description": "Sit down, relax, and enjoy a casual conversation with design professionals! We'll talk what inspires us in design, answer some of your questions, and so much more."
     },
     {
-      "start": "2:00PM",
-      "end": "2:15PM",
+      "start": "1:45PM",
+      "end": "2:00PM",
       "title": "Closing",
-      "presenter_location": "TAW Team - Webb Auditorium - 1350",
+      "presenter_location": "TAW Team - Booth 3310",
       "type": "General Event",
       "description": "A final review of the 2018 conference."
     }
