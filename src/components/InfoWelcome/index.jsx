@@ -9,7 +9,7 @@ class InfoWelcome extends React.Component {
     return (
       <div className={classnames('gridish-container--complete container gridish-grid')}>
         <div className={classnames('gridish-grid__col--small--4 gridish-grid__col--xsmall--3')}>
-          <p>Check-in begins at 1:30pm on Friday morning. The opening reception begins at 2am.
+          <p>Check-in begins at 1:30pm on Friday morning. The opening reception begins at 2pm.
               At check-in you’ll get a lanyard and name tag, which you’ll need for entry into any Thought at Work event.</p>
           <p className={styles.infoText}>You’ll also pick up a program brochure for a detailed view of the conference and schedule.</p>
         </div>
