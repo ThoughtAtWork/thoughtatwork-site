@@ -135,7 +135,7 @@ class Schedule extends React.Component {
         <div className={classnames('boundary-element', styles.boundaryElement_positioning)}></div>
         <Header pageName='schedule' />
         <div className={'container'}>
-          <div className={''} style={{ overflow: 'scroll' }}>
+          <div>
             <Sticky
               hideOnBoundaryHit={false}
               boundaryElement=".boundary-element"

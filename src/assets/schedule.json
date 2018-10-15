@@ -30,7 +30,7 @@
       "title": "Making Your Dream Job a Reality",
       "presenter_location": "Lauren O'Neill - Booth 3310",
       "type": "Lecture",
-      "description": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
+      "description": "Looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
     },
     {
       "start": "3:15PM",
@@ -96,7 +96,7 @@
       "title": "Design Autopsy Panel",
       "presenter_location": "Bevier Gallery - 2nd Floor of Booth",
       "type": "General Event",
-      "description": "RIT ID alums will talk about their experience post graduation and their impact in the design community."
+      "description": "RIT ID alums will talk about their experience post graduation and their impact in the design community. Featuring: Jordan Nollman, Malcom Fontier, Tom Chavara, Kyra Wilson-Houck, Stephanie Howard, Liana Beer, Igor Sobolevsky, Richard Luo, Peter Kotsonis, Alex Freeman."
     },
     {
       "start": "10:00AM",
@@ -128,7 +128,7 @@
       "title": "Saturday Intro and Titles",
       "presenter_location": "Webb Auditorium - 1350",
       "type": "General Event",
-      "description": "Get the inside scoop of what to expect for the weekend!"
+      "description": "See this year's title seqeunce and find out what's in store for the rest of the day and weekend"
     },
     {
       "start": "11:15AM",
@@ -157,10 +157,10 @@
     {
       "start": "12:15PM",
       "end": "1:00PM",
-      "title": "Direction in Art",
+      "title": "Direction in Industry",
       "presenter_location": "Lauren O'Neil - Booth 3330",
       "type": "Workshop",
-      "description": "With profound experience in the industry working for companies like Kate Spade and Martha Stuart, Lauren will provide some insights and strategies to approach art direction. She will also talk about how she applies her creative skills to multiple projects and clients."
+      "description": "With profound experience in the industry working for companies like Kate Spade and Martha Stuart, Lauren will provide some insights and strategies to approach art direction. She will also be handing out various prompts for 1, 3, 5, and 10 year tracks for different dream jobs; as well as prompts for what is your definition of success, who fills your bucket, and what sorts of things drain your energy.\n"
     },
     {
       "start": "1:00PM",
@@ -176,7 +176,7 @@
       "title": "Portfolio Review + Product Timecapsule",
       "presenter_location": "University Gallery - 2nd Floor Booth",
       "type": "General Event",
-      "description": "Have your portfolio reviewed by industry professionals and RIT professors."
+      "description": "Have your portfolio reviewed by industry professionals and RIT professors. Some companies are also looking to hire!\n\nDesign Autopsy is the seventh annual exhibition of Alumni work from the RIT Industrial Design department. This exhibit is meant to help reveal the diversity and process behind the profession of industrial design. The samples presented demonstrate a variety of areas that have been explored by Alumni, and is not limited to final products."
     },
     {
       "start": "2:15PM",
@@ -213,7 +213,7 @@
     {
       "start": "4:15PM",
       "end": "5:00PM",
-      "title": "The Future of Design Careers",
+      "title": "Final Keynote: The Future of Design Careers",
       "presenter_location": "Chelsea Klukas - Webb Auditorium, Booth 1350",
       "type": "Keynote",
       "description": "Over the past few decades, the definition of a designer has rapidly evolved alongside technology. From print, to web, to mobile, the roles of professional designers have shifted, as have the tools, skills, and challenges they face every day. As interfaces continue to expand beyond handheld devices, what will the role of designers be in 5 or 10 years from now? This presentation will explore design specializations \"beyond screens\" that are already emerging and will become increasingly relevant in the future including voice, biometric design, and machine learning design. It will highlight the challenges these designers face, the tools and skills that are needed, and what you can do now to get up to speed with these developing fields."
@@ -271,18 +271,18 @@
     {
       "start": "11:00AM",
       "end": "11:45AM",
-      "title": "Wireframe Sketching Workshop",
-      "presenter_location": "Liz Wells - Booth 1400",
-      "type": "Workshop",
-      "description": "This workshop will teach students from all backgrounds and experience levels, how to take a step back from the screen and sketch digital experiences. I’ll teach students the process I go through from user flows, experience maps and wireframes. Students will be able to use the tools I use on a daily basis and help them grow their user experience thinking and skill set!   "
-    },
-    {
-      "start": "11:00AM",
-      "end": "11:45AM",
       "title": "Designing for Humans: Leveraging the Lean UX Canvas to Build Successful Products",
       "presenter_location": "M&T Bank - Booth 3330",
       "type": "Workshop",
       "description": "Knowing what problem to solve next is a complicated task. It is even more difficult when designing products or services for humans. It is imperative for designers to understand how to practice effective discovery methods in order to solve real problems for customers as well as simultaneously feeding delivery efforts.\n \nThe Lean UX Canvas is a tool that we use that helps us effectively frame our work, establish outcomes, know who we are designing for, and test our assumptions. This helps us create a collaborative, customer-centric environment that brings together product design, user experience, engineering, and product management, that focuses on building the right product and building the product right."
+    },
+    {
+      "start": "11:00AM",
+      "end": "11:45AM",
+      "title": "Wireframe Sketching Workshop",
+      "presenter_location": "Liz Wells - Booth 1400",
+      "type": "Workshop",
+      "description": "This workshop will teach students from all backgrounds and experience levels, how to take a step back from the screen and sketch digital experiences. I’ll teach students the process I go through from user flows, experience maps and wireframes. Students will be able to use the tools I use on a daily basis and help them grow their user experience thinking and skill set!   "
     },
     {
       "start": "11:00AM",
