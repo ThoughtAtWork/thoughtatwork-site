@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import SpeakerCards from './SpeakerCards.jsx';
-import data from '../../assets/speakers.json';
+import AboutCards from './AboutCards.jsx';
+import data from '../../assets/about.json';
 import classnames from 'classnames';
-import styles from '../../styles/components/speakers/speakerGrid.module.scss';
+import styles from '../../styles/components/about/aboutGrid.module.scss';
 
 export default class AboutGrid extends Component {
   createPerson = (person) => {
     return (
-      <div className={classnames(styles.speakerSizing)} key={person.headshot}>
-        <SpeakerCards firstName={person.firstName} lastName={person.lastName} job={person.job} bio={person.bio} links={person.links} headshot={person.headshot} />
+      <div className={classnames(styles.speakerSizing)} key={person.name}>
+        <AboutCards name={person.name} team={person.team} year={person.year} major={person.major} link={person.link} />
       </div>
     );
   };
@@ -19,8 +19,13 @@ export default class AboutGrid extends Component {
 
   render() {
     return (
-      <div className={classnames('container flex gridish-container gridish-container--complete gridish-grid', styles.flexibleGrid)}>
-        {this.createPeople(data.speakers)}
+      <div>
+        <h3 className={classnames(
+          'container gridish-container gridish-container--complete', styles.coolKids)}>The cool kids</h3>
+
+        <div className={classnames('container flex gridish-container gridish-container--complete gridish-grid', styles.flexibleGrid)}>
+          {this.createPeople(data.about1)}
+        </div>
       </div>
     );
   }
