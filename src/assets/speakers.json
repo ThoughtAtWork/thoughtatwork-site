@@ -429,6 +429,44 @@
           "desc": "Archives and libraries contain infinite resources for twenty-first century typographic inspiration. Obscure matrices, colonial papers, scrawling personal letters, and rare films from the RIT Cary Graphic Arts Collection have all recently stimulated creative endeavors by our most enthusiastic patrons—type designers, educators, and designers like you! Join me, “your typographic librarian,” as I describe some great projects where history, technology, and design intersect—perhaps encouraging you to get to know your campus rare book library scientist."
         }
       ]
+    },
+    {
+      "firstName": "Emily ",
+      "lastName": "Dominguez",
+      "job": "User Experience Designer ",
+      "bio": "Emily Dominguez graduated from RIT’s Saunders College of Business with a degree in New Media Marketing and MIS. After graduating, she joined M&T Bank and went through their Management Development Program. Currently, she is a User Experience Designer on the Experience and Design team working on the redesign of the bank’s ATM UI. Outside of work, she loves trying new restaurants with her husband, Dan, and Mini Dachsund, Braxton, refurbishing furniture, and of course binge watching shows on Netflix.",
+      "fields": [
+        "\"UX\""
+      ],
+      "Industry": "User Experience Design",
+      "links": "",
+      "presentationTitles": [
+        "\"designing for humans: leveraging the lean ux canvas to build successful products\"\n"
+      ],
+      "headshot": "emily_dominguez",
+      "presentationTitleDesc": [
+        "{ title : \"designing for humans: leveraging the lean ux canvas to build successful products\"",
+        "desc : \"Knowing what problem to solve next is a complicated task. It is even more difficult when designing products or services for humans. It is imperative for designers to understand how to practice effective discovery methods in order to solve real problems for customers as well as simultaneously feeding delivery efforts. The Lean UX Canvas is a tool that we use that helps us effectively frame our work, establish outcomes, know who we are designing for, and test our assumptions. This helps us create a collaborative, customer-centric environment that brings together product design, user experience, engineering, and product management, that focuses on building the right product and building the product right.\""
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "McCartney",
+      "job": "User Experience Designer ",
+      "bio": "John McCartney is a User Experience designer in M&T Bank’s Experience and Design group. Currently based in Buffalo, New York, John focuses on strategy, user-centered design, Design-Thinking, and usability. With a background in Human-Computer Interaction and Cognitive Science, he is passionate about creating business cultures that are highly focused on keeping humans and their needs at the center of every conversation. Prior to M&T Bank, John was a User Experience Designer at a higher education software company and a materials science start-up.",
+      "fields": [
+        "\"UX\""
+      ],
+      "Industry": "User Experience Design",
+      "links": "",
+      "presentationTitles": [
+        "\"designing for humans: leveraging the lean ux canvas to build successful products\"\n"
+      ],
+      "headshot": "john_mccartney",
+      "presentationTitleDesc": [
+        "{ title : \"designing for humans: leveraging the lean ux canvas to build successful products\"",
+        "desc : \"Knowing what problem to solve next is a complicated task. It is even more difficult when designing products or services for humans. It is imperative for designers to understand how to practice effective discovery methods in order to solve real problems for customers as well as simultaneously feeding delivery efforts. The Lean UX Canvas is a tool that we use that helps us effectively frame our work, establish outcomes, know who we are designing for, and test our assumptions. This helps us create a collaborative, customer-centric environment that brings together product design, user experience, engineering, and product management, that focuses on building the right product and building the product right.\""
+      ]
     }
   ]
 }

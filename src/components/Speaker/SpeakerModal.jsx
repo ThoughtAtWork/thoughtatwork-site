@@ -27,13 +27,15 @@ export default class SpeakerModal extends Component {
             </MediaQuery>
             <h1 className={classnames(styles.name)}>{props.name}</h1>
             <p className={classnames(styles.job)}>{props.job}</p>
-            <a href={props.links} target="_blank" className={classnames()}>
-              <img
-                className={classnames(styles.outsideLinkLogo)}
-                src={outsideLinkLogo}
-              />
-              website
-            </a>
+            {props.links && (
+              <a href={props.links} target="_blank" className={classnames()}>
+                <img
+                  className={classnames(styles.outsideLinkLogo)}
+                  src={outsideLinkLogo}
+                />
+                website
+              </a>
+            )}
           </div>
           <MediaQuery minWidth={481}>
             <img className={classnames('flex-column', styles.headshotContainer)}
