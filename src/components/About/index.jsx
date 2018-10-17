@@ -44,7 +44,7 @@ class About extends React.Component {
           </p>
         </div>
         <div className={'content-Block--margin-top'}>
-          <AboutGrid aboutKids={data.aboutKids} aboutLeads={data.aboutLeads} />
+          <AboutGrid aboutKids={this.shuffleArray(data.aboutKids)} aboutLeads={this.shuffleArray(data.aboutLeads)} />
         </div>
       </div>
     );
