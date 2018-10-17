@@ -59,15 +59,7 @@ export class DesktopNavigation extends Component {
                 >
                   Info
                 </Link>
-                <Link
-                  to="/About"
-                  className={classnames(styles.link, styles.navElement)}
-                  activeStyle={{
-                    color: '#FF2350'
-                  }}
-                >
-                  about
-                </Link>
+                
                 <button className={classnames(styles.desktopRegisterButton)}>
                   <a
                     href="https://thoughtatwork.cias.rit.edu/register.php"

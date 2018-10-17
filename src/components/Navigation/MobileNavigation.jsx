@@ -123,16 +123,7 @@ export class MobileNavigation extends Component {
             >
               Info
             </Link>
-            <Link
-              to="/About"
-              onClick={this.onClick.bind(this)}
-              className={classnames(styles.link, styles.navElement)}
-              activeStyle={{
-                color: '#FF2350'
-              }}
-            >
-              about
-            </Link>
+            
           </div>
         </div>
       </div>);
