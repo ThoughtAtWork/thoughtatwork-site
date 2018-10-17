@@ -14,10 +14,11 @@ export default class SpeakerCard extends Component {
   render() {
     const props = this.props;
     let imageURLPrefix = 'https://thoughtatwork.cias.rit.edu/assets/graphics/2018-imagery/about-photos/';
-    let headShot = imageURLPrefix + props.name.split(' ').join('_') + '.jpg';
     let name = props.name;
+    let headShot = imageURLPrefix + name.split(' ').join('_') + '.jpg';
 
     return (
+
       <div>
         <div
           className={classnames(styles.cardSize)}
