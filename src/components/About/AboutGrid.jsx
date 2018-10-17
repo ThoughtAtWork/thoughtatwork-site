@@ -18,13 +18,28 @@ export default class AboutGrid extends Component {
   };
 
   render() {
+    var aboutKids = shuffle(data.aboutKids);
+    var aboutLeads = shuffle(data.aboutLeads);
+
+    function shuffle(sourceArray) {
+      for (var i = 0; i < sourceArray.length - 1; i++) {
+        var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+
+        var temp = sourceArray[j];
+        sourceArray[j] = sourceArray[i];
+        sourceArray[i] = temp;
+      }
+      return sourceArray;
+    }
+
     return (
       <div>
         <h3 className={classnames(
           'container gridish-container gridish-container--complete', styles.coolKids)}>The cool kids</h3>
 
         <div className={classnames('container flex gridish-container gridish-container--complete gridish-grid', styles.flexibleGrid)}>
-          {this.createPeople(data.about1)}
+          {this.createPeople(aboutLeads)}
+          {this.createPeople(aboutKids)}
         </div>
       </div>
     );

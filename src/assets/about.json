@@ -239,37 +239,39 @@
       "What do you study?": "Industrial Design",
       "Do you want to link to anything?": "",
       "Submit an photo of yourself, make sure it is cropped to 540x540": "https://drive.google.com/open?id=1j8So9Zr6WMb5ShAebnYVbwqQW_uecgxK"
+    },
+    {
+      "Timestamp": "2018-10-16T15:05:46.660Z",
+      "Email Address": "ztt7494@g.rit.edu",
+      "What is your full name?": "Zach Thesier",
+      "What team were you on?": "Swag Bags and Other Swag",
+      "What is your year": "Junior",
+      "What do you study?": "Industrial Design",
+      "Do you want to link to anything?": "",
+      "Submit an photo of yourself, make sure it is cropped to 540x540": "https://drive.google.com/open?id=1wBajIYvIq7p9uB-hCwifarlOANETTnAd"
+    },
+    {
+      "Timestamp": "2018-10-16T15:36:01.263Z",
+      "Email Address": "mxp1511@g.rit.edu",
+      "What is your full name?": "Madeline Pizzo",
+      "What team were you on?": "Big @ Sign",
+      "What is your year": "Junior",
+      "What do you study?": "Industrial Design",
+      "Do you want to link to anything?": "https://www.instagram.com/madrosedesign/",
+      "Submit an photo of yourself, make sure it is cropped to 540x540": "https://drive.google.com/open?id=1-JO0h_LcEAhS4_tC-HWK_OZ_X9tCSJju"
+    },
+    {
+      "Timestamp": "2018-10-16T21:53:18.435Z",
+      "Email Address": "ivt1055@g.rit.edu",
+      "What is your full name?": "Isabel Thelen",
+      "What team were you on?": "Marketing ",
+      "What is your year": "Junior",
+      "What do you study?": "Industrial Design",
+      "Do you want to link to anything?": "",
+      "Submit an photo of yourself, make sure it is cropped to 540x540": "https://drive.google.com/open?id=10J-dOGc9Erb9pm6mrlM6rlQj9sp9tPxl"
     }
   ],
-  "about1": [
-    {
-      "name": "Frank Barletta",
-      "team": "Lead Co-coordinator",
-      "year": "Senior",
-      "major": "Industrial Design",
-      "link": "https://www.instagram.com/frank_lbarletta/"
-    },
-    {
-      "name": "Erica Stevens",
-      "team": "Lead Co-coordinator",
-      "year": "Senior",
-      "major": "Industrial Design",
-      "link": "https://www.instagram.com/_ericastevens/"
-    },
-    {
-      "name": "Jacob Frank",
-      "team": "Lead Co-cordinator & Lead design/webdev/marketing",
-      "year": "Senior",
-      "major": "Design and Product Development",
-      "link": "http://twitter.com/jacobdfrank"
-    },
-    {
-      "name": "Morgan Merrick",
-      "team": "Lead Co-coordinator",
-      "year": "Senior",
-      "major": "Industrial Design",
-      "link": "https://mxm3995.myportfolio.com/projects"
-    },
+  "aboutKids": [
     {
       "name": "Amanda Ho",
       "team": "Title Sequence Lead",
@@ -281,7 +283,7 @@
       "name": "Daeya Shealy",
       "team": "Signage",
       "year": "Sophomore",
-      "major": "ID",
+      "major": "Industrial Design ",
       "link": ""
     },
     {
@@ -311,6 +313,13 @@
       "year": "Senior",
       "major": "Industrial Design/Mechanical Engineering",
       "link": "https://www.justindorland.com/"
+    },
+    {
+      "name": "Zach Thesier",
+      "team": "Swag ",
+      "year": "Junior",
+      "major": "Industrial Design",
+      "link": ""
     },
     {
       "name": "Ben Mendelsohn",
@@ -379,7 +388,7 @@
       "name": "Gan Lin",
       "team": "Badges & Graphics",
       "year": "Junior",
-      "major": "NMD",
+      "major": "New Media Design",
       "link": "https://www.instagram.com/ganlin97/"
     },
     {
@@ -409,6 +418,50 @@
       "year": "Senior",
       "major": "Industrial Design & Illustration",
       "link": "https://lydiakrogh.myportfolio.com"
+    },
+    {
+      "name": "Madeline Pizzo",
+      "team": "Big @ Sign",
+      "year": "Junior",
+      "major": "Industrial Design",
+      "link": "https://www.instagram.com/madrosedesign/"
+    },
+    {
+      "name": "Isabel Thelen",
+      "team": "Marketing ",
+      "year": "Junior",
+      "major": "Industrial Design",
+      "link": ""
+    }
+  ],
+  "aboutLeads": [
+    {
+      "name": "Frank Barletta",
+      "team": "TAW Co-coordinator, Finance and Logistics Lead ",
+      "year": "Senior",
+      "major": "Industrial Design",
+      "link": "https://www.instagram.com/frank_lbarletta/"
+    },
+    {
+      "name": "Erica Stevens",
+      "team": "TAW Co-coordinator, Signage Lead and Volunteer Coordinator ",
+      "year": "Senior",
+      "major": "Industrial Design",
+      "link": "https://www.instagram.com/_ericastevens/"
+    },
+    {
+      "name": "Jacob Frank",
+      "team": "TAW Co-coordinator, Web and Graphics Lead ",
+      "year": "Senior",
+      "major": "Design and Web Development",
+      "link": "http://twitter.com/jacobdfrank"
+    },
+    {
+      "name": "Morgan Merrick",
+      "team": "TAW Co-coordinator, Food and Speakers Lead ",
+      "year": "Senior",
+      "major": "Industrial Design",
+      "link": "https://mxm3995.myportfolio.com/projects"
     }
   ]
 }
