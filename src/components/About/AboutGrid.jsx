@@ -31,15 +31,17 @@ export default class AboutGrid extends Component {
       }
       return sourceArray;
     }
+    console.log(aboutKids);
 
     return (
+      
       <div>
         <h3 className={classnames(
           'container gridish-container gridish-container--complete', styles.coolKids)}>The cool kids</h3>
 
         <div className={classnames('container flex gridish-container gridish-container--complete gridish-grid', styles.flexibleGrid)}>
           {this.createPeople(aboutLeads)}
-          {this.createPeople(aboutKids)}
+          {/* {this.createPeople(aboutKids)} */}
         </div>
       </div>
     );
