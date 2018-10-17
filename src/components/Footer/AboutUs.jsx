@@ -10,7 +10,12 @@ export default class AboutUs extends Component {
         <p className={classnames('gridish-grid__col--small--4 gridish-grid__col--xsmall--4 gridish-grid__height--small--28 gridish-grid__height--xsmall--22', styles.footer_text__maxWidth, styles.footer_text__bottomMargin)}> <strong>Thought At Work</strong> started as a small Industrial Design conference in 2002 but
          now caters to over 400 designers with speakers and attendees from various fields in design. Organized exclusively
          by students at RIT, the conference strives to function as a tool for young designers to advance their careers
-         and thrive.</p>
+         and thrive. View more &nbsp;
+        
+        <Link
+          to="/About"
+          className={classnames(styles.link)}
+        >about us here </Link></p>
         <div className={classnames('gridish-grid__col--small--2 gridish-grid__height--small--24 gridish-grid__height--xsmall--2')}></div>
         <div className={classnames('gridish-grid__col--small--2 gridish-grid__height--small--14 gridish-grid__height--xsmall--13')}>
           <Link

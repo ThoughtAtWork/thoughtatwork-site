@@ -123,6 +123,7 @@ export class MobileNavigation extends Component {
             >
               Info
             </Link>
+            
           </div>
         </div>
       </div>);

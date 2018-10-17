@@ -59,6 +59,7 @@ export class DesktopNavigation extends Component {
                 >
                   Info
                 </Link>
+                
                 <button className={classnames(styles.desktopRegisterButton)}>
                   <a
                     href="https://thoughtatwork.cias.rit.edu/register.php"
