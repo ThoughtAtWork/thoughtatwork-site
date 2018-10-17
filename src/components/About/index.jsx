@@ -5,21 +5,30 @@ import data from '../../assets/about.json';
 import classnames from 'classnames';
 
 class About extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      limit: 2,
+      count: 0
+    };
+  }
+
 
   shuffleArray = (array) => {
     let i = array.length - 1;
-    for (; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      const temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
+    if (this.state.count != this.state.limit) {
+      for (; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
     }
     return array;
   }
 
   render() {
-    var aboutKids = this.shuffleArray(data.aboutKids);
-    var aboutLeads = this.shuffleArray(data.aboutLeads);
     return (
       <div className={classnames()}>
         <Header pageName='about' />
@@ -35,7 +44,7 @@ class About extends React.Component {
           </p>
         </div>
         <div className={'content-Block--margin-top'}>
-          <AboutGrid aboutKids={aboutKids} aboutLeads={aboutLeads} />
+          <AboutGrid aboutKids={data.aboutKids} aboutLeads={data.aboutLeads} />
         </div>
       </div>
     );

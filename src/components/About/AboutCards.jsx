@@ -18,7 +18,6 @@ export default class SpeakerCard extends Component {
     let headShot = imageURLPrefix + name.split(' ').join('_') + '.jpg';
 
     return (
-
       <div>
         <div
           className={classnames(styles.cardSize)}
