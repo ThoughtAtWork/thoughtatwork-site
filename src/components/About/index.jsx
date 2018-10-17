@@ -1,10 +1,24 @@
 import React from 'react';
 import Header from '../Header/index';
 import AboutGrid from './AboutGrid';
+import data from '../../assets/about.json';
 import classnames from 'classnames';
 
 class About extends React.Component {
   render() {
+    var aboutKids = shuffle(data.aboutKids);
+    var aboutLeads = shuffle(data.aboutLeads);
+
+    function shuffle(sourceArray) {
+      for (var i = 0; i < sourceArray.length - 1; i++) {
+        var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+
+        var temp = sourceArray[j];
+        sourceArray[j] = sourceArray[i];
+        sourceArray[i] = temp;
+      }
+      return sourceArray;
+    }
     return (
       <div className={classnames()}>
         <Header pageName='about' />
@@ -20,7 +34,7 @@ class About extends React.Component {
           </p>
         </div>
         <div className={'content-Block--margin-top'}>
-          <AboutGrid />
+          <AboutGrid aboutKids={aboutKids} aboutLeads={aboutLeads}/>
         </div>
       </div>
     );
