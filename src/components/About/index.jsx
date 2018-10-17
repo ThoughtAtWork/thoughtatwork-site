@@ -38,7 +38,7 @@ class About extends React.Component {
           <br />
           <br />
           <p>
-            This conference is entirely run by students. We contact speakers, we craft the schedule, we print the posters, and we produce the title sequence. We meet up year-round, we balance our coursework, we wrap our heads around the big picture, and we stress about the details. Our team changes every year and represents a broad range of disciplines and experiences, but we’re tied together by need to inspire, grow, and teach our community.
+            This conference is entirely run by students. We contact speakers, we craft the schedule, we print the posters, and we produce the title sequence. We meet up year-round, we balance our coursework, we wrap our heads around the big picture, and we stress about the details. Our team changes every year and represents a broad range of disciplines and experiences, but we’re tied together by need to inspire, grow, and teach our community. This year's conference was lead by <a href="http://twitter.com/jacobdfrank">Jacob Frank</a>, <a href="https://www.instagram.com/frank_lbarletta/">Frank Barletta</a>, <a href="https://www.instagram.com/_ericastevens/">Erica Stevens</a> and <a href="https://mxm3995.myportfolio.com/projects">Morgan Merrick</a>.
             <br />
             <br />
           </p>
