@@ -24,7 +24,8 @@ export default class SpeakerCard extends Component {
           className={classnames(styles.cardSize)}
         >
           <img className={classnames(styles.headshotContainer)}
-            src={headShot}
+            src={name}
+            alt={name + ' ' + headShot}
           />
           <div
             className={classnames(styles.speakerCard_text)}>
