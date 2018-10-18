@@ -22,10 +22,11 @@ export default class SpeakerCard extends Component {
         <div
           className={classnames(styles.cardSize)}
         >
-          <img className={classnames(styles.headshotContainer)}
-            src={headShot}
-            alt={name}
-          />
+          <div style={{ backgroundImage: `url(${headShot})` }} className={classnames(styles.headshotContainer)}>
+            {/* <div style={{ backgroundImage: `url(${headShot})` }} className={classnames(styles.headShotImage)}>
+
+            </div> */}
+          </div>
           <div
             className={classnames(styles.speakerCard_text)}>
             <h2 className={classnames(styles.speakerCard_text__spacing)}>

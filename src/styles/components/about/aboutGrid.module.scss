@@ -1,11 +1,23 @@
 @import "../../media";
 
-:local(.speakerSizing) {
+:local(.speakerSizing__about) {
     padding-right: 0;
     margin-bottom: 56px;
+    width: 33%;
 
     @include media ('<761px') {
         padding: 0% 2%;
+        width: auto;
+    }
+}
+
+:local(.speakerSizing) {
+    padding-right: 0;
+    margin-bottom: 56px;
+    width: 26%;
+
+    @include media ('<sm') {
+        width: 50%;
     }
 }
 

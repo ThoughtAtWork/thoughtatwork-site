@@ -6,6 +6,7 @@
 
     @include media ('<880px') {
         width: 16.5vw;
+        margin: auto;
     }
 
     @include media ('>sm') {
@@ -15,15 +16,20 @@
     @include media ('<557px') {
         min-width: unset;
         width: 37.5vw;
+        margin: inherit;
     }
 }
 
 :local(.headshotContainer) {
     width: 100%;
-    border: 4px solid $purpleblack;
+    border: 4px solid #281e35;
     box-sizing: border-box;
     border-radius: 5px;
-    transition: all 0.2s ease-in-out;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    position: relative;
 }
 
 :local(.speakerCard_text) {
@@ -111,11 +117,13 @@
 }
 
 :local(.aboutTeam__spacing) {
-  margin-bottom: 6px;
+    margin-bottom: 6px;
 }
+
 :local(.aboutMajorYear__spacing) {
-  margin-bottom: 4px;
+    margin-bottom: 4px;
 }
+
 :local(.outsideLinkLogo) {
     margin-right: 6px;
 }
