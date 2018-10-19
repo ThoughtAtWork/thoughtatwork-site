@@ -19,8 +19,11 @@ export default class Speaker extends Component {
 
   render() {
     return (
-      <div className={classnames('container flex gridish-container gridish-container--complete gridish-grid', styles.flexibleGrid)}>
-        {this.createPeople(data.speakers)}
+      <div>
+        <h3 className={classnames('container flex gridish-container gridish-container--complete gridish-grid')}>Click on the speakers to find out more.</h3>
+        <div className={classnames('content-Block--margin-top container flex gridish-container gridish-container--complete gridish-grid', styles.flexibleGrid)}>
+          {this.createPeople(data.speakers)}
+        </div>
       </div>
     );
   }
