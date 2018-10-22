@@ -51,7 +51,7 @@ export class MobileNavigation extends Component {
                 src={navLogo}
               />
             </Link>
-            <button className={classnames(styles.mobileRegisterButton)}>
+            {/* <button className={classnames(styles.mobileRegisterButton)}>
               <a
                 href="https://thoughtatwork.cias.rit.edu/register.php"
                 onClick={this.onClick.bind(this)}
@@ -60,7 +60,7 @@ export class MobileNavigation extends Component {
               >
                 get tickets
               </a>
-            </button>
+            </button> */}
             <button
               className={classnames(
                 styles.menu,

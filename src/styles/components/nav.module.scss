@@ -50,7 +50,8 @@
 }
 
 :local(.desktopRegisterButton) {
-    width: 143px;
+    // width: 143px;
+    padding: 0 28px;
     height: 40px;
     background: $purpleblack;
     border-radius: 32px;
@@ -60,7 +61,7 @@
 }
 
 :local(.mobileRegisterButton) {
-    width: 162px;
+    width: auto;
     height: 38px;
     background: $purpleblack;
     border-radius: 32px;
