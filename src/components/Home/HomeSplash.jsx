@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import SplashAnimation from './SplashAnimation';
 import classnames from 'classnames';
-import styles from '../../styles/components/home/homeSplash.module.scss';
-
 
 export default class HomeSplash extends Component {
   constructor(props) {
