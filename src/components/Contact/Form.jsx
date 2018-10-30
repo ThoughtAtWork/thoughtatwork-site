@@ -112,13 +112,13 @@ export default class Form extends Component {
             </div>
           </label>
           <div data-netlify-recaptcha></div>
-          <div className="gridish-container--complete form-actionButton">git
-          <button
-            type="submit"
-            className="form-actionButton__text"
-          >
-            send message
-          </button>
+          <div className="gridish-container--complete form-actionButton">
+            <button
+              type="submit"
+              className="form-actionButton__text"
+            >
+              send message
+            </button>
           </div>
         </form>
       </div>
