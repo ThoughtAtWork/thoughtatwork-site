@@ -20,12 +20,12 @@ export default class Form extends Component {
   };
 
   handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', ...this.state })
     })
-      .then(() => alert("Success!"))
+      .then(() => alert('Success!'))
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -110,9 +110,8 @@ export default class Form extends Component {
               />
             </div>
           </label>
-          
+          <div data-netlify-recaptcha></div>
           <div className="gridish-container--complete form-actionButton">
-            <div data-netlify-recaptcha></div>
             <button
               type="submit"
               className="form-actionButton__text"
