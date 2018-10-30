@@ -44,6 +44,7 @@ export default class Form extends Component {
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
         >
+          <input type="hidden" name="form-name" value="contact" />
           <p hidden>
             <label>
               Don’t fill this out: <input name="bot-field" />
@@ -111,13 +112,13 @@ export default class Form extends Component {
             </div>
           </label>
           <div data-netlify-recaptcha></div>
-          <div className="gridish-container--complete form-actionButton">
-            <button
-              type="submit"
-              className="form-actionButton__text"
-            >
-              send message
-            </button>
+          <div className="gridish-container--complete form-actionButton">git
+          <button
+            type="submit"
+            className="form-actionButton__text"
+          >
+            send message
+          </button>
           </div>
         </form>
       </div>
