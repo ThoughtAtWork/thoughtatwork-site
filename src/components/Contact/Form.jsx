@@ -110,8 +110,9 @@ export default class Form extends Component {
               />
             </div>
           </label>
-
+          
           <div className="gridish-container--complete form-actionButton">
+            <div data-netlify-recaptcha></div>
             <button
               type="submit"
               className="form-actionButton__text"
