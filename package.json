@@ -37,6 +37,7 @@
     "react-helmet": "^5.2.0",
     "react-lottie": "^1.2.3",
     "react-player": "^1.6.4",
+    "react-pose": "^4.0.5",
     "react-responsive": "^5.0.0",
     "react-scrollable-anchor": "^0.6.1",
     "react-scrolllock": "^3.0.2",

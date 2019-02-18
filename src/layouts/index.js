@@ -6,12 +6,26 @@ import Footer from '../components/Footer';
 import './2017/styles-2017.scss';
 import '../styles/main.scss';
 import favicon from '../assets/images/faviconPurple.png';
+import polyPattern from '../assets/images/polyPattern.png';
 
+
+const polyPatternBackground = {
+  backgroundImage: `url(${polyPattern})`,
+}
 
 const TemplateWrapper = ({children}) => (
   <div 
     className='dotGrid-background body-container--padding-top'
     id="body-noScroll"
+    
+    style = {
+      {
+        backgroundImage: `url(${polyPattern})`,
+        backgroundPosition: '50% 0',
+        backgroundRepeat: 'repeat',
+        backgroundColor: '#FFFFFF'
+      }
+    }
   >
     <Helmet
       title="Thought At Work 2018"
