@@ -10,7 +10,7 @@ export class index extends Component {
   render() {
     return (
       <div>
-        <p>Hello</p>
+        <p>Site loading...</p>
       </div>
     );
   }
