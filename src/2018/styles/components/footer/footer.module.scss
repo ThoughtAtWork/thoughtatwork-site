@@ -1,0 +1,53 @@
+@import "../../media";
+
+:local(.sponsorLogo) {
+    max-width: 144px;
+    max-height: 100px;
+    padding-bottom: 48px;
+
+    // comments need to be in div above logos
+    @include media ('>md') {
+        max-width: 144px;
+        width: 14vw;
+        margin-right: 3vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @include media ('<sm') {
+        max-width: unset;
+        display: flex;
+        width: 75%;
+        max-width: 160px;
+    }
+
+    @include media ('>sm') {
+        width: 17vw;
+    }
+
+    @include media ('<md') {
+        justify-content: space-between;
+    }
+}
+
+:local(.sponsorContainer) {
+    padding-right: 0 !important;
+}
+
+:local(.footer_text__maxWidth) {
+    @include media ('<sm') {
+        max-width: 441px !important;
+    }
+    @include media ('<xs') {
+        max-width: unset;
+    }
+}
+
+:local(.footer_text__bottomMargin) {
+    @include media ('<sm') {
+        margin-bottom: 48px;
+    }
+    @include media ('<xs') {
+        margin-bottom: 36px;
+    }
+}

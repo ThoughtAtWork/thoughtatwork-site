@@ -1,12 +1,14 @@
 import React from 'react';
-// import RegEmail from '../components/Speaker/RegEmail';
+
+import Layout from '../components/FolioComponents/Layout';
+import SEO from '../components/FolioComponents/Seo';
 
 const NotFoundPage = () => (
-  <div>
+  <Layout>
+    <SEO title="404 Not found" />
     <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    {/* <RegEmail/> */}
-  </div>
+    <p>You will be redirected in a moment...</p>
+  </Layout>
 );
 
 export default NotFoundPage;

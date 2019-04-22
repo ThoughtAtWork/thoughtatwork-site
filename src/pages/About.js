@@ -1,17 +1,14 @@
 import React from 'react';
-import About from '../components/About';
+import Layout from '../components/FolioComponents/Layout';
+const about = ({location}) => {
+  return (
+    <Layout location={location}>
+      <h1>About Us</h1>
+      <p>
+        This is about us text
+      </p>
+    </Layout>
+  );
+};
 
-export default class AboutPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return ( 
-      <div>
-        <About/>
-      </div>
-    );
-  }
-}
+export default about;

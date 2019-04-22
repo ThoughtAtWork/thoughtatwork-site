@@ -1,0 +1,7 @@
+---
+name: Timmy Chau
+headshot: images/uploads/Timmy_Chau.jpg
+job: Experience Design Lead at New Deal Design
+bio: TLDR&#58; Sub-par designer that’s worked on a lot of different things. RIT New Media Design 14' Alum. Eats a lot and enjoys drawing, 3D, and motion design.\n\nTimmy Chau is a multidisciplinary designer and creative based in San Francisco. He’s had experiences working with a variety of technologies like wearables, IOT, robotics, medicine, wellness, consumer toys, web, app, e-commerce, editorial media, and much more.\n\nHis work has been featured in Fast Company, Wall Street Journal, USA Today, Gizmodo and received awards from Adobe, Webbys, IDSA, and CES.\n\nHe graduated from RIT’s New Media Design program in 2014 and was previously an experience designer at a Fantasy.\n\nTimmy currently helps lead the Experience Design team at New Deal Design where they create human-centric experiences for physical and digital products. He’s worked with the team to create products like Play Impossible,a reinvention of the ball, and Dragonfly, an intelligent home system that replaces your lights. /n/n When he’s not working or eating, he enjoys illustration and experimenting in 3D and animation.
+webpage: http://www.monkeychau.com
+---

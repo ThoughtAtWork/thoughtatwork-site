@@ -1,0 +1,24 @@
+@import "../../media";
+
+:local(.hotelDiv) {
+    width: 27%;
+    margin-bottom: 72px;
+    display: inline-block !important;
+    margin-right: 6%;
+
+    
+    @include media ('<sm') {
+        width: 44%;
+        margin-right: 6%;
+    }
+    
+}
+
+:local(.hotelName) {
+    font-weight: 500;
+}
+
+:local(.hotelLink) {
+    font-weight: 500;
+    color: #466EB5;
+}

@@ -1,0 +1,100 @@
+@import "../../media";
+
+:local(.modal_container__inner) {
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 25;
+}
+
+:local(.modal_container__outer) {
+    border: 6px solid $purpleblack;
+    background: $color-background;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow-y: auto;
+    max-width: 450px;
+    width: 80%;
+    padding: 0 0 64px 0;
+    position: absolute;
+    top: 5vh;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 90vh;
+    max-height: 577px;
+
+    @include media ('<sm') {
+        width: 90%;
+        padding-bottom: 32px;
+    }
+}
+
+:local(.navContainer) {
+    height: 60px;
+    width: 100%;
+    background: #FFFFFF;
+    overflow: hidden;
+    top: 0;
+    z-index: 10;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+:local(.navContainer_content) {
+    margin: 9px 20px 0 0;
+    z-index: 25;
+}
+
+:local(.speakerInfo_h2__alteration) {
+    font-weight: 600;
+    line-height: 38px;
+    font-size: 28px;
+}
+
+:local(.modal_button__size) {
+    width: 208px;
+    height: 36px;
+}
+
+:local(.modal_button) {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 0px #000000;
+    border-radius: 8px;
+    transition: ease-in-out .1s;
+    background: #f2f2f2;
+    margin-top: 48px;
+
+    @include media ('<sm') {
+        margin-top: 32px
+    }
+}
+
+:local(.modal_button:focus) {
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0px 0px 0px #000000;
+    transform: translate(6px, 6px);
+}
+
+:local(.modal_button:hover) {
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: ease-in-out 0.25s;
+    box-shadow: 3px 3px 0px #000000;
+    transform: translate(3px, 3px);
+}
+
+:local(.innerModalContent__Margin) {
+  margin: 0 16%;
+  @include media ('<sm') {
+      margin: 0 10vw;
+  }
+}
