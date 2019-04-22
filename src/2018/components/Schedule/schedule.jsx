@@ -48,8 +48,6 @@ class Schedule extends React.Component {
     let location = this.props.location;
     let speakers = 'empty';
     if (this.props.speakers) {
-      console.log(this.props.speakers);
-      
       speakers = this.props.speakers.map(function (speakers) {
         return speakers['name'];
       }).join(', ');
