@@ -1,4 +1,6 @@
 # Redirects from what the browser requests to what we serve
-/Home              /
-/*/              /2018
+/Home             /
+/                 /2018
 /404              /2018
+/About            /2018
+/page-2            /2018
