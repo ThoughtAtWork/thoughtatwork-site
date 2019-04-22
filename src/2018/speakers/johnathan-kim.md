@@ -1,0 +1,7 @@
+---
+name: Jonathan Kim
+headshot: images/uploads/Jonathan_Kim.jpg
+job: Creative Director at Rare Volume
+bio: Jonathan Kim is a multi-disciplined Designer and Creative Director passionate about design and its application in various forms. Drawn to the arts at a young age, Jonathan started his career designing visual identities and performance graphics for dance companies in Los Angeles. He studied Digital Media—with an emphasis in Motion Design—at Otis College of Art and Design under the tutelage of instructors such as Chris Do and Jennifer Egger.\n\nThroughout his professional career, Jonathan has held leadership positions across a range of design industries—from boutique design studios to production houses to digital agencies. Doing so has allowed him to create award-winning work for some of the industry’s top brands and products such as, Nike, Samsung, Pepsi, Google, Twitter, Disney, and Hyundai.\n\nIn 2016, he co-founded Rare Volume, a design and technology company in NYC. With a focus in visual design and creative code, Rare Volume’s work reaches beyond traditional advertising, into territories such as interactive exhibit design, retail installations, and large-scale data visualization for brands and corporations.
+webpage: http://jonathankim.work
+---

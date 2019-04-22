@@ -1,0 +1,38 @@
+@import "../../media";
+
+:local(.overflowYHidden) {
+  overflow-y: hidden;
+}
+
+:local(.directionLink) {
+    font-weight: 500;
+}
+
+:local(.directionLink),
+:local(.directionText) {
+    margin-top: 48px;
+
+    @include media ('<sm') {
+        margin-top: 7vw;
+    }
+
+    @include media ('<480px') {
+        margin-top: 32px;
+    }
+}
+
+:local(.map) {
+    height: 761px;
+
+    @include media ('<1024px') {
+        height: 527px;
+    }
+
+    @include media ('<768px') {
+        height: 474px;
+    }
+
+    @include media ('<376px') {
+        height: 279px;
+    }
+}

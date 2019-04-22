@@ -1,0 +1,103 @@
+backend:
+  name: github
+  branch: master
+  repo: JacobDFrank/tawGatsby2-rearchitecture
+
+media_folder: static/images/uploads
+public_folder: /images/uploads
+logo_url: https://taw-org-staging.netlify.com/images/TAW-Brand-Logo19.svg
+
+
+collections:
+  - name: 'content'
+    label: 'Pages'
+    files:
+      - label: 'Home Page'
+        name: 'Home'
+        file: 'src/content/Home.md'
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: string}
+          - {label: subIntro, name: subIntro, widget: markdown}
+  - name: 'team'
+    label: 'Team'
+    identifier_field: 'name'
+    label_singular: 'Team Member'
+    folder: 'src/team'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Team Member', name: 'title', widget: 'string' }
+      - { label: 'Bio', name: 'bio', widget: 'markdown' }
+  - name: 'projects'
+    label: 'Projects'
+    identifier_field: 'name'
+    label_singular: 'Project'
+    folder: 'src/projects'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: 'File Name', name: 'URLpath', widget: 'string', pattern: ['^\/[/.a-zA-Z0-9-]+$', 'Must start with a forward slash and not contain special characters besides: /, .,  -']}
+      - { label: 'Project Title', name: 'title', widget: 'string' }
+      - { label: 'Publish project?', name: 'published', widget: 'boolean' }
+      - { label: 'Publish Date', hint: 'Projects will be listed in descending order based on date', name: 'date', widget: 'date', default: '2019-01-01', format: 'MMMM DD, YYYY'}
+      - { label: 'Project Description', name: 'description', widget: 'string', pattern: ['^.{1,85}$', 'Must have no more than 85 characters']}
+      - { label: 'Project Tags', name: 'tags', widget: 'string', pattern: ['^.{1,44}$', 'Must have no more than 44 characters']}
+      - { label: 'Time Period', hint: 'Ex: Summer 2017 or Annually, Completed Each Fall', name: 'timePeriod', widget: 'string', pattern: ['^.{1,32}$', 'Must have no more than 32 characters']}
+      - { label: 'Project Case Study', hint: 'Write about it, you can do it in markdown', name: 'body', widget: 'markdown'}
+  - name: 'team2018'
+    label: 'Team 2018'
+    identifier_field: 'name'
+    label_singular: 'Team Member'
+    folder: 'src/2018/team'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Team Member Name', name: 'name', widget: 'string' }
+      - {label: 'Headshot', name: 'headshot', widget: 'image'}
+      - { label: 'TAW Role/Team', name: 'role', widget: 'string', required: true, hint: 'What your role within TAW is or what you worked on. Ex: Signage, Badges, Graphics, Big @ Sign', pattern: ['^.{1,80}$', 'Must have no more than 80 characters']}
+      - { label: 'Major/Concentrations', name: 'major', widget: 'string', required: true, hint: 'Ex: Design/Mechanical Engineering or Industrial Design', pattern: ['^.{1,40}$', 'Must have no more than 40 characters']}
+      - { label: "Year", name: "year", widget: "select", required: true, options: ["Freshman", "Sophomore", "Junior", "Senior"] }
+      - { label: 'Website/Portfolio Link', name: 'webpage', widget: 'string', required: false, hint: 'Ex: https://laurenoneilldesign.com/ or http://localprojects.com'}
+      - { label: 'Lead', name: 'lead', widget: 'boolean', required: false, hint: 'Ex: If they are a lead they will be placed higher on the about page'}
+  - name: 'speakers2018'
+    label: 'Speakers 2018'
+    identifier_field: 'name'
+    label_singular: 'Speaker'
+    folder: 'src/2018/speakers'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Speaker Name', name: 'name', widget: 'string' }
+      - { label: 'Job Title', name: 'job', widget: 'string', pattern: ['^.{1,80}$', 'Must have no more than 80 characters']}
+      - { label: 'Website/Company Link', name: 'webpage', widget: 'string', required: false, hint: 'Ex: https://laurenoneilldesign.com/ or http://localprojects.com'}
+      - {label: 'Headshot', name: 'headshot', widget: 'image'}
+      - { label: 'Bio', name: 'bio', widget: 'string', pattern: ['^.{1,1600}$', 'Must have no more than 1,600 characters... This should not be hard']}
+      - label: 'Talks'
+        name: 'talks'
+        widget: 'list'
+        required: false
+        fields:
+          - {label: 'Talk(Team test)', name: 'talk', widget: 'relation', collection: 'team2018', searchFields: ['name'], valueField: 'name', displayFields: ['name', 'year']}
+  - name: 'schedule2018'
+    label: 'Schedule 2018'
+    identifier_field: 'name'
+    label_singular: 'Event'
+    folder: 'src/2018/schedule'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Event Name', name: 'name', widget: 'string', hint: 'Ex: Must have a unique name for each event. Naming as the same that exists will overwrite it.'}
+      - { label: "Day", name: "day", widget: "select", required: true, options: ["Friday", "Saturday", "Sunday"] }
+      - { label: 'Location', name: 'location', widget: 'string', pattern: ['^.{1,80}$', 'Must have no more than 80 characters']}
+      - { label: "Event Type", name: "type", widget: "select", required: true, options: ["General", "Workshop", "Keynote", "Lecture"] }
+      - { label: 'Start Time', name: 'start', widget: 'datetime', required: true, dateFormat: false, format: 'LT'}
+      - { label: 'End Time', name: 'end', widget: 'datetime', required: true, dateFormat: false, format: 'LT'}
+      - label: 'Speaker(s)'
+        name: 'speakers'
+        widget: 'list'
+        required: true
+        fields:
+          - {label: 'Speaker', name: 'speaker', widget: 'relation', required: false, collection: 'speakers2018', searchFields: ['name'], valueField: 'name', displayFields: ['name'], multiple: true, default: 'TAW Team', hint: 'Not picking a speaker will default to TAW Team'}
+          - { label: 'Speaker not in Lineup', name: 'other-speaker', widget: 'string', hint: 'Only to be used when speaker not in lineup. EX: Surprise Speaker Lineup', required: false, pattern: ['^.{1,40}$', 'Must have no more than 40 characters']}
+      - { label: 'Description', name: 'description', widget: 'string', pattern: ['^.{1,1200}$', 'Must have no more than 1200 characters']}

@@ -1,0 +1,20 @@
+@import "../../media";
+
+:local(.speakerSizing) {
+    padding-right: 0;
+    margin-bottom: 56px;
+
+    @include media ('<761px') {
+        padding: 0% 2%;
+    }
+}
+
+:local(.flexibleGrid) {
+    @include media ('>sm') {
+        justify-content: space-between;
+    }
+    @include media ('<557px') {
+    justify-content: space-between;
+    }
+    justify-content: space-around;
+}

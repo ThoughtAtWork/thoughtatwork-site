@@ -1,0 +1,38 @@
+@import "../../media";
+@import "actionButton.module.scss";
+
+:local(.inactive_actionButton) {
+    color: #C8C7C7 !important;
+    border: 3px solid #C8C7C7 !important;
+    width: 200px;
+    height: 32px;
+    left: calc(50% - 200px/2);
+    top: calc(50% - 32px/2 - 13.5px);
+    box-sizing: border-box;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+:local(.inactive_actionButton__text) {
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+:local(.actionButton) {
+    background: $color-background;
+    border: 4px solid $purpleblack;
+}
+:local(.actionButton__text) {
+    color: $purpleblack;
+    transition: all 0.2s ease-in-out;
+}
+:local(.actionButton):hover {
+    transition: all 0.1s ease-in-out;
+    background: $purpleblack;
+}
+:local(.actionButton__text):hover {
+    color: $color-background;
+}

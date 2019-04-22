@@ -1,0 +1,7 @@
+---
+name: Elvira (Elle) Barriga
+headshot: images/uploads/Elvira_Barriga.jpg
+job: Creative Director at Local Project
+bio: Elvira Barriga is a Creative Director at Local Projects, the exhibition and media design studio behind the 9/11 Memorial Museum, the Immersion Room at Cooper Hewitt, the London Mithraeum and many more. She spearheads projects at the intersection of design, architecture, storytelling and technology and leads the Department for Visual Experience Design. Elle is most passionate about shaping creative processes and mentoring talent while looking for powerful concepts that enrich our environments with meaning, beauty and surprise. Her recent projects include ARoS Public for the ARoS Art Museum in Denmark, the Fashion for Good Center in Amsterdam, The Legacy Museum&#58; From Enslavement to Mass Incarceration, and the forthcoming Hyde Park Barracks Museum in Sydney. She has worked internationally for major museums, leading educational institutions and global brands. Before coming to Local Projects, Elle was a Creative Director for Imprint Projects NYC and Bruce Mau Design in Toronto, an Art Director for Meiré und Meiré and a partner at blotto Design, both in Berlin. Presented by FITC.
+webpage: http://localprojects.com
+---

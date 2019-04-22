@@ -36,6 +36,7 @@
     "react"
   ],
   "globals": {
-    "React": true
+    "React": true,
+    "__PATH_PREFIX__": false
   }
 }

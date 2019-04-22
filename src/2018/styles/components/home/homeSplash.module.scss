@@ -1,0 +1,11 @@
+@import "../../media";
+
+:local(.splashSizing) {
+    max-width: 944px;
+}
+:local(.splashSpacing) {
+    margin: 0 auto;
+    @include media ('<768px') {
+        margin-bottom: 36px
+    }
+}
