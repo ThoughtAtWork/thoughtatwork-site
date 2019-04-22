@@ -1,0 +1,54 @@
+{
+	"keynoteSpeakers": [
+    {
+      "fields": "Graphic Design | UX Design",
+      "headshot": "../assets/graphics/speakers/andrew_herzogNoBG.png",
+      "firstName": "Andrew",
+      "lastName": "Herzog",
+      "position": "Partner",
+      "company": "HAWRAF",
+      "bio": "Andrew Herzog makes things people interact with. He is the co-founder and partner at HAWRAF and teaches Interaction Design at the School of Visual Arts. HAWRAF is a new design studio based in New York City. They use design to apply new ideas, technologies, and methodologies to their work with clients and self-initiated projects that result in interactive communication. Their work gives audiences and users a means to talk back and interact with brands, products, and experiences in a new way.  Before HAWRAF, Andrew worked at R/GA, Sagmeister & Walsh, and Google Creative Lab. Andrew believes awards are stupid - unless you run a studio and clients constantly ask you to validate yourself. He was recently named one of 2017’s New Visual Artists: 15 under 30 by Print magazine and is - at the time of writing this bio - a finalists for Young Guns 15.",
+      "socialMedia": [{
+        "media": "",
+        "url": "http://hawraf.com/"
+      }, {
+        "media": "",
+        "url": "http://andrewherzog.com/"
+      }],
+      "presentations": [{
+          "title": "Ideas Have to Start Somewhere",
+          "desc": "You might be eager to graduate and start getting paid for your design work but in this talk Andrew will show you that student work and independent projects can be just as rewarding. Learn about how Andrew’s college work and personal projects have found their way into his work at Google Creative Lab and HAWRAF and what that means for you."
+        },
+        {
+          "title": "Word Play",
+          "desc": "Led by HAWRAF partner Andrew Herzog, collaborate, conceptualize and learn in this abbreviated version of the A-Z project, a HAWRAF 26 hour design challenge in 2016. Students will work with three words randomly selected from the dictionary. They'll have 30 minutes per word to conceptualize and create a visual response of their own."
+        }
+      ]
+
+    },
+
+    {
+      "fields": "Motion Graphics",
+      "headshot": "../assets/graphics/speakers/gordon_reidNoBG.png",
+      "firstName": "Gordon",
+      "lastName": "Reid",
+      "position": "Founder & Creative Director",
+      "company": "Middle Boop",
+      "bio": "Middle Boop started its life right after Gordon Reid graduated from college in 2008 when he began creating artwork for the bands he was touring with. Since then, the studio has moved to North London and worked for agencies like Saatchi & Saatchi, McCann, Publicis, and Grey London. He’s built up a client list that includes the BBC, Toyota, HSBC, Visa, Computer Arts, Red Bull, 4AD, and Warp Records. /nHis work has been displayed worldwide at galleries in Los Angeles, New York City, London, and Berlin. He has spoken at conferences all over the world including OFFF Barcelona, FITC Amsterdam, Grafik’s Letterform Live series, D&AD, London Illustration Fair, and the London Design Festival at the V&A. He also lectures at universities across the UK, occasionally writes for the likes of Computer Arts and Design Week, and has sat on judging panels for D&AD, Cannes Young Lions, and Creative Circle.",
+      "socialMedia": [{
+        "media": "",
+        "url": "http://middleboop.com"
+      }],
+      "presentations": [{
+        "title": "Blag, Borrow, and Steal Your Career",
+        "desc": "Through amusing anecdotes like making illustrations and tutorials on ancient PCs to how Gordon Reid talked his way into becoming lead designer and art director for all of the Visa’s Rio Olympics advertising, Gordon examines how perceiving yourself in the right way can be an asset in your career, and how to find hidden opportunities in failure. Gordon will talk about how hard work, perseverance, and saying yes more than no can get you where you want to be. Heckling is encouraged."
+      },
+      {
+        "title": "Shoot the Shit w/ Middleboop",
+        "desc": "Tweet at Middleboop @middleboop with the hashtag #middlebooptaw with questions and come to this lecture to hear them answered personally!"
+      }
+    ]
+
+    }
+  ]
+}

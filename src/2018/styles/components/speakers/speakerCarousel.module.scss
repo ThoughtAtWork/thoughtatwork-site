@@ -1,0 +1,40 @@
+@import "../../media";
+
+:local(.speaker_lineup__Carousel) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    &:hover {
+      Cursor : ew-resize
+    }
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    @include media ('>944px') {
+        padding-left: calc((100vw - 864px)/2);
+    }
+}
+
+:local(.button_Spacing) {
+    margin-top: 44px;
+    @include media ('>944px') {
+        margin-top: 56px;
+    }
+}
+
+:local(.speakerCard) {
+    min-width: 216px;
+    width: 21.5vw;
+
+    @include media ('>sm') {
+        max-width: 274px;
+    }
+}
+
+:local(.speaker_lineup__padding) {
+    margin-right: 40px;
+
+    @include media ('>sm') {
+        margin-right: 48px;
+    }
+}

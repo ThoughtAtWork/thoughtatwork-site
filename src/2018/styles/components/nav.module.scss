@@ -1,0 +1,132 @@
+@import "../media";
+
+:local(.navContainer) {
+    height: 88px;
+    width: 100%;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0 3px $purpleblack;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 0;
+    z-index: 10;
+}
+
+:local(.logo) {
+    margin-right: auto;
+    width: 38px;
+    @include media ('<881px') {
+        margin-left: 0px;
+        width: 36px;
+    }
+}
+
+:local(.navElement) {
+    display: block;
+}
+
+:local(.clouds) {
+    position: fixed;
+    background: none;
+    margin-top: 7vh;
+    pointer-events: none;
+}
+
+:local(.link) {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    color: $purpleblack;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 18px;
+    margin-left: 48px;
+
+    @include media ('<881px') {
+        font-size: 24px;
+        margin-left: 0px;
+        margin-bottom: 45px;
+    }
+}
+:local(.link:hover) {
+  color: $red;
+}
+
+:local(.desktopRegisterButton) {
+    // width: 143px;
+    padding: 0 28px;
+    height: 40px;
+    background: $purpleblack;
+    border-radius: 32px;
+    margin-left: 56px;
+    border: none;
+    cursor: pointer;
+}
+
+:local(.mobileRegisterButton) {
+    width: auto;
+    height: 38px;
+    background: $purpleblack;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    @include media ('<881px') {
+        width: 147px;
+        height: 36px;
+    }
+}
+
+:local(.mobileNav_Open) {
+    height: 100%;
+    margin-top: -58px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    overflow: hidden;
+    padding-bottom: 11px;
+    justify-content: center;
+}
+
+:local(.mobileNav_Closed) {
+    display: none;
+}
+
+:local(.mobileNav_Open_Container) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background: white;
+}
+
+:local(.registerButtonText) {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 32px;
+    text-decoration: none;
+    $min_width: $xs;
+    $max_width: $md;
+    $min_font: 18px;
+    $max_font: 16px;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+
+    @include media ('<881px') {
+        font-size: 18px;
+    }
+}
+
+:local(.navElements) {
+    max-width: 944px;
+    margin: 0 auto;
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+:local(.menu) {
+    padding: 0;
+}

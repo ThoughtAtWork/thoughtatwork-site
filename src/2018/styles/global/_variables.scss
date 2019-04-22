@@ -1,0 +1,25 @@
+// New colors
+$teal: #46CCCF;
+$light-blue:#BCD4FF;
+$light-yellow:#F9F4D8;
+$light-red:#F59698;
+$purpleblack:#281E35;
+$black:#000000;
+$blue:#2071FF;
+$yellow:#F2C227;
+$red:#FF2350;
+$color-background: #FFF;
+$grey: #C8C7C7;
+$light-grey: #F4F4F4;
+$dark-grey: #717171;
+
+/* Drop Shadows*/
+@mixin text--drop-shadow {
+	text-shadow: 0 0 10px rgba(0, 0, 0, .15);
+}
+@mixin card--drop-shadow {
+	box-shadow: 0 0 20px 0 rgba(79, 170, 177, .15);
+}
+@mixin register--drop-shadow {
+	box-shadow: 0 0 10px 0 rgba(79, 170, 177, .74);
+}

@@ -1,0 +1,7 @@
+---
+name: Chelsea Klukas
+headshot: images/uploads/Chelsea_Klukas.jpg
+job: Product Design Manager at Facebook
+webpage: http://www.chelscore.com
+bio: Chelsea is a product design manager at Facebook and an interdisciplinary technology-focused artist. In addition to building great products, she is passionate about building design culture in data-driven environments and driving processes to innovate at scale. Klukas is also the co-founder of MakeFashion, a wearable technology startup that brings high tech and high fashion to the runway. MakeFashion has created over 100 wearable tech garments and has produced runway shows across the world including New York, Shenzhen, and Rome. Her “Lumen Couture” projector hat, a hat that includes real-time projection mapping and visual inputs to display video on a dress, has gained international attention as the first of its kind. Prior to Facebook, Klukas was a UX design manager at Amazon focused on social consumer products including Amazon Spark and Echo Look. Before Amazon she was the creative director of BeauCoo, a social shopping startup that helped women find clothes that fit, and design lead at Poynt, a cross-platform location-based app with 20M users that pioneered augmented reality features in the early days of iOS. Presented by FITC.
+---

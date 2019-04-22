@@ -1,0 +1,472 @@
+{
+  "speakers": [
+    {
+      "firstName": "Chelsea ",
+      "lastName": "Klukas",
+      "job": "Product Design Manager at Facebook",
+      "bio": "Chelsea is a product design manager at Facebook and an interdisciplinary technology-focused artist. In addition to building great products, she is passionate about building design culture in data-driven environments and driving processes to innovate at scale. Klukas is also the co-founder of MakeFashion, a wearable technology startup that brings high tech and high fashion to the runway. MakeFashion has created over 100 wearable tech garments and has produced runway shows across the world including New York, Shenzhen, and Rome. Her “Lumen Couture” projector hat, a hat that includes real-time projection mapping and visual inputs to display video on a dress, has gained international attention as the first of its kind. Prior to Facebook, Klukas was a UX design manager at Amazon focused on social consumer products including Amazon Spark and Echo Look. Before Amazon she was the creative director of BeauCoo, a social shopping startup that helped women find clothes that fit, and design lead at Poynt, a cross-platform location-based app with 20M users that pioneered augmented reality features in the early days of iOS. Presented by FITC.",
+      "fields": [
+        "Product Design",
+        "Fashion Technology"
+      ],
+      "Industry": "Product Design + Fashion Technology",
+      "links": "http://www.chelscore.com",
+      "presentationTitles": [
+        "\"The Future of Design Careers\""
+      ],
+      "headshot": "chelsea_klukas",
+      "presentationTitleDesc": [
+        {}
+      ]
+    },
+    {
+      "firstName": "Krys",
+      "lastName": "Blackwood",
+      "job": "Senior Lead User Experience Designer at NASA's Jet Propulsion Laboratory",
+      "bio": "Krys has been designing interfaces for 23 years. Most of her career was spent in the Silicon Valley, designing e-commerce experiences for companies ranging from startups to Fortune 500 corporations. She is both a researcher and a designer and specializes in helping companies adopt a user centered approach. She’s now designing the future of mission operations with the Human Centered Design team for NASA’s Jet Propulsion Laboratory in Pasadena, CA. Krys fights for the user. Presented by FITC.",
+      "fields": [
+        ""
+      ],
+      "Industry": "",
+      "links": "http://jpl.nasa.gov",
+      "presentationTitles": [
+        "\"Dreaming of Mars: How User Experience Factors Into NASA Missions\""
+      ],
+      "headshot": "krys_blackwood",
+      "presentationTitleDesc": [
+        {
+          "title": "Dreaming of Mars: How User Experience Factors Into NASA Missions",
+          "desc": "NASA’s rovers on Mars brought us the first proof of water on our neighboring planet. Voyager, Juno and Cassini spacecraft have captured stunning images and with them, the hearts and imaginations of the world.  Learn the soup to nuts of how missions like these become a reality, and how NASA’s Jet Propulsion Laboratory is using design thinking to improve its mission design practices.  You’ll hear firsthand stories of how user experience design fits into an 80 year old process, and how it’s changing the ways that NASA approaches unmanned exploration of the solar system and beyond."
+        }
+      ]
+    },
+    {
+      "firstName": "Nicholas",
+      "lastName": "Baker",
+      "job": "Industrial Design Consultant",
+      "bio": "Nicholas Baker is a designer and maker currently residing in Brooklyn, New York. Born and raised in North Carolina, Nicholas started making at a young age in his grandfather's woodshop. After discovering his passion for art and engineering, Nicholas went on to study industrial design at the Savannah College of Art and Design. He interned with a wide range of companies including Boy Scouts of America, Enventys, and HunterGatherer while in school. After graduating in 2015 with a BFA in industrial design, Nicholas moved to Fort Worth, Texas to design full-time for Petmate Pet Products. Nicholas designed 80+ products for Petmate ranging from rubber toys to soft goods to litter boxes. He left Petmate in 2017 to pursue new opportunities in New York City. Nicholas launched a design brand, almost object, in 2017. After freelancing part-time for many years, Nicholas started a full-time industrial design studio in Greenpoint, Brooklyn. In his free time, he enjoys experimenting in virtual reality, instagramming, and podcasting.",
+      "fields": [
+        "Industrial Design",
+        "Education"
+      ],
+      "Industry": "ID",
+      "links": "http://nicholas-baker.com",
+      "presentationTitles": [
+        "\"Product Timecapsule Archive Study Collection\""
+      ],
+      "headshot": "nick_baker",
+      "presentationTitleDesc": [
+        {
+          "title": "Product Timecapsule Archive Study Collection",
+          "desc": "This session will introduce attendees to the artifacts of process associated with this special collection that is being developed at RIT. Participants will hear from Professor and Chair of Industrial Design at RIT, Josh Owen, ID Grad Student David Villarreal and ID Junior Kaitlyn Gilmor about how this collection is used by students, faculty, researchers in the field."
+        }
+      ]
+    },
+    {
+      "firstName": "Liz",
+      "lastName": "Wells",
+      "job": "User Experience Designer at Stink Studios",
+      "bio": "Liz Wells is a user experience designer based in Brooklyn, New York. Her work combines a background in graphic design with technology and user-centered design thinking. Liz currently works at Stink Studios, where she is responsible for all phases of the UX process, from concepting and information architecture to wireframing and prototyping. Liz advises visual designers and developers throughout the lifecycle of a project to help them meet Stink’s high standards for usability and design. While at Stink Studios, Liz has created products and experiences for a wide range of brands in music, automotive, technology, fashion, media, and nonprofit. Her work has been recognized by The One Show, The Webbys, Awwwards, FWA, Communication Arts, Cannes Lions and D&AD, and featured in The Next Web, The Verge, The New York Times, Quartz, BuzzFeed, Adweek, and Artsy to name a few. Her work on for the Equal Justice Initiative was showcased in an exhibit at the Brooklyn Museum during the summer of 2017 entitled The Legacy of Lynching: Confronting Racial Terror in America, and is currently on display at The Legacy Museum in Montgomery, Alabama. Liz received her BFA in Graphic Design from the Rochester Institute of Technology in 2015. Her foundation in design thinking informs her work as a UX designer. She has guest lectured at SVA and taught a workshop at RIT. In 2017, Liz was a finalist for Young Guns 15 by the The One Club for Creativity/ADC. She has a passion for raising the voices of women and non-binary people, which is why she co-founded Desk Lunch, a newsletter for people in the minority to share personal stories of what it's like to work in the creative industry. She publishes a new issue of Desk Lunch weekly.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Digital Design",
+      "links": "http://www.lizvwells.com/",
+      "presentationTitles": [
+        "Wireframe Sketching Workshop",
+        "Getting Uncomfortable"
+      ],
+      "headshot": "liz_wells",
+      "presentationTitleDesc": [
+        {
+          "title": "Wireframe Sketching Workshop",
+          "desc": "This workshop will teach students from all backgrounds and experience levels, how to take a step back from the screen and sketch digital experiences. I’ll teach students the process I go through from user flows, experience maps and wireframes. Students will be able to use the tools I use on a daily basis and help them grow their user experience thinking and skill set!   "
+        }
+      ]
+    },
+    {
+      "firstName": "Jonathan ",
+      "lastName": "Kim",
+      "job": "Creative Director at Rare Volume",
+      "bio": "Jonathan Kim is a multi-disciplined Designer and Creative Director passionate about design and its application in various forms. Drawn to the arts at a young age, Jonathan started his career designing visual identities and performance graphics for dance companies in Los Angeles. He studied Digital Media—with an emphasis in Motion Design—at Otis College of Art and Design under the tutelage of instructors such as Chris Do and Jennifer Egger.\n\nThroughout his professional career, Jonathan has held leadership positions across a range of design industries—from boutique design studios to production houses to digital agencies. Doing so has allowed him to create award-winning work for some of the industry’s top brands and products such as, Nike, Samsung, Pepsi, Google, Twitter, Disney, and Hyundai.\n\nIn 2016, he co-founded Rare Volume, a design and technology company in NYC. With a focus in visual design and creative code, Rare Volume’s work reaches beyond traditional advertising, into territories such as interactive exhibit design, retail installations, and large-scale data visualization for brands and corporations.",
+      "fields": [
+        "Motion Graphic Design",
+        "Creative Direction"
+      ],
+      "Industry": "Digital + Motion Graphics",
+      "links": "http://jonathankim.work",
+      "presentationTitles": [
+        "\"Digital Design for the Physical Space\""
+      ],
+      "headshot": "jonathan_kim",
+      "presentationTitleDesc": [
+        {
+          "title": "Digital Design for the Physical Space",
+          "desc": "Design as a discipline has been on an amazing journey, beginning with objects, growing to include graphics and print, and more recently moving into motion and interaction. However as the industry has matured and the tools have become more homogeneous, designers are growing restless, looking for what's next. Thankfully, there's a growing appetite for designers' skills in industries previously unable to benefit from their abilities. Tools like Cinder and Processing are paving the way for partnerships between designers and technologists that will fundamentally change not just the content of our screens but also physical environments like museums and retail."
+        }
+      ]
+    },
+    {
+      "firstName": "Elvira (Elle)",
+      "lastName": "Barriga",
+      "job": "Creative Director at Local Project",
+      "bio": "Elvira Barriga is a Creative Director at Local Projects, the exhibition and media design studio behind the 9/11 Memorial Museum, the Immersion Room at Cooper Hewitt, the London Mithraeum and many more. She spearheads projects at the intersection of design, architecture, storytelling and technology and leads the Department for Visual Experience Design. Elle is most passionate about shaping creative processes and mentoring talent while looking for powerful concepts that enrich our environments with meaning, beauty and surprise. Her recent projects include ARoS Public for the ARoS Art Museum in Denmark, the Fashion for Good Center in Amsterdam, The Legacy Museum: From Enslavement to Mass Incarceration, and the forthcoming Hyde Park Barracks Museum in Sydney. She has worked internationally for major museums, leading educational institutions and global brands. Before coming to Local Projects, Elle was a Creative Director for Imprint Projects NYC and Bruce Mau Design in Toronto, an Art Director for Meiré und Meiré and a partner at blotto Design, both in Berlin. Presented by FITC.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Exhibition Design, Interactive Media Installations,",
+      "links": "http://localprojects.com",
+      "presentationTitles": [
+        "\"The Creative Leadership Inquiry\""
+      ],
+      "headshot": "elvira_barriga",
+      "presentationTitleDesc": [
+        {}
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Frye",
+      "job": "Industrial Designer at Honda R&D; Concept Design Academy",
+      "bio": "Raised in Bend, Oregon, John had an early affinity for mobile machinery. Army vehicles, tanks, scenes of car races were early drawing themes. Movies like Battle of Britain, The Great Waldo Pepper, and Star Wars formed lasting influences, the latter forging a link to a future career in industrial design. With a Bachelor of Science degree (with honors) from Art Center, vehicle design work for a variety of clients such as Boeing, Hasbro, John Deere and Activision led to a career at Honda R&D where John is Principal Designer, digital modeling group leader. In his spare creative time, he is obsessively putting ink to paper and churning out concepts, collecting vinyl records, and enjoying the best ramen, Sichuan food, and craft beer that he can track down.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Industrial design- automotive, product, toy, concept design. Vehicle specialist.",
+      "links": "www.fryewerk.com",
+      "presentationTitles": [
+        "\"Heavy duty vehicle design for any realities.\""
+      ],
+      "headshot": "john_frye",
+      "presentationTitleDesc": [
+        {
+          "title": "Heavy duty vehicle design for any realities.",
+          "desc": "Industrial design is art with a purpose and one or many customers. Creating an engaging, memorable design is a mad feat of juggling multiple customer needs, aesthetic considerations, and injecting newness. Sitting down with a blank piece of paper can be paralyzing without a good process. With more than 20 years of design experience, John A. Frye reveals some of the simple methods and tools he uses regularly to tackle new design projects with ease. "
+        }
+      ]
+    },
+    {
+      "firstName": "Jessie",
+      "lastName": "Smith",
+      "job": "Product Designer at Adobe",
+      "bio": "Jessie Smith is a UX designer, lettering artist and illustrator working in New York City. After graduating with a degree in New Media Design from RIT in 2016, Jessie moved to Brooklyn and started working as a designer on Creative Cloud apps and web flows at Adobe. In the fall of 2016, Jessie started Tangible Design Shop with her husband, Doug, in an effort to keep creating outside of her UX work at Adobe. Her work is focused on branding, as well as her own personal lettering projects, which she sells on Etsy. Last year, Jessie started teaching lettering workshops in the New York City area. Outside of work, she leads a community group with her church, loves to walk around her neighborhood and occasionally escapes the hustle of New York City to go hiking on the weekends.\n",
+      "fields": [
+        "Product Design",
+        "UX"
+      ],
+      "Industry": "Product Design",
+      "links": "https://jessieschnall.myportfolio.com/projects",
+      "presentationTitles": [
+        "\"Recharge your Creative Battery\""
+      ],
+      "headshot": "jessie_smith",
+      "presentationTitleDesc": [
+        {
+          "title": "Recharge your Creative Battery",
+          "desc": "Jessie will share about her experience working at Adobe, and how she balances her full-time job with her passion projects. She'll also dive into her design process, and share some tips for hand lettering."
+        }
+      ]
+    },
+    {
+      "firstName": "Lauren",
+      "lastName": "O'Neill",
+      "job": "Art Director/Designer for Fashion, Editorial, and Lifestyle Brands",
+      "bio": "Lauren O’Neill is an art director + multidisciplinary designer based in Brooklyn, New York. Her work often explores the intersection of content and experience through design. She wholeheartedly believe good design starts with strong relationships.\n\nFrom art direction and experiential design to brand strategy and product development, Lauren has worked with small businesses as well as large companies including Kate Spade, Madewell, Martha Stewart Weddings, Color Factory, Domino, Roman & Williams GUILD, Bloomingdale’s, and other lifestyle, retail, restaurant, and product brands. She’s also worked alongside amazing Studiomates, co-created projects such as Nearly Impossible and Studio/Practice, dreamt up more side projects than she cares to admit, and taught graphic design to undergrads at VCUarts.\n\nIn her downtime, she enjoys scouting lovely shops and restaurants, working on a handful of [real] side projects, entertaining with family and friends, and advocating for a number of causes close to her heart.",
+      "fields": [
+        "Art Direction",
+        "Branding"
+      ],
+      "Industry": "Design + Art Direction",
+      "links": "https://laurenoneilldesign.com/",
+      "presentationTitles": [
+        "\"Making Your Dream Job a Reality\""
+      ],
+      "headshot": "lauren_o_neil",
+      "presentationTitleDesc": [
+        {
+          "title": "Making Your Dream Job a Reality",
+          "desc": "Through her personal and professional experiences, Lauren will explain how to make your dream job a reality—looking beyond a title, what does your dream job actually entail, what is your definition of success, and does it align with your bigger ambitions? The talk will provide insights and strategies used for connecting with top brands and creatives, plus principles to help position yourself for future growth and job happiness."
+        }
+      ]
+    },
+    {
+      "firstName": "Arnaud",
+      "lastName": "Tanielian",
+      "job": "Technical Director at Stink Studios",
+      "bio": "Arnaud Tanielian is an award-winning Technical Director from Marseille, France, currently based in Brooklyn, New York. With a strong commitment to standards and accessibility, Arnaud strives to achieve excellent craft, with a specific attention to details and motion. He currently works at Stink Studios, where has created products and experiences for a wide range of brands in music, automotive, technology, food & beverage, media, and nonprofit, including Google, Spotify, Subaru, Chevrolet, Chobani, the Washington Post and more recently the Center, heart and home of NYC's LGBTQ community.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Digital Advertising in studios",
+      "links": "http://cargocollective.com/danetag",
+      "presentationTitles": [
+        "\"You’re a designer. I’m a developer. Don’t be afraid.\""
+      ],
+      "headshot": "arnaud_tanielian",
+      "presentationTitleDesc": [
+        {}
+      ]
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Herrick",
+      "job": "Service Designer for NYC Mayor's Office for Economic Opportunity",
+      "bio": "Emily is a design strategist with a practice grounded in curiosity and context. She has designed policy solutions for criminal justice reform, supported international open government initiatives through co-design, and collaborated with municipalities to design human-centered approaches to open data. Prior to joining the team at the Civic Service Design Studio, she worked as a service designer for the research and design consulting firm, Reboot, where she dabbled between the lines of communications design and service delivery. A Midwestern transplant, Emily graduated from Illinois State University with dual BAs in Graphic Design and Arts Technology and holds an MFA in Design for Social Innovation from the School of Visual Arts. Outside the office, you can find her wandering around Prospect Park or scouring the city for NYC’s best slice.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Service Design, Ux Design, Civic Design",
+      "links": "http://civicservicedesign.com",
+      "presentationTitles": [
+        "\"People + Processes: Designing Intangible Thing\""
+      ],
+      "headshot": "emily_herrick",
+      "presentationTitleDesc": [
+        {
+          "title": "People + Processes: Designing Intangible Thing",
+          "desc": "Design school is a great place to learn about how to design tangible things: logos, posters, digital products, app interfaces, videos, and service concepts. But what about designing the intangible? Grasping the intangible often requires embracing an attitude that enables you to navigate through the fog of messy systems and politics so that you can design clear and meaningful solutions. In this talk, I will share my experience applying design to social problems and unpack how I have used the methods I learned in design school to create processes that drive collaboration, creative problem-solving, and organizational learning within large institutions. We’ll look at things like how design-informed approaches can help individuals experiencing homelessness access services, improve the quality of care within the child welfare system, and rethink how we support people in the criminal justice system."
+        }
+      ]
+    },
+    {
+      "firstName": "Meg",
+      "lastName": "Lewis",
+      "job": "Designer/Educator at Ghostly Ferns, Full Time You, Fool Proof",
+      "bio": "Meg empowers individuals to discover their unique selves through books, video series, workshops, and talks titled \"Full Time You.\" She also coaches, creates friendly experiences, and teaches workshops for happy companies. Meg founded Ghostly Ferns, an international collective of designers and commercial artists. In Minnesota, she co-founded Fool Proof, a shared workspace for creativity and collaboration.",
+      "fields": [
+        "Graphic Design",
+        "Branding"
+      ],
+      "Industry": "Brand + Graphic Design",
+      "links": "http://darngood.co",
+      "presentationTitles": [
+        "\"On My Own\""
+      ],
+      "headshot": "meg_lewis",
+      "presentationTitleDesc": [
+        {
+          "title": "On My Own",
+          "desc": "As students and adults we’re taught to rely on others for opportunities, promotions, and career success but what if there was a way to have everything we want all on our own? Join me, designer, educator, and entrepreneur Meg Lewis as I discuss how I created a totally self-sustainable, successful career by myself and how you can too!"
+        }
+      ]
+    },
+    {
+      "firstName": "Timmy",
+      "lastName": "Chau",
+      "job": "Experience Design Lead at New Deal Design",
+      "bio": "TLDR: Sub-par designer that’s worked on a lot of different things. RIT New Media Design 14' Alum. Eats a lot and enjoys drawing, 3D, and motion design.\n\nTimmy Chau is a multidisciplinary designer and creative based in San Francisco. He’s had experiences working with a variety of technologies like wearables, IOT, robotics, medicine, wellness, consumer toys, web, app, e-commerce, editorial media, and much more.\n\nHis work has been featured in Fast Company, Wall Street Journal, USA Today, Gizmodo and received awards from Adobe, Webbys, IDSA, and CES.\n\nHe graduated from RIT’s New Media Design program in 2014 and was previously an experience designer at a Fantasy.\n\nTimmy currently helps lead the Experience Design team at New Deal Design where they create human-centric experiences for physical and digital products. He’s worked with the team to create products like Play Impossible, a reinvention of the ball, and Dragonfly, an intelligent home system that replaces your lights.\n\nWhen he’s not working or eating, he enjoys illustration and experimenting in 3D and animation.",
+      "fields": [
+        ""
+      ],
+      "Industry": "",
+      "links": "http://www.monkeychau.com",
+      "presentationTitles": [
+        "\"\""
+      ],
+      "headshot": "timmy_chau",
+      "presentationTitleDesc": [
+        {}
+      ]
+    },
+    {
+      "firstName": "Ben",
+      "lastName": "Sorensen",
+      "job": "Product Designer at DoorDash",
+      "bio": "Graduated from RIT New Media Design in ‘14. Was previously at Odopod for 3 years as an interaction designer specializing in motion, prototyping and concept design. Now at DoorDash as a product designer working on consumer products.",
+      "fields": [
+        "\"Product Design\""
+      ],
+      "Industry": "",
+      "links": "https://www.bendesign.in/",
+      "presentationTitles": [
+        "\"\""
+      ],
+      "headshot": "ben_sorensen",
+      "presentationTitleDesc": [
+        {
+          "title": "Ben Here, Done That.",
+          "desc": "What should you know about working in the real world? What's the difference between product design at an agency and product design at a startup?How do you get an apartment in San Francisco? What's work life balance? Join me to hear about my journey from new media design to agency life, and now to product design. I'll break some of the misconceptions and personal lessons learned to hopefully reduce the anxiety of transitioning to the real world."
+        }
+      ]
+    },
+    {
+      "firstName": "Guillermo ",
+      "lastName": "Fok",
+      "job": "Project Designer at Tait",
+      "bio": "Guillermo worked in the manufacturing industry as an industrial engineer before making a shift into industrial design, a field he had always had a great interest interested in. After attending grad school at RIT as a Fulbright scholar, Guillermo moved to LA to work as an Imagineer at the Walt Disney Company, creating practical special effects and illusions for theme park attractions. Always being interested in product and environmental design, Guillermo continued his professional path as a Project Designer at TAIT, where he collaborates, develops and designs custom stages, set pieces and automation elements for clients like P!nk, Taylor Swift, Lady Gaga, and Cirque Du Soleil.",
+      "fields": [
+        ""
+      ],
+      "Industry": "",
+      "links": "http://www.guillermofok.com",
+      "presentationTitles": [
+        "\"Industrial Design in Entertainment\""
+      ],
+      "headshot": "guillermo_fok",
+      "presentationTitleDesc": [
+        {}
+      ]
+    },
+    {
+      "firstName": "Jen",
+      "lastName": "Byyny",
+      "job": "Senior Director of Product Experience Design at Welltok, Inc.",
+      "bio": "Jen Byyny is an end-to-end Product/UX/Visual Design Director with over fourteen years of experience. Her background includes degrees in Business Marketing and Media Design, roles in design management, art direction in advertising and interactive experiences for web and mobile. Jen is a system thinker and loves to ask, \"What if we tried...?\" She gets excited about leading teams, brainstorming new ideas to create strategically aligned business experiences with designers, researchers, engineers and product partners.",
+      "fields": [
+        ""
+      ],
+      "Industry": "product design + UX",
+      "links": "http://jenbyyny.com/",
+      "presentationTitles": [
+        "\"The Post Grad Talk - Where to go after college\""
+      ],
+      "headshot": "jen_byyny",
+      "presentationTitleDesc": [
+        {
+          "title": "The Post Grad Talk - Where to go after college",
+          "desc": "As you finish your final projects and your time in your studies draws to a close, what will you do next? Start-up? Agency/Consultancy? Work for yourself? Join a product company, and if so what size? 150, 400, 12,000 people? Work on-site? Or work from home?"
+        }
+      ]
+    },
+    {
+      "firstName": "Sean",
+      "lastName": "Wolcott",
+      "job": "Creative Director & Founder for Rationale",
+      "bio": "Sean Wolcott is a Seattle-based graphic designer. Having created design experiences for millions, Sean runs his own design studio, Rationale, where he designs identities, packaging, signage, publications, websites, and user interfaces for a wide range of clients.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Graphics, apps, websites, books, posters, etc.",
+      "links": "http://rationale-design.com",
+      "presentationTitles": [
+        ""
+      ],
+      "headshot": "sean_wolcott",
+      "presentationTitleDesc": [
+        {
+          "title": "Basics for better design",
+          "desc": "This talk will focus on the process and benefits of how to use constraints to be more creative, clever, and clear as designers in practical ways you can apply daily."
+        }
+      ]
+    },
+    {
+      "firstName": "Meghan",
+      "lastName": "Preiss",
+      "job": "Design Research and Strategist at RKS Design",
+      "bio": "As a Design Researcher and Synthesizer at the global design consultancy RKS, Meghan Preiss works with clients to uncover user needs and identify ways to empower stakeholders. She is mesmerized by design processes and loves to develop strategies that create solutions for our world’s problems. Before RKS, Meghan attended SCAD and completed degrees focused in both industrial and service design. During that time, she led team projects with clients like BMW and Hewlett-Packard. While a student, she was very active in nurturing her community by serving as President, Vice-President, and Chair of the Service Design Club, the SCAD IDSA Chapter, and National Student Section at IDSA. Since moving to the west coast, Meghan became Chair of the Los Angeles IDSA Chapter and is actively growing the organization’s regional influence. Over the years, Meghan’s secret for personal growth has been attending numerous SHiFT events. She admits that the immersive SHiFT Camps are where she discovered her voice and began to craft her leadership style and confidence. Recently, she began to volunteer as staff for SHiFT and travel the world to support and assist the organization in training the next generation of creative leaders. Meghan has chosen to be connected and active in meaningful organizations around the world, because she believes that Design is community and it’s the best way to create change.",
+      "fields": [
+        "Industrial Design",
+        "Research"
+      ],
+      "Industry": "Service Design and Research design",
+      "links": "https://www.rksdesign.com/",
+      "presentationTitles": [
+        "\"Design for the Senses\""
+      ],
+      "headshot": "meghan_preiss",
+      "presentationTitleDesc": [
+        {}
+      ]
+    },
+    {
+      "firstName": "Jeff ",
+      "lastName": "Smith",
+      "job": "Education Manager at Autodesk",
+      "bio": "Jeff Smith is a passionate industrial designer with nearly 20 years in the industry and a true TAW veteran, returning for the 4th time. He is currently the Education Program Manager at Autodesk. A diverse range of clients gives him the opportunity to work on a cross section of consumer products and markets. A strong supporter of design education, Smith was also an adjunct faculty member at the Art Institute of Ft. Lauderdale for eight years. Currently, he hosts workshops and events at ID programs around the US, such as Virginia Tech, RIT and Georgia Tech. He continues to be an inspiration and friend to the young design world.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Product Design and Computer Aided Design",
+      "links": "",
+      "presentationTitles": [
+        "\"\""
+      ],
+      "headshot": "jeff_smith",
+      "presentationTitleDesc": [
+        {}
+      ]
+    },
+    {
+      "firstName": "Miguel A",
+      "lastName": "Cardona Jr.",
+      "job": "Designer, Illustrator and Assistant Professor of New Media Design",
+      "bio": "Miguel is a designer, illustrator, and creative coder. After studying both new media design and industrial design at RIT, he now specializes in designing and developing interactive projects for companies like Kodak, Nick.com, Xerox and McNeil Nutritionals. He currently teaches in the New Media Design program at RIT. In the past, he's helped to build imgix.com as the Lead Designer and co-founded Dumbwaiter design, a Rochester based interactive agency.\n",
+      "fields": [
+        "UI/UX",
+        "Marketing",
+        "Illustration"
+      ],
+      "Industry": "",
+      "links": "http://miggi.me/",
+      "presentationTitles": [
+        "\"Once you start mimicking, you stop looking\""
+      ],
+      "headshot": "miguel_cardona",
+      "presentationTitleDesc": [
+        {
+          "title": "Once you start mimicking, you stop looking",
+          "desc": "Massimo Vignelli learned early in his career that a designer should be able to design everything, coining the term ‘Design is One.’ This presentation will focus on the bridges that exist between graphic, industrial, web, and user experience design with a focus on producing artifacts and communication when developing and disseminating work across different platforms and media."
+        }
+      ]
+    },
+    {
+      "firstName": "Amelia",
+      "lastName": "Fontanel",
+      "job": "Associate Curator of the Cary Collection",
+      "bio": "Amelia Hugill-Fontanel is associate curator at the Cary Graphic Arts Collection at Rochester Institute of Technology — a renowned library on printing history. She is an art historian and editor who contributes numerous publications about Cary Collection holdings, including those about graphic design, calligraphy, wood type, and typefounding. As manager of the Cary technology collection, she is responsible for teaching and maintaining some 20 different presses and several hundred fonts of metal and wood type. She has lectured for the American Printing History Association, College Art Association, the Hamilton Wood Type & Printing Museum, TypeCon, The Typophiles, the U.S. Government Publishing Office, and Yale University.",
+      "fields": [
+        ""
+      ],
+      "Industry": "Typography, graphic design, printing history",
+      "links": "http://cary.rit.edu",
+      "presentationTitles": [
+        "\"Your Typographic Librarian\""
+      ],
+      "headshot": "amelia_fontanel",
+      "presentationTitleDesc": [
+        {
+          "title": "Your Typographic Librarian",
+          "desc": "Archives and libraries contain infinite resources for twenty-first century typographic inspiration. Obscure matrices, colonial papers, scrawling personal letters, and rare films from the RIT Cary Graphic Arts Collection have all recently stimulated creative endeavors by our most enthusiastic patrons—type designers, educators, and designers like you! Join me, “your typographic librarian,” as I describe some great projects where history, technology, and design intersect—perhaps encouraging you to get to know your campus rare book library scientist."
+        }
+      ]
+    },
+    {
+      "firstName": "Emily ",
+      "lastName": "Dominguez",
+      "job": "User Experience Designer ",
+      "bio": "Emily Dominguez graduated from RIT’s Saunders College of Business with a degree in New Media Marketing and MIS. After graduating, she joined M&T Bank and went through their Management Development Program. Currently, she is a User Experience Designer on the Experience and Design team working on the redesign of the bank’s ATM UI. Outside of work, she loves trying new restaurants with her husband, Dan, and Mini Dachsund, Braxton, refurbishing furniture, and of course binge watching shows on Netflix.",
+      "fields": [
+        "\"UX\""
+      ],
+      "Industry": "User Experience Design",
+      "links": "",
+      "presentationTitles": [
+        "\"designing for humans: leveraging the lean ux canvas to build successful products\"\n"
+      ],
+      "headshot": "emily_dominguez",
+      "presentationTitleDesc": [
+        "{ title : \"designing for humans: leveraging the lean ux canvas to build successful products\"",
+        "desc : \"Knowing what problem to solve next is a complicated task. It is even more difficult when designing products or services for humans. It is imperative for designers to understand how to practice effective discovery methods in order to solve real problems for customers as well as simultaneously feeding delivery efforts. The Lean UX Canvas is a tool that we use that helps us effectively frame our work, establish outcomes, know who we are designing for, and test our assumptions. This helps us create a collaborative, customer-centric environment that brings together product design, user experience, engineering, and product management, that focuses on building the right product and building the product right.\""
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "McCartney",
+      "job": "User Experience Designer ",
+      "bio": "John McCartney is a User Experience designer in M&T Bank’s Experience and Design group. Currently based in Buffalo, New York, John focuses on strategy, user-centered design, Design-Thinking, and usability. With a background in Human-Computer Interaction and Cognitive Science, he is passionate about creating business cultures that are highly focused on keeping humans and their needs at the center of every conversation. Prior to M&T Bank, John was a User Experience Designer at a higher education software company and a materials science start-up.",
+      "fields": [
+        "\"UX\""
+      ],
+      "Industry": "User Experience Design",
+      "links": "",
+      "presentationTitles": [
+        "\"designing for humans: leveraging the lean ux canvas to build successful products\"\n"
+      ],
+      "headshot": "john_mccartney",
+      "presentationTitleDesc": [
+        "{ title : \"designing for humans: leveraging the lean ux canvas to build successful products\"",
+        "desc : \"Knowing what problem to solve next is a complicated task. It is even more difficult when designing products or services for humans. It is imperative for designers to understand how to practice effective discovery methods in order to solve real problems for customers as well as simultaneously feeding delivery efforts. The Lean UX Canvas is a tool that we use that helps us effectively frame our work, establish outcomes, know who we are designing for, and test our assumptions. This helps us create a collaborative, customer-centric environment that brings together product design, user experience, engineering, and product management, that focuses on building the right product and building the product right.\""
+      ]
+    }
+  ]
+}
