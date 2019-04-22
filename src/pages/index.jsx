@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../components/FolioComponents/Layout';
-import SEO from '../components/FolioComponents/Seo';
+import Layout from '../2018/components/Layout';
+import SEO from '../2018/components/Seo';
 // import Archive from '../components/FolioComponents/Archive';
 // import Intro from '../components/FolioComponents/Intro';
 // import MyImg from '../components/FolioComponents/MyImg';
