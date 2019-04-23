@@ -48,7 +48,7 @@ const SPEAKERSCAROUSEL_2018_QUERY = graphql`
         name
         job
         headshot {
-        fluid(maxWidth: 400, maxHeight: 400) {
+        fixed {
           ...GatsbyContentfulFluid_tracedSVG
         }
       }

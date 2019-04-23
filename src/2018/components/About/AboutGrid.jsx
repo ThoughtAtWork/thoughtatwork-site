@@ -119,7 +119,7 @@ const TEAM_2018_QUERY = graphql`
         role
         webpage
         headshot {
-        fluid(maxWidth: 400, maxHeight: 400) {
+        fixed {
           ...GatsbyContentfulFluid_tracedSVG
         }
       }
@@ -138,7 +138,7 @@ const TEAM_2018_QUERY = graphql`
         role
         webpage
         headshot {
-        fluid(maxWidth: 400, maxHeight: 400) {
+        fixed {
           ...GatsbyContentfulFluid_tracedSVG
         }
       }

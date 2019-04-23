@@ -52,7 +52,7 @@ const SPEAKERS_2018_QUERY = graphql`
           bio
         }
         headshot {
-        fluid(maxWidth: 400, maxHeight: 400) {
+        fixed {
           ...GatsbyContentfulFluid_tracedSVG
         }
       }
