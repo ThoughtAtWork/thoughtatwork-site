@@ -1,6 +1,13 @@
 # Redirects from what the browser requests to what we serve
-/Home             /
-/                 /2018
+/Home             /2018
+/                /2018
 /404              /2018
 /About            /2018
+/about            /2018
 /page-2            /2018
+/Page-2            /2018
+/speakers            /2018
+/about            /2018
+/info            /2018
+/schedule            /2018
+/hbout            /2018
