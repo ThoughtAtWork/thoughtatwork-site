@@ -22,7 +22,7 @@ export default class HomeSpeakers extends Component {
             <strong>View All Speakers</strong>
           </Link>
         </div>
-        {/* <SpeakerCarousel /> */}
+        <SpeakerCarousel />
       </div>
     );
   }
