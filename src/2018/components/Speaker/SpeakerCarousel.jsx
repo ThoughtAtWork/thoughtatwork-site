@@ -11,48 +11,8 @@ export default class SpeakerCarousel extends Component {
     return (
       <div>
         <DragScroll height={'unset'} width={'unset'} className={classnames(styles.speaker_lineup__Carousel, 'flex')}>
-          <StaticQuery
-            query={SPEAKERSCAROUSEL_2018_QUERY}
-            render={({ allContentful2018Speakers }) =>
-              (
-                <div className={classnames('flex')}>
-                  {
-                    allContentful2018Speakers.edges.map(speaker => (
-                      <div className={classnames(styles.speakerCard, styles.speaker_lineup__padding)}
-                        key={speaker.node.name}>
-                        <SpeakerPhoto
-                          name={speaker.node.name}
-                          job={speaker.node.job}
-                          headshot={speaker.node.headshot.fluid}
-                        />
-                      </div>
-                    ))
-                  }
-                </div>
-              )
-            }
-          />
         </DragScroll>
       </div>
     );
   }
 }
-
-const SPEAKERSCAROUSEL_2018_QUERY = graphql`
-  query speakersCarousel2018 {
-    allContentful2018Speakers {
-    totalCount
-    edges {
-			node
-      {
-        name
-        job
-        headshot {
-        fluid(maxWidth: 400, maxHeight: 400) {
-          ...GatsbyContentfulFluid_tracedSVG
-        }
-      }
-      }
-    }
-  }
-  }`;
