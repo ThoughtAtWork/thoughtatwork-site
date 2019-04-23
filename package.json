@@ -59,6 +59,7 @@
     "redux": "^4.0.1",
     "sass-rem": "^2.0.1",
     "scss-tokenizer": "^0.2.3",
+    "sharp": "^0.22.0",
     "slate": "^0.45.0",
     "typescript": "^3.4.3",
     "webpack-configurator": "^0.3.1"
