@@ -4,13 +4,12 @@ import { StaticQuery, graphql } from 'gatsby';
 import Footer from './Footer';
 // import '../../2018/styles/index.scss';
 
-
 const Layout = ({ children }) => (
   <StaticQuery
     // how would i make that regex dynamic???
     // https://www.leveluptutorials.com/tutorials/pro-gatsby-2/gatsby-image used this video for the code
     query={graphql`
-      query SiteTitleQuery {
+      query SiteTitleQueryFolio {
         site {
           siteMetadata {
             title
@@ -19,14 +18,12 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={() =>
-      (
-        <React.Fragment>
-          
-          {children}
-          <Footer />
-        </React.Fragment>
-      )}
+    render={() => (
+      <React.Fragment>
+        {children}
+        <Footer />
+      </React.Fragment>
+    )}
   />
 );
 
@@ -35,7 +32,7 @@ Layout.propTypes = {
 };
 
 Layout.defaultProps = {
-  location: {}
+  location: {},
 };
 
 export default Layout;

@@ -15,25 +15,29 @@ export default class ProjectLayout extends Component {
     return (
       <Layout location={location}>
         <section className="intro">
-          <span className="meta-data code">{markdownRemark.frontmatter.tags} - {markdownRemark.frontmatter.timePeriod}</span>
-          <h2><b>{markdownRemark.frontmatter.title}</b> — {markdownRemark.frontmatter.description}</h2>
-
+          <span className="meta-data code">
+            {markdownRemark.frontmatter.tags} -{' '}
+            {markdownRemark.frontmatter.timePeriod}
+          </span>
+          <h2>
+            <b>{markdownRemark.frontmatter.title}</b> —{' '}
+            {markdownRemark.frontmatter.description}
+          </h2>
         </section>
-        <section className="content" dangerouslySetInnerHTML={{
-          __html: markdownRemark.html
-        }} />
+        <section
+          className="content"
+          dangerouslySetInnerHTML={{
+            __html: markdownRemark.html,
+          }}
+        />
       </Layout>
     );
   }
 }
 
 export const query = graphql`
-    query PostQuery($URLpath: String!) {
-      markdownRemark(frontmatter: {
-      URLpath: {
-        eq: $URLpath
-        }
-      }) {
+  query PostQuery($URLpath: String!) {
+    markdownRemark(frontmatter: { URLpath: { eq: $URLpath } }) {
       html
       frontmatter {
         title

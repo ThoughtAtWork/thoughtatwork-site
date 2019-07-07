@@ -20,7 +20,7 @@ plugins: [{
   },
 }, ];
 
-//creating pages for only the projects (which are filtered based on the absolute path)
+// creating speaker pages
 exports.createPages = ({
   graphql,
   actions
@@ -28,43 +28,107 @@ exports.createPages = ({
   const {
     createPage
   } = actions;
-  return new Promise((resolve) => {
-    graphql(`
-      {
-        allMarkdownRemark(filter: {
-            fileAbsolutePath: {
-              regex: "\/projects/"
+
+  //speaker template component
+  const speakerTemplate = path.resolve('./src/components/templates/SpeakerContentfulTemplate.jsx');
+  const eventTemplate = path.resolve('./src/components/templates/EventContentfulTemplate.jsx');
+
+  // query for gettting speakers
+  return graphql(`
+  {
+    speakers: allContentfulSpeakersLibrary {
+      totalCount
+      edges {
+        node {
+          slug
+          name
+          job
+          webpage
+          bio {
+            bio
+          }
+          headshot {
+            fluid {
+              src
             }
-          }) {
-          edges {
-            node {
-              html
-              frontmatter {
-                title
-                URLpath
-                published
-                date(formatString: "MMMM DD, YYYY")
-                description
-                tags
+          }
+        }
+      }
+    }
+    events: allContentfulEventsLibrary {
+      totalCount
+      edges {
+        node {
+          slug
+          name
+          coverPhoto {
+            fluid(maxWidth: 400, maxHeight: 400) {
+              src
+            }
+          }
+          startTime
+          endTime
+          location
+          description {
+            description
+          }
+          eventRegistrationWebpage
+          eventScheduleItems {
+            name
+            startTime
+            endTime
+            description {
+              description
+            }
+            eventType
+            location
+            speakers {
+              name
+              slug
+            }
+          }
+          speaker {
+            job
+            slug
+            headshot {
+              fluid(maxWidth: 400, maxHeight: 400) {
+                src
               }
             }
           }
         }
       }
-    `).then(results => {
-      results.data.allMarkdownRemark.edges.forEach(({
-        node
-      }) => {
-        createPage({
-          path: `/projects${node.frontmatter.URLpath}`,
-          component: path.resolve('./src/components/FolioComponents/ProjectLayout.jsx'),
-          context: {
-            URLpath: node.frontmatter.URLpath, //takes the path that is in the markdown and stores the file there
-          }
-        });
+    }
+  }
+`).then(result => {
+    if (result.errors) {
+      Promise.reject(result.errors);
+    }
+
+
+    // Create speakers page
+    const speakers = result.data.speakers.edges;
+    speakers.forEach((speaker) => {
+      createPage({
+        path: `/speakers/${speaker.node.slug}`,
+        component: speakerTemplate,
+        context: {
+          slug: speaker.node.slug,
+        },
       });
-      resolve();
     });
+
+    // Create events page
+    const events = result.data.events.edges;
+    events.forEach((event) => {
+      createPage({
+        path: `/events/${event.node.slug}`,
+        component: eventTemplate,
+        context: {
+          slug: event.node.slug,
+        },
+      });
+    });
+
   });
 };
-
