@@ -11,12 +11,6 @@ module.exports = {
       description: 'Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.',
       author: '@JacobDFrank',
       siteUrl: 'https://www.thoughtatwork.org/2018',
-    },
-    siteMetadata2019: {
-      title: 'TAW2019',
-      description: 'Thought At Work is a three-day, student-run, student-focused design conference that takes place every October at Rochester Institute of Technology.',
-      author: '@JacobDFrank',
-      siteUrl: 'https://www.thoughtatwork.org/2019',
     }
   },
   plugins: [
